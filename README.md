@@ -359,7 +359,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 2.2. Entrevistas
 
 * 2.2.1. Diseño de entrevistas
-<p>Para el diseño de las entrevistas, se ha tomado en cuenta el perfil de los diferentes segmentos de usuarios de WashTrack, principalmente clientes de lavanderías y propietarios o administradores de estos negocios, así como sus necesidades, objetivos y principales dificultades relacionadas con la gestión de pedidos y servicios de lavandería. Se definieron los objetivos de la investigación, las preguntas clave y los temas a abordar durante cada entrevista.</p>
+<p>Para el diseño de las entrevistas, se ha tomado en cuenta el perfil de los <b>diferentes segmentos de usuarios de WashTrack</b>, principalmente <b>clientes de lavanderías y propietarios o administradores</b> de estos negocios, así como sus necesidades, objetivos y principales dificultades relacionadas con la gestión de pedidos y servicios de lavandería. Se definieron los objetivos de la investigación, las preguntas clave y los temas a abordar durante cada entrevista.</p>
 
 
 ### Preguntas generales
