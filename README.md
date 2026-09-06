@@ -71,6 +71,7 @@
 | Versión | Fecha      | Autor                         | Descripcion                                              |
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
 | 1.0.0 | 06/09/2026 | Jude Hermoza | Insercion del documento base. |
+| 1.1.0 | 06/09/2026 | Perez Vasquez Ariana Valeria | Student Outcome, Avance Capítulo 1, y NeedFinding, User Personas y User Task Matrix, como Landing Page.
 ---
 
 ## Project Report Collaboration Insights
@@ -83,12 +84,256 @@
 
 # Tabla de Contenido
 
+
+---
+
+# Student Outcome
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET – EAC – Student Outcome 3**
+
+<p align="justify">
+<b>Criterio: </b>
+</p>
+
+<p align="justify">
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET–EAC–Student Outcome 3.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia.</strong></td>
+      <td>
+        <b>Pérez Vásquez, Ariana Valeria</b><br>
+        <em><b>AV1</b></em><br>
+        Sustentación oral del Avance Capítulo 1 y los resultados iniciales de la investigación de usuarios (NeedFinding y definición de User Personas), argumentando la problemática encontrada ante el profesor y evaluadores de manera clara.<br>
+        <em><b>AV2</b></em><br>
+        Sustentación y demostración síncrona de la User Task Matrix y las funcionalidades de la Landing Page desarrollada, explicando la propuesta de valor y el flujo de interacción inicial del usuario ante la audiencia.<br>
+        ...<br>
+        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Tufiño Argüelles, Luis Angel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+      </td>
+      <td>
+        Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
+        Nam ornare massa eu lobortis porttitor.<br>
+        Nam ut erat feugiat libero pretium semper at ac metus.<br>
+        Sed at eros dapibus, fermentum quam ut, bibendum lacus.<br>
+        Curabitur eget orci eget urna varius commodo.<br>
+        ...
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia.</strong></td>
+      <td>
+        <b>Pérez Vásquez, Ariana Valeria</b><br>
+        <em><b>AV1</b></em><br>
+       Redacción y documentación formal en formato Markdown del Avance Capítulo 1, detallando la contextualización del proyecto y la consolidación de la investigación de usuarios con las User Personas.<br>
+        <em><b>AV2</b></em><br>
+        Estructuración y redacción escrita de la User Task Matrix y la documentación técnica de la Landing Page, especificando requerimientos, alcances y diseño preliminar en el repositorio.<br>
+        ...<br>
+        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Tufiño Argüelles, Luis Angel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+      </td>
+      <td>
+        Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>
+        Vivamus commodo libero eget venenatis imperdiet.<br>
+        Etiam imperdiet quam condimentum velit tempor porttitor.<br>
+        Suspendisse blandit nisl quis mauris vehicula faucibus.<br>
+        ...
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
 
 * 1.1.1. Descripción de la Startup
+<p align="justify">
+    Somos <b>TechNova</b>, una startup tecnológica creada por estudiantes de la <b>Universidad Peruana de Ciencias Aplicadas (UPC)</b>, enfocada en el diseño y desarrollo de soluciones digitales orientadas a optimizar y transformar la gestión de negocios tradicionales mediante la implementación de software. Nuestra startup busca facilitar la digitalización de procesos que actualmente se realizan de manera manual, permitiendo a los negocios mejorar su organización, reducir errores operacionales, optimizar sus tiempos de atención y ofrecer una mejor experiencia a sus usuarios.
+</p>
+
+<p align="justify">
+    Nuestro producto principal es <b>WashTrack</b>, una plataforma digital orientada a la gestión integral de lavanderías. Esta solución permite tanto a los administradores como a los clientes registrar y administrar perfiles, gestionar pedidos y prendas de forma detallada, realizar un seguimiento en tiempo real del estado de cada servicio y mantener un registro histórico transparente de todas las operaciones realizadas.
+</p>
+
+<p align="justify">
+    La <b>misión</b> de TechNova es desarrollar soluciones tecnológicas accesibles, intuitivas y eficientes que impulsen la transformación digital de los negocios tradicionales, optimizando su gestión operativa y elevando la calidad de la experiencia del cliente final.
+</p>
+
+<p align="justify">
+    Nuestra <b>visión</b> es consolidarnos como una startup referente en el desarrollo de soluciones digitales para pequeñas y medianas empresas en Latinoamérica, destacando por plataformas escalables que simplifiquen las operaciones comerciales y generen un impacto positivo en el mercado.
+</p>
+
+<p align="justify">
+    Nuestros <b>valores</b> principales son:
+    <ul>
+        <li><b>Innovación:</b> Desarrollar soluciones tecnológicas disruptivas que respondan de manera ágil a las necesidades actuales de los negocios y sus clientes.</li>
+        <li><b>Compromiso:</b> Crear herramientas robustas enfocadas en resolver problemas reales y generar valor sostenible para nuestros usuarios.</li>
+        <li><b>Accesibilidad:</b> Diseñar soluciones altamente usables, intuitivas y adaptadas a las capacidades tecnológicas de las pequeñas y medianas empresas.</li>
+        <li><b>Transparencia:</b> Garantizar flujos claros y trazabilidad en toda la información relacionada con los procesos y pedidos de los clientes.</li>
+    </ul>
+</p>
+
+
 * 1.1.2. Perfiles de integrantes del equipo
+
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/ArianaPerez.png" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> Perez Vasquez Ariana Valeria</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> U20241D338</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Tengo un fuerte interés en el <b>desarrollo de soluciones tecnológicas que permitan optimizar procesos y mejorar la experiencia de los usuarios</b>. Me considero una persona <b>responsable, organizada y comprometida </b>con las actividades que realizo. Además, me interesa el diseño de interfaces y la organización de la información, buscando que las soluciones desarrolladas sean claras, funcionales y fáciles de utilizar.
+      <br/><br/>
+      Dentro del equipo, participo en el <b>desarrollo y diseño de la propuesta de WashTrack</b>, aportando principalmente en la elaboración de las Style Guidelines, la arquitectura de información y el diseño de la Landing Page. Mi objetivo es contribuir a que la plataforma presente una estructura visual coherente, una navegación sencilla y una experiencia adecuada tanto para los negocios de lavandería como para sus clientes. Asimismo, valoro el trabajo colaborativo y la comunicación con los demás integrantes para lograr una propuesta integrada y cumplir con los objetivos establecidos del proyecto.
+    </td>
+  </tr>
+  <tr>
+  </tr>
+
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Breve desccripcion 
+      <br/><br/>
+      Dentro del equipo... (que funcion cumples)
+    </td>
+  </tr>
+<tr>
+
+</tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+  </tr>
+  <tr>
+    <td>
+    <div align="Justify">
+      <b>Descripción:</b><br/>
+      Breve descripcion 
+      <br/><br/>
+      Dentro del equipo... (que funcion cumples)
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_adriana_profile.jpeg" alt="Foto de Adriana Ramos" width="500"/>
+    </td>
+    <td><b>Nombre:</b> Adriana Nicole Ramos Fuentes Rivera</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202018427</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Soy <b>Adriana Nicole Ramos Fuentes Rivera</b>, estudio la carrera de Ingeniería de Software en la UPC, actualmente estoy en el 5to ciclo. Me gusta aprender nuevas tecnologias y conocimientos complementarios que me permitan desarrollar soluciones a problematicas dentro de un contexto real. Cuento con experiencia en lenguajes de programación como C++ y Python, además de conocimientos en base de datos relacional y no relacional como SQL y MongoDB.
+      <br/><br/>
+      Dentro del equipo, me enfoco en el desarrollo de backend, aplicando principios de Domain Driven Design para mantener una lógica de negocio clara. Me considero una persona organizada y empática.
+    </td>
+  </tr>
+
+  <tr>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de " width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO </td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+    Breve descripcion
+      <br/><br/>
+    Dentro del equipo... (que funcion cumples)  
+    </td>
+  </tr>
+
+</table>
 
 ### 1.2. Solution Profile
 
