@@ -71,7 +71,7 @@
 | Versión | Fecha      | Autor                         | Descripcion                                              |
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
 | 1.0.0 | 06/09/2026 | Jude Hermoza | Insercion del documento base. |
-| 1.1.0 | 06/09/2026 | Perez Vasquez Ariana Valeria | Student Outcome, Avance Capítulo 1, y NeedFinding, User Personas y User Task Matrix.
+| 1.1.0 | 06/09/2026 | Perez Vasquez Ariana Valeria | Student Outcome, Avance Capítulo 1, y NeedFinding, User Personas y User Task Matrix, como Landing Page.
 ---
 
 ## Project Report Collaboration Insights
@@ -83,6 +83,120 @@
 // Falta Imagen 
 
 # Tabla de Contenido
+
+
+---
+
+# Student Outcome
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET – EAC – Student Outcome 3**
+
+<p align="justify">
+<b>Criterio: </b>
+</p>
+
+<p align="justify">
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET–EAC–Student Outcome 3.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia.</strong></td>
+      <td>
+        <b>Pérez Vásquez, Ariana Valeria</b><br>
+        <em><b>AV1</b></em><br>
+        Sustentación oral del Avance Capítulo 1 y los resultados iniciales de la investigación de usuarios (NeedFinding y definición de User Personas), argumentando la problemática encontrada ante el profesor y evaluadores de manera clara.<br>
+        <em><b>AV2</b></em><br>
+        Sustentación y demostración síncrona de la User Task Matrix y las funcionalidades de la Landing Page desarrollada, explicando la propuesta de valor y el flujo de interacción inicial del usuario ante la audiencia.<br>
+        ...<br>
+        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Tufiño Argüelles, Luis Angel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+      </td>
+      <td>
+        Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
+        Nam ornare massa eu lobortis porttitor.<br>
+        Nam ut erat feugiat libero pretium semper at ac metus.<br>
+        Sed at eros dapibus, fermentum quam ut, bibendum lacus.<br>
+        Curabitur eget orci eget urna varius commodo.<br>
+        ...
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia.</strong></td>
+      <td>
+        <b>Pérez Vásquez, Ariana Valeria</b><br>
+        <em><b>AV1</b></em><br>
+       Redacción y documentación formal en formato Markdown del Avance Capítulo 1, detallando la contextualización del proyecto y la consolidación de la investigación de usuarios con las User Personas.<br>
+        <em><b>AV2</b></em><br>
+        Estructuración y redacción escrita de la User Task Matrix y la documentación técnica de la Landing Page, especificando requerimientos, alcances y diseño preliminar en el repositorio.<br>
+        ...<br>
+        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Tufiño Argüelles, Luis Angel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+      </td>
+      <td>
+        Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>
+        Vivamus commodo libero eget venenatis imperdiet.<br>
+        Etiam imperdiet quam condimentum velit tempor porttitor.<br>
+        Suspendisse blandit nisl quis mauris vehicula faucibus.<br>
+        ...
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
 
 ## Capítulo I: Introducción
 
