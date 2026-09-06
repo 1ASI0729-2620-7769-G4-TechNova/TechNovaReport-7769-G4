@@ -230,7 +230,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </p>
 
 
-* 1.1.2. Perfiles de integrantes del equipo
+### 1.1.2. Perfiles de integrantes del equipo
 
 <table>
   <tr>
@@ -359,6 +359,61 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 2.2. Entrevistas
 
 * 2.2.1. Diseño de entrevistas
+<p>Para el diseño de las entrevistas, se ha tomado en cuenta el perfil de los <b>diferentes segmentos de usuarios de WashTrack</b>, principalmente <b>clientes de lavanderías y propietarios o administradores</b> de estos negocios, así como sus necesidades, objetivos y principales dificultades relacionadas con la gestión de pedidos y servicios de lavandería. Se definieron los objetivos de la investigación, las preguntas clave y los temas a abordar durante cada entrevista.</p>
+
+
+### Preguntas generales
+
+*Dirigidas a ambos segmentos de usuarios.*
+
+1. ¿Cuál es su nombre?
+2. ¿Cuál es su edad?
+3. ¿En qué distrito reside actualmente?
+
+---
+
+### Dueños de lavanderías
+
+1. ¿Podrías contarnos brevemente cómo funciona el servicio de la lavandería desde que un cliente llega hasta que recibe sus prendas?
+2. ¿Qué actividades realizas personalmente dentro del proceso de atención de los clientes?
+3. ¿Qué tipos de servicios ofrecen actualmente?
+4. ¿Cómo registran actualmente la información de los clientes y sus pedidos? ¿Qué herramientas utilizan para organizar esta información?
+5. Cuando un cliente deja sus prendas, ¿qué información registran y cómo lo hacen?
+6. ¿Alguna vez se ha perdido, confundido o registrado incorrectamente información de un pedido? ¿Qué ocurrió?
+7. ¿Qué sucede cuando un cliente modifica su pedido después de haberlo registrado?
+8. ¿Alguna vez una prenda o pedido se ha retrasado? ¿Cómo se solucionó?
+9. ¿Qué ocurre cuando tienen varios pedidos con fechas de entrega cercanas?
+10. ¿Cómo priorizan los pedidos que deben ser procesados o entregados?
+11. ¿Cómo se comunica actualmente la lavandería con sus clientes durante el proceso?
+12. ¿Con qué frecuencia los clientes se comunican para preguntar por el estado de sus prendas?
+13. ¿Ofrecen actualmente recojo o entrega a domicilio? Si no, ¿por qué?
+14. En caso de realizar entregas a domicilio, ¿cómo coordinan actualmente las direcciones, horarios y pedidos?
+15. ¿Qué actividad te quita más tiempo durante la gestión diaria de la lavandería?
+16. ¿Qué tipo de error te genera mayores inconvenientes o costos?
+
+---
+
+### Clientes
+
+1. ¿Con qué frecuencia utilizas servicios de lavandería?
+2. ¿Qué tipo de prendas o servicios sueles llevar a una lavandería?
+3. ¿Qué factores son importantes para ti al momento de elegir una lavandería?
+4. Cuéntame cómo es normalmente tu proceso desde que decides llevar ropa a una lavandería hasta que la dejas en el establecimiento.
+5. ¿Cómo sabes qué prendas dejaste y qué servicio solicitaste?
+6. ¿Alguna vez has tenido algún problema al registrar o entregar tus prendas? ¿Qué ocurrió?
+7. Después de dejar tus prendas, ¿cómo sabes en qué estado se encuentra tu pedido?
+8. ¿Sueles comunicarte con la lavandería para preguntar si tus prendas ya están listas?
+9. ¿Con qué frecuencia realizas este tipo de consultas?
+10. ¿Has tenido algún problema porque tu pedido no estuvo listo en la fecha acordada? ¿Qué sucedió?
+11. ¿Qué información te gustaría poder consultar sobre un pedido mientras está siendo procesado?
+12. ¿Cómo recoges normalmente tus prendas cuando el pedido está listo?
+13. ¿Cuánto tiempo aproximadamente te toma realizar el traslado para recogerlas?
+14. ¿Has utilizado anteriormente servicios de recojo o entrega a domicilio de lavanderías?
+15. Si has utilizado este servicio, ¿qué problemas has experimentado?
+16. ¿Qué parte del proceso te resulta más incómoda o te toma más tiempo?
+17. ¿Qué tendría que mejorar una lavandería para que estuvieras más satisfecho con su servicio?
+
+
 * 2.2.2. Registro de entrevistas
 * 2.2.3. Análisis de entrevistas
 
