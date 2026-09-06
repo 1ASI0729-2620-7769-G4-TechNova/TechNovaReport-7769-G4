@@ -71,6 +71,7 @@
 | Versión | Fecha      | Autor                         | Descripcion                                              |
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
 | 1.0.0 | 06/09/2026 | Jude Hermoza | Insercion del documento base. |
+| 1.1.0 | 06/09/2026 | Perez Vasquez Ariana Valeria | Student Outcome, Avance Capítulo 1, y NeedFinding, User Personas y User Task Matrix.
 ---
 
 ## Project Report Collaboration Insights
