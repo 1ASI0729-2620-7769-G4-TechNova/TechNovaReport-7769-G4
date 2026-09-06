@@ -203,6 +203,33 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 1.1. Startup Profile
 
 * 1.1.1. Descripción de la Startup
+<p align="justify">
+    Somos <b>TechNova</b>, una startup tecnológica creada por estudiantes de la <b>Universidad Peruana de Ciencias Aplicadas (UPC)</b>, enfocada en el diseño y desarrollo de soluciones digitales orientadas a optimizar y transformar la gestión de negocios tradicionales mediante la implementación de software. Nuestra startup busca facilitar la digitalización de procesos que actualmente se realizan de manera manual, permitiendo a los negocios mejorar su organización, reducir errores operacionales, optimizar sus tiempos de atención y ofrecer una mejor experiencia a sus usuarios.
+</p>
+
+<p align="justify">
+    Nuestro producto principal es <b>WashTrack</b>, una plataforma digital orientada a la gestión integral de lavanderías. Esta solución permite tanto a los administradores como a los clientes registrar y administrar perfiles, gestionar pedidos y prendas de forma detallada, realizar un seguimiento en tiempo real del estado de cada servicio y mantener un registro histórico transparente de todas las operaciones realizadas.
+</p>
+
+<p align="justify">
+    La <b>misión</b> de TechNova es desarrollar soluciones tecnológicas accesibles, intuitivas y eficientes que impulsen la transformación digital de los negocios tradicionales, optimizando su gestión operativa y elevando la calidad de la experiencia del cliente final.
+</p>
+
+<p align="justify">
+    Nuestra <b>visión</b> es consolidarnos como una startup referente en el desarrollo de soluciones digitales para pequeñas y medianas empresas en Latinoamérica, destacando por plataformas escalables que simplifiquen las operaciones comerciales y generen un impacto positivo en el mercado.
+</p>
+
+<p align="justify">
+    Nuestros <b>valores</b> principales son:
+    <ul>
+        <li><b>Innovación:</b> Desarrollar soluciones tecnológicas disruptivas que respondan de manera ágil a las necesidades actuales de los negocios y sus clientes.</li>
+        <li><b>Compromiso:</b> Crear herramientas robustas enfocadas en resolver problemas reales y generar valor sostenible para nuestros usuarios.</li>
+        <li><b>Accesibilidad:</b> Diseñar soluciones altamente usables, intuitivas y adaptadas a las capacidades tecnológicas de las pequeñas y medianas empresas.</li>
+        <li><b>Transparencia:</b> Garantizar flujos claros y trazabilidad en toda la información relacionada con los procesos y pedidos de los clientes.</li>
+    </ul>
+</p>
+
+
 * 1.1.2. Perfiles de integrantes del equipo
 
 ### 1.2. Solution Profile
