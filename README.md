@@ -39,8 +39,8 @@
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Hermoza Quispe, Jude</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u20231b842</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Mantilla Maldonado, Enrique Manuel</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
