@@ -347,19 +347,17 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+      <img src="assets/Chapter1/MemberProfile/foto_enrique.jpg" alt="Foto de" width="500"/>
     </td>
-    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+    <td><b>Nombre: </b>Mantilla Maldonado, Enrique Manuel</td>
   </tr>
   <tr>
-    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+    <td><b>Código: </b>U20231B842</td>
   </tr>
   <tr>
     <td>
-      <b>Descripción:</b><br/>
-      Breve desccripcion 
-      <br/><br/>
-      Dentro del equipo... (que funcion cumples)
+      <b>Descripción:</b>
+      Soy estudiante de la carrera de ingenieria de software en la UPC, estoy en 5to ciclo. Tengo experiencia en html, java, C++ y python. Busco aprender constantemente cosas nuevas o relacionadas a la tecnologia. Ademas, estoy interesado en el desarrollo de interfaces y aplicaciones web, y aprender de las experiencias de nuestros usuarios.
     </td>
   </tr>
 <tr>
