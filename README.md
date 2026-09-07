@@ -2,28 +2,26 @@
 <img src="assets/Chapter1/CoverPage/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 
-## **Universidad Peruana de Ciencias Aplicadas**
-## **Carrera de Ingeniería de Software**
+<h2><b>Universidad Peruana de Ciencias Aplicadas</b></h2>
+<h3><b>Carrera de Ingeniería de Software</b></h3>
 <br>
 
-#### **1ASI0729**
-### **Desarrollo de Aplicaciones Open Source**
+
+<h5>Curso: Desarrollo de Aplicaciones Open Source (1ASI0729)</h5>
 
 
-### **NRC**
-### **7769**
+**NRC: 7769**
+<br>
 
+<h3><b>Informe del Trabajo Final</b></h3>
 
-### **Informe del Trabajo Final**
+<h5>Docente: Hugo Allan Mori Paiva</h5>
 
-#### **Docente**
-### **Hugo Allan Mori Paiva**
+**Equipo:** TechNova
 
-#### **Equipo**
-### **TechNova**
+**Proyecto:** WashTrack
 
-#### **Proyecto**
-### **WashTrack**
+<br>
 
 ### **Integrantes**
 
@@ -47,8 +45,8 @@
         <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u202018427</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 0 0; text-align: center;"></td>
@@ -56,15 +54,14 @@
     </tr>
 </table>
 
+<br>
 <div align="center">
 
-
-#### **Período 2026-02**
-
-
-
+*Setiembre, 2026*
 
 </div>
+
+---
 
 ## Registro de Versiones
 
@@ -82,7 +79,102 @@
 
 // Falta Imagen 
 
-# Tabla de Contenido
+---
+
+# Contenido
+
+## Tabla de Contenidos
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+
+- [Bibliografía](#bibliografía)
+
+- [Anexos](#anexos)
 
 
 ---
@@ -202,7 +294,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 1.1. Startup Profile
 
-* 1.1.1. Descripción de la Startup
+#### 1.1.1. Descripción de la Startup
 <p align="justify">
     Somos <b>TechNova</b>, una startup tecnológica creada por estudiantes de la <b>Universidad Peruana de Ciencias Aplicadas (UPC)</b>, enfocada en el diseño y desarrollo de soluciones digitales orientadas a optimizar y transformar la gestión de negocios tradicionales mediante la implementación de software. Nuestra startup busca facilitar la digitalización de procesos que actualmente se realizan de manera manual, permitiendo a los negocios mejorar su organización, reducir errores operacionales, optimizar sus tiempos de atención y ofrecer una mejor experiencia a sus usuarios.
 </p>
@@ -230,7 +322,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </p>
 
 
-### 1.1.2. Perfiles de integrantes del equipo
+#### 1.1.2. Perfiles de integrantes del equipo
 
 <table>
   <tr>
@@ -334,6 +426,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   </tr>
 
 </table>
+<br>
 
 ### 1.2. Solution Profile
 <p align="justify">
@@ -575,16 +668,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 2.1. Competidores
 
-* 2.1.1. Análisis competitivo
-* 2.1.2. Estrategias y tácticas frente a competidores
+#### 2.1.1. Análisis competitivo
+#### 2.1.2. Estrategias y tácticas frente a competidores
 
 ### 2.2. Entrevistas
 
-* 2.2.1. Diseño de entrevistas
+#### 2.2.1. Diseño de entrevistas
 <p>Para el diseño de las entrevistas, se ha tomado en cuenta el perfil de los <b>diferentes segmentos de usuarios de WashTrack</b>, principalmente <b>clientes de lavanderías y propietarios o administradores</b> de estos negocios, así como sus necesidades, objetivos y principales dificultades relacionadas con la gestión de pedidos y servicios de lavandería. Se definieron los objetivos de la investigación, las preguntas clave y los temas a abordar durante cada entrevista.</p>
 
 
-### Preguntas generales
+**Preguntas generales**
 
 *Dirigidas a ambos segmentos de usuarios.*
 
@@ -594,7 +687,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ---
 
-### Dueños de lavanderías
+**Dueños de lavanderías**
 
 1. ¿Podrías contarnos brevemente cómo funciona el servicio de la lavandería desde que un cliente llega hasta que recibe sus prendas?
 2. ¿Qué actividades realizas personalmente dentro del proceso de atención de los clientes?
@@ -615,7 +708,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ---
 
-### Clientes
+**Clientes**
 
 1. ¿Con qué frecuencia utilizas servicios de lavandería?
 2. ¿Qué tipo de prendas o servicios sueles llevar a una lavandería?
@@ -636,11 +729,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 17. ¿Qué tendría que mejorar una lavandería para que estuvieras más satisfecho con su servicio?
 
 
-* 2.2.2. Registro de entrevistas
-* 2.2.3. Análisis de entrevistas
+#### 2.2.2. Registro de entrevistas
+#### 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
-## 5. Need Finding
 
 <p align="justify">
 
@@ -654,35 +746,34 @@ A partir de los hallazgos obtenidos, se desarrollan diferentes artefactos de an�
 
 </p>
 
-* 2.3.1. User Personas
 ### 2.3.1. User Personas
 
 <p align="justify">
     A continuación, se presentan los arquetipos de usuario definidos para <b>WashTrack</b>, los cuales sintetizan los patrones de comportamiento, necesidades y frustraciones identificados en el proceso de investigación. Estos perfiles permiten orientar el diseño de la experiencia hacia nuestros dos segmentos principales: el cliente final y el administrador de la lavandería.
 </p>
 
-#### **User Persona 1: Cliente - Lucía Velasquez**
+**User Persona 1: Cliente - Lucía Velasquez**
 Arquetipo que representa al usuario que busca optimizar su tiempo, delegar el lavado de sus prendas y realizar un seguimiento en tiempo real mediante canales digitales.
 
 <p align="center">
     <img src="assets/UserPerson1.png" alt="User Persona 1 - Cliente Final" width=650>
 </p>
 
-#### **User Persona 2: Dueño y Administrador de Lavandería - Carlos Mendoza**
+**User Persona 2: Dueño y Administrador de Lavandería - Carlos Mendoza**
 Arquetipo que representa al administrador o dueño de un negocio tradicional que busca digitalizar su operación, centralizar pedidos y eliminar el uso de registros manuales.
 
 <p align="center">
     <img src="assets/UserPerson2.png" alt="User Persona 2 - Administrador de Lavandería" width=650>
 </p>
 
-* 2.3.2. User Task Matrix
+
 ### 2.3.2. User Task Matrix
 
 <p align="justify">
     En esta sección se presenta la User Task Matrix, la cual concentra las actividades que los User Personas que representan a cada segmento objetivo: <b>Lucía Velasquez</b> (Cliente Final) y <b>Carlos Mendoza</b> (Dueño / Administrador de Lavandería). Ellos realizan en su día a día para cumplir sus objetivos, independientemente de la existencia de nuestra solución de software. Esta sección inicia con una introducción donde se establecen los segmentos considerados, seguida de las tablas individuales con la frecuencia e importancia de cada tarea, y un análisis final de los resultados.
 </p>
 
-#### **Lucía Velasquez (Cliente Final)**
+ **Lucía Velasquez (Cliente Final)**
 
 | Actividades | Frecuencia | Importancia |
 | :--- | :--- | :--- |
@@ -693,7 +784,7 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 
 <br>
 
-#### **Carlos Mendoza (Dueño / Administrador de Lavandería)**
+**Carlos Mendoza (Dueño / Administrador de Lavandería)**
 
 | Actividades | Frecuencia | Importancia |
 | :--- | :--- | :--- |
@@ -704,7 +795,7 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 
 <br>
 
-#### **Análisis de la Matriz de Tareas**
+**Análisis de la Matriz de Tareas**
 
 <p align="justify">
     A partir de las tablas presentadas, se destacan las siguientes observaciones sobre las tareas de ambos arquetipos:
@@ -714,8 +805,8 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 * **Coincidencias:** Ambos arquetipos dependen fuertemente de canales de comunicación tradicionales y poco eficientes como llamadas telefónicas y mensajes dispersos, para resolver la trazabilidad del servicio, lo que evidencia una necesidad mutua de automatización y transparencia digital.
 * **Diferencias principales:** Las actividades de Lucía están orientadas al consumo del servicio y la optimización de su tiempo personal con una frecuencia semanal, mientras que las de Carlos corresponden a la administración intensiva, control de stock/prendas y gestión operativa del local con una frecuencia diaria.
 
-* 2.3.3. User Journey Mapping
-* 2.3.4. Empathy Mapping
+#### 2.3.3. User Journey Mapping
+#### 2.3.4. Empathy Mapping
 
 ### 2.4. Big Picture EventStorming
 
@@ -737,45 +828,45 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 
 ### 4.1. Style Guidelines
 
-* 4.1.1. General Style Guidelines
-* 4.1.2. Web Style Guidelines
+#### 4.1.1. General Style Guidelines
+#### 4.1.2. Web Style Guidelines
 
 ### 4.2. Information Architecture
 
-* 4.2.1. Organization Systems
-* 4.2.2. Labeling Systems
-* 4.2.3. SEO Tags and Meta Tags
-* 4.2.4. Searching Systems
-* 4.2.5. Navigation Systems
+#### 4.2.1. Organization Systems
+#### 4.2.2. Labeling Systems
+#### 4.2.3. SEO Tags and Meta Tags
+#### 4.2.4. Searching Systems
+#### 4.2.5. Navigation Systems
 
 ### 4.3. Landing Page UI Design
 
-* 4.3.1. Landing Page Wireframe
-* 4.3.2. Landing Page Mock-up
+#### 4.3.1. Landing Page Wireframe
+#### 4.3.2. Landing Page Mock-up
 
 ### 4.4. Web Applications UX/UI Design
 
-* 4.4.1. Web Applications Wireframes
-* 4.4.2. Web Applications Wireflow Diagrams
-* 4.4.3. Web Applications Mock-ups
-* 4.4.4. Web Applications User Flow Diagrams
+#### 4.4.1. Web Applications Wireframes
+#### 4.4.2. Web Applications Wireflow Diagrams
+#### 4.4.3. Web Applications Mock-ups
+#### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping
 
 ### 4.6. Domain-Driven Software Architecture
 
-* 4.6.1. Design-Level EventStorming
-* 4.6.2. Software Architecture Context Diagram
-* 4.6.3. Software Architecture Container Diagrams
-* 4.6.4. Software Architecture Components Diagrams
+#### 4.6.1. Design-Level EventStorming
+#### 4.6.2. Software Architecture Context Diagram
+#### 4.6.3. Software Architecture Container Diagrams
+#### 4.6.4. Software Architecture Components Diagrams
 
 ### 4.7. Software Object-Oriented Design
 
-* 4.7.1. Class Diagrams
+#### 4.7.1. Class Diagrams
 
 ### 4.8. Database Design
 
-* 4.8.1. Database Diagrams
+#### 4.8.1. Database Diagrams
 
 ---
 
@@ -783,34 +874,39 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 
 ### 5.1. Software Configuration Management
 
-* 5.1.1. Software Development Environment Configuration
-* 5.1.2. Source Code Management
-* 5.1.3. Source Code Style Guide & Conventions
-* 5.1.4. Software Deployment Configuration
+#### 5.1.1. Software Development Environment Configuration
+#### 5.1.2. Source Code Management
+#### 5.1.3. Source Code Style Guide & Conventions
+#### 5.1.4. Software Deployment Configuration
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
 #### 5.2.1. Sprint 1
 
-* 5.2.1.1. Sprint Planning 1
-* 5.2.1.2. Aspect Leaders and Collaborators
-* 5.2.1.3. Sprint Backlog 1
-* 5.2.1.4. Development Evidence for Sprint Review
-* 5.2.1.5. Execution Evidence for Sprint Review
-* 5.2.1.6. Services Documentation Evidence for Sprint Review
-* 5.2.1.7. Software Deployment Evidence for Sprint Review
-* 5.2.1.8. Team Collaboration Insights during Sprint
+##### 5.2.1.1. Sprint Planning 1
+##### 5.2.1.2. Aspect Leaders and Collaborators
+##### 5.2.1.3. Sprint Backlog 1
+##### 5.2.1.4. Development Evidence for Sprint Review
+##### 5.2.1.5. Execution Evidence for Sprint Review
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ### 5.3. Validation Interviews
 
-* 5.3.1. Diseño de Entrevistas
-* 5.3.2. Registro de Entrevistas
-* 5.3.3. Evaluaciones según heurísticas
+#### 5.3.1. Diseño de Entrevistas
+#### 5.3.2. Registro de Entrevistas
+#### 5.3.3. Evaluaciones según heurísticas
 
 ### 5.4. Video About-the-Product
 
+---
 
-* [Bibliografía](#bibliografía)
-* [Anexos](#anexos)
+# Bibliografía
+
+---
+
+# Anexos
+
 
 ---
