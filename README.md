@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/upc_logo.png" alt="UPC Logo" width="150"
+<img src="assets/Chapter1/CoverPage/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 
 ## **Universidad Peruana de Ciencias Aplicadas**
@@ -235,7 +235,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <table>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/ArianaPerez.png" alt="Foto de" width="500"/>
+      <img src="assets/Chapter1/MemberProfile/ArianaPerez.png" alt="Foto de" width="500"/>
     </td>
     <td><b>Nombre:</b> Perez Vasquez Ariana Valeria</td>
   </tr>
@@ -563,6 +563,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </p>
 
 ##### 1.2.2.4. Lean UX Canvas
+<div>
+  <img src="assets/Chapter1/LeanUX/Lean_UX_Canvas.png" alt="Foto Lean UX Canvas (V2)" width="1000"/>
+</div>
 
 ### 1.3. Segmentos objetivo
 
