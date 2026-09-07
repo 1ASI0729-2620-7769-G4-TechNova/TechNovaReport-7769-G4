@@ -857,6 +857,33 @@ Esta organización permitió visualizar de manera clara el recorrido completo de
 
 ### 2.5. Ubiquitous Language
 
+Para mantener una comunicación clara y consistente entre los usuarios, el equipo de desarrollo y las demás partes involucradas en WashTrack, se estableció un conjunto de términos comunes relacionados con la gestión y el procesamiento de prendas. Este lenguaje compartido busca evitar ambigüedades y asegurar que los conceptos utilizados durante el análisis, diseño y desarrollo del sistema tengan el mismo significado para todos los participantes del proyecto.
+
+| Term | Definition |
+| :--- | :--- |
+| Customer | Person who uses WashTrack to request and manage laundry services. |
+| Garment | Individual clothing item submitted by a customer for washing and processing. |
+| Laundry | Business or facility responsible for receiving, processing, and returning customer garments. |
+| Order | Service request that groups the garments submitted by a customer for laundry processing. |
+| Customer registered | Event that occurs when a new customer has been successfully registered in the system. |
+| Garment registered | Event that occurs when a garment has been recorded and associated with a laundry order. |
+| Garment received | Event that indicates that the laundry has received a garment from the customer. |
+| Garments classified | Event that indicates that the garments have been organized according to their characteristics or required treatment. |
+| Washing process started | Event that indicates that the washing process for the garments has begun. |
+| Washing process completed | Event that indicates that the washing process for the garments has been successfully completed. |
+| Payment registered | Event that occurs when a payment associated with a laundry order has been recorded in the system. |
+| Payment confirmed | Event that indicates that the payment associated with an order has been successfully verified. |
+| Garments ready for delivery | Event that indicates that the garments have completed the required processing and are prepared to be returned to the customer. |
+| Order completed | Event that indicates that all required processing for a laundry order has been completed. |
+| Order delivered | Event that occurs when the processed garments have been returned to the customer. |
+| Customer and Order Registration | Initial stage in which the customer is registered and a laundry order is created. |
+| Laundry Order Created | Event that indicates that a new laundry service order has been created for a customer. |
+| Garment Reception and Classification | Stage in which the laundry receives, registers, and classifies the garments associated with an order. |
+| Laundry Processing | Stage in which the garments undergo the necessary washing and processing activities. |
+| Payment Management | Stage responsible for recording and confirming the payment associated with a laundry order. |
+| Delivery Management | Stage responsible for preparing and completing the return of processed garments to the customer. |
+
+
 ---
 
 ## Capítulo III: Requirements Specification
