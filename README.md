@@ -454,6 +454,44 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 </p>
 
 * 2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix
+
+<p align="justify">
+    En esta sección se presenta la User Task Matrix, la cual concentra las actividades que los User Personas que representan a cada segmento objetivo: <b>Lucía Velasquez</b> (Cliente Final) y <b>Carlos Mendoza</b> (Dueño / Administrador de Lavandería). Ellos realizan en su día a día para cumplir sus objetivos, independientemente de la existencia de nuestra solución de software. Esta sección inicia con una introducción donde se establecen los segmentos considerados, seguida de las tablas individuales con la frecuencia e importancia de cada tarea, y un análisis final de los resultados.
+</p>
+
+#### **Lucía Velasquez (Cliente Final)**
+
+| Actividades | Frecuencia | Importancia |
+| :--- | :--- | :--- |
+| Acumular y organizar prendas para el lavado semanal | Semanal | Alto |
+| Trasladarse físicamente a la lavandería para dejar o recoger ropa | Semanal | Alto |
+| Comunicarse (llamar o escribir) para consultar el estado de la ropa | Semanal | Alto |
+| Coordinar pagos y verificar comprobantes de transacciones | Semanal | Medio |
+
+<br>
+
+#### **Carlos Mendoza (Dueño / Administrador de Lavandería)**
+
+| Actividades | Frecuencia | Importancia |
+| :--- | :--- | :--- |
+| Registrar y organizar pedidos, clientes y prendas en cuadernos o libretas | Diario | Alto |
+| Atender llamadas y mensajes dispersos de clientes sobre sus órdenes | Diario | Alto |
+| Supervisar el funcionamiento y estado operativo de las máquinas de lavado | Diario | Alto |
+| Gestionar el cobro y control de ingresos diarios del local | Diario | Alto |
+
+<br>
+
+#### **Análisis de la Matriz de Tareas**
+
+<p align="justify">
+    A partir de las tablas presentadas, se destacan las siguientes observaciones sobre las tareas de ambos arquetipos:
+</p>
+
+* **Tareas con mayor frecuencia e importancia:** Para **Carlos Mendoza**, las actividades más críticas y de frecuencia diaria son el *registro manual en cuadernos* y la *atención de llamadas de clientes*, las cuales representan los principales cuellos de botella operativos de su negocio. Para **Lucía Velasquez**, las tareas más relevantes ocurren semanalmente e implican el *traslado físico a la lavandería* y la *comunicación para conocer el estado de sus prendas*, reflejando una pérdida considerable de su tiempo libre.
+* **Coincidencias:** Ambos arquetipos dependen fuertemente de canales de comunicación tradicionales y poco eficientes como llamadas telefónicas y mensajes dispersos, para resolver la trazabilidad del servicio, lo que evidencia una necesidad mutua de automatización y transparencia digital.
+* **Diferencias principales:** Las actividades de Lucía están orientadas al consumo del servicio y la optimización de su tiempo personal con una frecuencia semanal, mientras que las de Carlos corresponden a la administración intensiva, control de stock/prendas y gestión operativa del local con una frecuencia diaria.
+
 * 2.3.3. User Journey Mapping
 * 2.3.4. Empathy Mapping
 
