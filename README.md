@@ -418,9 +418,80 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 * 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
+## 5. Need Finding
+
+<p align="justify">
+
+En esta sección se presentan los resultados obtenidos a partir del proceso de <b>análisis y síntesis de la información recopilada durante la investigación de usuarios de WashTrack por nuestro equipo TechNova</b>. Este análisis tiene como finalidad identificar patrones de comportamiento, necesidades, expectativas, dificultades y oportunidades de mejora relacionadas con la experiencia de los principales segmentos de usuarios.
+
+</p>
+
+<p align="justify">
+
+A partir de los hallazgos obtenidos, se desarrollan diferentes artefactos de análisis que permiten <b>representar y comprender de manera estructurada la interacción de los usuarios con el servicio de lavandería en su contexto actual</b>. Entre estos se encuentran los <b>User Personas, User Task Matrix, User Journey Maps, Empathy Mapping</b> y <b>As-Is Scenario Mapping</b>, los cuales servirán como base para orientar las decisiones posteriores de diseño y definir soluciones acordes con las necesidades identificadas.
+
+</p>
 
 * 2.3.1. User Personas
+### 2.3.1. User Personas
+
+<p align="justify">
+    A continuación, se presentan los arquetipos de usuario definidos para <b>WashTrack</b>, los cuales sintetizan los patrones de comportamiento, necesidades y frustraciones identificados en el proceso de investigación. Estos perfiles permiten orientar el diseño de la experiencia hacia nuestros dos segmentos principales: el cliente final y el administrador de la lavandería.
+</p>
+
+#### **User Persona 1: Cliente - Lucía Velasquez**
+Arquetipo que representa al usuario que busca optimizar su tiempo, delegar el lavado de sus prendas y realizar un seguimiento en tiempo real mediante canales digitales.
+
+<p align="center">
+    <img src="assets/UserPerson1.png" alt="User Persona 1 - Cliente Final" width=650>
+</p>
+
+#### **User Persona 2: Dueño y Administrador de Lavandería - Carlos Mendoza**
+Arquetipo que representa al administrador o dueño de un negocio tradicional que busca digitalizar su operación, centralizar pedidos y eliminar el uso de registros manuales.
+
+<p align="center">
+    <img src="assets/UserPerson2.png" alt="User Persona 2 - Administrador de Lavandería" width=650>
+</p>
+
 * 2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix
+
+<p align="justify">
+    En esta sección se presenta la User Task Matrix, la cual concentra las actividades que los User Personas que representan a cada segmento objetivo: <b>Lucía Velasquez</b> (Cliente Final) y <b>Carlos Mendoza</b> (Dueño / Administrador de Lavandería). Ellos realizan en su día a día para cumplir sus objetivos, independientemente de la existencia de nuestra solución de software. Esta sección inicia con una introducción donde se establecen los segmentos considerados, seguida de las tablas individuales con la frecuencia e importancia de cada tarea, y un análisis final de los resultados.
+</p>
+
+#### **Lucía Velasquez (Cliente Final)**
+
+| Actividades | Frecuencia | Importancia |
+| :--- | :--- | :--- |
+| Acumular y organizar prendas para el lavado semanal | Semanal | Alto |
+| Trasladarse físicamente a la lavandería para dejar o recoger ropa | Semanal | Alto |
+| Comunicarse (llamar o escribir) para consultar el estado de la ropa | Semanal | Alto |
+| Coordinar pagos y verificar comprobantes de transacciones | Semanal | Medio |
+
+<br>
+
+#### **Carlos Mendoza (Dueño / Administrador de Lavandería)**
+
+| Actividades | Frecuencia | Importancia |
+| :--- | :--- | :--- |
+| Registrar y organizar pedidos, clientes y prendas en cuadernos o libretas | Diario | Alto |
+| Atender llamadas y mensajes dispersos de clientes sobre sus órdenes | Diario | Alto |
+| Supervisar el funcionamiento y estado operativo de las máquinas de lavado | Diario | Alto |
+| Gestionar el cobro y control de ingresos diarios del local | Diario | Alto |
+
+<br>
+
+#### **Análisis de la Matriz de Tareas**
+
+<p align="justify">
+    A partir de las tablas presentadas, se destacan las siguientes observaciones sobre las tareas de ambos arquetipos:
+</p>
+
+* **Tareas con mayor frecuencia e importancia:** Para **Carlos Mendoza**, las actividades más críticas y de frecuencia diaria son el *registro manual en cuadernos* y la *atención de llamadas de clientes*, las cuales representan los principales cuellos de botella operativos de su negocio. Para **Lucía Velasquez**, las tareas más relevantes ocurren semanalmente e implican el *traslado físico a la lavandería* y la *comunicación para conocer el estado de sus prendas*, reflejando una pérdida considerable de su tiempo libre.
+* **Coincidencias:** Ambos arquetipos dependen fuertemente de canales de comunicación tradicionales y poco eficientes como llamadas telefónicas y mensajes dispersos, para resolver la trazabilidad del servicio, lo que evidencia una necesidad mutua de automatización y transparencia digital.
+* **Diferencias principales:** Las actividades de Lucía están orientadas al consumo del servicio y la optimización de su tiempo personal con una frecuencia semanal, mientras que las de Carlos corresponden a la administración intensiva, control de stock/prendas y gestión operativa del local con una frecuencia diaria.
+
 * 2.3.3. User Journey Mapping
 * 2.3.4. Empathy Mapping
 
