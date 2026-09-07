@@ -829,7 +829,7 @@ Durante esta fase inicial, el equipo llevó a cabo una lluvia de ideas con el pr
 La intención de esta actividad fue construir una representación general del funcionamiento de WashTrack, considerando las diferentes actividades involucradas en la gestión y lavado de prendas. En esta etapa se buscó recopilar la mayor cantidad posible de eventos sin preocuparse todavía por establecer una secuencia temporal, relaciones entre ellos o niveles de importancia, dejando estos aspectos para las etapas posteriores del análisis.
 
 <div align="center">
-  <img src="assets/Chapter2/EventStorming-step1.PNG" alt="Event Storming: step 1" width="100%"/>
+  <img src="assets/Chapter2/EventStorming/EventStorming-step1.PNG" alt="Event Storming: step 1" width="100%"/>
   <p><em>Step 1 - Exploración libre de eventos de dominio.</em></p>
 </div>
 
@@ -850,7 +850,7 @@ Los eventos se organizaron en cuatro grandes etapas que representan el ciclo ope
 Esta organización permitió visualizar de manera clara el recorrido completo de una orden dentro de WashTrack, facilitando la identificación de las principales etapas operativas y de los puntos en los que el sistema puede aportar un mayor control y seguimiento del servicio
 
 <div align="center">
-  <img src="assets/Chapter2/EventStorming-step2.PNG" alt="Event Storming: step 2" width="100%"/>
+  <img src="assets/Chapter2/EventStorming/EventStorming-step2.PNG" alt="Event Storming: step 2" width="100%"/>
   <p><em>Step 2 - Organización temporal por flujos de negocio.</em></p>
 </div>
 
