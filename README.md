@@ -418,6 +418,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 * 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
+## 5. Need Finding
+
+<p align="justify">
+
+En esta sección se presentan los resultados obtenidos a partir del proceso de <b>análisis y síntesis de la información recopilada durante la investigación de usuarios de WashTrack por nuestro equipo TechNova</b>. Este análisis tiene como finalidad identificar patrones de comportamiento, necesidades, expectativas, dificultades y oportunidades de mejora relacionadas con la experiencia de los principales segmentos de usuarios.
+
+</p>
+
+<p align="justify">
+
+A partir de los hallazgos obtenidos, se desarrollan diferentes artefactos de análisis que permiten <b>representar y comprender de manera estructurada la interacción de los usuarios con el servicio de lavandería en su contexto actual</b>. Entre estos se encuentran los <b>User Personas, User Task Matrix, User Journey Maps, Empathy Mapping</b> y <b>As-Is Scenario Mapping</b>, los cuales servirán como base para orientar las decisiones posteriores de diseño y definir soluciones acordes con las necesidades identificadas.
+
+</p>
 
 * 2.3.1. User Personas
 * 2.3.2. User Task Matrix
