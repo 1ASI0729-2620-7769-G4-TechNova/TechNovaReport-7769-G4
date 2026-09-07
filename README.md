@@ -820,6 +820,41 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 
 ### 2.4. Big Picture EventStorming
 
+Para analizar de manera detallada el funcionamiento de **WashTrack**, plataforma orientada a la gestión de servicios de lavado y tratamiento de prendas, el equipo realizó una sesión de **Event Storming**. El objetivo principal fue reconocer cómo se desarrollan las actividades del negocio en la práctica y determinar los elementos más importantes que intervienen en ellas. A través de esta dinámica colaborativa, fue posible organizar los eventos, procesos y diferentes situaciones que forman parte del servicio, obteniendo una visión clara del comportamiento del negocio antes de definir aspectos vinculados con su desarrollo e implementación tecnológica.
+
+### Step 1 – Free Exploration (Exploración Libre)
+
+Durante esta fase inicial, el equipo llevó a cabo una lluvia de ideas con el propósito de reconocer los distintos Eventos de Dominio relacionados con el funcionamiento de WashTrack. Para representar cada acontecimiento identificado, se utilizaron notas de color rosa (post-its), en las cuales se registraron acciones que ya habían sucedido dentro del negocio, utilizando una redacción en tiempo pasado, como Laundry order created o Garment received.
+
+La intención de esta actividad fue construir una representación general del funcionamiento de WashTrack, considerando las diferentes actividades involucradas en la gestión y lavado de prendas. En esta etapa se buscó recopilar la mayor cantidad posible de eventos sin preocuparse todavía por establecer una secuencia temporal, relaciones entre ellos o niveles de importancia, dejando estos aspectos para las etapas posteriores del análisis.
+
+<div align="center">
+  <img src="assets/Chapter2/EventStorming-step1.PNG" alt="Event Storming: step 1" width="100%"/>
+  <p><em>Step 1 - Exploración libre de eventos de dominio.</em></p>
+</div>
+
+### Step 2 – Structured Organization (Líneas de Tiempo)
+
+Una vez identificados los principales eventos de dominio, el equipo procedió a organizarlos siguiendo la secuencia natural en la que se desarrolla el servicio de WashTrack. Los post-its fueron distribuidos de izquierda a derecha para representar el recorrido de una orden, desde el ingreso del cliente y sus prendas hasta la finalización y entrega del servicio.
+
+Los eventos se organizaron en cuatro grandes etapas que representan el ciclo operativo de una orden de lavado:
+
+1. **Customer & Order Registration:** Comprende las actividades iniciales del servicio, como el registro del cliente, la creación de la orden y el ingreso de las prendas que serán procesadas.
+
+2. **Garment Reception & Classification:** Representa el momento en que las prendas son recibidas y preparadas para su procesamiento. En esta etapa se incluyen eventos relacionados con la identificación, clasificación e inspección inicial de las prendas.
+
+3. **Laundry Processing:** Corresponde al núcleo operativo del servicio. Agrupa las diferentes etapas por las que pasan las prendas, incluyendo el inicio y finalización del lavado, secado, planchado, doblado e inspección posterior.
+
+4. **Delivery & Payment:** Comprende las actividades finales del ciclo, desde que las prendas se encuentran listas para ser entregadas hasta la entrega al cliente y el registro del pago correspondiente.
+
+Esta organización permitió visualizar de manera clara el recorrido completo de una orden dentro de WashTrack, facilitando la identificación de las principales etapas operativas y de los puntos en los que el sistema puede aportar un mayor control y seguimiento del servicio
+
+<div align="center">
+  <img src="assets/Chapter2/EventStorming-step2.PNG" alt="Event Storming: step 2" width="100%"/>
+  <p><em>Step 2 - Organización temporal por flujos de negocio.</em></p>
+</div>
+
+
 ### 2.5. Ubiquitous Language
 
 ---
