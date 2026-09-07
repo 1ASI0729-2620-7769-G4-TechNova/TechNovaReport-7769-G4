@@ -2,28 +2,26 @@
 <img src="assets/Chapter1/CoverPage/upc_logo.png" alt="UPC Logo" width="150"
 "/>
 
-## **Universidad Peruana de Ciencias Aplicadas**
-## **Carrera de Ingeniería de Software**
+<h2><b>Universidad Peruana de Ciencias Aplicadas</b></h2>
+<h3><b>Carrera de Ingeniería de Software</b></h3>
 <br>
 
-#### **1ASI0729**
-### **Desarrollo de Aplicaciones Open Source**
+
+<h5>Curso: Desarrollo de Aplicaciones Open Source (1ASI0729)</h5>
 
 
-### **NRC**
-### **7769**
+**NRC: 7769**
+<br>
 
+<h3><b>Informe del Trabajo Final</b></h3>
 
-### **Informe del Trabajo Final**
+<h5>Docente: Hugo Allan Mori Paiva</h5>
 
-#### **Docente**
-### **Hugo Allan Mori Paiva**
+**Equipo:** TechNova
 
-#### **Equipo**
-### **TechNova**
+**Proyecto:** WashTrack
 
-#### **Proyecto**
-### **WashTrack**
+<br>
 
 ### **Integrantes**
 
@@ -47,8 +45,8 @@
         <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u202018427</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 0 0; text-align: center;"></td>
@@ -56,15 +54,14 @@
     </tr>
 </table>
 
+<br>
 <div align="center">
 
-
-#### **Período 2026-02**
-
-
-
+*Setiembre, 2026*
 
 </div>
+
+---
 
 ## Registro de Versiones
 
