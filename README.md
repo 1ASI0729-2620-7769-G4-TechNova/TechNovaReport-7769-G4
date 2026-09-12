@@ -1404,7 +1404,7 @@ A continuación, se presentan los mock-ups correspondientes al diseño de alta f
   <p><b>Figura 9:</b> Vista de la sección principal con propuesta de valor, accesos rápidos, botones de llamada a la acción y un panel interactivo flotante con métricas en tiempo real.</p>
   <p></p>
   
-  <img src="./assets/LandingPage-Mockup2.PNG" width="700px" alt="Landing Page Mock-up 2">
+  <img src="./assets/LandingPage-Mockup2.png" width="700px" alt="Landing Page Mock-up 2">
   <p><b>Figura 10:</b> Sección de problema y solución que contrasta la gestión tradicional basada en cuadernos con la automatización digital de la plataforma.</p>
   <p></p>
 
@@ -1416,12 +1416,12 @@ A continuación, se presentan los mock-ups correspondientes al diseño de alta f
   <p><b>Figura 12:</b> Módulo detallado de seguimiento en tiempo real que detalla las diferentes etapas del estado de los pedidos de los clientes.</p>
   <p></p>
 
-  <img src="./assets/LandingPage-Mockup5.PNG" width="700px" alt="Landing Page Mock-up 5">
+  <img src="./assets/LandingPage-Mockup5.png" width="700px" alt="Landing Page Mock-up 5">
   <p><b>Figura 13:</b> Sección dual orientada tanto a los administradores de lavanderías como a los usuarios finales que buscan simplificar el lavado de sus prendas.</p>
   <p></p>
 
   <img src="./assets/LandingPage-Mockup6.png" width="700px" alt="Landing Page Mock-up 6">
-  <p><b>Figura 14:</b> Sección Sobre Nosotros que presenta al equipo desarrollador junto con los pilares fundamentales y valores de la plataforma.</p>
+  <p><b>Figura 14:</b> Sección Sobre Nosotros que presenta al equipo desarrollador que es TechNova junto con los pilares fundamentales y valores de la plataforma.</p>
   <p></p>
 
   <img src="./assets/LandingPage-Mockup7.png" width="700px" alt="Landing Page Mock-up 7">
