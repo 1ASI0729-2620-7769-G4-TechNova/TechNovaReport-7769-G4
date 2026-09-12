@@ -766,6 +766,67 @@ Como prioridad, el producto mínimo viable debe concentrarse en la administraci�
 
 
 #### 2.2.2. Registro de entrevistas
+**Primer Segmento: Propietarios de lavanderías independientes**
+<u>Entrevista 1:</u>
+
+<br>
+<u>Entrevista 2:</u>
+
+Entrevistador: Adriana Nicole Ramos Fuentes Rivera
+
+Datos del entrevistado:
+
+- **Nombre:** Elizabeth
+- **Apellidos:** Flores
+- **Edad:** 38 años
+- **Distrito:** Comas
+- **Timing:** 00:07:58 - 00:13:43
+
+**Resumen descriptivo:**
+<div align="justify">
+  Elizabeth, es propietaria de una lavandería independiente, ella se encarga de gestionar los pedidos y el proceso de lavado dentro de su lavandería. Actualmente, realiza todo el registro de manera manual mediante boletas, donde indica el código del pedido, las prendas, cantidades y la hora estimada de recojo. Sin embargo, entre las principales dificultades se encuentran las confusiones o pérdidas ocasionales de prendas y algunos retrasos ocasionados por problemas durante el proceso de secado. Debido a la inseguridad ciudadana, no mantiene comunicación con los clientes fuera del local, por lo que cualquier inconveniente se resuelve presencialmente. Considera que los tiempos y precios de sus servicios son adecuados y, por el momento, no ofrece servicio de recojo o entrega a domicilio.
+</div>
+<br>
+
+<u>Entrevista 3:</u>
+
+<br>
+
+**Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+<u>Entrevista 1:</u>
+
+Entrevistador: Adriana Nicole Ramos Fuentes Rivera
+
+Datos del entrevistado:
+
+- **Nombre:** Andrea
+- **Apellidos:** Arias
+- **Edad:** 28 años
+- **Distrito:** Comas
+- **Timing:** 00:20:52 - 00:30:12
+
+**Resumen descriptivo:**
+<div align="justify">
+  Andrea, es una persona independiente que consume el servicio de lavandería ocasionalmente. Además, en su opinión, los factores más importantes al elegir una lavandería son que el precio sea acorde al servicio brindado, la distancia entre su casa y el local, y el tiempo de todo el proceso. Tambien mencionó que, si bien está satisfecha con el registro y cumplimiento de los pedidos, identifica como principal dificultad el transporte de las prendas hacia la lavandería. Asimismo, considera importante contar con información en tiempo real sobre el estado de su pedido y recibir una notificación cuando esté listo para recogerlo. Finalmente, señala que le gustaría recibir promociones o beneficios por ser una cliente recurrente.
+</div>
+<br>
+
+<u>Entrevista 2:</u>
+
+<br>
+<u>Entrevista 3:</u>
+
+<br>
+
+<p align="center">
+  <img src="assets/Chapter2/Interview/Registro_Entrevistas.png" alt="Video de registro de entrevistas de ambos segmentos" width="500"/>
+  <br/><i>Evidencia de entrevista (ambos segmentos)</i>
+</p>
+
+***Enlace del video:*** [Ver grabación aquí](Pegar_enlace_video)
+
+
 #### 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
