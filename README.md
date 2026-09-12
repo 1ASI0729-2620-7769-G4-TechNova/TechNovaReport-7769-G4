@@ -1206,8 +1206,10 @@ La información se estructura mediante una jerarquía clara y una categorizació
 | **Cerrar Sesión** | Permite salir de forma segura de la plataforma para proteger los datos del negocio y del usuario. |
 
 
-
 #### 4.2.3. SEO Tags and Meta Tags
+<p>Para mejorar la visibilidad de WashTrack en los motores de búsqueda y atraer a los usuarios adecuados, se han definido los siguientes SEO Tags y Meta Tags para las principales páginas de la experiencia, considerando tanto el sitio web estático que es la Landing Page como la Web Application. Para cada página se especifican los valores correspondientes a Title, Meta Description, Keywords y Author.</p>
+
+
 #### 4.2.4. Searching Systems
 #### 4.2.5. Navigation Systems
 
