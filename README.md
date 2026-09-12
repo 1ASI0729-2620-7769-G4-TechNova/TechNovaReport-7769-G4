@@ -1284,6 +1284,11 @@ La información se estructura mediante una jerarquía clara y una categorizació
 <p></p>
 
 #### 4.2.5. Navigation Systems
+<p>El sistema de navegación de WashTrack ha sido diseñado para <b>guiar de manera intuitiva y fluida a los usuarios, tanto clientes finales como dueños de lavanderías</b>, a través de la Landing Page y la aplicación web. Para ello, se combinan diferentes técnicas de navegación y recorridos que permiten al usuario <b>encontrar la información necesaria, interactuar con las funcionalidades y alcanzar sus objetivos</b> con el menor esfuerzo posible.</p>
+
+
+
+
 
 ### 4.3. Landing Page UI Design
 
