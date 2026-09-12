@@ -1857,10 +1857,453 @@ A continuación, se presentan los mock-ups correspondientes al diseño de alta f
 
 ### 4.6. Domain-Driven Software Architecture
 
+La arquitectura de **WashTrack** se define mediante *Domain-Driven Design* (DDD) con el propósito de separar las reglas de negocio de las decisiones tecnológicas y mantener un lenguaje común entre el equipo y los usuarios del dominio. Cada *Bounded Context* concentra un conjunto de responsabilidades relacionadas y expone únicamente las capacidades necesarias para colaborar con los demás contextos.
+
+| Bounded Context | Responsabilidad principal |
+| :--- | :--- |
+| **Identity & Access** | Gestionar cuentas, autenticación, autorización y roles de clientes y personal de lavandería. |
+| **Customer & Laundry Management** | Administrar los perfiles de clientes, lavanderías, trabajadores, servicios y datos operativos del negocio. |
+| **Order Management** | Crear órdenes, registrar prendas y servicios, establecer fechas comprometidas y mantener la información comercial del pedido. |
+| **Laundry Operations** | Controlar la recepción, clasificación y avance de las prendas por las etapas del proceso de lavandería. |
+| **Billing & Subscriptions** | Registrar y confirmar pagos de órdenes, además de administrar los planes contratados por cada lavandería. |
+| **Delivery Management** | Coordinar solicitudes, direcciones, horarios y estados de recojo o entrega a domicilio. |
+| **Tracking & Notifications** | Mantener el historial de estados de una orden y comunicar los cambios relevantes a clientes y personal. |
+
+Esta división permite que el flujo principal del servicio evolucione sin mezclar conceptos distintos. Por ejemplo, una orden conserva los datos de las prendas y servicios solicitados, mientras que `LaundryOrder` controla su procesamiento y `Tracking` mantiene la vista de seguimiento que consulta el cliente.
+
 #### 4.6.1. Design-Level EventStorming
+
+El *Design-Level EventStorming* detalla cómo los actores activan comandos, cómo los agregados protegen las reglas del dominio y qué eventos se publican como resultado. Los eventos se expresan en pasado porque representan hechos que ya ocurrieron dentro de WashTrack.
+
+**Actores principales**
+
+- **Customer:** registra o consulta sus órdenes, realiza pagos y coordina el recojo o la entrega.
+- **Laundry Staff / Administrator:** registra clientes y prendas, confirma la recepción, actualiza el procesamiento y completa la entrega.
+- **System:** ejecuta políticas automáticas para actualizar el seguimiento y emitir notificaciones.
+
+**Comandos, agregados y eventos de dominio**
+
+| Actor | Command | Aggregate | Domain Event |
+| :--- | :--- | :--- | :--- |
+| Customer / Laundry Staff | `Register Customer` | `Customer` | `CustomerRegistered` |
+| Laundry Staff | `Create Order` | `Order` | `OrderCreated` |
+| Laundry Staff | `Register Garment` | `Order` | `GarmentRegistered` |
+| Customer / Laundry Staff | `Select Delivery Method` | `Order` | `DeliveryMethodSelected` |
+| Laundry Staff | `Confirm Order` | `Order` | `OrderConfirmed` |
+| Customer / Laundry Staff | `Register Payment` | `Payment` | `PaymentRegistered` |
+| System | `Confirm Payment` | `Payment` | `PaymentConfirmed` |
+| Laundry Staff / Administrator | `Change Subscription Plan` | `Subscription` | `SubscriptionPlanChanged` |
+| Laundry Staff | `Receive Order` | `LaundryOrder` | `OrderReceived` |
+| Laundry Staff | `Classify Garments` | `LaundryOrder` | `GarmentsClassified` |
+| Laundry Staff | `Start Laundry Processing` | `LaundryOrder` | `LaundryProcessingStarted` |
+| Laundry Staff | `Advance Processing Stage` | `LaundryOrder` | `ProcessingStageAdvanced` |
+| Laundry Staff | `Complete Laundry Processing` | `LaundryOrder` | `GarmentsReadyForDelivery` |
+| Customer / Laundry Staff | `Schedule Pickup or Delivery` | `Delivery` | `DeliveryScheduled` |
+| Laundry Staff | `Complete Delivery` | `Delivery` | `OrderDelivered` |
+| System | `Complete Order` | `Order` | `OrderCompleted` |
+| System | `Update Order Status` | `Tracking` | `OrderStatusUpdated` |
+| System | `Send Notification` | `Notification` | `NotificationSent` |
+
+**Agregados**
+
+- **Customer:** conserva la identidad y los datos de contacto utilizados durante el servicio.
+- **Order:** agrupa prendas, servicios, importes, modalidad de entrega y fecha comprometida.
+- **LaundryOrder:** controla las transiciones válidas entre recepción, clasificación, lavado, secado, planchado, empaquetado y finalización.
+- **Payment:** registra el importe, medio de pago y resultado de una transacción asociada a una orden.
+- **Subscription:** administra el plan contratado por la lavandería y las capacidades habilitadas para el negocio.
+- **Delivery:** controla la coordinación y el cumplimiento del recojo o entrega de una orden.
+- **Tracking:** mantiene el historial ordenado de estados que puede consultar el cliente.
+- **Notification:** representa una comunicación generada a partir de un cambio relevante.
+
+**Políticas de dominio**
+
+| When | Policy | Then |
+| :--- | :--- | :--- |
+| `OrderConfirmed` | Admitir la orden al flujo operativo | Ejecutar `Receive Order` cuando las prendas ingresen a la lavandería. |
+| `PaymentRegistered` | Verificar la transacción con el proveedor de pagos | Ejecutar `Confirm Payment` con el resultado recibido. |
+| `OrderReceived`, `ProcessingStageAdvanced` o `GarmentsReadyForDelivery` | Mantener visible el avance del servicio | Ejecutar `Update Order Status`. |
+| `OrderStatusUpdated` | Informar cambios relevantes | Ejecutar `Send Notification`. |
+| `GarmentsReadyForDelivery` | Preparar la devolución de las prendas | Ejecutar `Schedule Pickup or Delivery` cuando corresponda. |
+| `OrderDelivered` | Cerrar una orden atendida | Ejecutar `Complete Order`. |
+
+El siguiente diagrama resume el flujo principal y las políticas que conectan los contextos. Los colores distinguen actores, comandos, agregados, eventos y políticas.
+
+```mermaid
+flowchart TB
+    Customer["Actor: Customer"]:::actor
+    Staff["Actor: Laundry Staff / Administrator"]:::actor
+
+    subgraph Orders["Order Management"]
+        CreateOrder["Command: Create Order"]:::command
+        RegisterGarment["Command: Register Garment"]:::command
+        SelectDelivery["Command: Select Delivery Method"]:::command
+        ConfirmOrder["Command: Confirm Order"]:::command
+        Order1{{"Aggregate: Order"}}:::aggregate
+        Order2{{"Aggregate: Order"}}:::aggregate
+        Order3{{"Aggregate: Order"}}:::aggregate
+        Order4{{"Aggregate: Order"}}:::aggregate
+        OrderCreated(["Event: OrderCreated"]):::event
+        GarmentRegistered(["Event: GarmentRegistered"]):::event
+        DeliveryMethodSelected(["Event: DeliveryMethodSelected"]):::event
+        OrderConfirmed(["Event: OrderConfirmed"]):::event
+        CloseOrder{"Policy: Close Order"}:::policy
+        CompleteOrder["Command: Complete Order"]:::command
+        Order5{{"Aggregate: Order"}}:::aggregate
+        OrderCompleted(["Event: OrderCompleted"]):::event
+
+        CreateOrder --> Order1 --> OrderCreated
+        RegisterGarment --> Order2 --> GarmentRegistered
+        SelectDelivery --> Order3 --> DeliveryMethodSelected
+        ConfirmOrder --> Order4 --> OrderConfirmed
+        CloseOrder --> CompleteOrder --> Order5 --> OrderCompleted
+    end
+
+    subgraph Billing["Billing & Subscriptions"]
+        RequestPayment{"Policy: Request Payment"}:::policy
+        RegisterPayment["Command: Register Payment"]:::command
+        Payment1{{"Aggregate: Payment"}}:::aggregate
+        PaymentRegistered(["Event: PaymentRegistered"]):::event
+        VerifyPayment{"Policy: Verify Payment"}:::policy
+        ConfirmPayment["Command: Confirm Payment"]:::command
+        Payment2{{"Aggregate: Payment"}}:::aggregate
+        PaymentConfirmed(["Event: PaymentConfirmed"]):::event
+        ChangePlan["Command: Change Subscription Plan"]:::command
+        Subscription{{"Aggregate: Subscription"}}:::aggregate
+        PlanChanged(["Event: SubscriptionPlanChanged"]):::event
+
+        RequestPayment --> RegisterPayment --> Payment1 --> PaymentRegistered
+        PaymentRegistered --> VerifyPayment --> ConfirmPayment --> Payment2 --> PaymentConfirmed
+        ChangePlan --> Subscription --> PlanChanged
+    end
+
+    subgraph Operations["Laundry Operations"]
+        AdmitOrder{"Policy: Admit Order"}:::policy
+        ReceiveOrder["Command: Receive Order"]:::command
+        Classify["Command: Classify Garments"]:::command
+        StartProcessing["Command: Start Laundry Processing"]:::command
+        AdvanceStage["Command: Advance Processing Stage"]:::command
+        CompleteProcessing["Command: Complete Laundry Processing"]:::command
+        LaundryOrder1{{"Aggregate: LaundryOrder"}}:::aggregate
+        LaundryOrder2{{"Aggregate: LaundryOrder"}}:::aggregate
+        LaundryOrder3{{"Aggregate: LaundryOrder"}}:::aggregate
+        LaundryOrder4{{"Aggregate: LaundryOrder"}}:::aggregate
+        LaundryOrder5{{"Aggregate: LaundryOrder"}}:::aggregate
+        OrderReceived(["Event: OrderReceived"]):::event
+        GarmentsClassified(["Event: GarmentsClassified"]):::event
+        ProcessingStarted(["Event: LaundryProcessingStarted"]):::event
+        StageAdvanced(["Event: ProcessingStageAdvanced"]):::event
+        Ready(["Event: GarmentsReadyForDelivery"]):::event
+
+        AdmitOrder --> ReceiveOrder --> LaundryOrder1 --> OrderReceived
+        OrderReceived --> Classify --> LaundryOrder2 --> GarmentsClassified
+        GarmentsClassified --> StartProcessing --> LaundryOrder3 --> ProcessingStarted
+        ProcessingStarted --> AdvanceStage --> LaundryOrder4 --> StageAdvanced
+        StageAdvanced --> CompleteProcessing --> LaundryOrder5 --> Ready
+    end
+
+    subgraph DeliveryContext["Delivery Management"]
+        PrepareDelivery{"Policy: Prepare Delivery"}:::policy
+        ScheduleDelivery["Command: Schedule Pickup or Delivery"]:::command
+        Delivery1{{"Aggregate: Delivery"}}:::aggregate
+        DeliveryScheduled(["Event: DeliveryScheduled"]):::event
+        CompleteDelivery["Command: Complete Delivery"]:::command
+        Delivery2{{"Aggregate: Delivery"}}:::aggregate
+        OrderDelivered(["Event: OrderDelivered"]):::event
+
+        PrepareDelivery --> ScheduleDelivery --> Delivery1 --> DeliveryScheduled
+        DeliveryScheduled --> CompleteDelivery --> Delivery2 --> OrderDelivered
+    end
+
+    subgraph TrackingContext["Tracking & Notifications"]
+        ReflectProgress{"Policy: Reflect Progress"}:::policy
+        UpdateStatus["Command: Update Order Status"]:::command
+        Tracking{{"Aggregate: Tracking"}}:::aggregate
+        StatusUpdated(["Event: OrderStatusUpdated"]):::event
+        NotifyUser{"Policy: Notify Interested User"}:::policy
+        SendNotification["Command: Send Notification"]:::command
+        NotificationSent(["Event: NotificationSent"]):::event
+
+        ReflectProgress --> UpdateStatus --> Tracking --> StatusUpdated
+        StatusUpdated --> NotifyUser --> SendNotification --> NotificationSent
+    end
+
+    Customer --> CreateOrder
+    Customer --> RegisterPayment
+    Staff --> CreateOrder
+    Staff --> RegisterGarment
+    Staff --> SelectDelivery
+    Staff --> ConfirmOrder
+    Staff --> ReceiveOrder
+    Staff --> Classify
+    Staff --> StartProcessing
+    Staff --> AdvanceStage
+    Staff --> CompleteProcessing
+    Staff --> CompleteDelivery
+    Staff --> ChangePlan
+
+    OrderConfirmed --> RequestPayment
+    OrderConfirmed --> AdmitOrder
+    PaymentConfirmed --> ReflectProgress
+    OrderReceived --> ReflectProgress
+    StageAdvanced --> ReflectProgress
+    Ready --> ReflectProgress
+    Ready --> PrepareDelivery
+    OrderDelivered --> CloseOrder
+    OrderCompleted --> ReflectProgress
+    NotificationSent --> Customer
+    NotificationSent --> Staff
+
+    classDef actor fill:#fff2cc,stroke:#b38f00,color:#1f1f1f;
+    classDef command fill:#b9ddff,stroke:#2b78b8,color:#1f1f1f;
+    classDef aggregate fill:#fff2a8,stroke:#bf9000,color:#1f1f1f;
+    classDef event fill:#ffc89d,stroke:#c65911,color:#1f1f1f;
+    classDef policy fill:#e4c7f2,stroke:#674ea7,color:#1f1f1f;
+```
+
 #### 4.6.2. Software Architecture Context Diagram
+
+El diagrama de contexto presenta a **WashTrack** como un único sistema y delimita sus relaciones con las personas que lo utilizan y con los servicios externos que necesita. En este nivel todavía no se muestran decisiones internas de implementación.
+
+- **Customer:** solicita servicios, consulta el avance de sus prendas, paga órdenes y coordina recojos o entregas.
+- **Laundry Staff / Administrator:** administra clientes, órdenes, prendas, operaciones, planes y entregas.
+- **Payment Gateway:** autoriza o rechaza pagos digitales asociados a las órdenes.
+- **Notification Service:** entrega correos o mensajes generados por cambios en el estado del servicio.
+
+```mermaid
+flowchart LR
+    Customer["Customer<br/>Cliente de la lavandería"]:::person
+    Staff["Laundry Staff / Administrator<br/>Personal de la lavandería"]:::person
+    WashTrack["WashTrack<br/>Plataforma de gestión y seguimiento de servicios de lavandería"]:::system
+    Payment["Payment Gateway<br/>Sistema externo"]:::external
+    Notification["Notification Service<br/>Sistema externo"]:::external
+
+    Customer -->|"Solicita servicios, consulta estados,<br/>realiza pagos y coordina entregas"| WashTrack
+    Staff -->|"Gestiona clientes, órdenes, prendas,<br/>operaciones, planes y entregas"| WashTrack
+    WashTrack -->|"Solicita el procesamiento del pago"| Payment
+    Payment -->|"Devuelve el resultado de la transacción"| WashTrack
+    WashTrack -->|"Solicita el envío de avisos"| Notification
+    Notification -->|"Envía actualizaciones del servicio"| Customer
+    Notification -->|"Envía alertas operativas"| Staff
+
+    classDef person fill:#e8f1fb,stroke:#2b78b8,color:#1f1f1f;
+    classDef system fill:#cfe2f3,stroke:#0b5394,stroke-width:2px,color:#1f1f1f;
+    classDef external fill:#eeeeee,stroke:#666666,color:#1f1f1f;
+```
+
 #### 4.6.3. Software Architecture Container Diagrams
+
+El diagrama de contenedores muestra las principales unidades ejecutables y de almacenamiento de WashTrack. La solución se plantea como una aplicación web Angular que consume una API modular desarrollada con Spring Boot; la lógica de los *Bounded Contexts* permanece dentro de la API y se persiste en PostgreSQL.
+
+| Container | Tecnología | Responsabilidad |
+| :--- | :--- | :--- |
+| **Landing Page** | HTML, CSS y JavaScript | Comunicar la propuesta de valor, los beneficios y los planes de WashTrack. |
+| **Web Application** | Angular y TypeScript | Proporcionar las interfaces para clientes y personal de lavandería. |
+| **RESTful API** | Java y Spring Boot | Exponer casos de uso, aplicar reglas del dominio, autorizar operaciones e integrar servicios externos. |
+| **Database** | PostgreSQL | Persistir usuarios, lavanderías, clientes, órdenes, prendas, pagos, planes, entregas e historial de estados. |
+| **Payment Gateway** | Servicio externo | Procesar pagos digitales y devolver el resultado de cada transacción. |
+| **Notification Service** | Servicio externo | Enviar correos o mensajes a los usuarios. |
+
+```mermaid
+flowchart LR
+    Customer["Customer"]:::person
+    Staff["Laundry Staff / Administrator"]:::person
+
+    subgraph WashTrack["WashTrack"]
+        Landing["Landing Page<br/>HTML / CSS / JavaScript"]:::container
+        WebApp["Web Application<br/>Angular / TypeScript"]:::container
+        API["RESTful API<br/>Java / Spring Boot"]:::container
+        DB[("Database<br/>PostgreSQL")]:::database
+
+        Landing -->|"Navegación HTTPS"| WebApp
+        WebApp -->|"JSON / REST / HTTPS"| API
+        API -->|"JPA / SQL"| DB
+    end
+
+    Payment["Payment Gateway<br/>External System"]:::external
+    Notification["Notification Service<br/>External System"]:::external
+
+    Customer -->|"HTTPS"| Landing
+    Customer -->|"HTTPS"| WebApp
+    Staff -->|"HTTPS"| WebApp
+    API -->|"HTTPS: solicitud de pago"| Payment
+    Payment -->|"HTTPS: resultado"| API
+    API -->|"HTTPS: solicitud de envío"| Notification
+    Notification -->|"Correo o mensaje"| Customer
+    Notification -->|"Correo o mensaje"| Staff
+
+    classDef person fill:#e8f1fb,stroke:#2b78b8,color:#1f1f1f;
+    classDef container fill:#cfe2f3,stroke:#0b5394,color:#1f1f1f;
+    classDef database fill:#d9ead3,stroke:#38761d,color:#1f1f1f;
+    classDef external fill:#eeeeee,stroke:#666666,color:#1f1f1f;
+```
+
 #### 4.6.4. Software Architecture Components Diagrams
+
+Los diagramas de componentes descomponen los dos contenedores que concentran el comportamiento de la solución: la aplicación web y la API. Las dependencias se orientan hacia contratos estables para que la interfaz, el dominio y las integraciones externas puedan evolucionar de forma independiente.
+
+##### 4.6.4.1. Web Application
+
+La aplicación Angular organiza sus componentes por capacidades de negocio y comparte los servicios transversales de autenticación, navegación, estado y comunicación con la API.
+
+```mermaid
+flowchart LR
+    Customer["Customer"]:::person
+    Staff["Laundry Staff / Administrator"]:::person
+
+    subgraph WebApp["Web Application - Angular"]
+        subgraph CustomerFeatures["Customer Features"]
+            CustomerOrders["Orders Component"]:::component
+            CustomerTracking["Tracking Component"]:::component
+            CustomerPayments["Payments Component"]:::component
+            CustomerDelivery["Pickup & Delivery Component"]:::component
+        end
+
+        subgraph LaundryFeatures["Laundry Management Features"]
+            Dashboard["Operations Dashboard Component"]:::component
+            OrderManagement["Order Management Component"]:::component
+            CustomerManagement["Customer Management Component"]:::component
+            SubscriptionManagement["Subscription Component"]:::component
+            Reports["Reports Component"]:::component
+        end
+
+        subgraph Shared["Shared Components and Services"]
+            Router["Angular Router"]:::shared
+            Auth["Authentication Service & Guards"]:::shared
+            State["Application State Service"]:::shared
+            ApiClient["REST API Client"]:::shared
+            NotificationHandler["Notification Handler"]:::shared
+        end
+    end
+
+    API["WashTrack RESTful API"]:::external
+
+    Customer --> CustomerOrders
+    Customer --> CustomerTracking
+    Customer --> CustomerPayments
+    Customer --> CustomerDelivery
+    Staff --> Dashboard
+    Staff --> OrderManagement
+    Staff --> CustomerManagement
+    Staff --> SubscriptionManagement
+    Staff --> Reports
+
+    CustomerOrders --> State
+    CustomerTracking --> State
+    CustomerPayments --> ApiClient
+    CustomerDelivery --> ApiClient
+    Dashboard --> State
+    OrderManagement --> ApiClient
+    CustomerManagement --> ApiClient
+    SubscriptionManagement --> ApiClient
+    Reports --> ApiClient
+    Router --> Auth
+    Auth --> ApiClient
+    State --> ApiClient
+    NotificationHandler --> State
+    ApiClient -->|"JSON / REST / HTTPS"| API
+
+    classDef person fill:#e8f1fb,stroke:#2b78b8,color:#1f1f1f;
+    classDef component fill:#cfe2f3,stroke:#0b5394,color:#1f1f1f;
+    classDef shared fill:#d9ead3,stroke:#38761d,color:#1f1f1f;
+    classDef external fill:#eeeeee,stroke:#666666,color:#1f1f1f;
+```
+
+##### 4.6.4.2. RESTful API
+
+La API adopta una arquitectura por capas y módulos de dominio. Los controladores traducen solicitudes HTTP a casos de uso; los servicios de aplicación coordinan los agregados; y los adaptadores de infraestructura implementan persistencia y comunicación externa.
+
+```mermaid
+flowchart LR
+    WebApp["Angular Web Application"]:::external
+
+    subgraph API["RESTful API - Spring Boot"]
+        subgraph Presentation["Presentation Layer"]
+            IdentityController["Identity Controller"]:::presentation
+            ManagementController["Customer & Laundry Controller"]:::presentation
+            OrderController["Order Controller"]:::presentation
+            OperationsController["Operations Controller"]:::presentation
+            BillingController["Billing & Subscription Controller"]:::presentation
+            DeliveryController["Delivery Controller"]:::presentation
+            TrackingController["Tracking Controller"]:::presentation
+        end
+
+        subgraph Application["Application Layer"]
+            IdentityService["Identity Application Service"]:::application
+            ManagementService["Management Application Service"]:::application
+            OrderService["Order Application Service"]:::application
+            OperationsService["Operations Application Service"]:::application
+            BillingService["Billing Application Service"]:::application
+            DeliveryService["Delivery Application Service"]:::application
+            TrackingService["Tracking Application Service"]:::application
+            EventHandlers["Domain Event Handlers"]:::application
+        end
+
+        subgraph Domain["Domain Layer"]
+            IdentityDomain["Identity & Access Domain"]:::domain
+            ManagementDomain["Customer & Laundry Domain"]:::domain
+            OrderDomain["Order Domain"]:::domain
+            OperationsDomain["Laundry Operations Domain"]:::domain
+            BillingDomain["Billing & Subscriptions Domain"]:::domain
+            DeliveryDomain["Delivery Domain"]:::domain
+            TrackingDomain["Tracking & Notifications Domain"]:::domain
+            EventPublisher["Domain Event Publisher"]:::domain
+        end
+
+        subgraph Infrastructure["Infrastructure Layer"]
+            Persistence["JPA Persistence Adapters"]:::infrastructure
+            PaymentAdapter["Payment Gateway Adapter"]:::infrastructure
+            NotificationAdapter["Notification Service Adapter"]:::infrastructure
+        end
+    end
+
+    DB[("PostgreSQL")]:::database
+    Payment["Payment Gateway"]:::external
+    Notification["Notification Service"]:::external
+
+    WebApp -->|"JSON / REST / HTTPS"| IdentityController
+    WebApp -->|"JSON / REST / HTTPS"| ManagementController
+    WebApp -->|"JSON / REST / HTTPS"| OrderController
+    WebApp -->|"JSON / REST / HTTPS"| OperationsController
+    WebApp -->|"JSON / REST / HTTPS"| BillingController
+    WebApp -->|"JSON / REST / HTTPS"| DeliveryController
+    WebApp -->|"JSON / REST / HTTPS"| TrackingController
+
+    IdentityController --> IdentityService --> IdentityDomain
+    ManagementController --> ManagementService --> ManagementDomain
+    OrderController --> OrderService --> OrderDomain
+    OperationsController --> OperationsService --> OperationsDomain
+    BillingController --> BillingService --> BillingDomain
+    DeliveryController --> DeliveryService --> DeliveryDomain
+    TrackingController --> TrackingService --> TrackingDomain
+
+    IdentityService --> Persistence
+    ManagementService --> Persistence
+    OrderService --> Persistence
+    OperationsService --> Persistence
+    BillingService --> Persistence
+    DeliveryService --> Persistence
+    TrackingService --> Persistence
+    BillingService --> PaymentAdapter
+
+    OrderDomain --> EventPublisher
+    OperationsDomain --> EventPublisher
+    BillingDomain --> EventPublisher
+    DeliveryDomain --> EventPublisher
+    EventPublisher --> EventHandlers
+    EventHandlers --> TrackingService
+    EventHandlers --> NotificationAdapter
+
+    Persistence -->|"JPA / SQL"| DB
+    PaymentAdapter -->|"HTTPS"| Payment
+    NotificationAdapter -->|"HTTPS"| Notification
+
+    classDef presentation fill:#cfe2f3,stroke:#0b5394,color:#1f1f1f;
+    classDef application fill:#d9ead3,stroke:#38761d,color:#1f1f1f;
+    classDef domain fill:#fff2cc,stroke:#bf9000,color:#1f1f1f;
+    classDef infrastructure fill:#ead1dc,stroke:#a64d79,color:#1f1f1f;
+    classDef database fill:#d9ead3,stroke:#38761d,color:#1f1f1f;
+    classDef external fill:#eeeeee,stroke:#666666,color:#1f1f1f;
+```
 
 ### 4.7. Software Object-Oriented Design
 
