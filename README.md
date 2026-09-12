@@ -915,6 +915,174 @@ Para mantener una comunicación clara y consistente entre los usuarios, el equip
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories
+En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTrack para la Landing Page, la plataforma y la RESTful API. Cada historia incluye criterios de aceptación en formato Gherkin para validar los requisitos.
+
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Epic / Story ID</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Título</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Descripción</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Criterios de Aceptación</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-001</td>
+      <td style="border: 1px solid black; padding: 8px;">Conocer la propuesta de valor de WashTrack</td>
+      <td style="border: 1px solid black; padding: 8px;">Como visitante, quiero conocer la propuesta de valor y los beneficios de WashTrack, para comprender cómo la plataforma mejora la gestión de lavanderías.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Presentación de la propuesta de valor</b><br>
+        <b>Dado</b> que el visitante ingresa a la Landing Page<br>
+        <b>Cuando</b> consulta la información principal de WashTrack<br>
+        <b>Entonces</b> el sistema presenta la propuesta de valor del servicio<br>
+        <b>Y</b> describe los principales beneficios para sus usuarios.<br><br>
+        <b>Escenario: Información comprensible</b><br>
+        <b>Dado</b> que el visitante consulta la información de WashTrack<br>
+        <b>Cuando</b> revisa la propuesta de valor<br>
+        <b>Entonces</b> la información permite identificar el propósito principal de la plataforma.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-013: Landing Page y Marketing</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-002</td>
+      <td style="border: 1px solid black; padding: 8px;">Consultar planes y precios</td>
+      <td style="border: 1px solid black; padding: 8px;">Como visitante del segmento de propietarios, quiero consultar los planes y precios de WashTrack, para evaluar la alternativa que mejor se adapte a las necesidades de mi lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Consulta de planes</b><br>
+        <b>Dado</b> que el visitante consulta la información comercial<br>
+        <b>Cuando</b> revisa los planes disponibles<br>
+        <b>Entonces</b> el sistema presenta el precio y las características de cada plan.<br><br>
+        <b>Escenario: Comparación de planes</b><br>
+        <b>Dado</b> que existen diferentes planes disponibles<br>
+        <b>Cuando</b> el visitante compara sus características<br>
+        <b>Entonces</b> puede identificar las diferencias entre los planes ofrecidos.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-012: Suscripciones</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-003</td>
+      <td style="border: 1px solid black; padding: 8px;">Recibir notificaciones del estado del pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero recibir notificaciones sobre los cambios de estado de mi pedido, para conocer el avance del servicio.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Cambio de estado</b><br>
+        <b>Dado</b> que existe un pedido registrado a nombre del cliente<br>
+        <b>Cuando</b> el pedido cambia de estado<br>
+        <b>Entonces</b> el sistema genera una notificación con el nuevo estado.<br><br>
+        <b>Escenario: Registro de actualización</b><br>
+        <b>Dado</b> que el pedido ha cambiado de estado<br>
+        <b>Cuando</b> el sistema registra la actualización<br>
+        <b>Entonces</b> se conserva la fecha y hora del cambio.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-004</td>
+      <td style="border: 1px solid black; padding: 8px;">Solicitar recojo de prendas a domicilio</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero solicitar el recojo de mis prendas a domicilio, para enviar mi ropa a la lavandería de manera cómoda.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Registro de solicitud</b><br>
+        <b>Dado</b> que el cliente requiere el servicio de recojo<br>
+        <b>Cuando</b> registra una dirección, fecha y rango horario válidos<br>
+        <b>Entonces</b> el sistema registra la solicitud de recojo.<br><br>
+        <b>Escenario: Generación de seguimiento</b><br>
+        <b>Dado</b> que la solicitud de recojo ha sido registrada correctamente<br>
+        <b>Cuando</b> el sistema confirma la solicitud<br>
+        <b>Entonces</b> genera un código de seguimiento asociado al servicio.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-005</td>
+      <td style="border: 1px solid black; padding: 8px;">Actualizar el estado del pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como trabajador de lavandería, quiero actualizar el estado de los pedidos, para mantener registrada la evolución del servicio.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Actualización válida</b><br>
+        <b>Dado</b> que existe un pedido en proceso<br>
+        <b>Cuando</b> el trabajador registra un nuevo estado válido<br>
+        <b>Entonces</b> el sistema actualiza el estado del pedido.<br><br>
+        <b>Escenario: Registro del responsable</b><br>
+        <b>Dado</b> que el estado del pedido ha sido actualizado<br>
+        <b>Cuando</b> el sistema registra el cambio<br>
+        <b>Entonces</b> conserva la fecha, hora y usuario responsable de la actualización.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-006</td>
+      <td style="border: 1px solid black; padding: 8px;">Consultar métricas operativas</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario de lavandería, quiero consultar las métricas operativas del negocio, para conocer el volumen de pedidos, ingresos y estado de las operaciones.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Consulta de métricas</b><br>
+        <b>Dado</b> que existen pedidos registrados en el sistema<br>
+        <b>Cuando</b> el propietario consulta un periodo determinado<br>
+        <b>Entonces</b> el sistema calcula los pedidos e ingresos correspondientes al periodo.<br><br>
+        <b>Escenario: Agrupación de pedidos</b><br>
+        <b>Dado</b> que existen pedidos con diferentes estados<br>
+        <b>Cuando</b> el propietario consulta las métricas<br>
+        <b>Entonces</b> el sistema agrupa los pedidos según su estado.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-007</td>
+      <td style="border: 1px solid black; padding: 8px;">Implementar API REST para la gestión de pedidos</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero implementar endpoints RESTful para crear y consultar pedidos, para permitir la comunicación entre los servicios de la plataforma.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Creación de pedido</b><br>
+        <b>Dado</b> que se recibe una petición POST con datos válidos del pedido<br>
+        <b>Cuando</b> el servidor valida la solicitud<br>
+        <b>Entonces</b> registra el pedido y retorna el código HTTP 201.<br><br>
+        <b>Escenario: Consulta de pedido</b><br>
+        <b>Dado</b> que existe un pedido registrado<br>
+        <b>Cuando</b> se recibe una petición GET con un identificador válido<br>
+        <b>Entonces</b> la API retorna los datos del pedido con el código HTTP 200.<br><br>
+        <b>Escenario: Datos inválidos</b><br>
+        <b>Dado</b> que se recibe una petición con datos incompletos o inválidos<br>
+        <b>Cuando</b> el servidor valida la solicitud<br>
+        <b>Entonces</b> retorna un código HTTP de error indicando el problema.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-008</td>
+      <td style="border: 1px solid black; padding: 8px;">Implementar API REST para actualizar estados</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero implementar un endpoint RESTful para actualizar el estado de los pedidos, para mantener la información de seguimiento sincronizada.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Actualización exitosa</b><br>
+        <b>Dado</b> que existe un pedido y se recibe una petición PATCH con un estado válido<br>
+        <b>Cuando</b> el servidor valida los datos recibidos<br>
+        <b>Entonces</b> actualiza el estado del pedido y retorna el código HTTP 200.<br><br>
+        <b>Escenario: Pedido inexistente</b><br>
+        <b>Dado</b> que se recibe una petición para un pedido inexistente<br>
+        <b>Cuando</b> el servidor busca el pedido<br>
+        <b>Entonces</b> retorna el código HTTP 404.<br><br>
+        <b>Escenario: Estado inválido</b><br>
+        <b>Dado</b> que se recibe un estado no permitido<br>
+        <b>Cuando</b> el servidor valida la solicitud<br>
+        <b>Entonces</b> rechaza la actualización y retorna un código HTTP de error.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### 3.2. Impact Mapping
 
