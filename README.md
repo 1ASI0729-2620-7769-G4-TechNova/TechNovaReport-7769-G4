@@ -1351,8 +1351,87 @@ La información se estructura mediante una jerarquía clara y una categorizació
 
 ### 4.3. Landing Page UI Design
 
+<p align="justify">
+El diseño de la interfaz de usuario (UI) de la Landing Page de <b>WashTrack</b> busca presentar de forma clara y atractiva la propuesta de valor de la plataforma. La interfaz organiza visualmente sus principales funcionalidades, beneficios y características, destacando la gestión de pedidos, el seguimiento en tiempo real, el monitoreo IoT y la automatización de procesos. Esta estructura sirve como base para la elaboración del wireframe y posteriormente del mock-up de la Landing Page.
+</p>
+
+
 #### 4.3.1. Landing Page Wireframe
+<p align="justify">
+A continuación, se presentan los wireframes correspondientes a la interfaz de la Landing Page de <b>WashTrack</b>. Estos bocetos de baja fidelidad estructuran la disposición visual de los elementos clave, permitiendo validar la jerarquía de la información, la distribución de los componentes y la experiencia de navegación inicial del usuario antes de proceder con el diseño de alta fidelidad.
+</p>
+
+<div align="center">
+  <img src="./assets/LandingPage-Wireframe1.png" width="700px" alt="Landing Page Wireframe 1">
+  <p><b>Figura 1:</b> Sección principal con propuesta de valor, accesos rápidos y vista previa de la plataforma.</p>
+  <p></p>
+  
+  <img src="./assets/LandingPage-Wireframe2.png" width="700px" alt="Landing Page Wireframe 2">
+  <p><b>Figura 2:</b> Sección de identificación del problema y solución principal para los negocios de lavandería.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe3.png" width="700px" alt="Landing Page Wireframe 3">
+  <p><b>Figura 3:</b> Sección de características clave y descripción del funcionamiento general de WashTrack.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe4.png" width="700px" alt="Landing Page Wireframe 4">
+  <p><b>Figura 4:</b> Módulo detallado de seguimiento en tiempo real y listas de control de operaciones.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe5.png" width="700px" alt="Landing Page Wireframe 5">
+  <p><b>Figura 5:</b> Sección orientada a los dos lados de la misma lavandería.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe6.png" width="700px" alt="Landing Page Wireframe 6">
+  <p><b>Figura 6:</b> Sección "Sobre Nosotros" que presenta al equipo desarrollador que es <b> TechNova </b> y las cualidades de la plataforma.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe7.png" width="700px" alt="Landing Page Wireframe 7">
+  <p><b>Figura 7:</b> Sección de planes y precios adaptados a cada tamaño de lavandería.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe8.png" width="700px" alt="Landing Page Wireframe 8">
+  <p><b>Figura 8:</b> Formulario de atención, pie de página (footer) y enlaces legales de la plataforma.</p>
+</div>
+
 #### 4.3.2. Landing Page Mock-up
+<p align="justify">
+A continuación, se presentan los mock-ups correspondientes al diseño de alta fidelidad de la Landing Page de <b>WashTrack</b>. Estas interfaces visuales incorporan la paleta de colores definitiva, la tipografía, los elementos gráficos y los componentes interactivos estilizados, reflejando el aspecto visual final y la experiencia de usuario (UI/UX) implementada en el desarrollo del proyecto.
+</p>
+
+<div align="center">
+  <img src="./assets/LandingPage-Mockup1.png" width="700px" alt="Landing Page Mock-up 1">
+  <p><b>Figura 9:</b> Vista de la sección principal con propuesta de valor, accesos rápidos, botones de llamada a la acción y un panel interactivo flotante con métricas en tiempo real.</p>
+  <p></p>
+  
+  <img src="./assets/LandingPage-Mockup2.png" width="700px" alt="Landing Page Mock-up 2">
+  <p><b>Figura 10:</b> Sección de problema y solución que contrasta la gestión tradicional basada en cuadernos con la automatización digital de la plataforma.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup3.png" width="700px" alt="Landing Page Mock-up 3">
+  <p><b>Figura 11:</b> Sección de características clave y descripción del flujo operativo general de la plataforma respaldado por imágenes reales de instalaciones.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup4.png" width="700px" alt="Landing Page Mock-up 4">
+  <p><b>Figura 12:</b> Módulo detallado de seguimiento en tiempo real que detalla las diferentes etapas del estado de los pedidos de los clientes.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup5.png" width="700px" alt="Landing Page Mock-up 5">
+  <p><b>Figura 13:</b> Sección dual orientada tanto a los administradores de lavanderías como a los usuarios finales que buscan simplificar el lavado de sus prendas.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup6.png" width="700px" alt="Landing Page Mock-up 6">
+  <p><b>Figura 14:</b> Sección Sobre Nosotros que presenta al equipo desarrollador que es TechNova junto con los pilares fundamentales y valores de la plataforma.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup7.png" width="700px" alt="Landing Page Mock-up 7">
+  <p><b>Figura 15:</b> Sección de planes y precios adaptados para cada tamaño de negocio con un acceso directo para establecer contacto.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup8.png" width="700px" alt="Landing Page Mock-up 8">
+  <p><b>Figura 16:</b> Formulario de atención interactivo seguido del pie de página oficial que incluye la identidad de la marca y enlaces legales.</p>
+</div>
+
 
 ### 4.4. Web Applications UX/UI Design
 
