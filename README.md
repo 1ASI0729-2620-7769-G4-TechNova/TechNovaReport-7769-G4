@@ -933,6 +933,12 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 </p>
 <br>
 
+**Segundo segmento: Personas independientes que utilicen el servicio de lavanderías**
+<p align="center">
+  <img src="assets/Chapter2/EmpathyMap/LuciaEmpathyMap.png" alt="Empathy Lucia Velasquez" width="800"/>
+  <br/><i>Empathy Map de Lucia Velasquez</i>
+</p>
+
 ### 2.4. Big Picture EventStorming
 
 Para analizar de manera detallada el funcionamiento de **WashTrack**, plataforma orientada a la gestión de servicios de lavado y tratamiento de prendas, el equipo realizó una sesión de **Event Storming**. El objetivo principal fue reconocer cómo se desarrollan las actividades del negocio en la práctica y determinar los elementos más importantes que intervienen en ellas. A través de esta dinámica colaborativa, fue posible organizar los eventos, procesos y diferentes situaciones que forman parte del servicio, obteniendo una visión clara del comportamiento del negocio antes de definir aspectos vinculados con su desarrollo e implementación tecnológica.
