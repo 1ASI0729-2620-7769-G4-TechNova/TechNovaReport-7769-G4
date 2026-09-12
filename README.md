@@ -924,7 +924,14 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 <p align="justify">
   En esta sección se presenta el Empathy Map de los principales User Persona, con el propósito de comprender mejor sus necesidades, comportamientos, pensamientos, emociones, dificultades y expectativas. Además, esta herramienta nos ayuda a tener una visión más clara de su experiencia, facilitando la identificación de oportunidades de mejora para la solución.
 </p>
+<br>
 
+**Primer segmento: Propietarios de lavanderías independientes**
+<p align="center">
+  <img src="assets/Chapter2/EmpathyMap/CarlosEmpathyMap.png" alt="Empathy Mapping Carlos" width="800"/>
+  <br/><i>Empathy Map de Carlos Mendoza</i>
+</p>
+<br>
 
 ### 2.4. Big Picture EventStorming
 
