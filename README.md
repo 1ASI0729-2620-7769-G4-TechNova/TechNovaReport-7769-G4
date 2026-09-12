@@ -682,14 +682,114 @@ WashTrack se posiciona como una plataforma de gestión para pequeñas y medianas
 
 El análisis es funcional y estratégico: no busca afirmar que las plataformas tengan la misma presencia comercial en Perú, sino contrastar sus propuestas con la necesidad de digitalización de las lavanderías objetivo de WashTrack.
 
-| Criterio | WashTrack | CleanCloud | Cents | StarchUp |
-| :--- | :--- | :--- | :--- | :--- |
-| **Propuesta de valor** | Centralizar la operación de lavanderías y dar trazabilidad del pedido tanto al negocio como al cliente. | Plataforma integral de punto de venta y gestión para lavanderías, tintorerías y negocios de lavado y doblado. | Plataforma que combina operación de lavandería, punto de venta, pagos y conexión con equipos. | Sistema en la nube para punto de venta, pedidos y operación de lavanderías y tintorerías. |
-| **Gestión de pedidos y prendas** | Registro de clientes, órdenes, prendas, servicios, estados e historial desde una interfaz orientada a negocios pequeños y medianos. | Registra órdenes, detalles o notas por prenda, etiquetas, facturación y seguimiento del flujo de trabajo. | Gestiona órdenes de *wash & fold*, clientes, precios y operación desde un administrador de negocio. | Gestiona órdenes en punto de venta y el ciclo de atención de servicios de lavado y tintorería. |
-| **Experiencia del cliente** | Consulta de estado, historial, pagos y solicitud de recojo o entrega desde un espacio digital conectado con la lavandería. | Aplicaciones iOS y Android de marca, pedidos web, notificaciones y programación de recojo o entrega. | Aplicación para clientes, pagos móviles, notificaciones y opciones de fidelización. | Aplicaciones de pedido, comunicación por SMS y seguimiento de recojo o entrega. |
-| **Pagos y operación** | Propone pagos digitales vinculados a cada pedido y un flujo simple para el personal de la lavandería. | Pagos en tienda y en línea, además de integraciones con equipos y servicios externos. | Pagos con tarjeta, móvil, efectivo o saldo almacenado; incorpora hardware para autoservicio. | Pagos flexibles, punto de venta y herramientas de gestión de reparto. |
-| **Logística de recojo y entrega** | Coordinación de solicitudes, dirección, horario y estado de recojo o entrega, priorizando trazabilidad para el negocio y el cliente. | Planificación de rutas, aplicación para repartidores, seguimiento y conexiones con redes de reparto. | Ofrece pedidos en línea y herramientas para operadores de múltiples servicios; su fortaleza principal se concentra en la operación de lavanderías y equipos conectados. | Optimización de rutas, seguimiento de repartidores, actualizaciones de paradas y comunicación con el cliente. |
-| **Diferencia relevante para WashTrack** | Enfoque inicial en una experiencia clara, accesible y adaptable al contexto operativo de lavanderías pequeñas y medianas peruanas. | Mayor amplitud funcional e integraciones avanzadas, pero con una solución global que puede requerir adaptación operativa y comercial al mercado local. | Alta integración entre software, pagos y hardware; está especialmente orientada a laundromats de autoservicio. | Solución madura para operaciones de entrega y tintorería, con una propuesta más amplia que la necesidad inicial de digitalización de WashTrack. |
+<table>
+  <thead>
+    <tr>
+      <th colspan="6">Competitive Analysis Landscape</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
+      <td colspan="4">Determinar cómo puede diferenciarse WashTrack frente a soluciones consolidadas de gestión de lavanderías y qué capacidades debe priorizar para responder a las necesidades de pequeñas y medianas lavanderías peruanas y de sus clientes.</td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Startup / competidores</b></td>
+      <th>WashTrack</th>
+      <th>CleanCloud</th>
+      <th>Cents</th>
+      <th>StarchUp</th>
+    </tr>
+    <tr>
+      <td rowspan="2"><b>Perfil</b></td>
+      <td><b>Overview</b></td>
+      <td valign="top">Plataforma digital que conecta la gestión operativa de pequeñas y medianas lavanderías con la experiencia de sus clientes. Centraliza clientes, pedidos, prendas, estados, pagos y servicios de recojo o entrega.</td>
+      <td valign="top">Plataforma en la nube para lavanderías, tintorerías y negocios de lavado y doblado. Integra punto de venta, administración de órdenes, pagos, comunicación y servicios de recojo y entrega.</td>
+      <td valign="top">Plataforma de gestión para lavanderías y negocios de autoservicio que integra punto de venta, pagos, operación de <i>wash & fold</i>, administración de clientes y conexión con equipos.</td>
+      <td valign="top">Software en la nube para lavanderías y tintorerías que reúne punto de venta, pedidos digitales, gestión de clientes y herramientas para operaciones de recojo y entrega.</td>
+    </tr>
+    <tr>
+      <td><b>Ventaja competitiva</b><br>¿Qué valor ofrece a los clientes?</td>
+      <td valign="top">Ofrece una experiencia sencilla y localizada para el mercado peruano, conectando la trazabilidad de cada prenda con pagos digitales y coordinación de entregas en una solución de adopción gradual.</td>
+      <td valign="top">Destaca por la amplitud de su ecosistema, sus integraciones y la capacidad de administrar desde negocios independientes hasta operaciones con varias tiendas.</td>
+      <td valign="top">Integra software, pagos y operación de equipos, lo que permite administrar en una misma plataforma lavanderías de autoservicio y servicios atendidos.</td>
+      <td valign="top">Combina la administración del negocio con funciones especializadas de pedidos en línea, rutas y seguimiento de recojos o entregas.</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><b>Perfil de Marketing</b></td>
+      <td><b>Mercado objetivo</b></td>
+      <td valign="top">Pequeñas y medianas lavanderías peruanas que todavía dependen de registros manuales o herramientas no integradas, además de clientes que buscan mayor comodidad y visibilidad del servicio.</td>
+      <td valign="top">Lavanderías, tintorerías y negocios de lavado y doblado de distintos tamaños, incluidos establecimientos con múltiples locales.</td>
+      <td valign="top">Lavanderías de autoservicio, operadores de <i>wash & fold</i> y empresas con uno o varios establecimientos que buscan integrar software, pagos y equipos.</td>
+      <td valign="top">Lavanderías y tintorerías que necesitan digitalizar su punto de venta y gestionar servicios de recojo y entrega.</td>
+    </tr>
+    <tr>
+      <td><b>Estrategias de marketing</b></td>
+      <td valign="top">Modelo freemium, demostraciones a lavanderías locales, contenido educativo en español, alianzas con negocios del sector y comunicación de beneficios medibles como menos errores y consultas repetitivas.</td>
+      <td valign="top">Captación digital mediante demostraciones o pruebas, contenido especializado y presentación de planes e integraciones según el tamaño de la operación.</td>
+      <td valign="top">Estrategia comercial basada en demostraciones, casos de éxito, recursos educativos y una propuesta integral para modernizar la operación del negocio.</td>
+      <td valign="top">Demostraciones comerciales y comunicación centrada en digitalización, pedidos en línea y eficiencia de las operaciones de reparto.</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><b>Perfil de Producto</b></td>
+      <td><b>Productos & Servicios</b></td>
+      <td valign="top">Gestión de clientes, pedidos, prendas y estados; historial y seguimiento para clientes; pagos digitales; notificaciones; reportes; planes de suscripción y coordinación de recojo o entrega.</td>
+      <td valign="top">Punto de venta, gestión de órdenes y prendas, pagos, aplicaciones para clientes, marketing, reportes, inventario, seguimiento y gestión de recojo o entrega.</td>
+      <td valign="top">Punto de venta, administración de clientes, pagos, gestión de <i>wash & fold</i>, pedidos en línea, fidelización e integraciones con equipos y hardware.</td>
+      <td valign="top">Punto de venta, pedidos web y móviles, administración de clientes, pagos, comunicación, seguimiento de repartidores y optimización de rutas.</td>
+    </tr>
+    <tr>
+      <td><b>Precios & Costos</b></td>
+      <td valign="top">Plan gratuito; plan Básico de S/ 49 mensuales; y plan Avanzado de S/ 99 mensuales para lavanderías con mayor volumen y necesidades de gestión.</td>
+      <td valign="top">Modelo de suscripción SaaS con distintos planes y complementos; el costo depende de las capacidades y configuración seleccionadas por el negocio.</td>
+      <td valign="top">Precio comercial definido según las características y escala de la operación; requiere contactar al proveedor para recibir una propuesta.</td>
+      <td valign="top">Precio comercial según los módulos y necesidades de la lavandería; requiere solicitar una demostración o cotización.</td>
+    </tr>
+    <tr>
+      <td><b>Canales de distribución</b><br>Web y/o móvil</td>
+      <td valign="top">Aplicación web responsiva para lavanderías y clientes, complementada por una Landing Page.</td>
+      <td valign="top">Plataforma web y aplicaciones móviles vinculadas a la operación y experiencia del cliente.</td>
+      <td valign="top">Plataforma web, aplicaciones móviles y dispositivos o integraciones para la operación física de la lavandería.</td>
+      <td valign="top">Plataforma web y aplicaciones móviles para clientes, negocio y gestión de reparto.</td>
+    </tr>
+    <tr>
+      <td rowspan="5"><b>Análisis SWOT</b></td>
+      <td colspan="5">El análisis identifica factores internos y externos de cada propuesta. En WashTrack, las fortalezas deben permitir aprovechar las oportunidades del mercado y respaldar su ventaja competitiva.</td>
+    </tr>
+    <tr>
+      <td><b>Fortalezas</b></td>
+      <td valign="top">Enfoque en lavanderías peruanas; experiencia conectada entre negocio y cliente; trazabilidad por pedido y prenda; adopción gradual y planes accesibles.</td>
+      <td valign="top">Solución madura, amplia cobertura funcional, integraciones, aplicaciones de marca y capacidad multitienda.</td>
+      <td valign="top">Integración entre software, pagos y equipos; conocimiento especializado de lavanderías de autoservicio; herramientas para escalar operaciones.</td>
+      <td valign="top">Experiencia en pedidos digitales, gestión de reparto, optimización de rutas y comunicación con el cliente.</td>
+    </tr>
+    <tr>
+      <td><b>Debilidades</b></td>
+      <td valign="top">Producto en etapa inicial, poco reconocimiento de marca, necesidad de validar la adopción y menor cantidad de integraciones frente a plataformas consolidadas.</td>
+      <td valign="top">La amplitud funcional puede aumentar la complejidad y el costo para negocios pequeños; requiere adaptación al contexto operativo y comercial peruano.</td>
+      <td valign="top">Su propuesta está fuertemente orientada al mercado de autoservicio y puede requerir equipos o una operación más sofisticada que la de una lavandería pequeña.</td>
+      <td valign="top">El énfasis en reparto y operaciones amplias puede exceder las necesidades iniciales de negocios que solo buscan reemplazar registros manuales.</td>
+    </tr>
+    <tr>
+      <td><b>Oportunidades</b></td>
+      <td valign="top">Digitalización de lavanderías locales, crecimiento de pagos digitales y servicios bajo demanda, y necesidad de reducir errores y consultas sobre pedidos.</td>
+      <td valign="top">Expansión a nuevos mercados, nuevas integraciones y crecimiento de servicios de recojo y entrega.</td>
+      <td valign="top">Mayor adopción de pagos digitales, automatización de equipos y consolidación de operadores con múltiples locales.</td>
+      <td valign="top">Crecimiento de pedidos en línea, servicios de entrega y herramientas móviles para repartidores y clientes.</td>
+    </tr>
+    <tr>
+      <td><b>Amenazas</b></td>
+      <td valign="top">Competidores con mayor trayectoria, resistencia al cambio de negocios tradicionales, baja disposición de pago y aparición de nuevas soluciones locales.</td>
+      <td valign="top">Competidores regionales de menor costo y necesidad de adaptar su plataforma a normativas y prácticas de cada mercado.</td>
+      <td valign="top">Alternativas de software sin dependencia de hardware, cambios en los proveedores de pagos y nuevos competidores especializados.</td>
+      <td valign="top">Competidores con ecosistemas más amplios, soluciones locales de menor precio y cambios en los costos de servicios logísticos.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="justify">
+La comparación se elaboró a partir de la información pública presentada por <a href="https://www.cleancloudapp.com/es/caracteristicas">CleanCloud</a>, <a href="https://www.trycents.com/solutions">Cents</a> y <a href="https://www.starchup.com/">StarchUp</a>. Los precios de los competidores se describen de manera general porque pueden variar según el plan, los módulos contratados, el número de locales y las condiciones comerciales vigentes.
+</p>
 
 El análisis muestra que las soluciones internacionales han resuelto con madurez procesos de punto de venta, pagos, entrega y comunicación. Sin embargo, su amplitud funcional también representa una oportunidad para WashTrack: iniciar con los procesos que generan mayor fricción en el segmento objetivo —registro de órdenes y prendas, actualización de estados, pagos y coordinación de entrega— mediante una experiencia sencilla, en español y ajustable a la realidad de cada lavandería. La plataforma debe evitar competir inicialmente por cantidad de integraciones o hardware y concentrarse en reducir el trabajo manual, los errores de trazabilidad y las consultas repetitivas de los clientes.
 
