@@ -1271,6 +1271,18 @@ La información se estructura mediante una jerarquía clara y una categorizació
 
 
 #### 4.2.4. Searching Systems
+<p>El sistema de búsqueda diseñado para <b>WashTrack</b> tiene como objetivo <b>facilitar a los usuarios y administradores la localización eficiente de información</b> relacionada con la gestión de pedidos, el estado de las prendas, las alertas de las lavadoras inteligentes y los reportes operativos. Para ello, <b>se emplean campos de búsqueda y filtros</b> que permiten reducir la cantidad de información mostrada y encontrar rápidamente los datos relevantes según el perfil del usuario y la actividad que desea consultar o gestionar.</p>
+
+| <b>Nombre del Filtro</b> | <b>Descripción</b> |
+|---|---|
+| <b>Buscar pedidos por código</b> | Permite ingresar el código de un pedido para localizar rápidamente la información correspondiente y consultar su estado actual. |
+| <b>Filtrar pedidos por estado</b> | Permite organizar y visualizar los pedidos según su estado dentro del proceso de servicio, facilitando la identificación del progreso de cada pedido. |
+| <b>Filtrar pedidos por fecha</b> | Permite consultar pedidos correspondientes a un periodo determinado, facilitando la búsqueda de información específica dentro del historial del servicio. |
+| <b>Filtrar pedidos por prioridad</b> | Permite identificar los pedidos asociados al <b>plan VIP</b>, los cuales cuentan con prioridad en la atención y procesamiento del servicio. |
+| <b>Consultar seguimiento del pedido</b> | Permite acceder a la información relacionada con el progreso del pedido y visualizar las diferentes etapas del proceso de lavado de manera ordenada. |
+
+<p></p>
+
 #### 4.2.5. Navigation Systems
 
 ### 4.3. Landing Page UI Design
