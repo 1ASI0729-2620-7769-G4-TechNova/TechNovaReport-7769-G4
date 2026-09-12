@@ -946,6 +946,39 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 
 #### 2.2.3. Análisis de entrevistas
 
+**Primer Segmento: Propietarios de lavanderías independientes**
+
+<p align="justify">
+<ul>
+  <li>El 100% de los propietarios entrevistados utiliza mecanismos de registro que no se encuentran completamente centralizados, como cuadernos físicos, tickets, fichas, boletas o archivos de Excel, lo que dificulta el seguimiento y consulta de la información de los pedidos.</li><br>
+  <li>El 100% de los propietarios entrevistados ha identificado dificultades relacionadas con el registro y control de las prendas, principalmente por errores en las cantidades, detalles omitidos, pérdida de tickets, confusión entre pedidos o mezcla de prendas.</li><br>
+  <li>El 100% de los propietarios entrevistados considera que los errores en el registro pueden generar consecuencias negativas para el negocio y la relación con el cliente, como reclamos, pérdida de confianza, reposición de prendas o pérdidas económicas.</li><br>
+  <li>El 66,7% de los propietarios entrevistados señala que una de las principales dificultades de la gestión diaria está relacionada con el seguimiento de los pedidos pendientes y el control de las prendas que todavía deben ser entregadas.</li><br>
+  <li>El 66,7% de los propietarios entrevistados ha experimentado retrasos en la entrega de pedidos debido a factores como problemas durante el secado, condiciones climáticas, fallas en el suministro de gas o un incremento en la cantidad de pedidos recibidos.</li><br>
+  <li>El 66,7% de los propietarios entrevistados manifiesta que algunas actividades de gestión les generan una carga adicional de tiempo, principalmente la búsqueda de información de pedidos anteriores, el registro de pedidos y la identificación de pedidos pendientes.</li><br>
+  <li>El 100% de los propietarios entrevistados presenta limitaciones en la comunicación con sus clientes, debido a que no cuenta con un sistema integrado para informar el estado de los pedidos. La comunicación se realiza principalmente mediante llamadas, WhatsApp o mensajes de texto, especialmente cuando el pedido está listo o presenta algún retraso.</li><br>
+  <li>El 100% de los propietarios entrevistados no ofrece un servicio general de recojo y entrega a domicilio. Nataly únicamente lo realiza para clientes frecuentes y cercanos, mientras que Isabela y Elizabeth trabajan exclusivamente con recojo en el local.</li><br>
+  <li>El 100% de los propietarios entrevistados muestra preocupación por mantener la satisfacción y confianza de sus clientes, especialmente ante situaciones de retrasos, pérdida, confusión o errores en las prendas.</li>
+</ul>
+</p>
+<br>
+
+**Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+<p align="justify">
+<ul>
+  <li>El 100% de los clientes entrevistados considera importante que las prendas reciban un tratamiento adecuado de acuerdo con sus características y material, especialmente cuando se trata de prendas delicadas, costosas o que requieren servicios específicos.</li><br>
+  <li>El 100% de los clientes entrevistados recibe una boleta o comprobante físico donde se registran las prendas entregadas, la cantidad, el servicio solicitado y/o la fecha estimada de recojo.</li><br>
+  <li>El 100% de los clientes entrevistados manifiesta interés en conocer el avance de sus pedidos y recibir información actualizada sobre la etapa en la que se encuentran sus prendas, así como la fecha y hora exacta en que estarán listas para ser recogidas.</li><br>
+  <li>El 100% de los clientes entrevistados valora la posibilidad de recibir notificaciones relacionadas con el estado de sus prendas, especialmente cuando el pedido está listo para ser recogido.</li><br>
+  <li>El 66,7% de los clientes entrevistados ha experimentado dificultades de comunicación con la lavandería, principalmente porque sus llamadas o mensajes no son respondidos o porque el personal no puede proporcionar información sobre el estado del pedido.</li><br>
+  <li>El 66,7% de los clientes entrevistados ha experimentado retrasos o incumplimientos en los tiempos de entrega establecidos por la lavandería, situación que les ha generado inconvenientes para organizar sus actividades o utilizar las prendas que necesitaban.</li><br>
+  <li>El 100% de los clientes entrevistados debe trasladarse físicamente hasta la lavandería para entregar o recoger sus prendas, generando un consumo de tiempo y esfuerzo, especialmente cuando se trata de prendas voluminosas.</li><br>
+  <li>El 66,7% de los clientes entrevistados muestra interés en contar con un servicio de recojo o entrega a domicilio, principalmente porque permitiría reducir el tiempo y esfuerzo asociado al traslado de las prendas.</li><br>
+  <li>El 66,7% de los clientes entrevistados expresa preocupación por la confianza y seguridad de sus prendas, debido al temor de que estas se pierdan, se mezclen con otros pedidos, sean dañadas o reciban un tratamiento diferente al solicitado.</li><br>
+</ul>
+</p>
+
 ### 2.3. Needfinding
 
 <p align="justify">
