@@ -921,6 +921,10 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
+<p align="justify">
+  En esta sección se presenta el Empathy Map de los principales User Persona, con el propósito de comprender mejor sus necesidades, comportamientos, pensamientos, emociones, dificultades y expectativas. Además, esta herramienta nos ayuda a tener una visión más clara de su experiencia, facilitando la identificación de oportunidades de mejora para la solución.
+</p>
+
 
 ### 2.4. Big Picture EventStorming
 
