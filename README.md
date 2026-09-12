@@ -931,6 +931,12 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 </p>
 <br>
 
+**Segundo segmento: Personas independientes que utilicen el servicio de lavanderías**
+<p align="center">
+  <img src="assets/Chapter2/UserJourneyMap/Lucia_journey_mapping.png" alt="User Journey Mapping Lucia" width="800"/>
+  <br/><i>User Journey Mapping de Lucia Velasquez</i>
+</p>
+
 #### 2.3.4. Empathy Mapping
 <p align="justify">
   En esta sección se presenta el Empathy Map de los principales User Persona, con el propósito de comprender mejor sus necesidades, comportamientos, pensamientos, emociones, dificultades y expectativas. Además, esta herramienta nos ayuda a tener una visión más clara de su experiencia, facilitando la identificación de oportunidades de mejora para la solución.
