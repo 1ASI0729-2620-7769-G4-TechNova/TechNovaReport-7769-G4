@@ -935,6 +935,113 @@ WashTrack es una plataforma web, desarrollada por <b>TechNova</b> enfocada en la
 Para mantener una identidad visual coherente, WashTrack utiliza una combinación de <b>tonos azules, celestes, blancos y grises, acompañados de una tipografía diferenciada para títulos y contenido general.</b> La distribución de los elementos utiliza espacios y márgenes que permiten organizar la información sin sobrecargar la interfaz, mientras que botones, tarjetas, indicadores y formularios mantienen características visuales consistentes. En cuanto al lenguaje, la comunicación de WashTrack <b>adopta un tono serio, profesional, cercano y entusiasta</b>, evitando expresiones excesivamente formales o técnicas para facilitar la comprensión tanto de los clientes como de los encargados de las lavanderías.
 
 A continuación, se detallan las <b>principales decisiones de estilo </b>consideradas para la construcción de la interfaz de WashTrack.</p>
+<ul>
+  <li>
+    <b>Branding:</b><br/>
+    <p>El logotipo de WashTrack representa su enfoque en la digitalización, el monitoreo y la rapidez de los servicios de lavandería mediante un diseño moderno, claro y simbólico. En el centro, se muestra una lavadora estilizada acompañada de una pila de prendas dobladas de manera ordenada, reflejando el <b>cuidado textil y la gestión eficiente de los pedidos</b>. Al lado, se integra la silueta de una prenda en su interior de la lavadora, el cual <b>simboliza el seguimiento en tiempo real y la logística de recojo y entrega.</b> Asimismo, la línea de ruta discontinua refuerza visualmente la idea de conectividad, desplazamiento y seguimiento del servicio.</p>
+    <p>Todo este conjunto visual utiliza una paleta de colores basada en tonos <b >azules oscuros y celestes vibrantes, complementados con blanco y destellos brillantes</b>. Los tonos azules transmiten confianza, tecnología y seguridad, mientras que los celestes y blancos se relacionan con la limpieza, frescura y claridad, conceptos asociados directamente al servicio de lavandería. Los destellos aportan una sensación de dinamismo y rapidez, reforzando la propuesta de valor de WashTrack.</p>
+    <p>Finalmente, el nombre WashTrack se presenta mediante una <b>tipografía amigable y dinámica</b>, buscando facilitar su reconocimiento y transmitir cercanía e innovación. El eslogan <b>“TU ROPA, LISTA EN MENOS TIEMPO”</b> complementa la identidad de la marca al comunicar de manera directa su principal beneficio que es ofrecer un servicio eficiente, rápido y fácil de gestionar, logrando una identidad que permite asociar fácilmente a WashTrack con los conceptos de <b>lavandería, tecnología, seguimiento y rapidez.</b></p>
+  </li>
+</ul>
+
+<div align="center">
+  <img src="assets/Logo WachTrack.png" alt="Logotipo de WashTrack" width="200"/>
+</div>
+
+<ul>
+  <li>
+    <b>Typography (Tipografía):
+    </b><br/>
+    <p>WashTrack utiliza una jerarquía tipográfica clara y consistente para <b>garantizar una adecuada legibilidad</b> tanto en interfaces de escritorio como en dispositivos móviles. Se emplea <b>Poppins como tipografía principal</b> para los elementos generales de la interfaz, como menús, botones, etiquetas, párrafos y textos secundarios. Su diseño limpio y moderno <b>permite transmitir una identidad amigable, tecnológica y fácil de utilizar.</b></p>
+    <p>Para los títulos principales, encabezados y elementos visuales destacados, se utiliza <b>Playfair Display como tipografía complementaria.</b> Su estilo elegante con serifas genera un contraste visual con la simplicidad de Poppins, permitiendo establecer una mayor jerarquía y otorgando personalidad a la identidad de WashTrack.</p>
+    <p>La combinación de <b>Poppins y Playfair Display permite equilibrar funcionalidad e identidad visual.</b> Poppins prioriza la claridad y facilidad de lectura, mientras que Playfair Display aporta elegancia y énfasis a los contenidos importantes. Esta jerarquía facilita que el usuario identifique rápidamente la información relevante sin sobrecargar visualmente la interfaz.</p>
+    <b>Escala y Métricas:</b>
+    <p>Se establece una escala tipográfica basada en un tamaño de referencia de 16px, utilizando una escala de 1.25. El interlineado o line-height se establece en 1.2 para los títulos y elementos destacados, mientras que los textos de lectura pueden utilizar un interlineado mayor para mejorar la legibilidad y proporcionar un adecuado respiro visual.</p>
+    <b>Weights:</b>
+<ul>
+    <li>Delgado (Thin)</li>
+    <li>Extra Fino (Extra Light)</li>
+    <li>Fino (Light)</li>
+    <li>Normal (Regular)</li>
+    <li>Mediano (Medium)</li>
+    <li>Semi Negrita (Semi Bold)</li>
+    <li>Negrita (Bold)</li>
+    <li>Extra Negrita (Extra Bold)</li>
+    <li>Grueso (Black)</li>
+  
+</ul>
+<b>Nomenclatura:</b>
+<div align="center">
+    <img src="assets/nomenclatura.png" alt="Nomenclatura" width="300"/>
+</div>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <b>Colors o Paleta de colores:</b><br/>
+    <p>
+      La paleta de colores de WashTrack está diseñada para transmitir limpieza,
+      confianza, modernidad y eficiencia tecnológica. Los colores se organizan
+      según su función dentro de la interfaz, manteniendo una identidad visual
+      coherente y una experiencia agradable para el usuario.
+    </p>
+     <ul>
+      <li>
+        <b>Color Primario:</b> Azul Oscuro / Marino
+        (<code>#123B7A</code> / <code>#0B192C</code>):<br/>
+        Se utiliza en la barra de navegación superior, textos principales,
+        encabezados y botones de llamada a la acción (CTA). Transmite
+        confianza, solidez y profesionalismo.
+      </li>
+      <li>
+        <b>Color Secundario:</b> Celeste Brillante / Azul Interactivo
+        (<code>#087FEA</code> / <code>#22B8F0</code>):<br/>
+        Se emplea en elementos interactivos, enlaces activos, bordes de enfoque
+        (<i>focus</i>) y gráficos estadísticos destacados. Aporta dinamismo,
+        frescura y modernidad a la interfaz.
+      </li>
+      <li>
+        <b>Fondos y Superficies:</b> Celeste Suave / Blanco
+        (<code>#EAF8FF</code> / <code>#FFFFFF</code>):<br/>
+        Se aplican en tarjetas, contenedores, secciones principales
+        (<i>hero sections</i>) y fondos generales. Estos colores aportan
+        amplitud visual, limpieza y frescura, conceptos relacionados con el
+        servicio de lavandería.
+      </li>
+      <li>
+        <b>Colores de Soporte y Estados:</b>
+        <ul>
+          <li>
+            <b>Verde Éxito (<code>#1A8A5F</code>):</b>
+            Se utiliza para indicadores como "En línea", pedidos completados
+            y métricas positivas.
+          </li>
+          <li>
+            <b>Rojo Alerta (<code>#C2452F</code>):</b>
+            Se utiliza para notificaciones críticas y situaciones que requieren
+            atención inmediata.
+          </li>
+          <li>
+            <b>Naranja Alerta (<code>#D97706</code>):</b>
+            Se emplea para avisos de mantenimiento de las lavadoras y alertas
+            IoT que requieren revisión por parte del administrador.
+          </li>
+        </ul>
+      </li>
+    </ul>
+     <p>
+      En conjunto, esta paleta permite diferenciar visualmente las funciones y
+      estados de la plataforma, manteniendo una identidad asociada con la
+      <b>limpieza, tecnología, confianza y eficiencia</b>.
+    </p>
+  </li>
+</ul>
+<p>
+<div align="center">
+    <img src="assets/PaletaColores.png" alt="Paleta de Colores" width="400"/>
+</div>
+  </p>    
 
 #### 4.1.2. Web Style Guidelines
 
