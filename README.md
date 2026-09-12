@@ -68,7 +68,7 @@
 | Versión | Fecha      | Autor                         | Descripcion                                              |
 | :--- |:-----------|:------------------------------|:---------------------------------------------------------|
 | 1.0.0 | 06/09/2026 | Jude Hermoza | Insercion del documento base. |
-| 1.1.0 | 06/09/2026 | Perez Vasquez Ariana Valeria | Student Outcome, Avance Capítulo 1, y NeedFinding, User Personas y User Task Matrix, como Landing Page.
+| 1.1.0 | 06/09/2026 | Perez Vasquez Ariana Valeria | Student Outcome, Avance Capítulo 1, y NeedFinding, User Personas y User Task Matrix parte del Capítulo 4, como Landing Page.
 ---
 
 ## Project Report Collaboration Insights
@@ -925,6 +925,8 @@ Para mantener una comunicación clara y consistente entre los usuarios, el equip
 ## Capítulo IV: Product Design
 
 ### 4.1. Style Guidelines
+
+WashTrack es una plataforma web, desarrollada por <b>TechNova</b> enfocada en la gestión y seguimiento digital de servicios de lavandería, <b>conectando a clientes con lavanderías</b> para <b>facilitar la programación, procesamiento y monitoreo de sus pedidos.</b> Para brindar una experiencia moderna, clara e intuitiva, se ha optado por un diseño visual limpio, minimalista y funcional. Predominan colores como azul, celeste, blanco y tonos oscuros, que transmiten confianza, limpieza, tecnología y rapidez. El diseño prioriza la simplicidad, organización y accesibilidad, permitiendo que tanto los clientes como los encargados de las lavanderías puedan navegar y gestionar las órdenes de manera sencilla. Además, se emplean elementos visuales diferenciados para representar el estado de cada pedido, facilitando el seguimiento del proceso desde la recepción de las prendas hasta su entrega.
 
 #### 4.1.1. General Style Guidelines
 #### 4.1.2. Web Style Guidelines
