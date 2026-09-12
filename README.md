@@ -1046,6 +1046,106 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
 #### 4.1.2. Web Style Guidelines
 <p>La versión web de WashTrack ha sido diseñada bajo un enfoque <b>Responsive-First y modular</b>, buscando garantizar una experiencia consistente y accesible para administradores de lavanderías y usuarios finales, independientemente del dispositivo utilizado. Los estándares visuales y de interacción definidos para la interfaz son los siguientes:</p>
 
+<ul>
+  <li>
+    <b>Diseño Responsivo (Responsive Layout):
+    </b><br/>
+    <p>La interfaz utiliza una estructura flexible que permite adaptar la distribución y el tamaño de los componentes según el dispositivo. Se consideran diferentes puntos de quiebre que son los breakpoints para dispositivos móviles, tabletas y pantallas de escritorio, asegurando que los contenidos, elementos visuales y controles táctiles mantengan una correcta distribución y legibilidad.</p>
+  </li>
+  <table align="center" style="border: none;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/Responsive1.PNG" alt="Responsive 1" width="400"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/Responsive2.PNG" alt="Responsive 2" width="300"/>
+    </td>
+  </tr>
+</table>
+<li>
+    <b>Sistema de Navegación (Navbar & Menús):
+    </b><br/>
+    <p>La barra de navegación superior (Navbar) permite acceder de forma rápida a las principales funcionalidades de la plataforma, como Inicio, Monitoreo de Lavadoras, Reportes, Alertas IoT y Soporte. En dispositivos móviles, la navegación se adapta mediante un menú tipo hamburguesa, reduciendo la cantidad de elementos visibles y facilitando su interacción.</p>
+  </li>
+  <div align="center">
+    <img src="assets/SN1.png" alt="SN1" width="500"/>
+</div>
+<br>
+<div align="center">
+    <img src="assets/SN2.PNG" alt="SN2" width="500"/>
+</div>
+
+  <li>
+    <b>Sistema de Espaciado y Distribución:
+    </b><br/>
+    <p>Los contenidos se organizan mediante una <b>estructura modular basada en columnas, márgenes y espacios consistentes entre componentes.</b> Se mantiene una separación visual adecuada entre títulos, textos, botones, tarjetas y secciones para evitar la saturación de información y facilitar la lectura.</p>
+  </li>
+  <li>
+    <b>Componentes y Botones:
+    </b><br/>
+    <p>Los botones y elementos interactivos mantienen una apariencia consistente con la identidad visual de WashTrack. Los botones principales utilizan el color primario de la marca, mientras que los elementos secundarios emplean colores complementarios. Se consideran diferentes estados de interacción, como estado normal, hover, focus y disabled, proporcionando una respuesta visual clara ante las acciones del usuario.</p>
+  </li>
+  <table align="center" style="border: none;">
+
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot1.PNG" alt="Bot 1" width="200"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot2.PNG" alt="Bot 2" width="200"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot3.PNG" alt="Bot 3" width="200"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot4.PNG" alt="Bot 4" width="200"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot5.PNG" alt="Bot 5" width="200"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot6.PNG" alt="Bot 6" width="200"/>
+    </td>
+  </tr>
+</table>
+<li>
+    <b>Paneles Modulares y Visualización de Datos:
+    </b><br/>
+    <p>La información se presenta mediante tarjetas con bordes redondeados y fondos claros sobre superficies en tonos celestes suaves. Este sistema permite organizar métricas, estados de las máquinas, alertas y gráficos de manera independiente, facilitando la lectura y el monitoreo de la información.</p>
+  </li>
+  <div align="center">
+    <img src="assets/Panel.PNG" alt="Panel" width="300"/>
+</div>
+<li>
+    <b>Estados, Alertas y Retroalimentación:
+    </b><br/>
+    <p>El sistema utiliza colores diferenciados para comunicar estados y acciones. El verde representa operaciones exitosas o máquinas en línea, mientras que el rojo y naranja se utilizan para alertas, errores o situaciones que requieren atención. De esta manera, la información crítica puede identificarse rápidamente.</p>
+  </li>
+   <div align="center">
+    <img src="assets/coloresTipo.PNG" alt="Panel" width="300"/>
+</div>
+ <li>
+    <b>Transiciones y Animaciones:
+    </b><br/>
+    <p>Las transiciones se utilizan de manera moderada para acompañar cambios de estado, apertura de modales, despliegue de menús y acciones interactivas. <b>Se emplean animaciones suaves para evitar cambios abruptos y mantener una experiencia fluida </b>sin distraer al usuario.</p>
+  </li>
+ <li>
+    <b>Consistencia Visual:
+    </b><br/>
+    <p>Los componentes mantienen patrones visuales consistentes en toda la plataforma, utilizando la misma paleta de colores, tipografías, bordes, botones, iconografía y estilos de interacción definidos previamente en el sistema de diseño. Esto permite que el usuario reconozca y comprenda los elementos de la interfaz con mayor facilidad.</p>
+  </li>
+  <div align="center">
+    <img src="assets/conVis1.PNG" alt="Panel" width="500"/>
+</div>
+</ul>
+<p>Todas ellas se representan mediante las diferentes vistas de la <b>interfaz web de WashTrack</b>, incluyendo la versión de escritorio, adaptación para dispositivos móviles, sistema de navegación, tarjetas informativas, botones, estados y paneles de monitoreo.</p>
+
 
 ### 4.2. Information Architecture
 
