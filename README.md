@@ -920,6 +920,10 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 * **Diferencias principales:** Las actividades de Lucía están orientadas al consumo del servicio y la optimización de su tiempo personal con una frecuencia semanal, mientras que las de Carlos corresponden a la administración intensiva, control de stock/prendas y gestión operativa del local con una frecuencia diaria.
 
 #### 2.3.3. User Journey Mapping
+<p align="justify">
+  En esta sección se presentan los User Journey Maps elaborados a partir de los user persona por cada segmento. Estos mapas describen la experiencia actual del usuario identificando sus acciones, pensamientos, emociones, puntos de contacto, principales dificultades y oportunidades a lo largo del proceso. 
+</p>
+
 #### 2.3.4. Empathy Mapping
 <p align="justify">
   En esta sección se presenta el Empathy Map de los principales User Persona, con el propósito de comprender mejor sus necesidades, comportamientos, pensamientos, emociones, dificultades y expectativas. Además, esta herramienta nos ayuda a tener una visión más clara de su experiencia, facilitando la identificación de oportunidades de mejora para la solución.
