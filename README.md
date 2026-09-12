@@ -1153,6 +1153,33 @@ La arquitectura de la información de **WashTrack** busca ofrecer una experienci
 La información se estructura mediante una jerarquía clara y una categorización modular, permitiendo que cada usuario encuentre rápidamente las funcionalidades correspondientes a su perfil. Asimismo, la navegación <b>sigue una secuencia lógica que facilita el acceso a las principales secciones del sistema</b>, tales como la barra de navegación superior, la sección de características, que presenta el seguimiento en tiempo real de las seis etapas del proceso de lavado, la sección orientada a los diferentes perfiles de usuario ("Para quién"), la presentación institucional ("Sobre nosotros") y el formulario de atención ubicado al final de la página. Esta organización <b>permite reducir la carga cognitiva y mejorar la experiencia de uso.</b>
 
 #### 4.2.1. Organization Systems
+<p></p>
+
+- <b>Organización jerárquica (Visual Hierarchy):</b><br/>
+  Se aplica principalmente en la página principal y en la presentación de los contenidos informativos. La información se organiza de acuerdo con diferentes niveles de importancia, utilizando títulos, subtítulos, tamaños de texto, colores, espacios y botones para dirigir la atención del usuario hacia los elementos principales. Por ejemplo, en la página de inicio se prioriza la propuesta de valor de WashTrack y posteriormente se presentan sus características y demás contenidos.
+<p></p>
+
+- <b>Organización secuencial (Step-by-Step):</b><br/>
+  Se utiliza en la representación del proceso de seguimiento del servicio de lavado. Las seis etapas del proceso se presentan siguiendo un orden determinado, permitiendo que el usuario comprenda progresivamente el estado de su ropa y conozca en qué etapa se encuentra. Este sistema resulta especialmente útil para representar procesos que requieren una secuencia lógica.
+<p></p>
+
+- <b>Organización matricial:</b><br/>
+  Se utiliza para relacionar las funcionalidades de WashTrack con los diferentes perfiles de usuarios. La información puede organizarse considerando tanto el tipo de usuario como las necesidades o funcionalidades disponibles para cada perfil, facilitando la identificación de los servicios que corresponden a cada audiencia.
+<p></p>
+
+- <b>Categorización por tópicos:</b><br/>
+  Se utiliza para agrupar la información de acuerdo con su temática. De esta manera, los contenidos se distribuyen en secciones como características de la plataforma, seguimiento del proceso, información sobre WashTrack y atención al usuario, evitando mezclar contenidos de diferente naturaleza.
+<p></p>
+
+- <b>Categorización según audiencia:</b><br/>
+  Se aplica principalmente en la sección <b>“Para quién”</b>, donde la información se presenta de acuerdo con los diferentes perfiles a los que está dirigida la solución. Esta organización permite que cada grupo de usuarios identifique rápidamente los beneficios y funcionalidades relevantes para sus necesidades.
+<p></p>
+
+- <b>Categorización cronológica:</b><br/>
+  Se aplica principalmente al seguimiento del proceso de lavado y al historial de ciclos. La información relacionada con las etapas del servicio se presenta siguiendo un orden temporal, permitiendo comprender la evolución del proceso desde su inicio hasta su finalización.
+<p></p>
+
+
 #### 4.2.2. Labeling Systems
 #### 4.2.3. SEO Tags and Meta Tags
 #### 4.2.4. Searching Systems
