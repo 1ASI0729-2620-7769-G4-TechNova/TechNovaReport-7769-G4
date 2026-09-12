@@ -861,13 +861,23 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
   <li>El 100% de los propietarios entrevistados muestra preocupación por mantener la satisfacción y confianza de sus clientes, especialmente ante situaciones de retrasos, pérdida, confusión o errores en las prendas.</li>
 </ul>
 </p>
+<br>
 
+**Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
 
-
-
-
-
-
+<p align="justify">
+<ul>
+  <li>El 100% de los clientes entrevistados considera importante que las prendas reciban un tratamiento adecuado de acuerdo con sus características y material, especialmente cuando se trata de prendas delicadas, costosas o que requieren servicios específicos.</li><br>
+  <li>El 100% de los clientes entrevistados recibe una boleta o comprobante físico donde se registran las prendas entregadas, la cantidad, el servicio solicitado y/o la fecha estimada de recojo.</li><br>
+  <li>El 100% de los clientes entrevistados manifiesta interés en conocer el avance de sus pedidos y recibir información actualizada sobre la etapa en la que se encuentran sus prendas, así como la fecha y hora exacta en que estarán listas para ser recogidas.</li><br>
+  <li>El 100% de los clientes entrevistados valora la posibilidad de recibir notificaciones relacionadas con el estado de sus prendas, especialmente cuando el pedido está listo para ser recogido.</li><br>
+  <li>El 66,7% de los clientes entrevistados ha experimentado dificultades de comunicación con la lavandería, principalmente porque sus llamadas o mensajes no son respondidos o porque el personal no puede proporcionar información sobre el estado del pedido.</li><br>
+  <li>El 66,7% de los clientes entrevistados ha experimentado retrasos o incumplimientos en los tiempos de entrega establecidos por la lavandería, situación que les ha generado inconvenientes para organizar sus actividades o utilizar las prendas que necesitaban.</li><br>
+  <li>El 100% de los clientes entrevistados debe trasladarse físicamente hasta la lavandería para entregar o recoger sus prendas, generando un consumo de tiempo y esfuerzo, especialmente cuando se trata de prendas voluminosas.</li><br>
+  <li>El 66,7% de los clientes entrevistados muestra interés en contar con un servicio de recojo o entrega a domicilio, principalmente porque permitiría reducir el tiempo y esfuerzo asociado al traslado de las prendas.</li><br>
+  <li>El 66,7% de los clientes entrevistados expresa preocupación por la confianza y seguridad de sus prendas, debido al temor de que estas se pierdan, se mezclen con otros pedidos, sean dañadas o reciban un tratamiento diferente al solicitado.</li><br>
+</ul>
+</p>
 
 ### 2.3. Needfinding
 
