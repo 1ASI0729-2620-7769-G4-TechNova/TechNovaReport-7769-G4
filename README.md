@@ -1044,6 +1044,8 @@ A continuación, se detallan las <b>principales decisiones de estilo </b>conside
   </p>    
 
 #### 4.1.2. Web Style Guidelines
+<p>La versión web de WashTrack ha sido diseñada bajo un enfoque <b>Responsive-First y modular</b>, buscando garantizar una experiencia consistente y accesible para administradores de lavanderías y usuarios finales, independientemente del dispositivo utilizado. Los estándares visuales y de interacción definidos para la interfaz son los siguientes:</p>
+
 
 ### 4.2. Information Architecture
 
