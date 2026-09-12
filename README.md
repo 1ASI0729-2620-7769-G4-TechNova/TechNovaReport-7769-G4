@@ -1209,6 +1209,66 @@ La información se estructura mediante una jerarquía clara y una categorizació
 #### 4.2.3. SEO Tags and Meta Tags
 <p>Para mejorar la visibilidad de WashTrack en los motores de búsqueda y atraer a los usuarios adecuados, se han definido los siguientes SEO Tags y Meta Tags para las principales páginas de la experiencia, considerando tanto el sitio web estático que es la Landing Page como la Web Application. Para cada página se especifican los valores correspondientes a Title, Meta Description, Keywords y Author.</p>
 
+#### Landing Page
+<p></p>
+
+- <b>Title:</b> WashTrack - Gestión Inteligente y Monitoreo IoT para Lavanderías
+- <b>Meta Description:</b> WashTrack conecta pedidos, sensores IoT y pagos en una sola plataforma. Digitaliza tu lavandería tradicional con alertas automáticas, seguimiento en vivo y control total de la operación.
+- <b>Keywords:</b> lavandería digital, gestión de lavanderías, monitoreo IoT, seguimiento en tiempo real, software para lavanderías, recojo a domicilio, WashTrack.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
+#### Dashboard / Inicio
+<p></p>
+
+- <b>Title:</b> Dashboard de WashTrack - Resumen de Operaciones y Estado de Lavadoras
+- <b>Meta Description:</b> Accede al resumen general de tu actividad de lavado, estado operativo de las máquinas y métricas clave de tu negocio en tiempo real.
+- <b>Keywords:</b> dashboard de lavandería, panel hoy, estado de lavadoras, control operativo, WashTrack app.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
+#### Características
+<p></p>
+
+- <b>Title:</b> Características de WashTrack - Todo lo que tu Lavandería Necesita
+- <b>Meta Description:</b> Explora las soluciones de WashTrack: gestión integral de pedidos, seguimiento en vivo de prendas, monitoreo IoT predictivo y logística de pagos digitales.
+- <b>Keywords:</b> características de WashTrack, gestión de pedidos, seguimiento en vivo, monitoreo IoT, logística y pagos.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
+#### Seguimiento en Vivo
+<p></p>
+
+- <b>Title:</b> Seguimiento en Vivo de Pedidos en WashTrack - Estado Exacto de tus Prendas
+- <b>Meta Description:</b> Conoce el estado exacto de tu ropa sin necesidad de llamar. Visualiza las etapas desde la recepción y clasificación hasta el lavado, secado y entrega.
+- <b>Keywords:</b> seguimiento en vivo, estado de pedidos, lavado de ropa, etapas de lavado, notificaciones automáticas.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
+#### Sobre Nosotros
+<p></p>
+
+- <b>Title:</b> Sobre Nosotros - Conoce al Equipo de TechNova detrás de WashTrack
+- <b>Meta Description:</b> Somos TechNova, estudiantes de la UPC construyendo tecnología para negocios tradicionales en Latinoamérica. Descubre nuestra misión, visión y valores.
+- <b>Keywords:</b> TechNova, sobre nosotros, equipo UPC, tecnología para negocios tradicionales, transformación digital.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
+#### Planes y Contacto
+<p></p>
+
+- <b>Title:</b> Planes y Precios de WashTrack - Digitaliza tu Negocio de Lavandería
+- <b>Meta Description:</b> Elige el plan ideal para digitalizar tu lavandería o solicita más información completando nuestro formulario de atención para dueños de negocios y clientes.
+- <b>Keywords:</b> planes de WashTrack, precios, digitalizar lavandería, contacto, formulario de atención.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
 
 #### 4.2.4. Searching Systems
 #### 4.2.5. Navigation Systems
