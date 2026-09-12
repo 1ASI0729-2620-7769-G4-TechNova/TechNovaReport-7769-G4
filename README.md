@@ -846,6 +846,29 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 
 #### 2.2.3. Análisis de entrevistas
 
+**Primer Segmento: Propietarios de lavanderías independientes**
+
+<p align="justify">
+<ul>
+  <li>El 100% de los propietarios entrevistados utiliza mecanismos de registro que no se encuentran completamente centralizados, como cuadernos físicos, tickets, fichas, boletas o archivos de Excel, lo que dificulta el seguimiento y consulta de la información de los pedidos.</li><br>
+  <li>El 100% de los propietarios entrevistados ha identificado dificultades relacionadas con el registro y control de las prendas, principalmente por errores en las cantidades, detalles omitidos, pérdida de tickets, confusión entre pedidos o mezcla de prendas.</li><br>
+  <li>El 100% de los propietarios entrevistados considera que los errores en el registro pueden generar consecuencias negativas para el negocio y la relación con el cliente, como reclamos, pérdida de confianza, reposición de prendas o pérdidas económicas.</li><br>
+  <li>El 66,7% de los propietarios entrevistados señala que una de las principales dificultades de la gestión diaria está relacionada con el seguimiento de los pedidos pendientes y el control de las prendas que todavía deben ser entregadas.</li><br>
+  <li>El 66,7% de los propietarios entrevistados ha experimentado retrasos en la entrega de pedidos debido a factores como problemas durante el secado, condiciones climáticas, fallas en el suministro de gas o un incremento en la cantidad de pedidos recibidos.</li><br>
+  <li>El 66,7% de los propietarios entrevistados manifiesta que algunas actividades de gestión les generan una carga adicional de tiempo, principalmente la búsqueda de información de pedidos anteriores, el registro de pedidos y la identificación de pedidos pendientes.</li><br>
+  <li>El 100% de los propietarios entrevistados presenta limitaciones en la comunicación con sus clientes, debido a que no cuenta con un sistema integrado para informar el estado de los pedidos. La comunicación se realiza principalmente mediante llamadas, WhatsApp o mensajes de texto, especialmente cuando el pedido está listo o presenta algún retraso.</li><br>
+  <li>El 100% de los propietarios entrevistados no ofrece un servicio general de recojo y entrega a domicilio. Nataly únicamente lo realiza para clientes frecuentes y cercanos, mientras que Isabela y Elizabeth trabajan exclusivamente con recojo en el local.</li><br>
+  <li>El 100% de los propietarios entrevistados muestra preocupación por mantener la satisfacción y confianza de sus clientes, especialmente ante situaciones de retrasos, pérdida, confusión o errores en las prendas.</li>
+</ul>
+</p>
+
+
+
+
+
+
+
+
 ### 2.3. Needfinding
 
 <p align="justify">
