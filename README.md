@@ -921,6 +921,23 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 
 #### 2.3.3. User Journey Mapping
 #### 2.3.4. Empathy Mapping
+<p align="justify">
+  En esta sección se presenta el Empathy Map de los principales User Persona, con el propósito de comprender mejor sus necesidades, comportamientos, pensamientos, emociones, dificultades y expectativas. Además, esta herramienta nos ayuda a tener una visión más clara de su experiencia, facilitando la identificación de oportunidades de mejora para la solución.
+</p>
+<br>
+
+**Primer segmento: Propietarios de lavanderías independientes**
+<p align="center">
+  <img src="assets/Chapter2/EmpathyMap/CarlosEmpathyMap.png" alt="Empathy Mapping Carlos" width="800"/>
+  <br/><i>Empathy Map de Carlos Mendoza</i>
+</p>
+<br>
+
+**Segundo segmento: Personas independientes que utilicen el servicio de lavanderías**
+<p align="center">
+  <img src="assets/Chapter2/EmpathyMap/LuciaEmpathyMap.png" alt="Empathy Lucia Velasquez" width="800"/>
+  <br/><i>Empathy Map de Lucia Velasquez</i>
+</p>
 
 ### 2.4. Big Picture EventStorming
 
