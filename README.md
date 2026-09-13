@@ -1849,6 +1849,57 @@ A continuación, se presentan los mock-ups correspondientes al diseño de alta f
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
+
+<p align="justify">
+Los wireframes de WashTrack representan el funcionamiento de nuestra aplicacion web en una version temprana, ya que se puede visualizar lo que hay en cada sección y verificar todo componente que será usado por nuestros clientes.
+</p>
+
+
+**Dashboard**
+<p align="justify">
+El Dashboard busca mostrar un resumen de todo lo avanzado en el dia. Ademas de mostrar las ordenes activas
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Dashboard.png" width="700px" alt="Wireframe_Dashboard">
+
+
+**Recojo**
+<p align="justify">
+El wireframe del recojo seria para cuando los clientes soliciten a la lavanderia que recoja sus prendas. En esta seccion se gestiona el envio de personal para recoger las ordenes o pueden ser canceladas en caso de que el cliente no estuviera presente en el momento del recojo.
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Recojo.png" width="700px" alt="Wireframe_Recojo">
+
+
+**Recepcion**
+<p align="justify">
+El wireframe de recepcion se encarga de registrar las prendas que lleguen tanto por las personas que vienen presencialmente a dejar sus prendas como por las personas que solicitan recojo. Ademas, en esta seccion el personal se encarga de revisar las prendas por si tienen algunos detalles, como ejemplo seria una camisa sin un boton o un cierre defectuoso.
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Recepcion.png" width="700px" alt="Wireframe_Recepcion">
+
+
+**Lavado**
+<p align="justify">
+El wireframe de lavado se encarga de hacer un seguimiento a las prendas para que esa informacion sea enviada a los clientes y ellos puedan estar informados del proceso.
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Lavado.png" width="700px" alt="Wireframe_Lavado">
+
+**Entrega**
+<p align="justify">
+El wireframe de entrega se encarga de gestionar el envio de personal para devolver las prendas a los clientes
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Entrega.png" width="700px" alt="Wireframe_Entrega">
+
+**Historial**
+<p align="justify">
+El wireframe del historial mantiene todas las ordenes que los clientes han hecho a lo largo del tiempo. Ademas de un buscador tambien se puede descargar la informacion por si resulta necesaria.
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Historial.png" width="700px" alt="Wireframe_Historial">
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
 #### 4.4.4. Web Applications User Flow Diagrams
