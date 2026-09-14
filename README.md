@@ -1977,6 +1977,31 @@ En esta seccion se muestrar los mockups de nuestra aplicacion web
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
+User Goal 1: El cliente quiero hacer una orden
+
+User Persona: Cliente
+
+Happy Path
+
+En esta ruta, se espera poder realizar una orden desde la seccion recojo, para ello se rellena todo el formulario y se clickea en confirmar solicitud de recojo, luego se paga y finalmente se muestra una confirmacion
+
+
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/HappyPath1.PNG" height="200"/>
+</div>
+
+
+Unhappy Path
+
+En esta ruta, ocurre un problema con el pago y por tanto es rechazado
+
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/UnhappyPath1.PNG" height="200"/>
+</div>
+
+
+
+
 ### 4.5. Web Applications Prototyping
 
 ### 4.6. Domain-Driven Software Architecture
