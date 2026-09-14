@@ -1865,7 +1865,7 @@ El Dashboard busca mostrar un resumen de todo lo avanzado en el dia. Ademas de m
 
 **Recojo**
 <p align="justify">
-El wireframe del recojo seria para cuando los clientes soliciten a la lavanderia que recoja sus prendas. En esta seccion se gestiona el envio de personal para recoger las ordenes o pueden ser canceladas en caso de que el cliente no estuviera presente en el momento del recojo.
+En esta seccion se gestiona el envio de personal para recoger las ordenes o pueden ser canceladas en caso de que el cliente no estuviera presente en el momento del recojo. Además, se pueden agregar nuevo personal de recojo.
 </p>
 
 <img src="./assets/Chapter4/WebAplication/Wireframe_Recojo.png" width="700px" alt="Wireframe_Recojo">
@@ -1873,7 +1873,7 @@ El wireframe del recojo seria para cuando los clientes soliciten a la lavanderia
 
 **Recepcion**
 <p align="justify">
-El wireframe de recepcion se encarga de registrar las prendas que lleguen tanto por las personas que vienen presencialmente a dejar sus prendas como por las personas que solicitan recojo. Ademas, en esta seccion el personal se encarga de revisar las prendas por si tienen algunos detalles, como ejemplo seria una camisa sin un boton o un cierre defectuoso.
+La seccion de recepcion se encarga de registrar las prendas que lleguen tanto por las personas que vienen presencialmente a dejar sus prendas como por las personas que solicitan recojo. Ademas, en esta seccion el personal se encarga de revisar las prendas por si tienen algunos detalles, como ejemplo seria una camisa sin un boton o un cierre defectuoso.
 </p>
 
 <img src="./assets/Chapter4/WebAplication/Wireframe_Recepcion.png" width="700px" alt="Wireframe_Recepcion">
@@ -1881,14 +1881,14 @@ El wireframe de recepcion se encarga de registrar las prendas que lleguen tanto 
 
 **Lavado**
 <p align="justify">
-El wireframe de lavado se encarga de hacer un seguimiento a las prendas para que esa informacion sea enviada a los clientes y ellos puedan estar informados del proceso.
+La sección de lavado se encarga de hacer un seguimiento a las prendas para que esa informacion sea enviada a los clientes, para que ellos puedan hacer seguimiento de sus prendas.
 </p>
 
 <img src="./assets/Chapter4/WebAplication/Wireframe_Lavado.png" width="700px" alt="Wireframe_Lavado">
 
 **Entrega**
 <p align="justify">
-El wireframe de entrega se encarga de gestionar el envio de personal para devolver las prendas a los clientes
+La seccion de entrega se encarga de gestionar el envio de personal para devolver las prendas a los clientes
 </p>
 
 <img src="./assets/Chapter4/WebAplication/Wireframe_Entrega.png" width="700px" alt="Wireframe_Entrega">
