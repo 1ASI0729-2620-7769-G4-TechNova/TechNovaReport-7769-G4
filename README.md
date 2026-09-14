@@ -2309,12 +2309,17 @@ flowchart LR
 
 #### 4.7.1. Class Diagrams
 
-**Order Management**
+##### Order Management
 
 - Frontend
 
 <img src="./assets/Chapter4/ClassDiagram/OrderManagement.png" width="800px" alt="Order Management">
 
+##### Laundry Operation
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/LaundryOperation.png" width="800px" alt="Laundry Operation">
 
 ### 4.8. Database Design
 <p align="justify">
