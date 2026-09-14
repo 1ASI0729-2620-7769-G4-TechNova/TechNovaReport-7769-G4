@@ -1849,11 +1849,161 @@ A continuación, se presentan los mock-ups correspondientes al diseño de alta f
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
+
+<p align="justify">
+Los wireframes de WashTrack representan el funcionamiento de nuestra aplicacion web en una version temprana, ya que se puede visualizar lo que hay en cada sección y verificar todo componente que será usado por nuestros clientes.
+</p>
+
+<b>Propietarios de lavanderías:</b>
+
+**Dashboard**
+<p align="justify">
+El Dashboard busca mostrar un resumen de todo lo avanzado en el dia. Ademas de mostrar las ordenes activas
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Dashboard.png" width="700px" alt="Wireframe_Dashboard">
+
+
+**Recojo**
+<p align="justify">
+En esta seccion se gestiona el envio de personal para recoger las ordenes o pueden ser canceladas en caso de que el cliente no estuviera presente en el momento del recojo. Además, se pueden agregar nuevo personal de recojo.
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Recojo.png" width="700px" alt="Wireframe_Recojo">
+
+
+**Recepcion**
+<p align="justify">
+La seccion de recepcion se encarga de registrar las prendas que lleguen tanto por las personas que vienen presencialmente a dejar sus prendas como por las personas que solicitan recojo. Ademas, en esta seccion el personal se encarga de revisar las prendas por si tienen algunos detalles, como ejemplo seria una camisa sin un boton o un cierre defectuoso.
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Recepcion.png" width="700px" alt="Wireframe_Recepcion">
+
+
+**Lavado**
+<p align="justify">
+La sección de lavado se encarga de hacer un seguimiento a las prendas para que esa informacion sea enviada a los clientes, para que ellos puedan hacer seguimiento de sus prendas.
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Lavado.png" width="700px" alt="Wireframe_Lavado">
+
+**Entrega**
+<p align="justify">
+La seccion de entrega se encarga de gestionar el envio de personal para devolver las prendas a los clientes
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Entrega.png" width="700px" alt="Wireframe_Entrega">
+
+**Historial**
+<p align="justify">
+El wireframe del historial mantiene todas las ordenes que los clientes han hecho a lo largo del tiempo. Ademas de un buscador tambien se puede descargar la informacion por si resulta necesaria.
+</p>
+
+<img src="./assets/Chapter4/WebAplication/Wireframe_Historial.png" width="700px" alt="Wireframe_Historial">
+
+
+
+<b>Clientes</b>
+
+**Dashboard**
+
+El Dashboard para los clientes muestra las proximas entregas y las ordenes recientes que hayan hecho
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Wireframe_Dashboard.png" width="700px" alt="Cliente_Wireframe_Dashboard">
+
+
+**Recojo**
+
+En la seccion recojo se hacen las ordenes para el recojo de las prendas y hacer el pago.
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Wireframe_Recojo.png" width="700px" alt="Cliente_Wireframe_Recojo">
+
+
+**Seguimiento**
+
+En la seccion de seguimiento se puede visualizar como va el pedido, cada pedido es un desplegable en donde se puede visualizar los detalles del pedido e informacion del delivery en caso de pedirlo. Ademas, luego de recibir el pedido se puede confirmar que llegaron las prendas, en caso de que no pongan confirmar se hara automaticamente luego de un dia. 
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Wireframe_Seguimiento.png" width="700px" alt="Cliente_Wireframe_Seguimiento">
+
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+El diagrama de Wireflow presenta el flujo de nuestros usuarios a traves de la plataforma, por ello se divide en dos flujos. 
+
+* Flujo de Dueños de lavanderias: El flujo muestra las opciones iniciando desde el dashboard en dondo puede entrar a las otras secciones para registrar nuevos pedidos o para gestionar el recojo o las entregas.
+
+<div align="center">
+  <img src="./assets/Chapter4/WebAplication/Wireflow_Dueño.PNG" alt="Estilos" width="1000"/>
+</div>
+
+
+* Flujo de Clientes: El flujo inicia en el dashboard en donde se puede entrar a las otras secciones para hacer una nueva orden o confirmar que les llego sus prendas
+
+
+<div align="center">
+  <img src="./assets/Chapter4/WebAplication/Wireflow Cliente.PNG" alt="Estilos" width="1000"/>
+</div>
+
+
 #### 4.4.3. Web Applications Mock-ups
+
+<p align="justify">
+En esta seccion se muestrar los mockups de nuestra aplicacion web
+</p>
+
+<b>Mockups de propietarios de lavanderias</b>
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Dashboard.png" width="700px" alt="Dueño_Dashboard">
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Recojo.png" width="700px" alt="Dueño_Recojo">
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Recepcion.png" width="700px" alt="Dueño_Recepcion">
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Lavado.png" width="700px" alt="Dueño_Lavado">
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Entrega.png" width="700px" alt="Dueño_Entrega">
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Historial.png" width="700px" alt="Dueño_Historial">
+
+
+
+<b>Mockups de clientes</b>
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Dashboard.png" width="700px" alt="Cliente_Dashboard">
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Recojo.png" width="700px" alt="Cliente_Recojo">
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Seguimiento.png" width="700px" alt="Cliente_Seguimiento">
+
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
+User Goal 1: El cliente quiero hacer una orden
+
+User Persona: Cliente
+
+Happy Path
+
+En esta ruta, se espera poder realizar una orden desde la seccion recojo, para ello se rellena todo el formulario y se clickea en confirmar solicitud de recojo, luego se paga y finalmente se muestra una confirmacion
+
+
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/HappyPath1.PNG" height="200"/>
+</div>
+
+
+Unhappy Path
+
+En esta ruta, ocurre un problema con el pago y por tanto es rechazado
+
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/UnhappyPath1.PNG" height="200"/>
+</div>
+
+
 ### 4.5. Web Applications Prototyping
+
+<img src="./assets/Chapter4/WebAplication/Prototype.PNG" width="700px" alt="Prototype">
+
 
 ### 4.6. Domain-Driven Software Architecture
 
