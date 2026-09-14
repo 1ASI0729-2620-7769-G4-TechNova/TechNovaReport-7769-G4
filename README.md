@@ -1854,6 +1854,7 @@ A continuación, se presentan los mock-ups correspondientes al diseño de alta f
 Los wireframes de WashTrack representan el funcionamiento de nuestra aplicacion web en una version temprana, ya que se puede visualizar lo que hay en cada sección y verificar todo componente que será usado por nuestros clientes.
 </p>
 
+<b>Propietarios de lavanderías:</b>
 
 **Dashboard**
 <p align="justify">
@@ -1899,6 +1900,30 @@ El wireframe del historial mantiene todas las ordenes que los clientes han hecho
 </p>
 
 <img src="./assets/Chapter4/WebAplication/Wireframe_Historial.png" width="700px" alt="Wireframe_Historial">
+
+
+
+<b>Clientes</b>
+
+**Dashboard**
+
+El Dashboard para los clientes muestra las proximas entregas y las ordenes recientes que hayan hecho
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Wireframe_Dashboard.png" width="700px" alt="Cliente_Wireframe_Dashboard">
+
+
+**Recojo**
+
+En la seccion recojo se hacen las ordenes para el recojo de las prendas y hacer el pago.
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Wireframe_Recojo.png" width="700px" alt="Cliente_Wireframe_Recojo">
+
+
+**Seguimiento**
+
+En la seccion de seguimiento se puede visualizar como va el pedido, cada pedido es un desplegable en donde se puede visualizar los detalles del pedido e informacion del delivery en caso de pedirlo. Ademas, luego de recibir el pedido se puede confirmar que llegaron las prendas, en caso de que no pongan confirmar se hara automaticamente luego de un dia. 
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Wireframe_Dashboard.png.png" width="700px" alt="Cliente_Wireframe_Dashboard">
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
