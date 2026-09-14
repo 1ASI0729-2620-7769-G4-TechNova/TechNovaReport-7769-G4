@@ -1945,6 +1945,36 @@ El diagrama de Wireflow presenta el flujo de nuestros usuarios a traves de la pl
 
 
 #### 4.4.3. Web Applications Mock-ups
+
+<p align="justify">
+En esta seccion se muestrar los mockups de nuestra aplicacion web
+</p>
+
+<b>Mockups de propietarios de lavanderias</b>
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Dashboard.png" width="700px" alt="Dueño_Dashboard">
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Recojo.png" width="700px" alt="Dueño_Recojo">
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Recepcion.png" width="700px" alt="Dueño_Recepcion">
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Lavado.png" width="700px" alt="Dueño_Lavado">
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Entrega.png" width="700px" alt="Dueño_Entrega">
+
+<img src="./assets/Chapter4/WebAplication/Dueño_Historial.png" width="700px" alt="Dueño_Historial">
+
+
+
+<b>Mockups de clientes</b>
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Dashboard.png" width="700px" alt="Cliente_Dashboard">
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Recojo.png" width="700px" alt="Cliente_Recojo">
+
+<img src="./assets/Chapter4/WebAplication/Cliente_Seguimiento.png" width="700px" alt="Cliente_Seguimiento">
+
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping
