@@ -1923,9 +1923,27 @@ En la seccion recojo se hacen las ordenes para el recojo de las prendas y hacer 
 
 En la seccion de seguimiento se puede visualizar como va el pedido, cada pedido es un desplegable en donde se puede visualizar los detalles del pedido e informacion del delivery en caso de pedirlo. Ademas, luego de recibir el pedido se puede confirmar que llegaron las prendas, en caso de que no pongan confirmar se hara automaticamente luego de un dia. 
 
-<img src="./assets/Chapter4/WebAplication/Cliente_Wireframe_Dashboard.png.png" width="700px" alt="Cliente_Wireframe_Dashboard">
+<img src="./assets/Chapter4/WebAplication/Cliente_Wireframe_Seguimiento.png" width="700px" alt="Cliente_Wireframe_Seguimiento">
 
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+El diagrama de Wireflow presenta el flujo de nuestros usuarios a traves de la plataforma, por ello se divide en dos flujos. 
+
+* Flujo de Dueños de lavanderias: El flujo muestra las opciones iniciando desde el dashboard en dondo puede entrar a las otras secciones para registrar nuevos pedidos o para gestionar el recojo o las entregas.
+
+<div align="center">
+  <img src="./assets/Chapter4/WebAplication/Wireflow_Dueño.PNG" alt="Estilos" width="1000"/>
+</div>
+
+
+* Flujo de Clientes: El flujo inicia en el dashboard en donde se puede entrar a las otras secciones para hacer una nueva orden o confirmar que les llego sus prendas
+
+
+<div align="center">
+  <img src="./assets/Chapter4/WebAplication/Wireflow Cliente.PNG" alt="Estilos" width="1000"/>
+</div>
+
+
 #### 4.4.3. Web Applications Mock-ups
 #### 4.4.4. Web Applications User Flow Diagrams
 
