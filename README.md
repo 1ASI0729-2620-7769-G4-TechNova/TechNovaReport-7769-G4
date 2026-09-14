@@ -2000,9 +2000,10 @@ En esta ruta, ocurre un problema con el pago y por tanto es rechazado
 </div>
 
 
-
-
 ### 4.5. Web Applications Prototyping
+
+<img src="./assets/Chapter4/WebAplication/Prototype.PNG" width="700px" alt="Prototype">
+
 
 ### 4.6. Domain-Driven Software Architecture
 
