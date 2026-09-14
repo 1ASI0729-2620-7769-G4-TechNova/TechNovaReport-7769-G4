@@ -941,7 +941,7 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
   <br/><i>Evidencia de entrevista (ambos segmentos)</i>
 </p>
 
-***Enlace del video:*** [Ver grabación aquí](Pegar_enlace_video)
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQALZsfwqvXoS5Mt9znSXvgrAbMQ6v02M21v0TXnnxlZnXk?e=piOTvD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 #### 2.2.3. Análisis de entrevistas
