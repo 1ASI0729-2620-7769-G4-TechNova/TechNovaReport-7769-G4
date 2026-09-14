@@ -1,2 +1,2401 @@
-# TechNovaReport-7769-G4
-Informe del Proyecto 
+<div align="center">
+<img src="assets/Chapter1/CoverPage/upc_logo.png" alt="UPC Logo" width="150"
+"/>
+
+<h2><b>Universidad Peruana de Ciencias Aplicadas</b></h2>
+<h3><b>Carrera de Ingeniería de Software</b></h3>
+<br>
+
+
+<h5>Curso: Desarrollo de Aplicaciones Open Source (1ASI0729)</h5>
+
+
+**NRC: 7769**
+<br>
+
+<h3><b>Informe del Trabajo Final</b></h3>
+
+<h5>Docente: Hugo Allan Mori Paiva</h5>
+
+**Equipo:** TechNova
+
+**Proyecto:** WashTrack
+
+<br>
+
+<h3>Integrantes</h3>
+
+</div>
+
+<table align="center" style="border-collapse: collapse; border: none; margin-left: auto; margin-right: auto;">
+    <tr>
+        <th style="border: none; padding: 0 18px 6px 0; text-align: center;">Código</th>
+        <th style="border: none; padding: 0 0 6px 0; text-align: center;">Apellidos y Nombres</th>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u202318220</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Hermoza Quispe, Jude</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u20231b842</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Mantilla Maldonado, Enrique Manuel</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u202018427</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
+    </tr>
+    <tr>
+        <td style="border: none; padding: 0 18px 0 0; text-align: center;"></td>
+        <td style="border: none; padding: 0; text-align: center;"></td>
+    </tr>
+</table>
+
+<br>
+<div align="center">
+
+*Setiembre, 2026*
+
+</div>
+
+---
+
+## Registro de Versiones
+
+| Versión | Fecha      | Autor                         | Descripcion                                              |
+| :--- |:-----------|:------------------------------|:---------------------------------------------------------|
+| 1.0.0 | 06/09/2026 | Jude Hermoza | Insercion del documento base. |
+| 1.1.0 | 06/09/2026 | Perez Vasquez Ariana Valeria | Student Outcome, Avance Capítulo 1, y NeedFinding, User Personas y User Task Matrix parte del Capítulo 4, como Landing Page.
+---
+
+## Project Report Collaboration Insights
+
+// Enlaces  de repositorios
+
+*Reporte de colaboración de la entrega del TP:*
+
+// Falta Imagen 
+
+---
+
+# Contenido
+
+## Tabla de Contenidos
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
+
+- [Bibliografía](#bibliografía)
+
+- [Anexos](#anexos)
+
+
+---
+
+# Student Outcome
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET – EAC – Student Outcome 3**
+
+<p align="justify">
+<b>Criterio: </b>
+</p>
+
+<p align="justify">
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET–EAC–Student Outcome 3.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia.</strong></td>
+      <td>
+        <b>Pérez Vásquez, Ariana Valeria</b><br>
+        <em><b>AV1</b></em><br>
+        Sustentación oral del Avance Capítulo 1 y los resultados iniciales de la investigación de usuarios (NeedFinding y definición de User Personas), argumentando la problemática encontrada ante el profesor y evaluadores de manera clara.<br>
+        <em><b>AV2</b></em><br>
+        Sustentación y demostración síncrona de la User Task Matrix y las funcionalidades de la Landing Page desarrollada, explicando la propuesta de valor y el flujo de interacción inicial del usuario ante la audiencia.<br>
+        ...<br>
+        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+        <em><b>AV1</b></em><br>
+        En la primera entrega del proyecto, las acciones realizadas en la fase de descubrimiento e investigación, tales como el diseño, registro y análisis de entrevistas, la facilitación del proceso Lean UX y la alineación de las historias de usuario, demuestran el cumplimiento del criterio de comunicación oral efectiva. A través de la conducción directa de entrevistas, se estableció una interacción verbal empática y desprovista de tecnicismos para indagar sobre las necesidades de los segmentos objetivo. Asimismo, la articulación oral de las declaraciones de problemas, asunciones e hipótesis en el Lean UX Canvas, sumada a la negociación y clarificación verbal de los criterios de aceptación en las User Stories, evidencia la capacidad de adaptar el discurso, el registro lingüístico y la argumentación a diversos actores del proyecto, abarcando desde usuarios finales hasta stakeholders y el equipo de desarrollo.<br>
+        <em><b></b></em><br>
+        <br>
+        ...<br>
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Tufiño Argüelles, Luis Angel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+      </td>
+      <td>
+        Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
+        Nam ornare massa eu lobortis porttitor.<br>
+        Nam ut erat feugiat libero pretium semper at ac metus.<br>
+        Sed at eros dapibus, fermentum quam ut, bibendum lacus.<br>
+        Curabitur eget orci eget urna varius commodo.<br>
+        ...
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia.</strong></td>
+      <td>
+        <b>Pérez Vásquez, Ariana Valeria</b><br>
+        <em><b>AV1</b></em><br>
+       Redacción y documentación formal en formato Markdown del Avance Capítulo 1, detallando la contextualización del proyecto y la consolidación de la investigación de usuarios con las User Personas.<br>
+        <em><b>AV2</b></em><br>
+        Estructuración y redacción escrita de la User Task Matrix y la documentación técnica de la Landing Page, especificando requerimientos, alcances y diseño preliminar en el repositorio.<br>
+        ...<br>
+        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
+        <em><b>AV1</b></em><br>
+        En la primera entrega del proyecto, la elaboración de la documentación del proyecto fundamenta el criterio de comunicación escrita efectiva. La redacción de los antecedentes, la problemática y la definición de la solución junto con los mapas de empatía y User Journey Maps transmiten los hallazgos del negocio de forma formal, clara y accesible para audiencias no técnicas. Además, la especificación estructurada de historias de usuario y la formalización arquitectónica plasmada en los diagramas de clases y diagramas de base de datos manifiestan el dominio de una comunicación escrita rigurosa y estandarizada bajo notaciones técnicas (como UML y modelos Entidad-Relación), garantizando la transmisión precisa de requerimientos a la audiencia técnica de ingeniería.<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+        <b>Tufiño Argüelles, Luis Angel</b><br>
+        <em><b>AV1</b></em><br>
+        Poner avances av1<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
+      </td>
+      <td>
+        Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>
+        Vivamus commodo libero eget venenatis imperdiet.<br>
+        Etiam imperdiet quam condimentum velit tempor porttitor.<br>
+        Suspendisse blandit nisl quis mauris vehicula faucibus.<br>
+        ...
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Capítulo I: Introducción
+
+### 1.1. Startup Profile
+
+#### 1.1.1. Descripción de la Startup
+<p align="justify">
+    Somos <b>TechNova</b>, una startup tecnológica creada por estudiantes de la <b>Universidad Peruana de Ciencias Aplicadas (UPC)</b>, enfocada en el diseño y desarrollo de soluciones digitales orientadas a optimizar y transformar la gestión de negocios tradicionales mediante la implementación de software. Nuestra startup busca facilitar la digitalización de procesos que actualmente se realizan de manera manual, permitiendo a los negocios mejorar su organización, reducir errores operacionales, optimizar sus tiempos de atención y ofrecer una mejor experiencia a sus usuarios.
+</p>
+
+<p align="justify">
+    Nuestro producto principal es <b>WashTrack</b>, una plataforma digital orientada a la gestión integral de lavanderías. Esta solución permite tanto a los administradores como a los clientes registrar y administrar perfiles, gestionar pedidos y prendas de forma detallada, realizar un seguimiento en tiempo real del estado de cada servicio y mantener un registro histórico transparente de todas las operaciones realizadas.
+</p>
+
+<p align="justify">
+    La <b>misión</b> de TechNova es desarrollar soluciones tecnológicas accesibles, intuitivas y eficientes que impulsen la transformación digital de los negocios tradicionales, optimizando su gestión operativa y elevando la calidad de la experiencia del cliente final.
+</p>
+
+<p align="justify">
+    Nuestra <b>visión</b> es consolidarnos como una startup referente en el desarrollo de soluciones digitales para pequeñas y medianas empresas en Latinoamérica, destacando por plataformas escalables que simplifiquen las operaciones comerciales y generen un impacto positivo en el mercado.
+</p>
+
+<p align="justify">
+    Nuestros <b>valores</b> principales son:
+    <ul>
+        <li><b>Innovación:</b> Desarrollar soluciones tecnológicas disruptivas que respondan de manera ágil a las necesidades actuales de los negocios y sus clientes.</li>
+        <li><b>Compromiso:</b> Crear herramientas robustas enfocadas en resolver problemas reales y generar valor sostenible para nuestros usuarios.</li>
+        <li><b>Accesibilidad:</b> Diseñar soluciones altamente usables, intuitivas y adaptadas a las capacidades tecnológicas de las pequeñas y medianas empresas.</li>
+        <li><b>Transparencia:</b> Garantizar flujos claros y trazabilidad en toda la información relacionada con los procesos y pedidos de los clientes.</li>
+    </ul>
+</p>
+
+
+#### 1.1.2. Perfiles de integrantes del equipo
+
+<table>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/Chapter1/MemberProfile/ArianaPerez.png" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> Perez Vasquez Ariana Valeria</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> U20241D338</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Tengo un fuerte interés en el <b>desarrollo de soluciones tecnológicas que permitan optimizar procesos y mejorar la experiencia de los usuarios</b>. Me considero una persona <b>responsable, organizada y comprometida </b>con las actividades que realizo. Además, me interesa el diseño de interfaces y la organización de la información, buscando que las soluciones desarrolladas sean claras, funcionales y fáciles de utilizar.
+      <br/><br/>
+      Dentro del equipo, participo en el <b>desarrollo y diseño de la propuesta de WashTrack</b>, aportando principalmente en la elaboración de las Style Guidelines, la arquitectura de información y el diseño de la Landing Page. Mi objetivo es contribuir a que la plataforma presente una estructura visual coherente, una navegación sencilla y una experiencia adecuada tanto para los negocios de lavandería como para sus clientes. Asimismo, valoro el trabajo colaborativo y la comunicación con los demás integrantes para lograr una propuesta integrada y cumplir con los objetivos establecidos del proyecto.
+    </td>
+  </tr>
+  <tr>
+  </tr>
+
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/Chapter1/MemberProfile/foto_enrique.jpg" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre: </b>Mantilla Maldonado, Enrique Manuel</td>
+  </tr>
+  <tr>
+    <td><b>Código: </b>U20231B842</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b>
+      Soy estudiante de la carrera de ingenieria de software en la UPC, estoy en 5to ciclo. Tengo experiencia en html, java, C++ y python. Busco aprender constantemente cosas nuevas o relacionadas a la tecnologia. Ademas, estoy interesado en el desarrollo de interfaces y aplicaciones web, y aprender de las experiencias de nuestros usuarios.
+    </td>
+  </tr>
+<tr>
+
+</tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+  </tr>
+  <tr>
+    <td>
+    <div align="Justify">
+      <b>Descripción:</b><br/>
+      Breve descripcion 
+      <br/><br/>
+      Dentro del equipo... (que funcion cumples)
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/Chapter1/MemberProfile/foto_adriana_profile.jpeg" alt="Foto de Adriana Ramos" width="500"/>
+    </td>
+    <td><b>Nombre:</b> Adriana Nicole Ramos Fuentes Rivera</td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> u202018427</td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+      Soy <b>Adriana Nicole Ramos Fuentes Rivera</b>, estudio la carrera de Ingeniería de Software en la UPC, actualmente estoy en el 5to ciclo. Me gusta aprender nuevas tecnologias y conocimientos complementarios que me permitan desarrollar soluciones a problematicas dentro de un contexto real. Cuento con experiencia en lenguajes de programación como C++ y Python, además de conocimientos en base de datos relacional y no relacional como SQL y MongoDB.
+      <br/><br/>
+      Dentro del equipo, me enfoco en el desarrollo de backend, aplicando principios de Domain Driven Design para mantener una lógica de negocio clara. Me considero una persona organizada y empática.
+    </td>
+  </tr>
+
+  <tr>
+  </tr>
+  <tr>
+    <td rowspan="4" align="center">
+      <img src="assets/foto_nombre.png" alt="Foto de " width="500"/>
+    </td>
+    <td><b>Nombre:</b> NOMBRE COMPLETO </td>
+  </tr>
+  <tr>
+    <td><b>Código:</b> PONER TU CODIGO DE U </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Descripción:</b><br/>
+    Breve descripcion
+      <br/><br/>
+    Dentro del equipo... (que funcion cumples)  
+    </td>
+  </tr>
+
+</table>
+<br>
+
+### 1.2. Solution Profile
+<p align="justify">
+    WashTrack es una plataforma digital desarrollada por la startup DevTech, orientada a optimizar la gestión de lavanderías y mejorar la experiencia de sus clientes mediante herramientas tecnológicas accesibles y eficientes. La plataforma busca centralizar en un solo sistema los principales procesos relacionados con la recepción, gestión y seguimiento de los pedidos de lavandería. 
+</p>
+
+<p align="justify">
+    Para las lavanderías, WashTrack permite registrar y gestionar clientes, crear pedidos, registrar las prendas y servicios solicitados, actualizar el estado de cada pedido y consultar el historial de operaciones, reemplazando procesos manuales como el registro de información en cuadernos, hojas de cálculo o mensajes dispersos y facilitando el control de los pedidos, mientras que, para los clientes, ofrece un espacio digital donde pueden consultar sus pedidos, visualizar el estado de sus prendas, revisar el historial de servicios, realizar pagos digitales y solicitar servicios de recojo y entrega a domicilio, brindándoles mayor visibilidad, comodidad y facilidad para gestionar sus servicios de lavandería sin necesidad de comunicarse constantemente con el negocio.
+</p>
+
+<p align="justify">
+    Además, como valor diferencial, WashTrack integra la gestión operativa de la lavandería con el seguimiento del pedido por parte del cliente, permitiendo mantener la información sincronizada durante las diferentes etapas del servicio. Esto busca mejorar la transparencia del proceso, reducir la incertidumbre del cliente y facilitar la organización de las lavanderías.
+</p>
+
+<p align="justify">
+    WashTrack se plantea como una solución escalable, que puede incorporar progresivamente nuevas funcionalidades de acuerdo con las necesidades de las lavanderías y sus clientes, como pagos digitales, servicios de recojo y entrega a domicilio, promociones, programas de fidelización y herramientas avanzadas de análisis.
+</p>
+
+#### 1.2.1. Antecedentes y problemática
+
+**1.2.1.1. What**
+<p align="justify">
+    Nuestra propuesta de solución, Easy Wash, se propone resolver las siguientes 3 problemáticas recurrentes en la vida personal, específicamente, cuando se desempeña el trabajo doméstico:
+    <ul>
+        <li>Uno de los principales problemas a los que se enfrentan las personas independientes que consumen el servicio de lavandería es la limitada disponibilidad de tiempo para realizar tareas domésticas, ya que resulta difícil equilibrar la vida laboral con las responsabilidades domésticas y las actividades personales. Según la Encuesta Nacional de Uso del Tiempo (ENUT) correspondiente al año 2024 realizada por el INEI, la población peruana dedica una cantidad significativa de tiempo al trabajo doméstico no remunerado, donde en un día de semana, las mujeres destinan en promedio 3 horas y 35 minutos y los hombres 1 hora y 37 minutos a estas actividades, además, dentro ellas se encuentra la limpieza y cuidado de la ropa, que demanda en promedio 1 hora y 22 minutos diarios para las mujeres y 58 minutos para los hombres. Por consiguiente, destinar este tiempo diario a las actividades de limpieza y cuidado de la ropa, reduce el tiempo disponible para otras actividades personales, como el descanso, ejercicio, etc. por lo que resulta ideal contratar un servicio externo que realice estas actividades.</li><br>
+        <li>El segundo problema es la falta de recursos para el lavado de ropa dentro de los hogares. Según el informe técnico de Condiciones de Vida en el Perú con los resultados de la Encuesta Nacional de Hogares (ENAHO) correspondiente al primer trimestre del año 2026, indica que el 90,5% de los hogares tiene cocina a gas, 57,0% cuenta con refrigeradora/congeladora, 36,4% cuenta con computadora/laptop y 32,2% tiene lavadora de ropa. Asimismo, al comparar los resultados de los primeros trimestres de los años 2023, 2024 y 2025, se observa que la proporción de hogares que cuenta con una lavadora se ha mantenido relativamente estable, pasando de 33,2 % en 2023 a 34,2 % en 2024 y disminuyendo a 32,0 % en 2025, para posteriormente alcanzar el 32,2 % en 2026. Esto evidencia que una cantidad significativa de hogares peruanos no cuentan con una lavadora de ropa, en consecuencia, representa una gran limitación para realizar esta actividad de manera eficiente dentro del hogar.</li><br>
+        <li>Por último, las lavanderías y sus clientes pueden enfrentar dificultades relacionadas con la gestión, seguimiento y entrega de los pedidos, debido al uso de métodos tradicionales como cuadernos, mensajes de texto, recibos informales u otros registros que dificultan el acceso a la información de manera rápida, precisa y confiable. Esta falta de centralización puede generar errores durante las diferentes etapas del servicio. Asimismo, cuando no existe un sistema que permita actualizar y consultar el estado de los pedidos, los clientes deben comunicarse directamente con la lavandería para conocer el avance de sus prendas, generando una mayor carga de trabajo para el negocio y una experiencia menos eficiente para el usuario. Por lo tanto, es necesario contar con una plataforma digital que permita centralizar la información y los principales procesos de la lavandería, permitiendo que esta información sea consultada y actualizada de manera rápida, precisa y confiable.</li>
+    </ul>
+
+</p>
+
+**1.2.1.2. Where**
+<p align="justify">
+    El problema se presenta principalmente en el sector de servicios de lavandería en el Perú, especialmente en lavanderías independientes, pequeñas y medianas que gestionan diariamente múltiples clientes y pedidos. Estas dificultades pueden presentarse tanto dentro del establecimiento físico, durante la recepción, clasificación, procesamiento y entrega de las prendas, como fuera de este, en la interacción entre la lavandería y sus clientes. Asimismo, desde la perspectiva del cliente, la necesidad se presenta en los hogares y en las actividades cotidianas de las personas que cuentan con poco tiempo para realizar tareas domésticas o que no disponen de una lavadora, por lo que requieren acceder a servicios de lavandería de manera más cómoda y eficiente. Por ello, la solución se orienta inicialmente al mercado peruano, conectando digitalmente a las lavanderías con sus clientes y facilitando tanto la gestión interna del negocio como el acceso y seguimiento de los servicios.
+</p>
+
+**1.2.1.3. When**
+<p align="justify">
+    Las problemáticas aparecen durante las diferentes etapas del servicio, por ejemplo, cuando se registra un pedido, durante el procesamiento de las prendas, al consultar su estado, al realizar el pago y al momento de coordinar la entrega. Estas dificultades pueden incrementarse conforme aumenta el número de clientes y pedidos que debe administrar una lavandería.
+</p>
+
+**1.2.1.4. Who**
+<p align="justify">
+    Las principales personas afectadas son, los propietarios y trabajadores de lavanderías, especialmente aquellos negocios que todavía gestionan clientes, pedidos y pagos mediante registros manuales o herramientas poco integradas, por otro lado, los clientes de las lavanderías, quienes necesitan conocer el estado de sus pedidos y acceder a servicios más cómodos y ágiles.
+</p>
+
+**1.2.1.5. Why**
+<p align="justify">
+    La problemática se presenta porque el lavado y cuidado de la ropa es una actividad doméstica recurrente que requiere tiempo y esfuerzo, lo que puede representar una dificultad para las personas que deben distribuir su tiempo entre responsabilidades laborales, académicas, familiares y personales, especialmente en los hogares que no cuentan con una lavadora y necesitan recurrir a servicios externos. Asimismo, las lavanderías deben gestionar diariamente información sobre clientes, pedidos, prendas, servicios, pagos y fechas de entrega, pero cuando estos procesos se realizan mediante cuadernos, mensajes, recibos u otras herramientas no integradas, aumenta la posibilidad de pérdida de información, confusiones y errores en la atención y entrega de los pedidos. En consecuencia, surge la necesidad de una solución que facilite tanto el acceso de los clientes al servicio como la organización de las lavanderías, mediante una plataforma digital que permita centralizar y gestionar los principales procesos del servicio de lavandería, haciendo que la información sea más accesible, ordenada y confiable para ambas partes.
+</p>
+
+**1.2.1.6. How**
+<p align="justify">
+    La problemática será abordada mediante el desarrollo de una plataforma digital que centralice y conecte los principales procesos de una lavandería con las necesidades de sus clientes. Por un lado, permitirá al personal de la lavandería registrar y administrar la información de los clientes, crear y gestionar pedidos, registrar las prendas y servicios solicitados, actualizar el estado de cada pedido y consultar el historial de operaciones desde un único sistema. Por otro lado, los clientes podrán acceder a la información de sus pedidos, consultar el estado de sus prendas, revisar su historial de servicios, realizar pagos digitales y solicitar servicios de recojo y entrega a domicilio. De esta manera, la plataforma permitirá mantener la información actualizada entre ambas partes, reducir la dependencia de registros manuales y canales de comunicación dispersos, disminuir posibles errores en la gestión y entrega de los pedidos, y facilitar el acceso a los servicios de lavandería sin que el cliente tenga que realizar todas las gestiones de manera presencial.
+</p>
+
+**1.2.1.6. How much**
+<p align="justify">
+    La solución adoptará un modelo de suscripción mensual dirigido principalmente a las lavanderías, permitiendo que los negocios seleccionen el plan que mejor se adapte a su tamaño, cantidad de pedidos y necesidades de gestión. Se plantean inicialmente tres alternativas, un plan gratuito, orientado a lavanderías que deseen comenzar a digitalizar sus operaciones y conocer la plataforma, un plan básico de S/ 49 mensuales, dirigido a pequeños negocios que requieren mayores capacidades de gestión y seguimiento, y un plan avanzado de S/ 99 mensuales, orientado a lavanderías con un mayor volumen de operaciones y que necesitan acceder a funcionalidades más completas. Además, el acceso de los clientes de las lavanderías no tendría un costo adicional, ya que su participación forma parte del servicio contratado por el negocio. Por lo tanto, esta estructura permitirá establecer una estrategia de monetización escalonada, facilitando la captación de nuevos usuarios mediante el plan gratuito y generando ingresos recurrentes a través de los planes de pago.
+</p>
+
+#### 1.2.2. Lean UX Process
+
+##### 1.2.2.1. Lean UX Problem Statements
+
+**Problem statement 1:**
+<p align="justify">
+    Nuestro producto fue diseñado para optimizar la gestión operativa de pequeñas y medianas lavanderías, brindándoles una herramienta digital que les permita centralizar la información de sus clientes, pedidos, prendas y servicios, con el propósito de reducir el tiempo destinado a tareas administrativas y disminuir errores durante la gestión de las órdenes.
+</p>
+
+<p align="justify">
+    Hemos observado que las lavanderías pueden presentar dificultades para organizar y realizar el seguimiento de sus pedidos debido al uso de cuadernos, recibos, hojas de cálculo, mensajes de texto y otros medios no integrados, lo que dificulta mantener la información actualizada y acceder a ella de manera rápida y confiable.
+</p>
+
+<p align="justify">
+    Esto puede generar confusiones en el registro de pedidos, pérdida de información, errores en las fechas de entrega, dificultades para identificar las prendas y entregas incorrectas, afectando tanto la eficiencia operativa del negocio como la satisfacción de sus clientes.
+</p>
+
+<p align="justify">
+    Por tanto, nos preguntamos: ¿Cómo podríamos centralizar y simplificar la gestión de pedidos y prendas de las lavanderías para reducir los errores operativos y mejorar el control de sus servicios, medido a través de la reducción de incidencias y del tiempo destinado a la gestión de los pedidos?
+</p>
+
+**Problem statement 2:**
+
+<p align="justify">
+    Nuestro producto fue diseñado para facilitar el acceso a los servicios de lavandería a personas que disponen de poco tiempo para realizar tareas domésticas o que no cuentan con una lavadora en sus hogares, permitiéndoles gestionar sus servicios de manera más cómoda y reducir el tiempo y esfuerzo asociados al lavado de sus prendas.
+</p>
+
+<p align="justify">
+    Hemos observado que las personas deben distribuir su tiempo entre actividades laborales, académicas, familiares y personales, mientras que el lavado y cuidado de la ropa continúa siendo una tarea doméstica recurrente. Asimismo, no todos los hogares cuentan con los recursos necesarios para realizar esta actividad de manera independiente, por lo que deben recurrir a lavanderías y trasladarse hasta estos establecimientos para solicitar y recoger sus servicios.
+</p>
+
+<p align="justify">
+    Esto genera mayor inversión de tiempo y esfuerzo por parte de los clientes, además de dificultades para conocer el estado de sus prendas, coordinar el recojo y entrega de sus pedidos y realizar otras gestiones relacionadas con el servicio.
+</p>
+
+<p align="justify">
+    Por tanto, nos preguntamos: ¿Cómo podríamos facilitar el acceso y la gestión de los servicios de lavandería para que los clientes reduzcan el tiempo y esfuerzo destinado a estas actividades, medido a través del uso de servicios digitales y de recojo y entrega a domicilio?
+</p>
+
+
+**Problem statement 3:**
+
+<p align="justify">
+    Nuestro producto fue diseñado para mejorar la comunicación y el seguimiento entre las lavanderías y sus clientes, proporcionando un espacio digital donde ambas partes puedan acceder a información actualizada sobre los pedidos durante las diferentes etapas del servicio.
+</p>
+
+<p align="justify">
+    Hemos observado que los clientes pueden depender de llamadas, mensajes de texto o consultas presenciales para conocer el estado de sus prendas, mientras que las lavanderías deben responder individualmente a estas solicitudes y mantener actualizada la información mediante diferentes canales.
+</p>
+
+<p align="justify">
+    Esto genera incertidumbre para los clientes, mayor carga de atención para las lavanderías y posibles inconsistencias en la información proporcionada, especialmente cuando existen múltiples pedidos en proceso y diferentes fechas de entrega.
+</p>
+
+<p align="justify">
+    Por tanto, nos preguntamos: ¿Cómo podríamos mejorar la comunicación y el seguimiento de los pedidos entre las lavanderías y sus clientes para brindar información más oportuna y confiable, medido a través de la reducción de consultas sobre el estado de los pedidos y el incremento en la satisfacción de los usuarios?
+</p>
+
+##### 1.2.2.2. Lean UX Assumptions
+
+**1.2.2.2.1. ¿Quién es el usuario?**
+<p align="justify">
+    Los usuarios de la solución se dividen principalmente en dos grupos. El primero está conformado por los propietarios, administradores y trabajadores de pequeñas y medianas lavanderías, quienes necesitan gestionar clientes, pedidos, prendas, servicios, pagos y entregas de manera organizada. El segundo grupo corresponde a los clientes de las lavanderías, especialmente personas que cuentan con una disponibilidad limitada de tiempo para realizar tareas domésticas o que no disponen de una lavadora en sus hogares, y que buscan una alternativa más cómoda para solicitar, pagar y realizar el seguimiento de sus servicios de lavandería.
+</p>
+
+**1.2.2.2.2. ¿Dónde encaja nuestro producto en su trabajo o vida?**
+<p align="justify">
+    La solución se integra en el proceso cotidiano de gestión y prestación del servicio de lavandería. Para las lavanderías, funcionará como una herramienta central para registrar clientes y pedidos, administrar las prendas, actualizar el estado de las órdenes y consultar el historial de operaciones, reduciendo la dependencia de cuadernos, recibos, hojas de cálculo y mensajes dispersos. Para los clientes, se integrará en las actividades relacionadas con la solicitud y seguimiento del servicio, permitiéndoles consultar sus pedidos, conocer el estado de sus prendas, realizar pagos digitales y coordinar servicios de recojo y entrega a domicilio sin necesidad de realizar todas las gestiones presencialmente.
+</p>
+
+**1.2.2.2.3. ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
+<p align="justify">
+    <ul>
+        <li>Resistencia a la adopción de herramientas digitales: Algunas lavanderías pueden estar acostumbradas a gestionar sus operaciones mediante métodos tradicionales y presentar dificultades para adaptarse a un nuevo sistema.<br><br>Solución: Desarrollar una interfaz sencilla e intuitiva, acompañada de un proceso de incorporación que permita al personal aprender las funciones principales rápidamente.</li><br>
+        <li>Limitaciones económicas de las pequeñas lavanderías: Algunos negocios pueden considerar que implementar una nueva herramienta representa un gasto adicional.<br><br>Solución: Establecer un modelo de suscripción escalonado, con un plan gratuito y planes de pago con funcionalidades adicionales, permitiendo que cada negocio seleccione la alternativa de acuerdo con sus necesidades.</li><br>
+        <li>Información desactualizada o incorrecta: Si los estados de los pedidos no se actualizan oportunamente, los clientes podrían recibir información incorrecta sobre sus prendas.<br><br>Solución: Permitir que el personal actualice el estado de cada pedido desde la plataforma y que dicha información se refleje para el cliente.</li><br>
+        <li>Dependencia de la conectividad: Algunas operaciones podrían verse afectadas ante problemas de conexión a internet.<br><br>Solución: Evaluar mecanismos de almacenamiento temporal y sincronización de información para garantizar la continuidad de las operaciones esenciales.</li>
+    </ul>
+</p>
+
+**1.2.2.2.4. ¿Cuándo y cómo es usado nuestro producto?**
+<p align="justify">
+    WashTrack será utilizada durante las diferentes etapas del servicio de lavandería, donde el personal podrá utilizarla al recibir un pedido para registrar los datos del cliente, las prendas y los servicios solicitados, durante el procesamiento para actualizar el estado de la orden, y al finalizar para verificar la información y gestionar su entrega. Por otro lado, los clientes podrán utilizarla cuando necesiten solicitar un servicio, consultar el estado de sus prendas, revisar pedidos anteriores, realizar un pago o coordinar el recojo y la entrega. En resumen, se espera que la plataforma tenga un uso recurrente, tanto durante la operación diaria de la lavandería como durante las interacciones del cliente con el servicio.
+</p>
+
+**1.2.2.2.5. ¿Qué características son importantes?**
+<p align="justify">
+    <ul>
+        <li>Gestión de clientes y pedidos: Registro y consulta de información de clientes y órdenes.</li>
+        <li>Gestión de prendas y servicios: Registro de las prendas recibidas y de los servicios solicitados.</li>
+        <li>Seguimiento de pedidos: Actualización y visualización del estado de las prendas durante el proceso</li>
+        <li>Historial de operaciones: Consulta de pedidos y servicios realizados anteriormente.</li>
+        <li>Pagos digitales: Posibilidad de realizar y gestionar pagos desde la plataforma.</li>
+        <li>Recojo y entrega a domicilio: Solicitud y coordinación de servicios de recojo y devolución.</li>
+        <li>Notificaciones: Comunicación al cliente sobre cambios relevantes en el estado de su pedido.</li>
+        <li>Dashboard para lavanderías: Visualización de indicadores básicos sobre pedidos, clientes y operaciones.</li>
+    </ul>
+</p>
+
+**1.2.2.2.6. ¿Cómo debe verse nuestro producto y cómo debe comportarse?**
+<p align="justify">
+    En primer lugar, la plataforma debe presentar una interfaz limpia, sencilla e intuitiva, priorizando la facilidad de uso tanto para el personal de las lavanderías como para los clientes. En segundo lugar, las principales acciones, como registrar un pedido, consultar el estado de una prenda o realizar un pago, deben poder ejecutarse con pocos pasos y con información claramente organizada. También, el sistema debe proporcionar retroalimentación inmediata cuando se registre o actualice una operación y mantener sincronizada la información entre la lavandería y el cliente. Por último, debe transmitir una sensación de confianza y orden, especialmente en procesos sensibles como el registro de prendas, pagos y entrega de pedidos.
+</p>
+
+**1.2.2.2.7. Business Outcomes**
+<p align="justify">
+    <ul>
+        <li>Generación de ingresos recurrentes mediante un modelo de suscripción mensual para lavanderías.</li>
+        <li>Adopción progresiva de la plataforma, utilizando el plan gratuito como mecanismo de entrada y los planes premium como fuente de monetización.</li>
+        <li>Incremento de lavanderías afiliadas, consolidando progresivamente la solución dentro del mercado peruano.</li>
+        <li>Fidelización de lavanderías y clientes mediante una experiencia de servicio más organizada y conveniente.</li>
+        <li>Reducción de incidencias operativas relacionadas con errores de registro, pérdida de información y entrega incorrecta de pedidos.</li>
+        <li>Escalabilidad del producto, incorporando nuevas funcionalidades según las necesidades identificadas en las lavanderías y sus clientes.</li>
+    </ul>
+</p>
+
+**1.2.2.2.8. User Outcomes**
+<p align="justify">
+    <ul>
+        <li>Ahorro de tiempo: Los clientes pueden gestionar sus servicios sin tener que realizar todas las consultas o coordinaciones presencialmente.</li>
+        <li>Mayor comodidad: Posibilidad de solicitar servicios, realizar pagos y coordinar recojos y entregas desde un mismo espacio.</li>
+        <li>Mayor transparencia: Los clientes pueden conocer el estado de sus prendas durante las diferentes etapas del servicio.</li>
+        <li>Mejor organización: Las lavanderías pueden centralizar la información de clientes, pedidos y prendas.</li>
+        <li>Reducción de errores: Disminución de confusiones relacionadas con pedidos, fechas, prendas y entregas.</li>
+        <li>Mayor control operativo: Los responsables de la lavandería pueden consultar el historial y estado de sus operaciones de manera más rápida.</li>
+    </ul>
+</p>
+
+**1.2.2.2.9. Features**
+<p align="justify">
+    <ul>
+        <li>Módulo de gestión de clientes: Registro, consulta y actualización de información.</li>
+        <li>Módulo de pedidos: Creación, modificación y seguimiento de órdenes.</li>
+        <li>Registro de prendas: Identificación de prendas asociadas a cada pedido.</li>
+        <li>Estados del pedido: Recibido, en proceso, listo para entrega, entregado, entre otros.</li>
+        <li>Historial de servicios: Consulta de pedidos anteriores y servicios realizados.</li>
+        <li>Dashboard del cliente: Acceso a pedidos, estados, historial y datos del servicio.</li>
+        <li>Pagos digitales: Gestión de pagos asociados a los pedidos.</li>
+        <li>Recojo y entrega a domicilio: Solicitud y coordinación de servicios logísticos.</li>
+        <li>Notificaciones: Avisos sobre cambios en el estado del pedido y próximas entregas.</li>
+        <li>Dashboard de lavandería: Indicadores sobre pedidos, clientes y operaciones.</li>
+        <li>Planes de suscripción: Administración de los planes gratuito, básico y avanzado.</li>
+    </ul>
+</p>
+
+##### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Hypothesis Statement 1**
+<p align="justify">
+    Creemos que centralizar la gestión de clientes, pedidos y prendas en una plataforma digital intuitiva permitirá a los propietarios y trabajadores de las lavanderías reducir los errores asociados al registro y seguimiento manual de las órdenes y mejorar el control sobre sus operaciones. Sabremos que esto es cierto cuando observemos una reducción de al menos 30% en las incidencias relacionadas con pedidos, prendas y fechas de entrega, así como una disminución en el tiempo promedio destinado al registro y consulta de información.
+</p>
+
+**Hypothesis Statement 2**
+<p align="justify">
+    Creemos que permitir a los clientes consultar digitalmente el estado de sus pedidos y prendas mejorará la transparencia del servicio y disminuirá la necesidad de comunicarse directamente con la lavandería para realizar consultas. Sabremos que esto es cierto cuando al menos el 70% de los clientes utilice la función de seguimiento y se registre una reducción de al menos 30% en las consultas relacionadas con el estado de los pedidos.
+</p>
+
+**Hypothesis Statement 3**
+<p align="justify">
+    Creemos que incorporar pagos digitales y servicios de recojo y entrega a domicilio permitirá a los clientes gestionar sus servicios de lavandería de manera más cómoda y reducir el tiempo y esfuerzo asociado a estas actividades. Sabremos que esto es cierto cuando al menos el 60% de los usuarios activos utilice alguna de estas funcionalidades y los clientes reporten una mejora de al menos 30% en su percepción de comodidad y facilidad de uso.
+</p>
+
+**Hypothesis Statement 4**
+<p align="justify">
+    Creemos que ofrecer un modelo de suscripción escalonado, compuesto por un plan gratuito y planes de pago con funcionalidades adicionales, facilitará la adopción de la plataforma por parte de pequeñas y medianas lavanderías, permitiéndoles probar la solución antes de asumir un costo mensual. Sabremos que esto es cierto cuando al menos el 40% de las lavanderías que comiencen utilizando el plan gratuito permanezcan activas después del periodo inicial de prueba y un porcentaje de ellas migre posteriormente hacia alguno de los planes de pago.
+</p>
+
+##### 1.2.2.4. Lean UX Canvas
+<div>
+  <img src="assets/Chapter1/LeanUX/Lean_UX_Canvas.png" alt="Foto Lean UX Canvas (V2)" width="1000"/>
+</div>
+
+### 1.3. Segmentos objetivo
+
+**1.3.1. Propietarios de lavanderías independientes**
+<p align="justify">
+    Propietarios de pequeñas y medianas lavanderías que gestionan de manera directa las operaciones de sus establecimientos, incluyendo el registro de clientes, recepción de pedidos, control de prendas, actualización de estados, coordinación de entregas y seguimiento de los servicios realizados. Este segmento presenta una necesidad de mejorar la organización y centralización de sus procesos, especialmente cuando emplea métodos manuales o herramientas no integradas para administrar la información. WashTrack está orientada a facilitar la gestión operativa, reducir posibles errores y proporcionar un mayor control sobre los pedidos y servicios ofrecidos.
+</p>
+
+**1.3.2. Personas independientes que utilicen el servicio de lavanderías**
+<p align="justify">
+    Personas que recurren a servicios de lavandería para el cuidado y limpieza de sus prendas, principalmente aquellas que cuentan con una disponibilidad limitada de tiempo debido a sus actividades laborales, académicas, familiares o personales, así como aquellas que no disponen de una lavadora en sus hogares. Este segmento busca una alternativa que le permita gestionar sus servicios de manera práctica, conocer el estado de sus pedidos, realizar pagos digitales y acceder a opciones de recojo y entrega a domicilio. WashTrack busca brindarles mayor comodidad, reducir el tiempo y esfuerzo asociado a estas actividades y mejorar la transparencia durante todo el proceso del servicio.
+</p>
+
+---
+
+## Capítulo II: Requirements Elicitation & Analysis
+
+### 2.1. Competidores
+
+#### 2.1.1. Análisis competitivo
+
+WashTrack se posiciona como una plataforma de gestión para pequeñas y medianas lavanderías que necesitan digitalizar el registro de clientes, pedidos, prendas, pagos y entregas, sin perder visibilidad sobre el servicio que recibe el cliente final. Para reconocer el nivel de competencia, se analizaron tres soluciones especializadas en la operación de lavanderías: [CleanCloud](https://www.cleancloudapp.com/es/caracteristicas), [Cents](https://www.trycents.com/solutions) y [StarchUp](https://www.starchup.com/). Estas plataformas se seleccionaron porque cubren procesos comparables —punto de venta, seguimiento de órdenes, pagos y coordinación de recojo o entrega— y permiten identificar prácticas consolidadas del sector.
+
+El análisis es funcional y estratégico: no busca afirmar que las plataformas tengan la misma presencia comercial en Perú, sino contrastar sus propuestas con la necesidad de digitalización de las lavanderías objetivo de WashTrack.
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="6">Competitive Analysis Landscape</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
+      <td colspan="4">Determinar cómo puede diferenciarse WashTrack frente a soluciones consolidadas de gestión de lavanderías y qué capacidades debe priorizar para responder a las necesidades de pequeñas y medianas lavanderías peruanas y de sus clientes.</td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Startup / competidores</b></td>
+      <th>WashTrack</th>
+      <th>CleanCloud</th>
+      <th>Cents</th>
+      <th>StarchUp</th>
+    </tr>
+    <tr>
+      <td rowspan="2"><b>Perfil</b></td>
+      <td><b>Overview</b></td>
+      <td valign="top">Plataforma digital que conecta la gestión operativa de pequeñas y medianas lavanderías con la experiencia de sus clientes. Centraliza clientes, pedidos, prendas, estados, pagos y servicios de recojo o entrega.</td>
+      <td valign="top">Plataforma en la nube para lavanderías, tintorerías y negocios de lavado y doblado. Integra punto de venta, administración de órdenes, pagos, comunicación y servicios de recojo y entrega.</td>
+      <td valign="top">Plataforma de gestión para lavanderías y negocios de autoservicio que integra punto de venta, pagos, operación de <i>wash & fold</i>, administración de clientes y conexión con equipos.</td>
+      <td valign="top">Software en la nube para lavanderías y tintorerías que reúne punto de venta, pedidos digitales, gestión de clientes y herramientas para operaciones de recojo y entrega.</td>
+    </tr>
+    <tr>
+      <td><b>Ventaja competitiva</b><br>¿Qué valor ofrece a los clientes?</td>
+      <td valign="top">Ofrece una experiencia sencilla y localizada para el mercado peruano, conectando la trazabilidad de cada prenda con pagos digitales y coordinación de entregas en una solución de adopción gradual.</td>
+      <td valign="top">Destaca por la amplitud de su ecosistema, sus integraciones y la capacidad de administrar desde negocios independientes hasta operaciones con varias tiendas.</td>
+      <td valign="top">Integra software, pagos y operación de equipos, lo que permite administrar en una misma plataforma lavanderías de autoservicio y servicios atendidos.</td>
+      <td valign="top">Combina la administración del negocio con funciones especializadas de pedidos en línea, rutas y seguimiento de recojos o entregas.</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><b>Perfil de Marketing</b></td>
+      <td><b>Mercado objetivo</b></td>
+      <td valign="top">Pequeñas y medianas lavanderías peruanas que todavía dependen de registros manuales o herramientas no integradas, además de clientes que buscan mayor comodidad y visibilidad del servicio.</td>
+      <td valign="top">Lavanderías, tintorerías y negocios de lavado y doblado de distintos tamaños, incluidos establecimientos con múltiples locales.</td>
+      <td valign="top">Lavanderías de autoservicio, operadores de <i>wash & fold</i> y empresas con uno o varios establecimientos que buscan integrar software, pagos y equipos.</td>
+      <td valign="top">Lavanderías y tintorerías que necesitan digitalizar su punto de venta y gestionar servicios de recojo y entrega.</td>
+    </tr>
+    <tr>
+      <td><b>Estrategias de marketing</b></td>
+      <td valign="top">Modelo freemium, demostraciones a lavanderías locales, contenido educativo en español, alianzas con negocios del sector y comunicación de beneficios medibles como menos errores y consultas repetitivas.</td>
+      <td valign="top">Captación digital mediante demostraciones o pruebas, contenido especializado y presentación de planes e integraciones según el tamaño de la operación.</td>
+      <td valign="top">Estrategia comercial basada en demostraciones, casos de éxito, recursos educativos y una propuesta integral para modernizar la operación del negocio.</td>
+      <td valign="top">Demostraciones comerciales y comunicación centrada en digitalización, pedidos en línea y eficiencia de las operaciones de reparto.</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><b>Perfil de Producto</b></td>
+      <td><b>Productos & Servicios</b></td>
+      <td valign="top">Gestión de clientes, pedidos, prendas y estados; historial y seguimiento para clientes; pagos digitales; notificaciones; reportes; planes de suscripción y coordinación de recojo o entrega.</td>
+      <td valign="top">Punto de venta, gestión de órdenes y prendas, pagos, aplicaciones para clientes, marketing, reportes, inventario, seguimiento y gestión de recojo o entrega.</td>
+      <td valign="top">Punto de venta, administración de clientes, pagos, gestión de <i>wash & fold</i>, pedidos en línea, fidelización e integraciones con equipos y hardware.</td>
+      <td valign="top">Punto de venta, pedidos web y móviles, administración de clientes, pagos, comunicación, seguimiento de repartidores y optimización de rutas.</td>
+    </tr>
+    <tr>
+      <td><b>Precios & Costos</b></td>
+      <td valign="top">Plan gratuito; plan Básico de S/ 49 mensuales; y plan Avanzado de S/ 99 mensuales para lavanderías con mayor volumen y necesidades de gestión.</td>
+      <td valign="top">Modelo de suscripción SaaS con distintos planes y complementos; el costo depende de las capacidades y configuración seleccionadas por el negocio.</td>
+      <td valign="top">Precio comercial definido según las características y escala de la operación; requiere contactar al proveedor para recibir una propuesta.</td>
+      <td valign="top">Precio comercial según los módulos y necesidades de la lavandería; requiere solicitar una demostración o cotización.</td>
+    </tr>
+    <tr>
+      <td><b>Canales de distribución</b><br>Web y/o móvil</td>
+      <td valign="top">Aplicación web responsiva para lavanderías y clientes, complementada por una Landing Page.</td>
+      <td valign="top">Plataforma web y aplicaciones móviles vinculadas a la operación y experiencia del cliente.</td>
+      <td valign="top">Plataforma web, aplicaciones móviles y dispositivos o integraciones para la operación física de la lavandería.</td>
+      <td valign="top">Plataforma web y aplicaciones móviles para clientes, negocio y gestión de reparto.</td>
+    </tr>
+    <tr>
+      <td rowspan="5"><b>Análisis SWOT</b></td>
+      <td colspan="5">El análisis identifica factores internos y externos de cada propuesta. En WashTrack, las fortalezas deben permitir aprovechar las oportunidades del mercado y respaldar su ventaja competitiva.</td>
+    </tr>
+    <tr>
+      <td><b>Fortalezas</b></td>
+      <td valign="top">Enfoque en lavanderías peruanas; experiencia conectada entre negocio y cliente; trazabilidad por pedido y prenda; adopción gradual y planes accesibles.</td>
+      <td valign="top">Solución madura, amplia cobertura funcional, integraciones, aplicaciones de marca y capacidad multitienda.</td>
+      <td valign="top">Integración entre software, pagos y equipos; conocimiento especializado de lavanderías de autoservicio; herramientas para escalar operaciones.</td>
+      <td valign="top">Experiencia en pedidos digitales, gestión de reparto, optimización de rutas y comunicación con el cliente.</td>
+    </tr>
+    <tr>
+      <td><b>Debilidades</b></td>
+      <td valign="top">Producto en etapa inicial, poco reconocimiento de marca, necesidad de validar la adopción y menor cantidad de integraciones frente a plataformas consolidadas.</td>
+      <td valign="top">La amplitud funcional puede aumentar la complejidad y el costo para negocios pequeños; requiere adaptación al contexto operativo y comercial peruano.</td>
+      <td valign="top">Su propuesta está fuertemente orientada al mercado de autoservicio y puede requerir equipos o una operación más sofisticada que la de una lavandería pequeña.</td>
+      <td valign="top">El énfasis en reparto y operaciones amplias puede exceder las necesidades iniciales de negocios que solo buscan reemplazar registros manuales.</td>
+    </tr>
+    <tr>
+      <td><b>Oportunidades</b></td>
+      <td valign="top">Digitalización de lavanderías locales, crecimiento de pagos digitales y servicios bajo demanda, y necesidad de reducir errores y consultas sobre pedidos.</td>
+      <td valign="top">Expansión a nuevos mercados, nuevas integraciones y crecimiento de servicios de recojo y entrega.</td>
+      <td valign="top">Mayor adopción de pagos digitales, automatización de equipos y consolidación de operadores con múltiples locales.</td>
+      <td valign="top">Crecimiento de pedidos en línea, servicios de entrega y herramientas móviles para repartidores y clientes.</td>
+    </tr>
+    <tr>
+      <td><b>Amenazas</b></td>
+      <td valign="top">Competidores con mayor trayectoria, resistencia al cambio de negocios tradicionales, baja disposición de pago y aparición de nuevas soluciones locales.</td>
+      <td valign="top">Competidores regionales de menor costo y necesidad de adaptar su plataforma a normativas y prácticas de cada mercado.</td>
+      <td valign="top">Alternativas de software sin dependencia de hardware, cambios en los proveedores de pagos y nuevos competidores especializados.</td>
+      <td valign="top">Competidores con ecosistemas más amplios, soluciones locales de menor precio y cambios en los costos de servicios logísticos.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="justify">
+La comparación se elaboró a partir de la información pública presentada por <a href="https://www.cleancloudapp.com/es/caracteristicas">CleanCloud</a>, <a href="https://www.trycents.com/solutions">Cents</a> y <a href="https://www.starchup.com/">StarchUp</a>. Los precios de los competidores se describen de manera general porque pueden variar según el plan, los módulos contratados, el número de locales y las condiciones comerciales vigentes.
+</p>
+
+El análisis muestra que las soluciones internacionales han resuelto con madurez procesos de punto de venta, pagos, entrega y comunicación. Sin embargo, su amplitud funcional también representa una oportunidad para WashTrack: iniciar con los procesos que generan mayor fricción en el segmento objetivo —registro de órdenes y prendas, actualización de estados, pagos y coordinación de entrega— mediante una experiencia sencilla, en español y ajustable a la realidad de cada lavandería. La plataforma debe evitar competir inicialmente por cantidad de integraciones o hardware y concentrarse en reducir el trabajo manual, los errores de trazabilidad y las consultas repetitivas de los clientes.
+
+#### 2.1.2. Estrategias y tácticas frente a competidores
+
+WashTrack debe diferenciarse por ofrecer una digitalización gradual y comprensible para pequeñas y medianas lavanderías. Mientras CleanCloud, Cents y StarchUp presentan ecosistemas amplios, WashTrack puede competir con una propuesta enfocada en resolver los problemas cotidianos del negocio local: información dispersa, control manual de pedidos y prendas, falta de visibilidad para el cliente y coordinación informal de recojos o entregas.
+
+| Estrategia | Tácticas iniciales | Resultado esperado |
+| :--- | :--- | :--- |
+| **Especialización en el contexto local** | Configurar moneda en soles, terminología habitual del servicio de lavandería, flujos simples de registro y soporte en español. Validar con negocios locales los estados de pedido, tipos de servicio y comprobantes que utilizan. | Menor curva de aprendizaje y una propuesta más cercana a las prácticas de las lavanderías objetivo. |
+| **Adopción progresiva** | Ofrecer un plan gratuito o de prueba con registro de clientes, pedidos y estados; reservar reportes, pagos digitales, historial avanzado y coordinación de entrega para planes de mayor valor. Acompañar el inicio con una guía breve de configuración. | Reducir la barrera de entrada para negocios acostumbrados a cuadernos, hojas de cálculo o mensajería. |
+| **Trazabilidad como propuesta central** | Asociar cada prenda y servicio a una orden, registrar cambios de estado y mantener un historial visible para el negocio. Enviar notificaciones claras al cliente cuando el pedido avance o esté listo. | Disminuir confusiones, consultas repetitivas y riesgos de entrega incorrecta. |
+| **Experiencia conectada entre negocio y cliente** | Proporcionar al cliente una vista de consulta de pedidos, estado, pago y coordinación de entrega; permitir que el personal actualice la información desde su flujo operativo. | Aumentar la transparencia del servicio sin añadir carga de atención manual a la lavandería. |
+| **Crecimiento mediante alianzas y demostración de valor** | Realizar demostraciones con lavanderías independientes, recopilar casos de uso y buscar alianzas con asociaciones locales, proveedores de insumos o servicios de reparto. Comunicar beneficios concretos: menos tiempo de registro, menos consultas y mayor control de entregas. | Obtener retroalimentación temprana, generar confianza y construir evidencia para ampliar la adopción. |
+
+Como prioridad, el producto mínimo viable debe concentrarse en la administración de clientes, pedidos, prendas, estados y notificaciones. Los pagos digitales, reportes y la coordinación de reparto deben incorporarse de forma incremental después de validar el flujo principal con lavanderías reales. Esta secuencia permite que WashTrack construya una ventaja sostenible a partir de la facilidad de adopción y la trazabilidad del servicio, en lugar de intentar igualar desde el inicio toda la infraestructura de las plataformas internacionales.
+
+### 2.2. Entrevistas
+
+#### 2.2.1. Diseño de entrevistas
+<p>Para el diseño de las entrevistas, se ha tomado en cuenta el perfil de los <b>diferentes segmentos de usuarios de WashTrack</b>, principalmente <b>clientes de lavanderías y propietarios o administradores</b> de estos negocios, así como sus necesidades, objetivos y principales dificultades relacionadas con la gestión de pedidos y servicios de lavandería. Se definieron los objetivos de la investigación, las preguntas clave y los temas a abordar durante cada entrevista.</p>
+
+
+**Preguntas generales**
+
+*Dirigidas a ambos segmentos de usuarios.*
+
+1. ¿Cuál es su nombre?
+2. ¿Cuál es su edad?
+3. ¿En qué distrito reside actualmente?
+
+---
+
+**Dueños de lavanderías**
+
+1. ¿Podrías contarnos brevemente cómo funciona el servicio de la lavandería desde que un cliente llega hasta que recibe sus prendas?
+2. ¿Qué actividades realizas personalmente dentro del proceso de atención de los clientes?
+3. ¿Qué tipos de servicios ofrecen actualmente?
+4. ¿Cómo registran actualmente la información de los clientes y sus pedidos? ¿Qué herramientas utilizan para organizar esta información?
+5. Cuando un cliente deja sus prendas, ¿qué información registran y cómo lo hacen?
+6. ¿Alguna vez se ha perdido, confundido o registrado incorrectamente información de un pedido? ¿Qué ocurrió?
+7. ¿Qué sucede cuando un cliente modifica su pedido después de haberlo registrado?
+8. ¿Alguna vez una prenda o pedido se ha retrasado? ¿Cómo se solucionó?
+9. ¿Qué ocurre cuando tienen varios pedidos con fechas de entrega cercanas?
+10. ¿Cómo priorizan los pedidos que deben ser procesados o entregados?
+11. ¿Cómo se comunica actualmente la lavandería con sus clientes durante el proceso?
+12. ¿Con qué frecuencia los clientes se comunican para preguntar por el estado de sus prendas?
+13. ¿Ofrecen actualmente recojo o entrega a domicilio? Si no, ¿por qué?
+14. En caso de realizar entregas a domicilio, ¿cómo coordinan actualmente las direcciones, horarios y pedidos?
+15. ¿Qué actividad te quita más tiempo durante la gestión diaria de la lavandería?
+16. ¿Qué tipo de error te genera mayores inconvenientes o costos?
+
+---
+
+**Clientes**
+
+1. ¿Con qué frecuencia utilizas servicios de lavandería?
+2. ¿Qué tipo de prendas o servicios sueles llevar a una lavandería?
+3. ¿Qué factores son importantes para ti al momento de elegir una lavandería?
+4. Cuéntame cómo es normalmente tu proceso desde que decides llevar ropa a una lavandería hasta que la dejas en el establecimiento.
+5. ¿Cómo sabes qué prendas dejaste y qué servicio solicitaste?
+6. ¿Alguna vez has tenido algún problema al registrar o entregar tus prendas? ¿Qué ocurrió?
+7. Después de dejar tus prendas, ¿cómo sabes en qué estado se encuentra tu pedido?
+8. ¿Sueles comunicarte con la lavandería para preguntar si tus prendas ya están listas?
+9. ¿Con qué frecuencia realizas este tipo de consultas?
+10. ¿Has tenido algún problema porque tu pedido no estuvo listo en la fecha acordada? ¿Qué sucedió?
+11. ¿Qué información te gustaría poder consultar sobre un pedido mientras está siendo procesado?
+12. ¿Cómo recoges normalmente tus prendas cuando el pedido está listo?
+13. ¿Cuánto tiempo aproximadamente te toma realizar el traslado para recogerlas?
+14. ¿Has utilizado anteriormente servicios de recojo o entrega a domicilio de lavanderías?
+15. Si has utilizado este servicio, ¿qué problemas has experimentado?
+16. ¿Qué parte del proceso te resulta más incómoda o te toma más tiempo?
+17. ¿Qué tendría que mejorar una lavandería para que estuvieras más satisfecho con su servicio?
+
+
+#### 2.2.2. Registro de entrevistas
+**Primer Segmento: Propietarios de lavanderías independientes**
+<u>Entrevista 1:</u>
+
+<br>
+<u>Entrevista 2:</u>
+
+Entrevistador: Adriana Nicole Ramos Fuentes Rivera
+
+Datos del entrevistado:
+
+- **Nombre:** Elizabeth
+- **Apellidos:** Flores
+- **Edad:** 38 años
+- **Distrito:** Comas
+- **Timing:** 00:07:58 - 00:13:43
+
+**Resumen descriptivo:**
+<div align="justify">
+  Elizabeth, es propietaria de una lavandería independiente, ella se encarga de gestionar los pedidos y el proceso de lavado dentro de su lavandería. Actualmente, realiza todo el registro de manera manual mediante boletas, donde indica el código del pedido, las prendas, cantidades y la hora estimada de recojo. Sin embargo, entre las principales dificultades se encuentran las confusiones o pérdidas ocasionales de prendas y algunos retrasos ocasionados por problemas durante el proceso de secado. Debido a la inseguridad ciudadana, no mantiene comunicación con los clientes fuera del local, por lo que cualquier inconveniente se resuelve presencialmente. Considera que los tiempos y precios de sus servicios son adecuados y, por el momento, no ofrece servicio de recojo o entrega a domicilio.
+</div>
+<br>
+
+<u>Entrevista 3:</u>
+
+<br>
+
+**Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+<u>Entrevista 1:</u>
+
+Entrevistador: Adriana Nicole Ramos Fuentes Rivera
+
+Datos del entrevistado:
+
+- **Nombre:** Andrea
+- **Apellidos:** Arias
+- **Edad:** 28 años
+- **Distrito:** Comas
+- **Timing:** 00:20:52 - 00:30:12
+
+**Resumen descriptivo:**
+<div align="justify">
+  Andrea, es una persona independiente que consume el servicio de lavandería ocasionalmente. Además, en su opinión, los factores más importantes al elegir una lavandería son que el precio sea acorde al servicio brindado, la distancia entre su casa y el local, y el tiempo de todo el proceso. Tambien mencionó que, si bien está satisfecha con el registro y cumplimiento de los pedidos, identifica como principal dificultad el transporte de las prendas hacia la lavandería. Asimismo, considera importante contar con información en tiempo real sobre el estado de su pedido y recibir una notificación cuando esté listo para recogerlo. Finalmente, señala que le gustaría recibir promociones o beneficios por ser una cliente recurrente.
+</div>
+<br>
+
+<u>Entrevista 2:</u>
+
+<br>
+<p><u>Entrevista 3:</u></p>
+
+Entrevistador: Perez Vasquez Ariana Valeria
+
+Datos del entrevistado:
+
+- **Nombre:** Renzo
+- **Apellidos:** Mongrut
+- **Edad:** 20 años
+- **Distrito:** Jesus María
+- **Timing:** 00:43:02 - 00:53:07
+
+<div align="justify">
+
+Renzo Mongrut, de 20 años y residente en Jesús María, es un cliente frecuente de lavanderías, ya que utiliza este servicio aproximadamente dos a tres veces por semana. Durante la entrevista, mencionó que una de sus principales dificultades es la desconfianza hacia algunas lavanderías, debido a experiencias en las que sus prendas no fueron entregadas correctamente. Asimismo, señaló haber tenido problemas relacionados con el cuidado de su ropa, como prendas desgastadas y botones dañados o rotos durante el proceso.
+
+Por otro lado, considera importante conocer con precisión qué prendas lleva a la lavandería y poder realizar un seguimiento de ellas durante todo el proceso, desde la recepción hasta la entrega. Debido a que estudia y trabaja, dispone de poco tiempo, por lo que el traslado desde su domicilio hacia la lavandería y, especialmente, el recojo de sus prendas representan una dificultad. En este sentido, manifestó interés en contar con un servicio de lavandería que incluya delivery, de manera que pueda ahorrar tiempo y evitar desplazamientos innecesarios.
+
+Finalmente, Renzo considera que contar con un sistema que permita registrar las prendas entregadas, realizar un seguimiento de su estado y recibir información sobre el avance del servicio podría brindarle mayor confianza y seguridad. Además, un servicio de recojo y entrega a domicilio se ajustaría mejor a su rutina de estudio y trabajo.
+
+
+<p align="center">
+  <img src="assets/Chapter2/Interview/Registro_Entrevistas.png" alt="Video de registro de entrevistas de ambos segmentos" width="500"/>
+  <br/><i>Evidencia de entrevista (ambos segmentos)</i>
+</p>
+
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQALZsfwqvXoS5Mt9znSXvgrAbMQ6v02M21v0TXnnxlZnXk?e=piOTvD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+#### 2.2.3. Análisis de entrevistas
+
+**Primer Segmento: Propietarios de lavanderías independientes**
+
+<p align="justify">
+<ul>
+  <li>El 100% de los propietarios entrevistados utiliza mecanismos de registro que no se encuentran completamente centralizados, como cuadernos físicos, tickets, fichas, boletas o archivos de Excel, lo que dificulta el seguimiento y consulta de la información de los pedidos.</li><br>
+  <li>El 100% de los propietarios entrevistados ha identificado dificultades relacionadas con el registro y control de las prendas, principalmente por errores en las cantidades, detalles omitidos, pérdida de tickets, confusión entre pedidos o mezcla de prendas.</li><br>
+  <li>El 100% de los propietarios entrevistados considera que los errores en el registro pueden generar consecuencias negativas para el negocio y la relación con el cliente, como reclamos, pérdida de confianza, reposición de prendas o pérdidas económicas.</li><br>
+  <li>El 66,7% de los propietarios entrevistados señala que una de las principales dificultades de la gestión diaria está relacionada con el seguimiento de los pedidos pendientes y el control de las prendas que todavía deben ser entregadas.</li><br>
+  <li>El 66,7% de los propietarios entrevistados ha experimentado retrasos en la entrega de pedidos debido a factores como problemas durante el secado, condiciones climáticas, fallas en el suministro de gas o un incremento en la cantidad de pedidos recibidos.</li><br>
+  <li>El 66,7% de los propietarios entrevistados manifiesta que algunas actividades de gestión les generan una carga adicional de tiempo, principalmente la búsqueda de información de pedidos anteriores, el registro de pedidos y la identificación de pedidos pendientes.</li><br>
+  <li>El 100% de los propietarios entrevistados presenta limitaciones en la comunicación con sus clientes, debido a que no cuenta con un sistema integrado para informar el estado de los pedidos. La comunicación se realiza principalmente mediante llamadas, WhatsApp o mensajes de texto, especialmente cuando el pedido está listo o presenta algún retraso.</li><br>
+  <li>El 100% de los propietarios entrevistados no ofrece un servicio general de recojo y entrega a domicilio. Nataly únicamente lo realiza para clientes frecuentes y cercanos, mientras que Isabela y Elizabeth trabajan exclusivamente con recojo en el local.</li><br>
+  <li>El 100% de los propietarios entrevistados muestra preocupación por mantener la satisfacción y confianza de sus clientes, especialmente ante situaciones de retrasos, pérdida, confusión o errores en las prendas.</li>
+</ul>
+</p>
+<br>
+
+**Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+<p align="justify">
+<ul>
+  <li>El 100% de los clientes entrevistados considera importante que las prendas reciban un tratamiento adecuado de acuerdo con sus características y material, especialmente cuando se trata de prendas delicadas, costosas o que requieren servicios específicos.</li><br>
+  <li>El 100% de los clientes entrevistados recibe una boleta o comprobante físico donde se registran las prendas entregadas, la cantidad, el servicio solicitado y/o la fecha estimada de recojo.</li><br>
+  <li>El 100% de los clientes entrevistados manifiesta interés en conocer el avance de sus pedidos y recibir información actualizada sobre la etapa en la que se encuentran sus prendas, así como la fecha y hora exacta en que estarán listas para ser recogidas.</li><br>
+  <li>El 100% de los clientes entrevistados valora la posibilidad de recibir notificaciones relacionadas con el estado de sus prendas, especialmente cuando el pedido está listo para ser recogido.</li><br>
+  <li>El 66,7% de los clientes entrevistados ha experimentado dificultades de comunicación con la lavandería, principalmente porque sus llamadas o mensajes no son respondidos o porque el personal no puede proporcionar información sobre el estado del pedido.</li><br>
+  <li>El 66,7% de los clientes entrevistados ha experimentado retrasos o incumplimientos en los tiempos de entrega establecidos por la lavandería, situación que les ha generado inconvenientes para organizar sus actividades o utilizar las prendas que necesitaban.</li><br>
+  <li>El 100% de los clientes entrevistados debe trasladarse físicamente hasta la lavandería para entregar o recoger sus prendas, generando un consumo de tiempo y esfuerzo, especialmente cuando se trata de prendas voluminosas.</li><br>
+  <li>El 66,7% de los clientes entrevistados muestra interés en contar con un servicio de recojo o entrega a domicilio, principalmente porque permitiría reducir el tiempo y esfuerzo asociado al traslado de las prendas.</li><br>
+  <li>El 66,7% de los clientes entrevistados expresa preocupación por la confianza y seguridad de sus prendas, debido al temor de que estas se pierdan, se mezclen con otros pedidos, sean dañadas o reciban un tratamiento diferente al solicitado.</li><br>
+</ul>
+</p>
+
+### 2.3. Needfinding
+
+<p align="justify">
+
+En esta sección se presentan los resultados obtenidos a partir del proceso de <b>análisis y síntesis de la información recopilada durante la investigación de usuarios de WashTrack por nuestro equipo TechNova</b>. Este análisis tiene como finalidad identificar patrones de comportamiento, necesidades, expectativas, dificultades y oportunidades de mejora relacionadas con la experiencia de los principales segmentos de usuarios.
+
+</p>
+
+<p align="justify">
+
+A partir de los hallazgos obtenidos, se desarrollan diferentes artefactos de análisis que permiten <b>representar y comprender de manera estructurada la interacción de los usuarios con el servicio de lavandería en su contexto actual</b>. Entre estos se encuentran los <b>User Personas, User Task Matrix, User Journey Maps, Empathy Mapping</b> y <b>As-Is Scenario Mapping</b>, los cuales servirán como base para orientar las decisiones posteriores de diseño y definir soluciones acordes con las necesidades identificadas.
+
+</p>
+
+### 2.3.1. User Personas
+
+<p align="justify">
+    A continuación, se presentan los arquetipos de usuario definidos para <b>WashTrack</b>, los cuales sintetizan los patrones de comportamiento, necesidades y frustraciones identificados en el proceso de investigación. Estos perfiles permiten orientar el diseño de la experiencia hacia nuestros dos segmentos principales: el cliente final y el administrador de la lavandería.
+</p>
+
+**User Persona 1: Cliente - Lucía Velasquez**
+Arquetipo que representa al usuario que busca optimizar su tiempo, delegar el lavado de sus prendas y realizar un seguimiento en tiempo real mediante canales digitales.
+
+<p align="center">
+    <img src="assets/UserPerson1.png" alt="User Persona 1 - Cliente Final" width=650>
+</p>
+
+**User Persona 2: Dueño y Administrador de Lavandería - Carlos Mendoza**
+Arquetipo que representa al administrador o dueño de un negocio tradicional que busca digitalizar su operación, centralizar pedidos y eliminar el uso de registros manuales.
+
+<p align="center">
+    <img src="assets/UserPerson2.png" alt="User Persona 2 - Administrador de Lavandería" width=650>
+</p>
+
+
+### 2.3.2. User Task Matrix
+
+<p align="justify">
+    En esta sección se presenta la User Task Matrix, la cual concentra las actividades que los User Personas que representan a cada segmento objetivo: <b>Lucía Velasquez</b> (Cliente Final) y <b>Carlos Mendoza</b> (Dueño / Administrador de Lavandería). Ellos realizan en su día a día para cumplir sus objetivos, independientemente de la existencia de nuestra solución de software. Esta sección inicia con una introducción donde se establecen los segmentos considerados, seguida de las tablas individuales con la frecuencia e importancia de cada tarea, y un análisis final de los resultados.
+</p>
+
+ **Lucía Velasquez (Cliente Final)**
+
+| Actividades | Frecuencia | Importancia |
+| :--- | :--- | :--- |
+| Acumular y organizar prendas para el lavado semanal | Semanal | Alto |
+| Trasladarse físicamente a la lavandería para dejar o recoger ropa | Semanal | Alto |
+| Comunicarse (llamar o escribir) para consultar el estado de la ropa | Semanal | Alto |
+| Coordinar pagos y verificar comprobantes de transacciones | Semanal | Medio |
+
+<br>
+
+**Carlos Mendoza (Dueño / Administrador de Lavandería)**
+
+| Actividades | Frecuencia | Importancia |
+| :--- | :--- | :--- |
+| Registrar y organizar pedidos, clientes y prendas en cuadernos o libretas | Diario | Alto |
+| Atender llamadas y mensajes dispersos de clientes sobre sus órdenes | Diario | Alto |
+| Supervisar el funcionamiento y estado operativo de las máquinas de lavado | Diario | Alto |
+| Gestionar el cobro y control de ingresos diarios del local | Diario | Alto |
+
+<br>
+
+**Análisis de la Matriz de Tareas**
+
+<p align="justify">
+    A partir de las tablas presentadas, se destacan las siguientes observaciones sobre las tareas de ambos arquetipos:
+</p>
+
+* **Tareas con mayor frecuencia e importancia:** Para **Carlos Mendoza**, las actividades más críticas y de frecuencia diaria son el *registro manual en cuadernos* y la *atención de llamadas de clientes*, las cuales representan los principales cuellos de botella operativos de su negocio. Para **Lucía Velasquez**, las tareas más relevantes ocurren semanalmente e implican el *traslado físico a la lavandería* y la *comunicación para conocer el estado de sus prendas*, reflejando una pérdida considerable de su tiempo libre.
+* **Coincidencias:** Ambos arquetipos dependen fuertemente de canales de comunicación tradicionales y poco eficientes como llamadas telefónicas y mensajes dispersos, para resolver la trazabilidad del servicio, lo que evidencia una necesidad mutua de automatización y transparencia digital.
+* **Diferencias principales:** Las actividades de Lucía están orientadas al consumo del servicio y la optimización de su tiempo personal con una frecuencia semanal, mientras que las de Carlos corresponden a la administración intensiva, control de stock/prendas y gestión operativa del local con una frecuencia diaria.
+
+#### 2.3.3. User Journey Mapping
+<p align="justify">
+  En esta sección se presentan los User Journey Maps elaborados a partir de los user persona por cada segmento. Estos mapas describen la experiencia actual del usuario identificando sus acciones, pensamientos, emociones, puntos de contacto, principales dificultades y oportunidades a lo largo del proceso. 
+</p>
+
+**Primer segmento: Propietarios de lavanderías independientes**
+<p align="center">
+  <img src="assets/Chapter2/UserJourneyMap/Carlos_journey_mapping.png" alt="User Journey Mapping Carlos" width="800"/>
+  <br/><i>User Journey Mapping de Carlos Mendoza</i>
+</p>
+<br>
+
+**Segundo segmento: Personas independientes que utilicen el servicio de lavanderías**
+<p align="center">
+  <img src="assets/Chapter2/UserJourneyMap/Lucia_journey_mapping.png" alt="User Journey Mapping Lucia" width="800"/>
+  <br/><i>User Journey Mapping de Lucia Velasquez</i>
+</p>
+
+#### 2.3.4. Empathy Mapping
+<p align="justify">
+  En esta sección se presenta el Empathy Map de los principales User Persona, con el propósito de comprender mejor sus necesidades, comportamientos, pensamientos, emociones, dificultades y expectativas. Además, esta herramienta nos ayuda a tener una visión más clara de su experiencia, facilitando la identificación de oportunidades de mejora para la solución.
+</p>
+<br>
+
+**Primer segmento: Propietarios de lavanderías independientes**
+<p align="center">
+  <img src="assets/Chapter2/EmpathyMap/CarlosEmpathyMap.png" alt="Empathy Mapping Carlos" width="800"/>
+  <br/><i>Empathy Map de Carlos Mendoza</i>
+</p>
+<br>
+
+**Segundo segmento: Personas independientes que utilicen el servicio de lavanderías**
+<p align="center">
+  <img src="assets/Chapter2/EmpathyMap/LuciaEmpathyMap.png" alt="Empathy Lucia Velasquez" width="800"/>
+  <br/><i>Empathy Map de Lucia Velasquez</i>
+</p>
+
+### 2.4. Big Picture EventStorming
+
+Para analizar de manera detallada el funcionamiento de **WashTrack**, plataforma orientada a la gestión de servicios de lavado y tratamiento de prendas, el equipo realizó una sesión de **Event Storming**. El objetivo principal fue reconocer cómo se desarrollan las actividades del negocio en la práctica y determinar los elementos más importantes que intervienen en ellas. A través de esta dinámica colaborativa, fue posible organizar los eventos, procesos y diferentes situaciones que forman parte del servicio, obteniendo una visión clara del comportamiento del negocio antes de definir aspectos vinculados con su desarrollo e implementación tecnológica.
+
+### Step 1 – Free Exploration (Exploración Libre)
+
+Durante esta fase inicial, el equipo llevó a cabo una lluvia de ideas con el propósito de reconocer los distintos Eventos de Dominio relacionados con el funcionamiento de WashTrack. Para representar cada acontecimiento identificado, se utilizaron notas de color rosa (post-its), en las cuales se registraron acciones que ya habían sucedido dentro del negocio, utilizando una redacción en tiempo pasado, como Laundry order created o Garment received.
+
+La intención de esta actividad fue construir una representación general del funcionamiento de WashTrack, considerando las diferentes actividades involucradas en la gestión y lavado de prendas. En esta etapa se buscó recopilar la mayor cantidad posible de eventos sin preocuparse todavía por establecer una secuencia temporal, relaciones entre ellos o niveles de importancia, dejando estos aspectos para las etapas posteriores del análisis.
+
+<div align="center">
+  <img src="assets/Chapter2/EventStorming/EventStorming-step1.PNG" alt="Event Storming: step 1" width="100%"/>
+  <p><em>Step 1 - Exploración libre de eventos de dominio.</em></p>
+</div>
+
+### Step 2 – Structured Organization (Líneas de Tiempo)
+
+Una vez identificados los principales eventos de dominio, el equipo procedió a organizarlos siguiendo la secuencia natural en la que se desarrolla el servicio de WashTrack. Los post-its fueron distribuidos de izquierda a derecha para representar el recorrido de una orden, desde el ingreso del cliente y sus prendas hasta la finalización y entrega del servicio.
+
+Los eventos se organizaron en cuatro grandes etapas que representan el ciclo operativo de una orden de lavado:
+
+1. **Customer & Order Registration:** Comprende las actividades iniciales del servicio, como el registro del cliente, la creación de la orden y el ingreso de las prendas que serán procesadas.
+
+2. **Garment Reception & Classification:** Representa el momento en que las prendas son recibidas y preparadas para su procesamiento. En esta etapa se incluyen eventos relacionados con la identificación, clasificación e inspección inicial de las prendas.
+
+3. **Laundry Processing:** Corresponde al núcleo operativo del servicio. Agrupa las diferentes etapas por las que pasan las prendas, incluyendo el inicio y finalización del lavado, secado, planchado, doblado e inspección posterior.
+
+4. **Delivery & Payment:** Comprende las actividades finales del ciclo, desde que las prendas se encuentran listas para ser entregadas hasta la entrega al cliente y el registro del pago correspondiente.
+
+Esta organización permitió visualizar de manera clara el recorrido completo de una orden dentro de WashTrack, facilitando la identificación de las principales etapas operativas y de los puntos en los que el sistema puede aportar un mayor control y seguimiento del servicio
+
+<div align="center">
+  <img src="assets/Chapter2/EventStorming/EventStorming-step2.PNG" alt="Event Storming: step 2" width="100%"/>
+  <p><em>Step 2 - Organización temporal por flujos de negocio.</em></p>
+</div>
+
+
+### 2.5. Ubiquitous Language
+
+Para mantener una comunicación clara y consistente entre los usuarios, el equipo de desarrollo y las demás partes involucradas en WashTrack, se estableció un conjunto de términos comunes relacionados con la gestión y el procesamiento de prendas. Este lenguaje compartido busca evitar ambigüedades y asegurar que los conceptos utilizados durante el análisis, diseño y desarrollo del sistema tengan el mismo significado para todos los participantes del proyecto.
+
+| Term | Definition |
+| :--- | :--- |
+| Customer | Person who uses WashTrack to request and manage laundry services. |
+| Garment | Individual clothing item submitted by a customer for washing and processing. |
+| Laundry | Business or facility responsible for receiving, processing, and returning customer garments. |
+| Order | Service request that groups the garments submitted by a customer for laundry processing. |
+| Customer registered | Event that occurs when a new customer has been successfully registered in the system. |
+| Garment registered | Event that occurs when a garment has been recorded and associated with a laundry order. |
+| Garment received | Event that indicates that the laundry has received a garment from the customer. |
+| Garments classified | Event that indicates that the garments have been organized according to their characteristics or required treatment. |
+| Washing process started | Event that indicates that the washing process for the garments has begun. |
+| Washing process completed | Event that indicates that the washing process for the garments has been successfully completed. |
+| Payment registered | Event that occurs when a payment associated with a laundry order has been recorded in the system. |
+| Payment confirmed | Event that indicates that the payment associated with an order has been successfully verified. |
+| Garments ready for delivery | Event that indicates that the garments have completed the required processing and are prepared to be returned to the customer. |
+| Order completed | Event that indicates that all required processing for a laundry order has been completed. |
+| Order delivered | Event that occurs when the processed garments have been returned to the customer. |
+| Customer and Order Registration | Initial stage in which the customer is registered and a laundry order is created. |
+| Laundry Order Created | Event that indicates that a new laundry service order has been created for a customer. |
+| Garment Reception and Classification | Stage in which the laundry receives, registers, and classifies the garments associated with an order. |
+| Laundry Processing | Stage in which the garments undergo the necessary washing and processing activities. |
+| Payment Management | Stage responsible for recording and confirming the payment associated with a laundry order. |
+| Delivery Management | Stage responsible for preparing and completing the return of processed garments to the customer. |
+
+
+---
+
+## Capítulo III: Requirements Specification
+
+### 3.1. User Stories
+En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTrack para la Landing Page, la plataforma y la RESTful API. Cada historia incluye criterios de aceptación en formato Gherkin para validar los requisitos.
+
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Epic / Story ID</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Título</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Descripción</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Criterios de Aceptación</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-001</td>
+      <td style="border: 1px solid black; padding: 8px;">Conocer la propuesta de valor de WashTrack</td>
+      <td style="border: 1px solid black; padding: 8px;">Como visitante, quiero conocer la propuesta de valor y los beneficios de WashTrack, para comprender cómo la plataforma mejora la gestión de lavanderías.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Presentación de la propuesta de valor</b><br>
+        <b>Dado</b> que el visitante ingresa a la Landing Page<br>
+        <b>Cuando</b> consulta la información principal de WashTrack<br>
+        <b>Entonces</b> el sistema presenta la propuesta de valor del servicio<br>
+        <b>Y</b> describe los principales beneficios para sus usuarios.<br><br>
+        <b>Escenario: Información comprensible</b><br>
+        <b>Dado</b> que el visitante consulta la información de WashTrack<br>
+        <b>Cuando</b> revisa la propuesta de valor<br>
+        <b>Entonces</b> la información permite identificar el propósito principal de la plataforma.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-013: Landing Page y Marketing</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-002</td>
+      <td style="border: 1px solid black; padding: 8px;">Consultar planes y precios</td>
+      <td style="border: 1px solid black; padding: 8px;">Como visitante del segmento de propietarios, quiero consultar los planes y precios de WashTrack, para evaluar la alternativa que mejor se adapte a las necesidades de mi lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Consulta de planes</b><br>
+        <b>Dado</b> que el visitante consulta la información comercial<br>
+        <b>Cuando</b> revisa los planes disponibles<br>
+        <b>Entonces</b> el sistema presenta el precio y las características de cada plan.<br><br>
+        <b>Escenario: Comparación de planes</b><br>
+        <b>Dado</b> que existen diferentes planes disponibles<br>
+        <b>Cuando</b> el visitante compara sus características<br>
+        <b>Entonces</b> puede identificar las diferencias entre los planes ofrecidos.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-012: Suscripciones</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-003</td>
+      <td style="border: 1px solid black; padding: 8px;">Recibir notificaciones del estado del pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero recibir notificaciones sobre los cambios de estado de mi pedido, para conocer el avance del servicio.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Cambio de estado</b><br>
+        <b>Dado</b> que existe un pedido registrado a nombre del cliente<br>
+        <b>Cuando</b> el pedido cambia de estado<br>
+        <b>Entonces</b> el sistema genera una notificación con el nuevo estado.<br><br>
+        <b>Escenario: Registro de actualización</b><br>
+        <b>Dado</b> que el pedido ha cambiado de estado<br>
+        <b>Cuando</b> el sistema registra la actualización<br>
+        <b>Entonces</b> se conserva la fecha y hora del cambio.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-004</td>
+      <td style="border: 1px solid black; padding: 8px;">Solicitar recojo de prendas a domicilio</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero solicitar el recojo de mis prendas a domicilio, para enviar mi ropa a la lavandería de manera cómoda.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Registro de solicitud</b><br>
+        <b>Dado</b> que el cliente requiere el servicio de recojo<br>
+        <b>Cuando</b> registra una dirección, fecha y rango horario válidos<br>
+        <b>Entonces</b> el sistema registra la solicitud de recojo.<br><br>
+        <b>Escenario: Generación de seguimiento</b><br>
+        <b>Dado</b> que la solicitud de recojo ha sido registrada correctamente<br>
+        <b>Cuando</b> el sistema confirma la solicitud<br>
+        <b>Entonces</b> genera un código de seguimiento asociado al servicio.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-005</td>
+      <td style="border: 1px solid black; padding: 8px;">Actualizar el estado del pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como trabajador de lavandería, quiero actualizar el estado de los pedidos, para mantener registrada la evolución del servicio.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Actualización válida</b><br>
+        <b>Dado</b> que existe un pedido en proceso<br>
+        <b>Cuando</b> el trabajador registra un nuevo estado válido<br>
+        <b>Entonces</b> el sistema actualiza el estado del pedido.<br><br>
+        <b>Escenario: Registro del responsable</b><br>
+        <b>Dado</b> que el estado del pedido ha sido actualizado<br>
+        <b>Cuando</b> el sistema registra el cambio<br>
+        <b>Entonces</b> conserva la fecha, hora y usuario responsable de la actualización.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-006</td>
+      <td style="border: 1px solid black; padding: 8px;">Consultar métricas operativas</td>
+      <td style="border: 1px solid black; padding: 8px;">Como propietario de lavandería, quiero consultar las métricas operativas del negocio, para conocer el volumen de pedidos, ingresos y estado de las operaciones.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Consulta de métricas</b><br>
+        <b>Dado</b> que existen pedidos registrados en el sistema<br>
+        <b>Cuando</b> el propietario consulta un periodo determinado<br>
+        <b>Entonces</b> el sistema calcula los pedidos e ingresos correspondientes al periodo.<br><br>
+        <b>Escenario: Agrupación de pedidos</b><br>
+        <b>Dado</b> que existen pedidos con diferentes estados<br>
+        <b>Cuando</b> el propietario consulta las métricas<br>
+        <b>Entonces</b> el sistema agrupa los pedidos según su estado.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-007</td>
+      <td style="border: 1px solid black; padding: 8px;">Implementar API REST para la gestión de pedidos</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero implementar endpoints RESTful para crear y consultar pedidos, para permitir la comunicación entre los servicios de la plataforma.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Creación de pedido</b><br>
+        <b>Dado</b> que se recibe una petición POST con datos válidos del pedido<br>
+        <b>Cuando</b> el servidor valida la solicitud<br>
+        <b>Entonces</b> registra el pedido y retorna el código HTTP 201.<br><br>
+        <b>Escenario: Consulta de pedido</b><br>
+        <b>Dado</b> que existe un pedido registrado<br>
+        <b>Cuando</b> se recibe una petición GET con un identificador válido<br>
+        <b>Entonces</b> la API retorna los datos del pedido con el código HTTP 200.<br><br>
+        <b>Escenario: Datos inválidos</b><br>
+        <b>Dado</b> que se recibe una petición con datos incompletos o inválidos<br>
+        <b>Cuando</b> el servidor valida la solicitud<br>
+        <b>Entonces</b> retorna un código HTTP de error indicando el problema.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-008</td>
+      <td style="border: 1px solid black; padding: 8px;">Implementar API REST para actualizar estados</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero implementar un endpoint RESTful para actualizar el estado de los pedidos, para mantener la información de seguimiento sincronizada.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario: Actualización exitosa</b><br>
+        <b>Dado</b> que existe un pedido y se recibe una petición PATCH con un estado válido<br>
+        <b>Cuando</b> el servidor valida los datos recibidos<br>
+        <b>Entonces</b> actualiza el estado del pedido y retorna el código HTTP 200.<br><br>
+        <b>Escenario: Pedido inexistente</b><br>
+        <b>Dado</b> que se recibe una petición para un pedido inexistente<br>
+        <b>Cuando</b> el servidor busca el pedido<br>
+        <b>Entonces</b> retorna el código HTTP 404.<br><br>
+        <b>Escenario: Estado inválido</b><br>
+        <b>Dado</b> que se recibe un estado no permitido<br>
+        <b>Cuando</b> el servidor valida la solicitud<br>
+        <b>Entonces</b> rechaza la actualización y retorna un código HTTP de error.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### 3.2. Impact Mapping
+
+### 3.3. Product Backlog
+
+---
+
+## Capítulo IV: Product Design
+
+### 4.1. Style Guidelines
+
+WashTrack es una plataforma web, desarrollada por <b>TechNova</b> enfocada en la gestión y seguimiento digital de servicios de lavandería, <b>conectando a clientes con lavanderías</b> para <b>facilitar la programación, procesamiento y monitoreo de sus pedidos.</b> Para brindar una experiencia moderna, clara e intuitiva, se ha optado por un diseño visual limpio, minimalista y funcional. Predominan colores como azul, celeste, blanco y tonos oscuros, que transmiten confianza, limpieza, tecnología y rapidez. El diseño prioriza la simplicidad, organización y accesibilidad, permitiendo que tanto los clientes como los encargados de las lavanderías puedan navegar y gestionar las órdenes de manera sencilla. Además, se emplean elementos visuales diferenciados para representar el estado de cada pedido, facilitando el seguimiento del proceso desde la recepción de las prendas hasta su entrega.
+
+#### 4.1.1. General Style Guidelines
+
+<p>Las guías generales de estilo de WashTrack establecen los principios visuales y comunicacionales que orientan el diseño de la plataforma, buscando mantener una experiencia consistente, clara y fácil de utilizar. Las decisiones se basan en principios de diseño como consistencia, jerarquía visual, legibilidad, simplicidad y accesibilidad, aplicados a los diferentes componentes de la interfaz. Asimismo, se consideran aspectos de branding, tipografía, colores, espaciado y tono de comunicación, con el propósito de transmitir una identidad relacionada con la tecnología, limpieza, confianza y eficiencia que caracteriza al servicio de lavandería digital.
+
+Para mantener una identidad visual coherente, WashTrack utiliza una combinación de <b>tonos azules, celestes, blancos y grises, acompañados de una tipografía diferenciada para títulos y contenido general.</b> La distribución de los elementos utiliza espacios y márgenes que permiten organizar la información sin sobrecargar la interfaz, mientras que botones, tarjetas, indicadores y formularios mantienen características visuales consistentes. En cuanto al lenguaje, la comunicación de WashTrack <b>adopta un tono serio, profesional, cercano y entusiasta</b>, evitando expresiones excesivamente formales o técnicas para facilitar la comprensión tanto de los clientes como de los encargados de las lavanderías.
+
+A continuación, se detallan las <b>principales decisiones de estilo </b>consideradas para la construcción de la interfaz de WashTrack.</p>
+<ul>
+  <li>
+    <b>Branding:</b><br/>
+    <p>El logotipo de WashTrack representa su enfoque en la digitalización, el monitoreo y la rapidez de los servicios de lavandería mediante un diseño moderno, claro y simbólico. En el centro, se muestra una lavadora estilizada acompañada de una pila de prendas dobladas de manera ordenada, reflejando el <b>cuidado textil y la gestión eficiente de los pedidos</b>. Al lado, se integra la silueta de una prenda en su interior de la lavadora, el cual <b>simboliza el seguimiento en tiempo real y la logística de recojo y entrega.</b> Asimismo, la línea de ruta discontinua refuerza visualmente la idea de conectividad, desplazamiento y seguimiento del servicio.</p>
+    <p>Todo este conjunto visual utiliza una paleta de colores basada en tonos <b >azules oscuros y celestes vibrantes, complementados con blanco y destellos brillantes</b>. Los tonos azules transmiten confianza, tecnología y seguridad, mientras que los celestes y blancos se relacionan con la limpieza, frescura y claridad, conceptos asociados directamente al servicio de lavandería. Los destellos aportan una sensación de dinamismo y rapidez, reforzando la propuesta de valor de WashTrack.</p>
+    <p>Finalmente, el nombre WashTrack se presenta mediante una <b>tipografía amigable y dinámica</b>, buscando facilitar su reconocimiento y transmitir cercanía e innovación. El eslogan <b>“TU ROPA, LISTA EN MENOS TIEMPO”</b> complementa la identidad de la marca al comunicar de manera directa su principal beneficio que es ofrecer un servicio eficiente, rápido y fácil de gestionar, logrando una identidad que permite asociar fácilmente a WashTrack con los conceptos de <b>lavandería, tecnología, seguimiento y rapidez.</b></p>
+  </li>
+</ul>
+
+<div align="center">
+  <img src="assets/Logo WachTrack.png" alt="Logotipo de WashTrack" width="200"/>
+</div>
+
+<ul>
+  <li>
+    <b>Typography (Tipografía):
+    </b><br/>
+    <p>WashTrack utiliza una jerarquía tipográfica clara y consistente para <b>garantizar una adecuada legibilidad</b> tanto en interfaces de escritorio como en dispositivos móviles. Se emplea <b>Poppins como tipografía principal</b> para los elementos generales de la interfaz, como menús, botones, etiquetas, párrafos y textos secundarios. Su diseño limpio y moderno <b>permite transmitir una identidad amigable, tecnológica y fácil de utilizar.</b></p>
+    <p>Para los títulos principales, encabezados y elementos visuales destacados, se utiliza <b>Playfair Display como tipografía complementaria.</b> Su estilo elegante con serifas genera un contraste visual con la simplicidad de Poppins, permitiendo establecer una mayor jerarquía y otorgando personalidad a la identidad de WashTrack.</p>
+    <p>La combinación de <b>Poppins y Playfair Display permite equilibrar funcionalidad e identidad visual.</b> Poppins prioriza la claridad y facilidad de lectura, mientras que Playfair Display aporta elegancia y énfasis a los contenidos importantes. Esta jerarquía facilita que el usuario identifique rápidamente la información relevante sin sobrecargar visualmente la interfaz.</p>
+    <b>Escala y Métricas:</b>
+    <p>Se establece una escala tipográfica basada en un tamaño de referencia de 16px, utilizando una escala de 1.25. El interlineado o line-height se establece en 1.2 para los títulos y elementos destacados, mientras que los textos de lectura pueden utilizar un interlineado mayor para mejorar la legibilidad y proporcionar un adecuado respiro visual.</p>
+    <b>Weights:</b>
+<ul>
+    <li>Delgado (Thin)</li>
+    <li>Extra Fino (Extra Light)</li>
+    <li>Fino (Light)</li>
+    <li>Normal (Regular)</li>
+    <li>Mediano (Medium)</li>
+    <li>Semi Negrita (Semi Bold)</li>
+    <li>Negrita (Bold)</li>
+    <li>Extra Negrita (Extra Bold)</li>
+    <li>Grueso (Black)</li>
+  
+</ul>
+<b>Nomenclatura:</b>
+<div align="center">
+    <img src="assets/nomenclatura.png" alt="Nomenclatura" width="300"/>
+</div>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <b>Colors o Paleta de colores:</b><br/>
+    <p>
+      La paleta de colores de WashTrack está diseñada para transmitir limpieza,
+      confianza, modernidad y eficiencia tecnológica. Los colores se organizan
+      según su función dentro de la interfaz, manteniendo una identidad visual
+      coherente y una experiencia agradable para el usuario.
+    </p>
+     <ul>
+      <li>
+        <b>Color Primario:</b> Azul Oscuro / Marino
+        (<code>#123B7A</code> / <code>#0B192C</code>):<br/>
+        Se utiliza en la barra de navegación superior, textos principales,
+        encabezados y botones de llamada a la acción (CTA). Transmite
+        confianza, solidez y profesionalismo.
+      </li>
+      <li>
+        <b>Color Secundario:</b> Celeste Brillante / Azul Interactivo
+        (<code>#087FEA</code> / <code>#22B8F0</code>):<br/>
+        Se emplea en elementos interactivos, enlaces activos, bordes de enfoque
+        (<i>focus</i>) y gráficos estadísticos destacados. Aporta dinamismo,
+        frescura y modernidad a la interfaz.
+      </li>
+      <li>
+        <b>Fondos y Superficies:</b> Celeste Suave / Blanco
+        (<code>#EAF8FF</code> / <code>#FFFFFF</code>):<br/>
+        Se aplican en tarjetas, contenedores, secciones principales
+        (<i>hero sections</i>) y fondos generales. Estos colores aportan
+        amplitud visual, limpieza y frescura, conceptos relacionados con el
+        servicio de lavandería.
+      </li>
+      <li>
+        <b>Colores de Soporte y Estados:</b>
+        <ul>
+          <li>
+            <b>Verde Éxito (<code>#1A8A5F</code>):</b>
+            Se utiliza para indicadores como "En línea", pedidos completados
+            y métricas positivas.
+          </li>
+          <li>
+            <b>Rojo Alerta (<code>#C2452F</code>):</b>
+            Se utiliza para notificaciones críticas y situaciones que requieren
+            atención inmediata.
+          </li>
+          <li>
+            <b>Naranja Alerta (<code>#D97706</code>):</b>
+            Se emplea para avisos de mantenimiento de las lavadoras y alertas
+            IoT que requieren revisión por parte del administrador.
+          </li>
+        </ul>
+      </li>
+    </ul>
+     <p>
+      En conjunto, esta paleta permite diferenciar visualmente las funciones y
+      estados de la plataforma, manteniendo una identidad asociada con la
+      <b>limpieza, tecnología, confianza y eficiencia</b>.
+    </p>
+  </li>
+</ul>
+<p>
+<div align="center">
+    <img src="assets/PaletaColores.png" alt="Paleta de Colores" width="400"/>
+</div>
+  </p>    
+
+#### 4.1.2. Web Style Guidelines
+<p>La versión web de WashTrack ha sido diseñada bajo un enfoque <b>Responsive-First y modular</b>, buscando garantizar una experiencia consistente y accesible para administradores de lavanderías y usuarios finales, independientemente del dispositivo utilizado. Los estándares visuales y de interacción definidos para la interfaz son los siguientes:</p>
+
+<ul>
+  <li>
+    <b>Diseño Responsivo (Responsive Layout):
+    </b><br/>
+    <p>La interfaz utiliza una estructura flexible que permite adaptar la distribución y el tamaño de los componentes según el dispositivo. Se consideran diferentes puntos de quiebre que son los breakpoints para dispositivos móviles, tabletas y pantallas de escritorio, asegurando que los contenidos, elementos visuales y controles táctiles mantengan una correcta distribución y legibilidad.</p>
+  </li>
+  <table align="center" style="border: none;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/Responsive1.PNG" alt="Responsive 1" width="400"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/Responsive2.PNG" alt="Responsive 2" width="300"/>
+    </td>
+  </tr>
+</table>
+<li>
+    <b>Sistema de Navegación (Navbar & Menús):
+    </b><br/>
+    <p>La barra de navegación superior (Navbar) permite acceder de forma rápida a las principales funcionalidades de la plataforma, como Inicio, Monitoreo de Lavadoras, Reportes, Alertas IoT y Soporte. En dispositivos móviles, la navegación se adapta mediante un menú tipo hamburguesa, reduciendo la cantidad de elementos visibles y facilitando su interacción.</p>
+  </li>
+  <div align="center">
+    <img src="assets/SN1.png" alt="SN1" width="500"/>
+</div>
+<br>
+<div align="center">
+    <img src="assets/SN2.PNG" alt="SN2" width="500"/>
+</div>
+
+  <li>
+    <b>Sistema de Espaciado y Distribución:
+    </b><br/>
+    <p>Los contenidos se organizan mediante una <b>estructura modular basada en columnas, márgenes y espacios consistentes entre componentes.</b> Se mantiene una separación visual adecuada entre títulos, textos, botones, tarjetas y secciones para evitar la saturación de información y facilitar la lectura.</p>
+  </li>
+  <li>
+    <b>Componentes y Botones:
+    </b><br/>
+    <p>Los botones y elementos interactivos mantienen una apariencia consistente con la identidad visual de WashTrack. Los botones principales utilizan el color primario de la marca, mientras que los elementos secundarios emplean colores complementarios. Se consideran diferentes estados de interacción, como estado normal, hover, focus y disabled, proporcionando una respuesta visual clara ante las acciones del usuario.</p>
+  </li>
+  <table align="center" style="border: none;">
+
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot1.PNG" alt="Bot 1" width="200"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot2.PNG" alt="Bot 2" width="200"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot3.PNG" alt="Bot 3" width="200"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot4.PNG" alt="Bot 4" width="200"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="assets/bot5.PNG" alt="Bot 5" width="200"/>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="assets/bot6.PNG" alt="Bot 6" width="200"/>
+    </td>
+  </tr>
+</table>
+<li>
+    <b>Paneles Modulares y Visualización de Datos:
+    </b><br/>
+    <p>La información se presenta mediante tarjetas con bordes redondeados y fondos claros sobre superficies en tonos celestes suaves. Este sistema permite organizar métricas, estados de las máquinas, alertas y gráficos de manera independiente, facilitando la lectura y el monitoreo de la información.</p>
+  </li>
+  <div align="center">
+    <img src="assets/Panel.PNG" alt="Panel" width="300"/>
+</div>
+<li>
+    <b>Estados, Alertas y Retroalimentación:
+    </b><br/>
+    <p>El sistema utiliza colores diferenciados para comunicar estados y acciones. El verde representa operaciones exitosas o máquinas en línea, mientras que el rojo y naranja se utilizan para alertas, errores o situaciones que requieren atención. De esta manera, la información crítica puede identificarse rápidamente.</p>
+  </li>
+   <div align="center">
+    <img src="assets/coloresTipo.PNG" alt="Panel" width="300"/>
+</div>
+ <li>
+    <b>Transiciones y Animaciones:
+    </b><br/>
+    <p>Las transiciones se utilizan de manera moderada para acompañar cambios de estado, apertura de modales, despliegue de menús y acciones interactivas. <b>Se emplean animaciones suaves para evitar cambios abruptos y mantener una experiencia fluida </b>sin distraer al usuario.</p>
+  </li>
+ <li>
+    <b>Consistencia Visual:
+    </b><br/>
+    <p>Los componentes mantienen patrones visuales consistentes en toda la plataforma, utilizando la misma paleta de colores, tipografías, bordes, botones, iconografía y estilos de interacción definidos previamente en el sistema de diseño. Esto permite que el usuario reconozca y comprenda los elementos de la interfaz con mayor facilidad.</p>
+  </li>
+  <div align="center">
+    <img src="assets/conVis1.PNG" alt="Panel" width="500"/>
+</div>
+</ul>
+<p>Todas ellas se representan mediante las diferentes vistas de la <b>interfaz web de WashTrack</b>, incluyendo la versión de escritorio, adaptación para dispositivos móviles, sistema de navegación, tarjetas informativas, botones, estados y paneles de monitoreo.</p>
+
+
+### 4.2. Information Architecture
+La arquitectura de la información de **WashTrack** busca ofrecer una experiencia fluida e intuitiva para los diferentes perfiles de usuarios de la plataforma, como clientes y administradores de lavanderías. La organización y el etiquetado de los contenidos se diseñaron para guiar al usuario de manera eficiente desde el acceso inicial y registro hasta el monitoreo de las lavadoras, la consulta del historial de ciclos de lavado y el acceso a las funcionalidades relacionadas con el sistema IoT.
+
+La información se estructura mediante una jerarquía clara y una categorización modular, permitiendo que cada usuario encuentre rápidamente las funcionalidades correspondientes a su perfil. Asimismo, la navegación <b>sigue una secuencia lógica que facilita el acceso a las principales secciones del sistema</b>, tales como la barra de navegación superior, la sección de características, que presenta el seguimiento en tiempo real de las seis etapas del proceso de lavado, la sección orientada a los diferentes perfiles de usuario ("Para quién"), la presentación institucional ("Sobre nosotros") y el formulario de atención ubicado al final de la página. Esta organización <b>permite reducir la carga cognitiva y mejorar la experiencia de uso.</b>
+
+#### 4.2.1. Organization Systems
+<p></p>
+
+- <b>Organización jerárquica (Visual Hierarchy):</b><br/>
+  Se aplica principalmente en la página principal y en la presentación de los contenidos informativos. La información se organiza de acuerdo con diferentes niveles de importancia, utilizando títulos, subtítulos, tamaños de texto, colores, espacios y botones para dirigir la atención del usuario hacia los elementos principales. Por ejemplo, en la página de inicio se prioriza la propuesta de valor de WashTrack y posteriormente se presentan sus características y demás contenidos.
+<p></p>
+
+- <b>Organización secuencial (Step-by-Step):</b><br/>
+  Se utiliza en la representación del proceso de seguimiento del servicio de lavado. Las seis etapas del proceso se presentan siguiendo un orden determinado, permitiendo que el usuario comprenda progresivamente el estado de su ropa y conozca en qué etapa se encuentra. Este sistema resulta especialmente útil para representar procesos que requieren una secuencia lógica.
+<p></p>
+
+- <b>Organización matricial:</b><br/>
+  Se utiliza para relacionar las funcionalidades de WashTrack con los diferentes perfiles de usuarios. La información puede organizarse considerando tanto el tipo de usuario como las necesidades o funcionalidades disponibles para cada perfil, facilitando la identificación de los servicios que corresponden a cada audiencia.
+<p></p>
+
+- <b>Categorización por tópicos:</b><br/>
+  Se utiliza para agrupar la información de acuerdo con su temática. De esta manera, los contenidos se distribuyen en secciones como características de la plataforma, seguimiento del proceso, información sobre WashTrack y atención al usuario, evitando mezclar contenidos de diferente naturaleza.
+<p></p>
+
+- <b>Categorización según audiencia:</b><br/>
+  Se aplica principalmente en la sección <b>“Para quién”</b>, donde la información se presenta de acuerdo con los diferentes perfiles a los que está dirigida la solución. Esta organización permite que cada grupo de usuarios identifique rápidamente los beneficios y funcionalidades relevantes para sus necesidades.
+<p></p>
+
+- <b>Categorización cronológica:</b><br/>
+  Se aplica principalmente al seguimiento del proceso de lavado y al historial de ciclos. La información relacionada con las etapas del servicio se presenta siguiendo un orden temporal, permitiendo comprender la evolución del proceso desde su inicio hasta su finalización.
+<p></p>
+
+
+#### 4.2.2. Labeling Systems
+<p>Los sistemas de etiquetado en WashTrack han sido diseñados bajo <b>principios de simplicidad, concisión y claridad para representar los conjuntos de información y sus asociaciones</b> sin generar confusión en los visitantes y usuarios. Las etiquetas emplean el mínimo número de palabras posibles, utilizando una terminología intuitiva y estandarizada que facilita la navegación tanto en la versión pública como en el panel operativo del sistema.</p>
+
+<b>*Landing Page*</b>
+| **Etiqueta** | **Descripción** |
+|---|---|
+| **Inicio** | Presenta la propuesta de valor principal de WashTrack mediante una interfaz visual y llamadas a la acción directas. |
+| **Características** | Agrupa de forma modular las funcionalidades clave del servicio, como pedidos, seguimiento, IoT y pagos. |
+| **Sobre nosotros** | Muestra la identidad corporativa de TechNova, su misión y sus valores orientados a la transformación digital. |
+| **Para quién** | Segmenta los beneficios y soluciones dirigidas tanto a dueños de lavanderías como a clientes finales. |
+| **Planes** | Detalla las opciones de servicio e integración tecnológica disponibles para los negocios. |
+| **Comenzar ahora** | Botón de llamada a la acción (CTA) principal para el registro o acceso directo al formulario de atención. |
+
+<b>*App Web*</b>
+
+| **Etiqueta** | **Descripción** |
+|---|---|
+| **Panel Hoy / Dashboard** | Presenta una vista general del estado operativo actual, métricas clave y alertas de lavadoras en tiempo real. |
+| **Monitoreo IoT** | Permite visualizar el estado, rendimiento y alertas predictivas de las lavadoras conectadas. |
+| **Pedidos** | Permite gestionar órdenes, clientes, estados de entrega y filtrar información según las etapas del proceso de lavado. |
+| **Seguimiento en Vivo** | Muestra de manera secuencial las seis etapas del proceso de lavado para facilitar el control del usuario. |
+| **Reportes** | Presenta el historial de operaciones, métricas de rendimiento y estadísticas de la lavandería. |
+| **Configuración** | Permite gestionar los ajustes de cuenta, preferencias del usuario y parámetros operativos del sistema. |
+| **Cerrar Sesión** | Permite salir de forma segura de la plataforma para proteger los datos del negocio y del usuario. |
+
+
+#### 4.2.3. SEO Tags and Meta Tags
+<p>Para mejorar la visibilidad de WashTrack en los motores de búsqueda y atraer a los usuarios adecuados, se han definido los siguientes SEO Tags y Meta Tags para las principales páginas de la experiencia, considerando tanto el sitio web estático que es la Landing Page como la Web Application. Para cada página se especifican los valores correspondientes a Title, Meta Description, Keywords y Author.</p>
+
+#### Landing Page
+<p></p>
+
+- <b>Title:</b> WashTrack - Gestión Inteligente y Monitoreo IoT para Lavanderías
+- <b>Meta Description:</b> WashTrack conecta pedidos, sensores IoT y pagos en una sola plataforma. Digitaliza tu lavandería tradicional con alertas automáticas, seguimiento en vivo y control total de la operación.
+- <b>Keywords:</b> lavandería digital, gestión de lavanderías, monitoreo IoT, seguimiento en tiempo real, software para lavanderías, recojo a domicilio, WashTrack.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
+#### Dashboard / Inicio
+<p></p>
+
+- <b>Title:</b> Dashboard de WashTrack - Resumen de Operaciones y Estado de Lavadoras
+- <b>Meta Description:</b> Accede al resumen general de tu actividad de lavado, estado operativo de las máquinas y métricas clave de tu negocio en tiempo real.
+- <b>Keywords:</b> dashboard de lavandería, panel hoy, estado de lavadoras, control operativo, WashTrack app.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
+#### Características
+<p></p>
+
+- <b>Title:</b> Características de WashTrack - Todo lo que tu Lavandería Necesita
+- <b>Meta Description:</b> Explora las soluciones de WashTrack: gestión integral de pedidos, seguimiento en vivo de prendas, monitoreo IoT predictivo y logística de pagos digitales.
+- <b>Keywords:</b> características de WashTrack, gestión de pedidos, seguimiento en vivo, monitoreo IoT, logística y pagos.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
+#### Seguimiento en Vivo
+<p></p>
+
+- <b>Title:</b> Seguimiento en Vivo de Pedidos en WashTrack - Estado Exacto de tus Prendas
+- <b>Meta Description:</b> Conoce el estado exacto de tu ropa sin necesidad de llamar. Visualiza las etapas desde la recepción y clasificación hasta el lavado, secado y entrega.
+- <b>Keywords:</b> seguimiento en vivo, estado de pedidos, lavado de ropa, etapas de lavado, notificaciones automáticas.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
+#### Sobre Nosotros
+<p></p>
+
+- <b>Title:</b> Sobre Nosotros - Conoce al Equipo de TechNova detrás de WashTrack
+- <b>Meta Description:</b> Somos TechNova, estudiantes de la UPC construyendo tecnología para negocios tradicionales en Latinoamérica. Descubre nuestra misión, visión y valores.
+- <b>Keywords:</b> TechNova, sobre nosotros, equipo UPC, tecnología para negocios tradicionales, transformación digital.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
+#### Planes y Contacto
+<p></p>
+
+- <b>Title:</b> Planes y Precios de WashTrack - Digitaliza tu Negocio de Lavandería
+- <b>Meta Description:</b> Elige el plan ideal para digitalizar tu lavandería o solicita más información completando nuestro formulario de atención para dueños de negocios y clientes.
+- <b>Keywords:</b> planes de WashTrack, precios, digitalizar lavandería, contacto, formulario de atención.
+- <b>Author:</b> TechNova Team
+
+<p></p>
+
+
+#### 4.2.4. Searching Systems
+<p>El sistema de búsqueda diseñado para <b>WashTrack</b> tiene como objetivo <b>facilitar a los usuarios y administradores la localización eficiente de información</b> relacionada con la gestión de pedidos, el estado de las prendas, las alertas de las lavadoras inteligentes y los reportes operativos. Para ello, <b>se emplean campos de búsqueda y filtros</b> que permiten reducir la cantidad de información mostrada y encontrar rápidamente los datos relevantes según el perfil del usuario y la actividad que desea consultar o gestionar.</p>
+
+| <b>Nombre del Filtro</b> | <b>Descripción</b> |
+|---|---|
+| <b>Buscar pedidos por código</b> | Permite ingresar el código de un pedido para localizar rápidamente la información correspondiente y consultar su estado actual. |
+| <b>Filtrar pedidos por estado</b> | Permite organizar y visualizar los pedidos según su estado dentro del proceso de servicio, facilitando la identificación del progreso de cada pedido. |
+| <b>Filtrar pedidos por fecha</b> | Permite consultar pedidos correspondientes a un periodo determinado, facilitando la búsqueda de información específica dentro del historial del servicio. |
+| <b>Filtrar pedidos por prioridad</b> | Permite identificar los pedidos asociados al <b>plan VIP</b>, los cuales cuentan con prioridad en la atención y procesamiento del servicio. |
+| <b>Consultar seguimiento del pedido</b> | Permite acceder a la información relacionada con el progreso del pedido y visualizar las diferentes etapas del proceso de lavado de manera ordenada. |
+
+<p></p>
+
+#### 4.2.5. Navigation Systems
+<p>El sistema de navegación de WashTrack ha sido diseñado para <b>guiar de manera intuitiva y fluida a los usuarios, tanto clientes finales como dueños de lavanderías</b>, a través de la Landing Page y la aplicación web. Para ello, se combinan diferentes técnicas de navegación y recorridos que permiten al usuario <b>encontrar la información necesaria, interactuar con las funcionalidades y alcanzar sus objetivos</b> con el menor esfuerzo posible.</p>
+
+#### Landing Page o Sitio Web 
+
+- <b>Estructura y Recorrido:</b><br/>
+  La navegación se plantea mediante un recorrido vertical de una sola página, complementado por una barra de navegación superior. El usuario comienza visualizando la propuesta de valor principal y continúa hacia las características del servicio, el funcionamiento del proceso, los beneficios según su perfil en la sección <b>“Para quién”</b>, los planes disponibles y finalmente el formulario de atención.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El visitante puede desplazarse libremente por las diferentes secciones y utilizar los botones de llamada a la acción (<i>Call to Action</i>), como <b>“Comenzar ahora”</b>, para acceder al registro o formulario de atención según su interés.
+<p></p>
+
+#### App Web - Panel Hoy o Dashboard 
+
+- <b>Estructura y Recorrido:</b><br/>
+  El Dashboard funciona como punto principal de acceso después del inicio de sesión. La información se organiza mediante accesos directos y tarjetas visuales que permiten acceder rápidamente a las diferentes funcionalidades de la aplicación.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El usuario consulta un resumen de su actividad y puede dirigirse hacia las secciones de pedidos, seguimiento, reportes u otras funcionalidades disponibles. En el caso del <b>plan VIP</b>, se contempla la identificación visual de los pedidos que requieren atención prioritaria.
+<p></p>
+
+#### Sección: Pedidos
+
+- <b>Estructura y Recorrido:</b><br/>
+  Presenta la información de los pedidos de manera organizada, permitiendo utilizar opciones de búsqueda y filtrado para localizar órdenes según diferentes criterios, como código, estado, fecha o prioridad.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El usuario selecciona un pedido para consultar su información y verificar el estado en el que se encuentra. Asimismo, los pedidos asociados al <b>plan VIP</b> pueden identificarse mediante un indicador de prioridad.
+<p></p>
+
+#### Sección: Seguimiento en Vivo
+
+- <b>Estructura y Recorrido:</b><br/>
+  La navegación se organiza mediante un flujo visual secuencial (<i>step-by-step</i>) que representa las seis etapas del proceso: <b>Recepción, Clasificación, Lavado, Secado/Planchado, Empaquetado y Listo</b>.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El cliente consulta el progreso de su pedido y reconoce visualmente la etapa actual en la que se encuentra su ropa. Para los usuarios con plan VIP, se contempla la identificación de la prioridad del servicio dentro del seguimiento.
+<p></p>
+
+#### Sección: Reportes
+
+- <b>Estructura y Recorrido:</b><br/>
+  La sección organiza la información histórica mediante filtros temporales, como día, mes o año, permitiendo acceder de manera ordenada a los registros y estadísticas disponibles.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El administrador puede consultar información histórica para analizar el funcionamiento de la lavandería, mientras que el cliente puede acceder a información relacionada con sus servicios realizados, de acuerdo con las funcionalidades definidas para cada perfil.
+<p></p>
+
+#### Sección: Configuración
+
+- <b>Estructura y Recorrido:</b><br/>
+  La sección permite organizar las opciones relacionadas con la cuenta, los datos del perfil, las preferencias y la gestión del plan contratado.
+<p></p>
+
+- <b>Acción del Usuario:</b><br/>
+  El usuario puede consultar o modificar la información disponible de su cuenta y gestionar las opciones relacionadas con su suscripción. Finalmente, puede utilizar la opción <b>“Cerrar Sesión”</b> para salir de manera segura de la plataforma.
+<p></p>
+
+
+
+
+### 4.3. Landing Page UI Design
+
+<p align="justify">
+El diseño de la interfaz de usuario (UI) de la Landing Page de <b>WashTrack</b> busca presentar de forma clara y atractiva la propuesta de valor de la plataforma. La interfaz organiza visualmente sus principales funcionalidades, beneficios y características, destacando la gestión de pedidos, el seguimiento en tiempo real, el monitoreo IoT y la automatización de procesos. Esta estructura sirve como base para la elaboración del wireframe y posteriormente del mock-up de la Landing Page.
+</p>
+
+
+#### 4.3.1. Landing Page Wireframe
+<p align="justify">
+A continuación, se presentan los wireframes correspondientes a la interfaz de la Landing Page de <b>WashTrack</b>. Estos bocetos de baja fidelidad estructuran la disposición visual de los elementos clave, permitiendo validar la jerarquía de la información, la distribución de los componentes y la experiencia de navegación inicial del usuario antes de proceder con el diseño de alta fidelidad.
+</p>
+
+<div align="center">
+  <img src="./assets/LandingPage-Wireframe1.png" width="700px" alt="Landing Page Wireframe 1">
+  <p><b>Figura 1:</b> Sección principal con propuesta de valor, accesos rápidos y vista previa de la plataforma.</p>
+  <p></p>
+  
+  <img src="./assets/LandingPage-Wireframe2.png" width="700px" alt="Landing Page Wireframe 2">
+  <p><b>Figura 2:</b> Sección de identificación del problema y solución principal para los negocios de lavandería.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe3.png" width="700px" alt="Landing Page Wireframe 3">
+  <p><b>Figura 3:</b> Sección de características clave y descripción del funcionamiento general de WashTrack.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe4.png" width="700px" alt="Landing Page Wireframe 4">
+  <p><b>Figura 4:</b> Módulo detallado de seguimiento en tiempo real y listas de control de operaciones.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe5.png" width="700px" alt="Landing Page Wireframe 5">
+  <p><b>Figura 5:</b> Sección orientada a los dos lados de la misma lavandería.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe6.png" width="700px" alt="Landing Page Wireframe 6">
+  <p><b>Figura 6:</b> Sección "Sobre Nosotros" que presenta al equipo desarrollador que es <b> TechNova </b> y las cualidades de la plataforma.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe7.png" width="700px" alt="Landing Page Wireframe 7">
+  <p><b>Figura 7:</b> Sección de planes y precios adaptados a cada tamaño de lavandería.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Wireframe8.png" width="700px" alt="Landing Page Wireframe 8">
+  <p><b>Figura 8:</b> Formulario de atención, pie de página (footer) y enlaces legales de la plataforma.</p>
+</div>
+
+#### 4.3.2. Landing Page Mock-up
+<p align="justify">
+A continuación, se presentan los mock-ups correspondientes al diseño de alta fidelidad de la Landing Page de <b>WashTrack</b>. Estas interfaces visuales incorporan la paleta de colores definitiva, la tipografía, los elementos gráficos y los componentes interactivos estilizados, reflejando el aspecto visual final y la experiencia de usuario (UI/UX) implementada en el desarrollo del proyecto.
+</p>
+
+<div align="center">
+  <img src="./assets/LandingPage-Mockup1.png" width="700px" alt="Landing Page Mock-up 1">
+  <p><b>Figura 9:</b> Vista de la sección principal con propuesta de valor, accesos rápidos, botones de llamada a la acción y un panel interactivo flotante con métricas en tiempo real.</p>
+  <p></p>
+  
+  <img src="./assets/LandingPage-Mockup2.png" width="700px" alt="Landing Page Mock-up 2">
+  <p><b>Figura 10:</b> Sección de problema y solución que contrasta la gestión tradicional basada en cuadernos con la automatización digital de la plataforma.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup3.png" width="700px" alt="Landing Page Mock-up 3">
+  <p><b>Figura 11:</b> Sección de características clave y descripción del flujo operativo general de la plataforma respaldado por imágenes reales de instalaciones.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup4.png" width="700px" alt="Landing Page Mock-up 4">
+  <p><b>Figura 12:</b> Módulo detallado de seguimiento en tiempo real que detalla las diferentes etapas del estado de los pedidos de los clientes.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup5.png" width="700px" alt="Landing Page Mock-up 5">
+  <p><b>Figura 13:</b> Sección dual orientada tanto a los administradores de lavanderías como a los usuarios finales que buscan simplificar el lavado de sus prendas.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup6.png" width="700px" alt="Landing Page Mock-up 6">
+  <p><b>Figura 14:</b> Sección Sobre Nosotros que presenta al equipo desarrollador que es TechNova junto con los pilares fundamentales y valores de la plataforma.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup7.png" width="700px" alt="Landing Page Mock-up 7">
+  <p><b>Figura 15:</b> Sección de planes y precios adaptados para cada tamaño de negocio con un acceso directo para establecer contacto.</p>
+  <p></p>
+
+  <img src="./assets/LandingPage-Mockup8.png" width="700px" alt="Landing Page Mock-up 8">
+  <p><b>Figura 16:</b> Formulario de atención interactivo seguido del pie de página oficial que incluye la identidad de la marca y enlaces legales.</p>
+</div>
+
+
+### 4.4. Web Applications UX/UI Design
+
+#### 4.4.1. Web Applications Wireframes
+#### 4.4.2. Web Applications Wireflow Diagrams
+#### 4.4.3. Web Applications Mock-ups
+#### 4.4.4. Web Applications User Flow Diagrams
+
+### 4.5. Web Applications Prototyping
+
+### 4.6. Domain-Driven Software Architecture
+
+La arquitectura de **WashTrack** se define mediante *Domain-Driven Design* (DDD) con el propósito de separar las reglas de negocio de las decisiones tecnológicas y mantener un lenguaje común entre el equipo y los usuarios del dominio. Cada *Bounded Context* concentra un conjunto de responsabilidades relacionadas y expone únicamente las capacidades necesarias para colaborar con los demás contextos.
+
+| Bounded Context | Responsabilidad principal |
+| :--- | :--- |
+| **Identity & Access** | Gestionar cuentas, autenticación, autorización y roles de clientes y personal de lavandería. |
+| **Customer & Laundry Management** | Administrar los perfiles de clientes, lavanderías, trabajadores, servicios y datos operativos del negocio. |
+| **Order Management** | Crear órdenes, registrar prendas y servicios, establecer fechas comprometidas y mantener la información comercial del pedido. |
+| **Laundry Operations** | Controlar la recepción, clasificación y avance de las prendas por las etapas del proceso de lavandería. |
+| **Billing & Subscriptions** | Registrar y confirmar pagos de órdenes, además de administrar los planes contratados por cada lavandería. |
+| **Delivery Management** | Coordinar solicitudes, direcciones, horarios y estados de recojo o entrega a domicilio. |
+| **Tracking & Notifications** | Mantener el historial de estados de una orden y comunicar los cambios relevantes a clientes y personal. |
+
+Esta división permite que el flujo principal del servicio evolucione sin mezclar conceptos distintos. Por ejemplo, una orden conserva los datos de las prendas y servicios solicitados, mientras que `LaundryOrder` controla su procesamiento y `Tracking` mantiene la vista de seguimiento que consulta el cliente.
+
+#### 4.6.1. Design-Level EventStorming
+
+El *Design-Level EventStorming* detalla cómo los actores activan comandos, cómo los agregados protegen las reglas del dominio y qué eventos se publican como resultado. Los eventos se expresan en pasado porque representan hechos que ya ocurrieron dentro de WashTrack.
+
+**Actores principales**
+
+- **Customer:** registra o consulta sus órdenes, realiza pagos y coordina el recojo o la entrega.
+- **Laundry Staff / Administrator:** registra clientes y prendas, confirma la recepción, actualiza el procesamiento y completa la entrega.
+- **System:** ejecuta políticas automáticas para actualizar el seguimiento y emitir notificaciones.
+
+**Comandos, agregados y eventos de dominio**
+
+| Actor | Command | Aggregate | Domain Event |
+| :--- | :--- | :--- | :--- |
+| Customer / Laundry Staff | `Register Customer` | `Customer` | `CustomerRegistered` |
+| Laundry Staff | `Create Order` | `Order` | `OrderCreated` |
+| Laundry Staff | `Register Garment` | `Order` | `GarmentRegistered` |
+| Customer / Laundry Staff | `Select Delivery Method` | `Order` | `DeliveryMethodSelected` |
+| Laundry Staff | `Confirm Order` | `Order` | `OrderConfirmed` |
+| Customer / Laundry Staff | `Register Payment` | `Payment` | `PaymentRegistered` |
+| System | `Confirm Payment` | `Payment` | `PaymentConfirmed` |
+| Laundry Staff / Administrator | `Change Subscription Plan` | `Subscription` | `SubscriptionPlanChanged` |
+| Laundry Staff | `Receive Order` | `LaundryOrder` | `OrderReceived` |
+| Laundry Staff | `Classify Garments` | `LaundryOrder` | `GarmentsClassified` |
+| Laundry Staff | `Start Laundry Processing` | `LaundryOrder` | `LaundryProcessingStarted` |
+| Laundry Staff | `Advance Processing Stage` | `LaundryOrder` | `ProcessingStageAdvanced` |
+| Laundry Staff | `Complete Laundry Processing` | `LaundryOrder` | `GarmentsReadyForDelivery` |
+| Customer / Laundry Staff | `Schedule Pickup or Delivery` | `Delivery` | `DeliveryScheduled` |
+| Laundry Staff | `Complete Delivery` | `Delivery` | `OrderDelivered` |
+| System | `Complete Order` | `Order` | `OrderCompleted` |
+| System | `Update Order Status` | `Tracking` | `OrderStatusUpdated` |
+| System | `Send Notification` | `Notification` | `NotificationSent` |
+
+**Agregados**
+
+- **Customer:** conserva la identidad y los datos de contacto utilizados durante el servicio.
+- **Order:** agrupa prendas, servicios, importes, modalidad de entrega y fecha comprometida.
+- **LaundryOrder:** controla las transiciones válidas entre recepción, clasificación, lavado, secado, planchado, empaquetado y finalización.
+- **Payment:** registra el importe, medio de pago y resultado de una transacción asociada a una orden.
+- **Subscription:** administra el plan contratado por la lavandería y las capacidades habilitadas para el negocio.
+- **Delivery:** controla la coordinación y el cumplimiento del recojo o entrega de una orden.
+- **Tracking:** mantiene el historial ordenado de estados que puede consultar el cliente.
+- **Notification:** representa una comunicación generada a partir de un cambio relevante.
+
+**Políticas de dominio**
+
+| When | Policy | Then |
+| :--- | :--- | :--- |
+| `OrderConfirmed` | Admitir la orden al flujo operativo | Ejecutar `Receive Order` cuando las prendas ingresen a la lavandería. |
+| `PaymentRegistered` | Verificar la transacción con el proveedor de pagos | Ejecutar `Confirm Payment` con el resultado recibido. |
+| `OrderReceived`, `ProcessingStageAdvanced` o `GarmentsReadyForDelivery` | Mantener visible el avance del servicio | Ejecutar `Update Order Status`. |
+| `OrderStatusUpdated` | Informar cambios relevantes | Ejecutar `Send Notification`. |
+| `GarmentsReadyForDelivery` | Preparar la devolución de las prendas | Ejecutar `Schedule Pickup or Delivery` cuando corresponda. |
+| `OrderDelivered` | Cerrar una orden atendida | Ejecutar `Complete Order`. |
+
+El siguiente diagrama resume el flujo principal y las políticas que conectan los contextos. Los colores distinguen actores, comandos, agregados, eventos y políticas.
+
+```mermaid
+flowchart TB
+    Customer["Actor: Customer"]:::actor
+    Staff["Actor: Laundry Staff / Administrator"]:::actor
+
+    subgraph Orders["Order Management"]
+        CreateOrder["Command: Create Order"]:::command
+        RegisterGarment["Command: Register Garment"]:::command
+        SelectDelivery["Command: Select Delivery Method"]:::command
+        ConfirmOrder["Command: Confirm Order"]:::command
+        Order1{{"Aggregate: Order"}}:::aggregate
+        Order2{{"Aggregate: Order"}}:::aggregate
+        Order3{{"Aggregate: Order"}}:::aggregate
+        Order4{{"Aggregate: Order"}}:::aggregate
+        OrderCreated(["Event: OrderCreated"]):::event
+        GarmentRegistered(["Event: GarmentRegistered"]):::event
+        DeliveryMethodSelected(["Event: DeliveryMethodSelected"]):::event
+        OrderConfirmed(["Event: OrderConfirmed"]):::event
+        CloseOrder{"Policy: Close Order"}:::policy
+        CompleteOrder["Command: Complete Order"]:::command
+        Order5{{"Aggregate: Order"}}:::aggregate
+        OrderCompleted(["Event: OrderCompleted"]):::event
+
+        CreateOrder --> Order1 --> OrderCreated
+        RegisterGarment --> Order2 --> GarmentRegistered
+        SelectDelivery --> Order3 --> DeliveryMethodSelected
+        ConfirmOrder --> Order4 --> OrderConfirmed
+        CloseOrder --> CompleteOrder --> Order5 --> OrderCompleted
+    end
+
+    subgraph Billing["Billing & Subscriptions"]
+        RequestPayment{"Policy: Request Payment"}:::policy
+        RegisterPayment["Command: Register Payment"]:::command
+        Payment1{{"Aggregate: Payment"}}:::aggregate
+        PaymentRegistered(["Event: PaymentRegistered"]):::event
+        VerifyPayment{"Policy: Verify Payment"}:::policy
+        ConfirmPayment["Command: Confirm Payment"]:::command
+        Payment2{{"Aggregate: Payment"}}:::aggregate
+        PaymentConfirmed(["Event: PaymentConfirmed"]):::event
+        ChangePlan["Command: Change Subscription Plan"]:::command
+        Subscription{{"Aggregate: Subscription"}}:::aggregate
+        PlanChanged(["Event: SubscriptionPlanChanged"]):::event
+
+        RequestPayment --> RegisterPayment --> Payment1 --> PaymentRegistered
+        PaymentRegistered --> VerifyPayment --> ConfirmPayment --> Payment2 --> PaymentConfirmed
+        ChangePlan --> Subscription --> PlanChanged
+    end
+
+    subgraph Operations["Laundry Operations"]
+        AdmitOrder{"Policy: Admit Order"}:::policy
+        ReceiveOrder["Command: Receive Order"]:::command
+        Classify["Command: Classify Garments"]:::command
+        StartProcessing["Command: Start Laundry Processing"]:::command
+        AdvanceStage["Command: Advance Processing Stage"]:::command
+        CompleteProcessing["Command: Complete Laundry Processing"]:::command
+        LaundryOrder1{{"Aggregate: LaundryOrder"}}:::aggregate
+        LaundryOrder2{{"Aggregate: LaundryOrder"}}:::aggregate
+        LaundryOrder3{{"Aggregate: LaundryOrder"}}:::aggregate
+        LaundryOrder4{{"Aggregate: LaundryOrder"}}:::aggregate
+        LaundryOrder5{{"Aggregate: LaundryOrder"}}:::aggregate
+        OrderReceived(["Event: OrderReceived"]):::event
+        GarmentsClassified(["Event: GarmentsClassified"]):::event
+        ProcessingStarted(["Event: LaundryProcessingStarted"]):::event
+        StageAdvanced(["Event: ProcessingStageAdvanced"]):::event
+        Ready(["Event: GarmentsReadyForDelivery"]):::event
+
+        AdmitOrder --> ReceiveOrder --> LaundryOrder1 --> OrderReceived
+        OrderReceived --> Classify --> LaundryOrder2 --> GarmentsClassified
+        GarmentsClassified --> StartProcessing --> LaundryOrder3 --> ProcessingStarted
+        ProcessingStarted --> AdvanceStage --> LaundryOrder4 --> StageAdvanced
+        StageAdvanced --> CompleteProcessing --> LaundryOrder5 --> Ready
+    end
+
+    subgraph DeliveryContext["Delivery Management"]
+        PrepareDelivery{"Policy: Prepare Delivery"}:::policy
+        ScheduleDelivery["Command: Schedule Pickup or Delivery"]:::command
+        Delivery1{{"Aggregate: Delivery"}}:::aggregate
+        DeliveryScheduled(["Event: DeliveryScheduled"]):::event
+        CompleteDelivery["Command: Complete Delivery"]:::command
+        Delivery2{{"Aggregate: Delivery"}}:::aggregate
+        OrderDelivered(["Event: OrderDelivered"]):::event
+
+        PrepareDelivery --> ScheduleDelivery --> Delivery1 --> DeliveryScheduled
+        DeliveryScheduled --> CompleteDelivery --> Delivery2 --> OrderDelivered
+    end
+
+    subgraph TrackingContext["Tracking & Notifications"]
+        ReflectProgress{"Policy: Reflect Progress"}:::policy
+        UpdateStatus["Command: Update Order Status"]:::command
+        Tracking{{"Aggregate: Tracking"}}:::aggregate
+        StatusUpdated(["Event: OrderStatusUpdated"]):::event
+        NotifyUser{"Policy: Notify Interested User"}:::policy
+        SendNotification["Command: Send Notification"]:::command
+        NotificationSent(["Event: NotificationSent"]):::event
+
+        ReflectProgress --> UpdateStatus --> Tracking --> StatusUpdated
+        StatusUpdated --> NotifyUser --> SendNotification --> NotificationSent
+    end
+
+    Customer --> CreateOrder
+    Customer --> RegisterPayment
+    Staff --> CreateOrder
+    Staff --> RegisterGarment
+    Staff --> SelectDelivery
+    Staff --> ConfirmOrder
+    Staff --> ReceiveOrder
+    Staff --> Classify
+    Staff --> StartProcessing
+    Staff --> AdvanceStage
+    Staff --> CompleteProcessing
+    Staff --> CompleteDelivery
+    Staff --> ChangePlan
+
+    OrderConfirmed --> RequestPayment
+    OrderConfirmed --> AdmitOrder
+    PaymentConfirmed --> ReflectProgress
+    OrderReceived --> ReflectProgress
+    StageAdvanced --> ReflectProgress
+    Ready --> ReflectProgress
+    Ready --> PrepareDelivery
+    OrderDelivered --> CloseOrder
+    OrderCompleted --> ReflectProgress
+    NotificationSent --> Customer
+    NotificationSent --> Staff
+
+    classDef actor fill:#fff2cc,stroke:#b38f00,color:#1f1f1f;
+    classDef command fill:#b9ddff,stroke:#2b78b8,color:#1f1f1f;
+    classDef aggregate fill:#fff2a8,stroke:#bf9000,color:#1f1f1f;
+    classDef event fill:#ffc89d,stroke:#c65911,color:#1f1f1f;
+    classDef policy fill:#e4c7f2,stroke:#674ea7,color:#1f1f1f;
+```
+
+#### 4.6.2. Software Architecture Context Diagram
+
+El diagrama de contexto presenta a **WashTrack** como un único sistema y delimita sus relaciones con las personas que lo utilizan y con los servicios externos que necesita. En este nivel todavía no se muestran decisiones internas de implementación.
+
+- **Customer:** solicita servicios, consulta el avance de sus prendas, paga órdenes y coordina recojos o entregas.
+- **Laundry Staff / Administrator:** administra clientes, órdenes, prendas, operaciones, planes y entregas.
+- **Payment Gateway:** autoriza o rechaza pagos digitales asociados a las órdenes.
+- **Notification Service:** entrega correos o mensajes generados por cambios en el estado del servicio.
+
+```mermaid
+flowchart LR
+    Customer["Customer<br/>Cliente de la lavandería"]:::person
+    Staff["Laundry Staff / Administrator<br/>Personal de la lavandería"]:::person
+    WashTrack["WashTrack<br/>Plataforma de gestión y seguimiento de servicios de lavandería"]:::system
+    Payment["Payment Gateway<br/>Sistema externo"]:::external
+    Notification["Notification Service<br/>Sistema externo"]:::external
+
+    Customer -->|"Solicita servicios, consulta estados,<br/>realiza pagos y coordina entregas"| WashTrack
+    Staff -->|"Gestiona clientes, órdenes, prendas,<br/>operaciones, planes y entregas"| WashTrack
+    WashTrack -->|"Solicita el procesamiento del pago"| Payment
+    Payment -->|"Devuelve el resultado de la transacción"| WashTrack
+    WashTrack -->|"Solicita el envío de avisos"| Notification
+    Notification -->|"Envía actualizaciones del servicio"| Customer
+    Notification -->|"Envía alertas operativas"| Staff
+
+    classDef person fill:#e8f1fb,stroke:#2b78b8,color:#1f1f1f;
+    classDef system fill:#cfe2f3,stroke:#0b5394,stroke-width:2px,color:#1f1f1f;
+    classDef external fill:#eeeeee,stroke:#666666,color:#1f1f1f;
+```
+
+#### 4.6.3. Software Architecture Container Diagrams
+
+El diagrama de contenedores muestra las principales unidades ejecutables y de almacenamiento de WashTrack. La solución se plantea como una aplicación web Angular que consume una API modular desarrollada con Spring Boot; la lógica de los *Bounded Contexts* permanece dentro de la API y se persiste en PostgreSQL.
+
+| Container | Tecnología | Responsabilidad |
+| :--- | :--- | :--- |
+| **Landing Page** | HTML, CSS y JavaScript | Comunicar la propuesta de valor, los beneficios y los planes de WashTrack. |
+| **Web Application** | Angular y TypeScript | Proporcionar las interfaces para clientes y personal de lavandería. |
+| **RESTful API** | Java y Spring Boot | Exponer casos de uso, aplicar reglas del dominio, autorizar operaciones e integrar servicios externos. |
+| **Database** | PostgreSQL | Persistir usuarios, lavanderías, clientes, órdenes, prendas, pagos, planes, entregas e historial de estados. |
+| **Payment Gateway** | Servicio externo | Procesar pagos digitales y devolver el resultado de cada transacción. |
+| **Notification Service** | Servicio externo | Enviar correos o mensajes a los usuarios. |
+
+```mermaid
+flowchart LR
+    Customer["Customer"]:::person
+    Staff["Laundry Staff / Administrator"]:::person
+
+    subgraph WashTrack["WashTrack"]
+        Landing["Landing Page<br/>HTML / CSS / JavaScript"]:::container
+        WebApp["Web Application<br/>Angular / TypeScript"]:::container
+        API["RESTful API<br/>Java / Spring Boot"]:::container
+        DB[("Database<br/>PostgreSQL")]:::database
+
+        Landing -->|"Navegación HTTPS"| WebApp
+        WebApp -->|"JSON / REST / HTTPS"| API
+        API -->|"JPA / SQL"| DB
+    end
+
+    Payment["Payment Gateway<br/>External System"]:::external
+    Notification["Notification Service<br/>External System"]:::external
+
+    Customer -->|"HTTPS"| Landing
+    Customer -->|"HTTPS"| WebApp
+    Staff -->|"HTTPS"| WebApp
+    API -->|"HTTPS: solicitud de pago"| Payment
+    Payment -->|"HTTPS: resultado"| API
+    API -->|"HTTPS: solicitud de envío"| Notification
+    Notification -->|"Correo o mensaje"| Customer
+    Notification -->|"Correo o mensaje"| Staff
+
+    classDef person fill:#e8f1fb,stroke:#2b78b8,color:#1f1f1f;
+    classDef container fill:#cfe2f3,stroke:#0b5394,color:#1f1f1f;
+    classDef database fill:#d9ead3,stroke:#38761d,color:#1f1f1f;
+    classDef external fill:#eeeeee,stroke:#666666,color:#1f1f1f;
+```
+
+#### 4.6.4. Software Architecture Components Diagrams
+
+Los diagramas de componentes descomponen los dos contenedores que concentran el comportamiento de la solución: la aplicación web y la API. Las dependencias se orientan hacia contratos estables para que la interfaz, el dominio y las integraciones externas puedan evolucionar de forma independiente.
+
+##### 4.6.4.1. Web Application
+
+La aplicación Angular organiza sus componentes por capacidades de negocio y comparte los servicios transversales de autenticación, navegación, estado y comunicación con la API.
+
+```mermaid
+flowchart LR
+    Customer["Customer"]:::person
+    Staff["Laundry Staff / Administrator"]:::person
+
+    subgraph WebApp["Web Application - Angular"]
+        subgraph CustomerFeatures["Customer Features"]
+            CustomerOrders["Orders Component"]:::component
+            CustomerTracking["Tracking Component"]:::component
+            CustomerPayments["Payments Component"]:::component
+            CustomerDelivery["Pickup & Delivery Component"]:::component
+        end
+
+        subgraph LaundryFeatures["Laundry Management Features"]
+            Dashboard["Operations Dashboard Component"]:::component
+            OrderManagement["Order Management Component"]:::component
+            CustomerManagement["Customer Management Component"]:::component
+            SubscriptionManagement["Subscription Component"]:::component
+            Reports["Reports Component"]:::component
+        end
+
+        subgraph Shared["Shared Components and Services"]
+            Router["Angular Router"]:::shared
+            Auth["Authentication Service & Guards"]:::shared
+            State["Application State Service"]:::shared
+            ApiClient["REST API Client"]:::shared
+            NotificationHandler["Notification Handler"]:::shared
+        end
+    end
+
+    API["WashTrack RESTful API"]:::external
+
+    Customer --> CustomerOrders
+    Customer --> CustomerTracking
+    Customer --> CustomerPayments
+    Customer --> CustomerDelivery
+    Staff --> Dashboard
+    Staff --> OrderManagement
+    Staff --> CustomerManagement
+    Staff --> SubscriptionManagement
+    Staff --> Reports
+
+    CustomerOrders --> State
+    CustomerTracking --> State
+    CustomerPayments --> ApiClient
+    CustomerDelivery --> ApiClient
+    Dashboard --> State
+    OrderManagement --> ApiClient
+    CustomerManagement --> ApiClient
+    SubscriptionManagement --> ApiClient
+    Reports --> ApiClient
+    Router --> Auth
+    Auth --> ApiClient
+    State --> ApiClient
+    NotificationHandler --> State
+    ApiClient -->|"JSON / REST / HTTPS"| API
+
+    classDef person fill:#e8f1fb,stroke:#2b78b8,color:#1f1f1f;
+    classDef component fill:#cfe2f3,stroke:#0b5394,color:#1f1f1f;
+    classDef shared fill:#d9ead3,stroke:#38761d,color:#1f1f1f;
+    classDef external fill:#eeeeee,stroke:#666666,color:#1f1f1f;
+```
+
+##### 4.6.4.2. RESTful API
+
+La API adopta una arquitectura por capas y módulos de dominio. Los controladores traducen solicitudes HTTP a casos de uso; los servicios de aplicación coordinan los agregados; y los adaptadores de infraestructura implementan persistencia y comunicación externa.
+
+```mermaid
+flowchart LR
+    WebApp["Angular Web Application"]:::external
+
+    subgraph API["RESTful API - Spring Boot"]
+        subgraph Presentation["Presentation Layer"]
+            IdentityController["Identity Controller"]:::presentation
+            ManagementController["Customer & Laundry Controller"]:::presentation
+            OrderController["Order Controller"]:::presentation
+            OperationsController["Operations Controller"]:::presentation
+            BillingController["Billing & Subscription Controller"]:::presentation
+            DeliveryController["Delivery Controller"]:::presentation
+            TrackingController["Tracking Controller"]:::presentation
+        end
+
+        subgraph Application["Application Layer"]
+            IdentityService["Identity Application Service"]:::application
+            ManagementService["Management Application Service"]:::application
+            OrderService["Order Application Service"]:::application
+            OperationsService["Operations Application Service"]:::application
+            BillingService["Billing Application Service"]:::application
+            DeliveryService["Delivery Application Service"]:::application
+            TrackingService["Tracking Application Service"]:::application
+            EventHandlers["Domain Event Handlers"]:::application
+        end
+
+        subgraph Domain["Domain Layer"]
+            IdentityDomain["Identity & Access Domain"]:::domain
+            ManagementDomain["Customer & Laundry Domain"]:::domain
+            OrderDomain["Order Domain"]:::domain
+            OperationsDomain["Laundry Operations Domain"]:::domain
+            BillingDomain["Billing & Subscriptions Domain"]:::domain
+            DeliveryDomain["Delivery Domain"]:::domain
+            TrackingDomain["Tracking & Notifications Domain"]:::domain
+            EventPublisher["Domain Event Publisher"]:::domain
+        end
+
+        subgraph Infrastructure["Infrastructure Layer"]
+            Persistence["JPA Persistence Adapters"]:::infrastructure
+            PaymentAdapter["Payment Gateway Adapter"]:::infrastructure
+            NotificationAdapter["Notification Service Adapter"]:::infrastructure
+        end
+    end
+
+    DB[("PostgreSQL")]:::database
+    Payment["Payment Gateway"]:::external
+    Notification["Notification Service"]:::external
+
+    WebApp -->|"JSON / REST / HTTPS"| IdentityController
+    WebApp -->|"JSON / REST / HTTPS"| ManagementController
+    WebApp -->|"JSON / REST / HTTPS"| OrderController
+    WebApp -->|"JSON / REST / HTTPS"| OperationsController
+    WebApp -->|"JSON / REST / HTTPS"| BillingController
+    WebApp -->|"JSON / REST / HTTPS"| DeliveryController
+    WebApp -->|"JSON / REST / HTTPS"| TrackingController
+
+    IdentityController --> IdentityService --> IdentityDomain
+    ManagementController --> ManagementService --> ManagementDomain
+    OrderController --> OrderService --> OrderDomain
+    OperationsController --> OperationsService --> OperationsDomain
+    BillingController --> BillingService --> BillingDomain
+    DeliveryController --> DeliveryService --> DeliveryDomain
+    TrackingController --> TrackingService --> TrackingDomain
+
+    IdentityService --> Persistence
+    ManagementService --> Persistence
+    OrderService --> Persistence
+    OperationsService --> Persistence
+    BillingService --> Persistence
+    DeliveryService --> Persistence
+    TrackingService --> Persistence
+    BillingService --> PaymentAdapter
+
+    OrderDomain --> EventPublisher
+    OperationsDomain --> EventPublisher
+    BillingDomain --> EventPublisher
+    DeliveryDomain --> EventPublisher
+    EventPublisher --> EventHandlers
+    EventHandlers --> TrackingService
+    EventHandlers --> NotificationAdapter
+
+    Persistence -->|"JPA / SQL"| DB
+    PaymentAdapter -->|"HTTPS"| Payment
+    NotificationAdapter -->|"HTTPS"| Notification
+
+    classDef presentation fill:#cfe2f3,stroke:#0b5394,color:#1f1f1f;
+    classDef application fill:#d9ead3,stroke:#38761d,color:#1f1f1f;
+    classDef domain fill:#fff2cc,stroke:#bf9000,color:#1f1f1f;
+    classDef infrastructure fill:#ead1dc,stroke:#a64d79,color:#1f1f1f;
+    classDef database fill:#d9ead3,stroke:#38761d,color:#1f1f1f;
+    classDef external fill:#eeeeee,stroke:#666666,color:#1f1f1f;
+```
+
+### 4.7. Software Object-Oriented Design
+
+#### 4.7.1. Class Diagrams
+
+##### Order Management
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/OrderManagement.png" width="800px" alt="Order Management">
+
+##### Laundry Operation
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/LaundryOperation.png" width="800px" alt="Laundry Operation">
+
+
+##### Notification
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/Notifications.png" width="800px" alt="Notification">
+
+##### Tracking
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/Tracking.png" width="800px" alt="Tracking">
+
+
+##### Identity & Access Management
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/IAM.png" width="800px" alt="Identity & Access Management">
+
+
+##### Billing & Subscription
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/Billing_Suscription.png" width="800px" alt="Billing & Subscription">
+
+### 4.8. Database Design
+<p align="justify">
+  La elaboración del diagrama de base de datos constituye un componente esencial en la fase de diseño del proyecto, dado que formaliza la arquitectura lógica mediante la representación estructurada de las entidades, sus atributos y las relaciones que modelan el dominio del sistema de lavandería. Este artefacto conceptual no solo valida la integridad referencial y la coherencia del modelo relacional antes de su implementación física, sino que también minimiza redundancias y previene anomalías en la manipulación de los datos. 
+</p>
+
+#### 4.8.1. Database Diagrams
+
+<img src="./assets/Chapter4/database_diagram.png" width="800px" alt="Database diagram">
+
+---
+
+## Capítulo V: Product Implementation, Validation & Deployment
+
+### 5.1. Software Configuration Management
+
+#### 5.1.1. Software Development Environment Configuration
+#### 5.1.2. Source Code Management
+#### 5.1.3. Source Code Style Guide & Conventions
+#### 5.1.4. Software Deployment Configuration
+
+### 5.2. Landing Page, Services & Applications Implementation
+
+#### 5.2.1. Sprint 1
+
+##### 5.2.1.1. Sprint Planning 1
+##### 5.2.1.2. Aspect Leaders and Collaborators
+##### 5.2.1.3. Sprint Backlog 1
+##### 5.2.1.4. Development Evidence for Sprint Review
+##### 5.2.1.5. Execution Evidence for Sprint Review
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+##### 5.2.1.8. Team Collaboration Insights during Sprint
+
+### 5.3. Validation Interviews
+
+#### 5.3.1. Diseño de Entrevistas
+#### 5.3.2. Registro de Entrevistas
+#### 5.3.3. Evaluaciones según heurísticas
+
+### 5.4. Video About-the-Product
+
+---
+
+# Bibliografía
+
+---
+
+# Anexos
+
+
+---
