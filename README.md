@@ -2328,6 +2328,11 @@ flowchart LR
 
 <img src="./assets/Chapter4/ClassDiagram/Notifications.png" width="800px" alt="Notification">
 
+##### Tracking
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/Tracking.png" width="800px" alt="Tracking">
 
 ### 4.8. Database Design
 <p align="justify">
