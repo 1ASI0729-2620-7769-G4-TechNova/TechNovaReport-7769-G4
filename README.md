@@ -1158,6 +1158,124 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
   </tbody>
 </table>
 
+<br>
+
+#### Technical Stories RESTful API
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Epic / Story ID</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Título</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Descripción</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Criterios de Aceptación</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: left;">Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">TS-001</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar autenticación mediante el endpoint /auth</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero gestionar la autenticación de usuarios mediante el endpoint /auth, para validar credenciales y generar el acceso seguro a la plataforma según el rol del usuario.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Inicio de sesión exitoso</b><br>
+        <b>Dado</b> que existe un usuario registrado con credenciales válidas<br>
+        <b>Cuando</b> el developer envía una solicitud POST a /auth/login con el correo y contraseña correspondientes<br>
+        <b>Entonces</b> la API responde con 200 OK y devuelve los datos necesarios para mantener la sesión autenticada, incluyendo el token de acceso y el rol del usuario.<br><br>
+        <b>Escenario 2: Credenciales inválidas</b><br>
+        <b>Dado</b> que el usuario proporciona credenciales incorrectas<br>
+        <b>Cuando</b> el developer envía una solicitud POST a /auth/login<br>
+        <b>Entonces</b> la API responde con 401 Unauthorized e informa que las credenciales proporcionadas no son válidas.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-014: Autenticación y gestión de usuarios</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">TS-002</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar clientes mediante el endpoint /customers</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero gestionar clientes mediante el endpoint /customers, para registrar, consultar, actualizar y administrar la información de los clientes de las lavanderías.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Registro de cliente</b><br>
+        <b>Dado</b> que el developer dispone de los datos válidos de un nuevo cliente<br>
+        <b>Cuando</b> envía una solicitud POST a /customers con la información requerida<br>
+        <b>Entonces</b> la API responde con 201 Created y devuelve el cliente registrado con su identificador único.<br><br>
+        <b>Escenario 2: Consulta de cliente por ID</b><br>
+        <b>Dado</b> que existe un cliente con el identificador proporcionado<br>
+        <b>Cuando</b> el developer envía una solicitud GET a /customers/{id}<br>
+        <b>Entonces</b> la API responde con 200 OK y devuelve la información completa del cliente.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-015: Gestión de clientes</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">TS-003</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar pedidos mediante el endpoint /orders</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero gestionar pedidos mediante el endpoint /orders, para registrar, consultar y administrar las órdenes de servicio asociadas a los clientes y sus prendas.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Creación de pedido</b><br>
+        <b>Dado</b> que existe un cliente registrado y se dispone de información válida del pedido<br>
+        <b>Cuando</b> el developer envía una solicitud POST a /orders con los datos del cliente, prendas, servicio y fecha de entrega<br>
+        <b>Entonces</b> la API responde con 201 Created y devuelve el pedido creado con su identificador y estado inicial.<br><br>
+        <b>Escenario 2: Consulta de pedido por ID</b><br>
+        <b>Dado</b> que existe un pedido con el identificador proporcionado<br>
+        <b>Cuando</b> el developer envía una solicitud GET a /orders/{id}<br>
+        <b>Entonces</b> la API responde con 200 OK y devuelve los datos del pedido, incluyendo cliente, prendas, servicio, precio, estado y fecha de entrega.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">TS-004</td>
+      <td style="border: 1px solid black; padding: 8px;">Implementar API REST para la gestión de pedidos</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero implementar endpoints RESTful para crear y consultar pedidos, para permitir la comunicación entre los servicios de la plataforma.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Creación de pedido</b><br>
+        <b>Dado</b> que se recibe una petición POST con datos válidos del pedido<br>
+        <b>Cuando</b> el servidor valida la solicitud<br>
+        <b>Entonces</b> registra el pedido y retorna el código HTTP 201.<br><br>
+        <b>Escenario 2: Consulta de pedido</b><br>
+        <b>Dado</b> que existe un pedido registrado<br>
+        <b>Cuando</b> se recibe una petición GET con un identificador válido<br>
+        <b>Entonces</b> la API retorna los datos del pedido con el código HTTP 200.<br><br>
+        <b>Escenario 3: Datos inválidos</b><br>
+        <b>Dado</b> que se recibe una petición con datos incompletos o inválidos<br>
+        <b>Cuando</b> el servidor valida la solicitud<br>
+        <b>Entonces</b> retorna un código HTTP de error indicando el problema.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">TS-005</td>
+      <td style="border: 1px solid black; padding: 8px;">Implementar API REST para actualizar estados</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero implementar un endpoint RESTful para actualizar el estado de los pedidos, para mantener la información de seguimiento sincronizada.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Actualización exitosa</b><br>
+        <b>Dado</b> que existe un pedido y se recibe una petición PATCH con un estado válido<br>
+        <b>Cuando</b> el servidor valida los datos recibidos<br>
+        <b>Entonces</b> actualiza el estado del pedido y retorna el código HTTP 200.<br><br>
+        <b>Escenario 2: Pedido inexistente</b><br>
+        <b>Dado</b> que se recibe una petición para un pedido inexistente<br>
+        <b>Cuando</b> el servidor busca el pedido<br>
+        <b>Entonces</b> retorna el código HTTP 404.<br><br>
+        <b>Escenario 3: Estado inválido</b><br>
+        <b>Dado</b> que se recibe un estado no permitido<br>
+        <b>Cuando</b> el servidor valida la solicitud<br>
+        <b>Entonces</b> rechaza la actualización y retorna un código HTTP de error.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 3.2. Impact Mapping
 
