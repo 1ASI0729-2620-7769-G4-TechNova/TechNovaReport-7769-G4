@@ -2334,6 +2334,14 @@ flowchart LR
 
 <img src="./assets/Chapter4/ClassDiagram/Tracking.png" width="800px" alt="Tracking">
 
+
+##### Identity & Access Management
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/IAM.png" width="800px" alt="Identity & Access Management">
+
+
 ### 4.8. Database Design
 <p align="justify">
   La elaboración del diagrama de base de datos constituye un componente esencial en la fase de diseño del proyecto, dado que formaliza la arquitectura lógica mediante la representación estructurada de las entidades, sus atributos y las relaciones que modelan el dominio del sistema de lavandería. Este artefacto conceptual no solo valida la integridad referencial y la coherencia del modelo relacional antes de su implementación física, sino que también minimiza redundancias y previene anomalías en la manipulación de los datos. 
