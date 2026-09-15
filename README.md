@@ -3327,6 +3327,26 @@ De esta manera, **TechNova** mantiene una relación controlada entre el código 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 ##### 5.2.1.3. Sprint Backlog 1
 ##### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante el Sprint 1 se implementó la Landing Page de **WashTrack** con HTML, CSS y JavaScript. La evidencia se obtuvo del historial de `develop` del repositorio [TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4). La tabla incluye únicamente commits alcanzables desde esa rama; por ello, no incorpora cambios que permanecen solamente en otras ramas.
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Change Summary** | **Committed on (Date)** |
+|---|---|---|---|---|---|
+| TechNova-LandingPage-7769-G4 | `main` | [`d5510d0`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/d5510d0abf1864378adb7bfaf4e1bc7f3f07c32f) | `Initial commit` | Inicializó el repositorio y su documentación base. | 05/09/2026 |
+| TechNova-LandingPage-7769-G4 | `LandingPage1versionG4` | [`51b69e2`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/51b69e221623529b99de99ba30f88a74d94e89f8) | `feat: add index.html and styles for landing page` | Implementó la estructura inicial y los estilos de las secciones de la Landing Page. | 05/09/2026 |
+| TechNova-LandingPage-7769-G4 | `LandingPage1versionG4` | [`be7eef6`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/be7eef69210983f32ebbf82dd94cda575e6eb7ab) | `feat:add images for the landing page` | Incorporó el logotipo y las imágenes utilizadas para representar a los dos segmentos de WashTrack. | 05/09/2026 |
+| TechNova-LandingPage-7769-G4 | `LandingPage1versionG4` | [`d8fb84c`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/d8fb84cd3e4e491f37155afce1eaedcf68d7b9bb) | `docs: add images and documentation files for landing page` | Añadió el documento legal enlazado desde el footer. | 05/09/2026 |
+| TechNova-LandingPage-7769-G4 | `LandingPage1versionG4` | [`74d8eb9`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/74d8eb91a001408c00e927e900078656ea40e496) | `style: add styles for footer component` | Agregó los estilos del footer, sus enlaces legales y los accesos a redes sociales. | 05/09/2026 |
+| TechNova-LandingPage-7769-G4 | `LandingPage1versionG4` | [`f4bf6be`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/f4bf6bebf6c9f3d1b20a1897685d8a6df6b85b85) | `feat: implement mobile menu toggle and language switcher logic in JS` | Implementó el menú responsive y el selector de idioma ES/EN, incluyendo textos y atributos traducibles. | 05/09/2026 |
+| TechNova-LandingPage-7769-G4 | `develop` | [`81e6ed0`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/81e6ed00f7d453dfa87dbb26bca1f4fd5371086a) | `Merge pull request #1 from .../LandingPage1versionG4` | Integró en `develop` la primera versión funcional de la Landing Page. | 05/09/2026 |
+| TechNova-LandingPage-7769-G4 | `feature/LandingPageFinalVersion` | [`7534734`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/7534734a8de5b300157caa8a0931251345449ed8) | `refactor: update index.html and apply final layout fixes` | Corrigió textos y detalles finales de composición en la página. | 07/09/2026 |
+| TechNova-LandingPage-7769-G4 | `feature/LandingPageFinalVersion` | [`81a5a46`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/81a5a46ba581c215a6a663d50f4488f90e7e50b5) | `chore: clean up redundant comments and remove unnecessary code notes` | Eliminó comentarios redundantes del documento HTML. | 07/09/2026 |
+| TechNova-LandingPage-7769-G4 | `feature/LandingPageFinalVersion` | [`e239298`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/e239298df04590867b21b89525594dbd3195eaa7) | `fix(footer): add social media more importants` | Ajustó los enlaces sociales mostrados en el footer. | 07/09/2026 |
+| TechNova-LandingPage-7769-G4 | `feature/LandingPageFinalVersion` | [`0a20b7a`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/0a20b7a3d825869e1540f7614418b709fdf013e1) | `refactor: update styles and layout changes` | Refinó estilos, layout y comportamiento del menú para la versión final. | 07/09/2026 |
+| TechNova-LandingPage-7769-G4 | `develop` | [`dc3eb59`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/dc3eb5920e06dcbea2663ac41f82aa45d800effe) | `Merge pull request #2 from .../feature/LandingPageFinalVersion` | Integró en `develop` las correcciones visuales y funcionales de la versión final. | 07/09/2026 |
+
+Los dos merges conservan el trabajo paralelo de `LandingPage1versionG4` y `feature/LandingPageFinalVersion`. El historial auditado contiene **12 commits en `develop`**, de los cuales **2 son merges** y **9 corresponden a implementación realizada por Ariana Pérez después de la inicialización del repositorio**.
+
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 <p align="justify">
