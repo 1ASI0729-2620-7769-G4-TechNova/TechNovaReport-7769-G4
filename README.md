@@ -2008,29 +2008,63 @@ El diagrama de Wireflow presenta el flujo de nuestros usuarios a traves de la pl
 En esta seccion se muestrar los mockups de nuestra aplicacion web
 </p>
 
+<b>Mockups del login</b>
+
+<img src="./assets/Chapter4/WebAplication/Login/Mockup_Login.png" width="700px" alt="Mockup_login">
+
+<img src="./assets/Chapter4/WebAplication/Login/Mockup_Registrar.png" width="700px" alt="Mockup_registrar">
+
+<img src="./assets/Chapter4/WebAplication/Login/Mockup_Recuperar.png" width="700px" alt="Mockup_Recuperar">
+
+<img src="./assets/Chapter4/WebAplication/Login/Mockup_CambioContra.png" width="700px" alt="Mockup_CambioContra">
+
+
 <b>Mockups de propietarios de lavanderias</b>
 
-<img src="./assets/Chapter4/WebAplication/Dueño_Dashboard.png" width="700px" alt="Dueño_Dashboard">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Dashboard.png" width="700px" alt="Mockup_Lavanderia_Dashboard">
 
-<img src="./assets/Chapter4/WebAplication/Dueño_Recojo.png" width="700px" alt="Dueño_Recojo">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Pedidos.png" width="700px" alt="Mockup_Lavanderia_Pedidos">
 
-<img src="./assets/Chapter4/WebAplication/Dueño_Recepcion.png" width="700px" alt="Dueño_Recepcion">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Pedidos_Detalles.png" width="700px" alt="Mockup_Lavanderia_Pedidos_Detalles">
 
-<img src="./assets/Chapter4/WebAplication/Dueño_Lavado.png" width="700px" alt="Dueño_Lavado">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Recojo.png" width="700px" alt="Mockup_Lavanderia_Recojo">
 
-<img src="./assets/Chapter4/WebAplication/Dueño_Entrega.png" width="700px" alt="Dueño_Entrega">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Recojo_EnviarConductor.png.png" width="700px" alt="Mockup_Lavanderia_Recojo">
 
-<img src="./assets/Chapter4/WebAplication/Dueño_Historial.png" width="700px" alt="Dueño_Historial">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Recepcion.png" width="700px" alt="Mockup_Lavanderia_Recepcion">
 
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Recepcion_NuevoRegistro.png" width="700px" alt="Mockup_Lavanderia_Recepcion_NuevoRegistro">
+
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Recepcion_Revision.png" width="700px" alt="Mockup_Lavanderia_Recepcion_Revision">
+
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Lavanderia.png" width="700px" alt="Mockup_Lavanderia_Lavanderia">
+
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Entrega.png" width="700px" alt="Mockup_Lavanderia_Entrega">
+
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Servicios.png" width="700px" alt="Mockup_Lavanderia_Servicios">
+
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Servicios_Agregar.png" width="700px" alt="Mockup_Lavanderia_Servicios_Agregar">
+
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Conductores.png" width="700px" alt="Mockup_Lavanderia_Conductores">
+
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Conductores_Agregar.png" width="700px" alt="Mockup_Lavanderia_Conductores_Agregar">
 
 
 <b>Mockups de clientes</b>
 
-<img src="./assets/Chapter4/WebAplication/Cliente_Dashboard.png" width="700px" alt="Cliente_Dashboard">
+<img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Dashboard.png" width="700px" alt="Mockup_Cliente_Dashboard">
 
-<img src="./assets/Chapter4/WebAplication/Cliente_Recojo.png" width="700px" alt="Cliente_Recojo">
+<img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Pedidos.png" width="700px" alt="Mockup_Cliente_Pedidos">
 
-<img src="./assets/Chapter4/WebAplication/Cliente_Seguimiento.png" width="700px" alt="Cliente_Seguimiento">
+<img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Pedidos_Reajuste.png" width="700px" alt="Mockup_Cliente_Pedidos_Reajuste">
+
+<img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Pedidos_Reajuste_Detalles.png" width="700px" alt="Mockup_Cliente_Pedidos_Reajuste_Detalles">
+
+<img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Pedidos_Reajuste_Pago.png" width="700px" alt="Mockup_Cliente_Pedidos_Reajuste_Pago">
+
+<img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Recojo.png" width="700px" alt="Mockup_Cliente_Recojo">
+
+<img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Recojo_Confirmar.png" width="700px" alt="Mockup_Cliente_Recojo_Confirmar">
 
 
 #### 4.4.4. Web Applications User Flow Diagrams
