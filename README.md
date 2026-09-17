@@ -1982,19 +1982,24 @@ En la seccion de seguimiento se puede visualizar como va el pedido, cada pedido 
 
 El diagrama de Wireflow presenta el flujo de nuestros usuarios a traves de la plataforma, por ello se divide en dos flujos. 
 
-* Flujo de Dueños de lavanderias: El flujo muestra las opciones iniciando desde el dashboard en dondo puede entrar a las otras secciones para registrar nuevos pedidos o para gestionar el recojo o las entregas.
+* Flujo de Dueños de lavanderias: El flujo muestra las opciones iniciando desde el dashboard en donde se puede entrar a las otras secciones para registrar nuevos pedidos o para gestionar el recojo y las entregas.
 
 <div align="center">
-  <img src="./assets/Chapter4/WebAplication/Wireflow_Dueño.PNG" alt="Estilos" width="1000"/>
+  <img src="./assets/Chapter4/WebAplication/Wireflow/Wireflow_Lavanderia1.PNG" alt="Estilos" width="1000"/>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter4/WebAplication/Wireflow/Wireflow_Lavanderia2.PNG" alt="Estilos" width="1000"/>
 </div>
 
 
-* Flujo de Clientes: El flujo inicia en el dashboard en donde se puede entrar a las otras secciones para hacer una nueva orden o confirmar que les llego sus prendas
+* Flujo de Clientes: El flujo inicia en el dashboard en donde se puede entrar a las otras secciones para hacer una nueva orden o confirmar que les llego sus prendas o aceptar el reajuste de precio
 
 
 <div align="center">
-  <img src="./assets/Chapter4/WebAplication/Wireflow Cliente.PNG" alt="Estilos" width="1000"/>
+  <img src="./assets/Chapter4/WebAplication/Wireflow/Wireflow_Cliente.PNG" alt="Estilos" width="1000"/>
 </div>
+
 
 
 #### 4.4.3. Web Applications Mock-ups
