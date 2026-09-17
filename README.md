@@ -1854,76 +1854,129 @@ A continuación, se presentan los mock-ups correspondientes al diseño de alta f
 Los wireframes de WashTrack representan el funcionamiento de nuestra aplicacion web en una version temprana, ya que se puede visualizar lo que hay en cada sección y verificar todo componente que será usado por nuestros clientes.
 </p>
 
-<b>Propietarios de lavanderías:</b>
+### Login
 
-**Dashboard**
+<b>Inicio de Sesion</b>
+<p align="justify">
+El inicio de sesion permite escoger entre los usuarios de lavanderias o los clientes, puedes logearte si ya tienes una cuenta o puedes seleccionar el boton para registrar una cuenta nueva.
+</p>
+
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Login/Wireframe_Login.png" width="700px" alt="Wireframe_Login">
+</div>
+
+<b>Registrarse</b>
+<p align="justify">
+La seccion de registro permite registrarse a la plataforma. Se pide DNI, telefono, correo, el nombre de la cuenta y la contraseña. Estos campos deberian ser validados.
+</p>
+
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Login/Wireframe_Registrar.png" width="700px" alt="Wireframe_Login">
+</div>
+
+<b>Recuperar Contraseña</b>
+<p align="justify">
+En el seccion de recuperacion de contraseña se pide ingresar el correo original de la cuenta. Posteriormente se envia al correo un codigo de verificacion para el cambio de contraseña
+</p>
+
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Login/Wireframe_Recuperar.png" width="700px" alt="Wireframe_Login">
+</div>
+
+<b>Cambio de contraseña</b>
+<p align="justify">
+En esta seccion se ingresa el codigo de recuperacion que se envio al correo y la nueva contraseña junto con la confirmacion.
+</p>
+
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Login/Wireframe_CambioContra.png" width="700px" alt="Wireframe_Login">
+</div>
+
+### Propietarios de lavanderías:
+
+<b>Dashboard</b>
 <p align="justify">
 El Dashboard busca mostrar un resumen de todo lo avanzado en el dia. Ademas de mostrar las ordenes activas
 </p>
 
-<img src="./assets/Chapter4/WebAplication/Wireframe_Dashboard.png" width="700px" alt="Wireframe_Dashboard">
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Wireframe_Lavanderia_Dashboard.png" width="700px" alt="Wireframe_Dashboard">
+</div>
 
-
-**Recojo**
+<b>Recojo</b>
 <p align="justify">
 En esta seccion se gestiona el envio de personal para recoger las ordenes o pueden ser canceladas en caso de que el cliente no estuviera presente en el momento del recojo. Además, se pueden agregar nuevo personal de recojo.
 </p>
 
-<img src="./assets/Chapter4/WebAplication/Wireframe_Recojo.png" width="700px" alt="Wireframe_Recojo">
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Wireframe_Lavanderia_Recojo.png" width="700px" alt="Wireframe_Recojo">
+</div>
 
-
-**Recepcion**
+<b>Recepcion</b>
 <p align="justify">
 La seccion de recepcion se encarga de registrar las prendas que lleguen tanto por las personas que vienen presencialmente a dejar sus prendas como por las personas que solicitan recojo. Ademas, en esta seccion el personal se encarga de revisar las prendas por si tienen algunos detalles, como ejemplo seria una camisa sin un boton o un cierre defectuoso.
 </p>
 
-<img src="./assets/Chapter4/WebAplication/Wireframe_Recepcion.png" width="700px" alt="Wireframe_Recepcion">
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Wireframe_Lavanderia_Recepcion.png" width="700px" alt="Wireframe_Recepcion">
+</div>
 
-
-**Lavado**
+<b>Lavado</b>
 <p align="justify">
 La sección de lavado se encarga de hacer un seguimiento a las prendas para que esa informacion sea enviada a los clientes, para que ellos puedan hacer seguimiento de sus prendas.
 </p>
 
-<img src="./assets/Chapter4/WebAplication/Wireframe_Lavado.png" width="700px" alt="Wireframe_Lavado">
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Wireframe_Lavanderia_Lavanderia.png" width="700px" alt="Wireframe_Lavado">
+</div>
 
-**Entrega**
+<b>Entrega</b>
 <p align="justify">
 La seccion de entrega se encarga de gestionar el envio de personal para devolver las prendas a los clientes
 </p>
 
-<img src="./assets/Chapter4/WebAplication/Wireframe_Entrega.png" width="700px" alt="Wireframe_Entrega">
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Wireframe_Lavanderia_Entrega.png" width="700px" alt="Wireframe_Entrega">
+</div>
 
-**Historial**
+<b>Historial</b>
 <p align="justify">
 El wireframe del historial mantiene todas las ordenes que los clientes han hecho a lo largo del tiempo. Ademas de un buscador tambien se puede descargar la informacion por si resulta necesaria.
 </p>
 
-<img src="./assets/Chapter4/WebAplication/Wireframe_Historial.png" width="700px" alt="Wireframe_Historial">
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Wireframe_Lavanderia_Pedidos.png" width="700px" alt="Wireframe_Historial">
+</div>
 
+### Clientes
 
-
-<b>Clientes</b>
-
-**Dashboard**
-
+<b>Dashboard</b>
+<p align="justify">
 El Dashboard para los clientes muestra las proximas entregas y las ordenes recientes que hayan hecho
+</p>
 
-<img src="./assets/Chapter4/WebAplication/Cliente_Wireframe_Dashboard.png" width="700px" alt="Cliente_Wireframe_Dashboard">
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Clientes/Wireframe_Clientes_Dashboard.png" width="700px" alt="Cliente_Wireframe_Dashboard">
+</div>
 
-
-**Recojo**
-
+<b>Recojo</b>
+<p align="justify">
 En la seccion recojo se hacen las ordenes para el recojo de las prendas y hacer el pago.
+</p>
 
-<img src="./assets/Chapter4/WebAplication/Cliente_Wireframe_Recojo.png" width="700px" alt="Cliente_Wireframe_Recojo">
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Clientes/Wireframe_Clientes_Recojo.png" width="700px" alt="Cliente_Wireframe_Recojo">
+</div>
 
+<b>Seguimiento</b>
+<p align="justify">
+En la seccion de seguimiento se puede visualizar como va el pedido, cada pedido es un desplegable en donde se puede visualizar los detalles del pedido e informacion del delivery en caso de pedirlo. Ademas, luego de recibir el pedido se puede confirmar que llegaron las prendas, en caso de que no pongan confirmar se hara automaticamente luego de un dia.
+</p>
 
-**Seguimiento**
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Clientes/Wireframe_Clientes_Pedidos.png" width="700px" alt="Cliente_Wireframe_Seguimiento">
+</div>
 
-En la seccion de seguimiento se puede visualizar como va el pedido, cada pedido es un desplegable en donde se puede visualizar los detalles del pedido e informacion del delivery en caso de pedirlo. Ademas, luego de recibir el pedido se puede confirmar que llegaron las prendas, en caso de que no pongan confirmar se hara automaticamente luego de un dia. 
-
-<img src="./assets/Chapter4/WebAplication/Cliente_Wireframe_Seguimiento.png" width="700px" alt="Cliente_Wireframe_Seguimiento">
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
