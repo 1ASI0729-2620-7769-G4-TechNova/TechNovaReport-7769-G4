@@ -41,8 +41,8 @@
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Mantilla Maldonado, Enrique Manuel</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 4px 0; text-align: center;"></td>
-        <td style="border: none; padding: 0 0 4px 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u20241D338</td>
+        <td style="border: none; padding: 0 0 4px 0; text-align: center;">Perez Vasquez Ariana Valeria</td>
     </tr>
     <tr>
         <td style="border: none; padding: 0 18px 4px 0; text-align: center;">u202018427</td>
@@ -2737,11 +2737,42 @@ De esta manera, **TechNova** mantiene una relación controlada entre el código 
 #### 5.3.3. Evaluaciones según heurísticas
 
 ### 5.4. Video About-the-Product
+---
+## Conclusiones
+
+A partir del desarrollo del proyecto **WashTrack** por parte de la startup **TechNova**, se logró avanzar de manera estructurada desde la identificación de las necesidades del mercado hasta la implementación y el despliegue de la primera versión del producto. El proceso integró el levantamiento de requisitos, el diseño de la experiencia, la arquitectura de software, la gestión de configuración en control de versiones y el despliegue técnico, manteniendo una relación directa entre los problemas detectados y la solución digital propuesta.
+
+* **En relación con los Problem Statements:** Se identificaron deficiencias críticas en la gestión tradicional de lavanderías, tales como la falta de transparencia en el seguimiento del estado de las prendas, la complejidad en la coordinación de los servicios de recojo y entrega a domicilio, y la ausencia de herramientas centralizadas para optimizar los procesos operativos. Frente a esto, WashTrack establece una solución orientada a automatizar y centralizar la administración de pedidos, mejorando la comunicación y la experiencia entre los clientes y los proveedores del servicio.
+
+* **Respecto a los Assumptions:** Los supuestos planteados inicialmente en el proceso de Lean UX fueron contrastados frente al comportamiento real de los segmentos mediante entrevistas e investigación. Esto permitió validar la necesidad imperativa de los usuarios por conocer en tiempo real el estado de sus servicios y contar con canales digitales ágiles, ajustando las hipótesis y prioridades del negocio a requerimientos reales del mercado.
+
+* **En cuanto a los Hypotheses Statements:** Las hipótesis formuladas sobre el seguimiento digital de los pedidos, la gestión de la lavandería y la interacción centralizada se materializaron en las primeras características funcionales de la solución, sentando una base sólida para continuar midiendo y validando su valor en iteraciones posteriores.
+
+* **Criterios de éxito definidos mediante Lean UX:** La primera versión desarrollada permitió comprobar la comprensión de la propuesta de valor a través de la *Landing Page*, exponiendo claramente las características del negocio, los segmentos objetivo y el funcionamiento general de la plataforma. No obstante, se concluye que los indicadores cuantitativos de éxito, retención y usabilidad requerirán ser evaluados y medidos en profundidad conforme se implementen el *Frontend Web Application* y los *Web Services*.
+
+* **Implementación, Validación y Despliegue:** Se consolidó un entorno técnico robusto aplicando el control de versiones en GitHub con flujos estructurados (`feature -> develop -> main`), convenciones de código y el despliegue exitoso de la primera versión de la *Landing Page* mediante GitHub Pages, garantizando la accesibilidad y visibilidad del producto.
+
+---
+
+## Recomendaciones
+
+Como parte de los siguientes pasos en el **Roadmap** de los productos digitales que integran el modelo de negocio de WashTrack, se recomienda:
+
+1. **Desarrollo del Frontend Web Application:** Priorizar la construcción de la interfaz web utilizando las tecnologías definidas en el curso, enfocándose en las vistas orientadas al cliente para la creación de pedidos, la consulta de estados y el seguimiento del servicio.
+2. **Implementación de Web Services (RESTful API):** Desarrollar la lógica del servidor y los servicios backend para conectar de manera segura la aplicación con el sistema de persistencia de datos y soportar las transacciones del negocio.
+3. **Módulo de Gestión para Proveedores:** Diseñar e implementar las funcionalidades destinadas a los administradores de lavanderías, permitiéndoles gestionar el flujo operativo de los pedidos y actualizar las etapas de procesamiento de las prendas.
+4. **Validación Continua con Usuarios:** Ejecutar pruebas de usabilidad y validaciones periódicas con el segmento objetivo tras cada incremento del producto. Los resultados obtenidos deberán emplearse para reevaluar los *Assumptions* y *Hypotheses Statements*, medir los criterios de éxito de Lean UX y refinar la priorización del *Product Backlog*.
 
 ---
 
 # Bibliografía
 
+* Instituto Nacional de Estadística e Informática [INEI]. (2024). *Encuesta Nacional de Uso del Tiempo (ENUT) 2024: Principales resultados*. Gobierno del Perú. Retrieved from [https://cdn.www.gob.pe/uploads/document/file/7838198/6610655-encuesta-nacional-de-uso-del-tiempo-2024-principales-resultados.pdf?v=1743092246](https://cdn.www.gob.pe/uploads/document/file/7838198/6610655-encuesta-nacional-de-uso-del-tiempo-2024-principales-resultados.pdf?v=1743092246)
+* Instituto Nacional de Estadística e Informática [INEI]. (2026). *Condiciones de Vida en el Perú: I Trimestre 2026 (Resultados de la Encuesta Nacional de Hogares - ENAHO)*. Gobierno del Perú. Retrieved from [https://cdn.www.gob.pe/uploads/document/file/10184760/8285402-condiciones-de-vida-en-el-peru-i-trimestre-2025.pdf?v=1782145344](https://cdn.www.gob.pe/uploads/document/file/10184760/8285402-condiciones-de-vida-en-el-peru-i-trimestre-2025.pdf?v=1782145344)
+* Jansen, S. M. (2019). *Practical Domain-Driven Design in Enterprise Java: Using Jakarta EE, NoSQL Databases, and Microservices*. Apress. Retrieved from [https://bit.ly/4flQyB7](https://bit.ly/4flQyB7)
+* Microsoft. (n.d.). *What is ASP.NET Core?* Microsoft. Retrieved from [https://dotnet.microsoft.com/es-es/learn/aspnet/what-is-aspnet-core](https://dotnet.microsoft.com/es-es/learn/aspnet/what-is-aspnet-core)
+* W3Schools. (n.d.). *Responsive Web Design*. W3Schools Online Web Tutorials. Retrieved from [https://www.w3schools.com/html/html_responsive.asp](https://www.w3schools.com/html/html_responsive.asp)
+* MDN Web Docs. (n.d.). *Mobile-first design*. Mozilla. Retrieved from [https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/Mobile_first](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/Mobile_first)
 ---
 
 # Anexos
