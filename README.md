@@ -2516,6 +2516,16 @@ flowchart LR
 #### 5.1.1. Software Development Environment Configuration
 #### 5.1.2. Source Code Management
 #### 5.1.3. Source Code Style Guide & Conventions
+
+Para el desarrollo de **WashTrack**, el equipo **TechNova** establece un conjunto de convenciones de nomenclatura, organización y escritura de código con el propósito de mantener una base de código consistente, legible, modular y fácil de mantener durante el ciclo de vida del proyecto.
+
+Estas convenciones se aplican a los diferentes componentes de la solución, incluyendo la *Landing Page*, la *Web Application* y los *RESTful Web Services*, considerando las tecnologías definidas para el proyecto: **HTML5, CSS3, JavaScript, TypeScript y Java**. Asimismo, se consideran las especificaciones en **Gherkin** para la definición de escenarios de comportamiento y pruebas BDD.
+
+Como criterio transversal, **todos los nombres definidos en el código fuente deben utilizar el idioma inglés**, incluyendo clases, interfaces, componentes, funciones, métodos, variables, propiedades, identificadores, atributos y *endpoints*. Esto permite mantener una nomenclatura uniforme entre los diferentes módulos y facilita la colaboración entre los integrantes del equipo.
+
+Las convenciones adoptadas toman como referencia las guías de estilo especificadas para el proyecto: *HTML Style Guide and Coding Conventions*, *Google HTML/CSS Style Guide*, *Gherkin Conventions for Readable Specifications*, *Angular coding style guide*, *Google Java Style Guide*, *Google TypeScript Style Guide* y las convenciones de desarrollo asociadas a *Spring Boot*.
+
+---
 #### 5.1.4. Software Deployment Configuration
 
 ### 5.2. Landing Page, Services & Applications Implementation
