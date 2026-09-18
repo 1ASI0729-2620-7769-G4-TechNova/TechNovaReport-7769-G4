@@ -2598,6 +2598,25 @@ Gherkin se utiliza para expresar escenarios de comportamiento asociados a las fu
 * Se evita incluir detalles innecesarios de implementación dentro de los escenarios.
 * Los criterios deben mantenerse claros y comprensibles tanto para integrantes técnicos como para participantes no técnicos.
 
+---
+
+### Resumen de Convenciones de Nomenclatura
+
+| Elemento | Convención | Ejemplo en WashTrack |
+| :--- | :--- | :--- |
+| **Variables y propiedades** | `camelCase` | `trackingStatus`, `isOpen` |
+| **Funciones y métodos** | `camelCase` | `setLanguage()`, `calculateTotalAmount()` |
+| **Clases** | `PascalCase` | `OrderController`, `LaundryService` |
+| **Interfaces y tipos** | `PascalCase` | `Order`, `CustomerData` |
+| **Componentes Angular** | `PascalCase` | `TrackingComponent` |
+| **Servicios** | `PascalCase` | `TrackingService` |
+| **Constantes** | `UPPER_SNAKE_CASE` | `MAX_RETRY_ATTEMPTS` |
+| **Clases CSS** | `kebab-case` | `tracking-card`, `btn-primary` |
+| **IDs HTML** | `kebab-case` descriptivo | `tracking-demo` |
+| **Endpoints REST** | `kebab-case` | `/api/v1/laundry-orders` |
+| **Escenarios Gherkin** | Oraciones declarativas | `Track an order status` |
+
+En conjunto, estas convenciones permiten que el código fuente de WashTrack mantenga una estructura homogénea entre la *Landing Page*, la *Web Application* y los *RESTful Web Services*. La aplicación consistente de estas reglas facilita la revisión del código, reduce ambigüedades en la nomenclatura y favorece la colaboración entre los integrantes del equipo durante las diferentes etapas del desarrollo.
 
 #### 5.1.4. Software Deployment Configuration
 
