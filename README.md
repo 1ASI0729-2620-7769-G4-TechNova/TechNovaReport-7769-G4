@@ -2619,6 +2619,63 @@ Gherkin se utiliza para expresar escenarios de comportamiento asociados a las fu
 En conjunto, estas convenciones permiten que el código fuente de WashTrack mantenga una estructura homogénea entre la *Landing Page*, la *Web Application* y los *RESTful Web Services*. La aplicación consistente de estas reglas facilita la revisión del código, reduce ambigüedades en la nomenclatura y favorece la colaboración entre los integrantes del equipo durante las diferentes etapas del desarrollo.
 
 #### 5.1.4. Software Deployment Configuration
+#### 5.1.4. Software Deployment Configuration
+
+En esta sección se describe la configuración y el procedimiento utilizado para realizar el despliegue de los productos digitales de WashTrack, considerando como punto de partida los repositorios administrados mediante GitHub. El proceso de despliegue permite publicar las versiones desarrolladas y mantener una relación entre el código fuente almacenado en el repositorio y la versión disponible para los usuarios.
+
+Para el control de versiones y la organización del código se utiliza GitHub, siguiendo el flujo de trabajo definido por el equipo. La estrategia contempla el desarrollo mediante ramas `feature/*`, su integración en la rama `develop` y posteriormente la incorporación de las versiones estables en `main`.
+
+De acuerdo con la arquitectura planteada para WashTrack, el despliegue considera los siguientes productos digitales:
+
+* **Landing Page:** desarrollada con HTML5, CSS3 y JavaScript.
+* **Frontend Web Applications:** desarrollada utilizando Vue Framework, HTML5, CSS3 y JavaScript.
+* **Web Services:** desarrollados mediante ASP.NET Core, Entity Framework Core y C# bajo el estilo arquitectónico RESTful API.
+
+En el presente avance se evidencia el despliegue de la primera versión de la Landing Page, mientras que el despliegue del Frontend Web Application y de los Web Services será realizado conforme avance la implementación de estos productos.
+
+---
+
+### Despliegue de la Landing Page
+
+La Landing Page de WashTrack se encuentra almacenada en el repositorio de GitHub correspondiente al proyecto.
+
+#### 1. Acceso al repositorio
+Se ingresa al repositorio de GitHub donde se encuentra almacenado el código fuente de la Landing Page. Antes del despliegue se verifica que los archivos necesarios del sitio se encuentren correctamente almacenados en el repositorio, incluyendo el archivo `index.html`, las hojas de estilos, los archivos JavaScript y los recursos gráficos.
+
+<div align="center">
+<img src="./assets/Chapter5/repositorio_landing.png" width="800px" alt="Vista principal del repositorio en GitHub">
+<p><b>Figura 1:</b> Vista general del repositorio de la Landing Page en GitHub.</p>
+</div>
+
+#### 2. Configuración de GitHub Pages
+Dentro del repositorio se accede a la ruta: **Settings → Pages**. En esta sección se configura la fuente desde la cual GitHub Pages obtendrá los archivos que serán publicados.
+En la configuración de GitHub Pages se selecciona la rama que contiene la versión que se desea publicar. Para una versión estable de la Landing Page se utiliza la rama `main` como fuente de publicación. Posteriormente, se guarda la configuración mediante la opción correspondiente.
+
+<div align="center">
+  <img src="./assets/Chapter5/settings_pages.png" width="700px" alt="Configuración de GitHub Pages">
+  <p><b>Figura 2:</b> Visualización de la Landing Page de WashTrack ejecutándose en el navegador web.</p>
+</div>
+
+#### 3. Generación de la publicación
+Procesa el contenido del repositorio y genera una dirección pública para acceder a la Landing Page de WashTrack. Cada actualización realizada sobre la rama configurada puede generar una nueva versión publicada del sitio.
+
+<div align="center">
+  <img src="./assets/Chapter5/sitio_publicado.png" width="700px" alt="Sitio web publicado">
+  <p><b>Figura 3:</b> Configuración del despliegue automático mediante GitHub Pages en el repositorio.</p>
+</div>
+
+#### 4. Validación del despliegue
+Finalmente, se accede al enlace generado por GitHub Pages para comprobar que la Landing Page se encuentre disponible y que sus principales componentes funcionen correctamente. Se verifica la visualización de las secciones, navegación, estilos, imágenes, menú responsive y funcionalidad implementada mediante JavaScript.
+
+<div align="center">
+  <img src="./assets/Chapter5/landing_page_navegador.png" width="700px" alt="Sitio web publicado">
+  <p><b>Figura 4:</b> Evidencia del sitio web publicado y accesible en línea.</p>
+</div>
+
+---
+
+
+
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
