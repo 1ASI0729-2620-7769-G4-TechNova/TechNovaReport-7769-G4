@@ -1980,26 +1980,105 @@ En la seccion de seguimiento se puede visualizar como va el pedido, cada pedido 
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
-El diagrama de Wireflow presenta el flujo de nuestros usuarios a traves de la plataforma, por ello se divide en dos flujos. 
+Esta sección presenta los wireflows de WashTrack, diseñada para propietarios de lavanderías independientes, y de la app cliente. Se usaran los wireframes para detallar como el usuario puede llegar a su User Goal.
 
-* Flujo de Dueños de lavanderias: El flujo muestra las opciones iniciando desde el dashboard en donde se puede entrar a las otras secciones para registrar nuevos pedidos o para gestionar el recojo y las entregas.
+### Registrar un nuevo pedido
 
-<div align="center">
-  <img src="./assets/Chapter4/WebAplication/Wireflow/Wireflow_Lavanderia1.PNG" alt="Estilos" width="1000"/>
-</div>
+**User Goal:** Registrar un nuevo pedido en el sistema, desde que el encargado de turno recibe la solicitud del cliente hasta que el pedido queda guardado y visible en la Lista de Pedidos.
 
-<div align="center">
-  <img src="./assets/Chapter4/WebAplication/Wireflow/Wireflow_Lavanderia2.PNG" alt="Estilos" width="1000"/>
-</div>
-
-
-* Flujo de Clientes: El flujo inicia en el dashboard en donde se puede entrar a las otras secciones para hacer una nueva orden o confirmar que les llego sus prendas o aceptar el reajuste de precio
-
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
 
 <div align="center">
-  <img src="./assets/Chapter4/WebAplication/Wireflow/Wireflow_Cliente.PNG" alt="Estilos" width="1000"/>
+  <img src="./assets/Chapter4/UserGoal/Wireflow_UserGoal1.PNG" width="700px" alt="UserGoal1">
 </div>
 
+**Explicación del flujo:**
+
+Happy path: El usuario ingresa a la seccion de Pedido, hace clic en "+ Nuevo pedido", luego se muestra un pop up en donde se le pide llenar datos del cliente y agregar las prendas que el cliente quiere lavar. Ademas, se permite hacer comentarios a las prendas y revisar el pesaje correcto. Finalmente, se guarda el pedido.
+
+**Unhappy paths:**
+
+* Error de validación al guardar: el formulario permanece abierto y se muestra el mensaje de error debajo del campo correspondiente, sin perder los datos ya ingresados.
+
+* Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
+
+### Revisar un pedido
+
+**User Goal:** Cuando llegan las prendas de un cliente que solicito recojo, entonces el encargado debe hacer una revision para evaluar el pesaje y comentar el estado de las prendas del usuario. Ademas esto puede afectar al precio final.
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+<div align="center">
+  <img src="./assets/Chapter4/UserGoal/Wireflow_UserGoal2.PNG" width="700px" alt="UserGoal2">
+</div>
+
+**Explicación del flujo:**
+
+Happy path: El usuario ingresa a la seccion de Pedido, hace clic en el boton "Revisar" del pedido que necesite revision, entonces mira las prendas que registro el cliente y el pesaje que hizo a las prendas comunes. Revisa si esta todo conforme y anota algunos comentarios sobre las prendas. Finalmente, guarda y confirma la revision.
+
+**Unhappy paths:**
+
+* Error de validación al guardar: el formulario permanece abierto y se muestra el mensaje de error debajo del campo correspondiente, sin perder los datos ya ingresados.
+
+* Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
+
+
+### Asignar conductor para recojo de pedido
+
+**User Goal:** Cuando llega una solicitud de recojo, entonces el encargado debe mandar a un conductor para recoger las prendas a domicilio
+
+**User Persona:** Pedro Fernández, Propietario de Lavandería.
+
+<div align="center">
+  <img src="./assets/Chapter4/UserGoal/Wireflow_UserGoal3.PNG" width="700px" alt="UserGoal3">
+</div>
+
+**Explicación del flujo:**
+
+Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de check. Luego se abre un pop-up que permite escoger que conductor ira a hacer el recojo. Finalmente, se confirma el envio del conductor.
+
+**Unhappy paths:**
+
+* Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
+
+
+### Solicitar recojo
+
+**User Goal:** Cuando llega una solicitud de recojo, entonces el encargado debe mandar a un conductor para recoger las prendas a domicilio
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+<div align="center">
+  <img src="./assets/Chapter4/UserGoal/Wireflow_UserGoal4.PNG" width="700px" alt="UserGoal4">
+</div>
+
+**Explicación del flujo:**
+
+Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de check. Luego se abre un pop-up que permite escoger que conductor ira a hacer el recojo. Finalmente, se confirma el envio del conductor.
+
+**Unhappy paths:**
+
+* Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
+
+
+
+### Reajuste de precio
+
+**User Goal:** Cuando llega una notificacion de reajuste de precio, entonces el cliente debe revisar el cambio de precio y aceptarlo o rechazarlo
+
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+<div align="center">
+  <img src="./assets/Chapter4/UserGoal/Wireflow_UserGoal5.PNG" width="700px" alt="UserGoal5">
+</div>
+
+**Explicación del flujo:**
+
+Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de exclamacion. Luego, verifica el cambio de precio y la justificacion. Finalmente acepta o rechaza el reajuste.
+
+**Unhappy paths:**
+
+* Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
 
 
 #### 4.4.3. Web Applications Mock-ups
@@ -2069,9 +2148,9 @@ En esta seccion se muestrar los mockups de nuestra aplicacion web
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
-User Goal 1: El cliente quiero hacer una orden
+User Goal 1: El cliente quiere hacer una orden
 
-User Persona: Cliente
+User Persona: Valeria Torres, Cliente de Lavandería.
 
 Happy Path
 
@@ -2091,6 +2170,10 @@ En esta ruta, ocurre un problema con el pago y por tanto es rechazado
 <img src="./assets/Chapter4/WebAplication/UnhappyPath1.PNG" height="200"/>
 </div>
 
+
+User Goal 2
+
+User Persona: Pedro Fernández, Propietario de Lavandería
 
 ### 4.5. Web Applications Prototyping
 
