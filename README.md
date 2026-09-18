@@ -2516,6 +2516,108 @@ flowchart LR
 #### 5.1.1. Software Development Environment Configuration
 #### 5.1.2. Source Code Management
 #### 5.1.3. Source Code Style Guide & Conventions
+
+Para el desarrollo de **WashTrack**, el equipo **TechNova** establece un conjunto de convenciones de nomenclatura, organización y escritura de código con el propósito de mantener una base de código consistente, legible, modular y fácil de mantener durante el ciclo de vida del proyecto.
+
+Estas convenciones se aplican a los diferentes componentes de la solución, incluyendo la *Landing Page*, la *Web Application* y los *RESTful Web Services*, considerando las tecnologías definidas para el proyecto: **HTML5, CSS3, JavaScript, TypeScript y Java**. Asimismo, se consideran las especificaciones en **Gherkin** para la definición de escenarios de comportamiento y pruebas BDD.
+
+Como criterio transversal, **todos los nombres definidos en el código fuente deben utilizar el idioma inglés**, incluyendo clases, interfaces, componentes, funciones, métodos, variables, propiedades, identificadores, atributos y *endpoints*. Esto permite mantener una nomenclatura uniforme entre los diferentes módulos y facilita la colaboración entre los integrantes del equipo.
+
+Las convenciones adoptadas toman como referencia las guías de estilo especificadas para el proyecto: *HTML Style Guide and Coding Conventions*, *Google HTML/CSS Style Guide*, *Gherkin Conventions for Readable Specifications*, *Angular coding style guide*, *Google Java Style Guide*, *Google TypeScript Style Guide* y las convenciones de desarrollo asociadas a *Spring Boot*.
+### HTML5
+
+HTML5 se utiliza para estructurar la *Landing Page* de WashTrack mediante una organización semántica y jerárquica del contenido. Las principales convenciones adoptadas son:
+
+* **Nomenclatura en inglés:** Los atributos `id` y `class` utilizan nombres descriptivos que representan la función o contenido del elemento (por ejemplo: `menu-toggle`, `nav-collapse`, `tracking-demo`, `footer-container` y `order-form`).
+* **Etiquetas semánticas:** Se utilizan elementos como `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` y `<footer>` para representar adecuadamente la estructura de la interfaz.
+* **Indentación consistente:** Los elementos anidados mantienen una indentación uniforme para facilitar la lectura y revisión del código.
+* **Atributos descriptivos:** Los elementos utilizan atributos como `id`, `class` y `alt` de acuerdo con su propósito.
+* **Accesibilidad:** Cuando corresponde, se emplean atributos ARIA como `aria-label`, `aria-expanded` y otros atributos apropiados para proporcionar información adicional a las tecnologías de asistencia.
+* **Estructura ordenada:** Se evita utilizar elementos HTML únicamente con fines de presentación cuando existe una etiqueta semántica apropiada.
+
+---
+### CSS3
+
+CSS3 se utiliza para definir la presentación visual, distribución y comportamiento *responsive* de la *Landing Page* y de los componentes de la solución. Las convenciones adoptadas son:
+
+* **Nombres de clases en inglés:** Se utilizan nombres descriptivos y consistentes siguiendo principalmente una nomenclatura `kebab-case` (por ejemplo: `btn-primary`, `tracking-card`, `status-badge` y `footer-links`).
+* **Clases orientadas a componentes:** Las clases representan componentes o elementos específicos de la interfaz, evitando nombres ambiguos o dependientes de su posición visual.
+* **Reutilización de estilos:** Se prioriza la creación de reglas reutilizables para evitar duplicidad de código.
+* **Organización modular:** Los estilos se organizan de manera que los componentes visuales puedan mantenerse y modificarse independientemente.
+* **Diseño responsive:** Se utilizan técnicas de diseño adaptable para garantizar una correcta visualización en dispositivos móviles, tablets y escritorios.
+* **Consistencia visual:** Los componentes reutilizables mantienen las mismas reglas de espaciado, tipografía, tamaños, estados y comportamiento visual definidos en las *Style Guidelines* de WashTrack.
+
+### JavaScript
+
+JavaScript se utiliza principalmente para implementar la lógica interactiva de la *Landing Page*, incluyendo la manipulación de elementos de la interfaz, eventos y funcionalidades dinámicas. Las principales convenciones son:
+
+* **`camelCase`:** Se utiliza para variables, funciones y propiedades (por ejemplo: `navCollapse`, `isOpen`, `originalTexts` y `setLanguage()`).
+* **Nombres descriptivos:** Las funciones y variables deben representar claramente la responsabilidad que cumplen.
+* **Funciones con responsabilidad específica:** Las funcionalidades se dividen en funciones pequeñas y específicas para facilitar su lectura, prueba y mantenimiento.
+* **Uso preferente de `const`:** Se utiliza `const` cuando una referencia no requiere reasignación y `let` únicamente cuando el valor necesita cambiar.
+* **Manipulación estándar del DOM:** Se utilizan métodos como `querySelector()`, `querySelectorAll()`, `classList.toggle()`, `setAttribute()` y `addEventListener()` para interactuar con la interfaz.
+* **Consistencia en eventos:** Los controladores de eventos deben asociarse de manera clara con el elemento y la acción que representan.
+
+---
+
+### TypeScript y Angular
+
+Para la *Web Application*, el proyecto utiliza **Angular Framework**, HTML5, CSS3 y TypeScript. El uso de TypeScript permite mantener un código estructurado y con tipado estático, mientras que Angular proporciona la organización basada en componentes definida para la aplicación. Las principales convenciones adoptadas son:
+
+* **`camelCase`:** Para variables, propiedades, parámetros y métodos (por ejemplo: `trackingStatus`, `isOpen` y `fetchTrackingData()`).
+* **`PascalCase`:** Para clases, interfaces, tipos, componentes y otros elementos que representan entidades o estructuras principales (por ejemplo: `Order`, `LaundryService` y `TrackingComponent`).
+* **Componentes con responsabilidades claras:** Cada componente debe concentrarse en una funcionalidad específica de la interfaz o del dominio que representa.
+* **Tipado explícito:** Se definen interfaces y tipos para representar los modelos utilizados por la aplicación, evitando el uso de `any` cuando exista una alternativa tipada apropiada.
+* **Inyección de dependencias:** Los servicios de Angular se utilizan para encapsular lógica reutilizable y facilitar la separación de responsabilidades.
+* **Nombres descriptivos para servicios:** Los nombres deben representar claramente la responsabilidad del servicio (por ejemplo: `OrderService`, `TrackingService` o `NotificationService`).
+* **Separación de responsabilidades:** La lógica de presentación, los servicios y los modelos se mantienen separados para facilitar el mantenimiento y evolución de la aplicación.
+
+---
+### Java y Spring Boot
+
+Java se utiliza para el desarrollo de los *RESTful Web Services* de WashTrack mediante **Spring Boot**. La solución considera una organización orientada a responsabilidades y dominios, manteniendo separadas las capas relacionadas con la exposición de servicios, lógica de aplicación, dominio e infraestructura. Las convenciones adoptadas son:
+
+* **`PascalCase`:** Para clases, interfaces, enumeraciones y registros (por ejemplo: `OrderController`, `LaundryService` y `CustomerRepository`).
+* **`camelCase`:** Para métodos, parámetros y variables locales (por ejemplo: `calculateTotalAmount()` y `orderStatus`).
+* **`UPPER_SNAKE_CASE`:** Para constantes `static final` (por ejemplo: `MAX_RETRY_ATTEMPTS`).
+* **Nombres descriptivos:** Las clases y métodos deben representar claramente la responsabilidad que cumplen dentro del sistema.
+* **Separación de responsabilidades:** Los controladores gestionan la exposición de *endpoints*, los servicios concentran la lógica de aplicación y los repositorios gestionan el acceso a datos.
+* **Convenciones de Spring Boot:** Se mantiene una estructura consistente con los patrones utilizados por Spring Boot y Spring Data JPA.
+* **Organización por dominio:** Los componentes se agrupan de acuerdo con las responsabilidades y dominios identificados en WashTrack, facilitando la evolución independiente de las funcionalidades.
+
+---
+
+### Gherkin
+
+Gherkin se utiliza para expresar escenarios de comportamiento asociados a las funcionalidades del sistema mediante el enfoque *Behavior-Driven Development* (BDD). Las convenciones adoptadas son:
+
+* Los nombres de los archivos y escenarios se redactan en inglés.
+* Se utilizan las palabras clave `Given`, `When`, `Then`, `And` y `But`.
+* Los escenarios se redactan como comportamientos observables del sistema desde la perspectiva del usuario.
+* Cada escenario debe describir una situación concreta y verificable.
+* Se evita incluir detalles innecesarios de implementación dentro de los escenarios.
+* Los criterios deben mantenerse claros y comprensibles tanto para integrantes técnicos como para participantes no técnicos.
+
+---
+
+### Resumen de Convenciones de Nomenclatura
+
+| Elemento | Convención | Ejemplo en WashTrack |
+| :--- | :--- | :--- |
+| **Variables y propiedades** | `camelCase` | `trackingStatus`, `isOpen` |
+| **Funciones y métodos** | `camelCase` | `setLanguage()`, `calculateTotalAmount()` |
+| **Clases** | `PascalCase` | `OrderController`, `LaundryService` |
+| **Interfaces y tipos** | `PascalCase` | `Order`, `CustomerData` |
+| **Componentes Angular** | `PascalCase` | `TrackingComponent` |
+| **Servicios** | `PascalCase` | `TrackingService` |
+| **Constantes** | `UPPER_SNAKE_CASE` | `MAX_RETRY_ATTEMPTS` |
+| **Clases CSS** | `kebab-case` | `tracking-card`, `btn-primary` |
+| **IDs HTML** | `kebab-case` descriptivo | `tracking-demo` |
+| **Endpoints REST** | `kebab-case` | `/api/v1/laundry-orders` |
+| **Escenarios Gherkin** | Oraciones declarativas | `Track an order status` |
+
+En conjunto, estas convenciones permiten que el código fuente de WashTrack mantenga una estructura homogénea entre la *Landing Page*, la *Web Application* y los *RESTful Web Services*. La aplicación consistente de estas reglas facilita la revisión del código, reduce ambigüedades en la nomenclatura y favorece la colaboración entre los integrantes del equipo durante las diferentes etapas del desarrollo.
+
 #### 5.1.4. Software Deployment Configuration
 
 ### 5.2. Landing Page, Services & Applications Implementation
