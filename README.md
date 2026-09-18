@@ -2573,6 +2573,30 @@ Para la *Web Application*, el proyecto utiliza **Angular Framework**, HTML5, CSS
 * **Separación de responsabilidades:** La lógica de presentación, los servicios y los modelos se mantienen separados para facilitar el mantenimiento y evolución de la aplicación.
 
 ---
+### Java y Spring Boot
+
+Java se utiliza para el desarrollo de los *RESTful Web Services* de WashTrack mediante **Spring Boot**. La solución considera una organización orientada a responsabilidades y dominios, manteniendo separadas las capas relacionadas con la exposición de servicios, lógica de aplicación, dominio e infraestructura. Las convenciones adoptadas son:
+
+* **`PascalCase`:** Para clases, interfaces, enumeraciones y registros (por ejemplo: `OrderController`, `LaundryService` y `CustomerRepository`).
+* **`camelCase`:** Para métodos, parámetros y variables locales (por ejemplo: `calculateTotalAmount()` y `orderStatus`).
+* **`UPPER_SNAKE_CASE`:** Para constantes `static final` (por ejemplo: `MAX_RETRY_ATTEMPTS`).
+* **Nombres descriptivos:** Las clases y métodos deben representar claramente la responsabilidad que cumplen dentro del sistema.
+* **Separación de responsabilidades:** Los controladores gestionan la exposición de *endpoints*, los servicios concentran la lógica de aplicación y los repositorios gestionan el acceso a datos.
+* **Convenciones de Spring Boot:** Se mantiene una estructura consistente con los patrones utilizados por Spring Boot y Spring Data JPA.
+* **Organización por dominio:** Los componentes se agrupan de acuerdo con las responsabilidades y dominios identificados en WashTrack, facilitando la evolución independiente de las funcionalidades.
+
+---
+
+### Gherkin
+
+Gherkin se utiliza para expresar escenarios de comportamiento asociados a las funcionalidades del sistema mediante el enfoque *Behavior-Driven Development* (BDD). Las convenciones adoptadas son:
+
+* Los nombres de los archivos y escenarios se redactan en inglés.
+* Se utilizan las palabras clave `Given`, `When`, `Then`, `And` y `But`.
+* Los escenarios se redactan como comportamientos observables del sistema desde la perspectiva del usuario.
+* Cada escenario debe describir una situación concreta y verificable.
+* Se evita incluir detalles innecesarios de implementación dentro de los escenarios.
+* Los criterios deben mantenerse claros y comprensibles tanto para integrantes técnicos como para participantes no técnicos.
 
 
 #### 5.1.4. Software Deployment Configuration
