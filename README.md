@@ -2619,7 +2619,6 @@ Gherkin se utiliza para expresar escenarios de comportamiento asociados a las fu
 En conjunto, estas convenciones permiten que el código fuente de WashTrack mantenga una estructura homogénea entre la *Landing Page*, la *Web Application* y los *RESTful Web Services*. La aplicación consistente de estas reglas facilita la revisión del código, reduce ambigüedades en la nomenclatura y favorece la colaboración entre los integrantes del equipo durante las diferentes etapas del desarrollo.
 
 #### 5.1.4. Software Deployment Configuration
-#### 5.1.4. Software Deployment Configuration
 
 En esta sección se describe la configuración y el procedimiento utilizado para realizar el despliegue de los productos digitales de WashTrack, considerando como punto de partida los repositorios administrados mediante GitHub. El proceso de despliegue permite publicar las versiones desarrolladas y mantener una relación entre el código fuente almacenado en el repositorio y la versión disponible para los usuarios.
 
@@ -2673,7 +2672,48 @@ Finalmente, se accede al enlace generado por GitHub Pages para comprobar que la 
 </div>
 
 ---
+### Configuración de despliegue del Frontend Web Application
 
+El *Frontend Web Application* de **WashTrack** será desplegado a partir de su repositorio correspondiente una vez finalizada su primera versión funcional. El proceso partirá del código fuente almacenado en GitHub y considerará la construcción de la aplicación mediante Vue Framework.
+
+El flujo general de despliegue será el siguiente:
+
+1. Obtener la versión estable del código desde el repositorio.
+2. Instalar las dependencias definidas para el proyecto.
+3. Ejecutar el proceso de construcción (*build*) de la aplicación.
+4. Generar los archivos necesarios para producción.
+5. Publicar los archivos generados en el servicio de alojamiento seleccionado.
+6. Verificar el funcionamiento de las rutas, componentes, estilos y comunicación con los Web Services.
+7. Validar la aplicación desde el navegador en diferentes tamaños de pantalla.
+---
+
+### Configuración de despliegue de los Web Services
+
+Los Web Services de **WashTrack** serán desarrollados utilizando ASP.NET Core, Entity Framework Core y C#, siguiendo el estilo arquitectónico RESTful API. Su despliegue partirá del repositorio de código fuente y requerirá configurar el entorno de ejecución, las dependencias de la aplicación y la conexión con el sistema de base de datos.
+
+El flujo general de despliegue será el siguiente:
+
+1. Obtener desde GitHub la versión estable del Web Service.
+2. Configurar las dependencias necesarias del proyecto ASP.NET Core.
+3. Configurar las variables y parámetros correspondientes al entorno de producción.
+4. Configurar la conexión con la base de datos.
+5. Compilar y publicar la aplicación.
+6. Ejecutar el servicio en el entorno de despliegue seleccionado.
+7. Verificar los *endpoints* disponibles mediante la documentación OpenAPI/Swagger.
+8. Comprobar la comunicación entre el Web Service y el Frontend Web Application.
+
+
+---
+
+### Flujo general de despliegue
+
+El proceso de despliegue de WashTrack parte del código fuente administrado mediante GitHub y sigue el flujo de trabajo definido por el equipo:
+
+$$\text{Feature Branch} \longrightarrow \text{develop} \longrightarrow \text{main} \longrightarrow \text{Deployment}$$
+
+Las ramas de desarrollo permiten realizar cambios de manera aislada. Después de validar los cambios, estos se integran en `develop`. Cuando una versión se encuentra preparada para publicación, se incorpora a `main`, desde donde se realiza el despliegue de la versión estable del producto correspondiente.
+
+De esta manera, **TechNova** mantiene una relación controlada entre el código fuente y las versiones publicadas, facilitando el despliegue progresivo de la *Landing Page*, el *Frontend Web Application* y los *Web Services* conforme avance la implementación de WashTrack.
 
 
 
