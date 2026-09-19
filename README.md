@@ -95,8 +95,15 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
 <p align="justify">
   Este proceso permitió transformar los hallazgos obtenidos en las entrevistas y el análisis de usuarios en requerimientos, historias de usuario y un Product Backlog priorizado. Posteriormente, estos elementos sirvieron como base para definir la experiencia de usuario, la arquitectura de información y la arquitectura de software, integrando herramientas como Lean UX, EventStorming y Domain-Driven Design. Finalmente, se establecieron las bases técnicas para el desarrollo mediante convenciones de código, GitFlow y lineamientos de despliegue, dejando estructurado el proyecto para las siguientes etapas de desarrollo.
 </p>
+<br>
 
+**Evidencias de colaboración y analíticos en GitHub**
 
+**AV1**
+
+<p align="justify">
+  Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
 
 <div style="page-break-after: always;"></div>
 
