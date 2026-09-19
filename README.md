@@ -3292,6 +3292,14 @@ De esta manera, **TechNova** mantiene una relación controlada entre el código 
 </p>
 <br>
 
+**Evidencia del deploy: Landing page web responsive**
+
+<div align="center">
+  <img src="./assets/Chapter5/landing_page_web_deploy_evidence_TechNova.png" width="700px" alt="Landing Page Web Responsive">
+  <p>Deployed Landing Page - Web</p>
+  <p></p>
+</div>
+<br>
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
