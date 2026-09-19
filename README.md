@@ -1156,6 +1156,123 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
       <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
     </tr>
   </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-013</td> 
+      <td style="border: 1px solid black; padding: 8px;">Solicitar demostración desde la Landing Page</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como visitante del segmento de propietarios, quiero solicitar una demostración de WashTrack desde la Landing Page, para conocer la plataforma antes de decidir la contratación de un plan.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Envío exitoso de solicitud</b><br> 
+        <b>Dado</b> que el visitante se encuentra en la Landing Page<br> 
+        <b>Cuando</b> completa el formulario de contacto con su nombre, correo electrónico, nombre del negocio y teléfono, y confirma el envío<br> <b>Entonces</b> el sistema registra la solicitud y muestra un mensaje confirmando que un representante lo contactará.<br><br> 
+        <b>Escenario 2: Datos incompletos o inválidos</b><br> 
+        <b>Dado</b> que el visitante se encuentra en el formulario de solicitud de demostración<br> 
+        <b>Cuando</b> ingresa datos incompletos o un correo electrónico con formato inválido<br> 
+        <b>Entonces</b> el sistema resalta los campos por corregir y no permite enviar la solicitud. </td> 
+        <td style="border: 1px solid black; padding: 8px;">EP-013: Landing Page y Marketing</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-014</td> 
+      <td style="border: 1px solid black; padding: 8px;">Recuperar contraseña</td> <td style="border: 1px solid black; padding: 8px;">Como usuario registrado, quiero recuperar mi contraseña cuando la olvide, para poder volver a acceder a mi cuenta sin necesidad de crear una nueva.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Solicitud de recuperación</b><br> 
+        <b>Dado</b> que el usuario se encuentra en la pantalla de inicio de sesión<br> 
+        <b>Cuando</b> selecciona la opción "Olvidé mi contraseña" e ingresa un correo electrónico registrado<br> 
+        <b>Entonces</b> el sistema envía un enlace de restablecimiento al correo indicado y muestra un mensaje de confirmación.<br><br> 
+        <b>Escenario 2: Correo no registrado</b><br> 
+        <b>Dado</b> que el usuario ha solicitado recuperar su contraseña<br> <b>Cuando</b> ingresa un correo electrónico que no pertenece a ninguna cuenta<br> 
+        <b>Entonces</b> el sistema muestra un mensaje indicando que el correo no está registrado y solicita verificar la información. </td> 
+        <td style="border: 1px solid black; padding: 8px;">EP-014: Autenticación y gestión de usuarios</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-015</td> 
+      <td style="border: 1px solid black; padding: 8px;">Registrar dirección de recojo y entrega</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero registrar y administrar mis direcciones de recojo y entrega, para agilizar la solicitud de servicios a domicilio sin ingresar los datos cada vez.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Registro de dirección</b><br> 
+        <b>Dado</b> que el cliente ha iniciado sesión y se encuentra en la sección de direcciones<br> 
+        <b>Cuando</b> ingresa una dirección válida con distrito, referencia y datos de contacto<br> 
+        <b>Entonces</b> el sistema guarda la dirección y la muestra en su lista de direcciones.<br><br> 
+        <b>Escenario 2: Dirección predeterminada</b><br> 
+        <b>Dado</b> que el cliente tiene al menos una dirección registrada<br> <b>Cuando</b> marca una dirección como predeterminada<br> 
+        <b>Entonces</b> el sistema la utiliza por defecto en las siguientes solicitudes de recojo o entrega. </td> <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-016</td> 
+      <td style="border: 1px solid black; padding: 8px;">Realizar pago digital de un pedido</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero pagar digitalmente el servicio de lavandería asociado a mi pedido, para completar el pago sin necesidad de hacerlo presencialmente en efectivo.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Pago exitoso</b><br> 
+        <b>Dado</b> que el cliente tiene un pedido con monto pendiente de pago<br> <b>Cuando</b> selecciona el método de pago, ingresa los datos solicitados y confirma la operación<br> 
+        <b>Entonces</b> el sistema registra el pago, actualiza el estado del pedido y muestra un comprobante digital.<br><br> 
+        <b>Escenario 2: Pago rechazado</b><br> 
+        <b>Dado</b> que el cliente se encuentra realizando el pago de un pedido<br> <b>Cuando</b> la operación es rechazada por la entidad financiera<br> <b>Entonces</b> el sistema informa que el pago no pudo completarse y mantiene el monto como pendiente. </td> 
+        <td style="border: 1px solid black; padding: 8px;">EP-003: Pagos digitales</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-017</td> 
+      <td style="border: 1px solid black; padding: 8px;">Gestionar planes de suscripción de la lavandería</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como propietario de lavandería, quiero gestionar el plan de suscripción de mi negocio, para cambiar de plan o renovar el servicio según las necesidades de mi operación.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Cambio de plan</b><br> 
+        <b>Dado</b> que el propietario ha iniciado sesión y tiene un plan activo<br> <b>Cuando</b> selecciona otro plan disponible y confirma el cambio<br> <b>Entonces</b> el sistema actualiza el plan contratado y habilita las funcionalidades correspondientes.<br><br> 
+        <b>Escenario 2: Vencimiento del plan</b><br> 
+        <b>Dado</b> que el plan contratado por la lavandería ha alcanzado su fecha de vencimiento<br> 
+        <b>Cuando</b> el propietario ingresa a la plataforma<br> 
+        <b>Entonces</b> el sistema muestra un aviso de vencimiento y solicita renovar para mantener las funcionalidades del plan. </td> 
+        <td style="border: 1px solid black; padding: 8px;">EP-012: Suscripciones</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-018</td> 
+      <td style="border: 1px solid black; padding: 8px;">Configurar tipos de servicio y precios</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como administrador de lavandería, quiero configurar los tipos de servicio y sus precios, para que los pedidos se registren con la información comercial vigente de mi negocio.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Registro de un servicio</b><br> 
+        <b>Dado</b> que el administrador ha iniciado sesión y se encuentra en la sección de configuración<br> 
+        <b>Cuando</b> registra el nombre de un servicio, su descripción y precio<br> <b>Entonces</b> el sistema guarda el servicio y lo muestra como opción disponible al crear pedidos.<br><br> 
+        <b>Escenario 2: Actualización de precio</b><br> 
+        <b>Dado</b> que existe un servicio registrado con un precio anterior<br> <b>Cuando</b> el administrador modifica su precio<br> 
+        <b>Entonces</b> el sistema aplica el nuevo precio a los pedidos creados a partir de ese momento, sin alterar los pedidos ya registrados. </td> <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-019</td> 
+      <td style="border: 1px solid black; padding: 8px;">Consultar historial de pagos</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como propietario de lavandería, quiero consultar el historial de pagos registrados en la plataforma, para verificar los ingresos asociados a los pedidos atendidos.</td> 
+      <td style="border: 1px solid black; padding: 8px;">   
+        <b>Escenario 1: Consulta del historial</b><br> 
+        <b>Dado</b> que el propietario ha iniciado sesión y existen pagos registrados<br> 
+        <b>Cuando</b> ingresa a la sección de pagos y selecciona un periodo<br> <b>Entonces</b> el sistema muestra la lista de pagos con fecha, pedido, cliente, monto y estado.<br><br> 
+        <b>Escenario 2: Filtro sin resultados</b><br> 
+        <b>Dado</b> que el propietario aplica un filtro de búsqueda en el historial de pagos<br> 
+        <b>Cuando</b> no existen pagos que coincidan con los criterios seleccionados<br> 
+        <b>Entonces</b> el sistema muestra un mensaje indicando que no se encontraron resultados. </td> <td style="border: 1px solid black; padding: 8px;">EP-003: Pagos digitales</td> </tr> </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-020</td>
+      <td style="border: 1px solid black; padding: 8px;">Cancelar un pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero cancelar un pedido registrado, para detener el servicio cuando ya no necesito el lavado de mis prendas.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Cancelación permitida</b><br>
+        <b>Dado</b> que el cliente intenta cancelar un pedido que ya se encuentra en proceso o listo para entrega<br>
+        <b>Cuando</b> selecciona la opción de cancelar y confirma la acción<br>
+        <b>Entonces</b> el sistema cambia el estado del pedido a "Cancelado" y muestra una confirmación al cliente.<br><br>
+        <b>Escenario 2: Cancelación no permitida</b><br>
+        <b>Dado</b> que el cliente intenta cancelar un pedido que ya se encuentra en proceso o listo para entrega<br>
+        <b>Cuando</b> selecciona la opción de cancelar<br>
+        <b>Entonces</b> el sistema informa que el pedido ya no puede cancelarse y sugiere contactar a la lavandería.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+
 </table>
 
 <br>
@@ -1272,7 +1389,7 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
         <b>Cuando</b> el servidor valida la solicitud<br>
         <b>Entonces</b> rechaza la actualización y retorna un código HTTP de error.
       </td>
-      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Seguimiento de pedidos</td>
     </tr>
   </tbody>
 </table>
