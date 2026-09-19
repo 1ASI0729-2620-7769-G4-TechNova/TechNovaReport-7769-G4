@@ -49,8 +49,8 @@
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 0 0; text-align: center;"></td>
-        <td style="border: none; padding: 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 0 0; text-align: center;">u202019409</td>
+        <td style="border: none; padding: 0; text-align: center;">Linares Bernable, Cesar Alejandro</td>
     </tr>
 </table>
 
