@@ -79,7 +79,11 @@
 
 ## Project Report Collaboration Insights
 
-// Enlaces  de repositorios
+URL del repositorio (report): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4)
+
+URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
+
+<br>
 
 *Reporte de colaboración de la entrega del TP:*
 
