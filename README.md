@@ -1273,6 +1273,86 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
     </tr>
   </tbody>
 
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-021</td>
+      <td style="border: 1px solid black; padding: 8px;">Aceptar solicitud de recojo</td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-022</td>
+      <td style="border: 1px solid black; padding: 8px;">Enviar delivery</td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-023</td>
+      <td style="border: 1px solid black; padding: 8px;">Registrar conductores</td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-024</td>
+      <td style="border: 1px solid black; padding: 8px;">Reajuste de precio</td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-025</td>
+      <td style="border: 1px solid black; padding: 8px;">Cambiar precio de ropa por kilo</td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-026</td>
+      <td style="border: 1px solid black; padding: 8px;">Añadir nuevo servicio de prenda especial</td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-027</td>
+      <td style="border: 1px solid black; padding: 8px;">Rechazar recojo</td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-028</td>
+      <td style="border: 1px solid black; padding: 8px;">Exportar pedidos en excel</td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;"></td>
+    </tr>
+  </tbody>
+
 </table>
 
 <br>
