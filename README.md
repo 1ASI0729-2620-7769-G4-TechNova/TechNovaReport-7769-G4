@@ -85,9 +85,17 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
 
 <br>
 
-*Reporte de colaboración de la entrega del TP:*
+**Reporte de colaboración de la entrega del TP**
 
-// Falta Imagen 
+**AV1**
+<p align="justify">
+  Durante la primera entrega, el equipo desarrolló de manera coordinada los fundamentos estratégicos, funcionales y técnicos del proyecto, distribuyendo el trabajo de acuerdo con las especialidades de cada integrante. A lo largo de los capítulos se consolidó progresivamente la propuesta de solución, partiendo de la definición de la startup y sus segmentos objetivo, y profundizando en la comprensión de las necesidades de los usuarios y del dominio del negocio.
+</p>
+
+<p align="justify">
+  Este proceso permitió transformar los hallazgos obtenidos en las entrevistas y el análisis de usuarios en requerimientos, historias de usuario y un Product Backlog priorizado. Posteriormente, estos elementos sirvieron como base para definir la experiencia de usuario, la arquitectura de información y la arquitectura de software, integrando herramientas como Lean UX, EventStorming y Domain-Driven Design. Finalmente, se establecieron las bases técnicas para el desarrollo mediante convenciones de código, GitFlow y lineamientos de despliegue, dejando estructurado el proyecto para las siguientes etapas de desarrollo.
+</p>
+
 
 
 <div style="page-break-after: always;"></div>
