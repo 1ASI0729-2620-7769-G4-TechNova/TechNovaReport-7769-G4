@@ -3368,7 +3368,7 @@ URL del repositorio (report): [Repositorio Report](https://github.com/1ASI0729-2
 
 URL del repositorio (landing-page): [Repositorio Landing Page](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
-
+URL de landing page (GithubPage): [Landing Page](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
 
 
 ---
