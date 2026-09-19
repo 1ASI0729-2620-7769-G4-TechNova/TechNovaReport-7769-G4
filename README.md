@@ -246,12 +246,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
       </td>
       <td>
-        Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
-        Nam ornare massa eu lobortis porttitor.<br>
-        Nam ut erat feugiat libero pretium semper at ac metus.<br>
-        Sed at eros dapibus, fermentum quam ut, bibendum lacus.<br>
-        Curabitur eget orci eget urna varius commodo.<br>
-        ...
+        <b>AV1</b><br>Durante esta primera entrega, el equipo demostró capacidad de comunicación oral efectiva al realizar y registrar las entrevistas (Needfinding) y al presentar el progreso del Sprint 1. En el proceso de entrevistas, como equipo, se interactuó directamente con los segmentos objetivo ajustando el lenguaje técnico hacia un tono accesible y empático para explorar sus necesidades, dolores y expectativas. Por otro lado, durante las consultas del trabajo desarrollado en clase al docente, se nos permitió comunicar de forma clara las decisiones de diseño, la arquitectura Domain-Driven Design (DDD) y los avances del Sprint 1, demostrando adaptabilidad en la transmisión de conceptos de software tanto a audiencias técnicas como a usuarios finales.<br>
       </td>
     </tr>
     <tr>
@@ -289,11 +284,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
       </td>
       <td>
-        Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>
-        Vivamus commodo libero eget venenatis imperdiet.<br>
-        Etiam imperdiet quam condimentum velit tempor porttitor.<br>
-        Suspendisse blandit nisl quis mauris vehicula faucibus.<br>
-        ...
+        <b>AV1</b><br>En la primera entrega, la comunicación escrita efectiva se evidencia en la elaboración estructurada de la documentación técnica del proyecto, abarcando desde la definición estratégica de la startup hasta la especificación técnica y de diseño. El equipo de TechNova logró transmitir de manera clara la propuesta de valor a través del Lean UX Canvas, Landing Page y User Personas. Por otro lado, el equipo, redactó el informe con un nivel de rigor y precisión técnico adecuado los artefactos de desarrollo destinados al equipo técnico, tales como los criterios de aceptación en User Stories, el Ubiquitous Language, las guías de estilo UX/UI y los diagramas C4 y de Base de Datos. <br>
       </td>
     </tr>
   </tbody>
