@@ -1851,14 +1851,14 @@ A continuación, se presentan los mock-ups correspondientes al diseño de alta f
 #### 4.4.1. Web Applications Wireframes
 
 <p align="justify">
-Los wireframes de WashTrack representan el funcionamiento de nuestra aplicacion web en una version temprana, ya que se puede visualizar lo que hay en cada sección y verificar todo componente que será usado por nuestros clientes.
+Los wireframes de WashTrack representan el funcionamiento de nuestra aplicación web en una versión temprana, ya que se puede visualizar lo que hay en cada sección y verificar todo componente que será usado por nuestros clientes.
 </p>
 
 ### Login
 
-<b>Inicio de Sesion</b>
+<b>Inicio de Sesión</b>
 <p align="justify">
-El inicio de sesion permite escoger entre los usuarios de lavanderias o los clientes, puedes logearte si ya tienes una cuenta o puedes seleccionar el boton para registrar una cuenta nueva.
+El inicio de sesión permite escoger entre los usuarios de lavanderías o los clientes, puedes logearte si ya tienes una cuenta o puedes seleccionar el botón para registrar una cuenta nueva.
 </p>
 
 <div align="center">
@@ -1867,7 +1867,7 @@ El inicio de sesion permite escoger entre los usuarios de lavanderias o los clie
 
 <b>Registrarse</b>
 <p align="justify">
-La seccion de registro permite registrarse a la plataforma. Se pide DNI, telefono, correo, el nombre de la cuenta y la contraseña. Estos campos deberian ser validados.
+La sección de registro permite registrarse a la plataforma. Se pide DNI, teléfono, correo, el nombre de la cuenta y la contraseña. Estos campos deberían ser validados.
 </p>
 
 <div align="center">
@@ -1876,7 +1876,7 @@ La seccion de registro permite registrarse a la plataforma. Se pide DNI, telefon
 
 <b>Recuperar Contraseña</b>
 <p align="justify">
-En el seccion de recuperacion de contraseña se pide ingresar el correo original de la cuenta. Posteriormente se envia al correo un codigo de verificacion para el cambio de contraseña
+En el sección de recuperación de contraseña se pide ingresar el correo original de la cuenta. Posteriormente se envía al correo un código de verificación para el cambio de contraseña
 </p>
 
 <div align="center">
@@ -1885,7 +1885,7 @@ En el seccion de recuperacion de contraseña se pide ingresar el correo original
 
 <b>Cambio de contraseña</b>
 <p align="justify">
-En esta seccion se ingresa el codigo de recuperacion que se envio al correo y la nueva contraseña junto con la confirmacion.
+En esta sección se ingresa el código de recuperación que se envió al correo y la nueva contraseña junto con la confirmación.
 </p>
 
 <div align="center">
@@ -1896,7 +1896,7 @@ En esta seccion se ingresa el codigo de recuperacion que se envio al correo y la
 
 <b>Dashboard</b>
 <p align="justify">
-El Dashboard busca mostrar un resumen de todo lo avanzado en el dia. Ademas de mostrar las ordenes activas
+El Dashboard busca mostrar un resumen de todo lo avanzado en el día. Además de mostrar las órdenes activas
 </p>
 
 <div align="center">
@@ -1905,16 +1905,16 @@ El Dashboard busca mostrar un resumen de todo lo avanzado en el dia. Ademas de m
 
 <b>Recojo</b>
 <p align="justify">
-En esta seccion se gestiona el envio de personal para recoger las ordenes o pueden ser canceladas en caso de que el cliente no estuviera presente en el momento del recojo. Además, se pueden agregar nuevo personal de recojo.
+En esta sección se gestiona el envío de personal para recoger las órdenes o pueden ser canceladas en caso de que el cliente no estuviera presente en el momento del recojo. Además, se pueden agregar nuevo personal de recojo.
 </p>
 
 <div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Wireframe_Lavanderia_Recojo.png" width="700px" alt="Wireframe_Recojo">
 </div>
 
-<b>Recepcion</b>
+<b>Recepción</b>
 <p align="justify">
-La seccion de recepcion se encarga de registrar las prendas que lleguen tanto por las personas que vienen presencialmente a dejar sus prendas como por las personas que solicitan recojo. Ademas, en esta seccion el personal se encarga de revisar las prendas por si tienen algunos detalles, como ejemplo seria una camisa sin un boton o un cierre defectuoso.
+La sección de recepción se encarga de registrar las prendas que lleguen tanto por las personas que vienen presencialmente a dejar sus prendas como por las personas que solicitan recojo. Además, en esta sección el personal se encarga de revisar las prendas por si tienen algunos detalles, como ejemplo sería una camisa sin un botón o un cierre defectuoso.
 </p>
 
 <div align="center">
@@ -1923,7 +1923,7 @@ La seccion de recepcion se encarga de registrar las prendas que lleguen tanto po
 
 <b>Lavado</b>
 <p align="justify">
-La sección de lavado se encarga de hacer un seguimiento a las prendas para que esa informacion sea enviada a los clientes, para que ellos puedan hacer seguimiento de sus prendas.
+La sección de lavado se encarga de hacer un seguimiento a las prendas para que esa información sea enviada a los clientes, para que ellos puedan hacer seguimiento de sus prendas.
 </p>
 
 <div align="center">
@@ -1932,7 +1932,7 @@ La sección de lavado se encarga de hacer un seguimiento a las prendas para que 
 
 <b>Entrega</b>
 <p align="justify">
-La seccion de entrega se encarga de gestionar el envio de personal para devolver las prendas a los clientes
+La sección de entrega se encarga de gestionar el envío de personal para devolver las prendas a los clientes
 </p>
 
 <div align="center">
@@ -1941,7 +1941,7 @@ La seccion de entrega se encarga de gestionar el envio de personal para devolver
 
 <b>Historial</b>
 <p align="justify">
-El wireframe del historial mantiene todas las ordenes que los clientes han hecho a lo largo del tiempo. Ademas de un buscador tambien se puede descargar la informacion por si resulta necesaria.
+El wireframe del historial mantiene todas las órdenes que los clientes han hecho a lo largo del tiempo. Además de un buscador también se puede descargar la información por si resulta necesaria.
 </p>
 
 <div align="center">
@@ -1952,7 +1952,7 @@ El wireframe del historial mantiene todas las ordenes que los clientes han hecho
 
 <b>Dashboard</b>
 <p align="justify">
-El Dashboard para los clientes muestra las proximas entregas y las ordenes recientes que hayan hecho
+El Dashboard para los clientes muestra las próximas entregas y las órdenes recientes que hayan hecho
 </p>
 
 <div align="center">
@@ -1961,7 +1961,7 @@ El Dashboard para los clientes muestra las proximas entregas y las ordenes recie
 
 <b>Recojo</b>
 <p align="justify">
-En la seccion recojo se hacen las ordenes para el recojo de las prendas y hacer el pago.
+En la sección recojo se hacen las órdenes para el recojo de las prendas y hacer el pago.
 </p>
 
 <div align="center">
@@ -1970,7 +1970,7 @@ En la seccion recojo se hacen las ordenes para el recojo de las prendas y hacer 
 
 <b>Seguimiento</b>
 <p align="justify">
-En la seccion de seguimiento se puede visualizar como va el pedido, cada pedido es un desplegable en donde se puede visualizar los detalles del pedido e informacion del delivery en caso de pedirlo. Ademas, luego de recibir el pedido se puede confirmar que llegaron las prendas, en caso de que no pongan confirmar se hara automaticamente luego de un dia.
+En la sección de seguimiento se puede visualizar como va el pedido, cada pedido es un desplegable en donde se puede visualizar los detalles del pedido e información del delivery en caso de pedirlo. Además, luego de recibir el pedido se puede confirmar que llegaron las prendas, en caso de que no pongan confirmar se hará automáticamente luego de un día.
 </p>
 
 <div align="center">
@@ -1980,7 +1980,7 @@ En la seccion de seguimiento se puede visualizar como va el pedido, cada pedido 
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
-Esta sección presenta los wireflows de WashTrack, diseñada para propietarios de lavanderías independientes, y de la app cliente. Se usaran los wireframes para detallar como el usuario puede llegar a su User Goal.
+Esta sección presenta los wireflows de WashTrack, diseñada para propietarios de lavanderías independientes, y de la app cliente. Se usarán los wireframes para detallar como el usuario puede llegar a su User Goal.
 
 ### Registrar un nuevo pedido
 
@@ -1994,7 +1994,7 @@ Esta sección presenta los wireflows de WashTrack, diseñada para propietarios d
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la seccion de Pedido, hace clic en "+ Nuevo pedido", luego se muestra un pop up en donde se le pide llenar datos del cliente y agregar las prendas que el cliente quiere lavar. Ademas, se permite hacer comentarios a las prendas y revisar el pesaje correcto. Finalmente, se guarda el pedido.
+Happy path: El usuario ingresa a la sección de Pedido, hace clic en "+ Nuevo pedido", luego se muestra un pop up en donde se le pide llenar datos del cliente y agregar las prendas que el cliente quiere lavar. Además, se permite hacer comentarios a las prendas y revisar el pesaje correcto. Finalmente, se guarda el pedido.
 
 **Unhappy paths:**
 
@@ -2004,7 +2004,7 @@ Happy path: El usuario ingresa a la seccion de Pedido, hace clic en "+ Nuevo ped
 
 ### Revisar un pedido
 
-**User Goal:** Cuando llegan las prendas de un cliente que solicito recojo, entonces el encargado debe hacer una revision para evaluar el pesaje y comentar el estado de las prendas del usuario. Ademas esto puede afectar al precio final.
+**User Goal:** Cuando llegan las prendas de un cliente que solicitó recojo, entonces el encargado debe hacer una revisión para evaluar el pesaje y comentar el estado de las prendas del usuario. Además esto puede afectar al precio final.
 
 **User Persona:** Pedro Fernández, Propietario de Lavandería.
 
@@ -2014,7 +2014,7 @@ Happy path: El usuario ingresa a la seccion de Pedido, hace clic en "+ Nuevo ped
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la seccion de Pedido, hace clic en el boton "Revisar" del pedido que necesite revision, entonces mira las prendas que registro el cliente y el pesaje que hizo a las prendas comunes. Revisa si esta todo conforme y anota algunos comentarios sobre las prendas. Finalmente, guarda y confirma la revision.
+Happy path: El usuario ingresa a la sección de Pedido, hace clic en el botón "Revisar" del pedido que necesite revisión, entonces mira las prendas que registró el cliente y el pesaje que hizo a las prendas comunes. Revisa si está todo conforme y anota algunos comentarios sobre las prendas. Finalmente, guarda y confirma la revisión.
 
 **Unhappy paths:**
 
@@ -2035,7 +2035,7 @@ Happy path: El usuario ingresa a la seccion de Pedido, hace clic en el boton "Re
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de check. Luego se abre un pop-up que permite escoger que conductor ira a hacer el recojo. Finalmente, se confirma el envio del conductor.
+Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de check. Luego se abre un pop-up que permite escoger que conductor irá a hacer el recojo. Finalmente, se confirma el envío del conductor.
 
 **Unhappy paths:**
 
@@ -2054,7 +2054,7 @@ Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de check. Luego se abre un pop-up que permite escoger que conductor ira a hacer el recojo. Finalmente, se confirma el envio del conductor.
+Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de check. Luego se abre un pop-up que permite escoger que conductor irá a hacer el recojo. Finalmente, se confirma el envío del conductor.
 
 **Unhappy paths:**
 
@@ -2064,7 +2064,7 @@ Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de
 
 ### Reajuste de precio
 
-**User Goal:** Cuando llega una notificacion de reajuste de precio, entonces el cliente debe revisar el cambio de precio y aceptarlo o rechazarlo
+**User Goal:** Cuando llega una notificación de reajuste de precio, entonces el cliente debe revisar el cambio de precio y aceptarlo o rechazarlo
 
 **User Persona:** Valeria Torres, Cliente de Lavandería.
 
@@ -2074,7 +2074,7 @@ Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de exclamacion. Luego, verifica el cambio de precio y la justificacion. Finalmente acepta o rechaza el reajuste.
+Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de exclamación. Luego, verifica el cambio de precio y la justificación. Finalmente acepta o rechaza el reajuste.
 
 **Unhappy paths:**
 
@@ -2084,71 +2084,119 @@ Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de
 #### 4.4.3. Web Applications Mock-ups
 
 <p align="justify">
-En esta seccion se muestrar los mockups de nuestra aplicacion web
+En esta sección se muestran los mockups de nuestra aplicación web
 </p>
 
 <b>Mockups del login</b>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Login/Mockup_Login.png" width="700px" alt="Mockup_login">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Login/Mockup_Registrar.png" width="700px" alt="Mockup_registrar">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Login/Mockup_Recuperar.png" width="700px" alt="Mockup_Recuperar">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Login/Mockup_CambioContra.png" width="700px" alt="Mockup_CambioContra">
+</div>
 
+<b>Mockups de propietarios de lavanderías</b>
 
-<b>Mockups de propietarios de lavanderias</b>
-
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Dashboard.png" width="700px" alt="Mockup_Lavanderia_Dashboard">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Pedidos.png" width="700px" alt="Mockup_Lavanderia_Pedidos">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Pedidos_Detalles.png" width="700px" alt="Mockup_Lavanderia_Pedidos_Detalles">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Recojo.png" width="700px" alt="Mockup_Lavanderia_Recojo">
+</div>
 
-<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Recojo_EnviarConductor.png.png" width="700px" alt="Mockup_Lavanderia_Recojo">
+<div align="center">
+<img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Recojo_EnviarConductor.png" width="700px" alt="Mockup_Lavanderia_Recojo">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Recepcion.png" width="700px" alt="Mockup_Lavanderia_Recepcion">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Recepcion_NuevoRegistro.png" width="700px" alt="Mockup_Lavanderia_Recepcion_NuevoRegistro">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Recepcion_Revision.png" width="700px" alt="Mockup_Lavanderia_Recepcion_Revision">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Lavanderia.png" width="700px" alt="Mockup_Lavanderia_Lavanderia">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Entrega.png" width="700px" alt="Mockup_Lavanderia_Entrega">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Servicios.png" width="700px" alt="Mockup_Lavanderia_Servicios">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Servicios_Agregar.png" width="700px" alt="Mockup_Lavanderia_Servicios_Agregar">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Conductores.png" width="700px" alt="Mockup_Lavanderia_Conductores">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Lavanderia/Mockup_Lavanderia_Conductores_Agregar.png" width="700px" alt="Mockup_Lavanderia_Conductores_Agregar">
-
+</div>
 
 <b>Mockups de clientes</b>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Dashboard.png" width="700px" alt="Mockup_Cliente_Dashboard">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Pedidos.png" width="700px" alt="Mockup_Cliente_Pedidos">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Pedidos_Reajuste.png" width="700px" alt="Mockup_Cliente_Pedidos_Reajuste">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Pedidos_Reajuste_Detalles.png" width="700px" alt="Mockup_Cliente_Pedidos_Reajuste_Detalles">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Pedidos_Reajuste_Pago.png" width="700px" alt="Mockup_Cliente_Pedidos_Reajuste_Pago">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Recojo.png" width="700px" alt="Mockup_Cliente_Recojo">
+</div>
 
+<div align="center">
 <img src="./assets/Chapter4/WebAplication/Clientes/Mockup_Cliente_Recojo_Confirmar.png" width="700px" alt="Mockup_Cliente_Recojo_Confirmar">
+</div>
 
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
-Esta sección presenta el user flow de WashTrack, diseñada para propietarios de lavanderías independientes, y de la app cliente. Se usaran los mockups para detallar como el usuario llega a su User Goal.
+Esta sección presenta el user flow de WashTrack, diseñada para propietarios de lavanderías independientes, y de la app cliente. Se usarán los mockups para detallar como el usuario llega a su User Goal.
 
 ### Registrar un nuevo pedido
 
@@ -2162,7 +2210,7 @@ Esta sección presenta el user flow de WashTrack, diseñada para propietarios de
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la seccion de Pedido, hace clic en "+ Nuevo pedido", luego se muestra un pop up en donde se le pide llenar datos del cliente y agregar las prendas que el cliente quiere lavar. Ademas, se permite hacer comentarios a las prendas y revisar el pesaje correcto. Finalmente, se guarda el pedido.
+Happy path: El usuario ingresa a la sección de Pedido, hace clic en "+ Nuevo pedido", luego se muestra un pop up en donde se le pide llenar datos del cliente y agregar las prendas que el cliente quiere lavar. Además, se permite hacer comentarios a las prendas y revisar el pesaje correcto. Finalmente, se guarda el pedido.
 
 **Unhappy paths:**
 
@@ -2172,7 +2220,7 @@ Happy path: El usuario ingresa a la seccion de Pedido, hace clic en "+ Nuevo ped
 
 ### Revisar un pedido
 
-**User Goal:** Cuando llegan las prendas de un cliente que solicito recojo, entonces el encargado debe hacer una revision para evaluar el pesaje y comentar el estado de las prendas del usuario. Ademas esto puede afectar al precio final.
+**User Goal:** Cuando llegan las prendas de un cliente que solicitó recojo, entonces el encargado debe hacer una revisión para evaluar el pesaje y comentar el estado de las prendas del usuario. Además esto puede afectar al precio final.
 
 **User Persona:** Pedro Fernández, Propietario de Lavandería.
 
@@ -2182,7 +2230,7 @@ Happy path: El usuario ingresa a la seccion de Pedido, hace clic en "+ Nuevo ped
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la seccion de Pedido, hace clic en el boton "Revisar" del pedido que necesite revision, entonces mira las prendas que registro el cliente y el pesaje que hizo a las prendas comunes. Revisa si esta todo conforme y anota algunos comentarios sobre las prendas. Finalmente, guarda y confirma la revision.
+Happy path: El usuario ingresa a la sección de Pedido, hace clic en el botón "Revisar" del pedido que necesite revisión, entonces mira las prendas que registró el cliente y el pesaje que hizo a las prendas comunes. Revisa si está todo conforme y anota algunos comentarios sobre las prendas. Finalmente, guarda y confirma la revisión.
 
 **Unhappy paths:**
 
@@ -2203,7 +2251,7 @@ Happy path: El usuario ingresa a la seccion de Pedido, hace clic en el boton "Re
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de check. Luego se abre un pop-up que permite escoger que conductor ira a hacer el recojo. Finalmente, se confirma el envio del conductor.
+Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de check. Luego se abre un pop-up que permite escoger que conductor irá a hacer el recojo. Finalmente, se confirma el envío del conductor.
 
 **Unhappy paths:**
 
@@ -2222,7 +2270,7 @@ Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de check. Luego se abre un pop-up que permite escoger que conductor ira a hacer el recojo. Finalmente, se confirma el envio del conductor.
+Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de check. Luego se abre un pop-up que permite escoger que conductor irá a hacer el recojo. Finalmente, se confirma el envío del conductor.
 
 **Unhappy paths:**
 
@@ -2232,7 +2280,7 @@ Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de
 
 ### Reajuste de precio
 
-**User Goal:** Cuando llega una notificacion de reajuste de precio, entonces el cliente debe revisar el cambio de precio y aceptarlo o rechazarlo
+**User Goal:** Cuando llega una notificación de reajuste de precio, entonces el cliente debe revisar el cambio de precio y aceptarlo o rechazarlo
 
 **User Persona:** Valeria Torres, Cliente de Lavandería.
 
@@ -2242,7 +2290,7 @@ Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de exclamacion. Luego, verifica el cambio de precio y la justificacion. Finalmente acepta o rechaza el reajuste.
+Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de exclamación. Luego, verifica el cambio de precio y la justificación. Finalmente acepta o rechaza el reajuste.
 
 **Unhappy paths:**
 
@@ -2250,7 +2298,56 @@ Happy path: El usuario ingresa a la seccion de Pedido y hace clic en el boton de
 
 ### 4.5. Web Applications Prototyping
 
-<img src="./assets/Chapter4/WebAplication/Prototype.PNG" width="700px" alt="Prototype">
+En esta sección se busca presentar el prototipo interactivo de **WashTrack**. Este prototipo simula como un cliente hace un pedido de recojo desde la web y también como las lavanderías manejan los pedidos de los clientes desde los recojos hasta las entregas de sus prendas
+
+### Criterios de diseño
+
+#### Arquitectura enfocada en el usuario
+Se priorizaron las funcionalidades principales:
+
+- Solicitud de recojo de prendas 
+- Seguimiento de los pedidos  
+
+Estos elementos se ubicaron en accesos rápidos para reducir la cantidad de pasos.
+
+
+#### Diseño accesible
+Se consideraron:
+
+- Tipografía clara y legible  
+- Interfaz limpia y ordenada  
+
+---
+
+### Prototipos UI
+
+La versión desktop está orientada a la gestión completa de pedidos:
+
+- **Dashboard principal**  
+  Vista general de pedidos activos y estados 
+
+- **Secciones organizadas**  
+  Información dividida en bloques como pedidos, operaciones y gestión  
+
+---
+
+### Relación con User Flow Diagrams
+
+Los prototipos respetan los flujos definidos, asegurando que:
+
+- Se pueda solicitar un recojo de prendas 
+- El seguimiento de pedidos sea claro 
+- No existan pasos innecesarios
+
+Esto permite completar las tareas principales de manera eficiente dentro de la plataforma.
+
+
+<div align="center">
+  <img src="./assets/Chapter4/PruebaGrabacion.PNG" width="700px" alt="Imagen_grabacion">
+</div>
+
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231b842_upc_edu_pe/IQCUSLCl9yJHSIK53Nd5YnMsAcd5GVMPwwiBTX5mriH9plI?e=WgZW5N&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
 ### 4.6. Domain-Driven Software Architecture
