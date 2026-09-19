@@ -3366,4 +3366,9 @@ Video de entrevistas: [Microsoft Clipchamp](https://upcedupe-my.sharepoint.com/p
 
 URL del repositorio (report): [Repositorio Report](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4/tree/main)
 
+URL del repositorio (landing-page): [Repositorio Landing Page](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
+
+
+
+
 ---
