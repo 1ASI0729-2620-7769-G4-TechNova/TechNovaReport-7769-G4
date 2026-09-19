@@ -3050,9 +3050,50 @@ flowchart LR
 ## Capítulo V: Product Implementation, Validation & Deployment
 
 ### 5.1. Software Configuration Management
-
 #### 5.1.1. Software Development Environment Configuration
+
+### Project Management
+
+- **WhatsApp**: Se uso esta red social para coordinar tareas del equipo, intercambiar ideas y discutir sobre el avance del proyecto.
+- **Google Meet**: Usamos meet para coordinar de manera virtual el avance del proyecto y revisar como progresabamos en el proyecto.
+
+### Requirements Management
+
+- **UXPressia**: Usamos esta herramienta para la elaboración de User Personas, User Journey Maps e Impact Maps.
+- **Zoom**: Relevante para la elaboración de las entrevistas a potenciales usuarios.
+
+### Product UX/UI Design
+
+- **Figma**: En esta plataforma se desarrollo el diseño de la landing page y la aplicacion web mediante el uso de wireframes, wireflows, mockups y prototipos interactivos.
+
+### Software Deployment
+
+- **Github Pages**: Se uso para el despliegue de la Landing Page.
+
+### Software Development
+
+- **Visual Studio Code**: Esta herramienta nos permitio la elaboración del código, mientras visualizacion de la Landing Page.
+- **Google Chrome**: Este navegador nos permitio visualizar como estaba quedando nuestra Landing Page
+
+### Software Documentation
+
+- **GitHub**: Principalmente fue usado para documentar el proyecto y como repositorio para nuestro codigo.
+- **Structurizr**: Esta herramienta se uso para la creación de los diagramas C4.
+- **Trello**: Se uso para la elaboracion del product backlog, permitiendo una mejor visualizacion del avance de las tareas.
+
+
 #### 5.1.2. Source Code Management
+
+Para el mantenimiento del codigo usamos Github, ya que es util como repositorio de nuestros avances. Además, usamos el metodo Gitflow para mantener organizado nuestro proyecto a traves de ramas y gestionar los cambios.
+
+**Main branch:** Es la rama principal en donde se guarda las versiones estables.
+
+**Develop branch:** Es la rama en donde se busca combinar y probar nuevas funcionalidades.
+
+**Feature branches:** Estas ramas estan creadas a partir del develop, su funcion principal de estas ramas es aislar, elaborar y probar una funcionalidad antes de integrarla al develop.
+
+**Conventional Commits:** Son los estandares para escribir los mensajes de los commits, los cuales permiten comprender como ha sido el avance atraves del proyecto.
+
 #### 5.1.3. Source Code Style Guide & Conventions
 
 Para el desarrollo de **WashTrack**, el equipo **TechNova** establece un conjunto de convenciones de nomenclatura, organización y escritura de código con el propósito de mantener una base de código consistente, legible, modular y fácil de mantener durante el ciclo de vida del proyecto.
