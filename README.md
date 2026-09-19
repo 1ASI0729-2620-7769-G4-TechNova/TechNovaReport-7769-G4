@@ -3301,6 +3301,16 @@ De esta manera, **TechNova** mantiene una relación controlada entre el código 
 </div>
 <br>
 
+**Evidencia del deploy: Landing page mobile responsive**
+
+<div align="center">
+  <img src="./assets/Chapter5/landing_page_mobile_deploy_evidence_TechNova.jpeg" width="200px" alt="Landing Page Mobile Responsive">
+  <p>Deployed Landing Page - Mobile</p>
+  <p></p>
+</div>
+
+<br>
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ### 5.3. Validation Interviews
