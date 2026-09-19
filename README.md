@@ -3277,6 +3277,11 @@ De esta manera, **TechNova** mantiene una relación controlada entre el código 
 - **URL del Repositorio de Landing Page:** [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2)
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+<p align="justigy">
+  Durante el Sprint 1, se llevaron a cabo las actividades de configuración y despliegue del producto correspondiente a la Landing Page del proyecto. Se seleccionó la plataforma de infraestructura en la nube de GitHub Pages por su integración nativa con el control de versiones y su soporte para entornos de producción con certificados HTTPS automáticos.
+</p>
+<br>
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ### 5.3. Validation Interviews
