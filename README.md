@@ -3274,7 +3274,7 @@ De esta manera, **TechNova** mantiene una relación controlada entre el código 
 |---|---|---|---|
 | `index.html#contactForm` | **POST (Mock)** | `nombre`, `correo`, `tipo`, `intereses`, `mensaje` | **202 Accepted:** Confirmación visual de envío mediante mensaje de éxito y reinicio automático de los campos del formulario (`reset`). |
 
-- **URL del Repositorio de Landing Page:** [https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2](https://github.com/1ASI0730-2620-16129-G2-DevTech/DevTech-LandingPage-16129-G2)
+- **URL del Repositorio de Landing Page:** [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 <p align="justigy">
@@ -3310,6 +3310,8 @@ De esta manera, **TechNova** mantiene una relación controlada entre el código 
 </div>
 
 <br>
+
+- **Url del despliegue de la landing page:** [https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/) 
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
