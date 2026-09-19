@@ -3362,5 +3362,8 @@ Como parte de los siguientes pasos en el **Roadmap** de los productos digitales 
 
 # Anexos
 
+Video de entrevistas: [Microsoft Clipchamp](https://upcedupe-my.sharepoint.com/personal/u202018427_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202018427%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0729%2D7769%2DTechNova%2DWashTrack%2Dnavigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef8bacf7f%2D365b%2D4a77%2D97e7%2D58de38fddd49&isDarkMode=true&mode=View)
+
+
 
 ---
