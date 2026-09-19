@@ -49,8 +49,8 @@
         <td style="border: none; padding: 0 0 4px 0; text-align: center;">Ramos Fuentes Rivera, Adriana Nicole</td>
     </tr>
     <tr>
-        <td style="border: none; padding: 0 18px 0 0; text-align: center;"></td>
-        <td style="border: none; padding: 0; text-align: center;"></td>
+        <td style="border: none; padding: 0 18px 0 0; text-align: center;">u202019409</td>
+        <td style="border: none; padding: 0; text-align: center;">Linares Bernable, Cesar Alejandro</td>
     </tr>
 </table>
 
@@ -61,23 +61,51 @@
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## Registro de Versiones
 
-| Versión | Fecha      | Autor                         | Descripcion                                              |
-| :--- |:-----------|:------------------------------|:---------------------------------------------------------|
-| 1.0.0 | 06/09/2026 | Jude Hermoza | Insercion del documento base. |
-| 1.1.0 | 06/09/2026 | Perez Vasquez Ariana Valeria | Student Outcome, Avance Capítulo 1, y NeedFinding, User Personas y User Task Matrix parte del Capítulo 4, como Landing Page.
+| Versión | Fecha | Autor | Descripción de modificación |
+|---|---|---|---|
+| **AV1** | 05/09/2026 | Hermoza Quispe, Jude<br><br>Mantilla Maldonado, Enrique Manuel<br><br>Perez Vasquez Ariana Valeria<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Linares Bernable, Cesar Alejandro | **Capítulo I: Introducción**<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br><br>**Capítulo III: Requirements Specification**<br><br>**Capítulo IV: Product Design**<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management<br>5.1.1. Software Development Environment Configuration<br>5.1.2. Source Code Management<br>5.1.3. Source Code Style Guide & Conventions<br>5.1.4. Software Deployment Configuration<br>5.2. Landing Page, Services & Applications Implementation<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1<br>5.2.1.2. Aspect Leaders and Collaborators<br>5.2.1.3. Sprint Backlog 1<br>5.2.1.4. Development Evidence for Sprint Review<br>5.2.1.5. Execution Evidence for Sprint Review<br>5.2.1.6. Services Documentation Evidence for Sprint Review<br>5.2.1.7. Software Deployment Evidence for Sprint Review<br>5.2.1.8. Team Collaboration Insights during Sprint |
+
+
+
+<div style="page-break-after: always;"></div>
+
 ---
 
 ## Project Report Collaboration Insights
 
-// Enlaces  de repositorios
+URL del repositorio (report): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4)
 
-*Reporte de colaboración de la entrega del TP:*
+URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
-// Falta Imagen 
+<br>
+
+**Reporte de colaboración de la entrega del TP**
+
+**AV1**
+<p align="justify">
+  Durante la primera entrega, el equipo desarrolló de manera coordinada los fundamentos estratégicos, funcionales y técnicos del proyecto, distribuyendo el trabajo de acuerdo con las especialidades de cada integrante. A lo largo de los capítulos se consolidó progresivamente la propuesta de solución, partiendo de la definición de la startup y sus segmentos objetivo, y profundizando en la comprensión de las necesidades de los usuarios y del dominio del negocio.
+</p>
+
+<p align="justify">
+  Este proceso permitió transformar los hallazgos obtenidos en las entrevistas y el análisis de usuarios en requerimientos, historias de usuario y un Product Backlog priorizado. Posteriormente, estos elementos sirvieron como base para definir la experiencia de usuario, la arquitectura de información y la arquitectura de software, integrando herramientas como Lean UX, EventStorming y Domain-Driven Design. Finalmente, se establecieron las bases técnicas para el desarrollo mediante convenciones de código, GitFlow y lineamientos de despliegue, dejando estructurado el proyecto para las siguientes etapas de desarrollo.
+</p>
+<br>
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+**AV1**
+
+<p align="justify">
+  Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -177,6 +205,8 @@
 - [Anexos](#anexos)
 
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 # Student Outcome
@@ -235,12 +265,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
       </td>
       <td>
-        Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
-        Nam ornare massa eu lobortis porttitor.<br>
-        Nam ut erat feugiat libero pretium semper at ac metus.<br>
-        Sed at eros dapibus, fermentum quam ut, bibendum lacus.<br>
-        Curabitur eget orci eget urna varius commodo.<br>
-        ...
+        <b>AV1</b><br>Durante esta primera entrega, el equipo demostró capacidad de comunicación oral efectiva al realizar y registrar las entrevistas (Needfinding) y al presentar el progreso del Sprint 1. En el proceso de entrevistas, como equipo, se interactuó directamente con los segmentos objetivo ajustando el lenguaje técnico hacia un tono accesible y empático para explorar sus necesidades, dolores y expectativas. Por otro lado, durante las consultas del trabajo desarrollado en clase al docente, se nos permitió comunicar de forma clara las decisiones de diseño, la arquitectura Domain-Driven Design (DDD) y los avances del Sprint 1, demostrando adaptabilidad en la transmisión de conceptos de software tanto a audiencias técnicas como a usuarios finales.<br>
       </td>
     </tr>
     <tr>
@@ -278,15 +303,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
       </td>
       <td>
-        Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>
-        Vivamus commodo libero eget venenatis imperdiet.<br>
-        Etiam imperdiet quam condimentum velit tempor porttitor.<br>
-        Suspendisse blandit nisl quis mauris vehicula faucibus.<br>
-        ...
+        <b>AV1</b><br>En la primera entrega, la comunicación escrita efectiva se evidencia en la elaboración estructurada de la documentación técnica del proyecto, abarcando desde la definición estratégica de la startup hasta la especificación técnica y de diseño. El equipo de TechNova logró transmitir de manera clara la propuesta de valor a través del Lean UX Canvas, Landing Page y User Personas. Por otro lado, el equipo, redactó el informe con un nivel de rigor y precisión técnico adecuado los artefactos de desarrollo destinados al equipo técnico, tales como los criterios de aceptación en User Stories, el Ubiquitous Language, las guías de estilo UX/UI y los diagramas C4 y de Base de Datos. <br>
       </td>
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -447,7 +470,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 **1.2.1.1. What**
 <p align="justify">
-    Nuestra propuesta de solución, Easy Wash, se propone resolver las siguientes 3 problemáticas recurrentes en la vida personal, específicamente, cuando se desempeña el trabajo doméstico:
+    Nuestra propuesta de solución, WashTrack, se propone resolver las siguientes 3 problemáticas recurrentes en la vida personal, específicamente, cuando se desempeña el trabajo doméstico:
     <ul>
         <li>Uno de los principales problemas a los que se enfrentan las personas independientes que consumen el servicio de lavandería es la limitada disponibilidad de tiempo para realizar tareas domésticas, ya que resulta difícil equilibrar la vida laboral con las responsabilidades domésticas y las actividades personales. Según la Encuesta Nacional de Uso del Tiempo (ENUT) correspondiente al año 2024 realizada por el INEI, la población peruana dedica una cantidad significativa de tiempo al trabajo doméstico no remunerado, donde en un día de semana, las mujeres destinan en promedio 3 horas y 35 minutos y los hombres 1 hora y 37 minutos a estas actividades, además, dentro ellas se encuentra la limpieza y cuidado de la ropa, que demanda en promedio 1 hora y 22 minutos diarios para las mujeres y 58 minutos para los hombres. Por consiguiente, destinar este tiempo diario a las actividades de limpieza y cuidado de la ropa, reduce el tiempo disponible para otras actividades personales, como el descanso, ejercicio, etc. por lo que resulta ideal contratar un servicio externo que realice estas actividades.</li><br>
         <li>El segundo problema es la falta de recursos para el lavado de ropa dentro de los hogares. Según el informe técnico de Condiciones de Vida en el Perú con los resultados de la Encuesta Nacional de Hogares (ENAHO) correspondiente al primer trimestre del año 2026, indica que el 90,5% de los hogares tiene cocina a gas, 57,0% cuenta con refrigeradora/congeladora, 36,4% cuenta con computadora/laptop y 32,2% tiene lavadora de ropa. Asimismo, al comparar los resultados de los primeros trimestres de los años 2023, 2024 y 2025, se observa que la proporción de hogares que cuenta con una lavadora se ha mantenido relativamente estable, pasando de 33,2 % en 2023 a 34,2 % en 2024 y disminuyendo a 32,0 % en 2025, para posteriormente alcanzar el 32,2 % en 2026. Esto evidencia que una cantidad significativa de hogares peruanos no cuentan con una lavadora de ropa, en consecuencia, representa una gran limitación para realizar esta actividad de manera eficiente dentro del hogar.</li><br>
@@ -3403,5 +3426,14 @@ Como parte de los siguientes pasos en el **Roadmap** de los productos digitales 
 
 # Anexos
 
+Video de entrevistas: [Microsoft Clipchamp](https://upcedupe-my.sharepoint.com/personal/u202018427_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202018427%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0729%2D7769%2DTechNova%2DWashTrack%2Dnavigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef8bacf7f%2D365b%2D4a77%2D97e7%2D58de38fddd49&isDarkMode=true&mode=View)
+
+URL del repositorio (report): [Repositorio Report](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4/tree/main)
+
+URL del repositorio (landing-page): [Repositorio Landing Page](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
+
+URL de landing page (GithubPage): [Landing Page](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
+
+URL de exposición (AV1): [Exposición AV1]()
 
 ---
