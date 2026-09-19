@@ -2890,6 +2890,17 @@ flowchart LR
 
 
 #### 5.1.2. Source Code Management
+
+Para el mantenimiento del codigo usamos Github, ya que es util como repositorio de nuestros avances. Además, usamos el metodo Gitflow para mantener organizado nuestro proyecto a traves de ramas y gestionar los cambios.
+
+**Main branch:** Es la rama principal en donde se guarda las versiones estables.
+
+**Develop branch:** Es la rama en donde se busca combinar y probar nuevas funcionalidades.
+
+**Feature branches:** Estas ramas estan creadas a partir del develop, su funcion principal de estas ramas es aislar, elaborar y probar una funcionalidad antes de integrarla al develop.
+
+**Conventional Commits:** Son los estandares para escribir los mensajes de los commits, los cuales permiten comprender como ha sido el avance atraves del proyecto.
+
 #### 5.1.3. Source Code Style Guide & Conventions
 
 Para el desarrollo de **WashTrack**, el equipo **TechNova** establece un conjunto de convenciones de nomenclatura, organización y escritura de código con el propósito de mantener una base de código consistente, legible, modular y fácil de mantener durante el ciclo de vida del proyecto.
