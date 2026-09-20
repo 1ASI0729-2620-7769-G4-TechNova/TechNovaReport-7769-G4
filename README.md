@@ -1543,6 +1543,190 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
       <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
     </tr>
   </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-013</td>
+      <td style="border: 1px solid black; padding: 8px;">Contactar al equipo desde la Landing Page</td>
+      <td style="border: 1px solid black; padding: 8px;">Como visitante interesado en WashTrack, quiero enviar mis datos y mi consulta desde el formulario de la Landing Page, para que el equipo pueda comunicarse conmigo y explicarme el servicio.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Envío exitoso del formulario</b><br>
+        <b>Dado</b> que el visitante se encuentra en la sección de contacto de la Landing Page<br>
+        <b>Cuando</b> completa su nombre, correo electrónico, tipo de usuario, intereses y mensaje, y selecciona la opción de enviar<br>
+        <b>Entonces</b> el sistema muestra un mensaje de confirmación y limpia los campos del formulario.<br><br>
+        <b>Escenario 2: Campos obligatorios incompletos</b><br>
+        <b>Dado</b> que el visitante se encuentra en el formulario de contacto<br>
+        <b>Cuando</b> intenta enviarlo sin completar alguno de los campos obligatorios<br>
+        <b>Entonces</b> el sistema impide el envío e indica qué campos faltan por completar.<br><br>
+        <b>Escenario 3: Correo electrónico con formato inválido</b><br>
+        <b>Dado</b> que el visitante ingresa un correo electrónico con formato incorrecto<br>
+        <b>Cuando</b> intenta enviar el formulario<br>
+        <b>Entonces</b> el sistema señala el campo de correo y no realiza el envío.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-013: Landing Page y Marketing</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-014</td>
+      <td style="border: 1px solid black; padding: 8px;">Cambiar el idioma de la Landing Page</td>
+      <td style="border: 1px solid black; padding: 8px;">Como visitante que no domina el español, quiero cambiar el idioma de la Landing Page entre español e inglés, para comprender la propuesta de valor de WashTrack en el idioma que manejo.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Cambio de español a inglés</b><br>
+        <b>Dado</b> que el visitante visualiza la Landing Page en español<br>
+        <b>Cuando</b> selecciona la opción EN en el selector de idioma de la barra de navegación<br>
+        <b>Entonces</b> el sistema reemplaza los textos de la interfaz por su versión en inglés sin recargar la página.<br><br>
+        <b>Escenario 2: Regreso al idioma español</b><br>
+        <b>Dado</b> que el visitante visualiza la Landing Page en inglés<br>
+        <b>Cuando</b> selecciona la opción ES en el selector de idioma<br>
+        <b>Entonces</b> el sistema restituye los textos en español y mantiene la posición de lectura del visitante.<br><br>
+        <b>Escenario 3: Consistencia del idioma seleccionado</b><br>
+        <b>Dado</b> que el visitante ha seleccionado un idioma<br>
+        <b>Cuando</b> navega hacia otra sección de la Landing Page<br>
+        <b>Entonces</b> el contenido se mantiene en el idioma elegido.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-013: Landing Page y Marketing</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-015</td>
+      <td style="border: 1px solid black; padding: 8px;">Acceder a la experiencia correspondiente a mi segmento</td>
+      <td style="border: 1px solid black; padding: 8px;">Como visitante de la Landing Page, quiero identificar rápidamente si WashTrack está dirigido a mi perfil como dueño de lavandería o como cliente final, para acceder a la información y al acceso que corresponde a mi caso.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Visitante dueño de lavandería</b><br>
+        <b>Dado</b> que el visitante se encuentra en la sección "Para quién" de la Landing Page<br>
+        <b>Cuando</b> selecciona el acceso correspondiente a dueños de lavandería<br>
+        <b>Entonces</b> el sistema lo dirige al flujo de registro orientado a negocios de lavandería.<br><br>
+        <b>Escenario 2: Visitante cliente final</b><br>
+        <b>Dado</b> que el visitante se encuentra en la sección "Para quién" de la Landing Page<br>
+        <b>Cuando</b> selecciona el acceso correspondiente a clientes finales<br>
+        <b>Entonces</b> el sistema lo dirige al flujo de registro orientado a clientes del servicio.<br><br>
+        <b>Escenario 3: Diferenciación visible de ambos segmentos</b><br>
+        <b>Dado</b> que el visitante recorre la Landing Page<br>
+        <b>Cuando</b> llega a la sección de segmentos<br>
+        <b>Entonces</b> visualiza ambos perfiles con su propio mensaje y su propio llamado a la acción.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-013: Landing Page y Marketing</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-016</td>
+      <td style="border: 1px solid black; padding: 8px;">Recuperar el acceso a mi cuenta</td>
+      <td style="border: 1px solid black; padding: 8px;">Como usuario registrado que olvidó su contraseña, quiero solicitar su restablecimiento desde la pantalla de inicio de sesión, para recuperar el acceso a mi cuenta sin necesidad de crear una nueva.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Solicitud de restablecimiento</b><br>
+        <b>Dado</b> que el usuario se encuentra en la pantalla de inicio de sesión<br>
+        <b>Cuando</b> selecciona la opción de recuperar contraseña e ingresa el correo asociado a su cuenta<br>
+        <b>Entonces</b> el sistema envía un enlace de restablecimiento e informa que el correo fue enviado.<br><br>
+        <b>Escenario 2: Definición de la nueva contraseña</b><br>
+        <b>Dado</b> que el usuario accede al enlace de restablecimiento vigente<br>
+        <b>Cuando</b> ingresa una nueva contraseña y su confirmación de forma coincidente<br>
+        <b>Entonces</b> el sistema actualiza la credencial y le permite iniciar sesión con la nueva contraseña.<br><br>
+        <b>Escenario 3: Enlace expirado</b><br>
+        <b>Dado</b> que el usuario accede a un enlace de restablecimiento vencido<br>
+        <b>Cuando</b> intenta registrar una nueva contraseña<br>
+        <b>Entonces</b> el sistema rechaza la operación e indica que debe solicitar el restablecimiento nuevamente.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-014: Autenticación y gestión de usuarios</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-017</td>
+      <td style="border: 1px solid black; padding: 8px;">Pagar el servicio de lavandería en línea</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente con un pedido confirmado, quiero pagar el servicio desde la plataforma, para completar la solicitud sin tener que realizar el pago de forma presencial.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Pago aprobado</b><br>
+        <b>Dado</b> que el cliente visualiza el detalle y el monto total de su pedido<br>
+        <b>Cuando</b> selecciona un método de pago e ingresa los datos requeridos<br>
+        <b>Entonces</b> el sistema registra el pago, marca el pedido como pagado y muestra el comprobante de la operación.<br><br>
+        <b>Escenario 2: Pago rechazado</b><br>
+        <b>Dado</b> que el cliente confirma el pago de su pedido<br>
+        <b>Cuando</b> la pasarela de pagos rechaza la transacción<br>
+        <b>Entonces</b> el sistema mantiene el pedido como pendiente de pago e informa el motivo del rechazo.<br><br>
+        <b>Escenario 3: Reajuste del monto tras la revisión de prendas</b><br>
+        <b>Dado</b> que la lavandería modificó el detalle del pedido durante la recepción de prendas<br>
+        <b>Cuando</b> el cliente ingresa a pagar<br>
+        <b>Entonces</b> el sistema muestra el monto actualizado junto con el detalle del reajuste antes de solicitar la confirmación.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">TS-006</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar pagos mediante el endpoint /payments</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero exponer un endpoint RESTful para registrar y consultar los pagos de los pedidos, para que la plataforma mantenga el estado de cobranza sincronizado con la pasarela de pagos.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Registro exitoso de un pago</b><br>
+        <b>Dado</b> que se recibe una petición POST a /payments con un identificador de pedido y un monto válidos<br>
+        <b>Cuando</b> el servidor valida los datos y confirma la transacción<br>
+        <b>Entonces</b> registra el pago, actualiza el estado del pedido y retorna el código HTTP 201 con el recurso creado.<br><br>
+        <b>Escenario 2: Consulta de los pagos de un pedido</b><br>
+        <b>Dado</b> que se recibe una petición GET a /payments filtrada por un identificador de pedido existente<br>
+        <b>Cuando</b> el servidor procesa la consulta<br>
+        <b>Entonces</b> retorna el código HTTP 200 junto con la lista de pagos asociados a ese pedido.<br><br>
+        <b>Escenario 3: Monto inválido</b><br>
+        <b>Dado</b> que se recibe una petición con un monto negativo o ausente<br>
+        <b>Cuando</b> el servidor valida la solicitud<br>
+        <b>Entonces</b> rechaza el registro y retorna el código HTTP 400 detallando el campo incorrecto.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">TS-007</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar notificaciones mediante el endpoint /notifications</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero exponer un endpoint RESTful para generar y consultar las notificaciones de los usuarios, para que los cambios de estado de un pedido se comuniquen de forma automática.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Generación de una notificación</b><br>
+        <b>Dado</b> que se recibe una petición POST a /notifications con un destinatario y un tipo de evento válidos<br>
+        <b>Cuando</b> el servidor valida los datos recibidos<br>
+        <b>Entonces</b> registra la notificación, la encola para su envío y retorna el código HTTP 201.<br><br>
+        <b>Escenario 2: Consulta de notificaciones de un usuario</b><br>
+        <b>Dado</b> que se recibe una petición GET a /notifications de un usuario autenticado<br>
+        <b>Cuando</b> el servidor procesa la consulta<br>
+        <b>Entonces</b> retorna el código HTTP 200 con las notificaciones del usuario ordenadas de la más reciente a la más antigua.<br><br>
+        <b>Escenario 3: Destinatario inexistente</b><br>
+        <b>Dado</b> que se recibe una petición dirigida a un usuario que no existe<br>
+        <b>Cuando</b> el servidor busca al destinatario<br>
+        <b>Entonces</b> no genera la notificación y retorna el código HTTP 404.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">TS-008</td>
+      <td style="border: 1px solid black; padding: 8px;">Gestionar recojos y entregas mediante el endpoint /deliveries</td>
+      <td style="border: 1px solid black; padding: 8px;">Como developer, quiero exponer un endpoint RESTful para programar y actualizar los recojos y entregas a domicilio, para que la operación logística quede registrada y asociada a cada pedido.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Programación de un recojo</b><br>
+        <b>Dado</b> que se recibe una petición POST a /deliveries con un pedido, una dirección y una franja horaria válidos<br>
+        <b>Cuando</b> el servidor valida la disponibilidad<br>
+        <b>Entonces</b> registra el recojo, lo asocia al pedido y retorna el código HTTP 201.<br><br>
+        <b>Escenario 2: Asignación de un repartidor</b><br>
+        <b>Dado</b> que se recibe una petición PATCH a /deliveries con el identificador de un repartidor disponible<br>
+        <b>Cuando</b> el servidor valida los datos<br>
+        <b>Entonces</b> asigna el repartidor, actualiza el estado de la entrega y retorna el código HTTP 200.<br><br>
+        <b>Escenario 3: Franja horaria no disponible</b><br>
+        <b>Dado</b> que se solicita una franja horaria sin capacidad operativa<br>
+        <b>Cuando</b> el servidor valida la disponibilidad<br>
+        <b>Entonces</b> rechaza la programación y retorna el código HTTP 409 indicando el conflicto.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
 </table>
 
 ### 3.2. Impact Mapping
