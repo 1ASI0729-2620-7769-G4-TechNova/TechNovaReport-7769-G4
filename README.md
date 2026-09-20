@@ -235,9 +235,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>Pérez Vásquez, Ariana Valeria</b><br>
         <em><b>AV1</b></em><br>
-        Sustentación oral del Avance Capítulo 1 y los resultados iniciales de la investigación de usuarios (NeedFinding y definición de User Personas), argumentando la problemática encontrada ante el profesor y evaluadores de manera clara.<br>
-        <em><b>AV2</b></em><br>
-        Sustentación y demostración síncrona de la User Task Matrix y las funcionalidades de la Landing Page desarrollada, explicando la propuesta de valor y el flujo de interacción inicial del usuario ante la audiencia.<br>
+        En la primera entrega del proyecto, las actividades relacionadas con el diseño de la Landing Page, la definición de las Style Guidelines y la elaboración de wireframes y mockups evidencian el cumplimiento del criterio de comunicación oral efectiva. Durante el desarrollo de estas actividades, se expusieron y sustentaron verbalmente las decisiones de diseño relacionadas con la estructura, navegación, identidad visual, tipografía, colores y distribución de los elementos de la interfaz, explicando su relación con las necesidades de los usuarios y los objetivos de WashTrack. Asimismo, la coordinación con los integrantes del equipo permitió argumentar propuestas, recibir retroalimentación y aclarar criterios de diseño y desarrollo, adaptando la explicación según el nivel técnico de los participantes. De igual manera, la sustentación de las convenciones de código y del procedimiento de configuración del despliegue permitió comunicar aspectos técnicos de manera ordenada y comprensible, facilitando la comprensión de las decisiones adoptadas por parte de los distintos integrantes del proyecto.<br>
+        <em><b></b></em><br>
+        <br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
