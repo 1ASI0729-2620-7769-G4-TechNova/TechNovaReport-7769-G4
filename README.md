@@ -3538,15 +3538,22 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 <br>
 
 <div align="center">
+  <img src="./assets/Chapter5/sprint1/insights-pulse.png" width="700px" alt="Insights Pulse del repositorio del informe">
+  <p>Figura 2. Insights – Pulse (12 al 19 de septiembre de 2026): Pull Requests fusionados y actividad de la última semana del Sprint</p>
+  <p></p>
+</div>
+<br>
+
+<div align="center">
   <img src="./assets/Chapter5/sprint1/insights-network.png" width="700px" alt="Network graph del repositorio del informe">
-  <p>Figura 2. Network graph: flujo de ramas <code>feature/</code> y sus integraciones a <code>develop</code></p>
+  <p>Figura 3. Network graph: flujo de ramas <code>feature/</code> y sus integraciones a <code>develop</code></p>
   <p></p>
 </div>
 <br>
 
 <div align="center">
   <img src="./assets/Chapter5/sprint1/commits-history.png" width="700px" alt="Historial de commits de la rama develop">
-  <p>Figura 3. Historial de commits de <code>develop</code> con la autoría de cada integrante</p>
+  <p>Figura 4. Historial de commits de <code>develop</code> con la autoría de cada integrante</p>
   <p></p>
 </div>
 <br>
@@ -3589,21 +3596,28 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 
 <div align="center">
   <img src="./assets/Chapter5/sprint1/landing-contributors.png" width="700px" alt="Insights Contributors del repositorio de la Landing Page">
-  <p>Figura 4. Insights – Contributors: aporte individual sobre la rama <code>main</code></p>
+  <p>Figura 5. Insights – Contributors: aporte individual sobre la rama <code>main</code></p>
+  <p></p>
+</div>
+<br>
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/landing-pulse.png" width="700px" alt="Insights Pulse del repositorio de la Landing Page">
+  <p>Figura 6. Insights – Pulse (12 al 19 de septiembre de 2026): cierre de ajustes finales de la Landing Page</p>
   <p></p>
 </div>
 <br>
 
 <div align="center">
   <img src="./assets/Chapter5/sprint1/landing-network.png" width="700px" alt="Network graph del repositorio de la Landing Page">
-  <p>Figura 5. Network graph: ramas <code>LandingPage1versionG4</code>, <code>feature/LandingPageFinalVersion</code>, <code>develop</code> y <code>main</code></p>
+  <p>Figura 7. Network graph: ramas <code>LandingPage1versionG4</code>, <code>feature/LandingPageFinalVersion</code>, <code>develop</code> y <code>main</code></p>
   <p></p>
 </div>
 <br>
 
 <div align="center">
   <img src="./assets/Chapter5/sprint1/landing-commits-history.png" width="700px" alt="Historial de commits de la Landing Page">
-  <p>Figura 6. Historial de commits de la rama <code>main</code> de la Landing Page</p>
+  <p>Figura 8. Historial de commits de la rama <code>main</code> de la Landing Page</p>
   <p></p>
 </div>
 <br>
