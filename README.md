@@ -388,20 +388,20 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_nombre.png" alt="Foto de" width="500"/>
+      <img src="assets/Chapter1/MemberProfile/FotoJude.jpg" alt="Foto de Jude Hermoza" width="500"/>
     </td>
-    <td><b>Nombre:</b> NOMBRE COMPLETO</td>
+    <td><b>Nombre:</b> Hermoza Quispe, Jude</td>
   </tr>
   <tr>
-    <td><b>Código:</b> PONER TU CODIGO DE U</td>
+    <td><b>Código:</b> u202318220</td>
   </tr>
   <tr>
     <td>
     <div align="Justify">
       <b>Descripción:</b><br/>
-      Breve descripcion 
+      Soy <b>Jude Hermoza Quispe</b>, estudiante de la carrera de Ingeniería de Software en la UPC. Me interesa el <b>análisis y el diseño de software</b>, es decir, entender bien un problema antes de escribir código y dejar la solución documentada de forma que cualquier integrante del equipo pueda continuarla. Me considero una persona <b>ordenada y constante</b>, y procuro que lo que entrego esté verificado y no solo terminado.
       <br/><br/>
-      Dentro del equipo... (que funcion cumples)
+      Dentro del equipo, participo en el <b>análisis del entorno competitivo y en la definición de la arquitectura de software</b> de WashTrack. Elaboré el análisis competitivo del Capítulo II y la arquitectura orientada al dominio del Capítulo IV, y me encargué de la evidencia de Sprint Review del Capítulo V, documentando el desarrollo, la ejecución de la Landing Page desplegada y la colaboración del equipo en GitHub. Busco que el informe refleje con precisión el trabajo real del equipo y que las decisiones técnicas queden justificadas.
       </div>
     </td>
   </tr>
