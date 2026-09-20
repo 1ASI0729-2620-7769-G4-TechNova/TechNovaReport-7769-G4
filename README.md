@@ -889,8 +889,23 @@ Como prioridad, el producto mínimo viable debe concentrarse en la administraci�
 
 
 #### 2.2.2. Registro de entrevistas
-**Primer Segmento: Propietarios de lavanderías independientes**
+**Primer Segmento: Propietarios de lavanderías independientes**<br>
 <u>Entrevista 1:</u>
+
+Entrevistador: Enrique Manuel Mantilla Maldonado
+
+Datos del entrevistado:
+
+- **Nombre:** Isabella
+- **Apellidos:** Orrego
+- **Edad:** 42 años
+- **Distrito:** Bellavista
+- **Timing:** 00:00:15 - 00:04:41
+
+<div align="justify">
+  Isabella, dirige una lavandería independiente, ella se encarga de gestionar los pedidos y el proceso de lavado dentro de su lavandería. Ella se encarga de realizar la recepcion de los pedidos y registrar todo mediante boletas y apuntarlos en excel, donde indica el código del pedido, las prendas, cantidades y la hora estimada de recojo. Ademas, se comunica con el cliente atraves de whatsapp. Sin embargo, entre las principales dificultades se encuentra el problema de registrar prendas incorrectamente u obviar detalles de las prendas. Sobre su negocio menciona que tienen servicio de recojo y que tienen pensado en hacer delivery, pero que por el momento no ofrecen delivery. Ademas, menciona que estaria dispuesta a probar un aplicativo que le ayude con la gestion.
+</div>
+
 
 <br>
 <u>Entrevista 2:</u>
