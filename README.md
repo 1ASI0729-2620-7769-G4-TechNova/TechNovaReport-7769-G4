@@ -273,9 +273,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>Pérez Vásquez, Ariana Valeria</b><br>
         <em><b>AV1</b></em><br>
-       Redacción y documentación formal en formato Markdown del Avance Capítulo 1, detallando la contextualización del proyecto y la consolidación de la investigación de usuarios con las User Personas.<br>
-        <em><b>AV2</b></em><br>
-        Estructuración y redacción escrita de la User Task Matrix y la documentación técnica de la Landing Page, especificando requerimientos, alcances y diseño preliminar en el repositorio.<br>
+       En la primera entrega del proyecto, la elaboración de documentación técnica y de diseño evidencia el cumplimiento del criterio de comunicación escrita efectiva. La definición de las Style Guidelines, junto con la documentación de la Landing Page, los wireframes y mockups, permitió comunicar de manera clara y estructurada las decisiones relacionadas con la identidad visual, tipografía, colores, espaciado, navegación y organización de la interfaz de WashTrack, utilizando un lenguaje accesible para audiencias no técnicas y técnicas. Asimismo, la elaboración de las secciones Source Code Style Guide & Conventions y Software Deployment Configuration permitió documentar de forma precisa las convenciones utilizadas para mantener la consistencia del código y el procedimiento empleado para el despliegue de los productos digitales. La redacción de estas secciones demuestra la capacidad de adaptar la comunicación escrita según el propósito y la audiencia, empleando tanto descripciones comprensibles para los usuarios y miembros del equipo como terminología técnica necesaria para documentar aspectos de ingeniería de software.
+<br>
+        <em><b></b></em><br><br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
