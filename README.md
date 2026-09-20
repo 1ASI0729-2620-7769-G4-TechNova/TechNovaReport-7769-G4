@@ -239,9 +239,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b></b></em><br>
         <br>
         ...<br>
-        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <b>Mantilla Maldonado, Enrique Manuel</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
+        En esta entrega del proyecto, la realizacion de Big Picture EventStorming, las historias de usuario y el diseño de los mockups, wireframes y prototipo, evidencian un correcto cumplimiento de la comunicacion oral efectiva. Para la elaboracion de las mencionadas actividades, se tuvo que discutir cómo se elaborarian dichas tareas, ya que era necesario para preparar el diseño y la estructura de nuestra aplicacion web WashTrack. Por otra parte, para la elaboración de las entrevistas hubo comunicación para diferentes segmentos lo cual indica que cumplimos con la comunicacion a diferentes rangos de audiencia.<br>
         <em><b>AV2</b></em><br>
         Poner avances av2<br>
         ...<br>
@@ -277,9 +277,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <br>
         <em><b></b></em><br><br>
         ...<br>
-        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <b>Mantilla Maldonado, Enrique Manuel</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
+        Para esta entrega, hubo una comunicación por escrito hacia nuestros distintos entrevistados lo que nos permitio una comunicacion con diferentes rangos de audiencia. Además, nosotros en equipo tambien tuvimos nuestra comunicacion escrita para preparar la elaboracion de nuestro proyecto, resolver dudas y planear reuniones. En nuestro proyecto, hubo conversaciones escritas sobre que historias de usuario elaborar o como deberia ser el diseño de la aplicacion web y la landing page. Por otro lado, la elaboración del ubiquitous languaje evidencia que tuvimos que explicar nuestros terminos tecnicos para que nuestras distintas audiencias puedan entender lo que queremos elaborar en nuestro proyecto.<br>
         <em><b>AV2</b></em><br>
         Poner avances av2<br>
         ...<br>
