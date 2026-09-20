@@ -3777,6 +3777,24 @@ De esta manera, **TechNova** mantiene una relación controlada entre el código 
 #### 5.2.1. Sprint 1
 
 ##### 5.2.1.1. Sprint Planning 1
+
+En esta sección, se establecen los aspectos claves del Sprint Planning Meeting correspondiente al Sprint 1 del proyecto. Se inclueye información como la fecha y hora, locación, participantes, objetivo, velocidad del equipo y los puntos de historia comprometidos para este Spring . A continuación se presentará el resumen del Sprint Planning Meeting
+
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| Sprint Planning Background |
+| Date | 2026-09-20 |
+| Time | 08:58 AM |
+| Location | Reunión virtual |
+| Prepared by | Ariana Vasquez, Adriana Fuentes |
+| Attendees (to planning meeting) | Ariana Vasquez, Adriana Fuentes / Cesar Linares, Jude Hermoza / Ariana Vasquez, Enrique Mantilla / Adriana Fuentes |
+| Sprint 0 Review Summary | No existe sprint previo |
+| Sprint 0 Retrospective Summary | No existe sprint previo |
+| Sprint Goal & User Stories |
+| Sprint 1 Goal | Implementar el núcleo de autenticación, registro de usuarios y gestión básica de pedidos que permita a lavanderías y clientes operar el flujo mínimo viable de WashTrack (registro, login, creación de pedidos, registro de prendas y visualización de estados). |
+| Sprint 1 Velocity | 34 Story Points |
+| Sum of Story Points | 34 Story Points |
+
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 ##### 5.2.1.3. Sprint Backlog 1
 ##### 5.2.1.4. Development Evidence for Sprint Review
