@@ -3778,7 +3778,7 @@ De esta manera, **TechNova** mantiene una relación controlada entre el código 
 
 ##### 5.2.1.1. Sprint Planning 1
 
-En esta sección, se establecen los aspectos claves del Sprint Planning Meeting correspondiente al Sprint 1 del proyecto. Se inclueye información como la fecha y hora, locación, participantes, objetivo, velocidad del equipo y los puntos de historia comprometidos para este Spring . A continuación se presentará el resumen del Sprint Planning Meeting
+En esta sección, se establecen los aspectos claves del Sprint Planning Meeting correspondiente al Sprint 1 del proyecto. Se inclueye información como la fecha y hora, locación, participantes, objetivo, velocidad del equipo y los puntos de historia comprometidos para este Spring . A continuación se presentará el resumen del Sprint Planning Meeting.
 
 | Sprint # | Sprint 1 |
 | :--- | :--- |
@@ -3796,6 +3796,17 @@ En esta sección, se establecen los aspectos claves del Sprint Planning Meeting 
 | Sum of Story Points | 34 Story Points |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección, se establecen los aspectos clave del Aspect Leaders and Collaborators correspondiente al Sprint 1 del proyecto WashTrack. Se incluye información como los aspectos técnicos identificados (autenticación, gestión de pedidos, registro de prendas, seguimiento y actualización de estados), los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación se presentará el resumen de la distribución de roles por aspecto.
+
+| Team Member | Github Username | Coordinación del equipo y revisión de documento | Desarrollo del frontend en Angular para los formularios de registro, inicio de sesión y recuperación de contraseña | Configuración de la base de datos y diseño del modelo relacional para usuarios, pedidos y prendas | Implementación del backend en Java con Spring Boot para la gestión de pedidos y el registro de prendas | Apoyo en la integración del frontend con el backend y documentación técnica del sprint |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Hermoza, Jude | JvnnDev | C | C | C | C | C |
+| Mantilla, Enrique | enrique-mantilla | C | C | C | C | C |
+| Perez, Ariana | ArianaPerez34 | L | L | C | L | C |
+| Ramos, Adriana | adriana832 | C | C | L | C | L |
+| Linares, Cesar | Cesar-Linares | C | C | C | C | C |
+
 ##### 5.2.1.3. Sprint Backlog 1
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
