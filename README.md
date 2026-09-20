@@ -1276,10 +1276,19 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-021</td>
-      <td style="border: 1px solid black; padding: 8px;">Aceptar solicitud de recojo</td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;">Aceptar solicitudes de recojo</td>
+      <td style="border: 1px solid black; padding: 8px;">Como personal de lavanderia, quiero poder aceptar las solicitudes de recojo, para poder enviar un conductor a que recoja las prendas de nuestros clientes</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Aceptación exitosa</b><br>
+        <b>Dado</b> que el personal esta en la seccion de pedidos y existe una solicitud de recojo pendiente<br>
+        <b>Cuando</b> la revisa y presiona el boton de con el icono de un check y escoge el conductor<br>
+        <b>Entonces</b> el sistema actualiza el estado de la solicitud a "En Ruta" y notifica al cliente.<br><br>
+        <b>Escenario 2: Asignación de conductor</b><br>
+        <b>Dado</b> que la solicitud de recojo fue aceptada<br>
+        <b>Cuando</b> el personal asigna un conductor para la recolección<br>
+        <b>Entonces</b> el sistema registra la asignación y la asocia a la solicitud de recojo.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
     </tr>
   </tbody>
 
@@ -1287,9 +1296,18 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-022</td>
       <td style="border: 1px solid black; padding: 8px;">Enviar delivery</td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;">Como personal de lavandería, quiero enviar el delivery de un pedido asignando un repartidor, para que las prendas sean entregadas a domicilio y el cliente conozca quién las llevará.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Asignación de repartidor</b><br>
+        <b>Dado</b> que un pedido está listo para entrega a domicilio y el personal se encuentra en la seccion de entregas<br>
+        <b>Cuando</b> el personal selecciona la opción "Despachar" y elige un repartidor<br>
+        <b>Entonces</b> el sistema registra el envío, actualiza el estado del pedido a "En Ruta" y notifica al cliente con los datos del repartidor.<br><br>
+        <b>Escenario 2: Sin repartidor disponible</b><br>
+        <b>Dado</b> que el personal desea enviar un delivery<br>
+        <b>Cuando</b> no hay repartidores disponibles<br>
+        <b>Entonces</b> el sistema muestra un mensaje indicando que no hay repartidores disponibles y mantiene el pedido pendiente de envío.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
     </tr>
   </tbody>
 
@@ -1297,9 +1315,18 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-023</td>
       <td style="border: 1px solid black; padding: 8px;">Registrar conductores</td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;">Como administrador de lavandería, quiero poder registrar conductores, para que puedan ser utilizados en los recojos y deliverys</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Registro exitoso</b><br>
+        <b>Dado</b> que el administrador se encuentra en la sección de conductores<br>
+        <b>Cuando</b> ingresa el nombre, teléfono y vehiculo del conductor<br>
+        <b>Entonces</b> el sistema guarda el conductor y lo muestra como opción disponible para los recojos y deliverys.<br><br>
+        <b>Escenario 2: Conductor duplicado</b><br>
+        <b>Dado</b> que el administrador intenta registrar un conductor con un teléfono ya existente<br>
+        <b>Cuando</b> envía el formulario<br>
+        <b>Entonces</b> el sistema muestra un mensaje de error que indica que el conductor ya está registrado.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
     </tr>
   </tbody>
 
@@ -1307,9 +1334,18 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-024</td>
       <td style="border: 1px solid black; padding: 8px;">Reajuste de precio</td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;">Como personal de lavanderia, quiero poder reajustar el precio luego de hacer la revision, para que se pueda comprobar el precio real que se le pedira al cliente</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Reajuste del precio tras la revisión</b><br>
+        <b>Dado</b> que se realizó la revisión de las prendas de un pedido<br>
+        <b>Cuando</b> el personal presiona el boton revisar y modifica el pedido y el precio, y confirma el cambio<br>
+        <b>Entonces</b> el sistema actualiza el precio del pedido y muestra el monto final que se cobrará al cliente.<br><br>
+        <b>Escenario 2: Notificación del nuevo precio</b><br>
+        <b>Dado</b> que el precio de un pedido fue reajustado<br>
+        <b>Cuando</b> el sistema registra el cambio<br>
+        <b>Entonces</b> notifica al cliente el monto actualizado del servicio.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
     </tr>
   </tbody>
 
@@ -1317,9 +1353,18 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-025</td>
       <td style="border: 1px solid black; padding: 8px;">Cambiar precio de ropa por kilo</td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;">Como administrador de lavandería, quiero cambiar el precio por kilo de la ropa, para ajustarlo segun las necesidades del negocio. </td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Actualización de la tarifa</b><br>
+        <b>Dado</b> que el administrador se encuentra en la sección servicios<br>
+        <b>Cuando</b> cambia el precio por kilo y confirma la modificación<br>
+        <b>Entonces</b> el sistema actualiza la tarifa vigente para los nuevos pedidos.<br><br>
+        <b>Escenario 2: Precio inválido</b><br>
+        <b>Dado</b> que el administrador ingresa un precio inválido o vacío<br>
+        <b>Cuando</b> intenta guardar el cambio<br>
+        <b>Entonces</b> el sistema muestra un mensaje de error y mantiene el precio anterior.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
     </tr>
   </tbody>
 
@@ -1327,9 +1372,18 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-026</td>
       <td style="border: 1px solid black; padding: 8px;">Añadir nuevo servicio de prenda especial</td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;">Como administrador de lavanderia, quiero agregar nuevos servicios de prendas especiales, para brindar mas tipos de servicios a nuestros clientes</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Registro del servicio</b><br>
+        <b>Dado</b> que el administrador se encuentra en la sección de servicios y presiona el boton "Agregar Prenda Especial"<br>
+        <b>Cuando</b> registra el nombre, descripción y precio del servicio para prendas especiales<br>
+        <b>Entonces</b> el sistema guarda el servicio y lo muestra como opción disponible al crear pedidos.<br><br>
+        <b>Escenario 2: Nombre duplicado</b><br>
+        <b>Dado</b> que el administrador intenta añadir un servicio con un nombre ya registrado<br>
+        <b>Cuando</b> envía el formulario<br>
+        <b>Entonces</b> el sistema muestra un mensaje de error indicando que el servicio ya existe.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
     </tr>
   </tbody>
 
@@ -1337,9 +1391,18 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-027</td>
       <td style="border: 1px solid black; padding: 8px;">Rechazar recojo</td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;">Como personal de lavanderia, quiero poder rechazar solicitudes de recojo, para enviarle la notificacion al cliente de que en ese momento no esta disponible</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Rechazo de la solicitud</b><br>
+        <b>Dado</b> que existe una solicitud de recojo pendiente<br>
+        <b>Cuando</b> el personal la rechaza e indica un motivo<br>
+        <b>Entonces</b> el sistema actualiza el estado de la solicitud a "Rechazada".<br><br>
+        <b>Escenario 2: Notificación al cliente</b><br>
+        <b>Dado</b> que la solicitud de recojo ha sido rechazada<br>
+        <b>Cuando</b> el sistema registra el rechazo<br>
+        <b>Entonces</b> envía una notificación al cliente con el motivo.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
     </tr>
   </tbody>
 
@@ -1347,9 +1410,18 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-028</td>
       <td style="border: 1px solid black; padding: 8px;">Exportar pedidos en excel</td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
-      <td style="border: 1px solid black; padding: 8px;"></td>
+      <td style="border: 1px solid black; padding: 8px;">Como administrador de lavanderias, quiero poder exportar en excel los pedidos que necesite, para poder estudiarlos y tomarlos en cuenta para las tomas de decisiones.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Exportación exitosa</b><br>
+        <b>Dado</b> que el administrador esta en la seccion pedidos y existen pedidos registrados<br>
+        <b>Cuando</b> selecciona la opción de exportar y elige el periodo o los pedidos requeridos<br>
+        <b>Entonces</b> el sistema genera y descarga un archivo Excel con la información solicitada.<br><br>
+        <b>Escenario 2: Sin pedidos en el periodo</b><br>
+        <b>Dado</b> que el administrador selecciona un periodo sin pedidos registrados<br>
+        <b>Cuando</b> intenta exportar<br>
+        <b>Entonces</b> el sistema muestra un mensaje indicando que no hay información para exportar.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
     </tr>
   </tbody>
 
