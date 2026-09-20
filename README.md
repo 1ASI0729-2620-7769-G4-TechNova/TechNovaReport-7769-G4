@@ -3344,10 +3344,104 @@ Durante el Sprint 1 se implementó la Landing Page de **WashTrack** con HTML, CS
 | TechNova-LandingPage-7769-G4 | `feature/LandingPageFinalVersion` | [`e239298`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/e239298df04590867b21b89525594dbd3195eaa7) | `fix(footer): add social media more importants` | Ajustó los enlaces sociales mostrados en el footer. | 07/09/2026 |
 | TechNova-LandingPage-7769-G4 | `feature/LandingPageFinalVersion` | [`0a20b7a`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/0a20b7a3d825869e1540f7614418b709fdf013e1) | `refactor: update styles and layout changes` | Refinó estilos, layout y comportamiento del menú para la versión final. | 07/09/2026 |
 | TechNova-LandingPage-7769-G4 | `develop` | [`dc3eb59`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/dc3eb5920e06dcbea2663ac41f82aa45d800effe) | `Merge pull request #2 from .../feature/LandingPageFinalVersion` | Integró en `develop` las correcciones visuales y funcionales de la versión final. | 07/09/2026 |
+| TechNova-LandingPage-7769-G4 | `feature/edit-form` | [`239c0b1`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/239c0b1) | `docs: add id to form` | Asignó un identificador al formulario de contacto para habilitar su integración funcional con los Web Services. | 16/09/2026 |
+| TechNova-LandingPage-7769-G4 | `develop` | [`b2dfa91`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4/commit/b2dfa91) | `Merge pull request #3 from .../feature/edit-form` | Integró en `develop` el ajuste de identificación del formulario de contacto. | 16/09/2026 |
 
-Los dos merges conservan el trabajo paralelo de `LandingPage1versionG4` y `feature/LandingPageFinalVersion`. El historial auditado contiene **12 commits en `develop`**, de los cuales **2 son merges** y **9 corresponden a implementación realizada por Ariana Pérez después de la inicialización del repositorio**.
+Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `feature/LandingPageFinalVersion` y `feature/edit-form`. El historial auditado contiene **14 commits en `develop`**, de los cuales **3 son merges** y **10 corresponden a implementación** realizada después de la inicialización del repositorio: **9 por Ariana Pérez** (estructura, estilos, imágenes, footer, menú responsive e internacionalización) y **1 por Adriana Ramos** (identificador del formulario de contacto).
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
+<p align="justify">
+  Como resultado del Sprint 1, el equipo puso en funcionamiento la primera versión de la Landing Page de WashTrack sobre GitHub Pages. La página comunica la propuesta de valor en su sección principal, detalla las funcionalidades del producto, presenta accesos diferenciados para los dos segmentos objetivo y cierra con un formulario de contacto. La navegación entre secciones se resuelve mediante un menú fijo con enlaces ancla, acompañado de un selector de idioma ES/EN que traduce los textos de la interfaz sin recargar la página. El comportamiento responsive se verificó tanto en resolución de escritorio (1440 x 900 px) como en resolución móvil (390 x 844 px), donde el menú se colapsa en un botón desplegable.
+</p>
+<br>
+
+**Sección principal (Hero): propuesta de valor de WashTrack**
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/LandingPage_Hero.png" width="700px" alt="Sección Hero de la Landing Page">
+  <p>Vista inicial de la Landing Page desplegada</p>
+  <p></p>
+</div>
+<br>
+
+<p align="justify">
+  Presenta el mensaje principal "Tu lavandería, bajo control. En tiempo real.", acompañado de un panel que anticipa las capacidades clave del producto (pedidos, entregas y alertas IoT) y de los indicadores de seguimiento en tiempo real y monitoreo continuo.
+</p>
+<br>
+
+**Sección de características: funcionalidades del producto**
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/LandingPage_Caracteristicas.png" width="700px" alt="Sección de características de la Landing Page">
+  <p>Funcionalidades principales de WashTrack</p>
+  <p></p>
+</div>
+<br>
+
+<p align="justify">
+  Expone las cuatro funcionalidades centrales de la plataforma: gestión integral de pedidos, seguimiento en tiempo real, monitoreo IoT predictivo y logística con pagos digitales integrados.
+</p>
+<br>
+
+**Sección "Para quién": accesos diferenciados por segmento**
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/LandingPage_ParaQuien.png" width="700px" alt="Sección Para quién de la Landing Page">
+  <p>Accesos diferenciados para dueños de lavandería y clientes finales</p>
+  <p></p>
+</div>
+<br>
+
+<p align="justify">
+  Presenta los dos segmentos objetivo definidos en el Capítulo I, cada uno con su propio mensaje y llamado a la acción: "Quiero digitalizar mi lavandería" para los dueños de lavandería y "Quiero lavar sin complicaciones" para los clientes finales.
+</p>
+<br>
+
+**Formulario de atención: captura de datos del visitante**
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/LandingPage_Contacto.png" width="700px" alt="Formulario de contacto de la Landing Page">
+  <p>Formulario de atención enlazado a la política de privacidad</p>
+  <p></p>
+</div>
+<br>
+
+<p align="justify">
+  Corresponde a la interacción documentada en la sección 5.2.1.6, donde se especifican los parámetros de entrada y la respuesta simulada del sistema ante el envío del formulario.
+</p>
+<br>
+
+**Selector de idioma: internacionalización (i18n)**
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/LandingPage_EN.png" width="700px" alt="Landing Page en idioma inglés">
+  <p>Sección principal traducida al inglés mediante el selector ES/EN</p>
+  <p></p>
+</div>
+<br>
+
+<p align="justify">
+  Evidencia el funcionamiento del selector de idioma ubicado en la barra de navegación. Al seleccionar la opción EN, los textos de la interfaz se reemplazan por su versión en inglés conservando la estructura y el estilo de la página.
+</p>
+<br>
+
+**Comportamiento responsive en dispositivos móviles**
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/LandingPage_Mobile.png" width="220px" alt="Landing Page en resolución móvil">
+  <img src="./assets/Chapter5/sprint1/LandingPage_Mobile_Menu.png" width="220px" alt="Menú desplegable en resolución móvil">
+  <p>Vista móvil de la Landing Page con el menú cerrado y desplegado</p>
+  <p></p>
+</div>
+<br>
+
+<p align="justify">
+  En resolución móvil el contenido se reorganiza en una sola columna y el menú de navegación se colapsa en un botón desplegable que agrupa los enlaces de sección, el selector de idioma y el llamado a la acción principal.
+</p>
+<br>
+
+- **URL del despliegue de la Landing Page:** [https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
+
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 <p align="justify">
   Durante el Sprint 1, se ha avanzado en la definición y simulación de la captura de datos desde la interfaz de la Landing Page de WashTrack. Se estructuraron los formularios clave de interacción con el cliente y se definieron las especificaciones de los parámetros de entrada y respuestas del sistema (mock responses) para asegurar la integración fluida con la arquitectura de Web Services.
@@ -3398,6 +3492,77 @@ Los dos merges conservan el trabajo paralelo de `LandingPage1versionG4` y `featu
 - **Url del despliegue de la landing page:** [https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/) 
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
+
+**Explicación del trabajo en equipo — Repositorio del informe**
+
+<p align="justify">
+  Durante el Sprint 1 el equipo trabajó sobre el modelo de ramas definido en la sección 5.1.2. Cada entregable del informe y de la Landing Page se desarrolló en una rama <code>feature/</code> creada a partir de <code>develop</code>, y su integración se realizó exclusivamente mediante Pull Request. Este flujo permitió que los integrantes avanzaran en paralelo sobre secciones distintas del mismo documento sin bloquearse entre sí, y mantuvo <code>develop</code> como la única rama de integración estable del Sprint.
+</p>
+
+<p align="justify">
+  El período auditado corresponde al 11 de septiembre de 2026 (primer commit del Sprint sobre <code>develop</code>) y el 19 de septiembre de 2026 (cierre del Sprint). En ese intervalo se registraron <b>90 commits</b> sin contar los de integración, <b>25 commits de merge</b> — de los cuales <b>19 corresponden a Pull Requests fusionados</b> hacia <code>develop</code> — y un total de <b>102 archivos modificados</b>, con <b>2 518 líneas añadidas</b> y <b>61 líneas eliminadas</b> respecto del estado del repositorio al inicio del Sprint.
+</p>
+<br>
+
+**Evidencia de participación por integrante**
+
+| Integrante | Usuario de GitHub | Commits | Líneas añadidas | Líneas eliminadas |
+|---|---|---|---|---|
+| Ramos Fuentes Rivera, Adriana Nicole | `adriana832` | 40 | 546 | 102 |
+| Perez Vasquez, Ariana Valeria | `ArianaPerez34` | 31 | 954 | 48 |
+| Mantilla Maldonado, Enrique Manuel | `Enrique` | 16 | 647 | 111 |
+| Hermoza Quispe, Jude | `JvnnDev` | 3 | 580 | 9 |
+| Linares Bernable, Cesar Alejandro | — | 0 | 0 | 0 |
+
+<p align="justify">
+  <i>Fuente: historial de la rama <code>develop</code> del repositorio del informe, excluyendo commits de merge, en el período del 11 al 19 de septiembre de 2026.</i>
+</p>
+<br>
+
+<p align="justify">
+  La distribución muestra dos perfiles de contribución complementarios. Adriana Ramos y Ariana Pérez concentraron el mayor número de commits, asociados a la redacción incremental de los capítulos del informe y a la implementación de la Landing Page. Enrique Mantilla y Jude Hermoza registraron menos commits pero de mayor volumen por entrega, correspondientes a secciones extensas incorporadas en una sola iteración, como el análisis competitivo, la arquitectura de software orientada al dominio y la configuración de despliegue. Esta diferencia refleja el tipo de entregable asignado a cada integrante y no una asimetría en la carga de trabajo asumida.
+</p>
+
+<p align="justify">
+  El principal aprendizaje del Sprint fue la necesidad de sincronizar cada rama <code>feature/</code> con <code>develop</code> antes de abrir el Pull Request. Al trabajar varios integrantes sobre el mismo archivo <code>README.md</code>, las ramas creadas al inicio del Sprint acumulaban diferencias frente a la rama de integración, lo que obligaba a resolver conflictos al momento de fusionar. Para los siguientes Sprints el equipo adoptará la práctica de actualizar la rama de trabajo desde <code>develop</code> antes de solicitar la integración, reduciendo el costo de resolución de conflictos sobre el documento compartido.
+</p>
+<br>
+
+- **URL del repositorio del informe:** [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4)
+
+<br>
+
+---
+
+**Explicación del trabajo en equipo — Landing Page**
+
+<p align="justify">
+  El desarrollo de la Landing Page siguió el mismo modelo de ramas y Pull Requests, con una separación adicional entre integración y producción. La rama <code>LandingPage1versionG4</code> concentró la construcción inicial de la página, <code>feature/LandingPageFinalVersion</code> las correcciones visuales y funcionales de la versión final, y <code>feature/edit-form</code> el ajuste del formulario de contacto. Las tres se integraron a <code>develop</code> mediante Pull Request y, una vez validada la versión, <code>develop</code> se fusionó a <code>main</code>, que es la rama publicada por GitHub Pages.
+</p>
+
+<p align="justify">
+  En total se fusionaron <b>4 Pull Requests</b> y no quedó ninguno abierto: PR #1 (<code>LandingPage1versionG4</code> → <code>develop</code>, 05/09/2026), PR #2 (<code>feature/LandingPageFinalVersion</code> → <code>develop</code>, 07/09/2026), PR #3 (<code>feature/edit-form</code> → <code>develop</code>, 16/09/2026) y PR #4 (<code>develop</code> → <code>main</code>, 17/09/2026). La rama <code>main</code> acumula <b>15 commits</b>, de los cuales <b>4 son de integración</b> y <b>11 corresponden a trabajo sobre el código de la página</b>. Este flujo mantuvo <code>main</code> siempre con una versión desplegable, ya que cada publicación en GitHub Pages se disparó únicamente después de un Pull Request aprobado.
+</p>
+<br>
+
+**Evidencia de participación por integrante**
+
+| Integrante | Usuario de GitHub | Commits en `main` | Líneas añadidas | Líneas eliminadas |
+|---|---|---|---|---|
+| Perez Vasquez, Ariana Valeria | `ArianaPerez34` / `Arianapv082` | 10 | 2 510 | 38 |
+| Ramos Fuentes Rivera, Adriana Nicole | `adriana832` | 1 | 1 | 1 |
+
+<p align="justify">
+  <i>Fuente: historial de la rama <code>main</code> del repositorio de la Landing Page, excluyendo commits de merge. Ariana Pérez registró commits bajo dos nombres de usuario asociados a la misma cuenta de correo, por lo que GitHub Insights los agrupa como un único contribuyente.</i>
+</p>
+<br>
+
+<p align="justify">
+  La implementación de la Landing Page fue asumida principalmente por Ariana Pérez, responsable de la estructura HTML, los estilos, las imágenes, el footer, el menú responsive y el selector de idioma ES/EN. Adriana Ramos intervino al cierre del Sprint para habilitar la identificación del formulario de contacto, requisito necesario para la integración documentada en la sección 5.2.1.6. El resto del equipo concentró su participación en el repositorio del informe, según la distribución de aspectos detallada en la sección 5.2.1.2.
+</p>
+<br>
+
+- **URL del repositorio de la Landing Page:** [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
 ### 5.3. Validation Interviews
 
