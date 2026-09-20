@@ -451,7 +451,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 1.2. Solution Profile
 <p align="justify">
-    WashTrack es una plataforma digital desarrollada por la startup DevTech, orientada a optimizar la gestión de lavanderías y mejorar la experiencia de sus clientes mediante herramientas tecnológicas accesibles y eficientes. La plataforma busca centralizar en un solo sistema los principales procesos relacionados con la recepción, gestión y seguimiento de los pedidos de lavandería. 
+    WashTrack es una plataforma digital desarrollada por la startup TechNova, orientada a optimizar la gestión de lavanderías y mejorar la experiencia de sus clientes mediante herramientas tecnológicas accesibles y eficientes. La plataforma busca centralizar en un solo sistema los principales procesos relacionados con la recepción, gestión y seguimiento de los pedidos de lavandería. 
 </p>
 
 <p align="justify">
@@ -1200,7 +1200,7 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-001</td>
       <td style="border: 1px solid black; padding: 8px;">Registro de usuario</td>
-      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero registrarme en Easy Wash proporcionando mis datos personales, para crear una cuenta y poder gestionar mis servicios de lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero registrarme en WashTrack proporcionando mis datos personales, para crear una cuenta y poder gestionar mis servicios de lavandería.</td>
       <td style="border: 1px solid black; padding: 8px;">
         <b>Escenario 1: Registro exitoso</b><br>
         <b>Dado</b> que el cliente se encuentra en el formulario de registro<br>
@@ -1219,7 +1219,7 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-002</td>
       <td style="border: 1px solid black; padding: 8px;">Inicio de sesión</td>
-      <td style="border: 1px solid black; padding: 8px;">Como usuario registrado, quiero iniciar sesión en Easy Wash, para acceder a las funciones correspondientes a mi cuenta.</td>
+      <td style="border: 1px solid black; padding: 8px;">Como usuario registrado, quiero iniciar sesión en WashTrack, para acceder a las funciones correspondientes a mi cuenta.</td>
       <td style="border: 1px solid black; padding: 8px;">
         <b>Escenario 1: Inicio de sesión exitoso</b><br>
         <b>Dado</b> que el usuario tiene una cuenta registrada<br>
@@ -1313,16 +1313,16 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
   <tbody>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-007</td>
-      <td style="border: 1px solid black; padding: 8px;">Conocer la propuesta de valor de Easy Wash</td>
-      <td style="border: 1px solid black; padding: 8px;">Como visitante, quiero conocer la propuesta de valor y los beneficios de Easy Wash, para comprender cómo la plataforma mejora la gestión de lavanderías.</td>
+      <td style="border: 1px solid black; padding: 8px;">Conocer la propuesta de valor de WashTrack</td>
+      <td style="border: 1px solid black; padding: 8px;">Como visitante, quiero conocer la propuesta de valor y los beneficios de WashTrack, para comprender cómo la plataforma mejora la gestión de lavanderías.</td>
       <td style="border: 1px solid black; padding: 8px;">
         <b>Escenario 1: Presentación de la propuesta de valor</b><br>
         <b>Dado</b> que el visitante ingresa a la Landing Page<br>
-        <b>Cuando</b> consulta la información principal de Easy Wash<br>
+        <b>Cuando</b> consulta la información principal de WashTrack<br>
         <b>Entonces</b> el sistema presenta la propuesta de valor del servicio<br>
         <b>Y</b> describe los principales beneficios para sus usuarios.<br><br>
         <b>Escenario 2: Información comprensible</b><br>
-        <b>Dado</b> que el visitante consulta la información de Easy Wash<br>
+        <b>Dado</b> que el visitante consulta la información de WashTrack<br>
         <b>Cuando</b> revisa la propuesta de valor<br>
         <b>Entonces</b> la información permite identificar el propósito principal de la plataforma.
       </td>
@@ -1334,7 +1334,7 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
     <tr>
       <td style="border: 1px solid black; padding: 8px;">US-008</td>
       <td style="border: 1px solid black; padding: 8px;">Consultar planes y precios</td>
-      <td style="border: 1px solid black; padding: 8px;">Como visitante del segmento de propietarios, quiero consultar los planes y precios de Easy Wash, para evaluar la alternativa que mejor se adapte a las necesidades de mi lavandería.</td>
+      <td style="border: 1px solid black; padding: 8px;">Como visitante del segmento de propietarios, quiero consultar los planes y precios de WashTrack, para evaluar la alternativa que mejor se adapte a las necesidades de mi lavandería.</td>
       <td style="border: 1px solid black; padding: 8px;">
         <b>Escenario 1: Consulta de planes</b><br>
         <b>Dado</b> que el visitante consulta la información comercial<br>
@@ -3639,7 +3639,7 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 - **URL del Repositorio de Landing Page:** [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
-<p align="justigy">
+<p align="justify">
   Durante el Sprint 1, se llevaron a cabo las actividades de configuración y despliegue del producto correspondiente a la Landing Page del proyecto. Se seleccionó la plataforma de infraestructura en la nube de GitHub Pages por su integración nativa con el control de versiones y su soporte para entornos de producción con certificados HTTPS automáticos.
 </p>
 <br>
@@ -3647,7 +3647,7 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 **Actividades realizadas**
 <p align="justify">
   <ul>
-    <li><b>Configuración del Entorno de GitHub Pages:</b> Habilitación y configuración del servicio de hosting en la nube a través del panel de administración del repositorio DevTech-LandingPage-16129-G2.</li><br>
+    <li><b>Configuración del Entorno de GitHub Pages:</b> Habilitación y configuración del servicio de hosting en la nube a través del panel de administración del repositorio TechNova-LandingPage-7769-G4.</li><br>
     <li><b>Vinculación de la Rama de Producción:</b> Configuración del flujo de publicación continua para tomar automáticamente la fuente del sitio desde la rama main, garantizando que cada actualización del código fuente active un build y despliegue del sitio estático.</li><br>
     <li><b>Aprovisionamiento de SSL y Dominio Público:</b> Validación de la generación del certificado de seguridad SSL para habilitar la navegación segura vía HTTPS y verificación de la disponibilidad pública en la URL asignada por GitHub Pages.</li>
   </ul>
