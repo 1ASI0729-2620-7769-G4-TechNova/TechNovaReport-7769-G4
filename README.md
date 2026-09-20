@@ -3510,7 +3510,7 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 |---|---|---|---|---|
 | Ramos Fuentes Rivera, Adriana Nicole | `adriana832` | 40 | 546 | 102 |
 | Perez Vasquez, Ariana Valeria | `ArianaPerez34` | 31 | 954 | 48 |
-| Mantilla Maldonado, Enrique Manuel | `Enrique` | 16 | 647 | 111 |
+| Mantilla Maldonado, Enrique Manuel | `enrique-mantilla` | 16 | 647 | 111 |
 | Hermoza Quispe, Jude | `JvnnDev` | 3 | 580 | 9 |
 | Linares Bernable, Cesar Alejandro | — | 0 | 0 | 0 |
 
@@ -3526,6 +3526,22 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 <p align="justify">
   El principal aprendizaje del Sprint fue la necesidad de sincronizar cada rama <code>feature/</code> con <code>develop</code> antes de abrir el Pull Request. Al trabajar varios integrantes sobre el mismo archivo <code>README.md</code>, las ramas creadas al inicio del Sprint acumulaban diferencias frente a la rama de integración, lo que obligaba a resolver conflictos al momento de fusionar. Para los siguientes Sprints el equipo adoptará la práctica de actualizar la rama de trabajo desde <code>develop</code> antes de solicitar la integración, reduciendo el costo de resolución de conflictos sobre el documento compartido.
 </p>
+<br>
+
+**Capturas de GitHub**
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/insights-network.png" width="700px" alt="Network graph del repositorio del informe">
+  <p>Figura 1. Network graph: flujo de ramas <code>feature/</code> y sus integraciones a <code>develop</code></p>
+  <p></p>
+</div>
+<br>
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/commits-history.png" width="700px" alt="Historial de commits de la rama develop">
+  <p>Figura 2. Historial de commits de <code>develop</code> con la autoría de cada integrante</p>
+  <p></p>
+</div>
 <br>
 
 - **URL del repositorio del informe:** [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4)
@@ -3560,6 +3576,29 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 <p align="justify">
   La implementación de la Landing Page fue asumida principalmente por Ariana Pérez, responsable de la estructura HTML, los estilos, las imágenes, el footer, el menú responsive y el selector de idioma ES/EN. Adriana Ramos intervino al cierre del Sprint para habilitar la identificación del formulario de contacto, requisito necesario para la integración documentada en la sección 5.2.1.6. El resto del equipo concentró su participación en el repositorio del informe, según la distribución de aspectos detallada en la sección 5.2.1.2.
 </p>
+<br>
+
+**Capturas de GitHub**
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/landing-contributors.png" width="700px" alt="Insights Contributors del repositorio de la Landing Page">
+  <p>Figura 3. Insights – Contributors: aporte individual sobre la rama <code>main</code></p>
+  <p></p>
+</div>
+<br>
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/landing-network.png" width="700px" alt="Network graph del repositorio de la Landing Page">
+  <p>Figura 4. Network graph: ramas <code>LandingPage1versionG4</code>, <code>feature/LandingPageFinalVersion</code>, <code>develop</code> y <code>main</code></p>
+  <p></p>
+</div>
+<br>
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/landing-commits-history.png" width="700px" alt="Historial de commits de la Landing Page">
+  <p>Figura 5. Historial de commits de la rama <code>main</code> de la Landing Page</p>
+  <p></p>
+</div>
 <br>
 
 - **URL del repositorio de la Landing Page:** [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
