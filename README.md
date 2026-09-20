@@ -235,9 +235,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>Pérez Vásquez, Ariana Valeria</b><br>
         <em><b>AV1</b></em><br>
-        Sustentación oral del Avance Capítulo 1 y los resultados iniciales de la investigación de usuarios (NeedFinding y definición de User Personas), argumentando la problemática encontrada ante el profesor y evaluadores de manera clara.<br>
-        <em><b>AV2</b></em><br>
-        Sustentación y demostración síncrona de la User Task Matrix y las funcionalidades de la Landing Page desarrollada, explicando la propuesta de valor y el flujo de interacción inicial del usuario ante la audiencia.<br>
+        En la primera entrega del proyecto, las actividades relacionadas con el diseño de la Landing Page, la definición de las Style Guidelines y la elaboración de wireframes y mockups evidencian el cumplimiento del criterio de comunicación oral efectiva. Durante el desarrollo de estas actividades, se expusieron y sustentaron verbalmente las decisiones de diseño relacionadas con la estructura, navegación, identidad visual, tipografía, colores y distribución de los elementos de la interfaz, explicando su relación con las necesidades de los usuarios y los objetivos de WashTrack. Asimismo, la coordinación con los integrantes del equipo permitió argumentar propuestas, recibir retroalimentación y aclarar criterios de diseño y desarrollo, adaptando la explicación según el nivel técnico de los participantes. De igual manera, la sustentación de las convenciones de código y del procedimiento de configuración del despliegue permitió comunicar aspectos técnicos de manera ordenada y comprensible, facilitando la comprensión de las decisiones adoptadas por parte de los distintos integrantes del proyecto.<br>
+        <em><b></b></em><br>
+        <br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -273,9 +273,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>Pérez Vásquez, Ariana Valeria</b><br>
         <em><b>AV1</b></em><br>
-       Redacción y documentación formal en formato Markdown del Avance Capítulo 1, detallando la contextualización del proyecto y la consolidación de la investigación de usuarios con las User Personas.<br>
-        <em><b>AV2</b></em><br>
-        Estructuración y redacción escrita de la User Task Matrix y la documentación técnica de la Landing Page, especificando requerimientos, alcances y diseño preliminar en el repositorio.<br>
+       En la primera entrega del proyecto, la elaboración de documentación técnica y de diseño evidencia el cumplimiento del criterio de comunicación escrita efectiva. La definición de las Style Guidelines, junto con la documentación de la Landing Page, los wireframes y mockups, permitió comunicar de manera clara y estructurada las decisiones relacionadas con la identidad visual, tipografía, colores, espaciado, navegación y organización de la interfaz de WashTrack, utilizando un lenguaje accesible para audiencias no técnicas y técnicas. Asimismo, la elaboración de las secciones Source Code Style Guide & Conventions y Software Deployment Configuration permitió documentar de forma precisa las convenciones utilizadas para mantener la consistencia del código y el procedimiento empleado para el despliegue de los productos digitales. La redacción de estas secciones demuestra la capacidad de adaptar la comunicación escrita según el propósito y la audiencia, empleando tanto descripciones comprensibles para los usuarios y miembros del equipo como terminología técnica necesaria para documentar aspectos de ingeniería de software.
+<br>
+        <em><b></b></em><br><br>
         ...<br>
         <b>Ramirez Gutierrez, Gabriel</b><br>
         <em><b>AV1</b></em><br>
@@ -3538,15 +3538,22 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 <br>
 
 <div align="center">
+  <img src="./assets/Chapter5/sprint1/insights-pulse.png" width="700px" alt="Insights Pulse del repositorio del informe">
+  <p>Figura 2. Insights – Pulse (12 al 19 de septiembre de 2026): Pull Requests fusionados y actividad de la última semana del Sprint</p>
+  <p></p>
+</div>
+<br>
+
+<div align="center">
   <img src="./assets/Chapter5/sprint1/insights-network.png" width="700px" alt="Network graph del repositorio del informe">
-  <p>Figura 2. Network graph: flujo de ramas <code>feature/</code> y sus integraciones a <code>develop</code></p>
+  <p>Figura 3. Network graph: flujo de ramas <code>feature/</code> y sus integraciones a <code>develop</code></p>
   <p></p>
 </div>
 <br>
 
 <div align="center">
   <img src="./assets/Chapter5/sprint1/commits-history.png" width="700px" alt="Historial de commits de la rama develop">
-  <p>Figura 3. Historial de commits de <code>develop</code> con la autoría de cada integrante</p>
+  <p>Figura 4. Historial de commits de <code>develop</code> con la autoría de cada integrante</p>
   <p></p>
 </div>
 <br>
@@ -3589,21 +3596,28 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 
 <div align="center">
   <img src="./assets/Chapter5/sprint1/landing-contributors.png" width="700px" alt="Insights Contributors del repositorio de la Landing Page">
-  <p>Figura 4. Insights – Contributors: aporte individual sobre la rama <code>main</code></p>
+  <p>Figura 5. Insights – Contributors: aporte individual sobre la rama <code>main</code></p>
+  <p></p>
+</div>
+<br>
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint1/landing-pulse.png" width="700px" alt="Insights Pulse del repositorio de la Landing Page">
+  <p>Figura 6. Insights – Pulse (12 al 19 de septiembre de 2026): cierre de ajustes finales de la Landing Page</p>
   <p></p>
 </div>
 <br>
 
 <div align="center">
   <img src="./assets/Chapter5/sprint1/landing-network.png" width="700px" alt="Network graph del repositorio de la Landing Page">
-  <p>Figura 5. Network graph: ramas <code>LandingPage1versionG4</code>, <code>feature/LandingPageFinalVersion</code>, <code>develop</code> y <code>main</code></p>
+  <p>Figura 7. Network graph: ramas <code>LandingPage1versionG4</code>, <code>feature/LandingPageFinalVersion</code>, <code>develop</code> y <code>main</code></p>
   <p></p>
 </div>
 <br>
 
 <div align="center">
   <img src="./assets/Chapter5/sprint1/landing-commits-history.png" width="700px" alt="Historial de commits de la Landing Page">
-  <p>Figura 6. Historial de commits de la rama <code>main</code> de la Landing Page</p>
+  <p>Figura 8. Historial de commits de la rama <code>main</code> de la Landing Page</p>
   <p></p>
 </div>
 <br>
