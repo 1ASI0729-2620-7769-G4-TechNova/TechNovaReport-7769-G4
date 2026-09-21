@@ -3492,7 +3492,7 @@ flowchart LR
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/OrderManagement.png" width="800px" alt="Order Management">
+<img src="./assets/Chapter4/ClassDiagram/order_management.png" width="800px" alt="Order Management">
 
 ##### Laundry Operation
 
