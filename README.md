@@ -265,6 +265,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         En la primera entrega del proyecto, las acciones realizadas en la fase de descubrimiento e investigación, tales como el diseño, registro y análisis de entrevistas, la facilitación del proceso Lean UX y la alineación de las historias de usuario, demuestran el cumplimiento del criterio de comunicación oral efectiva. A través de la conducción directa de entrevistas, se estableció una interacción verbal empática y desprovista de tecnicismos para indagar sobre las necesidades de los segmentos objetivo. Asimismo, la articulación oral de las declaraciones de problemas, asunciones e hipótesis en el Lean UX Canvas, sumada a la negociación y clarificación verbal de los criterios de aceptación en las User Stories, evidencia la capacidad de adaptar el discurso, el registro lingüístico y la argumentación a diversos actores del proyecto, abarcando desde usuarios finales hasta stakeholders y el equipo de desarrollo.<br>
         <em><b></b></em><br>
         <br>
+        <b>Hermoza Quispe, Jude</b><br>
+        <em><b>AV1</b></em><br>
+        Para esta entrega pusimos en practica nuestras habilidades sociales tales como el dialogo que sustuvimos al hacer nuestras entrevistas, ya que tuvimos que dialogar con dos sectores diferentes para la elaboracion de nuestro proyecto. Ademas de dialogar con otras personas, tambien hubo dialogo entre nosotros como equipo, ya que la toma de decisiones era grupal y, por tanto, la comunicacion era fundamental. Por ejemplo, tuvimos que discutir que historias de usuario agregariamos a nuestro proyecto. Tambien, al momento de diseñar como seria la landing y la aplicacion web, tuvimos charlas y reuniones sobre como ibamos a abordar nuestro diseño hasta que todos estuvieramos de acuerdo.<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
       </td>
       <td>
         <b>AV1</b><br>Durante esta primera entrega, el equipo demostró capacidad de comunicación oral efectiva al realizar y registrar las entrevistas (Needfinding) y al presentar el progreso del Sprint 1. En el proceso de entrevistas, como equipo, se interactuó directamente con los segmentos objetivo ajustando el lenguaje técnico hacia un tono accesible y empático para explorar sus necesidades, dolores y expectativas. Por otro lado, durante las consultas del trabajo desarrollado en clase al docente, se nos permitió comunicar de forma clara las decisiones de diseño, la arquitectura Domain-Driven Design (DDD) y los avances del Sprint 1, demostrando adaptabilidad en la transmisión de conceptos de software tanto a audiencias técnicas como a usuarios finales.<br>
@@ -289,6 +295,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>AV1</b></em><br>
         En la primera entrega del proyecto, la elaboración de la documentación del proyecto fundamenta el criterio de comunicación escrita efectiva. La redacción de los antecedentes, la problemática y la definición de la solución junto con los mapas de empatía y User Journey Maps transmiten los hallazgos del negocio de forma formal, clara y accesible para audiencias no técnicas. Además, la especificación estructurada de historias de usuario y la formalización arquitectónica plasmada en los diagramas de clases y diagramas de base de datos manifiestan el dominio de una comunicación escrita rigurosa y estandarizada bajo notaciones técnicas (como UML y modelos Entidad-Relación), garantizando la transmisión precisa de requerimientos a la audiencia técnica de ingeniería.<br>
         <em><b></b></em><br>
+        <b>Hermoza Quispe, Jude</b><br>
+        <em><b>AV1</b></em><br>
+        Para esta entrega se busco mejorar la efectividad escrita atraves de varios ejercicios, tales como la redaccion de este documento o el obiquitous language en el cual mostramos el lenguaje y los terminos que usamos como equipo y se los mostramos al publico para un mejor entendimiento. Ademas, parte del diseño de nuestra Landing Page y nuestro aplicacion web esta diseñado para captar a la mayor cantidad de publico usando una escritura correcta y entendible para nuestros usuarios.<br>
+        <em><b>AV2</b></em><br>
+        Poner avances av2<br>
+        ...<br>
       </td>
       <td>
         <b>AV1</b><br>En la primera entrega, la comunicación escrita efectiva se evidencia en la elaboración estructurada de la documentación técnica del proyecto, abarcando desde la definición estratégica de la startup hasta la especificación técnica y de diseño. El equipo de TechNova logró transmitir de manera clara la propuesta de valor a través del Lean UX Canvas, Landing Page y User Personas. Por otro lado, el equipo, redactó el informe con un nivel de rigor y precisión técnico adecuado los artefactos de desarrollo destinados al equipo técnico, tales como los criterios de aceptación en User Stories, el Ubiquitous Language, las guías de estilo UX/UI y los diagramas C4 y de Base de Datos. <br>
@@ -2010,6 +2022,8 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
 <div align="center">
   <img src="./assets/Chapter3/impact_mapping_2.png" width="700px" alt="ImpactMapping2">
 </div>
+
+Link: <https://uxpressia.com/w/HqCwq/i/BSY5m?tagId=coQzP>
 
 ### 3.3. Product Backlog
 
