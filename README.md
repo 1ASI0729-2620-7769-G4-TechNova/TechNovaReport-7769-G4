@@ -3518,11 +3518,11 @@ flowchart LR
 
 <img src="./assets/Chapter4/ClassDiagram/billing_subscription.png" width="800px" alt="Billing & Subscription">
 
-##### Notification
+##### Delivery Management
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/Notifications.png" width="800px" alt="Notification">
+<img src="./assets/Chapter4/ClassDiagram/delivery_management.png" width="800px" alt="Delivery Management">
 
 ##### Tracking
 
