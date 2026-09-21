@@ -3507,7 +3507,7 @@ flowchart LR
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/iam.png" width="800px" alt="Identity & Access Management">
+<img src="./assets/Chapter4/ClassDiagram/IAM.png" width="800px" alt="Identity & Access Management">
 
 ##### Customer & Laundry Management
 
