@@ -2011,8 +2011,6 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
   <img src="./assets/Chapter3/impact_mapping_2.png" width="700px" alt="ImpactMapping2">
 </div>
 
-Link: <https://uxpressia.com/w/HqCwq/i/BSY5m?tagId=coQzP>
-
 ### 3.3. Product Backlog
 
 | Orden | User Story ID | Título | Descripción | Story Points | 
