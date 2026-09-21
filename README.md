@@ -3854,29 +3854,29 @@ El objetivo principal del Sprint 1 es implementar las funciones esenciales para 
 
 | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
-| US-001 | Registro de usuario | T-001 | Diseño del formulario de registro | Crear el mockup y la interfaz del formulario de registro (nombre, teléfono, correo, contraseña). | 4 | Sosa Soto, Oskar Rodrigo | Done |
-| US-001 | Registro de usuario | T-002 | Validaciones de campos del registro | Implementar validaciones de formato de correo, campos obligatorios y longitud de contraseña. | 4 | Sosa Soto, Oskar Rodrigo | Done |
-| US-001 | Registro de usuario | T-003 | Endpoint de registro de usuario | Implementar el endpoint REST para crear usuarios con validación y hash de contraseña. | 6 | Solis Chang, Santiago Valentino | Done |
-| US-001 | Registro de usuario | T-004 | Persistencia de usuarios en BD | Crear la tabla de usuarios y la conexión del repositorio con la base de datos. | 4 | Aguilar Untiveros, Rodrigo Fabrizio | Done |
-| US-002 | Inicio de sesión | T-005 | Diseño de pantalla de login | Crear la interfaz de inicio de sesión con campos de correo y contraseña. | 3 | Sosa Soto, Oskar Rodrigo | Done |
-| US-002 | Inicio de sesión | T-006 | Endpoint de autenticación | Implementar el endpoint de login con validación de credenciales y generación de token. | 6 | Solis Chang, Santiago Valentino | Done |
-| US-002 | Inicio de sesión | T-007 | Redirección por rol | Implementar la lógica de redirección al panel correspondiente según el rol del usuario. | 3 | Sosa Soto, Oskar Rodrigo | Done |
-| US-014 | Recuperar contraseña | T-008 | Diseño de pantalla de recuperación | Crear la interfaz para solicitar recuperación de contraseña. | 3 | Sosa Soto, Oskar Rodrigo | Done |
-| US-014 | Recuperar contraseña | T-009 | Endpoint de recuperación | Implementar el endpoint que envía el enlace de restablecimiento al correo registrado. | 5 | Solis Chang, Santiago Valentino | Done |
-| US-014 | Recuperar contraseña | T-010 | Validación de correo registrado | Implementar la validación que verifica si el correo existe en la base de datos. | 3 | Aguilar Untiveros, Rodrigo Fabrizio | Done |
-| US-005 | Gestión de pedidos | T-011 | Diseño del formulario de pedido | Crear la interfaz para registrar un nuevo pedido (cliente, prendas, servicio, fecha). | 5 | Sosa Soto, Oskar Rodrigo | Done |
-| US-005 | Gestión de pedidos | T-012 | Endpoint de creación de pedido | Implementar el endpoint para registrar pedidos y generar identificador único. | 8 | Solis Chang, Santiago Valentino | Done |
-| US-005 | Gestión de pedidos | T-013 | Endpoint de consulta de pedido | Implementar el endpoint para consultar pedidos por ID y por cliente. | 6 | Solis Chang, Santiago Valentino | Done |
-| US-005 | Gestión de pedidos | T-014 | Modelo de pedidos en BD | Crear la tabla de pedidos y sus relaciones con clientes, prendas y servicios. | 5 | Aguilar Untiveros, Rodrigo Fabrizio | Done |
-| US-006 | Registro de prendas | T-015 | Diseño de sección de prendas | Crear la interfaz para registrar tipo y cantidad de prendas dentro de un pedido. | 4 | Sosa Soto, Oskar Rodrigo | Done |
-| US-006 | Registro de prendas | T-016 | Endpoint de registro de prendas | Implementar el endpoint que asocia prendas a un pedido existente. | 6 | Solis Chang, Santiago Valentino | Done |
-| US-006 | Registro de prendas | T-017 | Modelo de prendas en BD | Crear la tabla de prendas y su relación con pedidos y tipos de servicio. | 4 | Aguilar Untiveros, Rodrigo Fabrizio | Done |
-| US-004 | Seguimiento del pedido | T-018 | Diseño de vista de seguimiento | Crear la interfaz donde el cliente visualiza el estado actual y las etapas del pedido. | 5 | Sosa Soto, Oskar Rodrigo | Done |
-| US-004 | Seguimiento del pedido | T-019 | Endpoint de consulta de estado | Implementar el endpoint que devuelve el estado actual y el historial de etapas del pedido. | 5 | Huamán Cuba, Johan Giovani | Done |
-| US-004 | Seguimiento del pedido | T-020 | Integración frontend-backend de seguimiento | Conectar la vista de seguimiento con el endpoint de consulta de estado. | 4 | Huamán Cuba, Johan Giovani | Done |
-| US-011 | Actualizar el estado del pedido | T-021 | Diseño de panel de actualización | Crear la interfaz para que el personal actualice el estado del pedido. | 4 | Sosa Soto, Oskar Rodrigo | Done |
-| US-011 | Actualizar el estado del pedido | T-022 | Endpoint de actualización de estado | Implementar el endpoint que actualiza el estado y registra fecha, hora y responsable. | 6 | Solis Chang, Santiago Valentino | Done |
-| US-011 | Actualizar el estado del pedido | T-023 | Registro de auditoría de cambios | Implementar el registro histórico de cambios de estado por pedido. | 4 | Huamán Cuba, Johan Giovani | Done |
+| US-001 | Registro de usuario | T-001 | Diseño del formulario de registro | Crear el mockup y la interfaz del formulario de registro (nombre, teléfono, correo, contraseña). | 4 | Hermoza Quispe, Jude | Done |
+| US-001 | Registro de usuario | T-002 | Validaciones de campos del registro | Implementar validaciones de formato de correo, campos obligatorios y longitud de contraseña. | 4 | Mantilla Maldonado, Enrique Manuel | Done |
+| US-001 | Registro de usuario | T-003 | Endpoint de registro de usuario | Implementar el endpoint REST para crear usuarios con validación y hash de contraseña. | 6 | Perez Vasquez Ariana Valeria | Done |
+| US-001 | Registro de usuario | T-004 | Persistencia de usuarios en BD | Crear la tabla de usuarios y la conexión del repositorio con la base de datos. | 4 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| US-002 | Inicio de sesión | T-005 | Diseño de pantalla de login | Crear la interfaz de inicio de sesión con campos de correo y contraseña. | 3 | Linares Bernable, Cesar Alejandro | Done |
+| US-002 | Inicio de sesión | T-006 | Endpoint de autenticación | Implementar el endpoint de login con validación de credenciales y generación de token. | 6 | Linares Bernable, Cesar Alejandro | Done |
+| US-002 | Inicio de sesión | T-007 | Redirección por rol | Implementar la lógica de redirección al panel correspondiente según el rol del usuario. | 3 | Mantilla Maldonado, Enrique Manuel | Done |
+| US-014 | Recuperar contraseña | T-008 | Diseño de pantalla de recuperación | Crear la interfaz para solicitar recuperación de contraseña. | 3 | Perez Vasquez Ariana Valeria | Done |
+| US-014 | Recuperar contraseña | T-009 | Endpoint de recuperación | Implementar el endpoint que envía el enlace de restablecimiento al correo registrado. | 5 | Hermoza Quispe, Jude | Done |
+| US-014 | Recuperar contraseña | T-010 | Validación de correo registrado | Implementar la validación que verifica si el correo existe en la base de datos. | 3 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| US-005 | Gestión de pedidos | T-011 | Diseño del formulario de pedido | Crear la interfaz para registrar un nuevo pedido (cliente, prendas, servicio, fecha). | 5 | Perez Vasquez Ariana Valeria | Done |
+| US-005 | Gestión de pedidos | T-012 | Endpoint de creación de pedido | Implementar el endpoint para registrar pedidos y generar identificador único. | 8 | Mantilla Maldonado, Enrique Manuel | Done |
+| US-005 | Gestión de pedidos | T-013 | Endpoint de consulta de pedido | Implementar el endpoint para consultar pedidos por ID y por cliente. | 6 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| US-005 | Gestión de pedidos | T-014 | Modelo de pedidos en BD | Crear la tabla de pedidos y sus relaciones con clientes, prendas y servicios. | 5 | Linares Bernable, Cesar Alejandro | Done |
+| US-006 | Registro de prendas | T-015 | Diseño de sección de prendas | Crear la interfaz para registrar tipo y cantidad de prendas dentro de un pedido. | 4 | Hermoza Quispe, Jude | Done |
+| US-006 | Registro de prendas | T-016 | Endpoint de registro de prendas | Implementar el endpoint que asocia prendas a un pedido existente. | 6 | Mantilla Maldonado, Enrique Manuel | Done |
+| US-006 | Registro de prendas | T-017 | Modelo de prendas en BD | Crear la tabla de prendas y su relación con pedidos y tipos de servicio. | 4 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| US-004 | Seguimiento del pedido | T-018 | Diseño de vista de seguimiento | Crear la interfaz donde el cliente visualiza el estado actual y las etapas del pedido. | 5 | Hermoza Quispe, Jude | Done |
+| US-004 | Seguimiento del pedido | T-019 | Endpoint de consulta de estado | Implementar el endpoint que devuelve el estado actual y el historial de etapas del pedido. | 5 | Linares Bernable, Cesar Alejandro | Done |
+| US-004 | Seguimiento del pedido | T-020 | Integración frontend-backend de seguimiento | Conectar la vista de seguimiento con el endpoint de consulta de estado. | 4 | Hermoza Quispe, Jude | Done |
+| US-011 | Actualizar el estado del pedido | T-021 | Diseño de panel de actualización | Crear la interfaz para que el personal actualice el estado del pedido. | 4 | Perez Vasquez Ariana Valeria | Done |
+| US-011 | Actualizar el estado del pedido | T-022 | Endpoint de actualización de estado | Implementar el endpoint que actualiza el estado y registra fecha, hora y responsable. | 6 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| US-011 | Actualizar el estado del pedido | T-023 | Registro de auditoría de cambios | Implementar el registro histórico de cambios de estado por pedido. | 4 | Linares Bernable, Cesar Alejandro | Done |
 
 ---
 
