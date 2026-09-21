@@ -3512,6 +3512,11 @@ flowchart LR
 
 <img src="./assets/Chapter4/ClassDiagram/laundry_operation.png" width="800px" alt="Laundry Operation">
 
+##### Billing & Subscription
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/billing_subscription.png" width="800px" alt="Billing & Subscription">
 
 ##### Notification
 
@@ -3529,11 +3534,7 @@ flowchart LR
 
 
 
-##### Billing & Subscription
 
-- Frontend
-
-<img src="./assets/Chapter4/ClassDiagram/Billing_Suscription.png" width="800px" alt="Billing & Subscription">
 
 ### 4.8. Database Design
 <p align="justify">
