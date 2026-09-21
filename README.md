@@ -105,6 +105,21 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
   Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
 </p>
 
+<p align="center">
+<img src="assets/contributors_av1.png" alt="Contributors-TechNova-AV1" width="500"/>
+  <br/><i>Contributors of TechNova (AV1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/pulse_av1.png" alt="Pulse-TechNova-AV1" width="500"/>
+  <br/><i>Pulse of TechNova (AV1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/network_graph_av1.png" alt="Contributors-TechNova-AV1" width="500"/>
+  <br/><i>Network graph of TechNova (AV1)</i>
+</p>
+
 <div style="page-break-after: always;"></div>
 
 ---
