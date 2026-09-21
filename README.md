@@ -3488,6 +3488,12 @@ flowchart LR
 
 #### 4.7.1. Class Diagrams
 
+##### Identity & Access Management
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/iam.png" width="800px" alt="Identity & Access Management">
+
 ##### Order Management
 
 - Frontend
@@ -3514,11 +3520,7 @@ flowchart LR
 <img src="./assets/Chapter4/ClassDiagram/Tracking.png" width="800px" alt="Tracking">
 
 
-##### Identity & Access Management
 
-- Frontend
-
-<img src="./assets/Chapter4/ClassDiagram/IAM.png" width="800px" alt="Identity & Access Management">
 
 
 ##### Billing & Subscription
