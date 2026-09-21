@@ -105,6 +105,21 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
   Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
 </p>
 
+<p align="center">
+<img src="assets/contributors_av1.png" alt="Contributors-TechNova-AV1" width="500"/>
+  <br/><i>Contributors of TechNova (AV1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/pulse_av1.png" alt="Pulse-TechNova-AV1" width="500"/>
+  <br/><i>Pulse of TechNova (AV1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/network_graph_av1.png" alt="Contributors-TechNova-AV1" width="500"/>
+  <br/><i>Network graph of TechNova (AV1)</i>
+</p>
+
 <div style="page-break-after: always;"></div>
 
 ---
@@ -239,9 +254,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b></b></em><br>
         <br>
         ...<br>
-        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <b>Mantilla Maldonado, Enrique Manuel</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
+        En esta entrega del proyecto, la realizacion de Big Picture EventStorming, las historias de usuario y el diseño de los mockups, wireframes y prototipo, evidencian un correcto cumplimiento de la comunicacion oral efectiva. Para la elaboracion de las mencionadas actividades, se tuvo que discutir cómo se elaborarian dichas tareas, ya que era necesario para preparar el diseño y la estructura de nuestra aplicacion web WashTrack. Por otra parte, para la elaboración de las entrevistas hubo comunicación para diferentes segmentos lo cual indica que cumplimos con la comunicacion a diferentes rangos de audiencia.<br>
         <em><b>AV2</b></em><br>
         Poner avances av2<br>
         ...<br>
@@ -250,16 +265,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         En la primera entrega del proyecto, las acciones realizadas en la fase de descubrimiento e investigación, tales como el diseño, registro y análisis de entrevistas, la facilitación del proceso Lean UX y la alineación de las historias de usuario, demuestran el cumplimiento del criterio de comunicación oral efectiva. A través de la conducción directa de entrevistas, se estableció una interacción verbal empática y desprovista de tecnicismos para indagar sobre las necesidades de los segmentos objetivo. Asimismo, la articulación oral de las declaraciones de problemas, asunciones e hipótesis en el Lean UX Canvas, sumada a la negociación y clarificación verbal de los criterios de aceptación en las User Stories, evidencia la capacidad de adaptar el discurso, el registro lingüístico y la argumentación a diversos actores del proyecto, abarcando desde usuarios finales hasta stakeholders y el equipo de desarrollo.<br>
         <em><b></b></em><br>
         <br>
-        ...<br>
-        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
-        ...<br>
-        <b>Tufiño Argüelles, Luis Angel</b><br>
-        <em><b>AV1</b></em><br>
-        Poner avances av1<br>
+        Para esta entrega pusimos en practica nuestras habilidades sociales tales como el dialogo que sustuvimos al hacer nuestras entrevistas, ya que tuvimos que dialogar con dos sectores diferentes para la elaboracion de nuestro proyecto. Ademas de dialogar con otras personas, tambien hubo dialogo entre nosotros como equipo, ya que la toma de decisiones era grupal y, por tanto, la comunicacion era fundamental. Por ejemplo, tuvimos que discutir que historias de usuario agregariamos a nuestro proyecto. Tambien, al momento de diseñar como seria la landing y la aplicacion web, tuvimos charlas y reuniones sobre como ibamos a abordar nuestro diseño hasta que todos estuvieramos de acuerdo.<br>
         <em><b>AV2</b></em><br>
         Poner avances av2<br>
         ...<br>
@@ -277,27 +285,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <br>
         <em><b></b></em><br><br>
         ...<br>
-        <b>Ramirez Gutierrez, Gabriel</b><br>
+        <b>Mantilla Maldonado, Enrique Manuel</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
+        Para esta entrega, hubo una comunicación por escrito hacia nuestros distintos entrevistados lo que nos permitio una comunicacion con diferentes rangos de audiencia. Además, nosotros en equipo tambien tuvimos nuestra comunicacion escrita para preparar la elaboracion de nuestro proyecto, resolver dudas y planear reuniones. En nuestro proyecto, hubo conversaciones escritas sobre que historias de usuario elaborar o como deberia ser el diseño de la aplicacion web y la landing page. Por otro lado, la elaboración del ubiquitous languaje evidencia que tuvimos que explicar nuestros terminos tecnicos para que nuestras distintas audiencias puedan entender lo que queremos elaborar en nuestro proyecto.<br>
         <em><b>AV2</b></em><br>
         Poner avances av2<br>
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         En la primera entrega del proyecto, la elaboración de la documentación del proyecto fundamenta el criterio de comunicación escrita efectiva. La redacción de los antecedentes, la problemática y la definición de la solución junto con los mapas de empatía y User Journey Maps transmiten los hallazgos del negocio de forma formal, clara y accesible para audiencias no técnicas. Además, la especificación estructurada de historias de usuario y la formalización arquitectónica plasmada en los diagramas de clases y diagramas de base de datos manifiestan el dominio de una comunicación escrita rigurosa y estandarizada bajo notaciones técnicas (como UML y modelos Entidad-Relación), garantizando la transmisión precisa de requerimientos a la audiencia técnica de ingeniería.<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
-        ...<br>
-        <b>Sayago Vidal, Sebastián Leonardo</b><br>
+        <em><b></b></em><br>
+        <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
-        Poner avances av1<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
-        ...<br>
-        <b>Tufiño Argüelles, Luis Angel</b><br>
-        <em><b>AV1</b></em><br>
-        Poner avances av1<br>
+        Para esta entrega se busco mejorar la efectividad escrita atraves de varios ejercicios, tales como la redaccion de este documento o el obiquitous language en el cual mostramos el lenguaje y los terminos que usamos como equipo y se los mostramos al publico para un mejor entendimiento. Ademas, parte del diseño de nuestra Landing Page y nuestro aplicacion web esta diseñado para captar a la mayor cantidad de publico usando una escritura correcta y entendible para nuestros usuarios.<br>
         <em><b>AV2</b></em><br>
         Poner avances av2<br>
         ...<br>
@@ -889,8 +889,23 @@ Como prioridad, el producto mínimo viable debe concentrarse en la administraci�
 
 
 #### 2.2.2. Registro de entrevistas
-**Primer Segmento: Propietarios de lavanderías independientes**
+**Primer Segmento: Propietarios de lavanderías independientes**<br>
 <u>Entrevista 1:</u>
+
+Entrevistador: Enrique Manuel Mantilla Maldonado
+
+Datos del entrevistado:
+
+- **Nombre:** Isabella
+- **Apellidos:** Orrego
+- **Edad:** 42 años
+- **Distrito:** Bellavista
+- **Timing:** 00:00:15 - 00:04:41
+
+<div align="justify">
+  Isabella, dirige una lavandería independiente, ella se encarga de gestionar los pedidos y el proceso de lavado dentro de su lavandería. Ella se encarga de realizar la recepcion de los pedidos y registrar todo mediante boletas y apuntarlos en excel, donde indica el código del pedido, las prendas, cantidades y la hora estimada de recojo. Ademas, se comunica con el cliente atraves de whatsapp. Sin embargo, entre las principales dificultades se encuentra el problema de registrar prendas incorrectamente u obviar detalles de las prendas. Sobre su negocio menciona que tienen servicio de recojo y que tienen pensado en hacer delivery, pero que por el momento no ofrecen delivery. Ademas, menciona que estaria dispuesta a probar un aplicativo que le ayude con la gestion.
+</div>
+
 
 <br>
 <u>Entrevista 2:</u>
@@ -1424,6 +1439,275 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
       <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
     </tr>
   </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-013</td> 
+      <td style="border: 1px solid black; padding: 8px;">Solicitar demostración desde la Landing Page</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como visitante del segmento de propietarios, quiero solicitar una demostración de WashTrack desde la Landing Page, para conocer la plataforma antes de decidir la contratación de un plan.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Envío exitoso de solicitud</b><br> 
+        <b>Dado</b> que el visitante se encuentra en la Landing Page<br> 
+        <b>Cuando</b> completa el formulario de contacto con su nombre, correo electrónico, nombre del negocio y teléfono, y confirma el envío<br> <b>Entonces</b> el sistema registra la solicitud y muestra un mensaje confirmando que un representante lo contactará.<br><br> 
+        <b>Escenario 2: Datos incompletos o inválidos</b><br> 
+        <b>Dado</b> que el visitante se encuentra en el formulario de solicitud de demostración<br> 
+        <b>Cuando</b> ingresa datos incompletos o un correo electrónico con formato inválido<br> 
+        <b>Entonces</b> el sistema resalta los campos por corregir y no permite enviar la solicitud. </td> 
+        <td style="border: 1px solid black; padding: 8px;">EP-013: Landing Page y Marketing</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-014</td> 
+      <td style="border: 1px solid black; padding: 8px;">Recuperar contraseña</td> <td style="border: 1px solid black; padding: 8px;">Como usuario registrado, quiero recuperar mi contraseña cuando la olvide, para poder volver a acceder a mi cuenta sin necesidad de crear una nueva.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Solicitud de recuperación</b><br> 
+        <b>Dado</b> que el usuario se encuentra en la pantalla de inicio de sesión<br> 
+        <b>Cuando</b> selecciona la opción "Olvidé mi contraseña" e ingresa un correo electrónico registrado<br> 
+        <b>Entonces</b> el sistema envía un enlace de restablecimiento al correo indicado y muestra un mensaje de confirmación.<br><br> 
+        <b>Escenario 2: Correo no registrado</b><br> 
+        <b>Dado</b> que el usuario ha solicitado recuperar su contraseña<br> <b>Cuando</b> ingresa un correo electrónico que no pertenece a ninguna cuenta<br> 
+        <b>Entonces</b> el sistema muestra un mensaje indicando que el correo no está registrado y solicita verificar la información. </td> 
+        <td style="border: 1px solid black; padding: 8px;">EP-014: Autenticación y gestión de usuarios</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-015</td> 
+      <td style="border: 1px solid black; padding: 8px;">Registrar dirección de recojo y entrega</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero registrar y administrar mis direcciones de recojo y entrega, para agilizar la solicitud de servicios a domicilio sin ingresar los datos cada vez.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Registro de dirección</b><br> 
+        <b>Dado</b> que el cliente ha iniciado sesión y se encuentra en la sección de direcciones<br> 
+        <b>Cuando</b> ingresa una dirección válida con distrito, referencia y datos de contacto<br> 
+        <b>Entonces</b> el sistema guarda la dirección y la muestra en su lista de direcciones.<br><br> 
+        <b>Escenario 2: Dirección predeterminada</b><br> 
+        <b>Dado</b> que el cliente tiene al menos una dirección registrada<br> <b>Cuando</b> marca una dirección como predeterminada<br> 
+        <b>Entonces</b> el sistema la utiliza por defecto en las siguientes solicitudes de recojo o entrega. </td> <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-016</td> 
+      <td style="border: 1px solid black; padding: 8px;">Realizar pago digital de un pedido</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero pagar digitalmente el servicio de lavandería asociado a mi pedido, para completar el pago sin necesidad de hacerlo presencialmente en efectivo.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Pago exitoso</b><br> 
+        <b>Dado</b> que el cliente tiene un pedido con monto pendiente de pago<br> <b>Cuando</b> selecciona el método de pago, ingresa los datos solicitados y confirma la operación<br> 
+        <b>Entonces</b> el sistema registra el pago, actualiza el estado del pedido y muestra un comprobante digital.<br><br> 
+        <b>Escenario 2: Pago rechazado</b><br> 
+        <b>Dado</b> que el cliente se encuentra realizando el pago de un pedido<br> <b>Cuando</b> la operación es rechazada por la entidad financiera<br> <b>Entonces</b> el sistema informa que el pago no pudo completarse y mantiene el monto como pendiente. </td> 
+        <td style="border: 1px solid black; padding: 8px;">EP-003: Pagos digitales</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-017</td> 
+      <td style="border: 1px solid black; padding: 8px;">Gestionar planes de suscripción de la lavandería</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como propietario de lavandería, quiero gestionar el plan de suscripción de mi negocio, para cambiar de plan o renovar el servicio según las necesidades de mi operación.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Cambio de plan</b><br> 
+        <b>Dado</b> que el propietario ha iniciado sesión y tiene un plan activo<br> <b>Cuando</b> selecciona otro plan disponible y confirma el cambio<br> <b>Entonces</b> el sistema actualiza el plan contratado y habilita las funcionalidades correspondientes.<br><br> 
+        <b>Escenario 2: Vencimiento del plan</b><br> 
+        <b>Dado</b> que el plan contratado por la lavandería ha alcanzado su fecha de vencimiento<br> 
+        <b>Cuando</b> el propietario ingresa a la plataforma<br> 
+        <b>Entonces</b> el sistema muestra un aviso de vencimiento y solicita renovar para mantener las funcionalidades del plan. </td> 
+        <td style="border: 1px solid black; padding: 8px;">EP-012: Suscripciones</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-018</td> 
+      <td style="border: 1px solid black; padding: 8px;">Configurar tipos de servicio y precios</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como administrador de lavandería, quiero configurar los tipos de servicio y sus precios, para que los pedidos se registren con la información comercial vigente de mi negocio.</td> 
+      <td style="border: 1px solid black; padding: 8px;"> 
+        <b>Escenario 1: Registro de un servicio</b><br> 
+        <b>Dado</b> que el administrador ha iniciado sesión y se encuentra en la sección de configuración<br> 
+        <b>Cuando</b> registra el nombre de un servicio, su descripción y precio<br> <b>Entonces</b> el sistema guarda el servicio y lo muestra como opción disponible al crear pedidos.<br><br> 
+        <b>Escenario 2: Actualización de precio</b><br> 
+        <b>Dado</b> que existe un servicio registrado con un precio anterior<br> <b>Cuando</b> el administrador modifica su precio<br> 
+        <b>Entonces</b> el sistema aplica el nuevo precio a los pedidos creados a partir de ese momento, sin alterar los pedidos ya registrados. </td> <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td> </tr> </tbody>
+
+  <tbody> 
+    <tr> 
+      <td style="border: 1px solid black; padding: 8px;">US-019</td> 
+      <td style="border: 1px solid black; padding: 8px;">Consultar historial de pagos</td> 
+      <td style="border: 1px solid black; padding: 8px;">Como propietario de lavandería, quiero consultar el historial de pagos registrados en la plataforma, para verificar los ingresos asociados a los pedidos atendidos.</td> 
+      <td style="border: 1px solid black; padding: 8px;">   
+        <b>Escenario 1: Consulta del historial</b><br> 
+        <b>Dado</b> que el propietario ha iniciado sesión y existen pagos registrados<br> 
+        <b>Cuando</b> ingresa a la sección de pagos y selecciona un periodo<br> <b>Entonces</b> el sistema muestra la lista de pagos con fecha, pedido, cliente, monto y estado.<br><br> 
+        <b>Escenario 2: Filtro sin resultados</b><br> 
+        <b>Dado</b> que el propietario aplica un filtro de búsqueda en el historial de pagos<br> 
+        <b>Cuando</b> no existen pagos que coincidan con los criterios seleccionados<br> 
+        <b>Entonces</b> el sistema muestra un mensaje indicando que no se encontraron resultados. </td> <td style="border: 1px solid black; padding: 8px;">EP-003: Pagos digitales</td> </tr> </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-020</td>
+      <td style="border: 1px solid black; padding: 8px;">Cancelar un pedido</td>
+      <td style="border: 1px solid black; padding: 8px;">Como cliente, quiero cancelar un pedido registrado, para detener el servicio cuando ya no necesito el lavado de mis prendas.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Cancelación permitida</b><br>
+        <b>Dado</b> que el cliente intenta cancelar un pedido que ya se encuentra en proceso o listo para entrega<br>
+        <b>Cuando</b> selecciona la opción de cancelar y confirma la acción<br>
+        <b>Entonces</b> el sistema cambia el estado del pedido a "Cancelado" y muestra una confirmación al cliente.<br><br>
+        <b>Escenario 2: Cancelación no permitida</b><br>
+        <b>Dado</b> que el cliente intenta cancelar un pedido que ya se encuentra en proceso o listo para entrega<br>
+        <b>Cuando</b> selecciona la opción de cancelar<br>
+        <b>Entonces</b> el sistema informa que el pedido ya no puede cancelarse y sugiere contactar a la lavandería.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-021</td>
+      <td style="border: 1px solid black; padding: 8px;">Aceptar solicitudes de recojo</td>
+      <td style="border: 1px solid black; padding: 8px;">Como personal de lavanderia, quiero poder aceptar las solicitudes de recojo, para poder enviar un conductor a que recoja las prendas de nuestros clientes</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Aceptación exitosa</b><br>
+        <b>Dado</b> que el personal esta en la seccion de pedidos y existe una solicitud de recojo pendiente<br>
+        <b>Cuando</b> la revisa y presiona el boton de con el icono de un check y escoge el conductor<br>
+        <b>Entonces</b> el sistema actualiza el estado de la solicitud a "En Ruta" y notifica al cliente.<br><br>
+        <b>Escenario 2: Asignación de conductor</b><br>
+        <b>Dado</b> que la solicitud de recojo fue aceptada<br>
+        <b>Cuando</b> el personal asigna un conductor para la recolección<br>
+        <b>Entonces</b> el sistema registra la asignación y la asocia a la solicitud de recojo.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-022</td>
+      <td style="border: 1px solid black; padding: 8px;">Enviar delivery</td>
+      <td style="border: 1px solid black; padding: 8px;">Como personal de lavandería, quiero enviar el delivery de un pedido asignando un repartidor, para que las prendas sean entregadas a domicilio y el cliente conozca quién las llevará.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Asignación de repartidor</b><br>
+        <b>Dado</b> que un pedido está listo para entrega a domicilio y el personal se encuentra en la seccion de entregas<br>
+        <b>Cuando</b> el personal selecciona la opción "Despachar" y elige un repartidor<br>
+        <b>Entonces</b> el sistema registra el envío, actualiza el estado del pedido a "En Ruta" y notifica al cliente con los datos del repartidor.<br><br>
+        <b>Escenario 2: Sin repartidor disponible</b><br>
+        <b>Dado</b> que el personal desea enviar un delivery<br>
+        <b>Cuando</b> no hay repartidores disponibles<br>
+        <b>Entonces</b> el sistema muestra un mensaje indicando que no hay repartidores disponibles y mantiene el pedido pendiente de envío.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-023</td>
+      <td style="border: 1px solid black; padding: 8px;">Registrar conductores</td>
+      <td style="border: 1px solid black; padding: 8px;">Como administrador de lavandería, quiero poder registrar conductores, para que puedan ser utilizados en los recojos y deliverys</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Registro exitoso</b><br>
+        <b>Dado</b> que el administrador se encuentra en la sección de conductores<br>
+        <b>Cuando</b> ingresa el nombre, teléfono y vehiculo del conductor<br>
+        <b>Entonces</b> el sistema guarda el conductor y lo muestra como opción disponible para los recojos y deliverys.<br><br>
+        <b>Escenario 2: Conductor duplicado</b><br>
+        <b>Dado</b> que el administrador intenta registrar un conductor con un teléfono ya existente<br>
+        <b>Cuando</b> envía el formulario<br>
+        <b>Entonces</b> el sistema muestra un mensaje de error que indica que el conductor ya está registrado.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-024</td>
+      <td style="border: 1px solid black; padding: 8px;">Reajuste de precio</td>
+      <td style="border: 1px solid black; padding: 8px;">Como personal de lavanderia, quiero poder reajustar el precio luego de hacer la revision, para que se pueda comprobar el precio real que se le pedira al cliente</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Reajuste del precio tras la revisión</b><br>
+        <b>Dado</b> que se realizó la revisión de las prendas de un pedido<br>
+        <b>Cuando</b> el personal presiona el boton revisar y modifica el pedido y el precio, y confirma el cambio<br>
+        <b>Entonces</b> el sistema actualiza el precio del pedido y muestra el monto final que se cobrará al cliente.<br><br>
+        <b>Escenario 2: Notificación del nuevo precio</b><br>
+        <b>Dado</b> que el precio de un pedido fue reajustado<br>
+        <b>Cuando</b> el sistema registra el cambio<br>
+        <b>Entonces</b> notifica al cliente el monto actualizado del servicio.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-025</td>
+      <td style="border: 1px solid black; padding: 8px;">Cambiar precio de ropa por kilo</td>
+      <td style="border: 1px solid black; padding: 8px;">Como administrador de lavandería, quiero cambiar el precio por kilo de la ropa, para ajustarlo segun las necesidades del negocio. </td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Actualización de la tarifa</b><br>
+        <b>Dado</b> que el administrador se encuentra en la sección servicios<br>
+        <b>Cuando</b> cambia el precio por kilo y confirma la modificación<br>
+        <b>Entonces</b> el sistema actualiza la tarifa vigente para los nuevos pedidos.<br><br>
+        <b>Escenario 2: Precio inválido</b><br>
+        <b>Dado</b> que el administrador ingresa un precio inválido o vacío<br>
+        <b>Cuando</b> intenta guardar el cambio<br>
+        <b>Entonces</b> el sistema muestra un mensaje de error y mantiene el precio anterior.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-026</td>
+      <td style="border: 1px solid black; padding: 8px;">Añadir nuevo servicio de prenda especial</td>
+      <td style="border: 1px solid black; padding: 8px;">Como administrador de lavanderia, quiero agregar nuevos servicios de prendas especiales, para brindar mas tipos de servicios a nuestros clientes</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Registro del servicio</b><br>
+        <b>Dado</b> que el administrador se encuentra en la sección de servicios y presiona el boton "Agregar Prenda Especial"<br>
+        <b>Cuando</b> registra el nombre, descripción y precio del servicio para prendas especiales<br>
+        <b>Entonces</b> el sistema guarda el servicio y lo muestra como opción disponible al crear pedidos.<br><br>
+        <b>Escenario 2: Nombre duplicado</b><br>
+        <b>Dado</b> que el administrador intenta añadir un servicio con un nombre ya registrado<br>
+        <b>Cuando</b> envía el formulario<br>
+        <b>Entonces</b> el sistema muestra un mensaje de error indicando que el servicio ya existe.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Gestión de pedidos</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-027</td>
+      <td style="border: 1px solid black; padding: 8px;">Rechazar recojo</td>
+      <td style="border: 1px solid black; padding: 8px;">Como personal de lavanderia, quiero poder rechazar solicitudes de recojo, para enviarle la notificacion al cliente de que en ese momento no esta disponible</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Rechazo de la solicitud</b><br>
+        <b>Dado</b> que existe una solicitud de recojo pendiente<br>
+        <b>Cuando</b> el personal la rechaza e indica un motivo<br>
+        <b>Entonces</b> el sistema actualiza el estado de la solicitud a "Rechazada".<br><br>
+        <b>Escenario 2: Notificación al cliente</b><br>
+        <b>Dado</b> que la solicitud de recojo ha sido rechazada<br>
+        <b>Cuando</b> el sistema registra el rechazo<br>
+        <b>Entonces</b> envía una notificación al cliente con el motivo.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-002: Logística a domicilio</td>
+    </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">US-028</td>
+      <td style="border: 1px solid black; padding: 8px;">Exportar pedidos en excel</td>
+      <td style="border: 1px solid black; padding: 8px;">Como administrador de lavanderias, quiero poder exportar en excel los pedidos que necesite, para poder estudiarlos y tomarlos en cuenta para las tomas de decisiones.</td>
+      <td style="border: 1px solid black; padding: 8px;">
+        <b>Escenario 1: Exportación exitosa</b><br>
+        <b>Dado</b> que el administrador esta en la seccion pedidos y existen pedidos registrados<br>
+        <b>Cuando</b> selecciona la opción de exportar y elige el periodo o los pedidos requeridos<br>
+        <b>Entonces</b> el sistema genera y descarga un archivo Excel con la información solicitada.<br><br>
+        <b>Escenario 2: Sin pedidos en el periodo</b><br>
+        <b>Dado</b> que el administrador selecciona un periodo sin pedidos registrados<br>
+        <b>Cuando</b> intenta exportar<br>
+        <b>Entonces</b> el sistema muestra un mensaje indicando que no hay información para exportar.
+      </td>
+      <td style="border: 1px solid black; padding: 8px;">EP-008: Reportes y dashboard</td>
+    </tr>
+  </tbody>
+
 </table>
 
 <br>
@@ -1540,7 +1824,7 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
         <b>Cuando</b> el servidor valida la solicitud<br>
         <b>Entonces</b> rechaza la actualización y retorna un código HTTP de error.
       </td>
-      <td style="border: 1px solid black; padding: 8px;">EP-001: Seguimiento de pedidos</td>
+      <td style="border: 1px solid black; padding: 8px;">EP-004: Seguimiento de pedidos</td>
     </tr>
   </tbody>
 
@@ -1731,7 +2015,48 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
 
 ### 3.2. Impact Mapping
 
+<div align="center">
+  <img src="./assets/Chapter3/impact_mapping_1.png" width="700px" alt="ImpactMapping1">
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter3/impact_mapping_2.png" width="700px" alt="ImpactMapping2">
+</div>
+
+Link: <https://uxpressia.com/w/HqCwq/i/BSY5m?tagId=coQzP>
+
 ### 3.3. Product Backlog
+
+| Orden | User Story ID | Título | Descripción | Story Points | 
+|---|---|---|---|---|
+| 1 | US-001 | Registro de usuario | Como cliente, quiero registrarme en Easy Wash proporcionando mis datos personales, para crear una cuenta y poder gestionar mis servicios de lavandería. | 5 |
+| 2 | US-002 | Inicio de sesión | Como usuario registrado, quiero iniciar sesión en Easy Wash, para acceder a las funciones correspondientes a mi cuenta. | 3 |
+| 3 | US-014 | Recuperar contraseña | Como usuario registrado, quiero recuperar mi contraseña cuando la olvide, para poder volver a acceder a mi cuenta sin necesidad de crear una nueva. | 3 |
+| 4 | US-005 | Gestión de pedidos | Como personal de lavandería, quiero registrar y gestionar los pedidos de los clientes, para mantener organizada la información de los servicios solicitados. | 8 |
+| 5 | US-006 | Registro de prendas | Como personal de lavandería, quiero registrar las prendas asociadas a cada pedido, para controlar correctamente las prendas recibidas y evitar confusiones durante el servicio. | 5 |
+| 6 | US-004 | Seguimiento del pedido | Como cliente, quiero visualizar el estado de mi pedido, para conocer en qué etapa se encuentran mis prendas sin tener que contactar directamente con la lavandería. | 5 |
+| 7 | US-011 | Actualizar el estado del pedido | Como trabajador de lavandería, quiero actualizar el estado de los pedidos, para mantener registrada la evolución del servicio. | 5 |
+| 8 | US-003 | Visualización de pedidos | Como cliente, quiero consultar mis pedidos actuales y anteriores, para conocer el historial de los servicios de lavandería que he utilizado. | 5 |
+| 9 | US-009 | Recibir notificaciones del estado del pedido | Como cliente, quiero recibir notificaciones sobre los cambios de estado de mi pedido, para conocer el avance del servicio. | 5 |
+| 10 | US-010 | Solicitar recojo de prendas a domicilio | Como cliente, quiero solicitar el recojo de mis prendas a domicilio, para enviar mi ropa a la lavandería de manera cómoda. | 8 |
+| 11 | US-015 | Registrar dirección de recojo y entrega | Como cliente, quiero registrar y administrar mis direcciones de recojo y entrega, para agilizar la solicitud de servicios a domicilio sin ingresar los datos cada vez. | 5 |
+| 12 | US-021 | Aceptar solicitudes de recojo | Como personal de lavandería, quiero poder aceptar las solicitudes de recojo, para poder enviar un conductor a que recoja las prendas de nuestros clientes. | 5 |
+| 13 | US-023 | Registrar conductores | Como administrador de lavandería, quiero poder registrar conductores, para que puedan ser utilizados en los recojos y deliverys. | 5 |
+| 14 | US-027 | Rechazar recojo | Como personal de lavandería, quiero poder rechazar solicitudes de recojo, para enviarle la notificación al cliente de que en ese momento no está disponible. | 3 |
+| 15 | US-022 | Enviar delivery | Como personal de lavandería, quiero enviar el delivery de un pedido asignando un repartidor, para que las prendas sean entregadas a domicilio y el cliente conozca quién las llevará. | 8 |
+| 16 | US-016 | Realizar pago digital de un pedido | Como cliente, quiero pagar digitalmente el servicio de lavandería asociado a mi pedido, para completar el pago sin necesidad de hacerlo presencialmente en efectivo. | 8 |
+| 17 | US-019 | Consultar historial de pagos | Como propietario de lavandería, quiero consultar el historial de pagos registrados en la plataforma, para verificar los ingresos asociados a los pedidos atendidos. | 5 |
+| 18 | US-018 | Configurar tipos de servicio y precios | Como administrador de lavandería, quiero configurar los tipos de servicio y sus precios, para que los pedidos se registren con la información comercial vigente de mi negocio. | 5 |
+| 19 | US-024 | Reajuste de precio | Como personal de lavandería, quiero poder reajustar el precio luego de hacer la revisión, para que se pueda comprobar el precio real que se le pedirá al cliente. | 5 |
+| 20 | US-025 | Cambiar precio de ropa por kilo | Como administrador de lavandería, quiero cambiar el precio por kilo de la ropa, para ajustarlo según las necesidades del negocio. | 3 |
+| 21 | US-026 | Añadir nuevo servicio de prenda especial | Como administrador de lavandería, quiero agregar nuevos servicios de prendas especiales, para brindar más tipos de servicios a nuestros clientes. | 5 |
+| 22 | US-020 | Cancelar un pedido | Como cliente, quiero cancelar un pedido registrado, para detener el servicio cuando ya no necesito el lavado de mis prendas. | 3 |
+| 23 | US-017 | Gestionar planes de suscripción de la lavandería | Como propietario de lavandería, quiero gestionar el plan de suscripción de mi negocio, para cambiar de plan o renovar el servicio según las necesidades de mi operación. | 8 |
+| 24 | US-008 | Consultar planes y precios | Como visitante del segmento de propietarios, quiero consultar los planes y precios de Easy Wash, para evaluar la alternativa que mejor se adapte a las necesidades de mi lavandería. | 3 |
+| 25 | US-012 | Consultar métricas operativas | Como propietario de lavandería, quiero consultar las métricas operativas del negocio, para conocer el volumen de pedidos, ingresos y estado de las operaciones. | 8 |
+| 26 | US-028 | Exportar pedidos en Excel | Como administrador de lavanderías, quiero poder exportar en Excel los pedidos que necesite, para poder estudiarlos y tomarlos en cuenta para las tomas de decisiones. | 5 |
+| 27 | US-007 | Conocer la propuesta de valor de Easy Wash | Como visitante, quiero conocer la propuesta de valor y los beneficios de Easy Wash, para comprender cómo la plataforma mejora la gestión de lavanderías. | 3 |
+| 28 | US-013 | Solicitar demostración desde la Landing Page | Como visitante del segmento de propietarios, quiero solicitar una demostración de WashTrack desde la Landing Page, para conocer la plataforma antes de decidir la contratación de un plan. | 5 |
 
 ---
 
@@ -3204,44 +3529,53 @@ flowchart LR
 
 #### 4.7.1. Class Diagrams
 
-##### Order Management
-
-- Frontend
-
-<img src="./assets/Chapter4/ClassDiagram/OrderManagement.png" width="800px" alt="Order Management">
-
-##### Laundry Operation
-
-- Frontend
-
-<img src="./assets/Chapter4/ClassDiagram/LaundryOperation.png" width="800px" alt="Laundry Operation">
-
-
-##### Notification
-
-- Frontend
-
-<img src="./assets/Chapter4/ClassDiagram/Notifications.png" width="800px" alt="Notification">
-
-##### Tracking
-
-- Frontend
-
-<img src="./assets/Chapter4/ClassDiagram/Tracking.png" width="800px" alt="Tracking">
-
-
 ##### Identity & Access Management
 
 - Frontend
 
 <img src="./assets/Chapter4/ClassDiagram/IAM.png" width="800px" alt="Identity & Access Management">
 
+##### Customer & Laundry Management
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/customer_laundry_management.png" width="800px" alt="Customer & Laundry Management">
+
+##### Order Management
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/order_management.png" width="800px" alt="Order Management">
+
+##### Laundry Operation
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/laundry_operation.png" width="800px" alt="Laundry Operation">
 
 ##### Billing & Subscription
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/Billing_Suscription.png" width="800px" alt="Billing & Subscription">
+<img src="./assets/Chapter4/ClassDiagram/billing_subscription.png" width="800px" alt="Billing & Subscription">
+
+##### Delivery Management
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/delivery_management.png" width="800px" alt="Delivery Management">
+
+##### Tracking & Notifications
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/tracking_notifications.png" width="800px" alt="Tracking & Notifications">
+
+
+
+
+
+
 
 ### 4.8. Database Design
 <p align="justify">
@@ -3250,7 +3584,266 @@ flowchart LR
 
 #### 4.8.1. Database Diagrams
 
-<img src="./assets/Chapter4/database_diagram.png" width="800px" alt="Database diagram">
+
+```mermaid
+erDiagram
+
+    laundry {
+        uuid id PK
+        varchar name
+        varchar business_name
+        varchar ruc
+        varchar phone
+        Email email
+        Address address
+        boolean is_active
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    role {
+        uuid id PK
+        varchar name
+        varchar description
+        boolean is_active
+        DateTime created_at
+    }
+
+    permission {
+        uuid id PK
+        varchar name
+        varchar code
+        varchar module
+        varchar description
+    }
+
+    role_permission {
+        uuid role_id PK_FK
+        uuid permission_id PK_FK
+    }
+
+    user {
+        uuid id PK
+        uuid laundry_id FK
+        uuid role_id FK
+        PersonName first_name
+        PersonLastName last_name
+        DNI dni
+        Email email
+        varchar phone
+        date birth_date
+        text notes
+        boolean is_active
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    address {
+        uuid id PK
+        uuid user_id FK
+        Address address
+        varchar reference
+        varchar district
+        varchar province
+        varchar postal_code
+        boolean is_default
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    order {
+        uuid id PK
+        uuid laundry_id FK
+        uuid customer_id FK
+        varchar order_number
+        DateTime received_at
+        DateTime estimated_delivery_at
+        decimal subtotal
+        decimal delivery_fee
+        decimal discount
+        decimal total
+        text notes
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    order_status {
+        uuid id PK
+        varchar code
+        varchar name
+        varchar description
+        int sort_order
+        boolean is_active
+    }
+
+    order_status_history {
+        uuid id PK
+        uuid order_id FK
+        uuid status_id FK
+        uuid user_id FK
+        text comment
+        DateTime started_at
+        DateTime ended_at
+        DateTime created_at
+    }
+
+    garment {
+        uuid id PK
+        varchar name
+        varchar category
+        varchar description
+        boolean is_active
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    order_item {
+        uuid id PK
+        uuid order_id FK
+        uuid garment_id FK
+        varchar garment_code
+        int quantity
+        varchar color
+        varchar brand
+        varchar material
+        text notes
+        decimal unit_price
+        varchar status
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    service {
+        uuid id PK
+        uuid laundry_id FK
+        varchar name
+        varchar description
+        decimal base_price
+        boolean is_active
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    order_service {
+        uuid id PK
+        uuid order_id FK
+        uuid service_id FK
+        decimal quantity
+        decimal unit_price
+        decimal subtotal
+        text notes
+        DateTime created_at
+    }
+
+    order_item_service {
+        uuid id PK
+        uuid order_item_id FK
+        uuid service_id FK
+        decimal price
+        DateTime created_at
+    }
+
+    payment {
+        uuid id PK
+        uuid order_id FK
+        decimal amount
+        varchar payment_method
+        varchar status
+        varchar reference
+        DateTime paid_at
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    delivery {
+        uuid id PK
+        uuid order_id FK
+        uuid address_id FK
+        varchar type
+        DateTime scheduled_at
+        DateTime completed_at
+        varchar status
+        decimal fee
+        text notes
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    notification {
+        uuid id PK
+        uuid user_id FK
+        uuid order_id FK
+        varchar type
+        varchar title
+        varchar message
+        varchar channel
+        boolean is_read
+        DateTime sent_at
+        DateTime created_at
+    }
+
+    audit_log {
+        uuid id PK
+        uuid laundry_id FK
+        uuid user_id FK
+        varchar entity
+        uuid entity_id
+        varchar action
+        json old_values
+        json new_values
+        DateTime created_at
+    }
+
+    %% ==========================================
+    %% SECURITY AND ROLES RELATIONS
+    %% ==========================================
+
+    role ||--o{ role_permission : ""
+    permission ||--o{ role_permission : ""
+    role ||--o{ user : ""
+
+    %% ==========================================
+    %% LAUNDRY AND USERS RELATIONS
+    %% ==========================================
+
+    laundry ||--o{ user : ""
+    laundry ||--o{ service : ""
+    laundry ||--o{ order : ""
+    laundry ||--o{ audit_log : ""
+
+    user ||--o{ address : ""
+    user ||--o{ order : ""
+    user ||--o{ notification : ""
+    user ||--o{ order_status_history : ""
+    user ||--o{ audit_log : ""
+
+    %% ==========================================
+    %% ORDERS RELATIONS
+    %% ==========================================
+
+    order ||--o{ order_item : ""
+    order ||--o{ order_service : ""
+    order ||--o{ order_status_history : ""
+    order ||--o{ payment : ""
+    order ||--o{ delivery : ""
+    order ||--o{ notification : ""
+
+    %% ==========================================
+    %% STATUSES AND GARMENTS RELATIONS
+    %% ==========================================
+
+    order_status ||--o{ order_status_history : ""
+    garment ||--o{ order_item : ""
+    order_item ||--o{ order_item_service : ""
+    service ||--o{ order_item_service : ""
+    service ||--o{ order_service : ""
+
+    %% ==========================================
+    %% ADDRESSES / DELIVERY RELATIONS
+    %% ==========================================
+
+    address ||--o{ delivery : "used_in"
+```
 
 ---
 
@@ -3508,8 +4101,68 @@ De esta manera, **TechNova** mantiene una relación controlada entre el código 
 #### 5.2.1. Sprint 1
 
 ##### 5.2.1.1. Sprint Planning 1
+
+En esta sección, se establecen los aspectos claves del Sprint Planning Meeting correspondiente al Sprint 1 del proyecto. Se inclueye información como la fecha y hora, locación, participantes, objetivo, velocidad del equipo y los puntos de historia comprometidos para este Spring . A continuación se presentará el resumen del Sprint Planning Meeting.
+
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| Sprint Planning Background |
+| Date | 2026-09-20 |
+| Time | 08:58 AM |
+| Location | Reunión virtual |
+| Prepared by | Ariana Vasquez, Adriana Fuentes |
+| Attendees (to planning meeting) | Ariana Vasquez, Adriana Fuentes / Cesar Linares, Jude Hermoza / Ariana Vasquez, Enrique Mantilla / Adriana Fuentes |
+| Sprint 0 Review Summary | No existe sprint previo |
+| Sprint 0 Retrospective Summary | No existe sprint previo |
+| Sprint Goal & User Stories |
+| Sprint 1 Goal | Implementar el núcleo de autenticación, registro de usuarios y gestión básica de pedidos que permita a lavanderías y clientes operar el flujo mínimo viable de WashTrack (registro, login, creación de pedidos, registro de prendas y visualización de estados). |
+| Sprint 1 Velocity | 34 Story Points |
+| Sum of Story Points | 34 Story Points |
+
 ##### 5.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección, se establecen los aspectos clave del Aspect Leaders and Collaborators correspondiente al Sprint 1 del proyecto WashTrack. Se incluye información como los aspectos técnicos identificados (autenticación, gestión de pedidos, registro de prendas, seguimiento y actualización de estados), los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación se presentará el resumen de la distribución de roles por aspecto.
+
+| Team Member | Github Username | Coordinación del equipo y revisión de documento | Desarrollo del frontend en Angular para los formularios de registro, inicio de sesión y recuperación de contraseña | Configuración de la base de datos y diseño del modelo relacional para usuarios, pedidos y prendas | Implementación del backend en Java con Spring Boot para la gestión de pedidos y el registro de prendas | Apoyo en la integración del frontend con el backend y documentación técnica del sprint |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Hermoza, Jude | JvnnDev | C | C | C | C | C |
+| Mantilla, Enrique | enrique-mantilla | C | C | C | C | C |
+| Perez, Ariana | ArianaPerez34 | L | L | C | L | C |
+| Ramos, Adriana | adriana832 | C | C | L | C | L |
+| Linares, Cesar | Cesar-Linares | C | C | C | C | C |
+
 ##### 5.2.1.3. Sprint Backlog 1
+
+El objetivo principal del Sprint 1 es implementar las funciones esenciales para la creación y gestión de tareas de la aplicación WashTrack. Creemos que esto permite a supervisores y técnicos empezar a interactuar con la plataforma en sus aspectos básicos.
+
+| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US-001 | Registro de usuario | T-001 | Diseño del formulario de registro | Crear el mockup y la interfaz del formulario de registro (nombre, teléfono, correo, contraseña). | 4 | Hermoza Quispe, Jude | Done |
+| US-001 | Registro de usuario | T-002 | Validaciones de campos del registro | Implementar validaciones de formato de correo, campos obligatorios y longitud de contraseña. | 4 | Mantilla Maldonado, Enrique Manuel | Done |
+| US-001 | Registro de usuario | T-003 | Endpoint de registro de usuario | Implementar el endpoint REST para crear usuarios con validación y hash de contraseña. | 6 | Perez Vasquez Ariana Valeria | Done |
+| US-001 | Registro de usuario | T-004 | Persistencia de usuarios en BD | Crear la tabla de usuarios y la conexión del repositorio con la base de datos. | 4 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| US-002 | Inicio de sesión | T-005 | Diseño de pantalla de login | Crear la interfaz de inicio de sesión con campos de correo y contraseña. | 3 | Linares Bernable, Cesar Alejandro | Done |
+| US-002 | Inicio de sesión | T-006 | Endpoint de autenticación | Implementar el endpoint de login con validación de credenciales y generación de token. | 6 | Linares Bernable, Cesar Alejandro | Done |
+| US-002 | Inicio de sesión | T-007 | Redirección por rol | Implementar la lógica de redirección al panel correspondiente según el rol del usuario. | 3 | Mantilla Maldonado, Enrique Manuel | Done |
+| US-014 | Recuperar contraseña | T-008 | Diseño de pantalla de recuperación | Crear la interfaz para solicitar recuperación de contraseña. | 3 | Perez Vasquez Ariana Valeria | Done |
+| US-014 | Recuperar contraseña | T-009 | Endpoint de recuperación | Implementar el endpoint que envía el enlace de restablecimiento al correo registrado. | 5 | Hermoza Quispe, Jude | Done |
+| US-014 | Recuperar contraseña | T-010 | Validación de correo registrado | Implementar la validación que verifica si el correo existe en la base de datos. | 3 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| US-005 | Gestión de pedidos | T-011 | Diseño del formulario de pedido | Crear la interfaz para registrar un nuevo pedido (cliente, prendas, servicio, fecha). | 5 | Perez Vasquez Ariana Valeria | Done |
+| US-005 | Gestión de pedidos | T-012 | Endpoint de creación de pedido | Implementar el endpoint para registrar pedidos y generar identificador único. | 8 | Mantilla Maldonado, Enrique Manuel | Done |
+| US-005 | Gestión de pedidos | T-013 | Endpoint de consulta de pedido | Implementar el endpoint para consultar pedidos por ID y por cliente. | 6 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| US-005 | Gestión de pedidos | T-014 | Modelo de pedidos en BD | Crear la tabla de pedidos y sus relaciones con clientes, prendas y servicios. | 5 | Linares Bernable, Cesar Alejandro | Done |
+| US-006 | Registro de prendas | T-015 | Diseño de sección de prendas | Crear la interfaz para registrar tipo y cantidad de prendas dentro de un pedido. | 4 | Hermoza Quispe, Jude | Done |
+| US-006 | Registro de prendas | T-016 | Endpoint de registro de prendas | Implementar el endpoint que asocia prendas a un pedido existente. | 6 | Mantilla Maldonado, Enrique Manuel | Done |
+| US-006 | Registro de prendas | T-017 | Modelo de prendas en BD | Crear la tabla de prendas y su relación con pedidos y tipos de servicio. | 4 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| US-004 | Seguimiento del pedido | T-018 | Diseño de vista de seguimiento | Crear la interfaz donde el cliente visualiza el estado actual y las etapas del pedido. | 5 | Hermoza Quispe, Jude | Done |
+| US-004 | Seguimiento del pedido | T-019 | Endpoint de consulta de estado | Implementar el endpoint que devuelve el estado actual y el historial de etapas del pedido. | 5 | Linares Bernable, Cesar Alejandro | Done |
+| US-004 | Seguimiento del pedido | T-020 | Integración frontend-backend de seguimiento | Conectar la vista de seguimiento con el endpoint de consulta de estado. | 4 | Hermoza Quispe, Jude | Done |
+| US-011 | Actualizar el estado del pedido | T-021 | Diseño de panel de actualización | Crear la interfaz para que el personal actualice el estado del pedido. | 4 | Perez Vasquez Ariana Valeria | Done |
+| US-011 | Actualizar el estado del pedido | T-022 | Endpoint de actualización de estado | Implementar el endpoint que actualiza el estado y registra fecha, hora y responsable. | 6 | Ramos Fuentes Rivera, Adriana Nicole | Done |
+| US-011 | Actualizar el estado del pedido | T-023 | Registro de auditoría de cambios | Implementar el registro histórico de cambios de estado por pedido. | 4 | Linares Bernable, Cesar Alejandro | Done |
+
+---
+
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
 Durante el Sprint 1 se implementó la Landing Page de **WashTrack** con HTML, CSS y JavaScript. La evidencia se obtuvo del historial de `develop` del repositorio [TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4). La tabla incluye únicamente commits alcanzables desde esa rama; por ello, no incorpora cambios que permanecen solamente en otras ramas.
@@ -3863,6 +4516,6 @@ URL del repositorio (landing-page): [Repositorio Landing Page](https://github.co
 
 URL de landing page (GithubPage): [Landing Page](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
 
-URL de exposición (AV1): [Exposición AV1]()
+URL de exposición (AV1): [Exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP)
 
 ---
