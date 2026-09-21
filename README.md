@@ -3524,11 +3524,11 @@ flowchart LR
 
 <img src="./assets/Chapter4/ClassDiagram/delivery_management.png" width="800px" alt="Delivery Management">
 
-##### Tracking
+##### Tracking & Notifications
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/Tracking.png" width="800px" alt="Tracking">
+<img src="./assets/Chapter4/ClassDiagram/tracking_notifications.png" width="800px" alt="Tracking & Notifications">
 
 
 
