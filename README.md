@@ -2000,7 +2000,48 @@ En esta sección, el equipo <b>TechNova</b> presenta las User Stories de WashTra
 
 ### 3.2. Impact Mapping
 
+<div align="center">
+  <img src="./assets/Chapter3/impact_mapping_1.png" width="700px" alt="ImpactMapping1">
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter3/impact_mapping_2.png" width="700px" alt="ImpactMapping2">
+</div>
+
+Link: <https://uxpressia.com/w/HqCwq/i/BSY5m?tagId=coQzP>
+
 ### 3.3. Product Backlog
+
+| Orden | User Story ID | Título | Descripción | Story Points | 
+|---|---|---|---|---|
+| 1 | US-001 | Registro de usuario | Como cliente, quiero registrarme en Easy Wash proporcionando mis datos personales, para crear una cuenta y poder gestionar mis servicios de lavandería. | 5 |
+| 2 | US-002 | Inicio de sesión | Como usuario registrado, quiero iniciar sesión en Easy Wash, para acceder a las funciones correspondientes a mi cuenta. | 3 |
+| 3 | US-014 | Recuperar contraseña | Como usuario registrado, quiero recuperar mi contraseña cuando la olvide, para poder volver a acceder a mi cuenta sin necesidad de crear una nueva. | 3 |
+| 4 | US-005 | Gestión de pedidos | Como personal de lavandería, quiero registrar y gestionar los pedidos de los clientes, para mantener organizada la información de los servicios solicitados. | 8 |
+| 5 | US-006 | Registro de prendas | Como personal de lavandería, quiero registrar las prendas asociadas a cada pedido, para controlar correctamente las prendas recibidas y evitar confusiones durante el servicio. | 5 |
+| 6 | US-004 | Seguimiento del pedido | Como cliente, quiero visualizar el estado de mi pedido, para conocer en qué etapa se encuentran mis prendas sin tener que contactar directamente con la lavandería. | 5 |
+| 7 | US-011 | Actualizar el estado del pedido | Como trabajador de lavandería, quiero actualizar el estado de los pedidos, para mantener registrada la evolución del servicio. | 5 |
+| 8 | US-003 | Visualización de pedidos | Como cliente, quiero consultar mis pedidos actuales y anteriores, para conocer el historial de los servicios de lavandería que he utilizado. | 5 |
+| 9 | US-009 | Recibir notificaciones del estado del pedido | Como cliente, quiero recibir notificaciones sobre los cambios de estado de mi pedido, para conocer el avance del servicio. | 5 |
+| 10 | US-010 | Solicitar recojo de prendas a domicilio | Como cliente, quiero solicitar el recojo de mis prendas a domicilio, para enviar mi ropa a la lavandería de manera cómoda. | 8 |
+| 11 | US-015 | Registrar dirección de recojo y entrega | Como cliente, quiero registrar y administrar mis direcciones de recojo y entrega, para agilizar la solicitud de servicios a domicilio sin ingresar los datos cada vez. | 5 |
+| 12 | US-021 | Aceptar solicitudes de recojo | Como personal de lavandería, quiero poder aceptar las solicitudes de recojo, para poder enviar un conductor a que recoja las prendas de nuestros clientes. | 5 |
+| 13 | US-023 | Registrar conductores | Como administrador de lavandería, quiero poder registrar conductores, para que puedan ser utilizados en los recojos y deliverys. | 5 |
+| 14 | US-027 | Rechazar recojo | Como personal de lavandería, quiero poder rechazar solicitudes de recojo, para enviarle la notificación al cliente de que en ese momento no está disponible. | 3 |
+| 15 | US-022 | Enviar delivery | Como personal de lavandería, quiero enviar el delivery de un pedido asignando un repartidor, para que las prendas sean entregadas a domicilio y el cliente conozca quién las llevará. | 8 |
+| 16 | US-016 | Realizar pago digital de un pedido | Como cliente, quiero pagar digitalmente el servicio de lavandería asociado a mi pedido, para completar el pago sin necesidad de hacerlo presencialmente en efectivo. | 8 |
+| 17 | US-019 | Consultar historial de pagos | Como propietario de lavandería, quiero consultar el historial de pagos registrados en la plataforma, para verificar los ingresos asociados a los pedidos atendidos. | 5 |
+| 18 | US-018 | Configurar tipos de servicio y precios | Como administrador de lavandería, quiero configurar los tipos de servicio y sus precios, para que los pedidos se registren con la información comercial vigente de mi negocio. | 5 |
+| 19 | US-024 | Reajuste de precio | Como personal de lavandería, quiero poder reajustar el precio luego de hacer la revisión, para que se pueda comprobar el precio real que se le pedirá al cliente. | 5 |
+| 20 | US-025 | Cambiar precio de ropa por kilo | Como administrador de lavandería, quiero cambiar el precio por kilo de la ropa, para ajustarlo según las necesidades del negocio. | 3 |
+| 21 | US-026 | Añadir nuevo servicio de prenda especial | Como administrador de lavandería, quiero agregar nuevos servicios de prendas especiales, para brindar más tipos de servicios a nuestros clientes. | 5 |
+| 22 | US-020 | Cancelar un pedido | Como cliente, quiero cancelar un pedido registrado, para detener el servicio cuando ya no necesito el lavado de mis prendas. | 3 |
+| 23 | US-017 | Gestionar planes de suscripción de la lavandería | Como propietario de lavandería, quiero gestionar el plan de suscripción de mi negocio, para cambiar de plan o renovar el servicio según las necesidades de mi operación. | 8 |
+| 24 | US-008 | Consultar planes y precios | Como visitante del segmento de propietarios, quiero consultar los planes y precios de Easy Wash, para evaluar la alternativa que mejor se adapte a las necesidades de mi lavandería. | 3 |
+| 25 | US-012 | Consultar métricas operativas | Como propietario de lavandería, quiero consultar las métricas operativas del negocio, para conocer el volumen de pedidos, ingresos y estado de las operaciones. | 8 |
+| 26 | US-028 | Exportar pedidos en Excel | Como administrador de lavanderías, quiero poder exportar en Excel los pedidos que necesite, para poder estudiarlos y tomarlos en cuenta para las tomas de decisiones. | 5 |
+| 27 | US-007 | Conocer la propuesta de valor de Easy Wash | Como visitante, quiero conocer la propuesta de valor y los beneficios de Easy Wash, para comprender cómo la plataforma mejora la gestión de lavanderías. | 3 |
+| 28 | US-013 | Solicitar demostración desde la Landing Page | Como visitante del segmento de propietarios, quiero solicitar una demostración de WashTrack desde la Landing Page, para conocer la plataforma antes de decidir la contratación de un plan. | 5 |
 
 ---
 
