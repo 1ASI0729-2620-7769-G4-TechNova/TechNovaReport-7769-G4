@@ -3498,7 +3498,7 @@ flowchart LR
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/LaundryOperation.png" width="800px" alt="Laundry Operation">
+<img src="./assets/Chapter4/ClassDiagram/laundry_operation.png" width="800px" alt="Laundry Operation">
 
 
 ##### Notification
