@@ -430,19 +430,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_nombre.png" alt="Foto de " width="500"/>
+      <img src="assets/Chapter1/MemberProfile/foto_cesar.jpg" alt="Foto de " width="500"/>
     </td>
-    <td><b>Nombre:</b> NOMBRE COMPLETO </td>
+    <td><b>Nombre:</b> Cesar Alejandro Linares Bernable </td>
   </tr>
   <tr>
-    <td><b>Código:</b> PONER TU CODIGO DE U </td>
+    <td><b>Código:</b> u202019409 </td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-    Breve descripcion
+   Soy <b>Cesar Alejandro Linares Bernable</b>, estudiante de la carrera de Ingeniería de Software en la UPC. Me interesa el <b>análisis de software y ciberseguridad</b>, es decir, el cómo funcionan ciertas cosas y la protección de datos. Me considero una persona <b>perseverante</b>, y procuro cumplir con mis partes del trabajo incluso si no estoy muy damiliarizado.
       <br/><br/>
-    Dentro del equipo... (que funcion cumples)  
+    Dentro del equipo, me enfoco en pulir el backend y frontend, así como acatar los principios de programación concernientes. 
     </td>
   </tr>
 
