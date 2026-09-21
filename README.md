@@ -105,6 +105,21 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
   Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
 </p>
 
+<p align="center">
+<img src="assets/contributors_av1.png" alt="Contributors-TechNova-AV1" width="500"/>
+  <br/><i>Contributors of TechNova (AV1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/pulse_av1.png" alt="Pulse-TechNova-AV1" width="500"/>
+  <br/><i>Pulse of TechNova (AV1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/network_graph_av1.png" alt="Contributors-TechNova-AV1" width="500"/>
+  <br/><i>Network graph of TechNova (AV1)</i>
+</p>
+
 <div style="page-break-after: always;"></div>
 
 ---
@@ -3488,44 +3503,53 @@ flowchart LR
 
 #### 4.7.1. Class Diagrams
 
+##### Identity & Access Management
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/iam.png" width="800px" alt="Identity & Access Management">
+
+##### Customer & Laundry Management
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/customer_laundry_management.png" width="800px" alt="Customer & Laundry Management">
+
 ##### Order Management
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/OrderManagement.png" width="800px" alt="Order Management">
+<img src="./assets/Chapter4/ClassDiagram/order_management.png" width="800px" alt="Order Management">
 
 ##### Laundry Operation
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/LaundryOperation.png" width="800px" alt="Laundry Operation">
-
-
-##### Notification
-
-- Frontend
-
-<img src="./assets/Chapter4/ClassDiagram/Notifications.png" width="800px" alt="Notification">
-
-##### Tracking
-
-- Frontend
-
-<img src="./assets/Chapter4/ClassDiagram/Tracking.png" width="800px" alt="Tracking">
-
-
-##### Identity & Access Management
-
-- Frontend
-
-<img src="./assets/Chapter4/ClassDiagram/IAM.png" width="800px" alt="Identity & Access Management">
-
+<img src="./assets/Chapter4/ClassDiagram/laundry_operation.png" width="800px" alt="Laundry Operation">
 
 ##### Billing & Subscription
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/Billing_Suscription.png" width="800px" alt="Billing & Subscription">
+<img src="./assets/Chapter4/ClassDiagram/billing_subscription.png" width="800px" alt="Billing & Subscription">
+
+##### Delivery Management
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/delivery_management.png" width="800px" alt="Delivery Management">
+
+##### Tracking & Notifications
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/tracking_notifications.png" width="800px" alt="Tracking & Notifications">
+
+
+
+
+
+
 
 ### 4.8. Database Design
 <p align="justify">
@@ -3534,7 +3558,266 @@ flowchart LR
 
 #### 4.8.1. Database Diagrams
 
-<img src="./assets/Chapter4/database_diagram.png" width="800px" alt="Database diagram">
+
+```mermaid
+erDiagram
+
+    laundry {
+        uuid id PK
+        varchar name
+        varchar business_name
+        varchar ruc
+        varchar phone
+        Email email
+        Address address
+        boolean is_active
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    role {
+        uuid id PK
+        varchar name
+        varchar description
+        boolean is_active
+        DateTime created_at
+    }
+
+    permission {
+        uuid id PK
+        varchar name
+        varchar code
+        varchar module
+        varchar description
+    }
+
+    role_permission {
+        uuid role_id PK_FK
+        uuid permission_id PK_FK
+    }
+
+    user {
+        uuid id PK
+        uuid laundry_id FK
+        uuid role_id FK
+        PersonName first_name
+        PersonLastName last_name
+        DNI dni
+        Email email
+        varchar phone
+        date birth_date
+        text notes
+        boolean is_active
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    address {
+        uuid id PK
+        uuid user_id FK
+        Address address
+        varchar reference
+        varchar district
+        varchar province
+        varchar postal_code
+        boolean is_default
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    order {
+        uuid id PK
+        uuid laundry_id FK
+        uuid customer_id FK
+        varchar order_number
+        DateTime received_at
+        DateTime estimated_delivery_at
+        decimal subtotal
+        decimal delivery_fee
+        decimal discount
+        decimal total
+        text notes
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    order_status {
+        uuid id PK
+        varchar code
+        varchar name
+        varchar description
+        int sort_order
+        boolean is_active
+    }
+
+    order_status_history {
+        uuid id PK
+        uuid order_id FK
+        uuid status_id FK
+        uuid user_id FK
+        text comment
+        DateTime started_at
+        DateTime ended_at
+        DateTime created_at
+    }
+
+    garment {
+        uuid id PK
+        varchar name
+        varchar category
+        varchar description
+        boolean is_active
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    order_item {
+        uuid id PK
+        uuid order_id FK
+        uuid garment_id FK
+        varchar garment_code
+        int quantity
+        varchar color
+        varchar brand
+        varchar material
+        text notes
+        decimal unit_price
+        varchar status
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    service {
+        uuid id PK
+        uuid laundry_id FK
+        varchar name
+        varchar description
+        decimal base_price
+        boolean is_active
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    order_service {
+        uuid id PK
+        uuid order_id FK
+        uuid service_id FK
+        decimal quantity
+        decimal unit_price
+        decimal subtotal
+        text notes
+        DateTime created_at
+    }
+
+    order_item_service {
+        uuid id PK
+        uuid order_item_id FK
+        uuid service_id FK
+        decimal price
+        DateTime created_at
+    }
+
+    payment {
+        uuid id PK
+        uuid order_id FK
+        decimal amount
+        varchar payment_method
+        varchar status
+        varchar reference
+        DateTime paid_at
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    delivery {
+        uuid id PK
+        uuid order_id FK
+        uuid address_id FK
+        varchar type
+        DateTime scheduled_at
+        DateTime completed_at
+        varchar status
+        decimal fee
+        text notes
+        DateTime created_at
+        DateTime updated_at
+    }
+
+    notification {
+        uuid id PK
+        uuid user_id FK
+        uuid order_id FK
+        varchar type
+        varchar title
+        varchar message
+        varchar channel
+        boolean is_read
+        DateTime sent_at
+        DateTime created_at
+    }
+
+    audit_log {
+        uuid id PK
+        uuid laundry_id FK
+        uuid user_id FK
+        varchar entity
+        uuid entity_id
+        varchar action
+        json old_values
+        json new_values
+        DateTime created_at
+    }
+
+    %% ==========================================
+    %% SECURITY AND ROLES RELATIONS
+    %% ==========================================
+
+    role ||--o{ role_permission : ""
+    permission ||--o{ role_permission : ""
+    role ||--o{ user : ""
+
+    %% ==========================================
+    %% LAUNDRY AND USERS RELATIONS
+    %% ==========================================
+
+    laundry ||--o{ user : ""
+    laundry ||--o{ service : ""
+    laundry ||--o{ order : ""
+    laundry ||--o{ audit_log : ""
+
+    user ||--o{ address : ""
+    user ||--o{ order : ""
+    user ||--o{ notification : ""
+    user ||--o{ order_status_history : ""
+    user ||--o{ audit_log : ""
+
+    %% ==========================================
+    %% ORDERS RELATIONS
+    %% ==========================================
+
+    order ||--o{ order_item : ""
+    order ||--o{ order_service : ""
+    order ||--o{ order_status_history : ""
+    order ||--o{ payment : ""
+    order ||--o{ delivery : ""
+    order ||--o{ notification : ""
+
+    %% ==========================================
+    %% STATUSES AND GARMENTS RELATIONS
+    %% ==========================================
+
+    order_status ||--o{ order_status_history : ""
+    garment ||--o{ order_item : ""
+    order_item ||--o{ order_item_service : ""
+    service ||--o{ order_item_service : ""
+    service ||--o{ order_service : ""
+
+    %% ==========================================
+    %% ADDRESSES / DELIVERY RELATIONS
+    %% ==========================================
+
+    address ||--o{ delivery : "used_in"
+```
 
 ---
 
@@ -4176,6 +4459,6 @@ URL del repositorio (landing-page): [Repositorio Landing Page](https://github.co
 
 URL de landing page (GithubPage): [Landing Page](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
 
-URL de exposición (AV1): [Exposición AV1]()
+URL de exposición (AV1): [Exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP)
 
 ---
