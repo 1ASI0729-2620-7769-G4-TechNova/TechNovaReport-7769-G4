@@ -271,6 +271,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>AV2</b></em><br>
         Poner avances av2<br>
         ...<br>
+        <b>Cesar Alejandro Linares Bernable</b><br>
+        <em><b>AV1</b></em><br>
+        En el primer avance del proyecto, se sostuvieron diálogos empáticos y adaptados al nivel técnico de los interlocutores, abarcando desde los usuarios finales hasta los propios miembros del equipo. Al momento de realizar las entrevistas, se empleó un lenguaje claro y desprovisto de tecnicismos para indagar en las necesidades reales de los usuarios.
       </td>
       <td>
         <b>AV1</b><br>Durante esta primera entrega, el equipo demostró capacidad de comunicación oral efectiva al realizar y registrar las entrevistas (Needfinding) y al presentar el progreso del Sprint 1. En el proceso de entrevistas, como equipo, se interactuó directamente con los segmentos objetivo ajustando el lenguaje técnico hacia un tono accesible y empático para explorar sus necesidades, dolores y expectativas. Por otro lado, durante las consultas del trabajo desarrollado en clase al docente, se nos permitió comunicar de forma clara las decisiones de diseño, la arquitectura Domain-Driven Design (DDD) y los avances del Sprint 1, demostrando adaptabilidad en la transmisión de conceptos de software tanto a audiencias técnicas como a usuarios finales.<br>
@@ -301,6 +304,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>AV2</b></em><br>
         Poner avances av2<br>
         ...<br>
+        <b>Linares Bernable, Cesar Alejandro</b><br>
+        <em><b>AV1</b></em><br>
+        A lo largo de la primera entrega, la comunicación escrita se manifestó en todos los artefactos desarrollados por el equipo. Por ejemplo,  el Impact Mapping permitió comunicar de manera visual y estructurada la relación entre el objetivo de negocio, los actores involucrados, los cambios de comportamiento esperados y los entregables del proyecto. Por otro lado, la documentación orientada a una audiencia técnica, como las historias de usuario con sus criterios de aceptación empleó notaciones estandarizadas y terminología especializada que garantiza la precisión, consistencia y trazabilidad de los requerimientos.
       </td>
       <td>
         <b>AV1</b><br>En la primera entrega, la comunicación escrita efectiva se evidencia en la elaboración estructurada de la documentación técnica del proyecto, abarcando desde la definición estratégica de la startup hasta la especificación técnica y de diseño. El equipo de TechNova logró transmitir de manera clara la propuesta de valor a través del Lean UX Canvas, Landing Page y User Personas. Por otro lado, el equipo, redactó el informe con un nivel de rigor y precisión técnico adecuado los artefactos de desarrollo destinados al equipo técnico, tales como los criterios de aceptación en User Stories, el Ubiquitous Language, las guías de estilo UX/UI y los diagramas C4 y de Base de Datos. <br>
