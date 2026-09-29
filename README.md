@@ -928,6 +928,27 @@ Datos del entrevistado:
 
 <u>Entrevista 3:</u>
 
+Entrevistador: Jude Hermoza Quispe
+
+Datos del entrevistado:
+
+- **Nombre:** Nataly
+- **Apellidos:** Sandoval
+- **Edad:** 20 años
+- **Distrito:** San Martín
+- **Timing:** 00:00:02 - 00:07:34
+
+**Resumen descriptivo:**
+<div align="justify">
+  Nataly Sandoval, de 20 años y residente en San Martín, se encarga de la administración de una lavandería. En el proceso de atención recibe a los clientes, revisa las prendas, calcula los precios, coordina el trabajo con el personal, realiza el control de calidad antes de la entrega y atiende la caja. La lavandería ofrece lavado y secado por kilo, lavado en seco, planchado, servicios para prendas especiales y lavado exprés con recargo.
+
+  Actualmente, registra los pedidos mediante un cuaderno físico y tickets numerados escritos a mano; en ocasiones utiliza una hoja de Excel que no está centralizada. Anota datos del cliente, cantidad de prendas, tipo de servicio, observaciones sobre las prendas, fecha de entrega y monto. Ha tenido problemas con tickets ilegibles, prendas mezcladas y diferencias en la cantidad registrada. Los cambios hechos a mano también pueden generar confusión cuando cambia el personal del turno.
+
+  Entre las dificultades operativas, mencionó retrasos cuando llueve y no se pueden usar las secadoras para ciertas prendas, así como cuellos de botella cuando coinciden muchos pedidos. El equipo prioriza por orden de llegada y tipo de servicio, dando prioridad al exprés, aunque no cuenta con un sistema formal. Para informar demoras se comunica por llamada o WhatsApp, y recibe consultas frecuentes sobre el estado de los pedidos cuando estos se retrasan.
+
+  La lavandería no ofrece delivery de manera formal; ocasionalmente coordina entregas para clientes frecuentes y cercanos mediante WhatsApp o llamadas, y anota direcciones y horarios en el cuaderno. Nataly indicó que buscar pedidos anteriores y resolver reclamos por prendas supuestamente perdidas consume tiempo. Los errores de registro pueden llevar a devolver dinero, reponer prendas o perder la confianza del cliente.
+</div>
+
 <br>
 
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
