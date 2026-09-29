@@ -936,7 +936,7 @@ Datos del entrevistado:
 - **Apellidos:** Sandoval
 - **Edad:** 20 años
 - **Distrito:** San Martín
-- **Timing:** 00:00:02 - 00:07:34
+- **Timing:** 00:00:02 - 00:07:51
 
 **Resumen descriptivo:**
 <div align="justify">
