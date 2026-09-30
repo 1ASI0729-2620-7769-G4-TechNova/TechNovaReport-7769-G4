@@ -1068,14 +1068,14 @@ A partir de los hallazgos obtenidos, se desarrollan diferentes artefactos de an�
 Arquetipo que representa al usuario que busca optimizar su tiempo, delegar el lavado de sus prendas y realizar un seguimiento en tiempo real mediante canales digitales.
 
 <p align="center">
-    <img src="assets/UserPerson1.png" alt="User Persona 1 - Cliente Final" width=650>
+    <img src="assets/Chapter2/UserPersona/UserPerson1.png" alt="User Persona 1 - Cliente Final" width=650>
 </p>
 
 **User Persona 2: Dueño y Administrador de Lavandería - Carlos Mendoza**
 Arquetipo que representa al administrador o dueño de un negocio tradicional que busca digitalizar su operación, centralizar pedidos y eliminar el uso de registros manuales.
 
 <p align="center">
-    <img src="assets/UserPerson2.png" alt="User Persona 2 - Administrador de Lavandería" width=650>
+    <img src="assets/Chapter2/UserPersona/UserPerson2.png" alt="User Persona 2 - Administrador de Lavandería" width=650>
 </p>
 
 
