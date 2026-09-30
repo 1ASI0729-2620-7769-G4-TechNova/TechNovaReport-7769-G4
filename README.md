@@ -1069,6 +1069,9 @@ Arquetipo que representa al usuario que busca optimizar su tiempo, delegar el la
 
 <p align="center">
     <img src="assets/Chapter2/UserPersona/UserPerson1.png" alt="User Persona 1 - Cliente Final" width=650>
+    <br>
+  <i>User Persona de Lucia Velasquez</i>
+  </br>
 </p>
 
 **User Persona 2: Dueño y Administrador de Lavandería - Carlos Mendoza**
@@ -1076,6 +1079,9 @@ Arquetipo que representa al administrador o dueño de un negocio tradicional que
 
 <p align="center">
     <img src="assets/Chapter2/UserPersona/UserPerson2.png" alt="User Persona 2 - Administrador de Lavandería" width=650>
+    <br>
+  <i>User Persona de Carlos Mendoza</i>
+  </br>
 </p>
 
 
