@@ -1021,7 +1021,7 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
   <br/><i>Evidencia de entrevista (ambos segmentos)</i>
 </p>
 
-***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQALZsfwqvXoS5Mt9znSXvgrAbMQ6v02M21v0TXnnxlZnXk?e=piOTvD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQALZsfwqvXoS5Mt9znSXvgrAbMQ6v02M21v0TXnnxlZnXk?e=piOTvD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQALZsfwqvXoS5Mt9znSXvgrAbMQ6v02M21v0TXnnxlZnXk?e=piOTvD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 #### 2.2.3. Análisis de entrevistas
@@ -4221,7 +4221,9 @@ El objetivo principal del Sprint 1 es implementar las funciones esenciales para 
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
-Durante el Sprint 1 se implementó la Landing Page de **WashTrack** con HTML, CSS y JavaScript. La evidencia se obtuvo del historial de `develop` del repositorio [TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4). La tabla incluye únicamente commits alcanzables desde esa rama; por ello, no incorpora cambios que permanecen solamente en otras ramas.
+Durante el Sprint 1 se implementó la Landing Page de **WashTrack** con HTML, CSS y JavaScript. La evidencia se obtuvo del historial de `develop` del repositorio TechNova-LandingPage-7769-G4. La tabla incluye únicamente commits alcanzables desde esa rama; por ello, no incorpora cambios que permanecen solamente en otras ramas.
+
+Link del repositorio del landing page: https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4
 
 | **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Change Summary** | **Committed on (Date)** |
 |---|---|---|---|---|---|
@@ -4564,18 +4566,14 @@ Como parte de los siguientes pasos en el **Roadmap** de los productos digitales 
 
 # Anexos
 
-Video de entrevistas: [Microsoft Clipchamp](https://upcedupe-my.sharepoint.com/personal/u202018427_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202018427%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0729%2D7769%2DTechNova%2DWashTrack%2Dnavigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef8bacf7f%2D365b%2D4a77%2D97e7%2D58de38fddd49&isDarkMode=true&mode=View)
+Video de entrevistas: [https://upcedupe-my.sharepoint.com/personal/u202018427_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202018427%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0729%2D7769%2DTechNova%2DWashTrack%2Dnavigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef8bacf7f%2D365b%2D4a77%2D97e7%2D58de38fddd49&isDarkMode=true&mode=View](https://upcedupe-my.sharepoint.com/personal/u202018427_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202018427%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0729%2D7769%2DTechNova%2DWashTrack%2Dnavigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef8bacf7f%2D365b%2D4a77%2D97e7%2D58de38fddd49&isDarkMode=true&mode=View)
 
-Encuesta - Segmento Dueños de Lavandería: [Google Forms](https://forms.gle/hUUBWVZtEZn53wgw7)
+URL del repositorio (report): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4/tree/main](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4/tree/main)
 
-Encuesta - Segmento Clientes: [Google Forms](https://forms.gle/saWj541SarshYD6x5)
+URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
-URL del repositorio (report): [Repositorio Report](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4/tree/main)
+URL de landing page (GithubPage): [https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
 
-URL del repositorio (landing-page): [Repositorio Landing Page](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
-
-URL de landing page (GithubPage): [Landing Page](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
-
-URL de exposición (AV1): [Exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP)
+URL de exposición (AV1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP)
 
 ---
