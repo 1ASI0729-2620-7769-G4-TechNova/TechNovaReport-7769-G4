@@ -4213,7 +4213,9 @@ El objetivo principal del Sprint 1 es implementar las funciones esenciales para 
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
-Durante el Sprint 1 se implementó la Landing Page de **WashTrack** con HTML, CSS y JavaScript. La evidencia se obtuvo del historial de `develop` del repositorio [TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4). La tabla incluye únicamente commits alcanzables desde esa rama; por ello, no incorpora cambios que permanecen solamente en otras ramas.
+Durante el Sprint 1 se implementó la Landing Page de **WashTrack** con HTML, CSS y JavaScript. La evidencia se obtuvo del historial de `develop` del repositorio TechNova-LandingPage-7769-G4. La tabla incluye únicamente commits alcanzables desde esa rama; por ello, no incorpora cambios que permanecen solamente en otras ramas.
+
+Link del repositorio del landing page: https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4
 
 | **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Change Summary** | **Committed on (Date)** |
 |---|---|---|---|---|---|
