@@ -3942,7 +3942,6 @@ Para el mantenimiento del codigo usamos Github, ya que es util como repositorio 
 
 **Conventional Commits:** Son los estandares para escribir los mensajes de los commits, los cuales permiten comprender como ha sido el avance atraves del proyecto.
 
-#### 5.1.3. Source Code Style Guide & Conventions
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
@@ -4064,7 +4063,7 @@ Para el control de versiones y la organización del código se utiliza GitHub, s
 De acuerdo con la arquitectura planteada para WashTrack, el despliegue considera los siguientes productos digitales:
 
 * **Landing Page:** desarrollada con HTML5, CSS3 y JavaScript.
-* **Frontend Web Applications:** desarrollada utilizando Vue Framework, HTML5, CSS3 y JavaScript.
+* **Frontend Web Applications:** desarrollada utilizando Angular Framework, HTML5, CSS3 y TypeScript.
 * **Web Services:** desarrollados mediante Java y Spring Boot bajo el estilo arquitectónico RESTful API.
 
 En el presente avance se evidencia el despliegue de la primera versión de la Landing Page, mientras que el despliegue del Frontend Web Application y de los Web Services será realizado conforme avance la implementación de estos productos.
@@ -4107,21 +4106,22 @@ Finalmente, se accede al enlace generado por GitHub Pages para comprobar que la 
   <img src="./assets/Chapter5/landing_page_navegador.png" width="700px" alt="Sitio web publicado">
   <p><b>Figura 4:</b> Evidencia del sitio web publicado y accesible en línea.</p>
 </div>
-
 ---
+
 ### Configuración de despliegue del Frontend Web Application
 
-El *Frontend Web Application* de **WashTrack** será desplegado a partir de su repositorio correspondiente una vez finalizada su primera versión funcional. El proceso partirá del código fuente almacenado en GitHub y considerará la construcción de la aplicación mediante Vue Framework.
+El *Frontend Web Application* de **WashTrack** será desplegado a partir de su repositorio correspondiente una vez finalizada su primera versión funcional. El proceso partirá del código fuente almacenado en GitHub y considerará la construcción de la aplicación mediante Angular Framework.
 
 El flujo general de despliegue será el siguiente:
 
 1. Obtener la versión estable del código desde el repositorio.
-2. Instalar las dependencias definidas para el proyecto.
-3. Ejecutar el proceso de construcción (*build*) de la aplicación.
-4. Generar los archivos necesarios para producción.
+2. Instalar las dependencias definidas para el proyecto mediante Node.js y Angular CLI.
+3. Ejecutar el proceso de construcción (*build*) de la aplicación (`ng build`).
+4. Generar los archivos estáticos optimizados para producción.
 5. Publicar los archivos generados en el servicio de alojamiento seleccionado.
 6. Verificar el funcionamiento de las rutas, componentes, estilos y comunicación con los Web Services.
 7. Validar la aplicación desde el navegador en diferentes tamaños de pantalla.
+
 ---
 
 ### Configuración de despliegue de los Web Services
@@ -4131,14 +4131,13 @@ Los Web Services de **WashTrack** serán desarrollados utilizando Java y Spring 
 El flujo general de despliegue será el siguiente:
 
 1. Obtener desde GitHub la versión estable del Web Service.
-2. Configurar las dependencias necesarias del proyecto ASP.NET Core.
+2. Configurar las dependencias necesarias del proyecto Java/Spring Boot mediante Maven.
 3. Configurar las variables y parámetros correspondientes al entorno de producción.
-4. Configurar la conexión con la base de datos.
+4. Configurar la conexión con la base de datos (MySQL / PostgreSQL).
 5. Compilar y publicar la aplicación.
 6. Ejecutar el servicio en el entorno de despliegue seleccionado.
 7. Verificar los *endpoints* disponibles mediante la documentación OpenAPI/Swagger.
 8. Comprobar la comunicación entre el Web Service y el Frontend Web Application.
-
 
 ---
 
@@ -4151,7 +4150,6 @@ $$\text{Feature Branch} \longrightarrow \text{develop} \longrightarrow \text{mai
 Las ramas de desarrollo permiten realizar cambios de manera aislada. Después de validar los cambios, estos se integran en `develop`. Cuando una versión se encuentra preparada para publicación, se incorpora a `main`, desde donde se realiza el despliegue de la versión estable del producto correspondiente.
 
 De esta manera, **TechNova** mantiene una relación controlada entre el código fuente y las versiones publicadas, facilitando el despliegue progresivo de la *Landing Page*, el *Frontend Web Application* y los *Web Services* conforme avance la implementación de WashTrack.
-
 
 
 ### 5.2. Landing Page, Services & Applications Implementation
