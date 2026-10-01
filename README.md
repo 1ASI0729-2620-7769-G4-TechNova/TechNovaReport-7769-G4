@@ -979,7 +979,22 @@ Datos del entrevistado:
 
 <u>Entrevista 2:</u>
 
+Entrevistador: Cesar Alejandro Linares Bernable
+
+Datos del entrevistado:
+
+- **Nombre:** Margot
+- **Apellidos:** Bernable
+- **Edad:** 54 años
+- **Distrito:** San Martín de Porres
+- **Timing:** 00:27:55 - 00:41:57
+
+**Resumen descriptivo:**
+<div align="justify">
+  Margot Bernable de la Cruz, de 54 años y residente en San Martín de Porres, utiliza el servicio de lavandería ocasionalmente, sobre todo para prendas delicadas, lavado en seco, frazadas o ropa manchada. Para ella, los factores más importantes al elegir una lavandería son la confianza, el buen manejo de las prendas, el cumplimiento de los tiempos, el trato adecuado y el costo. Señala como principal dificultad el traslado de las prendas, ya que la lavandería no está cerca y no cuenta con movilidad, lo que genera gastos y pérdida de tiempo. También menciona problemas con demoras en la atención, pedidos no listos a la hora acordad y falta de comunicación clara para consultar el estado del pedido. Le gustaría contar con información en tiempo real sobre el proceso, notificaciones si la prenda está lista antes o si surge algún inconveniente, y servicios de recojo y entrega a domicilio. Considera que una página web o WhatsApp facilitaría el seguimiento y mejoraría su satisfacción con el servicio.
+</div>
 <br>
+
 <p><u>Entrevista 3:</u></p>
 
 Entrevistador: Perez Vasquez Ariana Valeria
