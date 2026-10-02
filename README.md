@@ -3577,47 +3577,53 @@ flowchart LR
 
 #### 4.7.1. Class Diagrams
 
+##### Shared
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/shared_v5.png" width="800px" alt="Shared">
+
 ##### Identity & Access Management
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/IAM.png" width="800px" alt="Identity & Access Management">
+<img src="./assets/Chapter4/ClassDiagram/iam_v5.png" width="800px" alt="Identity & Access Management">
 
 ##### Customer & Laundry Management
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/customer_laundry_management.png" width="800px" alt="Customer & Laundry Management">
+<img src="./assets/Chapter4/ClassDiagram/customer_laundry_management_v5.png" width="800px" alt="Customer & Laundry Management">
 
 ##### Order Management
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/order_management.png" width="800px" alt="Order Management">
+<img src="./assets/Chapter4/ClassDiagram/order_management_v5.png" width="800px" alt="Order Management">
 
 ##### Laundry Operation
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/laundry_operation.png" width="800px" alt="Laundry Operation">
+<img src="./assets/Chapter4/ClassDiagram/laundry_operation_v5.png" width="800px" alt="Laundry Operation">
 
 ##### Billing & Subscription
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/billing_subscription.png" width="800px" alt="Billing & Subscription">
+<img src="./assets/Chapter4/ClassDiagram/billing_subscription_v5.png" width="800px" alt="Billing & Subscription">
 
 ##### Delivery Management
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/delivery_management.png" width="800px" alt="Delivery Management">
+<img src="./assets/Chapter4/ClassDiagram/delivery_management_v5.png" width="800px" alt="Delivery Management">
 
 ##### Tracking & Notifications
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/tracking_notifications.png" width="800px" alt="Tracking & Notifications">
+<img src="./assets/Chapter4/ClassDiagram/tracking_notifications_v5.png" width="800px" alt="Tracking & Notifications">
 
 
 
