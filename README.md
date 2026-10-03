@@ -1028,20 +1028,77 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 
 **Primer Segmento: Propietarios de lavanderías independientes**
 
-<p align="justify">
-<ul>
-  <li>El 100% de los propietarios entrevistados utiliza mecanismos de registro que no se encuentran completamente centralizados, como cuadernos físicos, tickets, fichas, boletas o archivos de Excel, lo que dificulta el seguimiento y consulta de la información de los pedidos.</li><br>
-  <li>El 100% de los propietarios entrevistados ha identificado dificultades relacionadas con el registro y control de las prendas, principalmente por errores en las cantidades, detalles omitidos, pérdida de tickets, confusión entre pedidos o mezcla de prendas.</li><br>
-  <li>El 100% de los propietarios entrevistados considera que los errores en el registro pueden generar consecuencias negativas para el negocio y la relación con el cliente, como reclamos, pérdida de confianza, reposición de prendas o pérdidas económicas.</li><br>
-  <li>El 66,7% de los propietarios entrevistados señala que una de las principales dificultades de la gestión diaria está relacionada con el seguimiento de los pedidos pendientes y el control de las prendas que todavía deben ser entregadas.</li><br>
-  <li>El 66,7% de los propietarios entrevistados ha experimentado retrasos en la entrega de pedidos debido a factores como problemas durante el secado, condiciones climáticas, fallas en el suministro de gas o un incremento en la cantidad de pedidos recibidos.</li><br>
-  <li>El 66,7% de los propietarios entrevistados manifiesta que algunas actividades de gestión les generan una carga adicional de tiempo, principalmente la búsqueda de información de pedidos anteriores, el registro de pedidos y la identificación de pedidos pendientes.</li><br>
-  <li>El 100% de los propietarios entrevistados presenta limitaciones en la comunicación con sus clientes, debido a que no cuenta con un sistema integrado para informar el estado de los pedidos. La comunicación se realiza principalmente mediante llamadas, WhatsApp o mensajes de texto, especialmente cuando el pedido está listo o presenta algún retraso.</li><br>
-  <li>El 100% de los propietarios entrevistados no ofrece un servicio general de recojo y entrega a domicilio. Nataly únicamente lo realiza para clientes frecuentes y cercanos, mientras que Isabela y Elizabeth trabajan exclusivamente con recojo en el local.</li><br>
-  <li>El 100% de los propietarios entrevistados muestra preocupación por mantener la satisfacción y confianza de sus clientes, especialmente ante situaciones de retrasos, pérdida, confusión o errores en las prendas.</li>
-</ul>
+* **Métodos actuales de registro de información:**
+  * El 100% (4 de 4 entrevistados) utiliza un cuaderno o agenda física para registrar el avance de sus clientes y pedidos.
+  * Un 50% complementa esta labor con hojas de cálculo como Excel o Google Sheets, mientras que un 25% apoya su registro mediante boletas/tickets y un 25% utiliza WhatsApp o mensajería.
+  * Ninguno de los encuestados cuenta actualmente con una aplicación o sistema digital especializado para la gestión operativa.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews/Graf1.png" width="470px">
+    <br>
+    <i>Figura 1. ¿Cómo registras actualmente la información de tus clientes y pedidos?</i>
 </p>
-<br>
+
+---
+
+* **Frecuencia de problemas en el registro e identificación:**
+  * El 75% de los entrevistados señala que "a veces" presenta inconvenientes para registrar o identificar las prendas de un pedido[cite: 5].
+  * El 25% restante indica que esta problemática ocurre "casi siempre"[cite: 5].
+
+<p align="center">
+    <img src="Graf2.png" alt="Frecuencia de problemas en registro" width=650>
+    <br>
+    <i>Figura 2. ¿Con qué frecuencia tienes problemas al registrar o identificar correctamente las prendas de un pedido?</i>
+</p>
+
+---
+
+* **Principales dificultades en la gestión de pedidos:**
+  * La dificultad predominante entre los propietarios es la identificación correcta de las prendas, representativa del 50% de las respuestas[cite: 4].
+  * Otras complicaciones abarcan saber qué pedidos quedan pendientes (25%) y la búsqueda de información sobre pedidos anteriores (25%)[cite: 4].
+
+<p align="center">
+    <img src="Graf3.png" alt="Dificultades en gestión de pedidos" width=650>
+    <br>
+    <i>Figura 3. ¿Cuál es la principal dificultad que tienes al gestionar los pedidos?</i>
+</p>
+
+---
+
+* **Comunicación con los clientes:**
+  * El 75% manifiesta que sus clientes se comunican "a veces" para consultar el estado actual de sus prendas[cite: 3].
+  * Un 25% restante menciona que esto sucede "casi nunca"[cite: 3].
+
+<p align="center">
+    <img src="Graf4.png" alt="Frecuencia de consulta de clientes" width=650>
+    <br>
+    <i>Figura 4. ¿Con qué frecuencia los clientes se comunican para preguntar por el estado de sus prendas?</i>
+</p>
+
+---
+
+* **Aceptación de un sistema integral de gestión:**
+  * El 75% evalúa como muy útil (puntuaciones 4 y 5 en una escala lineal del 1 al 5) disponer de una solución tecnológica unificada que integre pedidos, prendas y actualización de estados desde un solo lugar (50% asignó un 4 y 25% asignó un 5)[cite: 2].
+  * El 25% restante le otorgó una puntuación neutra de 3[cite: 2].
+
+<p align="center">
+    <img src="Graf5.png" alt="Utilidad del sistema de gestión" width=650>
+    <br>
+    <i>Figura 5. ¿Qué tan útil consideras tener un sistema que permita registrar pedidos, prendas y actualizar su estado desde un solo lugar?</i>
+</p>
+
+---
+
+* **Funcionalidades más valoradas:**
+  * La función considerada imprescindible por el 100% de los participantes es el **seguimiento del estado de los pedidos**[cite: 1].
+  * Le siguen en orden de importancia el **registro de clientes y pedidos** (75%) y el **control de prendas** (75%)[cite: 1].
+  * Por último, el historial de pedidos contó con un 25% de preferencia, mientras que la notificación directa a clientes no fue seleccionada por ningún entrevistado como prioridad absoluta frente a la gestión operativa[cite: 1].
+
+<p align="center">
+    <img src="Graf6.png" alt="Funcionalidades más importantes" width=650>
+    <br>
+    <i>Figura 6. ¿Qué funcionalidad consideras más importante para mejorar la gestión de tu lavandería?</i>
+</p>
 
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
 
