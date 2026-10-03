@@ -1100,6 +1100,8 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
     <i>Figura 6. ¿Qué funcionalidad consideras más importante para mejorar la gestión de tu lavandería?</i>
 </p>
 
+---
+
 **Análisis general del primer segmento**
 
 El diagnóstico del segmento de propietarios de lavanderías independientes refleja un modelo operativo respaldado casi en su totalidad por métodos tradicionales en papel y herramientas no especializadas. Esta falta de digitalización genera un cuello de botella crítico en el control diario, donde la pérdida de trazabilidad de las prendas y la dificultad para monitorear los trabajos pendientes son las principales fuentes de ineficiencia.
@@ -1108,21 +1110,91 @@ Asimismo, la constante consulta de los clientes sobre la situación de sus prend
 
 En consecuencia, el sector muestra una clara apertura hacia la adopción tecnológica, condicionada a que la solución centralice el control de inventario por prenda y automatice el seguimiento de los pedidos en tiempo real, resolviendo de raíz el desorden administrativo actual.
 
+---
+
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
 
-<p align="justify">
-<ul>
-  <li>El 100% de los clientes entrevistados considera importante que las prendas reciban un tratamiento adecuado de acuerdo con sus características y material, especialmente cuando se trata de prendas delicadas, costosas o que requieren servicios específicos.</li><br>
-  <li>El 100% de los clientes entrevistados recibe una boleta o comprobante físico donde se registran las prendas entregadas, la cantidad, el servicio solicitado y/o la fecha estimada de recojo.</li><br>
-  <li>El 100% de los clientes entrevistados manifiesta interés en conocer el avance de sus pedidos y recibir información actualizada sobre la etapa en la que se encuentran sus prendas, así como la fecha y hora exacta en que estarán listas para ser recogidas.</li><br>
-  <li>El 100% de los clientes entrevistados valora la posibilidad de recibir notificaciones relacionadas con el estado de sus prendas, especialmente cuando el pedido está listo para ser recogido.</li><br>
-  <li>El 66,7% de los clientes entrevistados ha experimentado dificultades de comunicación con la lavandería, principalmente porque sus llamadas o mensajes no son respondidos o porque el personal no puede proporcionar información sobre el estado del pedido.</li><br>
-  <li>El 66,7% de los clientes entrevistados ha experimentado retrasos o incumplimientos en los tiempos de entrega establecidos por la lavandería, situación que les ha generado inconvenientes para organizar sus actividades o utilizar las prendas que necesitaban.</li><br>
-  <li>El 100% de los clientes entrevistados debe trasladarse físicamente hasta la lavandería para entregar o recoger sus prendas, generando un consumo de tiempo y esfuerzo, especialmente cuando se trata de prendas voluminosas.</li><br>
-  <li>El 66,7% de los clientes entrevistados muestra interés en contar con un servicio de recojo o entrega a domicilio, principalmente porque permitiría reducir el tiempo y esfuerzo asociado al traslado de las prendas.</li><br>
-  <li>El 66,7% de los clientes entrevistados expresa preocupación por la confianza y seguridad de sus prendas, debido al temor de que estas se pierdan, se mezclen con otros pedidos, sean dañadas o reciban un tratamiento diferente al solicitado.</li><br>
-</ul>
+* **Frecuencia de uso del servicio de lavandería:**
+  * El 50% de los entrevistados utiliza servicios de lavandería de 2 a 3 veces al mes.
+  * El 50% restante recurre a este servicio de forma esporádica, con una frecuencia de menos de una vez al mes.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf1.png" width="470px">
+    <br>
+    <i>Figura 1. ¿Con qué frecuencia utilizas servicios de lavandería?</i>
 </p>
+
+---
+
+* **Principales factores al elegir una lavandería:**
+  * El factor predominante para la elección es la **confianza y seguridad**, seleccionado por el 75% de los entrevistados.
+  * Los factores de **precio**, **calidad del servicio** y **tiempo de entrega** se posicionan con un nivel de importancia equitativo, alcanzando cada uno el 50% de preferencia entre los encuestados.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf2.png" width="470px">
+    <br>
+    <i>Figura 2. ¿Cuál es el principal factor que consideras al elegir una lavandería?</i>
+</p>
+
+---
+
+* **Métodos actuales para consultar el estado del pedido:**
+  * El 50% adopta una postura pasiva y simplemente espera a la fecha indicada por el establecimiento.
+  * Un 25% consulta el estado de su ropa mediante mensajes de WhatsApp, mientras que el 25% restante lo hace de manera presencial en el local.
+  * Ninguno de los encuestados utiliza la llamada telefónica como medio de consulta.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf3.png" width="470px">
+    <br>
+    <i>Figura 3. Después de dejar tus prendas, ¿cómo consultas actualmente el estado de tu pedido?</i>
+</p>
+
+---
+
+* **Frecuencia de comunicación para verificar el estado de las prendas:**
+  * El 50% de los clientes indica que "casi nunca" necesita comunicarse con la lavandería para confirmar si su ropa está lista.
+  * Un 25% señala que debe hacerlo "casi siempre" y el 25% restante afirma tener que comunicarse "siempre".
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf4.png" width="470px">
+    <br>
+    <i>Figura 4. ¿Con qué frecuencia has tenido que comunicarte con la lavandería para saber si tus prendas ya están listas?</i>
+</p>
+
+---
+
+* **Importancia de la consulta en tiempo real:**
+  * El 100% de los entrevistados asigna una valoración alta a la posibilidad de consultar el estado de sus prendas en tiempo real a través de una plataforma (75% otorgó una calificación de 5 "muy alto" y 25% otorgó una calificación de 4 "alto" en una escala del 1 al 5).
+  * Ningún participante asignó puntuaciones neutrales o bajas (1, 2 o 3).
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf5.png" width="470px">
+    <br>
+    <i>Figura 5. ¿Qué tan importante sería para ti poder consultar desde una plataforma el estado de tus prendas en tiempo real?</i>
+</p>
+
+---
+
+* **Funcionalidades más valoradas en una plataforma digital:**
+  * La función imprescindible señalada por el 100% de los encuestados es **consultar el estado de las prendas**.
+  * Le sigue en preferencia la opción de **recibir notificaciones cuando cambie el estado**, valorada por el 75% de los participantes.
+  * Aspectos como **ver el historial de pedidos** y **solicitar recojo y entrega a domicilio** contaron con un 25% de preferencia cada uno, mientras que la consulta de información y precios no fue seleccionada.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf6.png" width="470px">
+    <br>
+    <i>Figura 6. ¿Qué funcionalidad valorarías más al utilizar una plataforma digital de lavandería?</i>
+</p>
+
+---
+
+**Análisis general del segundo segmento**
+
+El análisis del segmento de personas independientes usuarias de lavanderías revela que, si bien la frecuencia de uso varía entre recurrente y ocasional, existe una demanda uniforme orientada hacia la tranquilidad. El criterio determinante al seleccionar un establecimiento es la confianza y la seguridad, superando a factores tradicionales como el precio o el tiempo de entrega.
+
+Actualmente, aunque una fracción de los usuarios aguarda pasivamente la fecha de entrega acordada, la mitad de los encuestados experimenta la necesidad constante de consultar el estado de su pedido mediante canales como WhatsApp o visitas presenciales.
+
+En consecuencia, el segmento demuestra una receptividad total hacia una solución tecnológica que automatice la trazabilidad de sus prendas. Disponer de visibilidad en tiempo real y notificaciones automáticas satisface directamente su necesidad fundamental de control y transparencia, eliminando la incertidumbre del seguimiento manual.
 
 ### 2.3. Needfinding
 
