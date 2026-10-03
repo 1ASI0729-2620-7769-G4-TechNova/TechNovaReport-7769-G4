@@ -1042,11 +1042,11 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 ---
 
 * **Frecuencia de problemas en el registro e identificación:**
-  * El 75% de los entrevistados señala que "a veces" presenta inconvenientes para registrar o identificar las prendas de un pedido[cite: 5].
-  * El 25% restante indica que esta problemática ocurre "casi siempre"[cite: 5].
+  * El 75% de los entrevistados señala que "a veces" presenta inconvenientes para registrar o identificar las prendas de un pedido.
+  * El 25% restante indica que esta problemática ocurre "casi siempre".
 
 <p align="center">
-    <img src="Graf2.png" alt="Frecuencia de problemas en registro" width=650>
+    <img src="./assets/Chapter2/Analysis interviews/Graf2.png" width="470px">
     <br>
     <i>Figura 2. ¿Con qué frecuencia tienes problemas al registrar o identificar correctamente las prendas de un pedido?</i>
 </p>
@@ -1054,11 +1054,11 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 ---
 
 * **Principales dificultades en la gestión de pedidos:**
-  * La dificultad predominante entre los propietarios es la identificación correcta de las prendas, representativa del 50% de las respuestas[cite: 4].
-  * Otras complicaciones abarcan saber qué pedidos quedan pendientes (25%) y la búsqueda de información sobre pedidos anteriores (25%)[cite: 4].
+  * La dificultad predominante entre los propietarios es la identificación correcta de las prendas, representativa del 50% de las respuestas.
+  * Otras complicaciones abarcan saber qué pedidos quedan pendientes (25%) y la búsqueda de información sobre pedidos anteriores (25%).
 
 <p align="center">
-    <img src="Graf3.png" alt="Dificultades en gestión de pedidos" width=650>
+    <img src="./assets/Chapter2/Analysis interviews/Graf3.png" width="470px">
     <br>
     <i>Figura 3. ¿Cuál es la principal dificultad que tienes al gestionar los pedidos?</i>
 </p>
@@ -1066,11 +1066,11 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 ---
 
 * **Comunicación con los clientes:**
-  * El 75% manifiesta que sus clientes se comunican "a veces" para consultar el estado actual de sus prendas[cite: 3].
-  * Un 25% restante menciona que esto sucede "casi nunca"[cite: 3].
+  * El 75% manifiesta que sus clientes se comunican "a veces" para consultar el estado actual de sus prendas.
+  * Un 25% restante menciona que esto sucede "casi nunca".
 
 <p align="center">
-    <img src="Graf4.png" alt="Frecuencia de consulta de clientes" width=650>
+    <img src="./assets/Chapter2/Analysis interviews/Graf4.png" width="470px">
     <br>
     <i>Figura 4. ¿Con qué frecuencia los clientes se comunican para preguntar por el estado de sus prendas?</i>
 </p>
@@ -1078,11 +1078,11 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 ---
 
 * **Aceptación de un sistema integral de gestión:**
-  * El 75% evalúa como muy útil (puntuaciones 4 y 5 en una escala lineal del 1 al 5) disponer de una solución tecnológica unificada que integre pedidos, prendas y actualización de estados desde un solo lugar (50% asignó un 4 y 25% asignó un 5)[cite: 2].
-  * El 25% restante le otorgó una puntuación neutra de 3[cite: 2].
+  * El 75% evalúa como muy útil (puntuaciones 4 y 5 en una escala lineal del 1 al 5) disponer de una solución tecnológica unificada que integre pedidos, prendas y actualización de estados desde un solo lugar (50% asignó un 4 y 25% asignó un 5).
+  * El 25% restante le otorgó una puntuación neutra de 3.
 
 <p align="center">
-    <img src="Graf5.png" alt="Utilidad del sistema de gestión" width=650>
+    <img src="./assets/Chapter2/Analysis interviews/Graf5.png" width="470px">
     <br>
     <i>Figura 5. ¿Qué tan útil consideras tener un sistema que permita registrar pedidos, prendas y actualizar su estado desde un solo lugar?</i>
 </p>
@@ -1090,15 +1090,23 @@ Finalmente, Renzo considera que contar con un sistema que permita registrar las 
 ---
 
 * **Funcionalidades más valoradas:**
-  * La función considerada imprescindible por el 100% de los participantes es el **seguimiento del estado de los pedidos**[cite: 1].
-  * Le siguen en orden de importancia el **registro de clientes y pedidos** (75%) y el **control de prendas** (75%)[cite: 1].
-  * Por último, el historial de pedidos contó con un 25% de preferencia, mientras que la notificación directa a clientes no fue seleccionada por ningún entrevistado como prioridad absoluta frente a la gestión operativa[cite: 1].
+  * La función considerada imprescindible por el 100% de los participantes es el **seguimiento del estado de los pedidos**.
+  * Le siguen en orden de importancia el **registro de clientes y pedidos** (75%) y el **control de prendas** (75%).
+  * Por último, el historial de pedidos contó con un 25% de preferencia, mientras que la notificación directa a clientes no fue seleccionada por ningún entrevistado como prioridad absoluta frente a la gestión operativa.
 
 <p align="center">
-    <img src="Graf6.png" alt="Funcionalidades más importantes" width=650>
+    <img src="./assets/Chapter2/Analysis interviews/Graf6.png" width="470px">
     <br>
     <i>Figura 6. ¿Qué funcionalidad consideras más importante para mejorar la gestión de tu lavandería?</i>
 </p>
+
+**Análisis general del primer segmento**
+
+El diagnóstico del segmento de propietarios de lavanderías independientes refleja un modelo operativo respaldado casi en su totalidad por métodos tradicionales en papel y herramientas no especializadas. Esta falta de digitalización genera un cuello de botella crítico en el control diario, donde la pérdida de trazabilidad de las prendas y la dificultad para monitorear los trabajos pendientes son las principales fuentes de ineficiencia.
+
+Asimismo, la constante consulta de los clientes sobre la situación de sus prendas evidencia que la gestión manual no solo impacta la operativa interna, sino que compromete la transparencia hacia el usuario final. 
+
+En consecuencia, el sector muestra una clara apertura hacia la adopción tecnológica, condicionada a que la solución centralice el control de inventario por prenda y automatice el seguimiento de los pedidos en tiempo real, resolviendo de raíz el desorden administrativo actual.
 
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
 
