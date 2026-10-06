@@ -911,7 +911,11 @@ Datos del entrevistado:
 <div align="justify">
   Isabella, dirige una lavandería independiente, ella se encarga de gestionar los pedidos y el proceso de lavado dentro de su lavandería. Ella se encarga de realizar la recepcion de los pedidos y registrar todo mediante boletas y apuntarlos en excel, donde indica el código del pedido, las prendas, cantidades y la hora estimada de recojo. Ademas, se comunica con el cliente atraves de whatsapp. Sin embargo, entre las principales dificultades se encuentra el problema de registrar prendas incorrectamente u obviar detalles de las prendas. Sobre su negocio menciona que tienen servicio de recojo y que tienen pensado en hacer delivery, pero que por el momento no ofrecen delivery. Ademas, menciona que estaria dispuesta a probar un aplicativo que le ayude con la gestion.
 </div>
-
+<br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_enrique_isabella.png" alt="Entrevista de Isabella Orrego" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Isabella Orrego</i>
+</p>
 
 <br>
 <u>Entrevista 2:</u>
@@ -930,6 +934,12 @@ Datos del entrevistado:
 <div align="justify">
   Elizabeth, es propietaria de una lavandería independiente, ella se encarga de gestionar los pedidos y el proceso de lavado dentro de su lavandería. Actualmente, realiza todo el registro de manera manual mediante boletas, donde indica el código del pedido, las prendas, cantidades y la hora estimada de recojo. Sin embargo, entre las principales dificultades se encuentran las confusiones o pérdidas ocasionales de prendas y algunos retrasos ocasionados por problemas durante el proceso de secado. Debido a la inseguridad ciudadana, no mantiene comunicación con los clientes fuera del local, por lo que cualquier inconveniente se resuelve presencialmente. Considera que los tiempos y precios de sus servicios son adecuados y, por el momento, no ofrece servicio de recojo o entrega a domicilio.
 </div>
+<br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_adriana_elizabeth.png" alt="Entrevista de Elizabeth Flores" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Elizabeth Flores</i>
+</p>
+
 <br>
 
 <u>Entrevista 3:</u>
@@ -954,8 +964,13 @@ Datos del entrevistado:
 
   La lavandería no ofrece delivery de manera formal; ocasionalmente coordina entregas para clientes frecuentes y cercanos mediante WhatsApp o llamadas, y anota direcciones y horarios en el cuaderno. Nataly indicó que buscar pedidos anteriores y resolver reclamos por prendas supuestamente perdidas consume tiempo. Los errores de registro pueden llevar a devolver dinero, reponer prendas o perder la confianza del cliente.
 </div>
-
 <br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_jude_nataly.png" alt="Entrevista de Nataly Sandoval" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Nataly Sandoval</i>
+</p>
+
+---
 
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
 
@@ -976,6 +991,12 @@ Datos del entrevistado:
   Andrea, es una persona independiente que consume el servicio de lavandería ocasionalmente. Además, en su opinión, los factores más importantes al elegir una lavandería son que el precio sea acorde al servicio brindado, la distancia entre su casa y el local, y el tiempo de todo el proceso. Tambien mencionó que, si bien está satisfecha con el registro y cumplimiento de los pedidos, identifica como principal dificultad el transporte de las prendas hacia la lavandería. Asimismo, considera importante contar con información en tiempo real sobre el estado de su pedido y recibir una notificación cuando esté listo para recogerlo. Finalmente, señala que le gustaría recibir promociones o beneficios por ser una cliente recurrente.
 </div>
 <br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_adriana_andrea.png" alt="Entrevista de Andrea Arias" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Andrea Arias</i>
+</p>
+
+<br>
 
 <u>Entrevista 2:</u>
 
@@ -993,6 +1014,12 @@ Datos del entrevistado:
 <div align="justify">
   Margot Bernable de la Cruz, de 54 años y residente en San Martín de Porres, utiliza el servicio de lavandería ocasionalmente, sobre todo para prendas delicadas, lavado en seco, frazadas o ropa manchada. Para ella, los factores más importantes al elegir una lavandería son la confianza, el buen manejo de las prendas, el cumplimiento de los tiempos, el trato adecuado y el costo. Señala como principal dificultad el traslado de las prendas, ya que la lavandería no está cerca y no cuenta con movilidad, lo que genera gastos y pérdida de tiempo. También menciona problemas con demoras en la atención, pedidos no listos a la hora acordad y falta de comunicación clara para consultar el estado del pedido. Le gustaría contar con información en tiempo real sobre el proceso, notificaciones si la prenda está lista antes o si surge algún inconveniente, y servicios de recojo y entrega a domicilio. Considera que una página web o WhatsApp facilitaría el seguimiento y mejoraría su satisfacción con el servicio.
 </div>
+<br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_cesar_margot.png" alt="Entrevista de Margot Bernable" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Margot Bernable</i>
+</p>
+
 <br>
 
 <p><u>Entrevista 3:</u></p>
@@ -1015,10 +1042,18 @@ Por otro lado, considera importante conocer con precisión qué prendas lleva a 
 
 Finalmente, Renzo considera que contar con un sistema que permita registrar las prendas entregadas, realizar un seguimiento de su estado y recibir información sobre el avance del servicio podría brindarle mayor confianza y seguridad. Además, un servicio de recojo y entrega a domicilio se ajustaría mejor a su rutina de estudio y trabajo.
 
+<br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_ariana_renzo.png" alt="Entrevista de Renzo Mongrut" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Renzo Mongrut</i>
+</p>
+<br>
+
+**Registro de todas las entrevistas**
 
 <p align="center">
   <img src="assets/Chapter2/Interview/Registro_Entrevistas.png" alt="Video de registro de entrevistas de ambos segmentos" width="500"/>
-  <br/><i>Evidencia de entrevista (ambos segmentos)</i>
+  <br/><i>Evidencia de entrevistas (ambos segmentos)</i>
 </p>
 
 Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQALZsfwqvXoS5Mt9znSXvgrAbMQ6v02M21v0TXnnxlZnXk?e=piOTvD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQALZsfwqvXoS5Mt9znSXvgrAbMQ6v02M21v0TXnnxlZnXk?e=piOTvD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
