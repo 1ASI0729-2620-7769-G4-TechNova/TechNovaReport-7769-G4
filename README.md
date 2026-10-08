@@ -4714,7 +4714,15 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
 
+En esta sección, se establecen los aspectos clave del Aspect Leaders and Collaborators correspondiente al Sprint 2 del proyecto WashTrack. Se incluye información sobre los aspectos técnicos identificados, principalmente relacionados con el desarrollo del frontend, diseño de interfaces, experiencia de usuario, navegación, diseño responsive e integración de las funcionalidades con los servicios existentes. Asimismo, se presentan los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación, se presentará el resumen de la distribución de roles por aspecto.
 
+| Team Member              | Frontend y UI | UX/UI Responsive | Integración Frontend/API | Funcionalidades Cliente | Validación y Documentación |
+|--------------------------|---------------|------------------|---------------------------|-------------------------|----------------------------|
+| Jude Hermoza Quispe      | C             | C                | C                         | C                       | L                          |
+| Enrique Mantilla Maldonado | C           | L                | C                         | C                       | C                          |
+| Ariana Pérez Vásquez     | L             | C                | C                         | L                       | C                          |
+| Adriana Ramos Fuentes Rivera | C        | C                | L                         | C                       | C                          |
+| César Linares Bernable   | C             | C                | C                         | C                       | C                          |
 
 ##### 5.2.2.3. Sprint Backlog 2
 
