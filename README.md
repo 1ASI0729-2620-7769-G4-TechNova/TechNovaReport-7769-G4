@@ -4746,6 +4746,20 @@ A diferencia del Sprint 1, centrado en la implementación de la Landing Page, el
 | **Sum of Story Points** | 32 Story Points |
 
 
+#### Bounded Contexts considerados para el Sprint 2
+
+Para orientar la organización del frontend de **WashTrack**, se tomaron como referencia los siguientes *bounded contexts* y sus respectivas responsabilidades dentro de la plataforma de **TechNova**:
+
+| Bounded Context | Propósito dentro del frontend |
+| :--- | :--- |
+| **IAM** | Representar las interfaces y flujos relacionados con la autenticación, el registro de usuarios, el inicio de sesión y la gestión segura de accesos según los roles de la plataforma. |
+| **Customer** | Representar las vistas orientadas al cliente final, permitiendo consultar su historial de pedidos y administrar sus datos personales y direcciones frecuentes. |
+| **Laundry Operations** | Mostrar la organización de las operaciones de lavandería, el registro detallado de prendas por pedido y la gestión del procesamiento del servicio. |
+| **Order Management** | Representar las vistas destinadas a la creación, seguimiento, actualización de estados, reajuste de precios y organización general de las órdenes de servicio. |
+| **Billing & Subscriptions** | Representar las interfaces relacionadas con la configuración de tarifas, los planes de suscripción de la lavandería y la ejecución de pagos digitales. |
+| **Delivery** | Gestionar las interfaces para coordinar la logística de recojos y entregas a domicilio, asignación de conductores y control de repartidores. |
+| **Tracking & Notifications** | Mostrar las vistas destinadas al seguimiento del progreso del pedido y a la recepción de notificaciones sobre el estado de las prendas. |
+
 
 
 
