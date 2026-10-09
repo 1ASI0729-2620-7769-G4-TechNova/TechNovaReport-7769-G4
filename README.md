@@ -57,7 +57,7 @@
 <br>
 <div align="center">
 
-*Setiembre, 2026*
+*Octubre, 2026*
 
 </div>
 
@@ -70,8 +70,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 |---|---|---|---|
 | **AV1** | 05/09/2026 | Hermoza Quispe, Jude<br><br>Mantilla Maldonado, Enrique Manuel<br><br>Perez Vasquez Ariana Valeria<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Linares Bernable, Cesar Alejandro | **Capítulo I: Introducción**<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br><br>**Capítulo III: Requirements Specification**<br><br>**Capítulo IV: Product Design**<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management<br>5.1.1. Software Development Environment Configuration<br>5.1.2. Source Code Management<br>5.1.3. Source Code Style Guide & Conventions<br>5.1.4. Software Deployment Configuration<br>5.2. Landing Page, Services & Applications Implementation<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1<br>5.2.1.2. Aspect Leaders and Collaborators<br>5.2.1.3. Sprint Backlog 1<br>5.2.1.4. Development Evidence for Sprint Review<br>5.2.1.5. Execution Evidence for Sprint Review<br>5.2.1.6. Services Documentation Evidence for Sprint Review<br>5.2.1.7. Software Deployment Evidence for Sprint Review<br>5.2.1.8. Team Collaboration Insights during Sprint |
-
-
+| **TB1** | 09/10/2026 | Hermoza Quispe, Jude<br><br>Mantilla Maldonado, Enrique Manuel<br><br>Perez Vasquez Ariana Valeria<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Linares Bernable, Cesar Alejandro | 5.2.2. Sprint 2<br>5.2.2.1. Sprint Planning 2<br>5.2.2.2. Aspect Leaders and Collaborators<br>5.2.2.3. Sprint Backlog 2<br>5.2.2.4. Development Evidence for Sprint Review<br>5.2.2.5. Execution Evidence for Sprint Review<br>5.2.2.6. Services Documentation Evidence for Sprint Review<br>5.2.2.7. Software Deployment Evidence for Sprint Review<br>5.2.2.8. Team Collaboration Insights during Sprint |
 
 <div style="page-break-after: always;"></div>
 
@@ -83,9 +82,10 @@ URL del repositorio (report): [https://github.com/1ASI0729-2620-7769-G4-TechNova
 
 URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
+URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4)
+
 <br>
 
-**Reporte de colaboración de la entrega del TP**
 
 **AV1**
 <p align="justify">
@@ -99,7 +99,6 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
 
 **Evidencias de colaboración y analíticos en GitHub**
 
-**AV1**
 
 <p align="justify">
   Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
@@ -119,6 +118,66 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
 <img src="assets/network_graph_av1.png" alt="Contributors-TechNova-AV1" width="500"/>
   <br/><i>Network graph of TechNova (AV1)</i>
 </p>
+<br>
+
+**TB1**
+<p align="justify">
+  Para la entrega TB1 desarrollamos el Sprint 2, empezando con una buena planificación donde fijamos los objetivos del ciclo, asignamos responsables por cada área técnica y organizamos en detalle el Sprint Backlog 2. Además, sumamos oficialmente Trello como herramienta clave de trabajo para tener las tareas bien organizadas, dar visibilidad a todos y hacer un seguimiento claro del flujo de trabajo.
+</p>
+
+<p align="justify">
+  Como prioridad, nos enfocamos en corregir y mejorar todo el feedback recibido en la entrega anterior (AV1). Ajustamos el formato de la documentación quitando los hipervínculos y colocando las URLs completas, completamos el registro de las entrevistas que faltaban e incluimos datos concretos y cifras en su análisis en lugar de solo mencionarlas de forma general. En el lado técnico, corregimos y mejoramos los diagramas C4 (Contexto, Contenedores y Componentes), aclarando la tecnología real utilizada y eliminando la mención errónea a ASP.NET Core. 
+</p>
+
+<p align="justify">
+  En la parte de desarrollo, construimos e implementamos el frontend de la aplicación utilizando Angular. Diseñamos los componentes, servicios e interfaces aplicando los principios de Diseño Guiado por el Dominio (<em>Domain-Driven Design - DDD</em>) y respetando la separación de los <em>Bounded Contexts</em>, logrando que la aplicación responda directamente a la lógica de negocio.
+</p>
+
+<p align="justify">
+  Para cerrar la entrega, realizamos el despliegue funcional de la aplicación y sus servicios en el servidor web. Documentamos todo el proceso con evidencias de desarrollo, ejecución, especificación de los servicios y entregables listos para la revisión del sprint (<em>Sprint Review</em>), además de hacer una reflexión en equipo sobre lo que aprendimos y cómo colaboramos durante este ciclo.
+</p>
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+<p align="justify">
+  Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+**Report**
+
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+  <br/><i>Report: Contributors of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Pulse-TechNova-TB1" width="500"/>
+  <br/><i>Report: Pulse of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+  <br/><i>Report: Network graph of TechNova (TB1)</i>
+</p>
+<br>
+
+**Frontend**
+
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Contributors of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Pulse of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Network graph of TechNova (TB1)</i>
+</p>
+<br>
 
 <div style="page-break-after: always;"></div>
 
@@ -209,6 +268,15 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -251,6 +319,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Pérez Vásquez, Ariana Valeria</b><br>
         <em><b>AV1</b></em><br>
         En la primera entrega del proyecto, las actividades relacionadas con el diseño de la Landing Page, la definición de las Style Guidelines y la elaboración de wireframes y mockups evidencian el cumplimiento del criterio de comunicación oral efectiva. Durante el desarrollo de estas actividades, se expusieron y sustentaron verbalmente las decisiones de diseño relacionadas con la estructura, navegación, identidad visual, tipografía, colores y distribución de los elementos de la interfaz, explicando su relación con las necesidades de los usuarios y los objetivos de WashTrack. Asimismo, la coordinación con los integrantes del equipo permitió argumentar propuestas, recibir retroalimentación y aclarar criterios de diseño y desarrollo, adaptando la explicación según el nivel técnico de los participantes. De igual manera, la sustentación de las convenciones de código y del procedimiento de configuración del despliegue permitió comunicar aspectos técnicos de manera ordenada y comprensible, facilitando la comprensión de las decisiones adoptadas por parte de los distintos integrantes del proyecto.<br>
+        <em><b>TB1</b></em><br>
+        En la segunda entrega del proyecto (TB1), las actividades asociadas al desarrollo del frontend del módulo IAM y a la estructuración de la planificación del Sprint 2 evidencian el cumplimiento del criterio de comunicación oral efectiva. Durante la implementación de los flujos de autenticación, registro de usuarios e inicio de sesión de WashTrack, se sustentaron verbalmente las decisiones técnicas y de diseño adoptadas en la interfaz, explicando su alineación con los requerimientos de seguridad y la experiencia del usuario. Asimismo, la participación en las sesiones de organización del Sprint 2 permitió coordinar y argumentar la distribución de las vistas de la aplicación web, la selección de las User Stories y la separación de los <i>bounded contexts</i> (tales como IAM, Customer, Order Management, Laundry Operations, Billing & Subscriptions, Delivery y Tracking), facilitando la comprensión y el consenso entre los integrantes del equipo. De igual manera, la discusión sobre la integración de componentes y la sincronización del repositorio mediante Git permitió comunicar los acuerdos técnicos de manera clara y estructurada, asegurando el entendimiento común de los avances del proyecto por parte de todos los participantes.
+        <br>
         <em><b></b></em><br>
         <br>
         ...<br>
@@ -262,8 +333,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
-        En la primera entrega del proyecto, las acciones realizadas en la fase de descubrimiento e investigación, tales como el diseño, registro y análisis de entrevistas, la facilitación del proceso Lean UX y la alineación de las historias de usuario, demuestran el cumplimiento del criterio de comunicación oral efectiva. A través de la conducción directa de entrevistas, se estableció una interacción verbal empática y desprovista de tecnicismos para indagar sobre las necesidades de los segmentos objetivo. Asimismo, la articulación oral de las declaraciones de problemas, asunciones e hipótesis en el Lean UX Canvas, sumada a la negociación y clarificación verbal de los criterios de aceptación en las User Stories, evidencia la capacidad de adaptar el discurso, el registro lingüístico y la argumentación a diversos actores del proyecto, abarcando desde usuarios finales hasta stakeholders y el equipo de desarrollo.<br>
-        <em><b></b></em><br>
+        En la primera entrega del proyecto, las acciones realizadas en la fase de descubrimiento e investigación, tales como el diseño, registro y análisis de entrevistas, la facilitación del proceso Lean UX y la alineación de las historias de usuario, demuestran el cumplimiento del criterio de comunicación oral efectiva. A través de la conducción directa de entrevistas, se estableció una interacción verbal empática y desprovista de tecnicismos para indagar sobre las necesidades de los segmentos objetivo. Asimismo, la articulación oral de las declaraciones de problemas, asunciones e hipótesis en el Lean UX Canvas, sumada a la negociación y clarificación verbal de los criterios de aceptación en las User Stories, evidencia la capacidad de adaptar el discurso, el registro lingüístico y la argumentación a diversos actores del proyecto, abarcando desde usuarios finales hasta stakeholders y el equipo de desarrollo.<br><br>
+        <em><b>TB1</b></em><br>
+        El desarrollo del frontend para el Bounded Context de <em>order-management</em> y la corrección de las observaciones del AV1 respaldaron directamente el criterio de comunicación efectiva al permitir adaptar el mensaje a distintas audiencias con claridad. Por un lado, la estandarización técnica de la documentación (colocando las URLs completas e integrando el formato exhaustivo de las entrevistas con datos cualitativos e información concreta) garantizó que tanto evaluadores académicos como miembros del equipo cuenten con evidencia transparente, estructurada y sin ambigüedades. Por otro lado, la implementación de la interfaz funcional en Angular permitió traducir las reglas de negocio complejas del flujo de pedidos a una experiencia visual e intuitiva, facilitando la presentación fluida y comprensible de la solución tecnológica tanto ante usuarios finales como ante stakeholders no técnicos durante las exposiciones del proyecto.<br>
         <br>
         <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
@@ -271,9 +343,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>AV2</b></em><br>
         Poner avances av2<br>
         ...<br>
+        <b>Cesar Alejandro Linares Bernable</b><br>
+        <em><b>AV1</b></em><br>
+        En el primer avance del proyecto, se sostuvieron diálogos empáticos y adaptados al nivel técnico de los interlocutores, abarcando desde los usuarios finales hasta los propios miembros del equipo. Al momento de realizar las entrevistas, se empleó un lenguaje claro y desprovisto de tecnicismos para indagar en las necesidades reales de los usuarios.
       </td>
       <td>
-        <b>AV1</b><br>Durante esta primera entrega, el equipo demostró capacidad de comunicación oral efectiva al realizar y registrar las entrevistas (Needfinding) y al presentar el progreso del Sprint 1. En el proceso de entrevistas, como equipo, se interactuó directamente con los segmentos objetivo ajustando el lenguaje técnico hacia un tono accesible y empático para explorar sus necesidades, dolores y expectativas. Por otro lado, durante las consultas del trabajo desarrollado en clase al docente, se nos permitió comunicar de forma clara las decisiones de diseño, la arquitectura Domain-Driven Design (DDD) y los avances del Sprint 1, demostrando adaptabilidad en la transmisión de conceptos de software tanto a audiencias técnicas como a usuarios finales.<br>
+        <b>AV1</b><br>Durante esta primera entrega, el equipo demostró capacidad de comunicación oral efectiva al realizar y registrar las entrevistas (Needfinding) y al presentar el progreso del Sprint 1. En el proceso de entrevistas, como equipo, se interactuó directamente con los segmentos objetivo ajustando el lenguaje técnico hacia un tono accesible y empático para explorar sus necesidades, dolores y expectativas. Por otro lado, durante las consultas del trabajo desarrollado en clase al docente, se nos permitió comunicar de forma clara las decisiones de diseño, la arquitectura Domain-Driven Design (DDD) y los avances del Sprint 1, demostrando adaptabilidad en la transmisión de conceptos de software tanto a audiencias técnicas como a usuarios finales.<br><br>
+        <b>TB1</b><br>Las actividades realizadas de forma grupal fortalecieron la capacidad del equipo para comunicar de manera oral los avances y la arquitectura del sistema, adaptando el discurso según el nivel técnico de cada audiencia. Al corregir la documentación del AV1 (completando la información de las entrevistas con métricas cuantitativas concretas, formalizando las referencias con URLs completas y reestructurando los diagramas C4 para reflejar la pila tecnológica real del backend en lugar de referencias incorrectas como ASP.NET Core), el equipo construyó un dominio conceptual sólido y coherente que facilitó sostener explicaciones técnicas rigurosas y precisas ante el docente y evaluadores académicos. Asimismo, contar con un frontend completo e integrado permitió sustentar las demostraciones del sistema de forma fluida y visual ante usuarios finales y partes interesadas sin perfil técnico, articulando las funciones de la aplicación en términos de valor de negocio y experiencia de usuario de manera clara, accesible y convincente.<br><br>
       </td>
     </tr>
     <tr>
@@ -282,7 +358,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Pérez Vásquez, Ariana Valeria</b><br>
         <em><b>AV1</b></em><br>
        En la primera entrega del proyecto, la elaboración de documentación técnica y de diseño evidencia el cumplimiento del criterio de comunicación escrita efectiva. La definición de las Style Guidelines, junto con la documentación de la Landing Page, los wireframes y mockups, permitió comunicar de manera clara y estructurada las decisiones relacionadas con la identidad visual, tipografía, colores, espaciado, navegación y organización de la interfaz de WashTrack, utilizando un lenguaje accesible para audiencias no técnicas y técnicas. Asimismo, la elaboración de las secciones Source Code Style Guide & Conventions y Software Deployment Configuration permitió documentar de forma precisa las convenciones utilizadas para mantener la consistencia del código y el procedimiento empleado para el despliegue de los productos digitales. La redacción de estas secciones demuestra la capacidad de adaptar la comunicación escrita según el propósito y la audiencia, empleando tanto descripciones comprensibles para los usuarios y miembros del equipo como terminología técnica necesaria para documentar aspectos de ingeniería de software.
-<br>
+        <br>
+        <em><b>TB1</b></em><br>
+       La elaboración de la documentación técnica y de gestión asociada al Sprint 2 evidencia el cumplimiento del criterio de comunicación escrita efectiva. La redacción y estruturación de las secciones del <i>Sprint Planning 2</i>, la tabla de <i>User Stories</i> comprometidas y la definición detallada de los <i>bounded contexts</i> permitieron comunicar de manera clara, rigurosa y estructurada las decisiones arquitectónicas y funcionales adoptadas para el frontend de WashTrack. Asimismo, la documentación de la implementación del módulo IAM y de los flujos de autenticación y acceso demostró la capacidad de explicar con precisión aspectos técnicos de ingeniería de software mediante convenciones estandarizadas y mensajes de versión en inglés. La redacción de estas secciones refleja la idoneidad para adaptar el estilo y nivel de detalle según la audiencia objetivo, combinando un lenguaje accesible para la revisión académica con el rigor técnico indispensable para el equipo de desarrollo de TechNova.
+        <br>
         <em><b></b></em><br><br>
         ...<br>
         <b>Mantilla Maldonado, Enrique Manuel</b><br>
@@ -293,17 +372,22 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
-        En la primera entrega del proyecto, la elaboración de la documentación del proyecto fundamenta el criterio de comunicación escrita efectiva. La redacción de los antecedentes, la problemática y la definición de la solución junto con los mapas de empatía y User Journey Maps transmiten los hallazgos del negocio de forma formal, clara y accesible para audiencias no técnicas. Además, la especificación estructurada de historias de usuario y la formalización arquitectónica plasmada en los diagramas de clases y diagramas de base de datos manifiestan el dominio de una comunicación escrita rigurosa y estandarizada bajo notaciones técnicas (como UML y modelos Entidad-Relación), garantizando la transmisión precisa de requerimientos a la audiencia técnica de ingeniería.<br>
-        <em><b></b></em><br>
+        En la primera entrega del proyecto, la elaboración de la documentación del proyecto fundamenta el criterio de comunicación escrita efectiva. La redacción de los antecedentes, la problemática y la definición de la solución junto con los mapas de empatía y User Journey Maps transmiten los hallazgos del negocio de forma formal, clara y accesible para audiencias no técnicas. Además, la especificación estructurada de historias de usuario y la formalización arquitectónica plasmada en los diagramas de clases y diagramas de base de datos manifiestan el dominio de una comunicación escrita rigurosa y estandarizada bajo notaciones técnicas (como UML y modelos Entidad-Relación), garantizando la transmisión precisa de requerimientos a la audiencia técnica de ingeniería.<br><br>
+        <em><b>TB1</b></em><br>
+        Las actividades realizadas respaldan directamente el cumplimiento del criterio de comunicación escrita efectiva al permitir estructurar y transmitir información de manera clara. Por un lado, la subsanación de las observaciones del AV1 (mediante la inclusión de URLs completas para asegurar la precisión formal de las fuentes y la completitud del formato de las entrevistas con datos cualitativos e información concreta) garantizó que la documentación técnica mantenga un estándar académico y profesional, facilitando su comprensión por parte de evaluadores, auditores y miembros del equipo. Por otro lado, la implementación del frontend para el Bounded Context de <em>order-management</em> requirió traducir los requerimientos y reglas de negocio del dominio a través de elementos de interfaz visuales, terminología clara en pantalla y mensajes de estado legibles, asegurando que los usuarios finales, especialmente personas no técnicas, puedan interactuar e interpretar el flujo de gestión de pedidos sin ambigüedades.<br><br>
         <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
         Para esta entrega se busco mejorar la efectividad escrita atraves de varios ejercicios, tales como la redaccion de este documento o el obiquitous language en el cual mostramos el lenguaje y los terminos que usamos como equipo y se los mostramos al publico para un mejor entendimiento. Ademas, parte del diseño de nuestra Landing Page y nuestro aplicacion web esta diseñado para captar a la mayor cantidad de publico usando una escritura correcta y entendible para nuestros usuarios.<br>
         <em><b>AV2</b></em><br>
         Poner avances av2<br>
         ...<br>
+        <b>Linares Bernable, Cesar Alejandro</b><br>
+        <em><b>AV1</b></em><br>
+        A lo largo de la primera entrega, la comunicación escrita se manifestó en todos los artefactos desarrollados por el equipo. Por ejemplo,  el Impact Mapping permitió comunicar de manera visual y estructurada la relación entre el objetivo de negocio, los actores involucrados, los cambios de comportamiento esperados y los entregables del proyecto. Por otro lado, la documentación orientada a una audiencia técnica, como las historias de usuario con sus criterios de aceptación empleó notaciones estandarizadas y terminología especializada que garantiza la precisión, consistencia y trazabilidad de los requerimientos.
       </td>
       <td>
-        <b>AV1</b><br>En la primera entrega, la comunicación escrita efectiva se evidencia en la elaboración estructurada de la documentación técnica del proyecto, abarcando desde la definición estratégica de la startup hasta la especificación técnica y de diseño. El equipo de TechNova logró transmitir de manera clara la propuesta de valor a través del Lean UX Canvas, Landing Page y User Personas. Por otro lado, el equipo, redactó el informe con un nivel de rigor y precisión técnico adecuado los artefactos de desarrollo destinados al equipo técnico, tales como los criterios de aceptación en User Stories, el Ubiquitous Language, las guías de estilo UX/UI y los diagramas C4 y de Base de Datos. <br>
+        <b>AV1</b><br>En la primera entrega, la comunicación escrita efectiva se evidencia en la elaboración estructurada de la documentación técnica del proyecto, abarcando desde la definición estratégica de la startup hasta la especificación técnica y de diseño. El equipo de TechNova logró transmitir de manera clara la propuesta de valor a través del Lean UX Canvas, Landing Page y User Personas. Por otro lado, el equipo, redactó el informe con un nivel de rigor y precisión técnico adecuado los artefactos de desarrollo destinados al equipo técnico, tales como los criterios de aceptación en User Stories, el Ubiquitous Language, las guías de estilo UX/UI y los diagramas C4 y de Base de Datos. <br><br>
+        <b>TB1</b><br>Las actividades desarrolladas colectivamente por el equipo permitieron consolidar el criterio de comunicación escrita efectiva al adaptar la documentación y los productos entregables a las expectativas de distintas audiencias. En el ámbito académico y técnico, la corrección integral de las observaciones del AV1 (reemplazando hipervínculos por URLs explícitas completas, estructurando el formato total de las entrevistas con datos concretos y métricas en lugar de simples menciones, y depurando los diagramas C4 al clarificar la pila tecnológica real del backend y eliminar la referencia errónea a ASP.NET Core) garantizó que la memoria técnica del proyecto alcance un estándar de rigurosidad, coherencia y transparencia fácilmente interpretable por docentes, evaluadores y desarrolladores. Asimismo, la construcción del frontend completo tradujo la arquitectura y la lógica de negocio subyacente en interfaces de usuario claras, con flujos legibles y etiquetado intuitivo, lo que asegura que usuarios finales y partes interesadas sin perfil técnico puedan comprender e interactuar sin ambigüedades con el sistema desarrollado.<br><br>
       </td>
     </tr>
   </tbody>
@@ -430,19 +514,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   </tr>
   <tr>
     <td rowspan="4" align="center">
-      <img src="assets/foto_nombre.png" alt="Foto de " width="500"/>
+      <img src="assets/Chapter1/MemberProfile/foto_cesar.jpg" alt="Foto de " width="500"/>
     </td>
-    <td><b>Nombre:</b> NOMBRE COMPLETO </td>
+    <td><b>Nombre:</b> Cesar Alejandro Linares Bernable </td>
   </tr>
   <tr>
-    <td><b>Código:</b> PONER TU CODIGO DE U </td>
+    <td><b>Código:</b> u202019409 </td>
   </tr>
   <tr>
     <td>
       <b>Descripción:</b><br/>
-    Breve descripcion
+   Soy <b>Cesar Alejandro Linares Bernable</b>, estudiante de la carrera de Ingeniería de Software en la UPC. Me interesa el <b>análisis de software y ciberseguridad</b>, es decir, el cómo funcionan ciertas cosas y la protección de datos. Me considero una persona <b>perseverante</b>, y procuro cumplir con mis partes del trabajo incluso si no estoy muy damiliarizado.
       <br/><br/>
-    Dentro del equipo... (que funcion cumples)  
+    Dentro del equipo, me enfoco en pulir el backend y frontend, así como acatar los principios de programación concernientes. 
     </td>
   </tr>
 
@@ -905,7 +989,11 @@ Datos del entrevistado:
 <div align="justify">
   Isabella, dirige una lavandería independiente, ella se encarga de gestionar los pedidos y el proceso de lavado dentro de su lavandería. Ella se encarga de realizar la recepcion de los pedidos y registrar todo mediante boletas y apuntarlos en excel, donde indica el código del pedido, las prendas, cantidades y la hora estimada de recojo. Ademas, se comunica con el cliente atraves de whatsapp. Sin embargo, entre las principales dificultades se encuentra el problema de registrar prendas incorrectamente u obviar detalles de las prendas. Sobre su negocio menciona que tienen servicio de recojo y que tienen pensado en hacer delivery, pero que por el momento no ofrecen delivery. Ademas, menciona que estaria dispuesta a probar un aplicativo que le ayude con la gestion.
 </div>
-
+<br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_enrique_isabella.png" alt="Entrevista de Isabella Orrego" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Isabella Orrego</i>
+</p>
 
 <br>
 <u>Entrevista 2:</u>
@@ -925,10 +1013,42 @@ Datos del entrevistado:
   Elizabeth, es propietaria de una lavandería independiente, ella se encarga de gestionar los pedidos y el proceso de lavado dentro de su lavandería. Actualmente, realiza todo el registro de manera manual mediante boletas, donde indica el código del pedido, las prendas, cantidades y la hora estimada de recojo. Sin embargo, entre las principales dificultades se encuentran las confusiones o pérdidas ocasionales de prendas y algunos retrasos ocasionados por problemas durante el proceso de secado. Debido a la inseguridad ciudadana, no mantiene comunicación con los clientes fuera del local, por lo que cualquier inconveniente se resuelve presencialmente. Considera que los tiempos y precios de sus servicios son adecuados y, por el momento, no ofrece servicio de recojo o entrega a domicilio.
 </div>
 <br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_adriana_elizabeth.png" alt="Entrevista de Elizabeth Flores" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Elizabeth Flores</i>
+</p>
+
+<br>
 
 <u>Entrevista 3:</u>
 
+Entrevistador: Jude Hermoza Quispe
+
+Datos del entrevistado:
+
+- **Nombre:** Nataly
+- **Apellidos:** Sandoval
+- **Edad:** 20 años
+- **Distrito:** San Martín
+- **Timing:** 00:00:02 - 00:07:51
+
+**Resumen descriptivo:**
+<div align="justify">
+  Nataly Sandoval, de 20 años y residente en San Martín, se encarga de la administración de una lavandería. En el proceso de atención recibe a los clientes, revisa las prendas, calcula los precios, coordina el trabajo con el personal, realiza el control de calidad antes de la entrega y atiende la caja. La lavandería ofrece lavado y secado por kilo, lavado en seco, planchado, servicios para prendas especiales y lavado exprés con recargo.
+
+  Actualmente, registra los pedidos mediante un cuaderno físico y tickets numerados escritos a mano; en ocasiones utiliza una hoja de Excel que no está centralizada. Anota datos del cliente, cantidad de prendas, tipo de servicio, observaciones sobre las prendas, fecha de entrega y monto. Ha tenido problemas con tickets ilegibles, prendas mezcladas y diferencias en la cantidad registrada. Los cambios hechos a mano también pueden generar confusión cuando cambia el personal del turno.
+
+  Entre las dificultades operativas, mencionó retrasos cuando llueve y no se pueden usar las secadoras para ciertas prendas, así como cuellos de botella cuando coinciden muchos pedidos. El equipo prioriza por orden de llegada y tipo de servicio, dando prioridad al exprés, aunque no cuenta con un sistema formal. Para informar demoras se comunica por llamada o WhatsApp, y recibe consultas frecuentes sobre el estado de los pedidos cuando estos se retrasan.
+
+  La lavandería no ofrece delivery de manera formal; ocasionalmente coordina entregas para clientes frecuentes y cercanos mediante WhatsApp o llamadas, y anota direcciones y horarios en el cuaderno. Nataly indicó que buscar pedidos anteriores y resolver reclamos por prendas supuestamente perdidas consume tiempo. Los errores de registro pueden llevar a devolver dinero, reponer prendas o perder la confianza del cliente.
+</div>
 <br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_jude_nataly.png" alt="Entrevista de Nataly Sandoval" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Nataly Sandoval</i>
+</p>
+
+---
 
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
 
@@ -949,10 +1069,37 @@ Datos del entrevistado:
   Andrea, es una persona independiente que consume el servicio de lavandería ocasionalmente. Además, en su opinión, los factores más importantes al elegir una lavandería son que el precio sea acorde al servicio brindado, la distancia entre su casa y el local, y el tiempo de todo el proceso. Tambien mencionó que, si bien está satisfecha con el registro y cumplimiento de los pedidos, identifica como principal dificultad el transporte de las prendas hacia la lavandería. Asimismo, considera importante contar con información en tiempo real sobre el estado de su pedido y recibir una notificación cuando esté listo para recogerlo. Finalmente, señala que le gustaría recibir promociones o beneficios por ser una cliente recurrente.
 </div>
 <br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_adriana_andrea.png" alt="Entrevista de Andrea Arias" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Andrea Arias</i>
+</p>
+
+<br>
 
 <u>Entrevista 2:</u>
 
+Entrevistador: Cesar Alejandro Linares Bernable
+
+Datos del entrevistado:
+
+- **Nombre:** Margot
+- **Apellidos:** Bernable
+- **Edad:** 54 años
+- **Distrito:** San Martín de Porres
+- **Timing:** 00:27:55 - 00:41:57
+
+**Resumen descriptivo:**
+<div align="justify">
+  Margot Bernable de la Cruz, de 54 años y residente en San Martín de Porres, utiliza el servicio de lavandería ocasionalmente, sobre todo para prendas delicadas, lavado en seco, frazadas o ropa manchada. Para ella, los factores más importantes al elegir una lavandería son la confianza, el buen manejo de las prendas, el cumplimiento de los tiempos, el trato adecuado y el costo. Señala como principal dificultad el traslado de las prendas, ya que la lavandería no está cerca y no cuenta con movilidad, lo que genera gastos y pérdida de tiempo. También menciona problemas con demoras en la atención, pedidos no listos a la hora acordad y falta de comunicación clara para consultar el estado del pedido. Le gustaría contar con información en tiempo real sobre el proceso, notificaciones si la prenda está lista antes o si surge algún inconveniente, y servicios de recojo y entrega a domicilio. Considera que una página web o WhatsApp facilitaría el seguimiento y mejoraría su satisfacción con el servicio.
+</div>
 <br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_cesar_margot.png" alt="Entrevista de Margot Bernable" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Margot Bernable</i>
+</p>
+
+<br>
+
 <p><u>Entrevista 3:</u></p>
 
 Entrevistador: Perez Vasquez Ariana Valeria
@@ -973,49 +1120,194 @@ Por otro lado, considera importante conocer con precisión qué prendas lleva a 
 
 Finalmente, Renzo considera que contar con un sistema que permita registrar las prendas entregadas, realizar un seguimiento de su estado y recibir información sobre el avance del servicio podría brindarle mayor confianza y seguridad. Además, un servicio de recojo y entrega a domicilio se ajustaría mejor a su rutina de estudio y trabajo.
 
+<br>
+<p align="center">
+  <img src="assets/Chapter2/Interview/interview_ariana_renzo.png" alt="Entrevista de Renzo Mongrut" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Renzo Mongrut</i>
+</p>
+<br>
+
+**Registro de todas las entrevistas**
 
 <p align="center">
   <img src="assets/Chapter2/Interview/Registro_Entrevistas.png" alt="Video de registro de entrevistas de ambos segmentos" width="500"/>
-  <br/><i>Evidencia de entrevista (ambos segmentos)</i>
+  <br/><i>Evidencia de entrevistas (ambos segmentos)</i>
 </p>
 
-***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQALZsfwqvXoS5Mt9znSXvgrAbMQ6v02M21v0TXnnxlZnXk?e=piOTvD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQALZsfwqvXoS5Mt9znSXvgrAbMQ6v02M21v0TXnnxlZnXk?e=piOTvD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQALZsfwqvXoS5Mt9znSXvgrAbMQ6v02M21v0TXnnxlZnXk?e=piOTvD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 #### 2.2.3. Análisis de entrevistas
 
 **Primer Segmento: Propietarios de lavanderías independientes**
 
-<p align="justify">
-<ul>
-  <li>El 100% de los propietarios entrevistados utiliza mecanismos de registro que no se encuentran completamente centralizados, como cuadernos físicos, tickets, fichas, boletas o archivos de Excel, lo que dificulta el seguimiento y consulta de la información de los pedidos.</li><br>
-  <li>El 100% de los propietarios entrevistados ha identificado dificultades relacionadas con el registro y control de las prendas, principalmente por errores en las cantidades, detalles omitidos, pérdida de tickets, confusión entre pedidos o mezcla de prendas.</li><br>
-  <li>El 100% de los propietarios entrevistados considera que los errores en el registro pueden generar consecuencias negativas para el negocio y la relación con el cliente, como reclamos, pérdida de confianza, reposición de prendas o pérdidas económicas.</li><br>
-  <li>El 66,7% de los propietarios entrevistados señala que una de las principales dificultades de la gestión diaria está relacionada con el seguimiento de los pedidos pendientes y el control de las prendas que todavía deben ser entregadas.</li><br>
-  <li>El 66,7% de los propietarios entrevistados ha experimentado retrasos en la entrega de pedidos debido a factores como problemas durante el secado, condiciones climáticas, fallas en el suministro de gas o un incremento en la cantidad de pedidos recibidos.</li><br>
-  <li>El 66,7% de los propietarios entrevistados manifiesta que algunas actividades de gestión les generan una carga adicional de tiempo, principalmente la búsqueda de información de pedidos anteriores, el registro de pedidos y la identificación de pedidos pendientes.</li><br>
-  <li>El 100% de los propietarios entrevistados presenta limitaciones en la comunicación con sus clientes, debido a que no cuenta con un sistema integrado para informar el estado de los pedidos. La comunicación se realiza principalmente mediante llamadas, WhatsApp o mensajes de texto, especialmente cuando el pedido está listo o presenta algún retraso.</li><br>
-  <li>El 100% de los propietarios entrevistados no ofrece un servicio general de recojo y entrega a domicilio. Nataly únicamente lo realiza para clientes frecuentes y cercanos, mientras que Isabela y Elizabeth trabajan exclusivamente con recojo en el local.</li><br>
-  <li>El 100% de los propietarios entrevistados muestra preocupación por mantener la satisfacción y confianza de sus clientes, especialmente ante situaciones de retrasos, pérdida, confusión o errores en las prendas.</li>
-</ul>
+* **Métodos actuales de registro de información:**
+  * El 100% (4 de 4 entrevistados) utiliza un cuaderno o agenda física para registrar el avance de sus clientes y pedidos.
+  * Un 50% complementa esta labor con hojas de cálculo como Excel o Google Sheets, mientras que un 25% apoya su registro mediante boletas/tickets y un 25% utiliza WhatsApp o mensajería.
+  * Ninguno de los encuestados cuenta actualmente con una aplicación o sistema digital especializado para la gestión operativa.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews/Graf1.png" width="470px">
+    <br>
+    <i>Figura 1. ¿Cómo registras actualmente la información de tus clientes y pedidos?</i>
 </p>
-<br>
+
+---
+
+* **Frecuencia de problemas en el registro e identificación:**
+  * El 75% de los entrevistados señala que "a veces" presenta inconvenientes para registrar o identificar las prendas de un pedido.
+  * El 25% restante indica que esta problemática ocurre "casi siempre".
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews/Graf2.png" width="470px">
+    <br>
+    <i>Figura 2. ¿Con qué frecuencia tienes problemas al registrar o identificar correctamente las prendas de un pedido?</i>
+</p>
+
+---
+
+* **Principales dificultades en la gestión de pedidos:**
+  * La dificultad predominante entre los propietarios es la identificación correcta de las prendas, representativa del 50% de las respuestas.
+  * Otras complicaciones abarcan saber qué pedidos quedan pendientes (25%) y la búsqueda de información sobre pedidos anteriores (25%).
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews/Graf3.png" width="470px">
+    <br>
+    <i>Figura 3. ¿Cuál es la principal dificultad que tienes al gestionar los pedidos?</i>
+</p>
+
+---
+
+* **Comunicación con los clientes:**
+  * El 75% manifiesta que sus clientes se comunican "a veces" para consultar el estado actual de sus prendas.
+  * Un 25% restante menciona que esto sucede "casi nunca".
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews/Graf4.png" width="470px">
+    <br>
+    <i>Figura 4. ¿Con qué frecuencia los clientes se comunican para preguntar por el estado de sus prendas?</i>
+</p>
+
+---
+
+* **Aceptación de un sistema integral de gestión:**
+  * El 75% evalúa como muy útil (puntuaciones 4 y 5 en una escala lineal del 1 al 5) disponer de una solución tecnológica unificada que integre pedidos, prendas y actualización de estados desde un solo lugar (50% asignó un 4 y 25% asignó un 5).
+  * El 25% restante le otorgó una puntuación neutra de 3.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews/Graf5.png" width="470px">
+    <br>
+    <i>Figura 5. ¿Qué tan útil consideras tener un sistema que permita registrar pedidos, prendas y actualizar su estado desde un solo lugar?</i>
+</p>
+
+---
+
+* **Funcionalidades más valoradas:**
+  * La función considerada imprescindible por el 100% de los participantes es el **seguimiento del estado de los pedidos**.
+  * Le siguen en orden de importancia el **registro de clientes y pedidos** (75%) y el **control de prendas** (75%).
+  * Por último, el historial de pedidos contó con un 25% de preferencia, mientras que la notificación directa a clientes no fue seleccionada por ningún entrevistado como prioridad absoluta frente a la gestión operativa.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews/Graf6.png" width="470px">
+    <br>
+    <i>Figura 6. ¿Qué funcionalidad consideras más importante para mejorar la gestión de tu lavandería?</i>
+</p>
+
+---
+
+**Análisis general del primer segmento**
+
+El diagnóstico del segmento de propietarios de lavanderías independientes refleja un modelo operativo respaldado casi en su totalidad por métodos tradicionales en papel y herramientas no especializadas. Esta falta de digitalización genera un cuello de botella crítico en el control diario, donde la pérdida de trazabilidad de las prendas y la dificultad para monitorear los trabajos pendientes son las principales fuentes de ineficiencia.
+
+Asimismo, la constante consulta de los clientes sobre la situación de sus prendas evidencia que la gestión manual no solo impacta la operativa interna, sino que compromete la transparencia hacia el usuario final. 
+
+En consecuencia, el sector muestra una clara apertura hacia la adopción tecnológica, condicionada a que la solución centralice el control de inventario por prenda y automatice el seguimiento de los pedidos en tiempo real, resolviendo de raíz el desorden administrativo actual.
+
+---
 
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
 
-<p align="justify">
-<ul>
-  <li>El 100% de los clientes entrevistados considera importante que las prendas reciban un tratamiento adecuado de acuerdo con sus características y material, especialmente cuando se trata de prendas delicadas, costosas o que requieren servicios específicos.</li><br>
-  <li>El 100% de los clientes entrevistados recibe una boleta o comprobante físico donde se registran las prendas entregadas, la cantidad, el servicio solicitado y/o la fecha estimada de recojo.</li><br>
-  <li>El 100% de los clientes entrevistados manifiesta interés en conocer el avance de sus pedidos y recibir información actualizada sobre la etapa en la que se encuentran sus prendas, así como la fecha y hora exacta en que estarán listas para ser recogidas.</li><br>
-  <li>El 100% de los clientes entrevistados valora la posibilidad de recibir notificaciones relacionadas con el estado de sus prendas, especialmente cuando el pedido está listo para ser recogido.</li><br>
-  <li>El 66,7% de los clientes entrevistados ha experimentado dificultades de comunicación con la lavandería, principalmente porque sus llamadas o mensajes no son respondidos o porque el personal no puede proporcionar información sobre el estado del pedido.</li><br>
-  <li>El 66,7% de los clientes entrevistados ha experimentado retrasos o incumplimientos en los tiempos de entrega establecidos por la lavandería, situación que les ha generado inconvenientes para organizar sus actividades o utilizar las prendas que necesitaban.</li><br>
-  <li>El 100% de los clientes entrevistados debe trasladarse físicamente hasta la lavandería para entregar o recoger sus prendas, generando un consumo de tiempo y esfuerzo, especialmente cuando se trata de prendas voluminosas.</li><br>
-  <li>El 66,7% de los clientes entrevistados muestra interés en contar con un servicio de recojo o entrega a domicilio, principalmente porque permitiría reducir el tiempo y esfuerzo asociado al traslado de las prendas.</li><br>
-  <li>El 66,7% de los clientes entrevistados expresa preocupación por la confianza y seguridad de sus prendas, debido al temor de que estas se pierdan, se mezclen con otros pedidos, sean dañadas o reciban un tratamiento diferente al solicitado.</li><br>
-</ul>
+* **Frecuencia de uso del servicio de lavandería:**
+  * El 50% de los entrevistados utiliza servicios de lavandería de 2 a 3 veces al mes.
+  * El 50% restante recurre a este servicio de forma esporádica, con una frecuencia de menos de una vez al mes.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf1.png" width="470px">
+    <br>
+    <i>Figura 1. ¿Con qué frecuencia utilizas servicios de lavandería?</i>
 </p>
+
+---
+
+* **Principales factores al elegir una lavandería:**
+  * El factor predominante para la elección es la **confianza y seguridad**, seleccionado por el 75% de los entrevistados.
+  * Los factores de **precio**, **calidad del servicio** y **tiempo de entrega** se posicionan con un nivel de importancia equitativo, alcanzando cada uno el 50% de preferencia entre los encuestados.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf2.png" width="470px">
+    <br>
+    <i>Figura 2. ¿Cuál es el principal factor que consideras al elegir una lavandería?</i>
+</p>
+
+---
+
+* **Métodos actuales para consultar el estado del pedido:**
+  * El 50% adopta una postura pasiva y simplemente espera a la fecha indicada por el establecimiento.
+  * Un 25% consulta el estado de su ropa mediante mensajes de WhatsApp, mientras que el 25% restante lo hace de manera presencial en el local.
+  * Ninguno de los encuestados utiliza la llamada telefónica como medio de consulta.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf3.png" width="470px">
+    <br>
+    <i>Figura 3. Después de dejar tus prendas, ¿cómo consultas actualmente el estado de tu pedido?</i>
+</p>
+
+---
+
+* **Frecuencia de comunicación para verificar el estado de las prendas:**
+  * El 50% de los clientes indica que "casi nunca" necesita comunicarse con la lavandería para confirmar si su ropa está lista.
+  * Un 25% señala que debe hacerlo "casi siempre" y el 25% restante afirma tener que comunicarse "siempre".
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf4.png" width="470px">
+    <br>
+    <i>Figura 4. ¿Con qué frecuencia has tenido que comunicarte con la lavandería para saber si tus prendas ya están listas?</i>
+</p>
+
+---
+
+* **Importancia de la consulta en tiempo real:**
+  * El 100% de los entrevistados asigna una valoración alta a la posibilidad de consultar el estado de sus prendas en tiempo real a través de una plataforma (75% otorgó una calificación de 5 "muy alto" y 25% otorgó una calificación de 4 "alto" en una escala del 1 al 5).
+  * Ningún participante asignó puntuaciones neutrales o bajas (1, 2 o 3).
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf5.png" width="470px">
+    <br>
+    <i>Figura 5. ¿Qué tan importante sería para ti poder consultar desde una plataforma el estado de tus prendas en tiempo real?</i>
+</p>
+
+---
+
+* **Funcionalidades más valoradas en una plataforma digital:**
+  * La función imprescindible señalada por el 100% de los encuestados es **consultar el estado de las prendas**.
+  * Le sigue en preferencia la opción de **recibir notificaciones cuando cambie el estado**, valorada por el 75% de los participantes.
+  * Aspectos como **ver el historial de pedidos** y **solicitar recojo y entrega a domicilio** contaron con un 25% de preferencia cada uno, mientras que la consulta de información y precios no fue seleccionada.
+
+<p align="center">
+    <img src="./assets/Chapter2/Analysis interviews 2/Graf6.png" width="470px">
+    <br>
+    <i>Figura 6. ¿Qué funcionalidad valorarías más al utilizar una plataforma digital de lavandería?</i>
+</p>
+
+---
+
+**Análisis general del segundo segmento**
+
+El análisis del segmento de personas independientes usuarias de lavanderías revela que, si bien la frecuencia de uso varía entre recurrente y ocasional, existe una demanda uniforme orientada hacia la tranquilidad. El criterio determinante al seleccionar un establecimiento es la confianza y la seguridad, superando a factores tradicionales como el precio o el tiempo de entrega.
+
+Actualmente, aunque una fracción de los usuarios aguarda pasivamente la fecha de entrega acordada, la mitad de los encuestados experimenta la necesidad constante de consultar el estado de su pedido mediante canales como WhatsApp o visitas presenciales.
+
+En consecuencia, el segmento demuestra una receptividad total hacia una solución tecnológica que automatice la trazabilidad de sus prendas. Disponer de visibilidad en tiempo real y notificaciones automáticas satisface directamente su necesidad fundamental de control y transparencia, eliminando la incertidumbre del seguimiento manual.
 
 ### 2.3. Needfinding
 
@@ -1041,14 +1333,20 @@ A partir de los hallazgos obtenidos, se desarrollan diferentes artefactos de an�
 Arquetipo que representa al usuario que busca optimizar su tiempo, delegar el lavado de sus prendas y realizar un seguimiento en tiempo real mediante canales digitales.
 
 <p align="center">
-    <img src="assets/UserPerson1.png" alt="User Persona 1 - Cliente Final" width=650>
+    <img src="assets/Chapter2/UserPersona/UserPerson1.png" alt="User Persona 1 - Cliente Final" width=650>
+    <br>
+  <i>User Persona de Lucia Velasquez</i>
+  </br>
 </p>
 
 **User Persona 2: Dueño y Administrador de Lavandería - Carlos Mendoza**
 Arquetipo que representa al administrador o dueño de un negocio tradicional que busca digitalizar su operación, centralizar pedidos y eliminar el uso de registros manuales.
 
 <p align="center">
-    <img src="assets/UserPerson2.png" alt="User Persona 2 - Administrador de Lavandería" width=650>
+    <img src="assets/Chapter2/UserPersona/UserPerson2.png" alt="User Persona 2 - Administrador de Lavandería" width=650>
+    <br>
+  <i>User Persona de Carlos Mendoza</i>
+  </br>
 </p>
 
 
@@ -3529,47 +3827,53 @@ flowchart LR
 
 #### 4.7.1. Class Diagrams
 
+##### Shared
+
+- Frontend
+
+<img src="./assets/Chapter4/ClassDiagram/shared_v5.png" width="800px" alt="Shared">
+
 ##### Identity & Access Management
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/IAM.png" width="800px" alt="Identity & Access Management">
+<img src="./assets/Chapter4/ClassDiagram/iam_v5.png" width="800px" alt="Identity & Access Management">
 
 ##### Customer & Laundry Management
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/customer_laundry_management.png" width="800px" alt="Customer & Laundry Management">
+<img src="./assets/Chapter4/ClassDiagram/customer_laundry_management_v5.png" width="800px" alt="Customer & Laundry Management">
 
 ##### Order Management
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/order_management.png" width="800px" alt="Order Management">
+<img src="./assets/Chapter4/ClassDiagram/order_management_v5.png" width="800px" alt="Order Management">
 
 ##### Laundry Operation
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/laundry_operation.png" width="800px" alt="Laundry Operation">
+<img src="./assets/Chapter4/ClassDiagram/laundry_operation_v5.png" width="800px" alt="Laundry Operation">
 
 ##### Billing & Subscription
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/billing_subscription.png" width="800px" alt="Billing & Subscription">
+<img src="./assets/Chapter4/ClassDiagram/billing_subscription_v5.png" width="800px" alt="Billing & Subscription">
 
 ##### Delivery Management
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/delivery_management.png" width="800px" alt="Delivery Management">
+<img src="./assets/Chapter4/ClassDiagram/delivery_management_v5.png" width="800px" alt="Delivery Management">
 
 ##### Tracking & Notifications
 
 - Frontend
 
-<img src="./assets/Chapter4/ClassDiagram/tracking_notifications.png" width="800px" alt="Tracking & Notifications">
+<img src="./assets/Chapter4/ClassDiagram/tracking_notifications_v5.png" width="800px" alt="Tracking & Notifications">
 
 
 
@@ -3894,15 +4198,19 @@ Para el mantenimiento del codigo usamos Github, ya que es util como repositorio 
 
 **Conventional Commits:** Son los estandares para escribir los mensajes de los commits, los cuales permiten comprender como ha sido el avance atraves del proyecto.
 
+
 #### 5.1.3. Source Code Style Guide & Conventions
 
 Para el desarrollo de **WashTrack**, el equipo **TechNova** establece un conjunto de convenciones de nomenclatura, organización y escritura de código con el propósito de mantener una base de código consistente, legible, modular y fácil de mantener durante el ciclo de vida del proyecto.
 
-Estas convenciones se aplican a los diferentes componentes de la solución, incluyendo la *Landing Page*, la *Web Application* y los *RESTful Web Services*, considerando las tecnologías definidas para el proyecto: **HTML5, CSS3, JavaScript, TypeScript y Java**. Asimismo, se consideran las especificaciones en **Gherkin** para la definición de escenarios de comportamiento y pruebas BDD.
+Estas convenciones se aplican a los diferentes componentes de la solución, incluyendo la *Landing Page*, la *Web Application* y los *RESTful Web Services*, considerando las tecnologías definidas para el proyecto: **HTML5, CSS3, JavaScript, TypeScript, Angular Framework y Java**. Asimismo, se consideran las especificaciones en **Gherkin** para la definición de escenarios de comportamiento y pruebas BDD.
 
 Como criterio transversal, **todos los nombres definidos en el código fuente deben utilizar el idioma inglés**, incluyendo clases, interfaces, componentes, funciones, métodos, variables, propiedades, identificadores, atributos y *endpoints*. Esto permite mantener una nomenclatura uniforme entre los diferentes módulos y facilita la colaboración entre los integrantes del equipo.
 
-Las convenciones adoptadas toman como referencia las guías de estilo especificadas para el proyecto: *HTML Style Guide and Coding Conventions*, *Google HTML/CSS Style Guide*, *Gherkin Conventions for Readable Specifications*, *Angular coding style guide*, *Google Java Style Guide*, *Google TypeScript Style Guide* y las convenciones de desarrollo asociadas a *Spring Boot*.
+Las convenciones adoptadas toman como referencia las guías de estilo especificadas para el proyecto: *HTML Style Guide and Coding Conventions*, *Google HTML/CSS Style Guide*, *Gherkin Conventions for Readable Specifications*, *Angular Coding Style Guide*, *Google Java Style Guide*, *Google TypeScript Style Guide* y las convenciones de desarrollo asociadas a *Spring Boot*.
+
+---
+
 ### HTML5
 
 HTML5 se utiliza para estructurar la *Landing Page* de WashTrack mediante una organización semántica y jerárquica del contenido. Las principales convenciones adoptadas son:
@@ -3915,6 +4223,7 @@ HTML5 se utiliza para estructurar la *Landing Page* de WashTrack mediante una or
 * **Estructura ordenada:** Se evita utilizar elementos HTML únicamente con fines de presentación cuando existe una etiqueta semántica apropiada.
 
 ---
+
 ### CSS3
 
 CSS3 se utiliza para definir la presentación visual, distribución y comportamiento *responsive* de la *Landing Page* y de los componentes de la solución. Las convenciones adoptadas son:
@@ -3925,6 +4234,8 @@ CSS3 se utiliza para definir la presentación visual, distribución y comportami
 * **Organización modular:** Los estilos se organizan de manera que los componentes visuales puedan mantenerse y modificarse independientemente.
 * **Diseño responsive:** Se utilizan técnicas de diseño adaptable para garantizar una correcta visualización en dispositivos móviles, tablets y escritorios.
 * **Consistencia visual:** Los componentes reutilizables mantienen las mismas reglas de espaciado, tipografía, tamaños, estados y comportamiento visual definidos en las *Style Guidelines* de WashTrack.
+
+---
 
 ### JavaScript
 
@@ -3941,7 +4252,7 @@ JavaScript se utiliza principalmente para implementar la lógica interactiva de 
 
 ### TypeScript y Angular
 
-Para la *Web Application*, el proyecto utiliza **Angular Framework**, HTML5, CSS3 y TypeScript. El uso de TypeScript permite mantener un código estructurado y con tipado estático, mientras que Angular proporciona la organización basada en componentes definida para la aplicación. Las principales convenciones adoptadas son:
+Para la *Web Application*, el proyecto utiliza **Angular Framework**, HTML5, CSS3, TypeScript y **Angular Material**. El uso de TypeScript permite mantener un código estructurado y con tipado estático, mientras que Angular proporciona la organización basada en componentes definida para la aplicación. Las principales convenciones adoptadas son:
 
 * **`camelCase`:** Para variables, propiedades, parámetros y métodos (por ejemplo: `trackingStatus`, `isOpen` y `fetchTrackingData()`).
 * **`PascalCase`:** Para clases, interfaces, tipos, componentes y otros elementos que representan entidades o estructuras principales (por ejemplo: `Order`, `LaundryService` y `TrackingComponent`).
@@ -3952,6 +4263,7 @@ Para la *Web Application*, el proyecto utiliza **Angular Framework**, HTML5, CSS
 * **Separación de responsabilidades:** La lógica de presentación, los servicios y los modelos se mantienen separados para facilitar el mantenimiento y evolución de la aplicación.
 
 ---
+
 ### Java y Spring Boot
 
 Java se utiliza para el desarrollo de los *RESTful Web Services* de WashTrack mediante **Spring Boot**. La solución considera una organización orientada a responsabilidades y dominios, manteniendo separadas las capas relacionadas con la exposición de servicios, lógica de aplicación, dominio e infraestructura. Las convenciones adoptadas son:
@@ -3997,6 +4309,7 @@ Gherkin se utiliza para expresar escenarios de comportamiento asociados a las fu
 
 En conjunto, estas convenciones permiten que el código fuente de WashTrack mantenga una estructura homogénea entre la *Landing Page*, la *Web Application* y los *RESTful Web Services*. La aplicación consistente de estas reglas facilita la revisión del código, reduce ambigüedades en la nomenclatura y favorece la colaboración entre los integrantes del equipo durante las diferentes etapas del desarrollo.
 
+
 #### 5.1.4. Software Deployment Configuration
 
 En esta sección se describe la configuración y el procedimiento utilizado para realizar el despliegue de los productos digitales de WashTrack, considerando como punto de partida los repositorios administrados mediante GitHub. El proceso de despliegue permite publicar las versiones desarrolladas y mantener una relación entre el código fuente almacenado en el repositorio y la versión disponible para los usuarios.
@@ -4006,8 +4319,8 @@ Para el control de versiones y la organización del código se utiliza GitHub, s
 De acuerdo con la arquitectura planteada para WashTrack, el despliegue considera los siguientes productos digitales:
 
 * **Landing Page:** desarrollada con HTML5, CSS3 y JavaScript.
-* **Frontend Web Applications:** desarrollada utilizando Vue Framework, HTML5, CSS3 y JavaScript.
-* **Web Services:** desarrollados mediante ASP.NET Core, Entity Framework Core y C# bajo el estilo arquitectónico RESTful API.
+* **Frontend Web Applications:** desarrollada utilizando Angular Framework, HTML5, CSS3 y TypeScript.
+* **Web Services:** desarrollados mediante Java y Spring Boot bajo el estilo arquitectónico RESTful API.
 
 En el presente avance se evidencia el despliegue de la primera versión de la Landing Page, mientras que el despliegue del Frontend Web Application y de los Web Services será realizado conforme avance la implementación de estos productos.
 
@@ -4049,38 +4362,38 @@ Finalmente, se accede al enlace generado por GitHub Pages para comprobar que la 
   <img src="./assets/Chapter5/landing_page_navegador.png" width="700px" alt="Sitio web publicado">
   <p><b>Figura 4:</b> Evidencia del sitio web publicado y accesible en línea.</p>
 </div>
-
 ---
+
 ### Configuración de despliegue del Frontend Web Application
 
-El *Frontend Web Application* de **WashTrack** será desplegado a partir de su repositorio correspondiente una vez finalizada su primera versión funcional. El proceso partirá del código fuente almacenado en GitHub y considerará la construcción de la aplicación mediante Vue Framework.
+El *Frontend Web Application* de **WashTrack** será desplegado a partir de su repositorio correspondiente una vez finalizada su primera versión funcional. El proceso partirá del código fuente almacenado en GitHub y considerará la construcción de la aplicación mediante Angular Framework.
 
 El flujo general de despliegue será el siguiente:
 
 1. Obtener la versión estable del código desde el repositorio.
-2. Instalar las dependencias definidas para el proyecto.
-3. Ejecutar el proceso de construcción (*build*) de la aplicación.
-4. Generar los archivos necesarios para producción.
+2. Instalar las dependencias definidas para el proyecto mediante Node.js y Angular CLI.
+3. Ejecutar el proceso de construcción (*build*) de la aplicación (`ng build`).
+4. Generar los archivos estáticos optimizados para producción.
 5. Publicar los archivos generados en el servicio de alojamiento seleccionado.
 6. Verificar el funcionamiento de las rutas, componentes, estilos y comunicación con los Web Services.
 7. Validar la aplicación desde el navegador en diferentes tamaños de pantalla.
+
 ---
 
 ### Configuración de despliegue de los Web Services
 
-Los Web Services de **WashTrack** serán desarrollados utilizando ASP.NET Core, Entity Framework Core y C#, siguiendo el estilo arquitectónico RESTful API. Su despliegue partirá del repositorio de código fuente y requerirá configurar el entorno de ejecución, las dependencias de la aplicación y la conexión con el sistema de base de datos.
+Los Web Services de **WashTrack** serán desarrollados utilizando Java y Spring Boot, siguiendo el estilo arquitectónico RESTful API. Su despliegue partirá del repositorio de código fuente y requerirá configurar el entorno de ejecución, las dependencias de la aplicación y la conexión con el sistema de base de datos.
 
 El flujo general de despliegue será el siguiente:
 
 1. Obtener desde GitHub la versión estable del Web Service.
-2. Configurar las dependencias necesarias del proyecto ASP.NET Core.
+2. Configurar las dependencias necesarias del proyecto Java/Spring Boot mediante Maven.
 3. Configurar las variables y parámetros correspondientes al entorno de producción.
-4. Configurar la conexión con la base de datos.
+4. Configurar la conexión con la base de datos (MySQL / PostgreSQL).
 5. Compilar y publicar la aplicación.
 6. Ejecutar el servicio en el entorno de despliegue seleccionado.
 7. Verificar los *endpoints* disponibles mediante la documentación OpenAPI/Swagger.
 8. Comprobar la comunicación entre el Web Service y el Frontend Web Application.
-
 
 ---
 
@@ -4093,7 +4406,6 @@ $$\text{Feature Branch} \longrightarrow \text{develop} \longrightarrow \text{mai
 Las ramas de desarrollo permiten realizar cambios de manera aislada. Después de validar los cambios, estos se integran en `develop`. Cuando una versión se encuentra preparada para publicación, se incorpora a `main`, desde donde se realiza el despliegue de la versión estable del producto correspondiente.
 
 De esta manera, **TechNova** mantiene una relación controlada entre el código fuente y las versiones publicadas, facilitando el despliegue progresivo de la *Landing Page*, el *Frontend Web Application* y los *Web Services* conforme avance la implementación de WashTrack.
-
 
 
 ### 5.2. Landing Page, Services & Applications Implementation
@@ -4165,7 +4477,9 @@ El objetivo principal del Sprint 1 es implementar las funciones esenciales para 
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
-Durante el Sprint 1 se implementó la Landing Page de **WashTrack** con HTML, CSS y JavaScript. La evidencia se obtuvo del historial de `develop` del repositorio [TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4). La tabla incluye únicamente commits alcanzables desde esa rama; por ello, no incorpora cambios que permanecen solamente en otras ramas.
+Durante el Sprint 1 se implementó la Landing Page de **WashTrack** con HTML, CSS y JavaScript. La evidencia se obtuvo del historial de `develop` del repositorio TechNova-LandingPage-7769-G4. La tabla incluye únicamente commits alcanzables desde esa rama; por ello, no incorpora cambios que permanecen solamente en otras ramas.
+
+Link del repositorio del landing page: https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4
 
 | **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Change Summary** | **Committed on (Date)** |
 |---|---|---|---|---|---|
@@ -4461,6 +4775,90 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 
 - **URL del repositorio de la Landing Page:** [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
+#### 5.2.2. Sprint 2
+
+El Sprint 2 está orientado al desarrollo de la <b>primera versión del Frontend Web Application de WashTrack</b>, como continuación del trabajo realizado durante el Sprint 1, en el que se implementó y desplegó la primera versión funcional de la Landing Page. En esta etapa, el equipo se enfoca en desarrollar las interfaces que permitan visualizar la organización de los principales módulos de la plataforma y los flujos de interacción correspondientes a clientes y personal de lavandería.
+
+Para estructurar el desarrollo del frontend, se consideran los siguientes bounded contexts como <b>IAM, Customer, Laundry Operations, Order Management, Billing & Subscriptions, Delivery y Tracking</b>. Cada contexto representa un área funcional de WashTrack: la autenticación y el acceso de los usuarios, la gestión de información del cliente, las operaciones de lavandería, la administración de pedidos, los pagos y las suscripciones, la coordinación del recojo y la entrega de prendas, y el seguimiento de los pedidos.
+
+El desarrollo de este sprint toma como referencia las User Stories y los criterios de aceptación definidos en el Capítulo III, así como el Product Backlog del proyecto. A partir de estos requerimientos, se organizarán las interfaces y sus componentes, considerando las necesidades de los distintos usuarios y procurando mantener la consistencia visual y funcional entre los módulos de la aplicación.
+
+Como resultado esperado, el <b>Sprint 2</b> busca contar con una <b>primera versión del frontend que represente las principales áreas funcionales de WashTrack y permita visualizar los flujos de navegación previstos.</b> Este incremento servirá como base para las siguientes iteraciones, en las que se podrá continuar con la implementación de las funcionalidades y su integración con los servicios correspondientes.
+
+##### 5.2.2.1. Sprint Planning 2
+El Sprint Planning 2 tuvo como finalidad establecer el objetivo del segundo Sprint, organizar las actividades necesarias para desarrollar el frontend de muestra de WashTrack y definir las áreas funcionales que formarían parte de la interfaz. Para ello, se consideraron los requerimientos definidos en las User Stories y el Product Backlog actualizado, junto con los *bounded contexts* identificados durante el diseño de la arquitectura de la solución.
+
+A diferencia del Sprint 1, centrado en la implementación de la Landing Page, el Sprint 2 se orienta a la construcción de las vistas de la aplicación web. El equipo organizó el trabajo considerando los módulos seleccionados, con el propósito de mantener una estructura coherente entre las diferentes áreas de la plataforma y facilitar la comprensión de las funcionalidades que se ofrecerán a los clientes y a los negocios de lavandería.
+
+**Resumen del Sprint Planning Meeting**
+
+| Elemento | Información |
+| :--- | :--- |
+| **Sprint #** | Sprint 2 |
+| **Date** | 02/10/2026 |
+| **Time** | 02:00 PM |
+| **Location** | Reunión virtual |
+| **Prepared By** | Perez Vasquez, Ariana Valeria |
+| **Attendees** | Ariana Perez, Adriana Fuentes / Cesar Linares, Jude Hermoza / Ariana Vasquez, Enrique Mantilla |
+| **Sprint 1 Review Summary** | Durante el Sprint 1, el equipo implementó y desplegó la primera versión funcional de la Landing Page de WashTrack. Se presentó la propuesta de valor del producto y se incorporaron accesos diferenciados para clientes y proveedores de servicios de lavandería, junto con una navegación adaptada a diferentes dispositivos. Este resultado sirvió como base para continuar con el desarrollo de la aplicación web. |
+| **Sprint 1 Retrospective Summary** | A partir del trabajo realizado durante el Sprint 1, se identificó la importancia de mantener una coordinación constante entre las actividades de documentación, diseño e implementación. Para el siguiente sprint, se considera necesario organizar el trabajo por módulos, mantener la consistencia visual entre las interfaces y revisar de manera conjunta los avances antes de su integración y despliegue. |
+| **Sprint 2 Goal** | Desarrollar y desplegar la primera versión del frontend de muestra de WashTrack, organizando su interfaz en áreas funcionales clave: IAM, Customer, Laundry Operations, Order Management, Billing & Subscriptions, Delivery y Tracking. El cumplimiento se evidencia mediante la disponibilidad de la página desplegada y la representación visual de los módulos definidos. |
+| **Sprint 2 Velocity** | 32 Story Points |
+| **Sum of Story Points** | 32 Story Points |
+
+
+#### Bounded Contexts considerados para el Sprint 2
+
+Para orientar la organización del frontend de **WashTrack**, se tomaron como referencia los siguientes *bounded contexts* y sus respectivas responsabilidades dentro de la plataforma de **TechNova**:
+
+| Bounded Context | Propósito dentro del frontend |
+| :--- | :--- |
+| **IAM** | Representar las interfaces y flujos relacionados con la autenticación, el registro de usuarios, el inicio de sesión y la gestión segura de accesos según los roles de la plataforma. |
+| **Customer** | Representar las vistas orientadas al cliente final, permitiendo consultar su historial de pedidos y administrar sus datos personales y direcciones frecuentes. |
+| **Laundry Operations** | Mostrar la organización de las operaciones de lavandería, el registro detallado de prendas por pedido y la gestión del procesamiento del servicio. |
+| **Order Management** | Representar las vistas destinadas a la creación, seguimiento, actualización de estados, reajuste de precios y organización general de las órdenes de servicio. |
+| **Billing & Subscriptions** | Representar las interfaces relacionadas con la configuración de tarifas, los planes de suscripción de la lavandería y la ejecución de pagos digitales. |
+| **Delivery** | Gestionar las interfaces para coordinar la logística de recojos y entregas a domicilio, asignación de conductores y control de repartidores. |
+| **Tracking & Notifications** | Mostrar las vistas destinadas al seguimiento del progreso del pedido y a la recepción de notificaciones sobre el estado de las prendas. |
+
+#### User Stories seleccionadas
+
+Para el Sprint 2, el desarrollo del frontend de muestra de WashTrack se organizó tomando como referencia las User Stories de los Epic relacionados con los *bounded contexts* seleccionados para la plataforma: EP-001 – Seguimiento y comunicación, EP-003 – Gestión de pedidos y trazabilidad, EP-004 – Gestión de clientes, incidencias y satisfacción, EP-005 – Servicios, pagos y suscripciones, y EP-006 – Administración, reportes y monitoreo.
+
+Las siguientes User Stories se relacionan con las principales áreas representadas en el frontend:
+
+| User Story ID | Título | Propósito dentro del Sprint |
+| :--- | :--- | :--- |
+| **US-001** | Registro de usuario | Representar las interfaces iniciales de registro y autenticación de nuevos usuarios en el módulo IAM. |
+| **US-002** | Inicio de sesión | Permitir validar el acceso seguro a la plataforma según el rol del usuario mediante las vistas de autenticación. |
+| **US-014** | Recuperar contraseña | Habilitar el flujo de recuperación de credenciales y restablecimiento de acceso en la interfaz de usuario. |
+| **US-003** | Visualización de pedidos | Mostrar la lista de pedidos actuales y anteriores para el seguimiento del cliente dentro del contexto Customer. |
+| **US-015** | Registrar dirección de recojo y entrega | Facilitar la gestión y administración de direcciones frecuentes de los clientes para agilizar pedidos a domicilio. |
+| **US-006** | Registro de prendas | Controlar y registrar de forma detallada las prendas asociadas a cada orden dentro de las operaciones de lavandería. |
+| **US-011** | Actualizar el estado del pedido | Mostrar la evolución y los cambios de estado de las prendas durante el proceso operativo de la lavandería. |
+| **US-005** | Gestión de pedidos | Representar las vistas de creación, consulta y administración general de las órdenes de servicio en Order Management. |
+| **US-020** | Cancelar un pedido | Gestionar las acciones de anulación o cancelación de pedidos bajo las condiciones establecidas por el sistema. |
+| **US-024** | Reajuste de precio | Permitir visualizar y modificar los costos de los servicios tras la revisión física de las prendas en el establecimiento. |
+| **US-016** | Realizar pago digital de un pedido | Integrar las interfaces visuales para la ejecución de pagos digitales y transacciones seguras de los servicios. |
+| **US-017** | Gestionar planes de suscripción de la lavandería | Mostrar los planes de membresía y opciones de renovación para los administradores de los negocios de lavandería. |
+| **US-018** | Configurar tipos de servicio y precios | Configurar y reflejar las tarifas comerciales vigentes dentro de las vistas de administración y cotización. |
+| **US-021** | Aceptar solicitudes de recojo | Permitir al personal operativo y conductores visualizar y aceptar las solicitudes de recojo a domicilio pendientes. |
+| **US-022** | Enviar delivery | Gestionar la coordinación y el despacho de las órdenes listas para su entrega final en el domicilio del cliente. |
+| **US-023** | Registrar conductores | Administrar el registro de los conductores y repartidores asignados a la logística de recojos y entregas. |
+| **US-027** | Rechazar recojo | Gestionar las notificaciones de rechazo o no disponibilidad temporal para las solicitudes de recojo a domicilio. |
+| **US-004** | Seguimiento del pedido | Proveer las vistas de trazabilidad en tiempo real sobre el estado y la ubicación de las prendas del cliente. |
+| **US-009** | Recibir notificaciones del estado del pedido | Mostrar las alertas automáticas en la interfaz sobre los avances clave y cambios en el progreso del servicio. |
+
+El objetivo del Sprint 2 se encuentra enfocado en ofrecer una primera experiencia visual de la plataforma, permitiendo que los usuarios reconozcan sus principales módulos y comprendan cómo se organizarán las funcionalidades de WashTrack. El frontend desarrollado y desplegado constituye un incremento visual del producto y una base para futuras iteraciones orientadas a la integración de servicios y al funcionamiento completo de las funcionalidades.
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+##### 5.2.2.3. Sprint Backlog 2
+##### 5.2.2.4. Development Evidence for Sprint Review
+##### 5.2.2.5. Execution Evidence for Sprint Review
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
@@ -4508,14 +4906,18 @@ Como parte de los siguientes pasos en el **Roadmap** de los productos digitales 
 
 # Anexos
 
-Video de entrevistas: [Microsoft Clipchamp](https://upcedupe-my.sharepoint.com/personal/u202018427_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202018427%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0729%2D7769%2DTechNova%2DWashTrack%2Dnavigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef8bacf7f%2D365b%2D4a77%2D97e7%2D58de38fddd49&isDarkMode=true&mode=View)
+Video de entrevistas: [https://upcedupe-my.sharepoint.com/personal/u202018427_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202018427%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0729%2D7769%2DTechNova%2DWashTrack%2Dnavigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef8bacf7f%2D365b%2D4a77%2D97e7%2D58de38fddd49&isDarkMode=true&mode=View](https://upcedupe-my.sharepoint.com/personal/u202018427_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202018427%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202620%2D1asi0729%2D7769%2DTechNova%2DWashTrack%2Dnavigation%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef8bacf7f%2D365b%2D4a77%2D97e7%2D58de38fddd49&isDarkMode=true&mode=View)
 
-URL del repositorio (report): [Repositorio Report](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4/tree/main)
+URL del repositorio (report): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4/tree/main](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4/tree/main)
 
-URL del repositorio (landing-page): [Repositorio Landing Page](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
+URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
-URL de landing page (GithubPage): [Landing Page](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
+URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4)
 
-URL de exposición (AV1): [Exposición AV1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP)
+URL de landing page (GithubPage): [https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
+
+URL de exposición (AV1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP)
+
+URL de exposición (TB1): []()
 
 ---
