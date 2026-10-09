@@ -4885,6 +4885,13 @@ Durante este Sprint el equipo documentó todos los endpoints que consume el fron
 | `/trackingEvents` | Delivery Management | GET, POST | `http://localhost:3002/trackingEvents` · `docs/openapi.yaml` (etiqueta *Tracking events (Delivery Management)*) |
 
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El proyecto de nuestro frontend fue deployado atraves del servicio de vercel, mientras que nuestro db.json fue deployado en render.
+
+URL del frontend: https://technova-washtrack-frontend.vercel.app/home
+URL del db.json: https://technova-landingpage-frontend-7769-g4-mrsy.onrender.com/
+
+
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 
 **Resumen:**
