@@ -57,7 +57,7 @@
 <br>
 <div align="center">
 
-*Setiembre, 2026*
+*Octubre, 2026*
 
 </div>
 
@@ -70,8 +70,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 |---|---|---|---|
 | **AV1** | 05/09/2026 | Hermoza Quispe, Jude<br><br>Mantilla Maldonado, Enrique Manuel<br><br>Perez Vasquez Ariana Valeria<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Linares Bernable, Cesar Alejandro | **Capítulo I: Introducción**<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br><br>**Capítulo III: Requirements Specification**<br><br>**Capítulo IV: Product Design**<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management<br>5.1.1. Software Development Environment Configuration<br>5.1.2. Source Code Management<br>5.1.3. Source Code Style Guide & Conventions<br>5.1.4. Software Deployment Configuration<br>5.2. Landing Page, Services & Applications Implementation<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1<br>5.2.1.2. Aspect Leaders and Collaborators<br>5.2.1.3. Sprint Backlog 1<br>5.2.1.4. Development Evidence for Sprint Review<br>5.2.1.5. Execution Evidence for Sprint Review<br>5.2.1.6. Services Documentation Evidence for Sprint Review<br>5.2.1.7. Software Deployment Evidence for Sprint Review<br>5.2.1.8. Team Collaboration Insights during Sprint |
-
-
+| **TB1** | 09/10/2026 | Hermoza Quispe, Jude<br><br>Mantilla Maldonado, Enrique Manuel<br><br>Perez Vasquez Ariana Valeria<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Linares Bernable, Cesar Alejandro | 5.2.2. Sprint 2<br>5.2.2.1. Sprint Planning 2<br>5.2.2.2. Aspect Leaders and Collaborators<br>5.2.2.3. Sprint Backlog 2<br>5.2.2.4. Development Evidence for Sprint Review<br>5.2.2.5. Execution Evidence for Sprint Review<br>5.2.2.6. Services Documentation Evidence for Sprint Review<br>5.2.2.7. Software Deployment Evidence for Sprint Review<br>5.2.2.8. Team Collaboration Insights during Sprint |
 
 <div style="page-break-after: always;"></div>
 
@@ -83,9 +82,10 @@ URL del repositorio (report): [https://github.com/1ASI0729-2620-7769-G4-TechNova
 
 URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
+URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4)
+
 <br>
 
-**Reporte de colaboración de la entrega del TP**
 
 **AV1**
 <p align="justify">
@@ -99,7 +99,6 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
 
 **Evidencias de colaboración y analíticos en GitHub**
 
-**AV1**
 
 <p align="justify">
   Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
@@ -119,6 +118,66 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
 <img src="assets/network_graph_av1.png" alt="Contributors-TechNova-AV1" width="500"/>
   <br/><i>Network graph of TechNova (AV1)</i>
 </p>
+<br>
+
+**TB1**
+<p align="justify">
+  Para la entrega TB1 desarrollamos el Sprint 2, empezando con una buena planificación donde fijamos los objetivos del ciclo, asignamos responsables por cada área técnica y organizamos en detalle el Sprint Backlog 2. Además, sumamos oficialmente Trello como herramienta clave de trabajo para tener las tareas bien organizadas, dar visibilidad a todos y hacer un seguimiento claro del flujo de trabajo.
+</p>
+
+<p align="justify">
+  Como prioridad, nos enfocamos en corregir y mejorar todo el feedback recibido en la entrega anterior (AV1). Ajustamos el formato de la documentación quitando los hipervínculos y colocando las URLs completas, completamos el registro de las entrevistas que faltaban e incluimos datos concretos y cifras en su análisis en lugar de solo mencionarlas de forma general. En el lado técnico, corregimos y mejoramos los diagramas C4 (Contexto, Contenedores y Componentes), aclarando la tecnología real utilizada y eliminando la mención errónea a ASP.NET Core. 
+</p>
+
+<p align="justify">
+  En la parte de desarrollo, construimos e implementamos el frontend de la aplicación utilizando Angular. Diseñamos los componentes, servicios e interfaces aplicando los principios de Diseño Guiado por el Dominio (<em>Domain-Driven Design - DDD</em>) y respetando la separación de los <em>Bounded Contexts</em>, logrando que la aplicación responda directamente a la lógica de negocio.
+</p>
+
+<p align="justify">
+  Para cerrar la entrega, realizamos el despliegue funcional de la aplicación y sus servicios en el servidor web. Documentamos todo el proceso con evidencias de desarrollo, ejecución, especificación de los servicios y entregables listos para la revisión del sprint (<em>Sprint Review</em>), además de hacer una reflexión en equipo sobre lo que aprendimos y cómo colaboramos durante este ciclo.
+</p>
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+<p align="justify">
+  Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+**Report**
+
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+  <br/><i>Report: Contributors of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Pulse-TechNova-TB1" width="500"/>
+  <br/><i>Report: Pulse of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+  <br/><i>Report: Network graph of TechNova (TB1)</i>
+</p>
+<br>
+
+**Frontend**
+
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Contributors of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Pulse of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Network graph of TechNova (TB1)</i>
+</p>
+<br>
 
 <div style="page-break-after: always;"></div>
 
@@ -210,9 +269,9 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
     - [5.2.2. Sprint 2](#522-sprint-2)
-      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-1)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-1)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
       - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
       - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
@@ -274,8 +333,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
-        En la primera entrega del proyecto, las acciones realizadas en la fase de descubrimiento e investigación, tales como el diseño, registro y análisis de entrevistas, la facilitación del proceso Lean UX y la alineación de las historias de usuario, demuestran el cumplimiento del criterio de comunicación oral efectiva. A través de la conducción directa de entrevistas, se estableció una interacción verbal empática y desprovista de tecnicismos para indagar sobre las necesidades de los segmentos objetivo. Asimismo, la articulación oral de las declaraciones de problemas, asunciones e hipótesis en el Lean UX Canvas, sumada a la negociación y clarificación verbal de los criterios de aceptación en las User Stories, evidencia la capacidad de adaptar el discurso, el registro lingüístico y la argumentación a diversos actores del proyecto, abarcando desde usuarios finales hasta stakeholders y el equipo de desarrollo.<br>
-        <em><b></b></em><br>
+        En la primera entrega del proyecto, las acciones realizadas en la fase de descubrimiento e investigación, tales como el diseño, registro y análisis de entrevistas, la facilitación del proceso Lean UX y la alineación de las historias de usuario, demuestran el cumplimiento del criterio de comunicación oral efectiva. A través de la conducción directa de entrevistas, se estableció una interacción verbal empática y desprovista de tecnicismos para indagar sobre las necesidades de los segmentos objetivo. Asimismo, la articulación oral de las declaraciones de problemas, asunciones e hipótesis en el Lean UX Canvas, sumada a la negociación y clarificación verbal de los criterios de aceptación en las User Stories, evidencia la capacidad de adaptar el discurso, el registro lingüístico y la argumentación a diversos actores del proyecto, abarcando desde usuarios finales hasta stakeholders y el equipo de desarrollo.<br><br>
+        <em><b>TB1</b></em><br>
+        El desarrollo del frontend para el Bounded Context de <em>order-management</em> y la corrección de las observaciones del AV1 respaldaron directamente el criterio de comunicación efectiva al permitir adaptar el mensaje a distintas audiencias con claridad. Por un lado, la estandarización técnica de la documentación (colocando las URLs completas e integrando el formato exhaustivo de las entrevistas con datos cualitativos e información concreta) garantizó que tanto evaluadores académicos como miembros del equipo cuenten con evidencia transparente, estructurada y sin ambigüedades. Por otro lado, la implementación de la interfaz funcional en Angular permitió traducir las reglas de negocio complejas del flujo de pedidos a una experiencia visual e intuitiva, facilitando la presentación fluida y comprensible de la solución tecnológica tanto ante usuarios finales como ante stakeholders no técnicos durante las exposiciones del proyecto.<br>
         <br>
         <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
@@ -288,7 +348,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         En el primer avance del proyecto, se sostuvieron diálogos empáticos y adaptados al nivel técnico de los interlocutores, abarcando desde los usuarios finales hasta los propios miembros del equipo. Al momento de realizar las entrevistas, se empleó un lenguaje claro y desprovisto de tecnicismos para indagar en las necesidades reales de los usuarios.
       </td>
       <td>
-        <b>AV1</b><br>Durante esta primera entrega, el equipo demostró capacidad de comunicación oral efectiva al realizar y registrar las entrevistas (Needfinding) y al presentar el progreso del Sprint 1. En el proceso de entrevistas, como equipo, se interactuó directamente con los segmentos objetivo ajustando el lenguaje técnico hacia un tono accesible y empático para explorar sus necesidades, dolores y expectativas. Por otro lado, durante las consultas del trabajo desarrollado en clase al docente, se nos permitió comunicar de forma clara las decisiones de diseño, la arquitectura Domain-Driven Design (DDD) y los avances del Sprint 1, demostrando adaptabilidad en la transmisión de conceptos de software tanto a audiencias técnicas como a usuarios finales.<br>
+        <b>AV1</b><br>Durante esta primera entrega, el equipo demostró capacidad de comunicación oral efectiva al realizar y registrar las entrevistas (Needfinding) y al presentar el progreso del Sprint 1. En el proceso de entrevistas, como equipo, se interactuó directamente con los segmentos objetivo ajustando el lenguaje técnico hacia un tono accesible y empático para explorar sus necesidades, dolores y expectativas. Por otro lado, durante las consultas del trabajo desarrollado en clase al docente, se nos permitió comunicar de forma clara las decisiones de diseño, la arquitectura Domain-Driven Design (DDD) y los avances del Sprint 1, demostrando adaptabilidad en la transmisión de conceptos de software tanto a audiencias técnicas como a usuarios finales.<br><br>
+        <b>TB1</b><br>Las actividades realizadas de forma grupal fortalecieron la capacidad del equipo para comunicar de manera oral los avances y la arquitectura del sistema, adaptando el discurso según el nivel técnico de cada audiencia. Al corregir la documentación del AV1 (completando la información de las entrevistas con métricas cuantitativas concretas, formalizando las referencias con URLs completas y reestructurando los diagramas C4 para reflejar la pila tecnológica real del backend en lugar de referencias incorrectas como ASP.NET Core), el equipo construyó un dominio conceptual sólido y coherente que facilitó sostener explicaciones técnicas rigurosas y precisas ante el docente y evaluadores académicos. Asimismo, contar con un frontend completo e integrado permitió sustentar las demostraciones del sistema de forma fluida y visual ante usuarios finales y partes interesadas sin perfil técnico, articulando las funciones de la aplicación en términos de valor de negocio y experiencia de usuario de manera clara, accesible y convincente.<br><br>
       </td>
     </tr>
     <tr>
@@ -311,8 +372,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
-        En la primera entrega del proyecto, la elaboración de la documentación del proyecto fundamenta el criterio de comunicación escrita efectiva. La redacción de los antecedentes, la problemática y la definición de la solución junto con los mapas de empatía y User Journey Maps transmiten los hallazgos del negocio de forma formal, clara y accesible para audiencias no técnicas. Además, la especificación estructurada de historias de usuario y la formalización arquitectónica plasmada en los diagramas de clases y diagramas de base de datos manifiestan el dominio de una comunicación escrita rigurosa y estandarizada bajo notaciones técnicas (como UML y modelos Entidad-Relación), garantizando la transmisión precisa de requerimientos a la audiencia técnica de ingeniería.<br>
-        <em><b></b></em><br>
+        En la primera entrega del proyecto, la elaboración de la documentación del proyecto fundamenta el criterio de comunicación escrita efectiva. La redacción de los antecedentes, la problemática y la definición de la solución junto con los mapas de empatía y User Journey Maps transmiten los hallazgos del negocio de forma formal, clara y accesible para audiencias no técnicas. Además, la especificación estructurada de historias de usuario y la formalización arquitectónica plasmada en los diagramas de clases y diagramas de base de datos manifiestan el dominio de una comunicación escrita rigurosa y estandarizada bajo notaciones técnicas (como UML y modelos Entidad-Relación), garantizando la transmisión precisa de requerimientos a la audiencia técnica de ingeniería.<br><br>
+        <em><b>TB1</b></em><br>
+        Las actividades realizadas respaldan directamente el cumplimiento del criterio de comunicación escrita efectiva al permitir estructurar y transmitir información de manera clara. Por un lado, la subsanación de las observaciones del AV1 (mediante la inclusión de URLs completas para asegurar la precisión formal de las fuentes y la completitud del formato de las entrevistas con datos cualitativos e información concreta) garantizó que la documentación técnica mantenga un estándar académico y profesional, facilitando su comprensión por parte de evaluadores, auditores y miembros del equipo. Por otro lado, la implementación del frontend para el Bounded Context de <em>order-management</em> requirió traducir los requerimientos y reglas de negocio del dominio a través de elementos de interfaz visuales, terminología clara en pantalla y mensajes de estado legibles, asegurando que los usuarios finales, especialmente personas no técnicas, puedan interactuar e interpretar el flujo de gestión de pedidos sin ambigüedades.<br><br>
         <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
         Para esta entrega se busco mejorar la efectividad escrita atraves de varios ejercicios, tales como la redaccion de este documento o el obiquitous language en el cual mostramos el lenguaje y los terminos que usamos como equipo y se los mostramos al publico para un mejor entendimiento. Ademas, parte del diseño de nuestra Landing Page y nuestro aplicacion web esta diseñado para captar a la mayor cantidad de publico usando una escritura correcta y entendible para nuestros usuarios.<br>
@@ -324,7 +386,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         A lo largo de la primera entrega, la comunicación escrita se manifestó en todos los artefactos desarrollados por el equipo. Por ejemplo,  el Impact Mapping permitió comunicar de manera visual y estructurada la relación entre el objetivo de negocio, los actores involucrados, los cambios de comportamiento esperados y los entregables del proyecto. Por otro lado, la documentación orientada a una audiencia técnica, como las historias de usuario con sus criterios de aceptación empleó notaciones estandarizadas y terminología especializada que garantiza la precisión, consistencia y trazabilidad de los requerimientos.
       </td>
       <td>
-        <b>AV1</b><br>En la primera entrega, la comunicación escrita efectiva se evidencia en la elaboración estructurada de la documentación técnica del proyecto, abarcando desde la definición estratégica de la startup hasta la especificación técnica y de diseño. El equipo de TechNova logró transmitir de manera clara la propuesta de valor a través del Lean UX Canvas, Landing Page y User Personas. Por otro lado, el equipo, redactó el informe con un nivel de rigor y precisión técnico adecuado los artefactos de desarrollo destinados al equipo técnico, tales como los criterios de aceptación en User Stories, el Ubiquitous Language, las guías de estilo UX/UI y los diagramas C4 y de Base de Datos. <br>
+        <b>AV1</b><br>En la primera entrega, la comunicación escrita efectiva se evidencia en la elaboración estructurada de la documentación técnica del proyecto, abarcando desde la definición estratégica de la startup hasta la especificación técnica y de diseño. El equipo de TechNova logró transmitir de manera clara la propuesta de valor a través del Lean UX Canvas, Landing Page y User Personas. Por otro lado, el equipo, redactó el informe con un nivel de rigor y precisión técnico adecuado los artefactos de desarrollo destinados al equipo técnico, tales como los criterios de aceptación en User Stories, el Ubiquitous Language, las guías de estilo UX/UI y los diagramas C4 y de Base de Datos. <br><br>
+        <b>TB1</b><br>Las actividades desarrolladas colectivamente por el equipo permitieron consolidar el criterio de comunicación escrita efectiva al adaptar la documentación y los productos entregables a las expectativas de distintas audiencias. En el ámbito académico y técnico, la corrección integral de las observaciones del AV1 (reemplazando hipervínculos por URLs explícitas completas, estructurando el formato total de las entrevistas con datos concretos y métricas en lugar de simples menciones, y depurando los diagramas C4 al clarificar la pila tecnológica real del backend y eliminar la referencia errónea a ASP.NET Core) garantizó que la memoria técnica del proyecto alcance un estándar de rigurosidad, coherencia y transparencia fácilmente interpretable por docentes, evaluadores y desarrolladores. Asimismo, la construcción del frontend completo tradujo la arquitectura y la lógica de negocio subyacente en interfaces de usuario claras, con flujos legibles y etiquetado intuitivo, lo que asegura que usuarios finales y partes interesadas sin perfil técnico puedan comprender e interactuar sin ambigüedades con el sistema desarrollado.<br><br>
       </td>
     </tr>
   </tbody>
@@ -4384,14 +4447,6 @@ En esta sección, se establecen los aspectos clave del Aspect Leaders and Collab
 
 El objetivo principal del Sprint 1 es implementar las funciones esenciales para la creación y gestión de tareas de la aplicación WashTrack. Creemos que esto permite a supervisores y técnicos empezar a interactuar con la plataforma en sus aspectos básicos.
 
-Enlace del board donde se trabajó el Sprint Backlog #1:
-[https://trello.com/b/FcG1BJGA/sprint-backlog-1](https://trello.com/b/FcG1BJGA/sprint-backlog-1)
-
-<div align="center">
-  <img src="./assets/Chapter5/sprint2/sprint_backlog_1.png" width="700px" alt="Sprint Backlog 1">
-</div>
-<br>
-
 | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
 | US-001 | Registro de usuario | T-001 | Diseño del formulario de registro | Crear el mockup y la interfaz del formulario de registro (nombre, teléfono, correo, contraseña). | 4 | Hermoza Quispe, Jude | Done |
@@ -4797,77 +4852,12 @@ Las siguientes User Stories se relacionan con las principales áreas representad
 El objetivo del Sprint 2 se encuentra enfocado en ofrecer una primera experiencia visual de la plataforma, permitiendo que los usuarios reconozcan sus principales módulos y comprendan cómo se organizarán las funcionalidades de WashTrack. El frontend desarrollado y desplegado constituye un incremento visual del producto y una base para futuras iteraciones orientadas a la integración de servicios y al funcionamiento completo de las funcionalidades.
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
-
-En esta sección, se establecen los aspectos clave del Aspect Leaders and Collaborators correspondiente al Sprint 2 del proyecto WashTrack. Se incluye información sobre los aspectos técnicos identificados, principalmente relacionados con el desarrollo del frontend, diseño de interfaces, experiencia de usuario, navegación, diseño responsive e integración de las funcionalidades con los servicios existentes. Asimismo, se presentan los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación, se presentará el resumen de la distribución de roles por aspecto.
-
-| Team Member              | Frontend y UI | UX/UI Responsive | Integración Frontend/API | Funcionalidades Cliente | Validación y Documentación |
-|--------------------------|---------------|------------------|---------------------------|-------------------------|----------------------------|
-| Jude Hermoza Quispe      | C             | C                | C                         | C                       | L                          |
-| Enrique Mantilla Maldonado | C           | L                | C                         | C                       | C                          |
-| Ariana Pérez Vásquez     | L             | C                | C                         | L                       | C                          |
-| Adriana Ramos Fuentes Rivera | C        | C                | L                         | C                       | C                          |
-| César Linares Bernable   | C             | C                | C                         | C                       | C                          |
-
 ##### 5.2.2.3. Sprint Backlog 2
-
-El Sprint Backlog 2 se enfoca en la mejora continua del frontend tras el despliegue de la primera versión. En esta fase, se priorizan tareas para optimizar la experiencia del usuario, incorporar nuevas funcionalidades y refinar aspectos visuales y de rendimiento. El objetivo es consolidar las bases establecidas en el primer sprint, ajustando elementos clave en la interfaz, mejorando la navegación y añadiendo nuevas secciones para ofrecer una experiencia más completa y atractiva.
-
-Enlace del board donde se trabajó el Sprint Backlog #2: [https://trello.com/invite/b/6ac7d7c7838c3260231b0469/ATTI3b5bddf34169b3982c9579dfa351b94360594F1E/sprint-backlog-2](https://trello.com/invite/b/6ac7d7c7838c3260231b0469/ATTI3b5bddf34169b3982c9579dfa351b94360594F1E/sprint-backlog-2)
-
-<div align="center">
-  <img src="./assets/Chapter5/sprint2/sprint_backlog_2.png" width="700px" alt="Sprint Backlog 2">
-</div>
-<br>
-
-
-| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-|----------|-------------|---------|------------|------------------|--------------------|-------------|--------|
-| US-003 | Visualización de pedidos | T-024 | Diseño de vista de historial de pedidos | Crear la interfaz de la sección "Mis pedidos" con listado de pedidos activos y anteriores, filtros por fecha y estado. | 5 | Perez Vasquez, Ariana Valeria | To Do |
-| US-003 | Visualización de pedidos | T-025 | Endpoint de consulta de pedidos por cliente | Implementar el endpoint REST que devuelve los pedidos asociados al cliente autenticado. | 5 | Mantilla Maldonado, Enrique Manuel | To Do |
-| US-003 | Visualización de pedidos | T-026 | Integración frontend-backend de historial | Conectar la vista de historial con el endpoint de consulta y manejar estados vacíos. | 4 | Hermoza Quispe, Jude | To Do |
-| US-009 | Recibir notificaciones del estado del pedido | T-027 | Diseño del componente de notificaciones | Crear el componente de campana/bandeja de notificaciones dentro del dashboard del cliente. | 4 | Linares Bernable, Cesar Alejandro | To Do |
-| US-009 | Recibir notificaciones del estado del pedido | T-028 | Endpoint de notificaciones por usuario | Implementar el endpoint REST para listar notificaciones y marcar como leídas. | 6 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
-| US-009 | Recibir notificaciones del estado del pedido | T-029 | Registro de notificación por cambio de estado | Implementar la lógica que genera una notificación cuando el pedido cambia de estado. | 5 | Perez Vasquez, Ariana Valeria | To Do |
-| US-010 | Solicitar recojo de prendas a domicilio | T-030 | Diseño del formulario de solicitud de recojo | Crear la interfaz de solicitud de recojo (dirección, fecha, rango horario, observaciones). | 5 | Hermoza Quispe, Jude | To Do |
-| US-010 | Solicitar recojo de prendas a domicilio | T-031 | Endpoint de creación de solicitud de recojo | Implementar el endpoint REST que registra la solicitud y genera un código de seguimiento. | 6 | Mantilla Maldonado, Enrique Manuel | To Do |
-| US-010 | Solicitar recojo de prendas a domicilio | T-032 | Validaciones de dirección y horario | Implementar validaciones de campos obligatorios, formato de dirección y rango horario válido. | 4 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
-| US-010 | Solicitar recojo de prendas a domicilio | T-033 | Integración del formulario con el backend | Conectar el formulario de recojo con el endpoint y mostrar confirmación al cliente. | 4 | Linares Bernable, Cesar Alejandro | To Do |
-| US-015 | Registrar dirección de recojo y entrega | T-034 | Diseño de la sección "Mis direcciones" | Crear la interfaz para listar, agregar, editar y eliminar direcciones del cliente. | 4 | Perez Vasquez, Ariana Valeria | To Do |
-| US-015 | Registrar dirección de recojo y entrega | T-035 | Endpoint CRUD de direcciones | Implementar los endpoints REST para crear, listar, actualizar y eliminar direcciones. | 5 | Mantilla Maldonado, Enrique Manuel | To Do |
-| US-015 | Registrar dirección de recojo y entrega | T-036 | Lógica de dirección predeterminada | Implementar la marca de dirección predeterminada y su uso automático en nuevas solicitudes. | 3 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
-| US-016 | Realizar pago digital de un pedido | T-037 | Diseño de la pasarela de pago | Crear la interfaz de pago con selección de método, resumen del pedido y confirmación. | 6 | Linares Bernable, Cesar Alejandro | To Do |
-| US-016 | Realizar pago digital de un pedido | T-038 | Endpoint de registro de pago | Implementar el endpoint REST que registra el pago y actualiza el estado del pedido. | 6 | Perez Vasquez, Ariana Valeria | To Do |
-| US-016 | Realizar pago digital de un pedido | T-039 | Integración con pasarela de pagos (mock) | Simular la integración con la pasarela y manejar respuestas exitosas y rechazadas. | 6 | Mantilla Maldonado, Enrique Manuel | To Do |
-| US-016 | Realizar pago digital de un pedido | T-040 | Generación de comprobante digital | Implementar la generación y visualización del comprobante tras un pago exitoso. | 4 | Hermoza Quispe, Jude | To Do |
-| US-017 | Gestionar planes de suscripción de la lavandería | T-041 | Diseño de la sección de planes | Crear la interfaz de gestión del plan contratado, comparativa de planes y opción de cambio. | 5 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
-| US-017 | Gestionar planes de suscripción de la lavandería | T-042 | Endpoint de gestión de suscripción | Implementar los endpoints REST para consultar, cambiar y renovar el plan contratado. | 6 | Perez Vasquez, Ariana Valeria | To Do |
-| US-017 | Gestionar planes de suscripción de la lavandería | T-043 | Lógica de vencimiento y aviso | Implementar la validación de vigencia del plan y la notificación de vencimiento al propietario. | 4 | Linares Bernable, Cesar Alejandro | To Do |
-| US-017 | Gestionar planes de suscripción de la lavandería | T-044 | Integración de planes con funcionalidades habilitadas | Conectar el plan contratado con la habilitación/deshabilitación de funcionalidades en el frontend. | 4 | Mantilla Maldonado, Enrique Manuel | To Do |
-| US-012 | Consultar métricas operativas | T-045 | Diseño del dashboard de métricas | Crear la interfaz con tarjetas de pedidos, ingresos y estado de operaciones por periodo. | 5 | Hermoza Quispe, Jude | To Do |
-| US-012 | Consultar métricas operativas | T-046 | Endpoint de métricas agregadas | Implementar el endpoint REST que calcula pedidos e ingresos por periodo y agrupa por estado. | 6 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
-| US-012 | Consultar métricas operativas | T-047 | Filtros de periodo y exportación | Implementar filtros temporales (día, mes, año) y opción de exportación básica de métricas. | 4 | Perez Vasquez, Ariana Valeria | To Do |
-
----
-
 ##### 5.2.2.4. Development Evidence for Sprint Review
-
-
-
 ##### 5.2.2.5. Execution Evidence for Sprint Review
-
-
-
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
-
-
-
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
-
-
-
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
-
-
 
 ### 5.3. Validation Interviews
 
@@ -4922,8 +4912,12 @@ URL del repositorio (report): [https://github.com/1ASI0729-2620-7769-G4-TechNova
 
 URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
+URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4)
+
 URL de landing page (GithubPage): [https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
 
 URL de exposición (AV1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP)
+
+URL de exposición (TB1): []()
 
 ---
