@@ -4867,7 +4867,7 @@ El objetivo del Sprint 2 se encuentra enfocado en ofrecer una primera experienci
 ##### 5.2.2.4. Development Evidence for Sprint Review
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
-Durante este Sprint el equipo documentó con **OpenAPI 3.0.3** todos los endpoints que consume el frontend de WashTrack. Los servicios se simulan con **json-server** (puerto `3002`) usando los datos de `server/db.json`
+Durante este Sprint el equipo documentó todos los endpoints que consume el frontend de WashTrack. Los servicios se simulan con **json-server** (puerto `3002`) usando los datos de `server/db.json`
 
 **Endpoints documentados**
  
