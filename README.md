@@ -4736,6 +4736,14 @@ En esta sección, se establecen los aspectos clave del Aspect Leaders and Collab
 
 El Sprint Backlog 2 se enfoca en la mejora continua del frontend tras el despliegue de la primera versión. En esta fase, se priorizan tareas para optimizar la experiencia del usuario, incorporar nuevas funcionalidades y refinar aspectos visuales y de rendimiento. El objetivo es consolidar las bases establecidas en el primer sprint, ajustando elementos clave en la interfaz, mejorando la navegación y añadiendo nuevas secciones para ofrecer una experiencia más completa y atractiva.
 
+Enlace del board donde se trabajó el Sprint Backlog #2: [https://trello.com/invite/b/6ac7d7c7838c3260231b0469/ATTI3b5bddf34169b3982c9579dfa351b94360594F1E/sprint-backlog-2](https://trello.com/invite/b/6ac7d7c7838c3260231b0469/ATTI3b5bddf34169b3982c9579dfa351b94360594F1E/sprint-backlog-2)
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint2/sprint_backlog_2.png" width="700px" alt="Sprint Backlog 2">
+</div>
+<br>
+
+
 | Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |----------|-------------|---------|------------|------------------|--------------------|-------------|--------|
 | US-003 | Visualización de pedidos | T-024 | Diseño de vista de historial de pedidos | Crear la interfaz de la sección "Mis pedidos" con listado de pedidos activos y anteriores, filtros por fecha y estado. | 5 | Perez Vasquez, Ariana Valeria | To Do |
