@@ -120,6 +120,24 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 <img src="assets/network_graph_av1.png" alt="Contributors-TechNova-AV1" width="500"/>
   <br/><i>Network graph of TechNova (AV1)</i>
 </p>
+<br>
+
+**TB1**
+<p align="justify">
+  Para la entrega TB1 desarrollamos el Sprint 2, empezando con una buena planificación donde fijamos los objetivos del ciclo, asignamos responsables por cada área técnica y organizamos en detalle el Sprint Backlog 2. Además, sumamos oficialmente Trello como herramienta clave de trabajo para tener las tareas bien organizadas, dar visibilidad a todos y hacer un seguimiento claro del flujo de trabajo.
+</p>
+
+<p align="justify">
+  Como prioridad, nos enfocamos en corregir y mejorar todo el feedback recibido en la entrega anterior (AV1). Ajustamos el formato de la documentación quitando los hipervínculos y colocando las URLs completas, completamos el registro de las entrevistas que faltaban e incluimos datos concretos y cifras en su análisis en lugar de solo mencionarlas de forma general. En el lado técnico, corregimos y mejoramos los diagramas C4 (Contexto, Contenedores y Componentes), aclarando la tecnología real utilizada y eliminando la mención errónea a ASP.NET Core. 
+</p>
+
+<p align="justify">
+  En la parte de desarrollo, construimos e implementamos el frontend de la aplicación utilizando Angular. Diseñamos los componentes, servicios e interfaces aplicando los principios de Diseño Guiado por el Dominio (<em>Domain-Driven Design - DDD</em>) y respetando la separación de los <em>Bounded Contexts</em>, logrando que la aplicación responda directamente a la lógica de negocio.
+</p>
+
+<p align="justify">
+  Para cerrar la entrega, realizamos el despliegue funcional de la aplicación y sus servicios en el servidor web. Documentamos todo el proceso con evidencias de desarrollo, ejecución, especificación de los servicios y entregables listos para la revisión del sprint (<em>Sprint Review</em>), además de hacer una reflexión en equipo sobre lo que aprendimos y cómo colaboramos durante este ciclo.
+</p>
 
 <div style="page-break-after: always;"></div>
 
