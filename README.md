@@ -86,7 +86,6 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 
 <br>
 
-**Reporte de colaboración de la entrega del TP**
 
 **AV1**
 <p align="justify">
@@ -100,7 +99,6 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 
 **Evidencias de colaboración y analíticos en GitHub**
 
-**AV1**
 
 <p align="justify">
   Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
@@ -138,6 +136,48 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 <p align="justify">
   Para cerrar la entrega, realizamos el despliegue funcional de la aplicación y sus servicios en el servidor web. Documentamos todo el proceso con evidencias de desarrollo, ejecución, especificación de los servicios y entregables listos para la revisión del sprint (<em>Sprint Review</em>), además de hacer una reflexión en equipo sobre lo que aprendimos y cómo colaboramos durante este ciclo.
 </p>
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+<p align="justify">
+  Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+**Report**
+
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+  <br/><i>Report: Contributors of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Pulse-TechNova-TB1" width="500"/>
+  <br/><i>Report: Pulse of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+  <br/><i>Report: Network graph of TechNova (TB1)</i>
+</p>
+<br>
+
+**Frontend**
+
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Contributors of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Pulse of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Network graph of TechNova (TB1)</i>
+</p>
+<br>
 
 <div style="page-break-after: always;"></div>
 
