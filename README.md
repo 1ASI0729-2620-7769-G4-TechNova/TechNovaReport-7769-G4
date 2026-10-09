@@ -145,18 +145,24 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 
 **Report**
 
+
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+<img src="assets/report_contributors_tb1_1.png" alt="Contributors-TechNova-TB1" width="500"/>
   <br/><i>Report: Contributors of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Pulse-TechNova-TB1" width="500"/>
+<img src="assets/report_contributors_tb1_2.png" alt="Contributors-TechNova-TB1" width="500"/>
+  <br/><i>Report: Contributors of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/report_pulse_tb1.png" alt="pulse-TechNova-TB1" width="500"/>
   <br/><i>Report: Pulse of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+<img src="assets/report_network_graph_tb1.png" alt="Contributors-TechNova-TB1" width="500"/>
   <br/><i>Report: Network graph of TechNova (TB1)</i>
 </p>
 <br>
@@ -164,17 +170,22 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 **Frontend**
 
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+<img src="assets/frontend_pulse_tb1.png" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
   <br/><i>Frontend: Contributors of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
+<img src="assets/frontend_contributors_tb1_1.png" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
   <br/><i>Frontend: Pulse of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+<img src="assets/frontend_contributors_tb1_2.png" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Pulse of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/frontend_network_graph_tb1.png" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
   <br/><i>Frontend: Network graph of TechNova (TB1)</i>
 </p>
 <br>
