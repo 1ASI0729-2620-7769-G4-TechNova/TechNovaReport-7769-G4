@@ -4378,6 +4378,14 @@ En esta sección, se establecen los aspectos clave del Aspect Leaders and Collab
 
 El objetivo principal del Sprint 1 es implementar las funciones esenciales para la creación y gestión de tareas de la aplicación WashTrack. Creemos que esto permite a supervisores y técnicos empezar a interactuar con la plataforma en sus aspectos básicos.
 
+Enlace del board donde se trabajó el Sprint Backlog #1:
+[https://trello.com/b/FcG1BJGA/sprint-backlog-1](https://trello.com/b/FcG1BJGA/sprint-backlog-1)
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint2/sprint_backlog_1.png" width="700px" alt="Sprint Backlog 1">
+</div>
+<br>
+
 | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
 | US-001 | Registro de usuario | T-001 | Diseño del formulario de registro | Crear el mockup y la interfaz del formulario de registro (nombre, teléfono, correo, contraseña). | 4 | Hermoza Quispe, Jude | Done |
