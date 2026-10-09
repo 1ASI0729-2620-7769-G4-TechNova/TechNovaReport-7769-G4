@@ -351,8 +351,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
         Para esta entrega pusimos en practica nuestras habilidades sociales tales como el dialogo que sustuvimos al hacer nuestras entrevistas, ya que tuvimos que dialogar con dos sectores diferentes para la elaboracion de nuestro proyecto. Ademas de dialogar con otras personas, tambien hubo dialogo entre nosotros como equipo, ya que la toma de decisiones era grupal y, por tanto, la comunicacion era fundamental. Por ejemplo, tuvimos que discutir que historias de usuario agregariamos a nuestro proyecto. Tambien, al momento de diseñar como seria la landing y la aplicacion web, tuvimos charlas y reuniones sobre como ibamos a abordar nuestro diseño hasta que todos estuvieramos de acuerdo.<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <em><b>TB1</b></em><br>
+        Para el desarrollo del Bounded Context del billing and suscriptions se presencio el criterio de comunicación efectiva, ya que tuve que hablar con mis compañeros para progresar con el desarrollo y dejar claras mis ideas. Además, se mostro un lenguaje claro en el desarrollo de mi bounded context para permitir a los usuarios poder entender las interfaces sin ningun problema. Tambien hubo algunas discusiones con los integrantes sobre como realizar los bounded context y que historias de usuarios abarcarian este sprint 2 demostrando el cumplimiento de del criterio de comunicacion oral.<br>
         ...<br>
         <b>Cesar Alejandro Linares Bernable</b><br>
         <em><b>AV1</b></em><br>
@@ -386,11 +386,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         En la primera entrega del proyecto, la elaboración de la documentación del proyecto fundamenta el criterio de comunicación escrita efectiva. La redacción de los antecedentes, la problemática y la definición de la solución junto con los mapas de empatía y User Journey Maps transmiten los hallazgos del negocio de forma formal, clara y accesible para audiencias no técnicas. Además, la especificación estructurada de historias de usuario y la formalización arquitectónica plasmada en los diagramas de clases y diagramas de base de datos manifiestan el dominio de una comunicación escrita rigurosa y estandarizada bajo notaciones técnicas (como UML y modelos Entidad-Relación), garantizando la transmisión precisa de requerimientos a la audiencia técnica de ingeniería.<br><br>
         <em><b>TB1</b></em><br>
         Las actividades realizadas respaldan directamente el cumplimiento del criterio de comunicación escrita efectiva al permitir estructurar y transmitir información de manera clara. Por un lado, la subsanación de las observaciones del AV1 (mediante la inclusión de URLs completas para asegurar la precisión formal de las fuentes y la completitud del formato de las entrevistas con datos cualitativos e información concreta) garantizó que la documentación técnica mantenga un estándar académico y profesional, facilitando su comprensión por parte de evaluadores, auditores y miembros del equipo. Por otro lado, la implementación del frontend para el Bounded Context de <em>order-management</em> requirió traducir los requerimientos y reglas de negocio del dominio a través de elementos de interfaz visuales, terminología clara en pantalla y mensajes de estado legibles, asegurando que los usuarios finales, especialmente personas no técnicas, puedan interactuar e interpretar el flujo de gestión de pedidos sin ambigüedades.<br><br>
+        ...<br>
         <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
         Para esta entrega se busco mejorar la efectividad escrita atraves de varios ejercicios, tales como la redaccion de este documento o el obiquitous language en el cual mostramos el lenguaje y los terminos que usamos como equipo y se los mostramos al publico para un mejor entendimiento. Ademas, parte del diseño de nuestra Landing Page y nuestro aplicacion web esta diseñado para captar a la mayor cantidad de publico usando una escritura correcta y entendible para nuestros usuarios.<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <em><b>TB1</b></em><br>
+        En esta entrega estuvimos constantemente en contacto con el equipo para mandarnos mensajes sobre como van los avances y dialogar que problemas se han presentado. Esto permitio poder avanzar de manera conjunta y poder desarrollar el frontend de nuestro negocio. Nuestra comunicacion escrita fue bastante acertada para acelerar desarrollos; ademas, de que es importante la comunicacion escrita, ya que nuestro pagina frontend sera vista por diferentes usuarios y por ello es importante que todos puedan llegar a entender nuestra pagina.<br>
         ...<br>
         <b>Linares Bernable, Cesar Alejandro</b><br>
         <em><b>AV1</b></em><br>
