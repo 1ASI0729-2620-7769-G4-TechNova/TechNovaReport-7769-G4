@@ -82,6 +82,8 @@ URL del repositorio (report): [https://github.com/1ASI0729-2620-7769-G4-TechNova
 
 URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
+URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4)
+
 <br>
 
 **Reporte de colaboración de la entrega del TP**
@@ -4748,6 +4750,8 @@ Video de entrevistas: [https://upcedupe-my.sharepoint.com/personal/u202018427_up
 URL del repositorio (report): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4/tree/main](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNovaReport-7769-G4/tree/main)
 
 URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
+
+URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4)
 
 URL de landing page (GithubPage): [https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
 
