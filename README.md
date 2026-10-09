@@ -145,18 +145,24 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 
 **Report**
 
+
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+<img src="assets/report_contributors_tb1_1.png" alt="Contributors-TechNova-TB1" width="500"/>
   <br/><i>Report: Contributors of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Pulse-TechNova-TB1" width="500"/>
+<img src="assets/report_contributors_tb1_2.png" alt="Contributors-TechNova-TB1" width="500"/>
+  <br/><i>Report: Contributors of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/report_pulse_tb1.png" alt="pulse-TechNova-TB1" width="500"/>
   <br/><i>Report: Pulse of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+<img src="assets/report_network_graph_tb1.png" alt="Contributors-TechNova-TB1" width="500"/>
   <br/><i>Report: Network graph of TechNova (TB1)</i>
 </p>
 <br>
@@ -164,17 +170,22 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 **Frontend**
 
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+<img src="assets/frontend_pulse_tb1.png" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
   <br/><i>Frontend: Contributors of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
+<img src="assets/frontend_contributors_tb1_1.png" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
   <br/><i>Frontend: Pulse of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+<img src="assets/frontend_contributors_tb1_2.png" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Pulse of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/frontend_network_graph_tb1.png" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
   <br/><i>Frontend: Network graph of TechNova (TB1)</i>
 </p>
 <br>
@@ -4856,6 +4867,22 @@ El objetivo del Sprint 2 se encuentra enfocado en ofrecer una primera experienci
 ##### 5.2.2.4. Development Evidence for Sprint Review
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Durante este Sprint el equipo documentó todos los endpoints que consume el frontend de WashTrack. Los servicios se simulan con **json-server** (puerto `3002`) usando los datos de `server/db.json`
+
+**Endpoints documentados**
+ 
+| Endpoint | Bounded context | Acciones implementadas | Documentación (URL local) |
+|----------|-----------------|------------------------|---------------------------|
+| `/users` | IAM | GET, POST, PATCH, DELETE | `http://localhost:3002/users` · `docs/openapi.yaml` (etiqueta *Users (IAM)*) |
+| `/roles` | IAM | GET | `http://localhost:3002/roles` · `docs/openapi.yaml` (etiqueta *Roles (IAM)*) |
+| `/roleAssignments` | IAM | GET, POST, PATCH | `http://localhost:3002/roleAssignments` · `docs/openapi.yaml` (etiqueta *Role assignments (IAM)*) |
+| `/orders` | Order Management | GET, POST, PUT | `http://localhost:3002/orders` · `docs/openapi.yaml` (etiqueta *Orders (Order Management)*) |
+| `/payments` | Billing and Subscriptions | GET, POST, PUT | `http://localhost:3002/payments` · `docs/openapi.yaml` (etiqueta *Payments (Billing and Subscriptions)*) |
+| `/plans` | Billing and Subscriptions | GET | `http://localhost:3002/plans` · `docs/openapi.yaml` (etiqueta *Plans (Billing and Subscriptions)*) |
+| `/subscriptions` | Billing and Subscriptions | GET, POST, PUT | `http://localhost:3002/subscriptions` · `docs/openapi.yaml` (etiqueta *Subscriptions (Billing and Subscriptions)*) |
+| `/deliveries` | Delivery Management | GET, POST, PUT | `http://localhost:3002/deliveries` · `docs/openapi.yaml` (etiqueta *Deliveries (Delivery Management)*) |
+| `/trackingEvents` | Delivery Management | GET, POST | `http://localhost:3002/trackingEvents` · `docs/openapi.yaml` (etiqueta *Tracking events (Delivery Management)*) |
+
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 
