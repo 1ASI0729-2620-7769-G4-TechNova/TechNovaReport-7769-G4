@@ -4760,8 +4760,35 @@ Para orientar la organización del frontend de **WashTrack**, se tomaron como re
 | **Delivery** | Gestionar las interfaces para coordinar la logística de recojos y entregas a domicilio, asignación de conductores y control de repartidores. |
 | **Tracking & Notifications** | Mostrar las vistas destinadas al seguimiento del progreso del pedido y a la recepción de notificaciones sobre el estado de las prendas. |
 
+#### User Stories seleccionadas
 
+Para el Sprint 2, el desarrollo del frontend de muestra de WashTrack se organizó tomando como referencia las User Stories de los Epic relacionados con los *bounded contexts* seleccionados para la plataforma: EP-001 – Seguimiento y comunicación, EP-003 – Gestión de pedidos y trazabilidad, EP-004 – Gestión de clientes, incidencias y satisfacción, EP-005 – Servicios, pagos y suscripciones, y EP-006 – Administración, reportes y monitoreo.
 
+Las siguientes User Stories se relacionan con las principales áreas representadas en el frontend:
+
+| User Story ID | Título | Propósito dentro del Sprint |
+| :--- | :--- | :--- |
+| **US-001** | Registro de usuario | Representar las interfaces iniciales de registro y autenticación de nuevos usuarios en el módulo IAM. |
+| **US-002** | Inicio de sesión | Permitir validar el acceso seguro a la plataforma según el rol del usuario mediante las vistas de autenticación. |
+| **US-014** | Recuperar contraseña | Habilitar el flujo de recuperación de credenciales y restablecimiento de acceso en la interfaz de usuario. |
+| **US-003** | Visualización de pedidos | Mostrar la lista de pedidos actuales y anteriores para el seguimiento del cliente dentro del contexto Customer. |
+| **US-015** | Registrar dirección de recojo y entrega | Facilitar la gestión y administración de direcciones frecuentes de los clientes para agilizar pedidos a domicilio. |
+| **US-006** | Registro de prendas | Controlar y registrar de forma detallada las prendas asociadas a cada orden dentro de las operaciones de lavandería. |
+| **US-011** | Actualizar el estado del pedido | Mostrar la evolución y los cambios de estado de las prendas durante el proceso operativo de la lavandería. |
+| **US-005** | Gestión de pedidos | Representar las vistas de creación, consulta y administración general de las órdenes de servicio en Order Management. |
+| **US-020** | Cancelar un pedido | Gestionar las acciones de anulación o cancelación de pedidos bajo las condiciones establecidas por el sistema. |
+| **US-024** | Reajuste de precio | Permitir visualizar y modificar los costos de los servicios tras la revisión física de las prendas en el establecimiento. |
+| **US-016** | Realizar pago digital de un pedido | Integrar las interfaces visuales para la ejecución de pagos digitales y transacciones seguras de los servicios. |
+| **US-017** | Gestionar planes de suscripción de la lavandería | Mostrar los planes de membresía y opciones de renovación para los administradores de los negocios de lavandería. |
+| **US-018** | Configurar tipos de servicio y precios | Configurar y reflejar las tarifas comerciales vigentes dentro de las vistas de administración y cotización. |
+| **US-021** | Aceptar solicitudes de recojo | Permitir al personal operativo y conductores visualizar y aceptar las solicitudes de recojo a domicilio pendientes. |
+| **US-022** | Enviar delivery | Gestionar la coordinación y el despacho de las órdenes listas para su entrega final en el domicilio del cliente. |
+| **US-023** | Registrar conductores | Administrar el registro de los conductores y repartidores asignados a la logística de recojos y entregas. |
+| **US-027** | Rechazar recojo | Gestionar las notificaciones de rechazo o no disponibilidad temporal para las solicitudes de recojo a domicilio. |
+| **US-004** | Seguimiento del pedido | Proveer las vistas de trazabilidad en tiempo real sobre el estado y la ubicación de las prendas del cliente. |
+| **US-009** | Recibir notificaciones del estado del pedido | Mostrar las alertas automáticas en la interfaz sobre los avances clave y cambios en el progreso del servicio. |
+
+El objetivo del Sprint 2 se encuentra enfocado en ofrecer una primera experiencia visual de la plataforma, permitiendo que los usuarios reconozcan sus principales módulos y comprendan cómo se organizarán las funcionalidades de WashTrack. El frontend desarrollado y desplegado constituye un incremento visual del producto y una base para futuras iteraciones orientadas a la integración de servicios y al funcionamiento completo de las funcionalidades.
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
 
