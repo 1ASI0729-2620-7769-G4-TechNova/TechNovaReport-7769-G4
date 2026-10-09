@@ -4725,6 +4725,11 @@ El desarrollo de este sprint toma como referencia las User Stories y los criteri
 Como resultado esperado, el <b>Sprint 2</b> busca contar con una <b>primera versión del frontend que represente las principales áreas funcionales de WashTrack y permita visualizar los flujos de navegación previstos.</b> Este incremento servirá como base para las siguientes iteraciones, en las que se podrá continuar con la implementación de las funcionalidades y su integración con los servicios correspondientes.
 
 ##### 5.2.2.1. Sprint Planning 2
+El Sprint Planning 2 tuvo como finalidad establecer el objetivo del segundo Sprint, organizar las actividades necesarias para desarrollar el frontend de muestra de WashTrack y definir las áreas funcionales que formarían parte de la interfaz. Para ello, se consideraron los requerimientos definidos en las User Stories y el Product Backlog actualizado, junto con los *bounded contexts* identificados durante el diseño de la arquitectura de la solución.
+
+A diferencia del Sprint 1, centrado en la implementación de la Landing Page, el Sprint 2 se orienta a la construcción de las vistas de la aplicación web. El equipo organizó el trabajo considerando los módulos seleccionados, con el propósito de mantener una estructura coherente entre las diferentes áreas de la plataforma y facilitar la comprensión de las funcionalidades que se ofrecerán a los clientes y a los negocios de lavandería.
+
+
 
 
 
