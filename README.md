@@ -4729,6 +4729,22 @@ El Sprint Planning 2 tuvo como finalidad establecer el objetivo del segundo Spri
 
 A diferencia del Sprint 1, centrado en la implementación de la Landing Page, el Sprint 2 se orienta a la construcción de las vistas de la aplicación web. El equipo organizó el trabajo considerando los módulos seleccionados, con el propósito de mantener una estructura coherente entre las diferentes áreas de la plataforma y facilitar la comprensión de las funcionalidades que se ofrecerán a los clientes y a los negocios de lavandería.
 
+**Resumen del Sprint Planning Meeting**
+
+| Elemento | Información |
+| :--- | :--- |
+| **Sprint #** | Sprint 2 |
+| **Date** | 02/10/2026 |
+| **Time** | 02:00 PM |
+| **Location** | Reunión virtual |
+| **Prepared By** | Perez Vasquez, Ariana Valeria |
+| **Attendees** | Ariana Perez, Adriana Fuentes / Cesar Linares, Jude Hermoza / Ariana Vasquez, Enrique Mantilla |
+| **Sprint 1 Review Summary** | Durante el Sprint 1, el equipo implementó y desplegó la primera versión funcional de la Landing Page de WashTrack. Se presentó la propuesta de valor del producto y se incorporaron accesos diferenciados para clientes y proveedores de servicios de lavandería, junto con una navegación adaptada a diferentes dispositivos. Este resultado sirvió como base para continuar con el desarrollo de la aplicación web. |
+| **Sprint 1 Retrospective Summary** | A partir del trabajo realizado durante el Sprint 1, se identificó la importancia de mantener una coordinación constante entre las actividades de documentación, diseño e implementación. Para el siguiente sprint, se considera necesario organizar el trabajo por módulos, mantener la consistencia visual entre las interfaces y revisar de manera conjunta los avances antes de su integración y despliegue. |
+| **Sprint 2 Goal** | Desarrollar y desplegar la primera versión del frontend de muestra de WashTrack, organizando su interfaz en áreas funcionales clave: IAM, Customer, Laundry Operations, Order Management, Billing & Subscriptions, Delivery y Tracking. El cumplimiento se evidencia mediante la disponibilidad de la página desplegada y la representación visual de los módulos definidos. |
+| **Sprint 2 Velocity** | 32 Story Points |
+| **Sum of Story Points** | 32 Story Points |
+
 
 
 
