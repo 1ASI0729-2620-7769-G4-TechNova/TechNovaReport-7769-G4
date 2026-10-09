@@ -4886,6 +4886,17 @@ Durante este Sprint el equipo documentó todos los endpoints que consume el fron
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 
+**Resumen:**
+
+La colaboración fue realizada en Angular cada integrante aporte con lo siguiente: Jude Hermoza estructuró la parte inicial del proyecto indicando como sera el layout, router y configuración del store con Angular Signals; Enrique Mantilla lideró el módulo de dashboard de los clientes; Ariana Perez desarrolló el módulo del IAM para el logueo de los usuarios; Adriana Ramos lideró el módulo de ordering, en donde se muestra como se desarrolla un pedido; Cesar Linares colaboró con el deploy del proyecto.
+
+<div align="center">
+  <img src="./assets/Chapter5/TeamCollaboration.PNG" width="700px" alt="Historial de commits de la Landing Page">
+  <p>Figura 10. Captura de los contribuidores del repositorio del frontend</p>
+  <p></p>
+</div>
+
+
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
