@@ -4716,6 +4716,14 @@ Los tres merges conservan el trabajo paralelo de `LandingPage1versionG4`, `featu
 
 #### 5.2.2. Sprint 2
 
+El Sprint 2 está orientado al desarrollo de la <b>primera versión del Frontend Web Application de WashTrack</b>, como continuación del trabajo realizado durante el Sprint 1, en el que se implementó y desplegó la primera versión funcional de la Landing Page. En esta etapa, el equipo se enfoca en desarrollar las interfaces que permitan visualizar la organización de los principales módulos de la plataforma y los flujos de interacción correspondientes a clientes y personal de lavandería.
+
+Para estructurar el desarrollo del frontend, se consideran los siguientes bounded contexts como <b>IAM, Customer, Laundry Operations, Order Management, Billing & Subscriptions, Delivery y Tracking</b>. Cada contexto representa un área funcional de WashTrack: la autenticación y el acceso de los usuarios, la gestión de información del cliente, las operaciones de lavandería, la administración de pedidos, los pagos y las suscripciones, la coordinación del recojo y la entrega de prendas, y el seguimiento de los pedidos.
+
+El desarrollo de este sprint toma como referencia las User Stories y los criterios de aceptación definidos en el Capítulo III, así como el Product Backlog del proyecto. A partir de estos requerimientos, se organizarán las interfaces y sus componentes, considerando las necesidades de los distintos usuarios y procurando mantener la consistencia visual y funcional entre los módulos de la aplicación.
+
+Como resultado esperado, el <b>Sprint 2</b> busca contar con una <b>primera versión del frontend que represente las principales áreas funcionales de WashTrack y permita visualizar los flujos de navegación previstos.</b> Este incremento servirá como base para las siguientes iteraciones, en las que se podrá continuar con la implementación de las funcionalidades y su integración con los servicios correspondientes.
+
 ##### 5.2.2.1. Sprint Planning 2
 
 
