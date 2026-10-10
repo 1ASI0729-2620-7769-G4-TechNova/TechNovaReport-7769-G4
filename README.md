@@ -4852,7 +4852,49 @@ Las siguientes User Stories se relacionan con las principales áreas representad
 El objetivo del Sprint 2 se encuentra enfocado en ofrecer una primera experiencia visual de la plataforma, permitiendo que los usuarios reconozcan sus principales módulos y comprendan cómo se organizarán las funcionalidades de WashTrack. El frontend desarrollado y desplegado constituye un incremento visual del producto y una base para futuras iteraciones orientadas a la integración de servicios y al funcionamiento completo de las funcionalidades.
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
+
+
+
 ##### 5.2.2.3. Sprint Backlog 2
+
+Mientras el Sprint 1 se concentró en el núcleo de autenticación, registro de usuarios y gestión básica de pedidos (US-001, US-002, US-014, US-005, US-006, US-004, US-011), el Sprint 2 se orienta a consolidar la experiencia del frontend (Web Application) para ambos segmentos: completar los flujos de seguimiento y notificaciones del cliente, habilitar la logística de recojo/entrega, incorporar pagos digitales y suscripciones, y cerrar las funcionalidades de gestión operativa de la lavandería.
+
+Enlace del repositorio en trello: [https://trello.com/invite/b/6ac7d7c7838c3260231b0469/ATTI3b5bddf34169b3982c9579dfa351b94360594F1E/sprint-backlog-2](https://trello.com/invite/b/6ac7d7c7838c3260231b0469/ATTI3b5bddf34169b3982c9579dfa351b94360594F1E/sprint-backlog-2)
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint2/sprint_backlog_2.png" width="700px" alt="Sprint Backlog 2">
+</div>
+<br>
+
+| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|----------|-------------|---------|------------|------------------|--------------------|-------------|--------|
+| US-003 | Visualización de pedidos | T-024 | Diseño de vista de historial de pedidos | Crear la interfaz de la sección "Mis pedidos" con listado de pedidos activos y anteriores, filtros por fecha y estado. | 5 | Perez Vasquez, Ariana Valeria | To Do |
+| US-003 | Visualización de pedidos | T-025 | Endpoint de consulta de pedidos por cliente | Implementar el endpoint REST que devuelve los pedidos asociados al cliente autenticado. | 5 | Mantilla Maldonado, Enrique Manuel | To Do |
+| US-003 | Visualización de pedidos | T-026 | Integración frontend-backend de historial | Conectar la vista de historial con el endpoint de consulta y manejar estados vacíos. | 4 | Hermoza Quispe, Jude | To Do |
+| US-009 | Recibir notificaciones del estado del pedido | T-027 | Diseño del componente de notificaciones | Crear el componente de campana/bandeja de notificaciones dentro del dashboard del cliente. | 4 | Linares Bernable, Cesar Alejandro | To Do |
+| US-009 | Recibir notificaciones del estado del pedido | T-028 | Endpoint de notificaciones por usuario | Implementar el endpoint REST para listar notificaciones y marcar como leídas. | 6 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
+| US-009 | Recibir notificaciones del estado del pedido | T-029 | Registro de notificación por cambio de estado | Implementar la lógica que genera una notificación cuando el pedido cambia de estado. | 5 | Perez Vasquez, Ariana Valeria | To Do |
+| US-010 | Solicitar recojo de prendas a domicilio | T-030 | Diseño del formulario de solicitud de recojo | Crear la interfaz de solicitud de recojo (dirección, fecha, rango horario, observaciones). | 5 | Hermoza Quispe, Jude | To Do |
+| US-010 | Solicitar recojo de prendas a domicilio | T-031 | Endpoint de creación de solicitud de recojo | Implementar el endpoint REST que registra la solicitud y genera un código de seguimiento. | 6 | Mantilla Maldonado, Enrique Manuel | To Do |
+| US-010 | Solicitar recojo de prendas a domicilio | T-032 | Validaciones de dirección y horario | Implementar validaciones de campos obligatorios, formato de dirección y rango horario válido. | 4 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
+| US-010 | Solicitar recojo de prendas a domicilio | T-033 | Integración del formulario con el backend | Conectar el formulario de recojo con el endpoint y mostrar confirmación al cliente. | 4 | Linares Bernable, Cesar Alejandro | To Do |
+| US-015 | Registrar dirección de recojo y entrega | T-034 | Diseño de la sección "Mis direcciones" | Crear la interfaz para listar, agregar, editar y eliminar direcciones del cliente. | 4 | Perez Vasquez, Ariana Valeria | To Do |
+| US-015 | Registrar dirección de recojo y entrega | T-035 | Endpoint CRUD de direcciones | Implementar los endpoints REST para crear, listar, actualizar y eliminar direcciones. | 5 | Mantilla Maldonado, Enrique Manuel | To Do |
+| US-015 | Registrar dirección de recojo y entrega | T-036 | Lógica de dirección predeterminada | Implementar la marca de dirección predeterminada y su uso automático en nuevas solicitudes. | 3 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
+| US-016 | Realizar pago digital de un pedido | T-037 | Diseño de la pasarela de pago | Crear la interfaz de pago con selección de método, resumen del pedido y confirmación. | 6 | Linares Bernable, Cesar Alejandro | To Do |
+| US-016 | Realizar pago digital de un pedido | T-038 | Endpoint de registro de pago | Implementar el endpoint REST que registra el pago y actualiza el estado del pedido. | 6 | Perez Vasquez, Ariana Valeria | To Do |
+| US-016 | Realizar pago digital de un pedido | T-039 | Integración con pasarela de pagos (mock) | Simular la integración con la pasarela y manejar respuestas exitosas y rechazadas. | 6 | Mantilla Maldonado, Enrique Manuel | To Do |
+| US-016 | Realizar pago digital de un pedido | T-040 | Generación de comprobante digital | Implementar la generación y visualización del comprobante tras un pago exitoso. | 4 | Hermoza Quispe, Jude | To Do |
+| US-017 | Gestionar planes de suscripción de la lavandería | T-041 | Diseño de la sección de planes | Crear la interfaz de gestión del plan contratado, comparativa de planes y opción de cambio. | 5 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
+| US-017 | Gestionar planes de suscripción de la lavandería | T-042 | Endpoint de gestión de suscripción | Implementar los endpoints REST para consultar, cambiar y renovar el plan contratado. | 6 | Perez Vasquez, Ariana Valeria | To Do |
+| US-017 | Gestionar planes de suscripción de la lavandería | T-043 | Lógica de vencimiento y aviso | Implementar la validación de vigencia del plan y la notificación de vencimiento al propietario. | 4 | Linares Bernable, Cesar Alejandro | To Do |
+| US-017 | Gestionar planes de suscripción de la lavandería | T-044 | Integración de planes con funcionalidades habilitadas | Conectar el plan contratado con la habilitación/deshabilitación de funcionalidades en el frontend. | 4 | Mantilla Maldonado, Enrique Manuel | To Do |
+| US-012 | Consultar métricas operativas | T-045 | Diseño del dashboard de métricas | Crear la interfaz con tarjetas de pedidos, ingresos y estado de operaciones por periodo. | 5 | Hermoza Quispe, Jude | To Do |
+| US-012 | Consultar métricas operativas | T-046 | Endpoint de métricas agregadas | Implementar el endpoint REST que calcula pedidos e ingresos por periodo y agrupa por estado. | 6 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
+| US-012 | Consultar métricas operativas | T-047 | Filtros de periodo y exportación | Implementar filtros temporales (día, mes, año) y opción de exportación básica de métricas. | 4 | Perez Vasquez, Ariana Valeria | To Do |
+
+---
+
 ##### 5.2.2.4. Development Evidence for Sprint Review
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
