@@ -4866,6 +4866,20 @@ El objetivo del Sprint 2 se encuentra enfocado en ofrecer una primera experienci
 ##### 5.2.2.2. Aspect Leaders and Collaborators
 ##### 5.2.2.3. Sprint Backlog 2
 ##### 5.2.2.4. Development Evidence for Sprint Review
+
+<b>Repositorio oficial:</b> https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4/tree/main
+
+| **Pull Request** | **Rama** | **Título publicado** | **Estado verificado** |
+|---|---|---|---|
+| #1 | feature/Billing | feat: implement the billing and digital payments module | Integrado |
+| #2 | feature/CustomerLaundry | feat: implement the customer and laundry services module | Integrado |
+| #3 | feature/Delivery | feat: implement the delivery and tracking module | Integrado |
+| #4 | feature/IAM | feat: implement the IAM module (login, register and password recovery) | Integrado |
+| #5 | feature/Subscriptions | feat: implement the subscriptions and plans module | Integrado |
+| #6 | feature/home-dashboard | feat: add home dashboard with summary cards | Integrado |
+| #7 | feature/context-integration | feat: connect the bounded contexts and use the Render API | Integrado |
+| #8 | feature/LaundryOperations | feat: implement the laundry operations module | Integrado |
+
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 Durante este Sprint el equipo documentó todos los endpoints que consume el frontend de WashTrack. Los servicios se simulan con **json-server** (puerto `3002`) usando los datos de `server/db.json`
