@@ -4867,6 +4867,39 @@ El objetivo del Sprint 2 se encuentra enfocado en ofrecer una primera experienci
 ##### 5.2.2.3. Sprint Backlog 2
 ##### 5.2.2.4. Development Evidence for Sprint Review
 ##### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este sprint se elaboro lo siguiente:
+
+<div align="center">
+  <img src="./assets/Chapter5/executionEvidence/login.PNG" width="700px" alt="login">
+  <p>Pantalla de login</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/executionEvidence/dashboard.PNG" width="700px" alt="dashboard">
+  <p>Pantalla del home</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/executionEvidence/orders.PNG" width="700px" alt="orders">
+  <p>Pantalla de order</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/executionEvidence/tracking.PNG" width="700px" alt="tracking">
+  <p>Pantalla de tracking</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/executionEvidence/payments.PNG" width="700px" alt="payments">
+  <p>Pantalla de payments</p>
+  <p></p>
+</div>
+
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 Durante este Sprint el equipo documentó todos los endpoints que consume el frontend de WashTrack. Los servicios se simulan con **json-server** (puerto `3002`) usando los datos de `server/db.json`
 
