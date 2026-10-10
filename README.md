@@ -4860,7 +4860,17 @@ El objetivo del Sprint 2 se encuentra enfocado en ofrecer una primera experienci
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
 
+En esta sección, se establecen los aspectos clave del Aspect Leaders and Collaborators correspondiente al Sprint 2 del proyecto WashTrack. Se incluye información como los aspectos técnicos identificados para este sprint (desarrollo del frontend en Angular para historial de pedidos, notificaciones, solicitud de recojo y gestión de direcciones, pagos digitales, gestión de suscripciones y dashboard de métricas), los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación se presentará el resumen de la distribución de roles por aspecto.
 
+| Team Member | Github Username | Coordinación del equipo y revisión de documento | Desarrollo del frontend en Angular para historial de pedidos, notificaciones y gestión de direcciones | Configuración de la base de datos y diseño del modelo relacional para pagos, suscripciones y métricas | Implementación del backend en Java con Spring Boot para pagos, suscripciones y notificaciones | Apoyo en la integración del frontend con el backend y documentación técnica del sprint |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Hermoza, Jude | JvnnDev | C | L | C | C | C |
+| Mantilla, Enrique | enrique-mantilla | C | C | C | L | C |
+| Perez, Ariana | ArianaPerez34 | L | L | C | L | C |
+| Ramos, Adriana | adriana832 | C | C | L | C | L |
+| Linares, Cesar | Cesar-Linares | C | L | C | C | C |
+
+---
 
 ##### 5.2.2.3. Sprint Backlog 2
 
