@@ -339,8 +339,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Mantilla Maldonado, Enrique Manuel</b><br>
         <em><b>AV1</b></em><br>
         En esta entrega del proyecto, la realizacion de Big Picture EventStorming, las historias de usuario y el diseño de los mockups, wireframes y prototipo, evidencian un correcto cumplimiento de la comunicacion oral efectiva. Para la elaboracion de las mencionadas actividades, se tuvo que discutir cómo se elaborarian dichas tareas, ya que era necesario para preparar el diseño y la estructura de nuestra aplicacion web WashTrack. Por otra parte, para la elaboración de las entrevistas hubo comunicación para diferentes segmentos lo cual indica que cumplimos con la comunicacion a diferentes rangos de audiencia.<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <em><b>TB1</b></em><br>
+        En esta segunda entrega se me pidio la elaboracion del bounded context de tracking, el cual es el encargado de las notificaciones y seguimiento del producto de los clientes. Para la elaboracion de este bounded context estuvimos planeando como deberiamos implementarlo, lo que nos permitio desarrollar nuestras habilidades de comunicacion y permitiendonos un mejor entendimiento como equipo.<br>
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
@@ -378,8 +378,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Mantilla Maldonado, Enrique Manuel</b><br>
         <em><b>AV1</b></em><br>
         Para esta entrega, hubo una comunicación por escrito hacia nuestros distintos entrevistados lo que nos permitio una comunicacion con diferentes rangos de audiencia. Además, nosotros en equipo tambien tuvimos nuestra comunicacion escrita para preparar la elaboracion de nuestro proyecto, resolver dudas y planear reuniones. En nuestro proyecto, hubo conversaciones escritas sobre que historias de usuario elaborar o como deberia ser el diseño de la aplicacion web y la landing page. Por otro lado, la elaboración del ubiquitous languaje evidencia que tuvimos que explicar nuestros terminos tecnicos para que nuestras distintas audiencias puedan entender lo que queremos elaborar en nuestro proyecto.<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <em><b>TB1</b></em><br>
+        Se me encargo el desarrollo del tracking de nuestra pagina frontend, para el desarrollo de este bounded context tuve que pensar en los distintos usuarios que pasarian por esta fase, en la cual es el recibo de notificaciones y revisar como van sus productos. Por ello, me encargue de hacerlo lo mas simple posible para que nuestros usuarios no tengan problemas al entender en que parte del progreso van sus prendas. Esto evidencia el desarrollo de nuestra comunicacion escrita, ya que tuvimos que pensar en que escribir y mostrar a nuestros diferentes usuarios.<br>
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
