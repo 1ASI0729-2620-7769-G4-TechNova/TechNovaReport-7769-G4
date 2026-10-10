@@ -145,18 +145,24 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 
 **Report**
 
+
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+<img src="assets/report_contributors_tb1_1.png" alt="Contributors-TechNova-TB1" width="500"/>
   <br/><i>Report: Contributors of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Pulse-TechNova-TB1" width="500"/>
+<img src="assets/report_contributors_tb1_2.png" alt="Contributors-TechNova-TB1" width="500"/>
+  <br/><i>Report: Contributors of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/report_pulse_tb1.png" alt="pulse-TechNova-TB1" width="500"/>
   <br/><i>Report: Pulse of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-TB1" width="500"/>
+<img src="assets/report_network_graph_tb1.png" alt="Contributors-TechNova-TB1" width="500"/>
   <br/><i>Report: Network graph of TechNova (TB1)</i>
 </p>
 <br>
@@ -164,17 +170,22 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 **Frontend**
 
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+<img src="assets/frontend_pulse_tb1.png" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
   <br/><i>Frontend: Contributors of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
+<img src="assets/frontend_contributors_tb1_1.png" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
   <br/><i>Frontend: Pulse of TechNova (TB1)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets/" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
+<img src="assets/frontend_contributors_tb1_2.png" alt="Pulse-TechNova-Frontend-TB1" width="500"/>
+  <br/><i>Frontend: Pulse of TechNova (TB1)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/frontend_network_graph_tb1.png" alt="Contributors-TechNova-Frontend-TB1" width="500"/>
   <br/><i>Frontend: Network graph of TechNova (TB1)</i>
 </p>
 <br>
@@ -328,8 +339,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Mantilla Maldonado, Enrique Manuel</b><br>
         <em><b>AV1</b></em><br>
         En esta entrega del proyecto, la realizacion de Big Picture EventStorming, las historias de usuario y el diseño de los mockups, wireframes y prototipo, evidencian un correcto cumplimiento de la comunicacion oral efectiva. Para la elaboracion de las mencionadas actividades, se tuvo que discutir cómo se elaborarian dichas tareas, ya que era necesario para preparar el diseño y la estructura de nuestra aplicacion web WashTrack. Por otra parte, para la elaboración de las entrevistas hubo comunicación para diferentes segmentos lo cual indica que cumplimos con la comunicacion a diferentes rangos de audiencia.<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <em><b>TB1</b></em><br>
+        En esta segunda entrega se me pidio la elaboracion del bounded context de tracking, el cual es el encargado de las notificaciones y seguimiento del producto de los clientes. Para la elaboracion de este bounded context estuvimos planeando como deberiamos implementarlo, lo que nos permitio desarrollar nuestras habilidades de comunicacion y permitiendonos un mejor entendimiento como equipo.<br>
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
@@ -340,8 +351,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
         Para esta entrega pusimos en practica nuestras habilidades sociales tales como el dialogo que sustuvimos al hacer nuestras entrevistas, ya que tuvimos que dialogar con dos sectores diferentes para la elaboracion de nuestro proyecto. Ademas de dialogar con otras personas, tambien hubo dialogo entre nosotros como equipo, ya que la toma de decisiones era grupal y, por tanto, la comunicacion era fundamental. Por ejemplo, tuvimos que discutir que historias de usuario agregariamos a nuestro proyecto. Tambien, al momento de diseñar como seria la landing y la aplicacion web, tuvimos charlas y reuniones sobre como ibamos a abordar nuestro diseño hasta que todos estuvieramos de acuerdo.<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <em><b>TB1</b></em><br>
+        Para el desarrollo del Bounded Context del billing and suscriptions se presencio el criterio de comunicación efectiva, ya que tuve que hablar con mis compañeros para progresar con el desarrollo y dejar claras mis ideas. Además, se mostro un lenguaje claro en el desarrollo de mi bounded context para permitir a los usuarios poder entender las interfaces sin ningun problema. Tambien hubo algunas discusiones con los integrantes sobre como realizar los bounded context y que historias de usuarios abarcarian este sprint 2 demostrando el cumplimiento de del criterio de comunicacion oral.<br>
         ...<br>
         <b>Cesar Alejandro Linares Bernable</b><br>
         <em><b>AV1</b></em><br>
@@ -367,19 +378,20 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>Mantilla Maldonado, Enrique Manuel</b><br>
         <em><b>AV1</b></em><br>
         Para esta entrega, hubo una comunicación por escrito hacia nuestros distintos entrevistados lo que nos permitio una comunicacion con diferentes rangos de audiencia. Además, nosotros en equipo tambien tuvimos nuestra comunicacion escrita para preparar la elaboracion de nuestro proyecto, resolver dudas y planear reuniones. En nuestro proyecto, hubo conversaciones escritas sobre que historias de usuario elaborar o como deberia ser el diseño de la aplicacion web y la landing page. Por otro lado, la elaboración del ubiquitous languaje evidencia que tuvimos que explicar nuestros terminos tecnicos para que nuestras distintas audiencias puedan entender lo que queremos elaborar en nuestro proyecto.<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <em><b>TB1</b></em><br>
+        Se me encargo el desarrollo del tracking de nuestra pagina frontend, para el desarrollo de este bounded context tuve que pensar en los distintos usuarios que pasarian por esta fase, en la cual es el recibo de notificaciones y revisar como van sus productos. Por ello, me encargue de hacerlo lo mas simple posible para que nuestros usuarios no tengan problemas al entender en que parte del progreso van sus prendas. Esto evidencia el desarrollo de nuestra comunicacion escrita, ya que tuvimos que pensar en que escribir y mostrar a nuestros diferentes usuarios.<br>
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         En la primera entrega del proyecto, la elaboración de la documentación del proyecto fundamenta el criterio de comunicación escrita efectiva. La redacción de los antecedentes, la problemática y la definición de la solución junto con los mapas de empatía y User Journey Maps transmiten los hallazgos del negocio de forma formal, clara y accesible para audiencias no técnicas. Además, la especificación estructurada de historias de usuario y la formalización arquitectónica plasmada en los diagramas de clases y diagramas de base de datos manifiestan el dominio de una comunicación escrita rigurosa y estandarizada bajo notaciones técnicas (como UML y modelos Entidad-Relación), garantizando la transmisión precisa de requerimientos a la audiencia técnica de ingeniería.<br><br>
         <em><b>TB1</b></em><br>
         Las actividades realizadas respaldan directamente el cumplimiento del criterio de comunicación escrita efectiva al permitir estructurar y transmitir información de manera clara. Por un lado, la subsanación de las observaciones del AV1 (mediante la inclusión de URLs completas para asegurar la precisión formal de las fuentes y la completitud del formato de las entrevistas con datos cualitativos e información concreta) garantizó que la documentación técnica mantenga un estándar académico y profesional, facilitando su comprensión por parte de evaluadores, auditores y miembros del equipo. Por otro lado, la implementación del frontend para el Bounded Context de <em>order-management</em> requirió traducir los requerimientos y reglas de negocio del dominio a través de elementos de interfaz visuales, terminología clara en pantalla y mensajes de estado legibles, asegurando que los usuarios finales, especialmente personas no técnicas, puedan interactuar e interpretar el flujo de gestión de pedidos sin ambigüedades.<br><br>
+        ...<br>
         <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
         Para esta entrega se busco mejorar la efectividad escrita atraves de varios ejercicios, tales como la redaccion de este documento o el obiquitous language en el cual mostramos el lenguaje y los terminos que usamos como equipo y se los mostramos al publico para un mejor entendimiento. Ademas, parte del diseño de nuestra Landing Page y nuestro aplicacion web esta diseñado para captar a la mayor cantidad de publico usando una escritura correcta y entendible para nuestros usuarios.<br>
-        <em><b>AV2</b></em><br>
-        Poner avances av2<br>
+        <em><b>TB1</b></em><br>
+        En esta entrega estuvimos constantemente en contacto con el equipo para mandarnos mensajes sobre como van los avances y dialogar que problemas se han presentado. Esto permitio poder avanzar de manera conjunta y poder desarrollar el frontend de nuestro negocio. Nuestra comunicacion escrita fue bastante acertada para acelerar desarrollos; ademas, de que es importante la comunicacion escrita, ya que nuestro pagina frontend sera vista por diferentes usuarios y por ello es importante que todos puedan llegar a entender nuestra pagina.<br>
         ...<br>
         <b>Linares Bernable, Cesar Alejandro</b><br>
         <em><b>AV1</b></em><br>
@@ -4447,6 +4459,13 @@ En esta sección, se establecen los aspectos clave del Aspect Leaders and Collab
 
 El objetivo principal del Sprint 1 es implementar las funciones esenciales para la creación y gestión de tareas de la aplicación WashTrack. Creemos que esto permite a supervisores y técnicos empezar a interactuar con la plataforma en sus aspectos básicos.
 
+Enlace del repositorio de trello: [https://trello.com/invite/b/6ac7e5b73e0e436975f99016/ATTI4c5ce062f56ed787a007fc0a46b4bb955DD6E609/sprint-backlog-1](https://trello.com/invite/b/6ac7e5b73e0e436975f99016/ATTI4c5ce062f56ed787a007fc0a46b4bb955DD6E609/sprint-backlog-1)
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint2/sprint_backlog_1.png" width="700px" alt="Sprint Backlog 1">
+</div>
+<br>
+
 | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
 | US-001 | Registro de usuario | T-001 | Diseño del formulario de registro | Crear el mockup y la interfaz del formulario de registro (nombre, teléfono, correo, contraseña). | 4 | Hermoza Quispe, Jude | Done |
@@ -4852,12 +4871,157 @@ Las siguientes User Stories se relacionan con las principales áreas representad
 El objetivo del Sprint 2 se encuentra enfocado en ofrecer una primera experiencia visual de la plataforma, permitiendo que los usuarios reconozcan sus principales módulos y comprendan cómo se organizarán las funcionalidades de WashTrack. El frontend desarrollado y desplegado constituye un incremento visual del producto y una base para futuras iteraciones orientadas a la integración de servicios y al funcionamiento completo de las funcionalidades.
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección, se establecen los aspectos clave del Aspect Leaders and Collaborators correspondiente al Sprint 2 del proyecto WashTrack. Se incluye información como los aspectos técnicos identificados para este sprint (desarrollo del frontend en Angular para historial de pedidos, notificaciones, solicitud de recojo y gestión de direcciones, pagos digitales, gestión de suscripciones y dashboard de métricas), los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación se presentará el resumen de la distribución de roles por aspecto.
+
+| Team Member | Github Username | Coordinación del equipo y revisión de documento | Desarrollo del frontend en Angular para historial de pedidos, notificaciones y gestión de direcciones | Configuración de la base de datos y diseño del modelo relacional para pagos, suscripciones y métricas | Implementación del backend en Java con Spring Boot para pagos, suscripciones y notificaciones | Apoyo en la integración del frontend con el backend y documentación técnica del sprint |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| Hermoza, Jude | JvnnDev | C | L | C | C | C |
+| Mantilla, Enrique | enrique-mantilla | C | C | C | L | C |
+| Perez, Ariana | ArianaPerez34 | L | L | C | L | C |
+| Ramos, Adriana | adriana832 | C | C | L | C | L |
+| Linares, Cesar | Cesar-Linares | C | L | C | C | C |
+
+---
+
 ##### 5.2.2.3. Sprint Backlog 2
+
+Mientras el Sprint 1 se concentró en el núcleo de autenticación, registro de usuarios y gestión básica de pedidos (US-001, US-002, US-014, US-005, US-006, US-004, US-011), el Sprint 2 se orienta a consolidar la experiencia del frontend (Web Application) para ambos segmentos: completar los flujos de seguimiento y notificaciones del cliente, habilitar la logística de recojo/entrega, incorporar pagos digitales y suscripciones, y cerrar las funcionalidades de gestión operativa de la lavandería.
+
+Enlace del repositorio en trello: [https://trello.com/invite/b/6ac7d7c7838c3260231b0469/ATTI3b5bddf34169b3982c9579dfa351b94360594F1E/sprint-backlog-2](https://trello.com/invite/b/6ac7d7c7838c3260231b0469/ATTI3b5bddf34169b3982c9579dfa351b94360594F1E/sprint-backlog-2)
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint2/sprint_backlog_2.png" width="700px" alt="Sprint Backlog 2">
+</div>
+<br>
+
+| Story ID | Story Title | Task ID | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|----------|-------------|---------|------------|------------------|--------------------|-------------|--------|
+| US-003 | Visualización de pedidos | T-024 | Diseño de vista de historial de pedidos | Crear la interfaz de la sección "Mis pedidos" con listado de pedidos activos y anteriores, filtros por fecha y estado. | 5 | Perez Vasquez, Ariana Valeria | To Do |
+| US-003 | Visualización de pedidos | T-025 | Endpoint de consulta de pedidos por cliente | Implementar el endpoint REST que devuelve los pedidos asociados al cliente autenticado. | 5 | Mantilla Maldonado, Enrique Manuel | To Do |
+| US-003 | Visualización de pedidos | T-026 | Integración frontend-backend de historial | Conectar la vista de historial con el endpoint de consulta y manejar estados vacíos. | 4 | Hermoza Quispe, Jude | To Do |
+| US-009 | Recibir notificaciones del estado del pedido | T-027 | Diseño del componente de notificaciones | Crear el componente de campana/bandeja de notificaciones dentro del dashboard del cliente. | 4 | Linares Bernable, Cesar Alejandro | To Do |
+| US-009 | Recibir notificaciones del estado del pedido | T-028 | Endpoint de notificaciones por usuario | Implementar el endpoint REST para listar notificaciones y marcar como leídas. | 6 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
+| US-009 | Recibir notificaciones del estado del pedido | T-029 | Registro de notificación por cambio de estado | Implementar la lógica que genera una notificación cuando el pedido cambia de estado. | 5 | Perez Vasquez, Ariana Valeria | To Do |
+| US-010 | Solicitar recojo de prendas a domicilio | T-030 | Diseño del formulario de solicitud de recojo | Crear la interfaz de solicitud de recojo (dirección, fecha, rango horario, observaciones). | 5 | Hermoza Quispe, Jude | To Do |
+| US-010 | Solicitar recojo de prendas a domicilio | T-031 | Endpoint de creación de solicitud de recojo | Implementar el endpoint REST que registra la solicitud y genera un código de seguimiento. | 6 | Mantilla Maldonado, Enrique Manuel | To Do |
+| US-010 | Solicitar recojo de prendas a domicilio | T-032 | Validaciones de dirección y horario | Implementar validaciones de campos obligatorios, formato de dirección y rango horario válido. | 4 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
+| US-010 | Solicitar recojo de prendas a domicilio | T-033 | Integración del formulario con el backend | Conectar el formulario de recojo con el endpoint y mostrar confirmación al cliente. | 4 | Linares Bernable, Cesar Alejandro | To Do |
+| US-015 | Registrar dirección de recojo y entrega | T-034 | Diseño de la sección "Mis direcciones" | Crear la interfaz para listar, agregar, editar y eliminar direcciones del cliente. | 4 | Perez Vasquez, Ariana Valeria | To Do |
+| US-015 | Registrar dirección de recojo y entrega | T-035 | Endpoint CRUD de direcciones | Implementar los endpoints REST para crear, listar, actualizar y eliminar direcciones. | 5 | Mantilla Maldonado, Enrique Manuel | To Do |
+| US-015 | Registrar dirección de recojo y entrega | T-036 | Lógica de dirección predeterminada | Implementar la marca de dirección predeterminada y su uso automático en nuevas solicitudes. | 3 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
+| US-016 | Realizar pago digital de un pedido | T-037 | Diseño de la pasarela de pago | Crear la interfaz de pago con selección de método, resumen del pedido y confirmación. | 6 | Linares Bernable, Cesar Alejandro | To Do |
+| US-016 | Realizar pago digital de un pedido | T-038 | Endpoint de registro de pago | Implementar el endpoint REST que registra el pago y actualiza el estado del pedido. | 6 | Perez Vasquez, Ariana Valeria | To Do |
+| US-016 | Realizar pago digital de un pedido | T-039 | Integración con pasarela de pagos (mock) | Simular la integración con la pasarela y manejar respuestas exitosas y rechazadas. | 6 | Mantilla Maldonado, Enrique Manuel | To Do |
+| US-016 | Realizar pago digital de un pedido | T-040 | Generación de comprobante digital | Implementar la generación y visualización del comprobante tras un pago exitoso. | 4 | Hermoza Quispe, Jude | To Do |
+| US-017 | Gestionar planes de suscripción de la lavandería | T-041 | Diseño de la sección de planes | Crear la interfaz de gestión del plan contratado, comparativa de planes y opción de cambio. | 5 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
+| US-017 | Gestionar planes de suscripción de la lavandería | T-042 | Endpoint de gestión de suscripción | Implementar los endpoints REST para consultar, cambiar y renovar el plan contratado. | 6 | Perez Vasquez, Ariana Valeria | To Do |
+| US-017 | Gestionar planes de suscripción de la lavandería | T-043 | Lógica de vencimiento y aviso | Implementar la validación de vigencia del plan y la notificación de vencimiento al propietario. | 4 | Linares Bernable, Cesar Alejandro | To Do |
+| US-017 | Gestionar planes de suscripción de la lavandería | T-044 | Integración de planes con funcionalidades habilitadas | Conectar el plan contratado con la habilitación/deshabilitación de funcionalidades en el frontend. | 4 | Mantilla Maldonado, Enrique Manuel | To Do |
+| US-012 | Consultar métricas operativas | T-045 | Diseño del dashboard de métricas | Crear la interfaz con tarjetas de pedidos, ingresos y estado de operaciones por periodo. | 5 | Hermoza Quispe, Jude | To Do |
+| US-012 | Consultar métricas operativas | T-046 | Endpoint de métricas agregadas | Implementar el endpoint REST que calcula pedidos e ingresos por periodo y agrupa por estado. | 6 | Ramos Fuentes Rivera, Adriana Nicole | To Do |
+| US-012 | Consultar métricas operativas | T-047 | Filtros de periodo y exportación | Implementar filtros temporales (día, mes, año) y opción de exportación básica de métricas. | 4 | Perez Vasquez, Ariana Valeria | To Do |
+
+---
+
 ##### 5.2.2.4. Development Evidence for Sprint Review
+
+<b>Repositorio oficial:</b> https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4/tree/main
+
+| **Pull Request** | **Rama** | **Título publicado** | **Estado verificado** |
+|---|---|---|---|
+| #1 | feature/Billing | feat: implement the billing and digital payments module | Integrado |
+| #2 | feature/CustomerLaundry | feat: implement the customer and laundry services module | Integrado |
+| #3 | feature/Delivery | feat: implement the delivery and tracking module | Integrado |
+| #4 | feature/IAM | feat: implement the IAM module (login, register and password recovery) | Integrado |
+| #5 | feature/Subscriptions | feat: implement the subscriptions and plans module | Integrado |
+| #6 | feature/home-dashboard | feat: add home dashboard with summary cards | Integrado |
+| #7 | feature/context-integration | feat: connect the bounded contexts and use the Render API | Integrado |
+| #8 | feature/LaundryOperations | feat: implement the laundry operations module | Integrado |
+
 ##### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este sprint se elaboro lo siguiente:
+
+<div align="center">
+  <img src="./assets/Chapter5/executionEvidence/login.PNG" width="700px" alt="login">
+  <p>Pantalla de login</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/executionEvidence/dashboard.PNG" width="700px" alt="dashboard">
+  <p>Pantalla del home</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/executionEvidence/orders.PNG" width="700px" alt="orders">
+  <p>Pantalla de order</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/executionEvidence/tracking.PNG" width="700px" alt="tracking">
+  <p>Pantalla de tracking</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/executionEvidence/payments.PNG" width="700px" alt="payments">
+  <p>Pantalla de payments</p>
+  <p></p>
+</div>
+
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Durante este Sprint el equipo documentó todos los endpoints que consume el frontend de WashTrack. Los servicios se simulan con **json-server** (puerto `3002`) usando los datos de `server/db.json`
+
+**Endpoints documentados**
+ 
+| Endpoint | Bounded context | Acciones implementadas | Documentación (URL local) |
+|----------|-----------------|------------------------|---------------------------|
+| `/users` | IAM | GET, POST, PATCH, DELETE | `http://localhost:3002/users` · `docs/openapi.yaml` (etiqueta *Users (IAM)*) |
+| `/roles` | IAM | GET | `http://localhost:3002/roles` · `docs/openapi.yaml` (etiqueta *Roles (IAM)*) |
+| `/roleAssignments` | IAM | GET, POST, PATCH | `http://localhost:3002/roleAssignments` · `docs/openapi.yaml` (etiqueta *Role assignments (IAM)*) |
+| `/orders` | Order Management | GET, POST, PUT | `http://localhost:3002/orders` · `docs/openapi.yaml` (etiqueta *Orders (Order Management)*) |
+| `/payments` | Billing and Subscriptions | GET, POST, PUT | `http://localhost:3002/payments` · `docs/openapi.yaml` (etiqueta *Payments (Billing and Subscriptions)*) |
+| `/plans` | Billing and Subscriptions | GET | `http://localhost:3002/plans` · `docs/openapi.yaml` (etiqueta *Plans (Billing and Subscriptions)*) |
+| `/subscriptions` | Billing and Subscriptions | GET, POST, PUT | `http://localhost:3002/subscriptions` · `docs/openapi.yaml` (etiqueta *Subscriptions (Billing and Subscriptions)*) |
+| `/deliveries` | Delivery Management | GET, POST, PUT | `http://localhost:3002/deliveries` · `docs/openapi.yaml` (etiqueta *Deliveries (Delivery Management)*) |
+| `/trackingEvents` | Delivery Management | GET, POST | `http://localhost:3002/trackingEvents` · `docs/openapi.yaml` (etiqueta *Tracking events (Delivery Management)*) |
+
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El proyecto de nuestro frontend fue deployado atraves del servicio de vercel, mientras que nuestro db.json fue deployado en render.
+
+<p>URL del frontend: https://technova-washtrack-frontend.vercel.app/home</p> 
+<p>URL del db.json: https://technova-landingpage-frontend-7769-g4-mrsy.onrender.com/</p>
+
+<div align="center">
+  <img src="./assets/Chapter5/render.PNG" width="700px" alt="dbjson deploy">
+  <p>Figura 8. Deploy del dbjson en render</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/vercel.jpg" width="700px" alt="frontend deploy">
+  <p>Figura 9. Deploy del frontend en vercel</p>
+  <p></p>
+</div>
+
+
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+**Resumen:**
+
+La colaboración fue realizada en Angular cada integrante aporte con lo siguiente: Jude Hermoza estructuró la parte inicial del proyecto indicando como sera el layout, router y configuración del store con Angular Signals; Enrique Mantilla lideró el módulo de dashboard de los clientes; Ariana Perez desarrolló el módulo del IAM para el logueo de los usuarios; Adriana Ramos lideró el módulo de ordering, en donde se muestra como se desarrolla un pedido; Cesar Linares colaboró con el deploy del proyecto.
+
+<div align="center">
+  <img src="./assets/Chapter5/TeamCollaboration.PNG" width="700px" alt="TeamCollaboration">
+  <p>Figura 10. Captura de los contribuidores del repositorio del frontend</p>
+  <p></p>
+</div>
+
 
 ### 5.3. Validation Interviews
 
@@ -4916,8 +5080,12 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 
 URL de landing page (GithubPage): [https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
 
+URL del frontend (Vercel): [https://technova-washtrack-frontend.vercel.app/](https://technova-washtrack-frontend.vercel.app/)
+
+URL del fake api (Render): [https://technova-landingpage-frontend-7769-g4-mrsy.onrender.com/](https://technova-landingpage-frontend-7769-g4-mrsy.onrender.com/)
+
 URL de exposición (AV1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP)
 
-URL de exposición (TB1): []()
+URL de exposición (TB1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA0nUKDmGcmTJiJ1elvru0eAZfquLE9ykfmedf5DaRpVOQ?e=B9hTeA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA0nUKDmGcmTJiJ1elvru0eAZfquLE9ykfmedf5DaRpVOQ?e=B9hTeA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ---
