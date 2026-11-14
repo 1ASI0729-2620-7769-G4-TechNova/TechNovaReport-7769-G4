@@ -5082,23 +5082,22 @@ La colaboración fue realizada en Angular cada integrante aporte con lo siguient
  
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
  
-1. Registro de un usuario nuevo (cliente o lavandería)
+1. Consulta de pedidos y pagos desde una cuenta de cliente
 2. Registro de un pedido con sus prendas
 3. Confirmación y finalización de un pedido
 4. Pago de un pedido
 5. Programación de un recojo o entrega a domicilio
 6. Seguimiento del estado de un pedido
-7. Gestión de la suscripción y consulta de planes (cuenta de lavandería)
-8. Consulta del panel de inicio
+7. Consulta del historial de pagos y del comprobante
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
  
-1. Inicio de sesión y recuperación de contraseña
-2. Cambio de contraseña
+1. Registro de usuario e inicio de sesión
+2. Recuperación y cambio de contraseña
 3. Administración de usuarios y roles (administrador)
 4. Recepción de pedidos y procesamiento del lavado (operaciones internas)
 5. Gestión de servicios y conductores
-6. Consulta del historial de pagos y del comprobante de pago
+6. Gestión de la suscripción y consulta de planes
 7. Gestión de notificaciones
 
 ---
@@ -5129,6 +5128,173 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | 7 | El historial de pagos identifica los pedidos con un código distinto ("#105") y con datos de cliente que no coinciden con el pedido | 2 | Information Architecture: Is it credible? |
  
 ---
+
+**PROBLEMA #1: La cuenta de cliente muestra los pedidos, pagos y acciones que corresponden al dueño de la lavandería**
+ 
+**Severidad:** 4
+**Heurística violada:** Usabilidad – Estética y diseño minimalista
+ 
+**Problema:**
+Al iniciar sesión como cliente, se muestran todos los pedidos y pagos del negocio, incluidos los de otros clientes, junto con el "Total confirmado" de ingresos. También aparecen acciones que solo le corresponden al dueño, como "Nuevo pedido", "Confirmar pedido" y el ícono para confirmar pagos. El cliente tiene que buscar lo suyo entre información ajena y puede ejecutar acciones que no le corresponden.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p1_orders.png" width="700px" alt="Vista cliente error (orders)">
+  <p>Sesion de cliente con información de administrador (Módulo Order)</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p1_payment.png" width="700px" alt="Vista cliente error (payment history)">
+  <p>Sesion de cliente con información de administrador (Módulo Payments)</p>
+  <p></p>
+</div>
+ 
+**Recomendación:**
+Filtrar pedidos y pagos por el cliente de la sesión cuando la cuenta sea de tipo cliente, como ya se hace en Seguimiento. Para los clientes, ocultar el "Total confirmado", los botones de confirmar pedido o pago y el registro de pedidos o pagos para otras personas. Además, adaptar los textos a su rol: por ejemplo, "Mis pedidos" y "Mis pagos".
+ 
+---
+ 
+**PROBLEMA #2: Para registrar un pedido se debe escribir el ID numérico del cliente en lugar de seleccionarlo**
+
+**Severidad:** 3
+**Heurística violada:** Usabilidad – Reconocer antes que recordar
+ 
+**Problema:**
+En "Nuevo pedido", el campo "Cliente" pide el ID numérico interno del cliente. El usuario tiene que recordar o buscar ese número en otra pantalla, y si se equivoca, el pedido queda asociado a otra persona sin que lo note.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p2_pedido_nuevo.png" width="700px" alt="Registro de nuevo pedido con ID del cliente">
+  <p>Registro de nuevo pedido con ID del cliente</p>
+  <p></p>
+</div>
+ 
+**Recomendación:**
+Reemplazar el campo numérico por un autocompletado (`mat-autocomplete`) que permita buscar al cliente por nombre o correo y que muestre los datos del cliente seleccionado antes de registrar el pedido.
+ 
+---
+ 
+**PROBLEMA #3: Confirmar o completar un pedido se ejecuta al instante, sin confirmación ni opción de deshacer**
+
+**Severidad:** 2
+**Heurística violada:** Usabilidad – Libertad y control del usuario
+ 
+**Problema:**
+En el detalle del pedido, los botones "Confirmar" y "Completar" cambian el estado con un solo clic, sin pedir confirmación y sin opción de deshacer. Como están junto a "Cerrar", un clic accidental puede dar por completado un pedido que todavía no se entregó.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p3_confirmar_pedido.png" width="700px" alt="Confirmar pedido">
+  <p>Confirmar pedido</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p3_completar_pedido.png" width="700px" alt="Completar pedido">
+  <p>Completar pedido</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p3_cerrar_pedido.png" width="700px" alt="Cerrar pedido">
+  <p>Cerrar pedido</p>
+  <p></p>
+</div>
+
+**Recomendación:**
+Mostrar un diálogo de confirmación antes de cambiar el estado (por ejemplo: "¿Marcar el pedido ORD-001 como completado?") o un snackbar con la acción "Deshacer" durante unos segundos después del cambio.
+ 
+---
+ 
+**PROBLEMA #4: En el pago, el ID del pedido, el cliente y el monto se escriben a mano y no se validan contra el pedido**
+
+**Severidad:** 3
+**Heurística violada:** Usabilidad – Prevención de errores
+ 
+**Problema:**
+En "Pagar pedido", el número de pedido, el cliente y el monto se escriben a mano y no se comparan con el pedido. Se puede registrar un pago con un monto incorrecto, a nombre de otro cliente o para un pedido que no existe.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p4_ingresar_datos_pago.png" width="700px" alt="Ingresar datos manuales">
+  <p>Datos ingresados manualmente (Módulo Pagos)</p>
+  <p></p>
+</div>
+ 
+**Recomendación:**
+Permitir pagar desde el detalle del pedido con un botón "Pagar" que abra el checkout con el pedido, el cliente y el monto ya cargados y en solo lectura. Si se mantiene el ingreso manual, usar un selector de pedidos pendientes de pago y validar que el monto coincida con el total.
+ 
+---
+ 
+**PROBLEMA #5: El formulario de programación de entregas no tiene botón "Cancelar" ni "Volver", a diferencia del formulario de pedidos**
+
+**Severidad:** 2
+**Heurística violada:** Usabilidad – Consistencia y estándares
+ 
+**Problema:**
+El formulario "Programar entrega" solo tiene el botón de envío, mientras que "Nuevo pedido" sí tiene "Cancelar". Para salir, el usuario tiene que usar el menú o el botón "atrás" del navegador.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p5_falta_boton_cancelar_entrega.png" width="700px" alt="Falta el boton cancelar">
+  <p>Ausencia del botón Cancelar (Módulo Programar recojo o entrega)</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p5_boton_cancelar_pedido.png" width="700px" alt="Si tiene el boton cancelar">
+  <p>Presenta el botón Cancelar (Módulo Pedidos)</p>
+  <p></p>
+</div>
+ 
+**Recomendación:**
+Estandarizar el pie de todos los formularios con el par "Cancelar" (secundario, regresa a la lista) + acción principal.
+ 
+---
+ 
+**PROBLEMA #6: La lista de seguimiento no tiene buscador ni filtros, y la acción para ver el detalle es solo un ícono**
+
+**Severidad:** 2
+**Heurística violada:** Information Architecture – Is it findable?
+ 
+**Problema:**
+La vista "Seguimiento" no tiene buscador ni filtros por etapa, a diferencia de "Pedidos", así que hay que revisar la tabla fila por fila. Además, para ver el detalle solo hay un ícono sin texto que no deja claro qué hace.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p6_sin_filtro_seguimiento.png" width="700px" alt="Sin opcion de filtrar la informacion">
+  <p>Ausencia de la opción de filtrar la información (Módulo Seguimiento)</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p6_filtro_pedidos.png" width="700px" alt="Con opcion de filtrar la informacion">
+  <p>Presenta la opción de filtrar la información (Módulo Pedidos)</p>
+  <p></p>
+</div>
+
+**Recomendación:**
+Agregar un buscador por número de pedido y chips de filtro por etapa, igual que en la lista de pedidos, y acompañar el ícono con el texto "Ver seguimiento" o hacer que toda la fila sea clickeable.
+ 
+---
+ 
+**PROBLEMA #7: El historial de pagos identifica los pedidos con un código distinto ("#105") y con datos de cliente que no coinciden con el pedido**
+
+**Severidad:** 2
+**Heurística violada:** Information Architecture – Is it credible?
+ 
+**Problema:**
+En "Pedidos", el pedido se muestra como "ORD-000005", pero en el historial de pagos y en el comprobante el mismo pedido aparece como "#105", sin enlace al pedido. Además, el cliente del pago no coincide con el del pedido (Jorge Ramos frente a Ana Martínez), y esos datos contradictorios restan confianza.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p7_historial_pagos.png" width="700px" alt="Historial de pagos con identificador de pedido diferente">
+  <p>Identificador de pedido diferente (Módulo Pagos)</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p7_pedidos.png" width="700px" alt="Identificadores de pedidos">
+  <p>Identificador de pedidos (Módulo Pedidos)</p>
+  <p></p>
+</div>
+ 
+**Recomendación:**
+Mostrar en pagos y comprobantes el mismo número de pedido que en el resto de la aplicación ("ORD-000005") como enlace al detalle del pedido. Tomar el nombre del cliente directamente del pedido en lugar de guardarlo como texto libre.
 
 ### 5.4. Video About-the-Product
 ---
