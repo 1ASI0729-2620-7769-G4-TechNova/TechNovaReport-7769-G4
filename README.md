@@ -57,7 +57,7 @@
 <br>
 <div align="center">
 
-*Octubre, 2026*
+*Noviembre, 2026*
 
 </div>
 
