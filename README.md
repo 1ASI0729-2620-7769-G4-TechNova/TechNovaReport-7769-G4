@@ -5176,8 +5176,41 @@ A diferencia del Sprint 2, centrado en la implementación del frontend web con A
 | **Sprint 3 Velocity** | 32 Story Points |
 | **Sum of Story Points** | 32 Story Points |
 
+#### Bounded Contexts considerados para el Sprint 3
+
+Para orientar la organización del backend de **WashTrack**, se tomaron como referencia los siguientes *bounded contexts* y sus respectivas responsabilidades dentro de la plataforma de **TechNova**:
+
+| Bounded Context | Propósito dentro del backend |
+| :--- | :--- |
+| **Customer** | Gestionar la persistencia y la lógica de negocio orientada al cliente final, permitiendo consultar su historial de pedidos y administrar sus datos personales y direcciones frecuentes. |
+| **Laundry Operations** | Procesar y administrar la lógica de las operaciones de lavandería, el registro detallado de prendas por pedido y el control del procesamiento del servicio en el servidor. |
+| **Order Management** | Gestionar la creación, persistencia, actualización de estados, reajuste de precios y la lógica general de las órdenes de servicio en la API REST. |
+| **Billing & Subscriptions** | Administrar en el servidor la configuración de tarifas, los planes de suscripción de la lavandería y la lógica de procesamiento de pagos digitales. |
+| **Delivery** | Controlar la lógica de negocio para coordinar la logística de recojos y entregas a domicilio, la asignación de conductores y la gestión de repartidores. |
+
+#### User Stories seleccionadas 
+
+Para el Sprint 3, el desarrollo del backend de **WashTrack** se organizó tomando como referencia las User Stories de los Epics relacionados con los *bounded contexts* seleccionados para la plataforma.
+
+Las siguientes User Stories se relacionan con las principales áreas del backend y la lógica de servidores implementada:
+
+| User Story ID | Título | Propósito dentro del Sprint |
+| :--- | :--- | :--- |
+| **US-003** | Visualización de pedidos | Implementar los endpoints y consultas para listar y consultar los pedidos actuales y anteriores del cliente dentro del contexto *Customer*. |
+| **US-015** | Registrar dirección de recojo y entrega | Desarrollar la lógica de negocio y persistencia para gestionar direcciones frecuentes de los clientes para agilizar pedidos a domicilio. |
+| **US-006** | Registro de prendas | Exponer servicios para controlar y registrar de forma detallada las prendas asociadas a cada orden dentro de las operaciones de lavandería (*Laundry Operations*). |
+| **US-011** | Actualizar el estado del pedido | Programar la lógica en el servidor para procesar y registrar los cambios de estado de las prendas durante el proceso operativo de la lavandería. |
+| **US-005** | Gestión de pedidos | Implementar las APIs REST para la creación, consulta y administración general de las órdenes de servicio en *Order Management*. |
+| **US-020** | Cancelar un pedido | Desarrollar la lógica de negocio en el backend para gestionar las acciones de anulación o cancelación de pedidos bajo validaciones del sistema. |
+| **US-027** | Rechazar recojo | Gestionar en el servidor el registro y procesamiento de solicitudes de rechazo o no disponibilidad temporal para los recojos a domicilio. |
+| **US-004** | Seguimiento del pedido | Proveer los endpoints necesarios para consultar la trazabilidad en tiempo real sobre el estado y la ubicación de las prendas del cliente. |
+| **US-009** | Recibir notificaciones del estado del pedido | Implementar los servicios y disparadores lógicos en el backend para generar alertas automáticas sobre los avances clave en el servicio. |
+
+El objetivo del Sprint 3 se encuentra enfocado en ofrecer una **primera versión funcional del backend y la API REST**, permitiendo que el servidor soporte la lógica operativa de **WashTrack**, procese la persistencia de datos en PostgreSQL y exponga los endpoints necesarios para la integración completa con el frontend desarrollado en el sprint anterior.
 
 ##### 5.2.3.2. Aspect Leaders and Collaborators
+
+
 
 ##### 5.2.3.3. Sprint Backlog 3
 
