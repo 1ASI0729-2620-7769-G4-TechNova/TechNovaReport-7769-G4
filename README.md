@@ -5160,6 +5160,23 @@ El Sprint Planning 3 tuvo como finalidad establecer el objetivo del tercer Sprin
 
 A diferencia del Sprint 2, centrado en la implementación del frontend web con Angular, el Sprint 3 se orienta al desarrollo del backend, contemplando la implementación de la lógica de negocio, la gestión de datos mediante PostgreSQL y la exposición de servicios web a través de una API REST desarrollada con Java y Spring Boot. El equipo organizó el trabajo considerando los módulos y componentes necesarios para cada área funcional de WashTrack, con el propósito de mantener una separación adecuada de responsabilidades y facilitar la integración con el frontend desarrollado en el sprint anterior.
 
+**Resumen del Sprint Planning Meeting**
+
+| Elemento | Información |
+| :--- | :--- |
+| **Sprint #** | Sprint 3 |
+| **Date** | 01/11/2006 |
+| **Time** | 4:00 PM |
+| **Location** | Reunión virtual |
+| **Prepared By** | Pérez Vásquez, Ariana Valeria |
+| **Attendees** | Ariana Perez, Adriana Fuentes, Cesar Linares, Jude Hermoza, Enrique Mantilla |
+| **Sprint 2 Review Summary** | Durante el Sprint 2, el equipo implementó y desplegó la primera versión del Frontend Web Application de WashTrack. Se organizaron las vistas de la plataforma abarcando las áreas funcionales clave y se validaron los flujos de navegación previstos para los usuarios. |
+| **Sprint 2 Retrospective Summary** | A partir del trabajo realizado en el Sprint 2, se identificó la necesidad de consolidar la lógica de negocio del lado del servidor y asegurar la correcta persistencia de datos. Para este tercer sprint, se acordó enfocar los esfuerzos en el desarrollo del backend, estructurando los servicios RESTful por módulos y preparando la integración completa con el frontend. |
+| **Sprint 3 Goal** | Desarrollar y desplegar la primera versión del backend y la API REST de WashTrack, organizando su arquitectura en los Bounded Contexts definidos: Customer, Order Management, Billing & Subscriptions, Delivery y Laundry Operations. El cumplimiento se evidencia mediante la exposición funcional de los endpoints en Java y Spring Boot conectados a PostgreSQL. |
+| **Sprint 3 Velocity** | 32 Story Points |
+| **Sum of Story Points** | 32 Story Points |
+
+
 ##### 5.2.3.2. Aspect Leaders and Collaborators
 
 ##### 5.2.3.3. Sprint Backlog 3
