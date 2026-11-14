@@ -5058,6 +5058,26 @@ La colaboración fue realizada en Angular cada integrante aporte con lo siguient
 #### 5.3.2. Registro de Entrevistas
 #### 5.3.3. Evaluaciones según heurísticas
 
+**UX Heuristics & Principles Evaluation**
+ 
+**Usability – Inclusive Design – Information Architecture**
+ 
+
+**CARRERA:** Ingeniería de Software 
+**CURSO:** Desarrollo de Aplicaciones Open Source
+**SECCIÓN:** 7769
+**PROFESORES:** Todos 
+**AUDITOR:**
+**CLIENTE(S):** TechNova
+ 
+---
+ 
+*SITE o APP A EVALUAR*
+ 
+**WashTrack** – Aplicación web (frontend Angular) para la gestión de lavanderías: pedidos, pagos, entregas a domicilio, seguimiento y suscripciones.
+ 
+---
+
 ### 5.4. Video About-the-Product
 ---
 ## Conclusiones
