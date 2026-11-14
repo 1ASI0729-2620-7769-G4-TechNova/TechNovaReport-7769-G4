@@ -5210,6 +5210,15 @@ El objetivo del Sprint 3 se encuentra enfocado en ofrecer una **primera versión
 
 ##### 5.2.3.2. Aspect Leaders and Collaborators
 
+En esta sección, se establecen los aspectos clave del *Aspect Leaders and Collaborators* correspondiente al Sprint 3 del proyecto **WashTrack**. Se incluye información como los aspectos técnicos identificados para este sprint (desarrollo del backend en Java con Spring Boot para la API REST, configuración y persistencia en bases de datos relacionales con PostgreSQL, lógica de negocio para los bounded contexts del servidor y pruebas de integración de servicios), los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación se presentará el resumen de la distribución de roles por aspecto.
+
+| Team Member | Github Username | Coordinación del equipo y revisión de documento | Desarrollo del backend en Java y Spring Boot para la API REST y lógica de servidores | Configuración de la base de datos relacional y persistencia en PostgreSQL | Implementación y diseño de servicios y repositorios de los Bounded Contexts | Apoyo en la integración del backend con el frontend y documentación técnica del sprint |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Hermoza, Jude** | JvnnDev | C | C | L | C | C |
+| **Mantilla, Enrique** | enrique-mantilla | C | L | C | C | C |
+| **Perez, Ariana** | ArianaPerez34 | L | L | C | L | C |
+| **Ramos, Adriana** | adriana832 | C | C | L | C | L |
+| **Linares, Cesar** | Cesar-Linares | C | L | C | C | C |
 
 
 ##### 5.2.3.3. Sprint Backlog 3
