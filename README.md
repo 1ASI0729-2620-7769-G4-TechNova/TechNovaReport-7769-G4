@@ -406,6 +406,10 @@ URL del repositorio (backend): [https://github.com/1ASI0729-2620-7769-G4-TechNov
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
 
+- [Conclusiones](#conclusiones)
+
+- [Video About the Team](#video-about-the-team)
+
 - [Bibliografía](#bibliografía)
 
 - [Anexos](#anexos)
@@ -5405,19 +5409,20 @@ Mostrar en pagos y comprobantes el mismo número de pedido que en el resto de la
 
 ---
 
-### 5.4. Video About-the-Product
+### 5.4. Video About the Product
 <p align="justify">
-  En esta sección presentamos el video About-the-Product de nuestra solución para la gestión de lavanderías. Está dirigido a dos públicos. El primero son los visitantes del Landing Page que quieren conocer el modelo de negocio y las principales funcionalidades de la plataforma. El segundo son los usuarios de la aplicación que quieren saber cómo realizar tareas como registrar pedidos, hacer seguimiento a su estado, coordinar entregas y gestionar pagos.
+  En esta sección presentamos el video About the Product de nuestra solución para la gestión de lavanderías. Está dirigido a dos públicos. El primero son los visitantes del Landing Page que quieren conocer el modelo de negocio y las principales funcionalidades de la plataforma. El segundo son los usuarios de la aplicación que quieren saber cómo realizar tareas como registrar pedidos, hacer seguimiento a su estado, coordinar entregas y gestionar pagos.
 </p>
 <p align="justify">
   El video usa un tono cercano, claro y profesional, igual al del producto. Muestra cómo la solución ayuda a ordenar la operación diaria de la lavandería y mejora la experiencia de sus clientes.
 </p>
-<br>
+
 <div align="center">
   <img src="./assets/Chapter5/inicio_video_about_the_product.png" width="700px" alt="Video-about-the-product">
   <p>TechNova - WashTrack: Video about the product</p>
   <p></p>
 </div>
+<br>
 
 Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=HA8pVd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=HA8pVd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
@@ -5436,6 +5441,25 @@ A partir del desarrollo del proyecto **WashTrack** por parte de la startup **Tec
 * **Criterios de éxito definidos mediante Lean UX:** La primera versión desarrollada permitió comprobar la comprensión de la propuesta de valor a través de la *Landing Page*, exponiendo claramente las características del negocio, los segmentos objetivo y el funcionamiento general de la plataforma. No obstante, se concluye que los indicadores cuantitativos de éxito, retención y usabilidad requerirán ser evaluados y medidos en profundidad conforme se implementen el *Frontend Web Application* y los *Web Services*.
 
 * **Implementación, Validación y Despliegue:** Se consolidó un entorno técnico robusto aplicando el control de versiones en GitHub con flujos estructurados (`feature -> develop -> main`), convenciones de código y el despliegue exitoso de la primera versión de la *Landing Page* mediante GitHub Pages, garantizando la accesibilidad y visibilidad del producto.
+
+---
+
+## Video About the Team
+
+<p align="justify">
+  En esta sección presentamos el video About The Team, en el que el equipo TechNova muestra cómo trabajó durante el desarrollo del proyecto. El video reúne escenas e imágenes de nuestras reuniones y sesiones de trabajo reales.
+</p>
+
+<div align="center">
+  <img src="./assets/technova_video_team.png" width="700px" alt="Video-about-the-team">
+  <p>TechNova - WashTrack: Video about the team</p>
+  <p></p>
+</div>
+<br>
+
+Link del video (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBnC809zb5tRKm-eWdTlaReAdaQBdPf2iYAXl8qeBHjPdg?e=eAvuW1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBnC809zb5tRKm-eWdTlaReAdaQBdPf2iYAXl8qeBHjPdg?e=eAvuW1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Link del video (Youtube): [https://youtu.be/LY-cJajUz8s](https://youtu.be/LY-cJajUz8s)
 
 ---
 
@@ -5489,5 +5513,12 @@ Video de entrevistas de validación: []()
 Video about the product (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=iDDToU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=iDDToU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D)
 
 Video about the product (Youtube): [https://youtu.be/IEuWjx757Bg](https://youtu.be/IEuWjx757Bg)
+
+
+Video about the team (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBnC809zb5tRKm-eWdTlaReAdaQBdPf2iYAXl8qeBHjPdg?e=eAvuW1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBnC809zb5tRKm-eWdTlaReAdaQBdPf2iYAXl8qeBHjPdg?e=eAvuW1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Video about the team (Youtube): [https://youtu.be/LY-cJajUz8s](https://youtu.be/LY-cJajUz8s)
+
+
 
 ---
