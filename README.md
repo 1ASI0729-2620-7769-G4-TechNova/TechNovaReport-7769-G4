@@ -5166,7 +5166,83 @@ La colaboración fue realizada en Angular cada integrante aporte con lo siguient
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
+
+<p align="justify">
+En esta sección se definen, para cada segmento objetivo, los elementos que forman parte de la sesión de validación: la Landing Page, la aplicación web de WashTrack y los user flows que el entrevistado realizará durante la sesión.
+</p>
+
+**1. Primer Segmento: Propietarios de lavanderías independientes**
+
+**Criterios de Evaluación:**
+
+* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial la centralización de la gestión de pedidos, la revisión de prendas y la coordinación de recojos a domicilio.
+* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con el Dashboard, el sidebar de navegación y el acceso a la sección de Pedidos.
+* Medir el tiempo que toma al usuario registrar un nuevo pedido, desde que hace clic en "+ Nuevo pedido" hasta que el pedido queda guardado y visible en la Lista de Pedidos.
+* Evaluar si el usuario identifica el botón "Revisar" del pedido pendiente y puede validar las prendas registradas por el cliente, el pesaje y agregar comentarios sobre el estado de las prendas.
+* Evaluar si el usuario comprende que la revisión del pedido puede generar un reajuste en el precio final.
+* Evaluar si el usuario identifica el botón de check para atender una solicitud de recojo y puede seleccionar y confirmar el conductor asignado sin ambigüedades.
+* Evaluar si los mensajes de error de validación son claros y si el usuario puede corregirlos sin perder los datos ya ingresados, así como cancelar una acción sin guardar cambios.
+
+**Se considerarán los siguientes User Flows:**
+
+* User Flow 1: Registrar un nuevo pedido.
+* User Flow 2: Revisar un pedido.
+* User Flow 3: Asignar conductor para recojo de pedido.
+
+<p align="justify">
+Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de propietario de lavandería. Abarcan las tareas operativas principales de un pedido: su registro en el sistema, la revisión de las prendas y su pesaje cuando llegan al local, y la asignación de un conductor para atender las solicitudes de recojo a domicilio.
+</p>
+
+**Preguntas:**
+
+1. Al revisar la landing page, ¿qué entiendes que WashTrack puede hacer por tu lavandería?
+2. ¿La información presentada responde a los problemas que hoy tienes en tu negocio? ¿Qué agregarías o quitarías?
+3. Después de ver la página, ¿qué tan interesado(a) estarías en probar la aplicación con tu lavandería? ¿Qué te motivaría o te haría dudar?
+4. Comparado con tu forma actual de trabajar, ¿qué te pareció registrar un pedido en la aplicación? ¿Te ahorraría tiempo o te agregaría pasos?
+5. Al revisar un pedido, ¿los campos de pesaje y comentarios cubren lo que hoy revisas cuando recibes las prendas? ¿Qué te faltó registrar?
+6. ¿Qué tan fácil te resultó identificar las solicitudes de recojo y asignarles un conductor? ¿El botón de check fue claro para esa acción?
+7. ¿Qué funcionalidad te gustó más y por qué?
+8. ¿Qué funcionalidad te gustó menos y por qué?
+9. ¿Qué mejorarías de esa funcionalidad para que realmente la uses en tu negocio?
+
+<br>
+
+**2. Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+**Criterios de Evaluación:**
+
+* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial la solicitud digital de recojo a domicilio y la transparencia en el precio de su pedido.
+* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con la pantalla principal y la sección de Pedidos.
+* Medir el tiempo que toma al usuario solicitar un recojo, desde el ingreso a la sección de Pedidos hasta la confirmación de la solicitud.
+* Evaluar si el usuario identifica el botón de exclamación como una alerta de reajuste de precio pendiente de respuesta.
+* Evaluar si el usuario comprende el cambio de precio y la justificación presentada, y puede aceptar o rechazar el reajuste con seguridad.
+* Evaluar si el usuario percibe que la aplicación le evita tener que llamar o escribir a la lavandería para coordinar el recojo o aclarar cambios en el precio.
+
+**Se considerarán los siguientes User Flows:**
+
+* User Flow 4: Solicitar recojo.
+* User Flow 5: Reajuste de precio.
+
+<p align="justify">
+Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de cliente. Abarcan la solicitud digital del recojo de prendas a domicilio y la respuesta ante un reajuste de precio luego de la revisión en la lavandería, sin necesidad de comunicarse directamente con el local.
+</p>
+
+**Preguntas:**
+
+1. Al ver la landing page por primera vez, ¿qué entiendes que ofrece WashTrack?
+2. ¿Qué información de la página te resultó más útil o atractiva? ¿Faltó algo que te gustaría saber antes de usar la aplicación?
+3. Según lo que viste, ¿qué tan dispuesto(a) estarías a probar la aplicación? ¿Por qué?
+4. ¿Cómo describirías tu experiencia al solicitar un recojo en la aplicación? ¿Te pareció más práctico que llamar o escribir a la lavandería?
+5. ¿Notaste con facilidad que tenías un reajuste de precio pendiente? ¿El botón de exclamación te pareció claro?
+6. ¿La justificación del reajuste fue suficiente para decidir si aceptarlo o rechazarlo? ¿Qué más te gustaría saber?
+7. ¿Qué tan cómodo(a) te sientes con que la lavandería ajuste el precio después de revisar tus prendas? ¿Qué te daría más confianza?
+8. ¿Qué funcionalidad te gustó más y por qué?
+9. ¿Qué funcionalidad te gustó menos y por qué?
+10. ¿Qué cambiarías para mejorar esa funcionalidad?
+
 #### 5.3.2. Registro de Entrevistas
+
+
 #### 5.3.3. Evaluaciones según heurísticas
 
 **UX Heuristics & Principles Evaluation**
