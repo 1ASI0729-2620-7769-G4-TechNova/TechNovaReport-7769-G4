@@ -85,6 +85,8 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
 
 URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4)
 
+URL del repositorio (backend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4)
+
 <br>
 
 
@@ -192,6 +194,106 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 <br>
 
 <div style="page-break-after: always;"></div>
+
+
+**AV2**
+
+<p align="justify">
+  Para la entrega AV2 desarrollamos el Sprint 3. Empezamos con la planificación del ciclo (<em>Sprint Planning 3</em>), donde fijamos los objetivos del sprint, asignamos a los líderes y colaboradores de cada aspecto técnico y armamos el Sprint Backlog 3. Seguimos usando Trello para organizar las tareas, darles visibilidad a todos y hacer seguimiento al avance del equipo.
+</p>
+
+<p align="justify">
+  En la parte de desarrollo, construimos una primera parte del backend de la aplicación. Implementamos los servicios principales respetando los principios de Diseño Guiado por el Dominio (<em>Domain-Driven Design - DDD</em>) y la separación de los <em>Bounded Contexts</em>, para que la lógica de negocio quede bien estructurada y se integre con el frontend construido en el sprint anterior. También actualizamos la landing page con mejoras de contenido y diseño para que refleje mejor la propuesta de valor del producto.
+</p>
+
+<p align="justify">
+  Del lado de la validación, hicimos entrevistas de validación con usuarios del segmento objetivo para comprobar si la solución propuesta responde a sus necesidades, y registramos sus resultados y hallazgos. Además, grabamos dos videos: uno sobre el producto (<em>About the Product</em>), que presenta la solución y sus funcionalidades principales, y otro sobre el equipo (<em>About the Team</em>), que muestra a los integrantes y cómo trabajamos.
+</p>
+
+<p align="justify">
+  Para cerrar la entrega, desplegamos los servicios desarrollados y documentamos el proceso con evidencias de desarrollo, ejecución, documentación de los servicios y despliegue, listas para la revisión del sprint (<em>Sprint Review</em>). Al final, hicimos una reflexión en equipo sobre cómo colaboramos durante este ciclo, usando como base el historial de contribuciones del repositorio.
+</p>
+<br>
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+
+<p align="justify">
+  Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+**Report**
+
+
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-AV2" width="500"/>
+  <br/><i>Report: Contributors of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-AV2" width="500"/>
+  <br/><i>Report: Contributors of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="pulse-TechNova-AV2" width="500"/>
+  <br/><i>Report: Pulse of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-AV2" width="500"/>
+  <br/><i>Report: Network graph of TechNova (AV2)</i>
+</p>
+<br>
+
+**Landing Page**
+
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Contributors of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-TechNova-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Pulse of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-TechNova-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Pulse of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Network graph of TechNova (AV2)</i>
+</p>
+<br>
+
+**Backend**
+
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-Backend-AV2" width="500"/>
+  <br/><i>Backend: Contributors of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-TechNova-Backend-TB1" width="500"/>
+  <br/><i>Backend: Pulse of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-TechNova-Backend-TB1" width="500"/>
+  <br/><i>Backend: Pulse of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-Backend-AV2" width="500"/>
+  <br/><i>Backend: Network graph of TechNova (AV2)</i>
+</p>
+<br>
+
+<div style="page-break-after: always;"></div>
+
 
 ---
 
@@ -5296,6 +5398,8 @@ En "Pedidos", el pedido se muestra como "ORD-000005", pero en el historial de pa
 **Recomendación:**
 Mostrar en pagos y comprobantes el mismo número de pedido que en el resto de la aplicación ("ORD-000005") como enlace al detalle del pedido. Tomar el nombre del cliente directamente del pedido en lugar de guardarlo como texto libre.
 
+---
+
 ### 5.4. Video About-the-Product
 <p align="justify">
   En esta sección presentamos el video About-the-Product de nuestra solución para la gestión de lavanderías. Está dirigido a dos públicos. El primero son los visitantes del Landing Page que quieren conocer el modelo de negocio y las principales funcionalidades de la plataforma. El segundo son los usuarios de la aplicación que quieren saber cómo realizar tareas como registrar pedidos, hacer seguimiento a su estado, coordinar entregas y gestionar pagos.
@@ -5306,7 +5410,7 @@ Mostrar en pagos y comprobantes el mismo número de pedido que en el resto de la
 <br>
 <div align="center">
   <img src="./assets/Chapter5/inicio_video_about_the_product.png" width="700px" alt="Video-about-the-product">
-  <p>TechNova - WashTrack: Video about thw product</p>
+  <p>TechNova - WashTrack: Video about the product</p>
   <p></p>
 </div>
 
@@ -5361,6 +5465,8 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
 
 URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4)
 
+URL del repositorio (backend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4)
+
 URL de landing page (GithubPage): [https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
 
 URL del frontend (Vercel): [https://technova-washtrack-frontend.vercel.app/](https://technova-washtrack-frontend.vercel.app/)
@@ -5371,6 +5477,9 @@ URL de exposición (AV1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20
 
 URL de exposición (TB1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA0nUKDmGcmTJiJ1elvru0eAZfquLE9ykfmedf5DaRpVOQ?e=B9hTeA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA0nUKDmGcmTJiJ1elvru0eAZfquLE9ykfmedf5DaRpVOQ?e=B9hTeA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+Url de exposición (AV2): []()
+
+Video de entrevistas de validación: []()
 
 Video about the product (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=iDDToU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=iDDToU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D)
 
