@@ -5116,6 +5116,20 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
  
 ---
 
+*TABLA RESUMEN*
+ 
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|---|---|---|
+| 1 | La cuenta de cliente muestra los pedidos, pagos y acciones que corresponden al dueño de la lavandería | 4 | Usability: Estética y diseño minimalista |
+| 2 | Para registrar un pedido se debe escribir el ID numérico del cliente en lugar de seleccionarlo | 3 | Usability: Reconocer antes que recordar |
+| 3 | Confirmar o completar un pedido se ejecuta al instante, sin confirmación ni opción de deshacer | 2 | Usability: Libertad y control del usuario |
+| 4 | En el pago, el ID del pedido, el cliente y el monto se escriben a mano y no se validan contra el pedido | 3 | Usability: Prevención de errores |
+| 5 | El formulario de programación de entregas no tiene botón "Cancelar" ni "Volver", a diferencia del formulario de pedidos | 2 | Usability: Consistencia y estándares |
+| 6 | La lista de seguimiento no tiene buscador ni filtros, y la acción para ver el detalle es solo un ícono | 2 | Information Architecture: Is it findable? |
+| 7 | El historial de pagos identifica los pedidos con un código distinto ("#105") y con datos de cliente que no coinciden con el pedido | 2 | Information Architecture: Is it credible? |
+ 
+---
+
 ### 5.4. Video About-the-Product
 ---
 ## Conclusiones
