@@ -5156,6 +5156,10 @@ Como resultado esperado, el **Sprint 3** busca contar con un **backend funcional
 
 ##### 5.2.3.1. Sprint Planning 3
 
+El Sprint Planning 3 tuvo como finalidad establecer el objetivo del tercer Sprint, organizar las actividades necesarias para desarrollar la primera versión del backend y la API REST de WashTrack, y definir los componentes encargados de implementar la lógica de negocio en el servidor. Para ello, se consideraron los requerimientos técnicos definidos en las Technical Stories y el Product Backlog actualizado, junto con los Bounded Contexts identificados durante el diseño de la arquitectura orientada al dominio Domain-Driven Design - DDD.
+
+A diferencia del Sprint 2, centrado en la implementación del frontend web con Angular, el Sprint 3 se orienta al desarrollo del backend, contemplando la implementación de la lógica de negocio, la gestión de datos mediante PostgreSQL y la exposición de servicios web a través de una API REST desarrollada con Java y Spring Boot. El equipo organizó el trabajo considerando los módulos y componentes necesarios para cada área funcional de WashTrack, con el propósito de mantener una separación adecuada de responsabilidades y facilitar la integración con el frontend desarrollado en el sprint anterior.
+
 ##### 5.2.3.2. Aspect Leaders and Collaborators
 
 ##### 5.2.3.3. Sprint Backlog 3
