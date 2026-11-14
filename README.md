@@ -5145,6 +5145,15 @@ La colaboración fue realizada en Angular cada integrante aporte con lo siguient
 
 #### 5.2.3. Sprint 3
 
+El Sprint 3 está orientado al desarrollo de la **primera versión de los servicios del Backend y la RESTful API de WashTrack**, como continuación del trabajo realizado durante el Sprint 2, en el que se implementó y desplegó la primera versión del Frontend Web Application. En esta etapa, el equipo se enfoca en desarrollar la lógica del servidor, la persistencia de datos y la exposición de servicios web que permitan procesar de manera segura y eficiente la información de la plataforma.
+
+Para estructurar el desarrollo del backend, se consideran los bounded contexts definidos en la arquitectura del sistema, tales como **Customer, Order Management, Laundry Operations, Billing & Subscriptions y Delivery**. 
+
+El desarrollo de este sprint toma como referencia las Technical Stories, los endpoints RESTful especificados y los criterios de aceptación definidos en el Capítulo III, así como el Product Backlog del proyecto. A partir de estos requerimientos, se implementarán los controladores, los servicios de aplicación, los agregados del dominio y los adaptadores de persistencia utilizando **Java** y **Spring Boot**, conectándose a una base de datos relacional en **PostgreSQL**.
+
+Como resultado esperado, el **Sprint 3** busca contar con un **backend funcional que soporte la lógica operativa de WashTrack y exponga los endpoints necesarios para la integración completa con la aplicación web.** Este incremento técnico permitirá validar la correcta ejecución de los casos de uso del negocio y servirá de base para las pruebas de integración del sistema.
+
+
 ##### 5.2.3.1. Sprint Planning 3
 
 ##### 5.2.3.2. Aspect Leaders and Collaborators
