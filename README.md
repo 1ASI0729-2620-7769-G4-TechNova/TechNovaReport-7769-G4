@@ -5145,9 +5145,81 @@ La colaboración fue realizada en Angular cada integrante aporte con lo siguient
 
 #### 5.2.3. Sprint 3
 
+El Sprint 3 está orientado al desarrollo de la **primera versión de los servicios del Backend y la RESTful API de WashTrack**, como continuación del trabajo realizado durante el Sprint 2, en el que se implementó y desplegó la primera versión del Frontend Web Application. En esta etapa, el equipo se enfoca en desarrollar la lógica del servidor, la persistencia de datos y la exposición de servicios web que permitan procesar de manera segura y eficiente la información de la plataforma.
+
+Para estructurar el desarrollo del backend, se consideran los bounded contexts definidos en la arquitectura del sistema, tales como **Customer, Order Management, Laundry Operations, Billing & Subscriptions y Delivery**. 
+
+El desarrollo de este sprint toma como referencia las Technical Stories, los endpoints RESTful especificados y los criterios de aceptación definidos en el Capítulo III, así como el Product Backlog del proyecto. A partir de estos requerimientos, se implementarán los controladores, los servicios de aplicación, los agregados del dominio y los adaptadores de persistencia utilizando **Java** y **Spring Boot**, conectándose a una base de datos relacional en **PostgreSQL**.
+
+Como resultado esperado, el **Sprint 3** busca contar con un **backend funcional que soporte la lógica operativa de WashTrack y exponga los endpoints necesarios para la integración completa con la aplicación web.** Este incremento técnico permitirá validar la correcta ejecución de los casos de uso del negocio y servirá de base para las pruebas de integración del sistema.
+
+
 ##### 5.2.3.1. Sprint Planning 3
 
+El Sprint Planning 3 tuvo como finalidad establecer el objetivo del tercer Sprint, organizar las actividades necesarias para desarrollar la primera versión del backend y la API REST de WashTrack, y definir los componentes encargados de implementar la lógica de negocio en el servidor. Para ello, se consideraron los requerimientos técnicos definidos en las Technical Stories y el Product Backlog actualizado, junto con los Bounded Contexts identificados durante el diseño de la arquitectura orientada al dominio Domain-Driven Design - DDD.
+
+A diferencia del Sprint 2, centrado en la implementación del frontend web con Angular, el Sprint 3 se orienta al desarrollo del backend, contemplando la implementación de la lógica de negocio, la gestión de datos mediante PostgreSQL y la exposición de servicios web a través de una API REST desarrollada con Java y Spring Boot. El equipo organizó el trabajo considerando los módulos y componentes necesarios para cada área funcional de WashTrack, con el propósito de mantener una separación adecuada de responsabilidades y facilitar la integración con el frontend desarrollado en el sprint anterior.
+
+**Resumen del Sprint Planning Meeting**
+
+| Elemento | Información |
+| :--- | :--- |
+| **Sprint #** | Sprint 3 |
+| **Date** | 01/11/2006 |
+| **Time** | 4:00 PM |
+| **Location** | Reunión virtual |
+| **Prepared By** | Pérez Vásquez, Ariana Valeria |
+| **Attendees** | Ariana Perez, Adriana Fuentes, Cesar Linares, Jude Hermoza, Enrique Mantilla |
+| **Sprint 2 Review Summary** | Durante el Sprint 2, el equipo implementó y desplegó la primera versión del Frontend Web Application de WashTrack. Se organizaron las vistas de la plataforma abarcando las áreas funcionales clave y se validaron los flujos de navegación previstos para los usuarios. |
+| **Sprint 2 Retrospective Summary** | A partir del trabajo realizado en el Sprint 2, se identificó la necesidad de consolidar la lógica de negocio del lado del servidor y asegurar la correcta persistencia de datos. Para este tercer sprint, se acordó enfocar los esfuerzos en el desarrollo del backend, estructurando los servicios RESTful por módulos y preparando la integración completa con el frontend. |
+| **Sprint 3 Goal** | Desarrollar y desplegar la primera versión del backend y la API REST de WashTrack, organizando su arquitectura en los Bounded Contexts definidos: Customer, Order Management, Billing & Subscriptions, Delivery y Laundry Operations. El cumplimiento se evidencia mediante la exposición funcional de los endpoints en Java y Spring Boot conectados a PostgreSQL. |
+| **Sprint 3 Velocity** | 32 Story Points |
+| **Sum of Story Points** | 32 Story Points |
+
+#### Bounded Contexts considerados para el Sprint 3
+
+Para orientar la organización del backend de **WashTrack**, se tomaron como referencia los siguientes *bounded contexts* y sus respectivas responsabilidades dentro de la plataforma de **TechNova**:
+
+| Bounded Context | Propósito dentro del backend |
+| :--- | :--- |
+| **Customer** | Gestionar la persistencia y la lógica de negocio orientada al cliente final, permitiendo consultar su historial de pedidos y administrar sus datos personales y direcciones frecuentes. |
+| **Laundry Operations** | Procesar y administrar la lógica de las operaciones de lavandería, el registro detallado de prendas por pedido y el control del procesamiento del servicio en el servidor. |
+| **Order Management** | Gestionar la creación, persistencia, actualización de estados, reajuste de precios y la lógica general de las órdenes de servicio en la API REST. |
+| **Billing & Subscriptions** | Administrar en el servidor la configuración de tarifas, los planes de suscripción de la lavandería y la lógica de procesamiento de pagos digitales. |
+| **Delivery** | Controlar la lógica de negocio para coordinar la logística de recojos y entregas a domicilio, la asignación de conductores y la gestión de repartidores. |
+
+#### User Stories seleccionadas 
+
+Para el Sprint 3, el desarrollo del backend de **WashTrack** se organizó tomando como referencia las User Stories de los Epics relacionados con los *bounded contexts* seleccionados para la plataforma.
+
+Las siguientes User Stories se relacionan con las principales áreas del backend y la lógica de servidores implementada:
+
+| User Story ID | Título | Propósito dentro del Sprint |
+| :--- | :--- | :--- |
+| **US-003** | Visualización de pedidos | Implementar los endpoints y consultas para listar y consultar los pedidos actuales y anteriores del cliente dentro del contexto *Customer*. |
+| **US-015** | Registrar dirección de recojo y entrega | Desarrollar la lógica de negocio y persistencia para gestionar direcciones frecuentes de los clientes para agilizar pedidos a domicilio. |
+| **US-006** | Registro de prendas | Exponer servicios para controlar y registrar de forma detallada las prendas asociadas a cada orden dentro de las operaciones de lavandería (*Laundry Operations*). |
+| **US-011** | Actualizar el estado del pedido | Programar la lógica en el servidor para procesar y registrar los cambios de estado de las prendas durante el proceso operativo de la lavandería. |
+| **US-005** | Gestión de pedidos | Implementar las APIs REST para la creación, consulta y administración general de las órdenes de servicio en *Order Management*. |
+| **US-020** | Cancelar un pedido | Desarrollar la lógica de negocio en el backend para gestionar las acciones de anulación o cancelación de pedidos bajo validaciones del sistema. |
+| **US-027** | Rechazar recojo | Gestionar en el servidor el registro y procesamiento de solicitudes de rechazo o no disponibilidad temporal para los recojos a domicilio. |
+| **US-004** | Seguimiento del pedido | Proveer los endpoints necesarios para consultar la trazabilidad en tiempo real sobre el estado y la ubicación de las prendas del cliente. |
+| **US-009** | Recibir notificaciones del estado del pedido | Implementar los servicios y disparadores lógicos en el backend para generar alertas automáticas sobre los avances clave en el servicio. |
+
+El objetivo del Sprint 3 se encuentra enfocado en ofrecer una **primera versión funcional del backend y la API REST**, permitiendo que el servidor soporte la lógica operativa de **WashTrack**, procese la persistencia de datos en PostgreSQL y exponga los endpoints necesarios para la integración completa con el frontend desarrollado en el sprint anterior.
+
 ##### 5.2.3.2. Aspect Leaders and Collaborators
+
+En esta sección, se establecen los aspectos clave del *Aspect Leaders and Collaborators* correspondiente al Sprint 3 del proyecto **WashTrack**. Se incluye información como los aspectos técnicos identificados para este sprint (desarrollo del backend en Java con Spring Boot para la API REST, configuración y persistencia en bases de datos relacionales con PostgreSQL, lógica de negocio para los bounded contexts del servidor y pruebas de integración de servicios), los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación se presentará el resumen de la distribución de roles por aspecto.
+
+| Team Member | Github Username | Coordinación del equipo y revisión de documento | Desarrollo del backend en Java y Spring Boot para la API REST y lógica de servidores | Configuración de la base de datos relacional y persistencia en PostgreSQL | Implementación y diseño de servicios y repositorios de los Bounded Contexts | Apoyo en la integración del backend con el frontend y documentación técnica del sprint |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Hermoza, Jude** | JvnnDev | C | C | L | C | C |
+| **Mantilla, Enrique** | enrique-mantilla | C | L | C | C | C |
+| **Perez, Ariana** | ArianaPerez34 | L | L | C | L | C |
+| **Ramos, Adriana** | adriana832 | C | C | L | C | L |
+| **Linares, Cesar** | Cesar-Linares | C | L | C | C | C |
+
 
 ##### 5.2.3.3. Sprint Backlog 3
 
