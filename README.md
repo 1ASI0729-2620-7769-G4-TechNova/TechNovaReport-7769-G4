@@ -5297,6 +5297,22 @@ En "Pedidos", el pedido se muestra como "ORD-000005", pero en el historial de pa
 Mostrar en pagos y comprobantes el mismo número de pedido que en el resto de la aplicación ("ORD-000005") como enlace al detalle del pedido. Tomar el nombre del cliente directamente del pedido en lugar de guardarlo como texto libre.
 
 ### 5.4. Video About-the-Product
+<p align="justify">
+  En esta sección presentamos el video About-the-Product de nuestra solución para la gestión de lavanderías. Está dirigido a dos públicos. El primero son los visitantes del Landing Page que quieren conocer el modelo de negocio y las principales funcionalidades de la plataforma. El segundo son los usuarios de la aplicación que quieren saber cómo realizar tareas como registrar pedidos, hacer seguimiento a su estado, coordinar entregas y gestionar pagos.
+</p>
+<p align="justify">
+  El video usa un tono cercano, claro y profesional, igual al del producto. Muestra cómo la solución ayuda a ordenar la operación diaria de la lavandería y mejora la experiencia de sus clientes.
+</p>
+<br>
+<div align="center">
+  <img src="./assets/Chapter5/inicio_video_about_the_product.png" width="700px" alt="Video-about-the-product">
+  <p>TechNova - WashTrack: Video about thw product</p>
+  <p></p>
+</div>
+
+Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=HA8pVd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=HA8pVd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 ---
 ## Conclusiones
 
@@ -5354,5 +5370,10 @@ URL del fake api (Render): [https://technova-landingpage-frontend-7769-g4-mrsy.o
 URL de exposición (AV1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP)
 
 URL de exposición (TB1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA0nUKDmGcmTJiJ1elvru0eAZfquLE9ykfmedf5DaRpVOQ?e=B9hTeA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA0nUKDmGcmTJiJ1elvru0eAZfquLE9ykfmedf5DaRpVOQ?e=B9hTeA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+Video about the product (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=iDDToU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=iDDToU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D)
+
+Video about the product (Youtube): [https://youtu.be/IEuWjx757Bg](https://youtu.be/IEuWjx757Bg)
 
 ---
