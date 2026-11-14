@@ -5078,6 +5078,31 @@ La colaboración fue realizada en Angular cada integrante aporte con lo siguient
  
 ---
 
+*TAREAS A EVALUAR*
+ 
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+ 
+1. Registro de un usuario nuevo (cliente o lavandería)
+2. Registro de un pedido con sus prendas
+3. Confirmación y finalización de un pedido
+4. Pago de un pedido
+5. Programación de un recojo o entrega a domicilio
+6. Seguimiento del estado de un pedido
+7. Gestión de la suscripción y consulta de planes (cuenta de lavandería)
+8. Consulta del panel de inicio
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+ 
+1. Inicio de sesión y recuperación de contraseña
+2. Cambio de contraseña
+3. Administración de usuarios y roles (administrador)
+4. Recepción de pedidos y procesamiento del lavado (operaciones internas)
+5. Gestión de servicios y conductores
+6. Consulta del historial de pagos y del comprobante de pago
+7. Gestión de notificaciones
+
+---
+
 ### 5.4. Video About-the-Product
 ---
 ## Conclusiones
