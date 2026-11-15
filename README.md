@@ -5239,7 +5239,11 @@ En esta sección, se establecen los aspectos clave del *Aspect Leaders and Colla
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
+Para el sprint 3 nuestro equipo se enfoco principalmente en la implementacion del backend. Además, tambien se mejoraron algunos aspectos tanto del frontend como de la Landing Page.
 
+El trabajo colaborativo fue atraves de la plataforma de Github, ya que nos permite ordenarnos para el proyecto junto con permitirnos hacer un seguimiento de los avances de cada integrante y del proyecto.
+
+Para este sprint 3 mostraremos nuestras evidencias de colobaracion en el desarrollo de nuestro backend que ha sido la parte principal de este sprint.
 
 ### 5.3. Validation Interviews
 
