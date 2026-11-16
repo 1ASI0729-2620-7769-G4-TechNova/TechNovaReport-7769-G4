@@ -5241,9 +5241,22 @@ En esta sección, se establecen los aspectos clave del *Aspect Leaders and Colla
 
 Para el sprint 3 nuestro equipo se enfoco principalmente en la implementacion del backend. Además, tambien se mejoraron algunos aspectos tanto del frontend como de la Landing Page.
 
-El trabajo colaborativo fue atraves de la plataforma de Github, ya que nos permite ordenarnos para el proyecto junto con permitirnos hacer un seguimiento de los avances de cada integrante y del proyecto.
+El trabajo colaborativo fue atraves de la plataforma de Github, ya que nos permite organizarnos para la elaboración del proyecto y además nos permite hacer un seguimiento de los avances de cada integrante y del proyecto.
 
 Para este sprint 3 mostraremos nuestras evidencias de colobaracion en el desarrollo de nuestro backend que ha sido la parte principal de este sprint.
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/teamCollaboration/resumenCommits.PNG" width="700px" alt="TeamCollaboration">
+  <p>Figura 1. Pull request y actividad del proyecto</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/teamCollaboration/backendCommits.PNG" width="700px" alt="AllCommits">
+  <p>Figura 2. Commits elaborados por el equipo</p>
+  <p></p>
+</div>
+
 
 ### 5.3. Validation Interviews
 
