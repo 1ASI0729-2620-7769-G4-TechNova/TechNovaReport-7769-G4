@@ -3420,43 +3420,42 @@ Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón 
 * Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
 
 
-### Solicitar recojo
+### Consultar recibo
 
-**User Goal:** Cuando llega una solicitud de recojo, entonces el encargado debe mandar a un conductor para recoger las prendas a domicilio
-
-**User Persona:** Valeria Torres, Cliente de Lavandería.
-
-<div align="center">
-  <img src="./assets/Chapter4/UserFlow/Userflow_UserGoal4.PNG" width="700px" alt="UserGoal4">
-</div>
-
-**Explicación del flujo:**
-
-Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de check. Luego se abre un pop-up que permite escoger que conductor irá a hacer el recojo. Finalmente, se confirma el envío del conductor.
-
-**Unhappy paths:**
-
-* Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
-
-
-
-### Reajuste de precio
-
-**User Goal:** Cuando llega una notificación de reajuste de precio, entonces el cliente debe revisar el cambio de precio y aceptarlo o rechazarlo
+**User Goal:** Quiero consultar el recibo de una orden pagada para verificar el detalle de los servicios, el monto cobrado y el método de pago.
 
 **User Persona:** Valeria Torres, Cliente de Lavandería.
 
 <div align="center">
-  <img src="./assets/Chapter4/UserFlow/Userflow_UserGoal5.PNG" width="700px" alt="UserGoal5">
+  <img src="./assets/Chapter4/UserFlow/user_flow4.png" width="700px" alt="UserGoal4">
 </div>
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de exclamación. Luego, verifica el cambio de precio y la justificación. Finalmente acepta o rechaza el reajuste.
+Happy path: El usuario ingresa a la sección de Historial de pagos y hace clic en el icono recibo. Luego se abre otra vista que permite ver los detalles del recibo.
 
 **Unhappy paths:**
 
-* Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
+* Recibo no disponible: la orden seleccionada tiene el pago pendiente o en proceso, por lo que el recibo aún no se ha generado. El sistema muestra un aviso indicando que el recibo estará disponible cuando se confirme el pago.
+
+
+
+### Consultar avance de un pedido
+
+**User Goal:** Quiero consultar en qué etapa se encuentra mi pedido para saber cuándo estará listo o cuándo será entregado.
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+<div align="center">
+  <img src="./assets/Chapter4/UserFlow/user_flow5.png" width="700px" alt="UserGoal5">
+</div>
+
+**Explicación del flujo:**
+
+Happy path: El usuario ingresa a la sección de Seguimiento de pedidos y hace click en el icono target. Luego se abre otra vista que permite ver la etapa en la que se encuentra su pedido.
+
+**Unhappy paths:**
+
+* Pedido sin actualizaciones: el pedido fue registrado, pero aún no ha avanzado de etapa. El sistema muestra el estado inicial e informa que el seguimiento se actualizará cuando la lavandería procese el pedido.
 
 ### 4.5. Web Applications Prototyping
 
