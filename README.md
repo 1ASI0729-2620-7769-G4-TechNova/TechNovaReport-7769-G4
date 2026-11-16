@@ -5234,6 +5234,53 @@ En esta sección, se establecen los aspectos clave del *Aspect Leaders and Colla
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+Para este Sprint se documentaron varios recursos REST para nuestros diferentes bounded contexts. Ademas, mostraremos los servicios de manera local, ya que el Web Service aun no esta desplegado.
+
+
+| Bounded Context | Método | URL | Descripción |
+|---|---|---|---|
+| Billing | GET | http://localhost:8080/api/v1/plans | Lista planes disponibles |
+| Billing | GET | http://localhost:8080/api/v1/plans/{id} | Obtiene un plan por id |
+| Billing | POST | http://localhost:8080/api/v1/payments | Registra un pago para una orden |
+| Billing | GET | http://localhost:8080/api/v1/payments | Historial de pagos |
+| Billing | GET | http://localhost:8080/api/v1/payments/{id} | Obtiene un pago por id |
+| Billing | POST | http://localhost:8080/api/v1/payments/{id}/confirm | Confirma un pago pendiente |
+| Billing | POST | http://localhost:8080/api/v1/payments/{id}/reject | Rechaza un pago pendiente |
+| Billing | POST | http://localhost:8080/api/v1/subscriptions | Suscribe una lavandería a un plan |
+| Billing | GET | http://localhost:8080/api/v1/subscriptions | Lista suscripciones de una lavandería |
+| Billing | GET | http://localhost:8080/api/v1/subscriptions/{id} | Obtiene una suscripción por id |
+| Billing | POST | http://localhost:8080/api/v1/subscriptions/{id}/change-plan | Cambia el plan de una suscripción activa |
+| Billing | POST | http://localhost:8080/api/v1/subscriptions/{id}/renew | Renueva por un periodo más |
+| Billing | POST | http://localhost:8080/api/v1/subscriptions/{id}/cancel | Cancela una suscripción activa |
+| Billing | GET | http://localhost:8080/api/v1/subscriptions/features | Funcionalidades habilitadas por el plan activo |
+| Customer | POST | http://localhost:8080/api/v1/customers | Registra perfil de cliente |
+| Customer | GET | http://localhost:8080/api/v1/customers | Lista de los clientes |
+| Customer | GET | http://localhost:8080/api/v1/customers/{id} | Obtiene cliente con sus direcciones |
+| Customer | PUT | http://localhost:8080/api/v1/customers/{id} | Actualiza nombre completo y teléfono |
+| Customer | POST | http://localhost:8080/api/v1/customers/{id}/addresses | Agrega una dirección |
+| Customer | POST | http://localhost:8080/api/v1/customers/{id}/addresses/{addressId}/default | Marca una dirección como predeterminada |
+| Customer | DELETE | http://localhost:8080/api/v1/customers/{id}/addresses/{addressId} | Elimina una dirección |
+| Delivery | POST | http://localhost:8080/api/v1/deliveries | Programa recojo/entrega |
+| Delivery | GET | http://localhost:8080/api/v1/deliveries | Lista entregas |
+| Delivery | GET | http://localhost:8080/api/v1/deliveries/{id} | Obtiene una entrega por id |
+| Delivery | PATCH | http://localhost:8080/api/v1/deliveries/{id} | Asigna un repartidor disponible |
+| Delivery | POST | http://localhost:8080/api/v1/deliveries/{id}/start | Inicia entrega/recojo |
+| Delivery | POST | http://localhost:8080/api/v1/deliveries/{id}/complete | Completa la entrega |
+| Delivery | POST | http://localhost:8080/api/v1/deliveries/{id}/fail | Marca entrega activa como fallida |
+| Delivery | POST | http://localhost:8080/api/v1/drivers | Registra un repartidor |
+| Delivery | GET | http://localhost:8080/api/v1/drivers | Lista repartidores |
+| Delivery | GET | http://localhost:8080/api/v1/drivers/{id} | Obtiene un repartidor por id |
+| Delivery | PATCH | http://localhost:8080/api/v1/drivers/{id} | Actualiza disponibilidad del repartidor |
+| Tracking | POST | http://localhost:8080/api/v1/orderTrackings | Inicia seguimiento de una orden |
+| Tracking | GET | http://localhost:8080/api/v1/orderTrackings | Lista seguimientos |
+| Tracking | GET | http://localhost:8080/api/v1/orderTrackings/{id} | Obtiene seguimiento por id |
+| Tracking | POST | http://localhost:8080/api/v1/orderTrackings/{id}/advance | Avanza a la siguiente etapa |
+| Tracking | GET | http://localhost:8080/api/v1/stageChanges | Historial de etapas de una orden |
+| Tracking | POST | http://localhost:8080/api/v1/notifications | Crea una notificación manual |
+| Tracking | GET | http://localhost:8080/api/v1/notifications | Lista notificaciones de un destinatario |
+| Tracking | PATCH | http://localhost:8080/api/v1/notifications/{id}/read | Marca una notificación como leída |
+| Tracking | POST | http://localhost:8080/api/v1/notifications/read-all | Marca todas las notificaciones de un destinatario como leídas |
+
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Para el sprint 3, desarrollamos el backend usando postgre y se alojará en supabase. Además, se usó docker para poder publicar el API RESTful en la plataforma de Render. Por otro lado, nuestro frontend seguirá desplegada en la plataforma de Vercel.
