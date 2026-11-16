@@ -5320,6 +5320,35 @@ En esta sección se definen, para cada segmento objetivo, los elementos que form
 
 #### 5.3.2. Registro de Entrevistas
 
+**Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+<p><u>Entrevista 3:</u></p>
+
+Entrevistador: Perez Vasquez Ariana Valeria
+
+Datos del entrevistado:
+
+- **Nombre:** Renzo
+- **Apellidos:** Mongrut
+- **Edad:** 20 años
+- **Distrito:** Jesús María
+
+<div align="justify">
+
+En esta sesión de validación del prototipo de la página web y la landing page de **WashTrack**, desarrollada por el equipo **TechNova**, Renzo Mongrut evaluó la plataforma y compartió su experiencia de uso. Señaló que le encantó todo el diseño, destacando especialmente la atractiva colorimetría y la fluidez general de la propuesta. 
+
+Asimismo, indicó que la funcionalidad que más le gustó fue el **seguimiento en tiempo real de las prendas**, valorando enormemente cómo esto le ahorra tiempo y elimina la necesidad de llamar o escribir constantemente a la lavandería para conocer el estado de su ropa. Al encontrarse con una rutina exigente entre el estudio y el trabajo, reafirmó su total disposición para utilizar la aplicación debido a la seguridad, transparencia y agilidad que aporta a su día a día.
+
+<br>
+<p align="center">
+  <img src="assets/entrevista 2 Ariana.png" alt="Entrevista de Renzo Mongrut" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Renzo Mongrut</i>
+</p>
+<br>
+
+</div>
+
+
+
 
 #### 5.3.3. Evaluaciones según heurísticas
 
