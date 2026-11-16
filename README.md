@@ -57,7 +57,7 @@
 <br>
 <div align="center">
 
-*Octubre, 2026*
+*Noviembre, 2026*
 
 </div>
 
@@ -71,6 +71,7 @@
 |---|---|---|---|
 | **AV1** | 05/09/2026 | Hermoza Quispe, Jude<br><br>Mantilla Maldonado, Enrique Manuel<br><br>Perez Vasquez Ariana Valeria<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Linares Bernable, Cesar Alejandro | **Capítulo I: Introducción**<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br><br>**Capítulo III: Requirements Specification**<br><br>**Capítulo IV: Product Design**<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management<br>5.1.1. Software Development Environment Configuration<br>5.1.2. Source Code Management<br>5.1.3. Source Code Style Guide & Conventions<br>5.1.4. Software Deployment Configuration<br>5.2. Landing Page, Services & Applications Implementation<br>5.2.1. Sprint 1<br>5.2.1.1. Sprint Planning 1<br>5.2.1.2. Aspect Leaders and Collaborators<br>5.2.1.3. Sprint Backlog 1<br>5.2.1.4. Development Evidence for Sprint Review<br>5.2.1.5. Execution Evidence for Sprint Review<br>5.2.1.6. Services Documentation Evidence for Sprint Review<br>5.2.1.7. Software Deployment Evidence for Sprint Review<br>5.2.1.8. Team Collaboration Insights during Sprint |
 | **TB1** | 09/10/2026 | Hermoza Quispe, Jude<br><br>Mantilla Maldonado, Enrique Manuel<br><br>Perez Vasquez Ariana Valeria<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Linares Bernable, Cesar Alejandro | 5.2.2. Sprint 2<br>5.2.2.1. Sprint Planning 2<br>5.2.2.2. Aspect Leaders and Collaborators<br>5.2.2.3. Sprint Backlog 2<br>5.2.2.4. Development Evidence for Sprint Review<br>5.2.2.5. Execution Evidence for Sprint Review<br>5.2.2.6. Services Documentation Evidence for Sprint Review<br>5.2.2.7. Software Deployment Evidence for Sprint Review<br>5.2.2.8. Team Collaboration Insights during Sprint |
+| **AV2** | 15/11/2026 | Hermoza Quispe, Jude<br><br>Mantilla Maldonado, Enrique Manuel<br><br>Perez Vasquez Ariana Valeria<br><br>Ramos Fuentes Rivera, Adriana Nicole<br><br>Linares Bernable, Cesar Alejandro | 5.2.3. Sprint 3<br>5.2.3.1. Sprint Planning 3<br>5.2.3.2. Aspect Leaders and Collaborators<br>5.2.3.3. Sprint Backlog 3<br>5.2.3.4. Development Evidence for Sprint Review<br>5.2.3.5. Execution Evidence for Sprint Review<br>5.2.3.6. Services Documentation Evidence for Sprint Review<br>5.2.3.7. Software Deployment Evidence for Sprint Review<br>5.2.3.8. Team Collaboration Insights during Sprint |
 
 <div style="page-break-after: always;"></div>
 
@@ -83,6 +84,8 @@ URL del repositorio (report): [https://github.com/1ASI0729-2620-7769-G4-TechNova
 URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-7769-G4)
 
 URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4)
+
+URL del repositorio (backend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4)
 
 <br>
 
@@ -192,6 +195,106 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
 
 <div style="page-break-after: always;"></div>
 
+
+**AV2**
+
+<p align="justify">
+  Para la entrega AV2 desarrollamos el Sprint 3. Empezamos con la planificación del ciclo (<em>Sprint Planning 3</em>), donde fijamos los objetivos del sprint, asignamos a los líderes y colaboradores de cada aspecto técnico y armamos el Sprint Backlog 3. Seguimos usando Trello para organizar las tareas, darles visibilidad a todos y hacer seguimiento al avance del equipo.
+</p>
+
+<p align="justify">
+  En la parte de desarrollo, construimos una primera parte del backend de la aplicación. Implementamos los servicios principales respetando los principios de Diseño Guiado por el Dominio (<em>Domain-Driven Design - DDD</em>) y la separación de los <em>Bounded Contexts</em>, para que la lógica de negocio quede bien estructurada y se integre con el frontend construido en el sprint anterior. También actualizamos la landing page con mejoras de contenido y diseño para que refleje mejor la propuesta de valor del producto.
+</p>
+
+<p align="justify">
+  Del lado de la validación, hicimos entrevistas de validación con usuarios del segmento objetivo para comprobar si la solución propuesta responde a sus necesidades, y registramos sus resultados y hallazgos. Además, grabamos dos videos: uno sobre el producto (<em>About the Product</em>), que presenta la solución y sus funcionalidades principales, y otro sobre el equipo (<em>About the Team</em>), que muestra a los integrantes y cómo trabajamos.
+</p>
+
+<p align="justify">
+  Para cerrar la entrega, desplegamos los servicios desarrollados y documentamos el proceso con evidencias de desarrollo, ejecución, documentación de los servicios y despliegue, listas para la revisión del sprint (<em>Sprint Review</em>). Al final, hicimos una reflexión en equipo sobre cómo colaboramos durante este ciclo, usando como base el historial de contribuciones del repositorio.
+</p>
+<br>
+
+**Evidencias de colaboración y analíticos en GitHub**
+
+
+<p align="justify">
+  Para garantizar la participación equitativa de todos los integrantes del equipo TechNova, se adjuntan los analíticos y registros de actividad extraídos directamente de las métricas internas del repositorio en GitHub.
+</p>
+
+**Report**
+
+
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-AV2" width="500"/>
+  <br/><i>Report: Contributors of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-AV2" width="500"/>
+  <br/><i>Report: Contributors of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="pulse-TechNova-AV2" width="500"/>
+  <br/><i>Report: Pulse of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-AV2" width="500"/>
+  <br/><i>Report: Network graph of TechNova (AV2)</i>
+</p>
+<br>
+
+**Landing Page**
+
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Contributors of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-TechNova-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Pulse of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-TechNova-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Pulse of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Network graph of TechNova (AV2)</i>
+</p>
+<br>
+
+**Backend**
+
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-Backend-AV2" width="500"/>
+  <br/><i>Backend: Contributors of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-TechNova-Backend-TB1" width="500"/>
+  <br/><i>Backend: Pulse of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Pulse-TechNova-Backend-TB1" width="500"/>
+  <br/><i>Backend: Pulse of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets" alt="Contributors-TechNova-Backend-AV2" width="500"/>
+  <br/><i>Backend: Network graph of TechNova (AV2)</i>
+</p>
+<br>
+
+<div style="page-break-after: always;"></div>
+
+
 ---
 
 # Contenido
@@ -288,11 +391,24 @@ URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNo
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
+
+- [Conclusiones](#conclusiones)
+
+- [Video About the Team](#video-about-the-team)
 
 - [Bibliografía](#bibliografía)
 
@@ -333,6 +449,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>TB1</b></em><br>
         En la segunda entrega del proyecto (TB1), las actividades asociadas al desarrollo del frontend del módulo IAM y a la estructuración de la planificación del Sprint 2 evidencian el cumplimiento del criterio de comunicación oral efectiva. Durante la implementación de los flujos de autenticación, registro de usuarios e inicio de sesión de WashTrack, se sustentaron verbalmente las decisiones técnicas y de diseño adoptadas en la interfaz, explicando su alineación con los requerimientos de seguridad y la experiencia del usuario. Asimismo, la participación en las sesiones de organización del Sprint 2 permitió coordinar y argumentar la distribución de las vistas de la aplicación web, la selección de las User Stories y la separación de los <i>bounded contexts</i> (tales como IAM, Customer, Order Management, Laundry Operations, Billing & Subscriptions, Delivery y Tracking), facilitando la comprensión y el consenso entre los integrantes del equipo. De igual manera, la discusión sobre la integración de componentes y la sincronización del repositorio mediante Git permitió comunicar los acuerdos técnicos de manera clara y estructurada, asegurando el entendimiento común de los avances del proyecto por parte de todos los participantes.
         <br>
+        <em><b>AV2</b></em><br>
+        Participe en las actividades asociadas al desarrollo del backend de WashTrack y a la planificación del Sprint 3 evidencian el cumplimiento continuo de mi criterio de comunicación oral efectiva. Durante el desarrollo de este ciclo, asumí el rol de líder del aspecto de <em>Order Management</em> y coordiné las sesiones de sincronización del equipo, sustentando verbalmente las decisiones técnicas vinculadas a la implementación de la API REST en Java y Spring Boot, la lógica de negocio del servidor y la persistencia de datos en PostgreSQL. Asimismo, en las discusiones técnicas con los integrantes del equipo, expuse con claridad los acuerdos para estructurar los <em>bounded contexts</em> actualizados, explicando la separación de responsabilidades y facilitando la comprensión de los endpoints y los flujos de integración con el frontend. De igual manera, la sustentación de la distribución de tareas en el <em>Aspect Leaders and Collaborators</em> y la revisión conjunta de los avances del repositorio permitieron comunicar de manera estructurada y comprensible los objetivos técnicos del sprint, asegurando el entendimiento común entre todos los participantes.
+        <br>
         <em><b></b></em><br>
         <br>
         ...<br>
@@ -341,18 +460,27 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         En esta entrega del proyecto, la realizacion de Big Picture EventStorming, las historias de usuario y el diseño de los mockups, wireframes y prototipo, evidencian un correcto cumplimiento de la comunicacion oral efectiva. Para la elaboracion de las mencionadas actividades, se tuvo que discutir cómo se elaborarian dichas tareas, ya que era necesario para preparar el diseño y la estructura de nuestra aplicacion web WashTrack. Por otra parte, para la elaboración de las entrevistas hubo comunicación para diferentes segmentos lo cual indica que cumplimos con la comunicacion a diferentes rangos de audiencia.<br>
         <em><b>TB1</b></em><br>
         En esta segunda entrega se me pidio la elaboracion del bounded context de tracking, el cual es el encargado de las notificaciones y seguimiento del producto de los clientes. Para la elaboracion de este bounded context estuvimos planeando como deberiamos implementarlo, lo que nos permitio desarrollar nuestras habilidades de comunicacion y permitiendonos un mejor entendimiento como equipo.<br>
+        <em><b>AV2</b></em><br>
+        En este nuevo sprint nos enfocamos en el desarrollo del backend, en el cual tuvimos que dialogar como equipo para la elaboración del backend y que cosas serian mayormente prioritarias, por tanto podemos evidenciar que hemos tenido una correcta comunicación oral. En mi caso, mi rol principal fue ser el lider en el desarrollo del bounded context de Delivery, en el cual solicite algunas reuniones con el equipo para ponernos de acuerdo y para mostrar los avances que teniamos. Finalmente, para la elaboracion de la documentacion, revisamos de manera conjunta como quedo elaborado, mientras nos explicabamos entre nosotros cómo funcionaba el proyecto para que todos puedan comprenderlo.
+        <em><b></b></em><br><br>
+        <br>
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         En la primera entrega del proyecto, las acciones realizadas en la fase de descubrimiento e investigación, tales como el diseño, registro y análisis de entrevistas, la facilitación del proceso Lean UX y la alineación de las historias de usuario, demuestran el cumplimiento del criterio de comunicación oral efectiva. A través de la conducción directa de entrevistas, se estableció una interacción verbal empática y desprovista de tecnicismos para indagar sobre las necesidades de los segmentos objetivo. Asimismo, la articulación oral de las declaraciones de problemas, asunciones e hipótesis en el Lean UX Canvas, sumada a la negociación y clarificación verbal de los criterios de aceptación en las User Stories, evidencia la capacidad de adaptar el discurso, el registro lingüístico y la argumentación a diversos actores del proyecto, abarcando desde usuarios finales hasta stakeholders y el equipo de desarrollo.<br><br>
         <em><b>TB1</b></em><br>
-        El desarrollo del frontend para el Bounded Context de <em>order-management</em> y la corrección de las observaciones del AV1 respaldaron directamente el criterio de comunicación efectiva al permitir adaptar el mensaje a distintas audiencias con claridad. Por un lado, la estandarización técnica de la documentación (colocando las URLs completas e integrando el formato exhaustivo de las entrevistas con datos cualitativos e información concreta) garantizó que tanto evaluadores académicos como miembros del equipo cuenten con evidencia transparente, estructurada y sin ambigüedades. Por otro lado, la implementación de la interfaz funcional en Angular permitió traducir las reglas de negocio complejas del flujo de pedidos a una experiencia visual e intuitiva, facilitando la presentación fluida y comprensible de la solución tecnológica tanto ante usuarios finales como ante stakeholders no técnicos durante las exposiciones del proyecto.<br>
+        El desarrollo del frontend para el Bounded Context de <em>order-management</em> y la corrección de las observaciones del AV1 respaldaron directamente el criterio de comunicación efectiva al permitir adaptar el mensaje a distintas audiencias con claridad. Por un lado, la estandarización técnica de la documentación (colocando las URLs completas e integrando el formato exhaustivo de las entrevistas con datos cualitativos e información concreta) garantizó que tanto evaluadores académicos como miembros del equipo cuenten con evidencia transparente, estructurada y sin ambigüedades. Por otro lado, la implementación de la interfaz funcional en Angular permitió traducir las reglas de negocio complejas del flujo de pedidos a una experiencia visual e intuitiva, facilitando la presentación fluida y comprensible de la solución tecnológica tanto ante usuarios finales como ante stakeholders no técnicos durante las exposiciones del proyecto.<br><br>
+        <em><b>AV2</b></em><br>
+        En esta entrega me encargué de grabar y editar los videos <em>About the Product</em> y <em>About the Team</em>, lo que me exigió comunicar ideas de forma oral para dos propósitos distintos. En el primero tuve que explicar la propuesta de valor y las funcionalidades principales de la solución de manera clara y atractiva para posibles usuarios. En el segundo, en cambio, presenté al equipo y nuestra forma de trabajo con un tono más cercano. Además, grabé dos entrevistas de validación con usuarios del segmento objetivo. En ellas expliqué la solución con un lenguaje sencillo, sin tecnicismos, y fui adaptando las preguntas al perfil de cada entrevistado para obtener una retroalimentación honesta. Estas experiencias me ayudaron a ajustar mi forma de hablar según la persona que me escucha y lo que necesito transmitirle.<br>
         <br>
         <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
         Para esta entrega pusimos en practica nuestras habilidades sociales tales como el dialogo que sustuvimos al hacer nuestras entrevistas, ya que tuvimos que dialogar con dos sectores diferentes para la elaboracion de nuestro proyecto. Ademas de dialogar con otras personas, tambien hubo dialogo entre nosotros como equipo, ya que la toma de decisiones era grupal y, por tanto, la comunicacion era fundamental. Por ejemplo, tuvimos que discutir que historias de usuario agregariamos a nuestro proyecto. Tambien, al momento de diseñar como seria la landing y la aplicacion web, tuvimos charlas y reuniones sobre como ibamos a abordar nuestro diseño hasta que todos estuvieramos de acuerdo.<br>
         <em><b>TB1</b></em><br>
         Para el desarrollo del Bounded Context del billing and suscriptions se presencio el criterio de comunicación efectiva, ya que tuve que hablar con mis compañeros para progresar con el desarrollo y dejar claras mis ideas. Además, se mostro un lenguaje claro en el desarrollo de mi bounded context para permitir a los usuarios poder entender las interfaces sin ningun problema. Tambien hubo algunas discusiones con los integrantes sobre como realizar los bounded context y que historias de usuarios abarcarian este sprint 2 demostrando el cumplimiento de del criterio de comunicacion oral.<br>
+        <em><b>AV2</b></em><br>
+        En este sprint 3 se busco la elaboración del backend de nuestro proyecto, en mi caso se me otorgó el liderato para la elaboración del backend del bounded context Billing & Suscriptions, entonces tuve que comunicarme con el equipo para poder elaborar dicho bounded context y ponernos de acuerdo para comprender como funcionaria y posteriormente desarrollarlo. Además, antes de dar por terminado el proyecto cada lider tuvo que explicar como fue la elaboración de su bounded context y explicar como funcionaba, de ese modo todo el equipo podia entender cada parte del proyecto.<br>
+        <em><b></b></em><br>
         ...<br>
         <b>Cesar Alejandro Linares Bernable</b><br>
         <em><b>AV1</b></em><br>
@@ -361,6 +489,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>AV1</b><br>Durante esta primera entrega, el equipo demostró capacidad de comunicación oral efectiva al realizar y registrar las entrevistas (Needfinding) y al presentar el progreso del Sprint 1. En el proceso de entrevistas, como equipo, se interactuó directamente con los segmentos objetivo ajustando el lenguaje técnico hacia un tono accesible y empático para explorar sus necesidades, dolores y expectativas. Por otro lado, durante las consultas del trabajo desarrollado en clase al docente, se nos permitió comunicar de forma clara las decisiones de diseño, la arquitectura Domain-Driven Design (DDD) y los avances del Sprint 1, demostrando adaptabilidad en la transmisión de conceptos de software tanto a audiencias técnicas como a usuarios finales.<br><br>
         <b>TB1</b><br>Las actividades realizadas de forma grupal fortalecieron la capacidad del equipo para comunicar de manera oral los avances y la arquitectura del sistema, adaptando el discurso según el nivel técnico de cada audiencia. Al corregir la documentación del AV1 (completando la información de las entrevistas con métricas cuantitativas concretas, formalizando las referencias con URLs completas y reestructurando los diagramas C4 para reflejar la pila tecnológica real del backend en lugar de referencias incorrectas como ASP.NET Core), el equipo construyó un dominio conceptual sólido y coherente que facilitó sostener explicaciones técnicas rigurosas y precisas ante el docente y evaluadores académicos. Asimismo, contar con un frontend completo e integrado permitió sustentar las demostraciones del sistema de forma fluida y visual ante usuarios finales y partes interesadas sin perfil técnico, articulando las funciones de la aplicación en términos de valor de negocio y experiencia de usuario de manera clara, accesible y convincente.<br><br>
+        <b>AV2</b><br>Durante esta entrega, como equipo, tuvimos que comunicarnos oralmente con audiencias muy distintas. Por un lado, en las entrevistas de validación presentamos la solución a usuarios no técnicos, adaptando nuestro lenguaje para comprobar si realmente respondía a sus necesidades. Por otro lado, en los videos <em>About the Product</em> y <em>About the Team</em> buscamos transmitir la propuesta de valor y la identidad del equipo de forma breve y clara para un público general. A esto se suman las reuniones internas del <em>Sprint Planning</em> y del <em>Sprint Review</em>, donde explicamos avances técnicos y coordinamos responsabilidades entre nosotros. En conjunto, estas actividades nos permitieron reconocer la importancia de adaptar el mensaje a cada audiencia y fortalecer nuestra comunicación oral tanto dentro como fuera del equipo.
       </td>
     </tr>
     <tr>
@@ -373,6 +502,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <em><b>TB1</b></em><br>
        La elaboración de la documentación técnica y de gestión asociada al Sprint 2 evidencia el cumplimiento del criterio de comunicación escrita efectiva. La redacción y estruturación de las secciones del <i>Sprint Planning 2</i>, la tabla de <i>User Stories</i> comprometidas y la definición detallada de los <i>bounded contexts</i> permitieron comunicar de manera clara, rigurosa y estructurada las decisiones arquitectónicas y funcionales adoptadas para el frontend de WashTrack. Asimismo, la documentación de la implementación del módulo IAM y de los flujos de autenticación y acceso demostró la capacidad de explicar con precisión aspectos técnicos de ingeniería de software mediante convenciones estandarizadas y mensajes de versión en inglés. La redacción de estas secciones refleja la idoneidad para adaptar el estilo y nivel de detalle según la audiencia objetivo, combinando un lenguaje accesible para la revisión académica con el rigor técnico indispensable para el equipo de desarrollo de TechNova.
         <br>
+        <em><b>AV2</b></em><br>
+        La elaboración de la documentación técnica y de gestión asociada al Sprint 3 evidencia el cumplimiento continuo de mi criterio de comunicación escrita efectiva. La redacción y estructuración de las secciones del <em>Sprint Planning 3</em>, la tabla actualizada de <em>Technical Stories</em> y la definición precisa de los <em>bounded contexts</em> orientados al backend (tales como Customer, Laundry Operations, Order Management, Billing & Subscriptions y Pickup) permitieron comunicar de manera clara, rigurosa y estructurada las decisiones de arquitectura y la lógica de servidor adoptadas para WashTrack. Asimismo, la documentación de la implementación de la API REST desarrollada con Java, Spring Boot y la persistencia en PostgreSQL demostró mi capacidad para explicar con precisión aspectos avanzados de ingeniería de software utilizando convenciones estandarizadas, diagramas y mensajes de versión en inglés. La redacción de estas secciones refleja la idoneidad para adaptar el estilo y nivel de detalle según la audiencia objetivo, combinando un lenguaje accesible para la revisión académica con el rigor técnico indispensable para el equipo de desarrollo de TechNova.
+        <br>
         <em><b></b></em><br><br>
         ...<br>
         <b>Mantilla Maldonado, Enrique Manuel</b><br>
@@ -380,18 +512,25 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Para esta entrega, hubo una comunicación por escrito hacia nuestros distintos entrevistados lo que nos permitio una comunicacion con diferentes rangos de audiencia. Además, nosotros en equipo tambien tuvimos nuestra comunicacion escrita para preparar la elaboracion de nuestro proyecto, resolver dudas y planear reuniones. En nuestro proyecto, hubo conversaciones escritas sobre que historias de usuario elaborar o como deberia ser el diseño de la aplicacion web y la landing page. Por otro lado, la elaboración del ubiquitous languaje evidencia que tuvimos que explicar nuestros terminos tecnicos para que nuestras distintas audiencias puedan entender lo que queremos elaborar en nuestro proyecto.<br>
         <em><b>TB1</b></em><br>
         Se me encargo el desarrollo del tracking de nuestra pagina frontend, para el desarrollo de este bounded context tuve que pensar en los distintos usuarios que pasarian por esta fase, en la cual es el recibo de notificaciones y revisar como van sus productos. Por ello, me encargue de hacerlo lo mas simple posible para que nuestros usuarios no tengan problemas al entender en que parte del progreso van sus prendas. Esto evidencia el desarrollo de nuestra comunicacion escrita, ya que tuvimos que pensar en que escribir y mostrar a nuestros diferentes usuarios.<br>
+        <em><b>AV2</b></em><br>
+        En esta entrega, tuvimos que elaborar la documentacion de nuestro backend, para ello tuvimos que constantemente revisar la redacción para que sea entendible para los que necesitan de dicha información. Además, se me encargo el desarrollo del backend del bounded context delivery, por tanto tuve que ser cuidadoso con la redaccion y manteniendo las buenas practicas para que mis compañeros de equipo puedan entender mi desarrollo y para que a futuro se pueda hacer un correcto mantenimiento del codigo. Finalmente, se desarrollo el informe, en el cual nos piden redactar de manera clara nuestros avances.
+        <em><b></b></em><br><br>
         ...<br>
         <b>Ramos Fuentes Rivera, Adriana Nicole</b><br>
         <em><b>AV1</b></em><br>
         En la primera entrega del proyecto, la elaboración de la documentación del proyecto fundamenta el criterio de comunicación escrita efectiva. La redacción de los antecedentes, la problemática y la definición de la solución junto con los mapas de empatía y User Journey Maps transmiten los hallazgos del negocio de forma formal, clara y accesible para audiencias no técnicas. Además, la especificación estructurada de historias de usuario y la formalización arquitectónica plasmada en los diagramas de clases y diagramas de base de datos manifiestan el dominio de una comunicación escrita rigurosa y estandarizada bajo notaciones técnicas (como UML y modelos Entidad-Relación), garantizando la transmisión precisa de requerimientos a la audiencia técnica de ingeniería.<br><br>
         <em><b>TB1</b></em><br>
         Las actividades realizadas respaldan directamente el cumplimiento del criterio de comunicación escrita efectiva al permitir estructurar y transmitir información de manera clara. Por un lado, la subsanación de las observaciones del AV1 (mediante la inclusión de URLs completas para asegurar la precisión formal de las fuentes y la completitud del formato de las entrevistas con datos cualitativos e información concreta) garantizó que la documentación técnica mantenga un estándar académico y profesional, facilitando su comprensión por parte de evaluadores, auditores y miembros del equipo. Por otro lado, la implementación del frontend para el Bounded Context de <em>order-management</em> requirió traducir los requerimientos y reglas de negocio del dominio a través de elementos de interfaz visuales, terminología clara en pantalla y mensajes de estado legibles, asegurando que los usuarios finales, especialmente personas no técnicas, puedan interactuar e interpretar el flujo de gestión de pedidos sin ambigüedades.<br><br>
-        ...<br>
+        <em><b>AV2</b></em><br>En cuanto a la comunicación escrita, desarrollé el bounded context <em>Order Management</em> del backend y documenté sus servicios y <em>endpoints</em> de forma ordenada, para que mis compañeros pudieran entender e integrar esa parte del sistema sin dificultades. También me encargué de recopilar los resultados de las entrevistas de validación y organizarlos en el informe. Para esto registré los datos de los entrevistados, resumí sus respuestas y redacté un análisis con hallazgos concretos que respaldan las decisiones tomadas sobre el producto. Este trabajo me permitió practicar la escritura para dos públicos diferentes: uno técnico, que necesita precisión en la documentación, y otro académico, que espera un análisis claro y bien sustentado.
+        <br><br>
         <b>Hermoza Quispe, Jude</b><br>
         <em><b>AV1</b></em><br>
         Para esta entrega se busco mejorar la efectividad escrita atraves de varios ejercicios, tales como la redaccion de este documento o el obiquitous language en el cual mostramos el lenguaje y los terminos que usamos como equipo y se los mostramos al publico para un mejor entendimiento. Ademas, parte del diseño de nuestra Landing Page y nuestro aplicacion web esta diseñado para captar a la mayor cantidad de publico usando una escritura correcta y entendible para nuestros usuarios.<br>
         <em><b>TB1</b></em><br>
         En esta entrega estuvimos constantemente en contacto con el equipo para mandarnos mensajes sobre como van los avances y dialogar que problemas se han presentado. Esto permitio poder avanzar de manera conjunta y poder desarrollar el frontend de nuestro negocio. Nuestra comunicacion escrita fue bastante acertada para acelerar desarrollos; ademas, de que es importante la comunicacion escrita, ya que nuestro pagina frontend sera vista por diferentes usuarios y por ello es importante que todos puedan llegar a entender nuestra pagina.<br>
+        <em><b>AV2</b></em><br>
+        En este sprint buscamos desarrollar el backend, para ello se me pidio tomar el liderato del bounded context Billing & Suscriptions. Tuve que tener cuidado con el desarrollo, ya que queria que mis compañeros de equipo entiendan el codigo y para ello mantuve las buenas practicas. Además, tuvimos que avanzar con el informe, en el cual tuvimos que redactar de manera clara nuestro avances y tambien se redacto un pequeño resumen de las funcionalidades, junto con la documentacion correspondiente. Finalmente, elaboramos el informe manteniendo una correcta redacción para que sea más sencillo entender nuestro proyecto y lo que queremos conseguir.
+        <em><b></b></em><br><br>
         ...<br>
         <b>Linares Bernable, Cesar Alejandro</b><br>
         <em><b>AV1</b></em><br>
@@ -400,6 +539,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         <b>AV1</b><br>En la primera entrega, la comunicación escrita efectiva se evidencia en la elaboración estructurada de la documentación técnica del proyecto, abarcando desde la definición estratégica de la startup hasta la especificación técnica y de diseño. El equipo de TechNova logró transmitir de manera clara la propuesta de valor a través del Lean UX Canvas, Landing Page y User Personas. Por otro lado, el equipo, redactó el informe con un nivel de rigor y precisión técnico adecuado los artefactos de desarrollo destinados al equipo técnico, tales como los criterios de aceptación en User Stories, el Ubiquitous Language, las guías de estilo UX/UI y los diagramas C4 y de Base de Datos. <br><br>
         <b>TB1</b><br>Las actividades desarrolladas colectivamente por el equipo permitieron consolidar el criterio de comunicación escrita efectiva al adaptar la documentación y los productos entregables a las expectativas de distintas audiencias. En el ámbito académico y técnico, la corrección integral de las observaciones del AV1 (reemplazando hipervínculos por URLs explícitas completas, estructurando el formato total de las entrevistas con datos concretos y métricas en lugar de simples menciones, y depurando los diagramas C4 al clarificar la pila tecnológica real del backend y eliminar la referencia errónea a ASP.NET Core) garantizó que la memoria técnica del proyecto alcance un estándar de rigurosidad, coherencia y transparencia fácilmente interpretable por docentes, evaluadores y desarrolladores. Asimismo, la construcción del frontend completo tradujo la arquitectura y la lógica de negocio subyacente en interfaces de usuario claras, con flujos legibles y etiquetado intuitivo, lo que asegura que usuarios finales y partes interesadas sin perfil técnico puedan comprender e interactuar sin ambigüedades con el sistema desarrollado.<br><br>
+        <b>AV2</b><br>En esta entrega el equipo elaboró contenido escrito dirigido tanto a audiencias técnicas como no técnicas. Para el público técnico, documentamos los servicios del backend junto con las evidencias de desarrollo, ejecución y despliegue, además del Sprint Backlog 3, cuidando que el lenguaje fuera preciso y la estructura fácil de seguir. Para el público general, actualizamos la landing page con textos más claros y persuasivos sobre la propuesta de valor del producto. Asimismo, el registro y análisis de las entrevistas de validación nos llevó a convertir información cualitativa en conclusiones concretas y útiles. Gracias a ello, fortalecimos nuestra capacidad de redactar con claridad, adaptando cada documento al lector y al propósito que debía cumplir.
       </td>
     </tr>
   </tbody>
@@ -3293,43 +3433,42 @@ Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón 
 * Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
 
 
-### Solicitar recojo
+### Consultar recibo
 
-**User Goal:** Cuando llega una solicitud de recojo, entonces el encargado debe mandar a un conductor para recoger las prendas a domicilio
-
-**User Persona:** Valeria Torres, Cliente de Lavandería.
-
-<div align="center">
-  <img src="./assets/Chapter4/UserFlow/Userflow_UserGoal4.PNG" width="700px" alt="UserGoal4">
-</div>
-
-**Explicación del flujo:**
-
-Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de check. Luego se abre un pop-up que permite escoger que conductor irá a hacer el recojo. Finalmente, se confirma el envío del conductor.
-
-**Unhappy paths:**
-
-* Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
-
-
-
-### Reajuste de precio
-
-**User Goal:** Cuando llega una notificación de reajuste de precio, entonces el cliente debe revisar el cambio de precio y aceptarlo o rechazarlo
+**User Goal:** Quiero consultar el recibo de una orden pagada para verificar el detalle de los servicios, el monto cobrado y el método de pago.
 
 **User Persona:** Valeria Torres, Cliente de Lavandería.
 
 <div align="center">
-  <img src="./assets/Chapter4/UserFlow/Userflow_UserGoal5.PNG" width="700px" alt="UserGoal5">
+  <img src="./assets/Chapter4/UserFlow/user_flow4.png" width="700px" alt="UserGoal4">
 </div>
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de exclamación. Luego, verifica el cambio de precio y la justificación. Finalmente acepta o rechaza el reajuste.
+Happy path: El usuario ingresa a la sección de Historial de pagos y hace clic en el icono recibo. Luego se abre otra vista que permite ver los detalles del recibo.
 
 **Unhappy paths:**
 
-* Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
+* Recibo no disponible: la orden seleccionada tiene el pago pendiente o en proceso, por lo que el recibo aún no se ha generado. El sistema muestra un aviso indicando que el recibo estará disponible cuando se confirme el pago.
+
+
+
+### Consultar avance de un pedido
+
+**User Goal:** Quiero consultar en qué etapa se encuentra mi pedido para saber cuándo estará listo o cuándo será entregado.
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+<div align="center">
+  <img src="./assets/Chapter4/UserFlow/user_flow5.png" width="700px" alt="UserGoal5">
+</div>
+
+**Explicación del flujo:**
+
+Happy path: El usuario ingresa a la sección de Seguimiento de pedidos y hace click en el icono target. Luego se abre otra vista que permite ver la etapa en la que se encuentra su pedido.
+
+**Unhappy paths:**
+
+* Pedido sin actualizaciones: el pedido fue registrado, pero aún no ha avanzado de etapa. El sistema muestra el estado inicial e informa que el seguimiento se actualizará cuando la lavandería procese el pedido.
 
 ### 4.5. Web Applications Prototyping
 
@@ -5022,39 +5161,783 @@ La colaboración fue realizada en Angular cada integrante aporte con lo siguient
   <p></p>
 </div>
 
+#### 5.2.3. Sprint 3
+
+El Sprint 3 está orientado al desarrollo de la **primera versión de los servicios del Backend y la RESTful API de WashTrack**, como continuación del trabajo realizado durante el Sprint 2, en el que se implementó y desplegó la primera versión del Frontend Web Application. En esta etapa, el equipo se enfoca en desarrollar la lógica del servidor, la persistencia de datos y la exposición de servicios web que permitan procesar de manera segura y eficiente la información de la plataforma.
+
+Para estructurar el desarrollo del backend, se consideran los bounded contexts definidos en la arquitectura del sistema, tales como **Customer, Order Management, Laundry Operations, Billing & Subscriptions y Delivery**. 
+
+El desarrollo de este sprint toma como referencia las Technical Stories, los endpoints RESTful especificados y los criterios de aceptación definidos en el Capítulo III, así como el Product Backlog del proyecto. A partir de estos requerimientos, se implementarán los controladores, los servicios de aplicación, los agregados del dominio y los adaptadores de persistencia utilizando **Java** y **Spring Boot**, conectándose a una base de datos relacional en **PostgreSQL**.
+
+Como resultado esperado, el **Sprint 3** busca contar con un **backend funcional que soporte la lógica operativa de WashTrack y exponga los endpoints necesarios para la integración completa con la aplicación web.** Este incremento técnico permitirá validar la correcta ejecución de los casos de uso del negocio y servirá de base para las pruebas de integración del sistema.
+
+
+##### 5.2.3.1. Sprint Planning 3
+
+El Sprint Planning 3 tuvo como finalidad establecer el objetivo del tercer Sprint, organizar las actividades necesarias para desarrollar la primera versión del backend y la API REST de WashTrack, y definir los componentes encargados de implementar la lógica de negocio en el servidor. Para ello, se consideraron los requerimientos técnicos definidos en las Technical Stories y el Product Backlog actualizado, junto con los Bounded Contexts identificados durante el diseño de la arquitectura orientada al dominio Domain-Driven Design - DDD.
+
+A diferencia del Sprint 2, centrado en la implementación del frontend web con Angular, el Sprint 3 se orienta al desarrollo del backend, contemplando la implementación de la lógica de negocio, la gestión de datos mediante PostgreSQL y la exposición de servicios web a través de una API REST desarrollada con Java y Spring Boot. El equipo organizó el trabajo considerando los módulos y componentes necesarios para cada área funcional de WashTrack, con el propósito de mantener una separación adecuada de responsabilidades y facilitar la integración con el frontend desarrollado en el sprint anterior.
+
+**Resumen del Sprint Planning Meeting**
+
+| Elemento | Información |
+| :--- | :--- |
+| **Sprint #** | Sprint 3 |
+| **Date** | 01/11/2006 |
+| **Time** | 4:00 PM |
+| **Location** | Reunión virtual |
+| **Prepared By** | Pérez Vásquez, Ariana Valeria |
+| **Attendees** | Ariana Perez, Adriana Fuentes, Cesar Linares, Jude Hermoza, Enrique Mantilla |
+| **Sprint 2 Review Summary** | Durante el Sprint 2, el equipo implementó y desplegó la primera versión del Frontend Web Application de WashTrack. Se organizaron las vistas de la plataforma abarcando las áreas funcionales clave y se validaron los flujos de navegación previstos para los usuarios. |
+| **Sprint 2 Retrospective Summary** | A partir del trabajo realizado en el Sprint 2, se identificó la necesidad de consolidar la lógica de negocio del lado del servidor y asegurar la correcta persistencia de datos. Para este tercer sprint, se acordó enfocar los esfuerzos en el desarrollo del backend, estructurando los servicios RESTful por módulos y preparando la integración completa con el frontend. |
+| **Sprint 3 Goal** | Desarrollar y desplegar la primera versión del backend y la API REST de WashTrack, organizando su arquitectura en los Bounded Contexts definidos: Customer, Order Management, Billing & Subscriptions, Delivery y Laundry Operations. El cumplimiento se evidencia mediante la exposición funcional de los endpoints en Java y Spring Boot conectados a PostgreSQL. |
+| **Sprint 3 Velocity** | 32 Story Points |
+| **Sum of Story Points** | 32 Story Points |
+
+#### Bounded Contexts considerados para el Sprint 3
+
+Para orientar la organización del backend de **WashTrack**, se tomaron como referencia los siguientes *bounded contexts* y sus respectivas responsabilidades dentro de la plataforma de **TechNova**:
+
+| Bounded Context | Propósito dentro del backend |
+| :--- | :--- |
+| **Customer** | Gestionar la persistencia y la lógica de negocio orientada al cliente final, permitiendo consultar su historial de pedidos y administrar sus datos personales y direcciones frecuentes. |
+| **Laundry Operations** | Procesar y administrar la lógica de las operaciones de lavandería, el registro detallado de prendas por pedido y el control del procesamiento del servicio en el servidor. |
+| **Order Management** | Gestionar la creación, persistencia, actualización de estados, reajuste de precios y la lógica general de las órdenes de servicio en la API REST. |
+| **Billing & Subscriptions** | Administrar en el servidor la configuración de tarifas, los planes de suscripción de la lavandería y la lógica de procesamiento de pagos digitales. |
+| **Delivery** | Controlar la lógica de negocio para coordinar la logística de recojos y entregas a domicilio, la asignación de conductores y la gestión de repartidores. |
+
+#### User Stories seleccionadas 
+
+Para el Sprint 3, el desarrollo del backend de **WashTrack** se organizó tomando como referencia las User Stories de los Epics relacionados con los *bounded contexts* seleccionados para la plataforma.
+
+Las siguientes User Stories se relacionan con las principales áreas del backend y la lógica de servidores implementada:
+
+| User Story ID | Título | Propósito dentro del Sprint |
+| :--- | :--- | :--- |
+| **US-003** | Visualización de pedidos | Implementar los endpoints y consultas para listar y consultar los pedidos actuales y anteriores del cliente dentro del contexto *Customer*. |
+| **US-015** | Registrar dirección de recojo y entrega | Desarrollar la lógica de negocio y persistencia para gestionar direcciones frecuentes de los clientes para agilizar pedidos a domicilio. |
+| **US-006** | Registro de prendas | Exponer servicios para controlar y registrar de forma detallada las prendas asociadas a cada orden dentro de las operaciones de lavandería (*Laundry Operations*). |
+| **US-011** | Actualizar el estado del pedido | Programar la lógica en el servidor para procesar y registrar los cambios de estado de las prendas durante el proceso operativo de la lavandería. |
+| **US-005** | Gestión de pedidos | Implementar las APIs REST para la creación, consulta y administración general de las órdenes de servicio en *Order Management*. |
+| **US-020** | Cancelar un pedido | Desarrollar la lógica de negocio en el backend para gestionar las acciones de anulación o cancelación de pedidos bajo validaciones del sistema. |
+| **US-027** | Rechazar recojo | Gestionar en el servidor el registro y procesamiento de solicitudes de rechazo o no disponibilidad temporal para los recojos a domicilio. |
+| **US-004** | Seguimiento del pedido | Proveer los endpoints necesarios para consultar la trazabilidad en tiempo real sobre el estado y la ubicación de las prendas del cliente. |
+| **US-009** | Recibir notificaciones del estado del pedido | Implementar los servicios y disparadores lógicos en el backend para generar alertas automáticas sobre los avances clave en el servicio. |
+
+El objetivo del Sprint 3 se encuentra enfocado en ofrecer una **primera versión funcional del backend y la API REST**, permitiendo que el servidor soporte la lógica operativa de **WashTrack**, procese la persistencia de datos en PostgreSQL y exponga los endpoints necesarios para la integración completa con el frontend desarrollado en el sprint anterior.
+
+##### 5.2.3.2. Aspect Leaders and Collaborators
+
+En esta sección, se establecen los aspectos clave del *Aspect Leaders and Collaborators* correspondiente al Sprint 3 del proyecto **WashTrack**. Se incluye información como los aspectos técnicos identificados para este sprint (desarrollo del backend en Java con Spring Boot para la API REST, configuración y persistencia en bases de datos relacionales con PostgreSQL, lógica de negocio para los bounded contexts del servidor y pruebas de integración de servicios), los líderes responsables de cada aspecto y los colaboradores que apoyan su desarrollo. A continuación se presentará el resumen de la distribución de roles por aspecto.
+
+| Team Member | Github Username | Coordinación del equipo y revisión de documento | Desarrollo del backend en Java y Spring Boot para la API REST y lógica de servidores | Configuración de la base de datos relacional y persistencia en PostgreSQL | Implementación y diseño de servicios y repositorios de los Bounded Contexts | Apoyo en la integración del backend con el frontend y documentación técnica del sprint |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Hermoza, Jude** | JvnnDev | C | C | L | C | C |
+| **Mantilla, Enrique** | enrique-mantilla | C | L | C | C | C |
+| **Perez, Ariana** | ArianaPerez34 | L | L | C | L | C |
+| **Ramos, Adriana** | adriana832 | C | C | L | C | L |
+| **Linares, Cesar** | Cesar-Linares | C | L | C | C | C |
+
+
+##### 5.2.3.3. Sprint Backlog 3
+
+##### 5.2.3.4. Development Evidence for Sprint Review
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed on (Date)** |
+|---|---|---|---|---|---|
+| TechNova-Backend-7769-G4 | `develop` | [`994acaa`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/994acaa4114c5eb92e15fba5572da23f4f017612) | `Merge pull request #33 from 1ASI0729-2620-7769-G4-TechNova/fix/deploy-ready` | fix: tests on H2, demo login, CORS and Dockerfile for Render | 16/11/2026 |
+| TechNova-Backend-7769-G4 | `fix/deploy-ready` | [`54a650a`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/54a650a46c928ef4b6d610098fd72dfd48736b90) | `build: add Dockerfile for Render deployment` | — | 16/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/laundry-operations` | [`fa63f93`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/fa63f9393bf9a740e634411e0a7709f9b24e5bfb) | `feat: add test interfaces` | — | 16/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/general-change` | [`076e126`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/076e126317ce9bf228d16bcc5b66af5568f34c93) | `docs: add order management endpoints` | — | 16/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/order-management` | [`e66d1ba`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/e66d1ba3002fd61182533235053939e8384d76b9) | `fix(orders): update order management i18n messages` | — | 16/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/customer` | [`25e711b`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/25e711b3023b6cbf6397c0abaec588a5c7ea8398) | `test(customer): add test CustomerControllerTests.java` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `docs/delivery-tracking-readme` | [`9b0993a`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/9b0993ab416221dcb28dcbaff1cd74eac803bb50) | `docs: document Delivery and Tracking endpoints in the README` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/tracking-delivery-integration` | [`840b050`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/840b050ca31bca88c4efdd33610ad6edd628deb3) | `feat(tracking): mark the order delivered when a home delivery completes` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/tracking-notification-endpoints` | [`85ba0a5`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/85ba0a56d46e9157db4dd560e65fddc5f5d8c66c) | `feat(tracking): expose notification endpoints` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/tracking-notifications` | [`043c7a1`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/043c7a182a5dfb4d68f3ed6e2c3466c0e5038460) | `feat(tracking): notify the customer on every order stage change` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/tracking-endpoints` | [`92c1bc1`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/92c1bc1ef0bda08fb5689ab2e28c711eef8a0023) | `feat(tracking): expose orderTrackings and stageChanges endpoints` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/tracking-service` | [`6067222`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/606722295230d5475634b69ada3d3c4615f58c18) | `feat(tracking): add TrackingService to start and advance order tracking` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/tracking-domain` | [`e5c2fff`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/e5c2fff8e4af021fca26d1cce42ea0c2e7522067) | `feat(tracking): add OrderTracking aggregate, stages, history and in-memory repositories` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/delivery-lifecycle` | [`49882e1`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/49882e16c45b83cc0bbcfe5546575ba0b18e7345) | `feat(delivery): expose start, complete and fail endpoints` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/delivery-assign-driver` | [`52303c1`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/52303c165775d1528ca99124f9edf0e6119e0e1d) | `feat(delivery): expose PATCH /deliveries/{id} to assign a driver` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/delivery-drivers` | [`3259803`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/32598036604dcf19b13ab5ed2026499a7908f3e5) | `feat(delivery): expose driver registration, listing and availability endpoints` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/delivery-endpoints` | [`8b7d223`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/8b7d223ff0beade2c91900995de3c4ecaa02c0ab) | `feat(delivery): expose schedule, get and list delivery endpoints` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/delivery-model` | [`2c8f07a`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/2c8f07a9f020e8167001f4fb946a866a37acc0c7) | `feat(delivery): schedule deliveries with time-slot capacity and duplicate checks` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/shared-conflict-error` | [`d226685`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/d226685e12eba905bfbf05ea19b3ee9ff6ffbae4) | `feat(shared): map ConflictException to HTTP 409` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `docs/backend-readme` | [`07b0501`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/07b050192622003493f2790a7c7f7c1c26e36eab) | `docs: add backend README with run instructions and Billing endpoints` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/billing-enabled-features` | [`410ed18`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/410ed188b0c7e3f178cea86f1124f5e8863998c9) | `feat(billing): expose features enabled by the active plan` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/billing-renewal-cancel` | [`12cec38`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/12cec3808c25c343a8a9b56f216851ada8be524e) | `feat(billing): expose renew and cancel subscription endpoints` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/billing-change-plan` | [`b07337d`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/b07337dedc02c7f2eae4d5323b6ffa2d2037dfd8) | `feat(billing): expose POST /subscriptions/{id}/change-plan` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/billing-subscription-endpoints` | [`06e8c39`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/06e8c39203cfc4feaddce83307293c3d3fdf38bc) | `feat(billing): expose subscribe and subscription query endpoints` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/billing-subscription-model` | [`21974b6`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/21974b6d9f46e04dcd5a06b665b0706fe11ab0ba) | `feat(billing): add subscription repository and subscribe service` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/billing-payment-actions` | [`78ec1fc`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/78ec1fc2f5b05b8a785b0a03fe8c248a652585b7) | `feat(billing): add confirm and reject payment endpoints` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/billing-payment-verification` | [`407b334`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/407b334f1c83dc6cbf179202fefa1b0c86a56dfe) | `feat(billing): verify digital payments through a gateway port` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/billing-payments-register` | [`d2d4023`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/d2d4023f283ccb0b05d0c173b2e4f87180c03fff) | `feat(billing): expose payment register, get and history endpoints` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/billing-payment-model` | [`a76aa6b`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/a76aa6bc5ef5eca3618db683609b6c65857ffefb) | `feat(billing): add Payment aggregate, in-memory repository and service` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/billing-plans` | [`1cba406`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/1cba406b02810973956912cc014f53a2b89c5b5a) | `feat(billing): expose GET /api/v1/plans endpoints` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/api-error-handling` | [`0fb14d2`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/0fb14d2d574db310a749edf58688e45c98608c6e) | `feat(shared): add RFC 7807 error handling for not found, business rule and validation errors` | — | 15/11/2026 |
+| TechNova-Backend-7769-G4 | `feature/project-init` | [`4ae95be`](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4/commit/4ae95be64256edcf774f1cbf83d1e828cfc57194) | `chore: initialize Spring Boot 4.1.2 project (Java 27, Maven)` | — | 15/11/2026 |
+
+##### 5.2.3.5. Execution Evidence for Sprint Review
+
+En este sprint se deployo la primera version del Web Service de nuestra plataforma junto con la documentacion del backend
+
+Documentacion del Swagger:
+
+
+<div align="center">
+  <img src="./assets/Chapter5/Swagger/swagger1.PNG" width="700px" alt="Swagger">
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/Swagger/swagger2.PNG" width="700px" alt="Swagger">
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/Swagger/swagger3.PNG" width="700px" alt="Swagger">
+  <p></p>
+</div>
+
+
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Para este Sprint se documentaron varios recursos REST para nuestros diferentes bounded contexts. Ademas, mostraremos los servicios de manera local, ya que el Web Service aun no esta desplegado.
+
+
+| Bounded Context | Método | URL | Descripción |
+|---|---|---|---|
+| Billing | GET | http://localhost:8080/api/v1/plans | Lista planes disponibles |
+| Billing | GET | http://localhost:8080/api/v1/plans/{id} | Obtiene un plan por id |
+| Billing | POST | http://localhost:8080/api/v1/payments | Registra un pago para una orden |
+| Billing | GET | http://localhost:8080/api/v1/payments | Historial de pagos |
+| Billing | GET | http://localhost:8080/api/v1/payments/{id} | Obtiene un pago por id |
+| Billing | POST | http://localhost:8080/api/v1/payments/{id}/confirm | Confirma un pago pendiente |
+| Billing | POST | http://localhost:8080/api/v1/payments/{id}/reject | Rechaza un pago pendiente |
+| Billing | POST | http://localhost:8080/api/v1/subscriptions | Suscribe una lavandería a un plan |
+| Billing | GET | http://localhost:8080/api/v1/subscriptions | Lista suscripciones de una lavandería |
+| Billing | GET | http://localhost:8080/api/v1/subscriptions/{id} | Obtiene una suscripción por id |
+| Billing | POST | http://localhost:8080/api/v1/subscriptions/{id}/change-plan | Cambia el plan de una suscripción activa |
+| Billing | POST | http://localhost:8080/api/v1/subscriptions/{id}/renew | Renueva por un periodo más |
+| Billing | POST | http://localhost:8080/api/v1/subscriptions/{id}/cancel | Cancela una suscripción activa |
+| Billing | GET | http://localhost:8080/api/v1/subscriptions/features | Funcionalidades habilitadas por el plan activo |
+| Customer | POST | http://localhost:8080/api/v1/customers | Registra perfil de cliente |
+| Customer | GET | http://localhost:8080/api/v1/customers | Lista de los clientes |
+| Customer | GET | http://localhost:8080/api/v1/customers/{id} | Obtiene cliente con sus direcciones |
+| Customer | PUT | http://localhost:8080/api/v1/customers/{id} | Actualiza nombre completo y teléfono |
+| Customer | POST | http://localhost:8080/api/v1/customers/{id}/addresses | Agrega una dirección |
+| Customer | POST | http://localhost:8080/api/v1/customers/{id}/addresses/{addressId}/default | Marca una dirección como predeterminada |
+| Customer | DELETE | http://localhost:8080/api/v1/customers/{id}/addresses/{addressId} | Elimina una dirección |
+| Delivery | POST | http://localhost:8080/api/v1/deliveries | Programa recojo/entrega |
+| Delivery | GET | http://localhost:8080/api/v1/deliveries | Lista entregas |
+| Delivery | GET | http://localhost:8080/api/v1/deliveries/{id} | Obtiene una entrega por id |
+| Delivery | PATCH | http://localhost:8080/api/v1/deliveries/{id} | Asigna un repartidor disponible |
+| Delivery | POST | http://localhost:8080/api/v1/deliveries/{id}/start | Inicia entrega/recojo |
+| Delivery | POST | http://localhost:8080/api/v1/deliveries/{id}/complete | Completa la entrega |
+| Delivery | POST | http://localhost:8080/api/v1/deliveries/{id}/fail | Marca entrega activa como fallida |
+| Delivery | POST | http://localhost:8080/api/v1/drivers | Registra un repartidor |
+| Delivery | GET | http://localhost:8080/api/v1/drivers | Lista repartidores |
+| Delivery | GET | http://localhost:8080/api/v1/drivers/{id} | Obtiene un repartidor por id |
+| Delivery | PATCH | http://localhost:8080/api/v1/drivers/{id} | Actualiza disponibilidad del repartidor |
+| Tracking | POST | http://localhost:8080/api/v1/orderTrackings | Inicia seguimiento de una orden |
+| Tracking | GET | http://localhost:8080/api/v1/orderTrackings | Lista seguimientos |
+| Tracking | GET | http://localhost:8080/api/v1/orderTrackings/{id} | Obtiene seguimiento por id |
+| Tracking | POST | http://localhost:8080/api/v1/orderTrackings/{id}/advance | Avanza a la siguiente etapa |
+| Tracking | GET | http://localhost:8080/api/v1/stageChanges | Historial de etapas de una orden |
+| Tracking | POST | http://localhost:8080/api/v1/notifications | Crea una notificación manual |
+| Tracking | GET | http://localhost:8080/api/v1/notifications | Lista notificaciones de un destinatario |
+| Tracking | PATCH | http://localhost:8080/api/v1/notifications/{id}/read | Marca una notificación como leída |
+| Tracking | POST | http://localhost:8080/api/v1/notifications/read-all | Marca todas las notificaciones de un destinatario como leídas |
+
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Para el sprint 3, desarrollamos el backend usando postgre y se alojará en supabase. Además, se usó docker para poder publicar el API RESTful en la plataforma de Render. Por otro lado, nuestro frontend seguirá desplegada en la plataforma de Vercel.
+
+
+**Base de datos (PostgreSQL):** Se configuró un entorno de base de datos relacional en PostgreSQL para soportar la persistencia de la información gestionada por los bounded contexts implementados en el servidor (por ejemplo, Customer, Laundry Operations y Order Management). Esta configuración permitió establecer la conexión con la API REST y garantizar la disponibilidad de los datos requeridos durante la ejecución de los servicios. 
+
+**Gestión de credenciales:** la configuración de conexión a la base de datos no se almacena en el repositorio; se gestiona mediante configuración externa/variables de entorno en los entornos local y de despliegue. 
+
+**Web Services (API REST):** preparación y publicación del backend desarrollado en Java con Spring Boot, exponiendo los endpoints de los bounded contexts implementados en el sprint. 
+
+**Integración frontend–API:** la configuración en la Web Application del endpoint/base URL de la API está desplegada para el consumo de los módulos correspondientes.
+
+
+
+| Producto | Plataforma | Estado | URL |
+| :--- | :--- | :--- | :--- |
+| Web Application (frontend) | Vercel | Desplegado | https://technova-washtrack-frontend.vercel.app/home |
+| Web Services | Swagger (Render) | Desplegado | https://technova-backend-7769-g4.onrender.com/swagger-ui/index.html |
+| Landing Page | Github Page | Desplegado | https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/ |
+
+##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Para el sprint 3 nuestro equipo se enfoco principalmente en la implementacion del backend. Además, tambien se mejoraron algunos aspectos tanto del frontend como de la Landing Page.
+
+El trabajo colaborativo fue atraves de la plataforma de Github, ya que nos permite organizarnos para la elaboración del proyecto y además nos permite hacer un seguimiento de los avances de cada integrante y del proyecto.
+
+Para este sprint 3 mostraremos nuestras evidencias de colobaracion en el desarrollo de nuestro backend que ha sido la parte principal de este sprint.
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/teamCollaboration/resumenCommits.PNG" width="700px" alt="TeamCollaboration">
+  <p>Figura 1. Pull request y actividad del proyecto</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/teamCollaboration/backendCommits.PNG" width="700px" alt="AllCommits">
+  <p>Figura 2. Commits elaborados por el equipo</p>
+  <p></p>
+</div>
+
 
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
+
+<p align="justify">
+En esta sección se definen, para cada segmento objetivo, los elementos que forman parte de la sesión de validación: la Landing Page, la aplicación web de WashTrack y los user flows que el entrevistado realizará durante la sesión.
+</p>
+
+**1. Primer Segmento: Propietarios de lavanderías independientes**
+
+**Criterios de Evaluación:**
+
+* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial la centralización de la gestión de pedidos, la revisión de prendas y la coordinación de recojos a domicilio.
+* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con el Dashboard, el sidebar de navegación y el acceso a la sección de Pedidos.
+* Medir el tiempo que toma al usuario registrar un nuevo pedido, desde que hace clic en "+ Nuevo pedido" hasta que el pedido queda guardado y visible en la Lista de Pedidos.
+* Evaluar si el usuario identifica el botón "Revisar" del pedido pendiente y puede validar las prendas registradas por el cliente, el pesaje y agregar comentarios sobre el estado de las prendas.
+* Evaluar si el usuario comprende que la revisión del pedido puede generar un reajuste en el precio final.
+* Evaluar si el usuario identifica el botón de check para atender una solicitud de recojo y puede seleccionar y confirmar el conductor asignado sin ambigüedades.
+* Evaluar si los mensajes de error de validación son claros y si el usuario puede corregirlos sin perder los datos ya ingresados, así como cancelar una acción sin guardar cambios.
+
+**Se considerarán los siguientes User Flows:**
+
+* User Flow 1: Registrar un nuevo pedido.
+* User Flow 2: Revisar un pedido.
+* User Flow 3: Asignar conductor para recojo de pedido.
+
+<p align="justify">
+  Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de propietario de lavandería. Abarcan las tareas operativas principales de un pedido: su registro en el sistema, la revisión de las prendas y su pesaje cuando llegan al local, y la asignación de un conductor para atender las solicitudes de recojo a domicilio.
+</p>
+
+**Preguntas:**
+
+1. Al revisar la landing page, ¿qué entiendes que WashTrack puede hacer por tu lavandería?
+2. ¿La información presentada responde a los problemas que hoy tienes en tu negocio? ¿Qué agregarías o quitarías?
+3. Después de ver la página, ¿qué tan interesado(a) estarías en probar la aplicación con tu lavandería? ¿Qué te motivaría o te haría dudar?
+4. Comparado con tu forma actual de trabajar, ¿qué te pareció registrar un pedido en la aplicación? ¿Te ahorraría tiempo o te agregaría pasos?
+5. Al revisar un pedido, ¿los campos de pesaje y comentarios cubren lo que hoy revisas cuando recibes las prendas? ¿Qué te faltó registrar?
+6. ¿Qué tan fácil te resultó identificar las solicitudes de recojo y asignarles un conductor? ¿El botón de check fue claro para esa acción?
+7. ¿Qué funcionalidad te gustó más y por qué?
+8. ¿Qué funcionalidad te gustó menos y por qué?
+9. ¿Qué mejorarías de esa funcionalidad para que realmente la uses en tu negocio?
+
+<br>
+
+**2. Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+**Criterios de Evaluación:**
+
+* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial el seguimiento en tiempo real de su pedido y la transparencia en los pagos realizados.
+* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con la pantalla principal y las secciones de Historial de pagos y Seguimiento de pedidos.
+* Medir el tiempo que toma al usuario encontrar y abrir el recibo de una orden, desde el ingreso a la sección de Historial de pagos hasta la visualización del detalle.
+* Evaluar si el usuario identifica el ícono de recibo y comprende la información presentada (servicios, montos, total y método de pago).
+* Medir el tiempo que toma al usuario consultar el estado de un pedido, desde el ingreso a la sección de Seguimiento de pedidos hasta la visualización de la etapa actual.
+* Evaluar si el usuario identifica el ícono de seguimiento y comprende con claridad en qué etapa se encuentra su pedido.
+* Evaluar si el usuario percibe que la aplicación le evita tener que llamar o escribir a la lavandería para preguntar por el estado de su pedido o por el detalle de lo que pagó.
+
+**Se considerarán los siguientes User Flows:**
+
+* User Flow 4: Consultar recibo.
+* User Flow 5: Consultar avance de un pedido.
+
+<p align="justify">
+  Los User Flows propuestos corresponden a funcionalidades core de la aplicación web para el rol de cliente. Permiten revisar el detalle de los pagos realizados y conocer en todo momento la etapa en la que se encuentra un pedido, sin necesidad de comunicarse directamente con el local.
+</p>
+
+**Preguntas:**
+
+1. Al ver la landing page por primera vez, ¿qué entiendes que ofrece WashTrack?
+2. ¿Qué información de la página te resultó más útil o atractiva? ¿Faltó algo que te gustaría saber antes de usar la aplicación?
+3. Según lo que viste, ¿qué tan dispuesto(a) estarías a probar la aplicación? ¿Por qué?
+4. ¿Te resultó fácil encontrar el recibo de tu orden? ¿El ícono de recibo te pareció claro?
+5. ¿La información del recibo fue suficiente para entender lo que pagaste? ¿Qué dato agregarías o quitarías?
+6. ¿Te resultó fácil consultar en qué etapa estaba tu pedido? ¿El ícono de seguimiento te pareció claro?
+7. ¿Las etapas del pedido te parecieron comprensibles? ¿Te gustaría recibir más información, como una hora estimada de entrega o notificaciones?
+8. ¿Sientes que estas funcionalidades te evitarían llamar o escribir a la lavandería? ¿Por qué?
+9. ¿Qué funcionalidad te gustó más y por qué?
+10. ¿Qué funcionalidad te gustó menos y qué cambiarías para mejorarla?
+
 #### 5.3.2. Registro de Entrevistas
+
+**Primer Segmento: Propietarios de lavanderías independientes**<br>
+
+<u><b>Entrevista 1:</b></u>
+
+Entrevistador: Enrique Manuel Mantilla Maldonado
+
+**Datos del entrevistado:**
+
+- **Nombre:** Isabella
+- **Apellidos:** Orrego
+- **Edad:** 42 años
+- **Distrito:** Bellavista
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  Aqui ponen el resumen
+</div>
+<br>
+<p align="center">
+  <img src="assets/" alt="Entrevista de validacion de Isabella Orrego" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Isabella Orrego</i>
+</p>
+
+<br>
+
+<u><b>Entrevista 2:</b></u>
+
+Entrevistador: Adriana Nicole Ramos Fuentes Rivera
+
+**Datos del entrevistado:**
+
+- **Nombre:** Jorge
+- **Apellidos:** Laines
+- **Edad:** 52 años
+- **Distrito:** Comas
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  Jorge Laines es dueño de una lavandería independiente. Actualmente, registra sus pedidos en talonarios, y muchas veces las hojas se arrancan o, cuando el pedido se recibe con apuro, se anota en cualquier papel. Por eso la ropa queda en el local, pero se pierde el registro de la hora del pedido, este no se procesa y luego los clientes se quejan. Por ello, cree que WashTrack lo ayudaría sobre todo a organizar mejor sus pedidos, y le pareció útil el pago digital, ya que hoy las personas casi no llevan efectivo. Además, no le quitaría nada a la propuesta, aunque le gustaría ver los reportes de monitoreo desde su celular para controlar la operación sin estar en la lavandería. Lo que más lo motiva a usar la aplicación es poder ver en línea cuántos pedidos tiene y en qué estado están, porque a veces llega al final del día y recién se entera de que quedaron muchos pedidos pendientes, ya sea porque el encargado no se dio abasto o porque faltaban insumos, y nadie se lo comunicó. Con esa información podría actuar a tiempo, por ejemplo, llamando a más personal. En cuanto al registro de pedidos, señaló que es casi igual a como lo hace ahora y destacó el campo de notas, ya que los clientes suelen pedir que ciertas prendas se laven por separado o tienen colores especiales. También valoró que el precio se pueda editar, porque a veces cobra unos 5 soles adicionales por tratamientos especiales, así que considera que el sistema se adapta a sus necesidades. Sobre los recojos y entregas, contó que solo tiene una persona encargada del reparto, pero le gustó poder programar las entregas para que el repartidor revise la lista y no se olvide de ningún horario, y además ve útil asignar rutas a más repartidores si su negocio crece. Asimismo, el botón de flecha para cambiar el estado le resultó claro, aunque sugirió agregar una opción para deshacer, ya que el personal a veces marca por error un pedido como completado. Finalmente, lo que más le gustó fue ver la hora de ingreso y el estado de cada pedido, mientras que lo que menos le convenció fue no poder corregir un cambio de estado equivocado.
+</div>
+<br>
+<p align="center">
+  <img src="assets/Chapter5/interview/technova_validation_jorge.png" alt="Entrevista de validacion de Jorge Laines" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Jorge Laines</i>
+</p>
+
+<br>
+
+<u><b>Entrevista 3:</b></u>
+
+Entrevistador: Jude Hermoza Quispe
+
+**Datos del entrevistado:**
+
+- **Nombre:** Nataly
+- **Apellidos:** Sandoval
+- **Edad:** 20 años
+- **Distrito:** San Martín
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  Resumen aqui
+</div>
+<br>
+<p align="center">
+  <img src="assets" alt="Entrevista de validacion de Nataly Sandoval" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Nataly Sandoval</i>
+</p>
+
+---
+
+**Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
+
+<u><b>Entrevista 1:</b></u>
+
+Entrevistador: Adriana Nicole Ramos Fuentes Rivera
+
+**Datos del entrevistado:**
+
+- **Nombre:** Andrea
+- **Apellidos:** Arias
+- **Edad:** 28 años
+- **Distrito:** Comas
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  Andrea Arias es clienta que usa el servicio de lavandería, entiende que la plataforma ofrece un servicio de lavandería más completo, ya que además de dejar la ropa permite ver en qué estado está el pedido, pedir delivery y pagar por medios digitales. En ese sentido, lo que más le llamó la atención fue el pago digital y poder revisar cuándo estará lista su ropa, porque así no pierde tiempo yendo a la lavandería a preguntar, por eso le parecen muy útiles las notificaciones. Sin embargo, al principio no tuvo claro para qué servían los sensores IoT, hasta que se le explicó que eran para las máquinas. Por otro lado, dijo que sí estaría dispuesta a probar la aplicación, ya que le ahorraría tiempo, la ayudaría a organizarse y le recordaría recoger sus prendas, algo que según ella a muchos se les olvida, igual que dónde dejaron el voucher. En cuanto al recibo, le pareció fácil de encontrar, con un ícono claro, y valoró que el estado del pago aparezca al costado. Además, cree que la información es suficiente, sobre todo el número de pedido, porque el recibo digital le resulta más práctico que el físico. Respecto al seguimiento del pedido, le gustó que cada etapa tenga un color distinto, aunque sugirió agregar arriba una leyenda que explique qué significa cada color. También le gustaría recibir una notificación con la hora aproximada de entrega y luego un mensaje que la confirme. Asimismo, cree que estas funciones evitarían llamar o escribir a la lavandería, porque tendría toda la información de su pedido a la mano y ambas partes ahorrarían tiempo. Finalmente, la función que más le gustó fue poder pagar con Yape o Plin, ya que muchas lavanderías solo aceptan efectivo o un único medio de pago. En cambio, la que menos le gustó fue el ícono circular del seguimiento, porque no se entiende que es un botón, así que propuso cambiarlo por un signo de interrogación o poner una indicación como “clic aquí”.
+</div>
+<br>
+<p align="center">
+  <img src="assets/Chapter5/interview/technova_validation_andrea.png" alt="Entrevista de validacion de Andrea Arias" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Andrea Arias</i>
+</p>
+
+<br>
+
+<u><b>Entrevista 2:</b></u>
+
+Entrevistador: Cesar Alejandro Linares Bernable
+
+**Datos del entrevistado:**
+
+- **Nombre:** Margot
+- **Apellidos:** Bernable
+- **Edad:** 54 años
+- **Distrito:** San Martín de Porres
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  resuemn
+</div>
+<br>
+<p align="center">
+  <img src="assets" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Margot Bernable</i>
+</p>
+
+<br>
+
+<b><u>Entrevista 3:</u></b>
+
+Entrevistador: Perez Vasquez Ariana Valeria
+
+**Datos del entrevistado:**
+
+- **Nombre:** Renzo
+- **Apellidos:** Mongrut
+- **Edad:** 20 años
+- **Distrito:** Jesús María
+- **Timing:** 
+
+<div align="justify">
+
+En esta sesión de validación del prototipo de la página web y la landing page de **WashTrack**, desarrollada por el equipo **TechNova**, Renzo Mongrut evaluó la plataforma y compartió su experiencia de uso. Señaló que le encantó todo el diseño, destacando especialmente la atractiva colorimetría y la fluidez general de la propuesta. 
+
+Asimismo, indicó que la funcionalidad que más le gustó fue el **seguimiento en tiempo real de las prendas**, valorando enormemente cómo esto le ahorra tiempo y elimina la necesidad de llamar o escribir constantemente a la lavandería para conocer el estado de su ropa. Al encontrarse con una rutina exigente entre el estudio y el trabajo, reafirmó su total disposición para utilizar la aplicación debido a la seguridad, transparencia y agilidad que aporta a su día a día.
+
+<br>
+<p align="center">
+  <img src="assets/entrevista 2 Ariana.png" alt="Entrevista de validacion de Renzo Mongrut" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Renzo Mongrut</i>
+</p>
+<br>
+
+</div>
+
+**Registro de todas las entrevistas de validación**
+
+<p align="center">
+  <img src="assets/Chapter2/Interview/Registro_Entrevistas.png" alt="Video de registro de entrevistas de ambos segmentos" width="500"/>
+  <br/><i>Evidencia de entrevistas de validación (ambos segmentos)</i>
+</p>
+
+
+Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCXyilV_5LFSJwjFYnINGT-AewLhFUFHQ-qt-cACu5oHIY?e=Ws0W0I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCXyilV_5LFSJwjFYnINGT-AewLhFUFHQ-qt-cACu5oHIY?e=Ws0W0I&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+
+
 #### 5.3.3. Evaluaciones según heurísticas
 
-### 5.4. Video About-the-Product
+**UX Heuristics & Principles Evaluation**
+ 
+**Usability – Inclusive Design – Information Architecture**
+ 
+
+**CARRERA:** Ingeniería de Software 
+**CURSO:** Desarrollo de Aplicaciones Open Source
+**SECCIÓN:** 7769
+**PROFESORES:** Todos 
+**AUDITOR:**
+**CLIENTE(S):** TechNova
+ 
+---
+ 
+*SITE o APP A EVALUAR*
+ 
+**WashTrack** – Aplicación web (frontend Angular) para la gestión de lavanderías: pedidos, pagos, entregas a domicilio, seguimiento y suscripciones.
+ 
+---
+
+*TAREAS A EVALUAR*
+ 
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+ 
+1. Consulta de pedidos y pagos desde una cuenta de cliente
+2. Registro de un pedido con sus prendas
+3. Confirmación y finalización de un pedido
+4. Pago de un pedido
+5. Programación de un recojo o entrega a domicilio
+6. Seguimiento del estado de un pedido
+7. Consulta del historial de pagos y del comprobante
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+ 
+1. Registro de usuario e inicio de sesión
+2. Recuperación y cambio de contraseña
+3. Administración de usuarios y roles (administrador)
+4. Recepción de pedidos y procesamiento del lavado (operaciones internas)
+5. Gestión de servicios y conductores
+6. Gestión de la suscripción y consulta de planes
+7. Gestión de notificaciones
+
+---
+
+*ESCALA DE SEVERIDAD*
+ 
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+ 
+| Nivel | Descripción |
+|---|---|
+| 1 | **Problema superficial:** puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4 | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+ 
+---
+
+*TABLA RESUMEN*
+ 
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|---|---|---|
+| 1 | La cuenta de cliente muestra los pedidos, pagos y acciones que corresponden al dueño de la lavandería | 4 | Usability: Estética y diseño minimalista |
+| 2 | Para registrar un pedido se debe escribir el ID numérico del cliente en lugar de seleccionarlo | 3 | Usability: Reconocer antes que recordar |
+| 3 | Confirmar o completar un pedido se ejecuta al instante, sin confirmación ni opción de deshacer | 2 | Usability: Libertad y control del usuario |
+| 4 | En el pago, el ID del pedido, el cliente y el monto se escriben a mano y no se validan contra el pedido | 3 | Usability: Prevención de errores |
+| 5 | El formulario de programación de entregas no tiene botón "Cancelar" ni "Volver", a diferencia del formulario de pedidos | 2 | Usability: Consistencia y estándares |
+| 6 | La lista de seguimiento no tiene buscador ni filtros, y la acción para ver el detalle es solo un ícono | 2 | Information Architecture: Is it findable? |
+| 7 | El historial de pagos identifica los pedidos con un código distinto ("#105") y con datos de cliente que no coinciden con el pedido | 2 | Information Architecture: Is it credible? |
+ 
+---
+
+**PROBLEMA #1: La cuenta de cliente muestra los pedidos, pagos y acciones que corresponden al dueño de la lavandería**
+ 
+**Severidad:** 4
+**Heurística violada:** Usabilidad – Estética y diseño minimalista
+ 
+**Problema:**
+Al iniciar sesión como cliente, se muestran todos los pedidos y pagos del negocio, incluidos los de otros clientes, junto con el "Total confirmado" de ingresos. También aparecen acciones que solo le corresponden al dueño, como "Nuevo pedido", "Confirmar pedido" y el ícono para confirmar pagos. El cliente tiene que buscar lo suyo entre información ajena y puede ejecutar acciones que no le corresponden.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p1_orders.png" width="700px" alt="Vista cliente error (orders)">
+  <p>Sesion de cliente con información de administrador (Módulo Order)</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p1_payment.png" width="700px" alt="Vista cliente error (payment history)">
+  <p>Sesion de cliente con información de administrador (Módulo Payments)</p>
+  <p></p>
+</div>
+ 
+**Recomendación:**
+Filtrar pedidos y pagos por el cliente de la sesión cuando la cuenta sea de tipo cliente, como ya se hace en Seguimiento. Para los clientes, ocultar el "Total confirmado", los botones de confirmar pedido o pago y el registro de pedidos o pagos para otras personas. Además, adaptar los textos a su rol: por ejemplo, "Mis pedidos" y "Mis pagos".
+ 
+---
+ 
+**PROBLEMA #2: Para registrar un pedido se debe escribir el ID numérico del cliente en lugar de seleccionarlo**
+
+**Severidad:** 3
+**Heurística violada:** Usabilidad – Reconocer antes que recordar
+ 
+**Problema:**
+En "Nuevo pedido", el campo "Cliente" pide el ID numérico interno del cliente. El usuario tiene que recordar o buscar ese número en otra pantalla, y si se equivoca, el pedido queda asociado a otra persona sin que lo note.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p2_pedido_nuevo.png" width="700px" alt="Registro de nuevo pedido con ID del cliente">
+  <p>Registro de nuevo pedido con ID del cliente</p>
+  <p></p>
+</div>
+ 
+**Recomendación:**
+Reemplazar el campo numérico por un autocompletado (`mat-autocomplete`) que permita buscar al cliente por nombre o correo y que muestre los datos del cliente seleccionado antes de registrar el pedido.
+ 
+---
+ 
+**PROBLEMA #3: Confirmar o completar un pedido se ejecuta al instante, sin confirmación ni opción de deshacer**
+
+**Severidad:** 2
+**Heurística violada:** Usabilidad – Libertad y control del usuario
+ 
+**Problema:**
+En el detalle del pedido, los botones "Confirmar" y "Completar" cambian el estado con un solo clic, sin pedir confirmación y sin opción de deshacer. Como están junto a "Cerrar", un clic accidental puede dar por completado un pedido que todavía no se entregó.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p3_confirmar_pedido.png" width="700px" alt="Confirmar pedido">
+  <p>Confirmar pedido</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p3_completar_pedido.png" width="700px" alt="Completar pedido">
+  <p>Completar pedido</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p3_cerrar_pedido.png" width="700px" alt="Cerrar pedido">
+  <p>Cerrar pedido</p>
+  <p></p>
+</div>
+
+**Recomendación:**
+Mostrar un diálogo de confirmación antes de cambiar el estado (por ejemplo: "¿Marcar el pedido ORD-001 como completado?") o un snackbar con la acción "Deshacer" durante unos segundos después del cambio.
+ 
+---
+ 
+**PROBLEMA #4: En el pago, el ID del pedido, el cliente y el monto se escriben a mano y no se validan contra el pedido**
+
+**Severidad:** 3
+**Heurística violada:** Usabilidad – Prevención de errores
+ 
+**Problema:**
+En "Pagar pedido", el número de pedido, el cliente y el monto se escriben a mano y no se comparan con el pedido. Se puede registrar un pago con un monto incorrecto, a nombre de otro cliente o para un pedido que no existe.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p4_ingresar_datos_pago.png" width="700px" alt="Ingresar datos manuales">
+  <p>Datos ingresados manualmente (Módulo Pagos)</p>
+  <p></p>
+</div>
+ 
+**Recomendación:**
+Permitir pagar desde el detalle del pedido con un botón "Pagar" que abra el checkout con el pedido, el cliente y el monto ya cargados y en solo lectura. Si se mantiene el ingreso manual, usar un selector de pedidos pendientes de pago y validar que el monto coincida con el total.
+ 
+---
+ 
+**PROBLEMA #5: El formulario de programación de entregas no tiene botón "Cancelar" ni "Volver", a diferencia del formulario de pedidos**
+
+**Severidad:** 2
+**Heurística violada:** Usabilidad – Consistencia y estándares
+ 
+**Problema:**
+El formulario "Programar entrega" solo tiene el botón de envío, mientras que "Nuevo pedido" sí tiene "Cancelar". Para salir, el usuario tiene que usar el menú o el botón "atrás" del navegador.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p5_falta_boton_cancelar_entrega.png" width="700px" alt="Falta el boton cancelar">
+  <p>Ausencia del botón Cancelar (Módulo Programar recojo o entrega)</p>
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p5_boton_cancelar_pedido.png" width="700px" alt="Si tiene el boton cancelar">
+  <p>Presenta el botón Cancelar (Módulo Pedidos)</p>
+  <p></p>
+</div>
+ 
+**Recomendación:**
+Estandarizar el pie de todos los formularios con el par "Cancelar" (secundario, regresa a la lista) + acción principal.
+ 
+---
+ 
+**PROBLEMA #6: La lista de seguimiento no tiene buscador ni filtros, y la acción para ver el detalle es solo un ícono**
+
+**Severidad:** 2
+**Heurística violada:** Information Architecture – Is it findable?
+ 
+**Problema:**
+La vista "Seguimiento" no tiene buscador ni filtros por etapa, a diferencia de "Pedidos", así que hay que revisar la tabla fila por fila. Además, para ver el detalle solo hay un ícono sin texto que no deja claro qué hace.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p6_sin_filtro_seguimiento.png" width="700px" alt="Sin opcion de filtrar la informacion">
+  <p>Ausencia de la opción de filtrar la información (Módulo Seguimiento)</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p6_filtro_pedidos.png" width="700px" alt="Con opcion de filtrar la informacion">
+  <p>Presenta la opción de filtrar la información (Módulo Pedidos)</p>
+  <p></p>
+</div>
+
+**Recomendación:**
+Agregar un buscador por número de pedido y chips de filtro por etapa, igual que en la lista de pedidos, y acompañar el ícono con el texto "Ver seguimiento" o hacer que toda la fila sea clickeable.
+ 
+---
+ 
+**PROBLEMA #7: El historial de pagos identifica los pedidos con un código distinto ("#105") y con datos de cliente que no coinciden con el pedido**
+
+**Severidad:** 2
+**Heurística violada:** Information Architecture – Is it credible?
+ 
+**Problema:**
+En "Pedidos", el pedido se muestra como "ORD-000005", pero en el historial de pagos y en el comprobante el mismo pedido aparece como "#105", sin enlace al pedido. Además, el cliente del pago no coincide con el del pedido (Jorge Ramos frente a Ana Martínez), y esos datos contradictorios restan confianza.
+ 
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p7_historial_pagos.png" width="700px" alt="Historial de pagos con identificador de pedido diferente">
+  <p>Identificador de pedido diferente (Módulo Pagos)</p>
+  <p></p>
+</div>
+<br>
+<div align="center">
+  <img src="./assets/Chapter5/sprint3/heuristic/p7_pedidos.png" width="700px" alt="Identificadores de pedidos">
+  <p>Identificador de pedidos (Módulo Pedidos)</p>
+  <p></p>
+</div>
+ 
+**Recomendación:**
+Mostrar en pagos y comprobantes el mismo número de pedido que en el resto de la aplicación ("ORD-000005") como enlace al detalle del pedido. Tomar el nombre del cliente directamente del pedido en lugar de guardarlo como texto libre.
+
+---
+
+### 5.4. Video About the Product
+<p align="justify">
+  En esta sección presentamos el video About the Product de nuestra solución para la gestión de lavanderías. Está dirigido a dos públicos. El primero son los visitantes del Landing Page que quieren conocer el modelo de negocio y las principales funcionalidades de la plataforma. El segundo son los usuarios de la aplicación que quieren saber cómo realizar tareas como registrar pedidos, hacer seguimiento a su estado, coordinar entregas y gestionar pagos.
+</p>
+<p align="justify">
+  El video usa un tono cercano, claro y profesional, igual al del producto. Muestra cómo la solución ayuda a ordenar la operación diaria de la lavandería y mejora la experiencia de sus clientes.
+</p>
+
+<div align="center">
+  <img src="./assets/Chapter5/inicio_video_about_the_product.png" width="700px" alt="Video-about-the-product">
+  <p>TechNova - WashTrack: Video about the product</p>
+  <p></p>
+</div>
+<br>
+
+Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=HA8pVd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=HA8pVd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 ---
 ## Conclusiones
 
-A partir del desarrollo del proyecto **WashTrack** por parte de la startup **TechNova**, se logró avanzar de manera estructurada desde la identificación de las necesidades del mercado hasta la implementación y el despliegue de la primera versión del producto. El proceso integró el levantamiento de requisitos, el diseño de la experiencia, la arquitectura de software, la gestión de configuración en control de versiones y el despliegue técnico, manteniendo una relación directa entre los problemas detectados y la solución digital propuesta.
+A partir del desarrollo del proyecto **WashTrack** por parte de la startup **TechNova**, se logró avanzar de manera estructurada desde la identificación de las necesidades reales del mercado —tales como la alta carga operativa y la falta de transparencia reportada por usuarios en entrevistas clave— hasta la implementación integral del producto, abarcando tanto el diseño de la interfaz como el desarrollo del backend en Java con Spring Boot y PostgreSQL. El proceso integró con éxito el levantamiento de requisitos, el diseño de la experiencia de usuario, la arquitectura orientada a dominios (DDD) mediante bounded contexts, la gestión rigurosa de control de versiones y el despliegue iterativo, asegurando una conexión directa entre los problemas detectados y la solución digital propuesta.
 
-* **En relación con los Problem Statements:** Se identificaron deficiencias críticas en la gestión tradicional de lavanderías, tales como la falta de transparencia en el seguimiento del estado de las prendas, la complejidad en la coordinación de los servicios de recojo y entrega a domicilio, y la ausencia de herramientas centralizadas para optimizar los procesos operativos. Frente a esto, WashTrack establece una solución orientada a automatizar y centralizar la administración de pedidos, mejorando la comunicación y la experiencia entre los clientes y los proveedores del servicio.
+- **En relación con los Problem Statements:** Se abordaron y delimitaron deficiencias críticas en la gestión tradicional de lavanderías, tales como la desconfianza por la pérdida o daño de prendas, la opacidad en el seguimiento del estado del servicio, y la complejidad en la coordinación de entregas para usuarios con agendas ajustadas entre el estudio y el trabajo. Frente a esto, WashTrack establece una solución orientada a automatizar y centralizar la administración de pedidos, mejorando la comunicación y la experiencia entre los clientes y los proveedores.
 
-* **Respecto a los Assumptions:** Los supuestos planteados inicialmente en el proceso de Lean UX fueron contrastados frente al comportamiento real de los segmentos mediante entrevistas e investigación. Esto permitió validar la necesidad imperativa de los usuarios por conocer en tiempo real el estado de sus servicios y contar con canales digitales ágiles, ajustando las hipótesis y prioridades del negocio a requerimientos reales del mercado.
+- **Respecto a los Assumptions:** Los supuestos planteados inicialmente en el proceso de Lean UX fueron contrastados frente al comportamiento y feedback real de los segmentos de usuarios mediante entrevistas iterativas de validación. Esto permitió comprobar la necesidad imperativa de contar con trazabilidad en tiempo real y canales digitales ágiles, ajustando las hipótesis y prioridades de desarrollo a requerimientos genuinos del mercado.
 
-* **En cuanto a los Hypotheses Statements:** Las hipótesis formuladas sobre el seguimiento digital de los pedidos, la gestión de la lavandería y la interacción centralizada se materializaron en las primeras características funcionales de la solución, sentando una base sólida para continuar midiendo y validando su valor en iteraciones posteriores.
+- **En cuanto a los Hypotheses Statements:** Las hipótesis formuladas sobre el seguimiento digital de los pedidos, la optimización de la gestión de lavandería y la interacción centralizada se materializaron de forma concreta en los primeros módulos y características funcionales de la solución. Esto incluye el desarrollo del backend en Java y Spring Boot orientado a servicios RESTful, la persistencia en bases de datos relacionales con PostgreSQL y la estructuración de servicios por *bounded contexts* (*Customer, Order Management, Laundry Operations, Billing & Subscriptions y Delivery*), sentando una base técnica robusta para la integración completa del sistema.
 
-* **Criterios de éxito definidos mediante Lean UX:** La primera versión desarrollada permitió comprobar la comprensión de la propuesta de valor a través de la *Landing Page*, exponiendo claramente las características del negocio, los segmentos objetivo y el funcionamiento general de la plataforma. No obstante, se concluye que los indicadores cuantitativos de éxito, retención y usabilidad requerirán ser evaluados y medidos en profundidad conforme se implementen el *Frontend Web Application* y los *Web Services*.
+- **Criterios de éxito definidos mediante Lean UX:** La primera versión desarrollada permitió comprobar la sólida comprensión de la propuesta de valor a través de la *Landing Page* y los prototipos evaluados, donde los usuarios destacaron positivamente la claridad de la interfaz, la colorimetría y la fluidez general. No obstante, se concluye que los indicadores cuantitativos de retención, usabilidad y conversión requerirán ser evaluados y medidos en profundidad conforme se consolide la integración completa del *Frontend* con la nueva capa de servicios del servidor.
 
-* **Implementación, Validación y Despliegue:** Se consolidó un entorno técnico robusto aplicando el control de versiones en GitHub con flujos estructurados (`feature -> develop -> main`), convenciones de código y el despliegue exitoso de la primera versión de la *Landing Page* mediante GitHub Pages, garantizando la accesibilidad y visibilidad del producto.
-
+- **Implementación, Validación y Despliegue:** Se consolidó un entorno técnico y colaborativo robusto aplicando flujos de trabajo estructurados en Git y GitHub (`feature -> develop -> main`), buenas prácticas de versionamiento, convenciones de mensajes de confirmación y el despliegue exitoso de las iteraciones de la plataforma, garantizando la alta disponibilidad, accesibilidad y visibilidad continua del producto del equipo TechNova.
 ---
 
+## Video About the Team
+
+<p align="justify">
+  En esta sección presentamos el video About The Team, en el que el equipo TechNova muestra cómo trabajó durante el desarrollo del proyecto. El video reúne escenas e imágenes de nuestras reuniones y sesiones de trabajo reales.
+</p>
+
+<div align="center">
+  <img src="./assets/technova_video_team.png" width="700px" alt="Video-about-the-team">
+  <p>TechNova - WashTrack: Video about the team</p>
+  <p></p>
+</div>
+<br>
+
+Link del video (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBnC809zb5tRKm-eWdTlaReAdaQBdPf2iYAXl8qeBHjPdg?e=eAvuW1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBnC809zb5tRKm-eWdTlaReAdaQBdPf2iYAXl8qeBHjPdg?e=eAvuW1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Link del video (Youtube): [https://youtu.be/LY-cJajUz8s](https://youtu.be/LY-cJajUz8s)
+
+---
 ## Recomendaciones
 
-Como parte de los siguientes pasos en el **Roadmap** de los productos digitales que integran el modelo de negocio de WashTrack, se recomienda:
+Como parte de los siguientes pasos en el **Roadmap** de los productos digitales que integran el modelo de negocio de **WashTrack** y la startup **TechNova**, se recomienda:
 
-1. **Desarrollo del Frontend Web Application:** Priorizar la construcción de la interfaz web utilizando las tecnologías definidas en el curso, enfocándose en las vistas orientadas al cliente para la creación de pedidos, la consulta de estados y el seguimiento del servicio.
-2. **Implementación de Web Services (RESTful API):** Desarrollar la lógica del servidor y los servicios backend para conectar de manera segura la aplicación con el sistema de persistencia de datos y soportar las transacciones del negocio.
-3. **Módulo de Gestión para Proveedores:** Diseñar e implementar las funcionalidades destinadas a los administradores de lavanderías, permitiéndoles gestionar el flujo operativo de los pedidos y actualizar las etapas de procesamiento de las prendas.
-4. **Validación Continua con Usuarios:** Ejecutar pruebas de usabilidad y validaciones periódicas con el segmento objetivo tras cada incremento del producto. Los resultados obtenidos deberán emplearse para reevaluar los *Assumptions* y *Hypotheses Statements*, medir los criterios de éxito de Lean UX y refinar la priorización del *Product Backlog*.
+1. **Evolución y Consolidación del Backend y la RESTful API:** Profundizar en la implementación y pruebas de integración de los servicios del servidor desarrollados en Java y Spring Boot (conectados a PostgreSQL), asegurando una correcta estructuración por *bounded contexts* (*Customer, Order Management, Laundry Operations, Billing & Subscriptions y Delivery*) para robustecer la lógica de negocio.
+2. **Integración Completa del Frontend con el Servidor:** Consolidar la conexión entre la interfaz web del cliente y los servicios expuestos por la API REST, garantizando la sincronización en tiempo real para el seguimiento de prendas, la visualización de recibos y la gestión de pedidos.
+3. **Optimización del Módulo Operativo para Proveedores:** Ampliar y afinar las funcionalidades destinadas a los administradores de lavanderías y repartidores, facilitando el control de estados, el pesaje de prendas, los reajustes de precios y la asignación eficiente de recojos a domicilio.
+4. **Validación Continua con Usuarios y Métricas Lean UX:** Mantener un ciclo iterativo de pruebas de usabilidad con los segmentos objetivo (tanto clientes como lavanderías independientes). Los resultados y la retroalimentación obtenida deberán emplearse para reevaluar los *Assumptions* y *Hypotheses Statements*, medir cuantitativamente los criterios de éxito y refinar la priorización del *Product Backlog* en las siguientes fases del proyecto.
 
 ---
 
@@ -5078,6 +5961,8 @@ URL del repositorio (landing-page): [https://github.com/1ASI0729-2620-7769-G4-Te
 
 URL del repositorio (frontend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-LandingPage-Frontend-7769-G4)
 
+URL del repositorio (backend): [https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4](https://github.com/1ASI0729-2620-7769-G4-TechNova/TechNova-Backend-7769-G4)
+
 URL de landing page (GithubPage): [https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/](https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/)
 
 URL del frontend (Vercel): [https://technova-washtrack-frontend.vercel.app/](https://technova-washtrack-frontend.vercel.app/)
@@ -5087,5 +5972,20 @@ URL del fake api (Render): [https://technova-landingpage-frontend-7769-g4-mrsy.o
 URL de exposición (AV1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA5kSJ7Dv8zTLoI22mMKxtvAdpl50MxXo-ZCjKIFmvoMQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=eqmYbP)
 
 URL de exposición (TB1): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA0nUKDmGcmTJiJ1elvru0eAZfquLE9ykfmedf5DaRpVOQ?e=B9hTeA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQA0nUKDmGcmTJiJ1elvru0eAZfquLE9ykfmedf5DaRpVOQ?e=B9hTeA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+URL de exposición (AV2): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCL3ajA25VsRbH1lzn97HM4AQwcGch4guCwpzgE2esGmkM?e=2dWlBu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCL3ajA25VsRbH1lzn97HM4AQwcGch4guCwpzgE2esGmkM?e=2dWlBu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Video de entrevistas de validación: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCXyilV_5LFSJwjFYnINGT-AewLhFUFHQ-qt-cACu5oHIY?e=rskgjW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQCXyilV_5LFSJwjFYnINGT-AewLhFUFHQ-qt-cACu5oHIY?e=rskgjW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Video about the product (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=iDDToU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQAXzhYsVD8vTp5yDd0EMoO3AXg0tTJ_pAyfuEFz7hq0kGI?e=iDDToU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D)
+
+Video about the product (Youtube): [https://youtu.be/IEuWjx757Bg](https://youtu.be/IEuWjx757Bg)
+
+
+Video about the team (Microsoft): [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBnC809zb5tRKm-eWdTlaReAdaQBdPf2iYAXl8qeBHjPdg?e=eAvuW1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018427_upc_edu_pe/IQBnC809zb5tRKm-eWdTlaReAdaQBdPf2iYAXl8qeBHjPdg?e=eAvuW1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Video about the team (Youtube): [https://youtu.be/LY-cJajUz8s](https://youtu.be/LY-cJajUz8s)
+
+
 
 ---
