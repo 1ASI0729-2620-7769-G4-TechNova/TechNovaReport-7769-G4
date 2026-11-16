@@ -5236,6 +5236,26 @@ En esta sección, se establecen los aspectos clave del *Aspect Leaders and Colla
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Para el sprint 3, desarrollamos el backend usando postgre y se alojará en supabase. Además, se usó docker para poder publicar el API RESTful en la plataforma de Render. Por otro lado, nuestro frontend seguirá desplegada en la plataforma de Vercel.
+
+
+**Base de datos (PostgreSQL):** Se configuró un entorno de base de datos relacional en PostgreSQL para soportar la persistencia de la información gestionada por los bounded contexts implementados en el servidor (por ejemplo, Customer, Laundry Operations y Order Management). Esta configuración permitió establecer la conexión con la API REST y garantizar la disponibilidad de los datos requeridos durante la ejecución de los servicios. 
+
+**Gestión de credenciales:** la configuración de conexión a la base de datos no se almacena en el repositorio; se gestiona mediante configuración externa/variables de entorno en los entornos local y de despliegue. 
+
+**Web Services (API REST):** preparación y publicación del backend desarrollado en Java con Spring Boot, exponiendo los endpoints de los bounded contexts implementados en el sprint. 
+
+**Integración frontend–API:** la configuración en la Web Application del endpoint/base URL de la API está desplegada para el consumo de los módulos correspondientes.
+
+
+
+| Producto | Plataforma | Estado | URL |
+| :--- | :--- | :--- | :--- |
+| Web Application (frontend) | Vercel | Desplegado | https://technova-washtrack-frontend.vercel.app/home |
+| Web Services (API RESTful) | Render | Pendiente | ... |
+| Documentación de la API | Render | Pendiente | ... |
+| Landing Page | Github Page | Desplegado | https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/ |
+
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
 
