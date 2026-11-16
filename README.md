@@ -3420,43 +3420,42 @@ Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón 
 * Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
 
 
-### Solicitar recojo
+### Consultar recibo
 
-**User Goal:** Cuando llega una solicitud de recojo, entonces el encargado debe mandar a un conductor para recoger las prendas a domicilio
-
-**User Persona:** Valeria Torres, Cliente de Lavandería.
-
-<div align="center">
-  <img src="./assets/Chapter4/UserFlow/Userflow_UserGoal4.PNG" width="700px" alt="UserGoal4">
-</div>
-
-**Explicación del flujo:**
-
-Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de check. Luego se abre un pop-up que permite escoger que conductor irá a hacer el recojo. Finalmente, se confirma el envío del conductor.
-
-**Unhappy paths:**
-
-* Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
-
-
-
-### Reajuste de precio
-
-**User Goal:** Cuando llega una notificación de reajuste de precio, entonces el cliente debe revisar el cambio de precio y aceptarlo o rechazarlo
+**User Goal:** Quiero consultar el recibo de una orden pagada para verificar el detalle de los servicios, el monto cobrado y el método de pago.
 
 **User Persona:** Valeria Torres, Cliente de Lavandería.
 
 <div align="center">
-  <img src="./assets/Chapter4/UserFlow/Userflow_UserGoal5.PNG" width="700px" alt="UserGoal5">
+  <img src="./assets/Chapter4/UserFlow/user_flow4.png" width="700px" alt="UserGoal4">
 </div>
 
 **Explicación del flujo:**
 
-Happy path: El usuario ingresa a la sección de Pedido y hace clic en el botón de exclamación. Luego, verifica el cambio de precio y la justificación. Finalmente acepta o rechaza el reajuste.
+Happy path: El usuario ingresa a la sección de Historial de pagos y hace clic en el icono recibo. Luego se abre otra vista que permite ver los detalles del recibo.
 
 **Unhappy paths:**
 
-* Cancelación: el usuario cierra el formulario en cualquier momento sin que se guarde ningún cambio.
+* Recibo no disponible: la orden seleccionada tiene el pago pendiente o en proceso, por lo que el recibo aún no se ha generado. El sistema muestra un aviso indicando que el recibo estará disponible cuando se confirme el pago.
+
+
+
+### Consultar avance de un pedido
+
+**User Goal:** Quiero consultar en qué etapa se encuentra mi pedido para saber cuándo estará listo o cuándo será entregado.
+**User Persona:** Valeria Torres, Cliente de Lavandería.
+
+<div align="center">
+  <img src="./assets/Chapter4/UserFlow/user_flow5.png" width="700px" alt="UserGoal5">
+</div>
+
+**Explicación del flujo:**
+
+Happy path: El usuario ingresa a la sección de Seguimiento de pedidos y hace click en el icono target. Luego se abre otra vista que permite ver la etapa en la que se encuentra su pedido.
+
+**Unhappy paths:**
+
+* Pedido sin actualizaciones: el pedido fue registrado, pero aún no ha avanzado de etapa. El sistema muestra el estado inicial e informa que el seguimiento se actualizará cuando la lavandería procese el pedido.
 
 ### 4.5. Web Applications Prototyping
 
@@ -5268,7 +5267,7 @@ En esta sección se definen, para cada segmento objetivo, los elementos que form
 * User Flow 3: Asignar conductor para recojo de pedido.
 
 <p align="justify">
-Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de propietario de lavandería. Abarcan las tareas operativas principales de un pedido: su registro en el sistema, la revisión de las prendas y su pesaje cuando llegan al local, y la asignación de un conductor para atender las solicitudes de recojo a domicilio.
+  Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de propietario de lavandería. Abarcan las tareas operativas principales de un pedido: su registro en el sistema, la revisión de las prendas y su pesaje cuando llegan al local, y la asignación de un conductor para atender las solicitudes de recojo a domicilio.
 </p>
 
 **Preguntas:**
@@ -5289,20 +5288,21 @@ Los User Flows propuestos corresponden a las funcionalidades core de la aplicaci
 
 **Criterios de Evaluación:**
 
-* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial la solicitud digital de recojo a domicilio y la transparencia en el precio de su pedido.
-* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con la pantalla principal y la sección de Pedidos.
-* Medir el tiempo que toma al usuario solicitar un recojo, desde el ingreso a la sección de Pedidos hasta la confirmación de la solicitud.
-* Evaluar si el usuario identifica el botón de exclamación como una alerta de reajuste de precio pendiente de respuesta.
-* Evaluar si el usuario comprende el cambio de precio y la justificación presentada, y puede aceptar o rechazar el reajuste con seguridad.
-* Evaluar si el usuario percibe que la aplicación le evita tener que llamar o escribir a la lavandería para coordinar el recojo o aclarar cambios en el precio.
+* Evaluar si el usuario comprende la propuesta de valor de WashTrack a partir de la Landing Page, en especial el seguimiento en tiempo real de su pedido y la transparencia en los pagos realizados.
+* Evaluar si el usuario puede navegar por la aplicación web con facilidad: familiarización con la pantalla principal y las secciones de Historial de pagos y Seguimiento de pedidos.
+* Medir el tiempo que toma al usuario encontrar y abrir el recibo de una orden, desde el ingreso a la sección de Historial de pagos hasta la visualización del detalle.
+* Evaluar si el usuario identifica el ícono de recibo y comprende la información presentada (servicios, montos, total y método de pago).
+* Medir el tiempo que toma al usuario consultar el estado de un pedido, desde el ingreso a la sección de Seguimiento de pedidos hasta la visualización de la etapa actual.
+* Evaluar si el usuario identifica el ícono de seguimiento y comprende con claridad en qué etapa se encuentra su pedido.
+* Evaluar si el usuario percibe que la aplicación le evita tener que llamar o escribir a la lavandería para preguntar por el estado de su pedido o por el detalle de lo que pagó.
 
 **Se considerarán los siguientes User Flows:**
 
-* User Flow 4: Solicitar recojo.
-* User Flow 5: Reajuste de precio.
+* User Flow 4: Consultar recibo.
+* User Flow 5: Consultar avance de un pedido.
 
 <p align="justify">
-Los User Flows propuestos corresponden a las funcionalidades core de la aplicación web para el rol de cliente. Abarcan la solicitud digital del recojo de prendas a domicilio y la respuesta ante un reajuste de precio luego de la revisión en la lavandería, sin necesidad de comunicarse directamente con el local.
+  Los User Flows propuestos corresponden a funcionalidades core de la aplicación web para el rol de cliente. Permiten revisar el detalle de los pagos realizados y conocer en todo momento la etapa en la que se encuentra un pedido, sin necesidad de comunicarse directamente con el local.
 </p>
 
 **Preguntas:**
@@ -5310,13 +5310,13 @@ Los User Flows propuestos corresponden a las funcionalidades core de la aplicaci
 1. Al ver la landing page por primera vez, ¿qué entiendes que ofrece WashTrack?
 2. ¿Qué información de la página te resultó más útil o atractiva? ¿Faltó algo que te gustaría saber antes de usar la aplicación?
 3. Según lo que viste, ¿qué tan dispuesto(a) estarías a probar la aplicación? ¿Por qué?
-4. ¿Cómo describirías tu experiencia al solicitar un recojo en la aplicación? ¿Te pareció más práctico que llamar o escribir a la lavandería?
-5. ¿Notaste con facilidad que tenías un reajuste de precio pendiente? ¿El botón de exclamación te pareció claro?
-6. ¿La justificación del reajuste fue suficiente para decidir si aceptarlo o rechazarlo? ¿Qué más te gustaría saber?
-7. ¿Qué tan cómodo(a) te sientes con que la lavandería ajuste el precio después de revisar tus prendas? ¿Qué te daría más confianza?
-8. ¿Qué funcionalidad te gustó más y por qué?
-9. ¿Qué funcionalidad te gustó menos y por qué?
-10. ¿Qué cambiarías para mejorar esa funcionalidad?
+4. ¿Te resultó fácil encontrar el recibo de tu orden? ¿El ícono de recibo te pareció claro?
+5. ¿La información del recibo fue suficiente para entender lo que pagaste? ¿Qué dato agregarías o quitarías?
+6. ¿Te resultó fácil consultar en qué etapa estaba tu pedido? ¿El ícono de seguimiento te pareció claro?
+7. ¿Las etapas del pedido te parecieron comprensibles? ¿Te gustaría recibir más información, como una hora estimada de entrega o notificaciones?
+8. ¿Sientes que estas funcionalidades te evitarían llamar o escribir a la lavandería? ¿Por qué?
+9. ¿Qué funcionalidad te gustó más y por qué?
+10. ¿Qué funcionalidad te gustó menos y qué cambiarías para mejorarla?
 
 #### 5.3.2. Registro de Entrevistas
 
