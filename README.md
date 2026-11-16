@@ -5430,11 +5430,11 @@ Entrevistador: Adriana Nicole Ramos Fuentes Rivera
 
 **Resumen descriptivo:**
 <div align="justify">
-  resumen
+  Andrea Arias es clienta que usa el servicio de lavandería, entiende que la plataforma ofrece un servicio de lavandería más completo, ya que además de dejar la ropa permite ver en qué estado está el pedido, pedir delivery y pagar por medios digitales. En ese sentido, lo que más le llamó la atención fue el pago digital y poder revisar cuándo estará lista su ropa, porque así no pierde tiempo yendo a la lavandería a preguntar, por eso le parecen muy útiles las notificaciones. Sin embargo, al principio no tuvo claro para qué servían los sensores IoT, hasta que se le explicó que eran para las máquinas. Por otro lado, dijo que sí estaría dispuesta a probar la aplicación, ya que le ahorraría tiempo, la ayudaría a organizarse y le recordaría recoger sus prendas, algo que según ella a muchos se les olvida, igual que dónde dejaron el voucher. En cuanto al recibo, le pareció fácil de encontrar, con un ícono claro, y valoró que el estado del pago aparezca al costado. Además, cree que la información es suficiente, sobre todo el número de pedido, porque el recibo digital le resulta más práctico que el físico. Respecto al seguimiento del pedido, le gustó que cada etapa tenga un color distinto, aunque sugirió agregar arriba una leyenda que explique qué significa cada color. También le gustaría recibir una notificación con la hora aproximada de entrega y luego un mensaje que la confirme. Asimismo, cree que estas funciones evitarían llamar o escribir a la lavandería, porque tendría toda la información de su pedido a la mano y ambas partes ahorrarían tiempo. Finalmente, la función que más le gustó fue poder pagar con Yape o Plin, ya que muchas lavanderías solo aceptan efectivo o un único medio de pago. En cambio, la que menos le gustó fue el ícono circular del seguimiento, porque no se entiende que es un botón, así que propuso cambiarlo por un signo de interrogación o poner una indicación como “clic aquí”.
 </div>
 <br>
 <p align="center">
-  <img src="assets" alt="Entrevista de validacion de Andrea Arias" width="500"/>
+  <img src="assets/Chapter5/interview/technova_validation_andrea.png" alt="Entrevista de validacion de Andrea Arias" width="500"/>
   <br/><i>Segmento 2: Entrevista de Andrea Arias</i>
 </p>
 
