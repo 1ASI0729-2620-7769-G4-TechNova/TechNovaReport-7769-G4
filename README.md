@@ -5340,17 +5340,141 @@ En esta sección se definen, para cada segmento objetivo, los elementos que form
 
 #### 5.3.2. Registro de Entrevistas
 
+**Primer Segmento: Propietarios de lavanderías independientes**<br>
+
+<u><b>Entrevista 1:</b></u>
+
+Entrevistador: Enrique Manuel Mantilla Maldonado
+
+**Datos del entrevistado:**
+
+- **Nombre:** Isabella
+- **Apellidos:** Orrego
+- **Edad:** 42 años
+- **Distrito:** Bellavista
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  Aqui ponen el resumen
+</div>
+<br>
+<p align="center">
+  <img src="assets/" alt="Entrevista de validacion de Isabella Orrego" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Isabella Orrego</i>
+</p>
+
+<br>
+
+<u><b>Entrevista 2:</b></u>
+
+Entrevistador: Adriana Nicole Ramos Fuentes Rivera
+
+**Datos del entrevistado:**
+
+- **Nombre:** Jorge
+- **Apellidos:** Laines
+- **Edad:** 52 años
+- **Distrito:** Comas
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  r
+</div>
+<br>
+<p align="center">
+  <img src="assets/" alt="Entrevista de validacion de Jorge Laines" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Jorge Laines</i>
+</p>
+
+<br>
+
+<u><b>Entrevista 3:</b></u>
+
+Entrevistador: Jude Hermoza Quispe
+
+**Datos del entrevistado:**
+
+- **Nombre:** Nataly
+- **Apellidos:** Sandoval
+- **Edad:** 20 años
+- **Distrito:** San Martín
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  Resumen aqui
+</div>
+<br>
+<p align="center">
+  <img src="assets" alt="Entrevista de validacion de Nataly Sandoval" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Nataly Sandoval</i>
+</p>
+
+---
+
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
-<p><u>Entrevista 3:</u></p>
+
+<u><b>Entrevista 1:</b></u>
+
+Entrevistador: Adriana Nicole Ramos Fuentes Rivera
+
+**Datos del entrevistado:**
+
+- **Nombre:** Andrea
+- **Apellidos:** Arias
+- **Edad:** 28 años
+- **Distrito:** Comas
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  resumen
+</div>
+<br>
+<p align="center">
+  <img src="assets" alt="Entrevista de validacion de Andrea Arias" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Andrea Arias</i>
+</p>
+
+<br>
+
+<u><b>Entrevista 2:</b></u>
+
+Entrevistador: Cesar Alejandro Linares Bernable
+
+**Datos del entrevistado:**
+
+- **Nombre:** Margot
+- **Apellidos:** Bernable
+- **Edad:** 54 años
+- **Distrito:** San Martín de Porres
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  resuemn
+</div>
+<br>
+<p align="center">
+  <img src="assets" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Margot Bernable</i>
+</p>
+
+<br>
+
+<b><u>Entrevista 3:</u></b>
 
 Entrevistador: Perez Vasquez Ariana Valeria
 
-Datos del entrevistado:
+**Datos del entrevistado:**
 
 - **Nombre:** Renzo
 - **Apellidos:** Mongrut
 - **Edad:** 20 años
 - **Distrito:** Jesús María
+- **Timing:** 
 
 <div align="justify">
 
@@ -5360,7 +5484,7 @@ Asimismo, indicó que la funcionalidad que más le gustó fue el **seguimiento e
 
 <br>
 <p align="center">
-  <img src="assets/entrevista 2 Ariana.png" alt="Entrevista de Renzo Mongrut" width="500"/>
+  <img src="assets/entrevista 2 Ariana.png" alt="Entrevista de validacion de Renzo Mongrut" width="500"/>
   <br/><i>Segmento 2: Entrevista de Renzo Mongrut</i>
 </p>
 <br>
