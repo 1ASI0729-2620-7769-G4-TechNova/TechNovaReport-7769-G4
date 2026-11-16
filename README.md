@@ -226,22 +226,22 @@ URL del repositorio (backend): [https://github.com/1ASI0729-2620-7769-G4-TechNov
 
 
 <p align="center">
-<img src="assets" alt="Contributors-TechNova-AV2" width="500"/>
+<img src="assets/technova_report_contributors1_av2.png" alt="Contributors-TechNova-AV2" width="500"/>
   <br/><i>Report: Contributors of TechNova (AV2)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets" alt="Contributors-TechNova-AV2" width="500"/>
+<img src="assets/technova_report_contributors2_av2.png" alt="Contributors-TechNova-AV2" width="500"/>
   <br/><i>Report: Contributors of TechNova (AV2)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets" alt="pulse-TechNova-AV2" width="500"/>
+<img src="assets/technova_pulse_av2.png" alt="pulse-TechNova-AV2" width="500"/>
   <br/><i>Report: Pulse of TechNova (AV2)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets" alt="Contributors-TechNova-AV2" width="500"/>
+<img src="assets/technova_report_network_av2.png" alt="Contributors-TechNova-AV2" width="500"/>
   <br/><i>Report: Network graph of TechNova (AV2)</i>
 </p>
 <br>
@@ -249,22 +249,22 @@ URL del repositorio (backend): [https://github.com/1ASI0729-2620-7769-G4-TechNov
 **Landing Page**
 
 <p align="center">
-<img src="assets" alt="Contributors-TechNova-LandingPage-AV2" width="500"/>
+<img src="assets/technova_landing_contributors1_av2.png" alt="Contributors-TechNova-LandingPage-AV2" width="500"/>
   <br/><i>Landing Page: Contributors of TechNova (AV2)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets" alt="Pulse-TechNova-LandingPage-AV2" width="500"/>
+<img src="assets/technova_landing_contributors2_av2.png" alt="Pulse-TechNova-LandingPage-AV2" width="500"/>
+  <br/><i>Landing Page: Contributors of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/technova_landing_pulse_av2.png" alt="Pulse-TechNova-LandingPage-AV2" width="500"/>
   <br/><i>Landing Page: Pulse of TechNova (AV2)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets" alt="Pulse-TechNova-LandingPage-AV2" width="500"/>
-  <br/><i>Landing Page: Pulse of TechNova (AV2)</i>
-</p>
-<br>
-<p align="center">
-<img src="assets" alt="Contributors-TechNova-LandingPage-AV2" width="500"/>
+<img src="assets/technova_landing_network_av2.png" alt="Contributors-TechNova-LandingPage-AV2" width="500"/>
   <br/><i>Landing Page: Network graph of TechNova (AV2)</i>
 </p>
 <br>
@@ -272,22 +272,22 @@ URL del repositorio (backend): [https://github.com/1ASI0729-2620-7769-G4-TechNov
 **Backend**
 
 <p align="center">
-<img src="assets" alt="Contributors-TechNova-Backend-AV2" width="500"/>
+<img src="assets/technova_back_contributors1_av2.png" alt="Contributors-TechNova-Backend-AV2" width="500"/>
   <br/><i>Backend: Contributors of TechNova (AV2)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets" alt="Pulse-TechNova-Backend-TB1" width="500"/>
+<img src="assets/technova_back_contributors2_av2.png" alt="Pulse-TechNova-Backend-TB1" width="500"/>
+  <br/><i>Backend: Contributors of TechNova (AV2)</i>
+</p>
+<br>
+<p align="center">
+<img src="assets/technova_back_pulse_av2.png" alt="Pulse-TechNova-Backend-TB1" width="500"/>
   <br/><i>Backend: Pulse of TechNova (AV2)</i>
 </p>
 <br>
 <p align="center">
-<img src="assets" alt="Pulse-TechNova-Backend-TB1" width="500"/>
-  <br/><i>Backend: Pulse of TechNova (AV2)</i>
-</p>
-<br>
-<p align="center">
-<img src="assets" alt="Contributors-TechNova-Backend-AV2" width="500"/>
+<img src="assets/technova_back_network_av2.png" alt="Contributors-TechNova-Backend-AV2" width="500"/>
   <br/><i>Backend: Network graph of TechNova (AV2)</i>
 </p>
 <br>
