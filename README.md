@@ -5280,6 +5280,27 @@ En esta sección, se establecen los aspectos clave del *Aspect Leaders and Colla
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review
 
+En este sprint se deployo la primera version del Web Service de nuestra plataforma junto con la documentacion del backend
+
+Documentacion del Swagger:
+
+
+<div align="center">
+  <img src="./assets/Chapter5/Swagger/swagger1.PNG" width="700px" alt="Swagger">
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/Swagger/swagger2.PNG" width="700px" alt="Swagger">
+  <p></p>
+</div>
+
+<div align="center">
+  <img src="./assets/Chapter5/Swagger/swagger3.PNG" width="700px" alt="Swagger">
+  <p></p>
+</div>
+
+
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Para este Sprint se documentaron varios recursos REST para nuestros diferentes bounded contexts. Ademas, mostraremos los servicios de manera local, ya que el Web Service aun no esta desplegado.
