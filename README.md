@@ -5348,7 +5348,7 @@ Para el sprint 3, desarrollamos el backend usando postgre y se alojará en supab
 | :--- | :--- | :--- | :--- |
 | Web Application (frontend) | Vercel | Desplegado | https://technova-washtrack-frontend.vercel.app/home |
 | Web Services (API RESTful) | Render | Pendiente | ... |
-| Documentación de la API | Render | Pendiente | ... |
+| Documentación de la API | Swagger (Render) | Desplegado | https://technova-backend-7769-g4.onrender.com/swagger-ui/index.html |
 | Landing Page | Github Page | Desplegado | https://1asi0729-2620-7769-g4-technova.github.io/TechNova-LandingPage-7769-G4/ |
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
