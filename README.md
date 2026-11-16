@@ -5380,11 +5380,11 @@ Entrevistador: Adriana Nicole Ramos Fuentes Rivera
 
 **Resumen descriptivo:**
 <div align="justify">
-  r
+  Jorge Laines es dueño de una lavandería independiente. Actualmente, registra sus pedidos en talonarios, y muchas veces las hojas se arrancan o, cuando el pedido se recibe con apuro, se anota en cualquier papel. Por eso la ropa queda en el local, pero se pierde el registro de la hora del pedido, este no se procesa y luego los clientes se quejan. Por ello, cree que WashTrack lo ayudaría sobre todo a organizar mejor sus pedidos, y le pareció útil el pago digital, ya que hoy las personas casi no llevan efectivo. Además, no le quitaría nada a la propuesta, aunque le gustaría ver los reportes de monitoreo desde su celular para controlar la operación sin estar en la lavandería. Lo que más lo motiva a usar la aplicación es poder ver en línea cuántos pedidos tiene y en qué estado están, porque a veces llega al final del día y recién se entera de que quedaron muchos pedidos pendientes, ya sea porque el encargado no se dio abasto o porque faltaban insumos, y nadie se lo comunicó. Con esa información podría actuar a tiempo, por ejemplo, llamando a más personal. En cuanto al registro de pedidos, señaló que es casi igual a como lo hace ahora y destacó el campo de notas, ya que los clientes suelen pedir que ciertas prendas se laven por separado o tienen colores especiales. También valoró que el precio se pueda editar, porque a veces cobra unos 5 soles adicionales por tratamientos especiales, así que considera que el sistema se adapta a sus necesidades. Sobre los recojos y entregas, contó que solo tiene una persona encargada del reparto, pero le gustó poder programar las entregas para que el repartidor revise la lista y no se olvide de ningún horario, y además ve útil asignar rutas a más repartidores si su negocio crece. Asimismo, el botón de flecha para cambiar el estado le resultó claro, aunque sugirió agregar una opción para deshacer, ya que el personal a veces marca por error un pedido como completado. Finalmente, lo que más le gustó fue ver la hora de ingreso y el estado de cada pedido, mientras que lo que menos le convenció fue no poder corregir un cambio de estado equivocado.
 </div>
 <br>
 <p align="center">
-  <img src="assets/" alt="Entrevista de validacion de Jorge Laines" width="500"/>
+  <img src="assets/Chapter5/interview/technova_validation_jorge.png" alt="Entrevista de validacion de Jorge Laines" width="500"/>
   <br/><i>Segmento 1: Entrevista de Jorge Laines</i>
 </p>
 
