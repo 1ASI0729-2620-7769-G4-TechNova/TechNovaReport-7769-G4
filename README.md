@@ -5340,17 +5340,141 @@ En esta sección se definen, para cada segmento objetivo, los elementos que form
 
 #### 5.3.2. Registro de Entrevistas
 
+**Primer Segmento: Propietarios de lavanderías independientes**<br>
+
+<u><b>Entrevista 1:</b></u>
+
+Entrevistador: Enrique Manuel Mantilla Maldonado
+
+**Datos del entrevistado:**
+
+- **Nombre:** Isabella
+- **Apellidos:** Orrego
+- **Edad:** 42 años
+- **Distrito:** Bellavista
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  Aqui ponen el resumen
+</div>
+<br>
+<p align="center">
+  <img src="assets/" alt="Entrevista de validacion de Isabella Orrego" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Isabella Orrego</i>
+</p>
+
+<br>
+
+<u><b>Entrevista 2:</b></u>
+
+Entrevistador: Adriana Nicole Ramos Fuentes Rivera
+
+**Datos del entrevistado:**
+
+- **Nombre:** Jorge
+- **Apellidos:** Laines
+- **Edad:** 52 años
+- **Distrito:** Comas
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  Jorge Laines es dueño de una lavandería independiente. Actualmente, registra sus pedidos en talonarios, y muchas veces las hojas se arrancan o, cuando el pedido se recibe con apuro, se anota en cualquier papel. Por eso la ropa queda en el local, pero se pierde el registro de la hora del pedido, este no se procesa y luego los clientes se quejan. Por ello, cree que WashTrack lo ayudaría sobre todo a organizar mejor sus pedidos, y le pareció útil el pago digital, ya que hoy las personas casi no llevan efectivo. Además, no le quitaría nada a la propuesta, aunque le gustaría ver los reportes de monitoreo desde su celular para controlar la operación sin estar en la lavandería. Lo que más lo motiva a usar la aplicación es poder ver en línea cuántos pedidos tiene y en qué estado están, porque a veces llega al final del día y recién se entera de que quedaron muchos pedidos pendientes, ya sea porque el encargado no se dio abasto o porque faltaban insumos, y nadie se lo comunicó. Con esa información podría actuar a tiempo, por ejemplo, llamando a más personal. En cuanto al registro de pedidos, señaló que es casi igual a como lo hace ahora y destacó el campo de notas, ya que los clientes suelen pedir que ciertas prendas se laven por separado o tienen colores especiales. También valoró que el precio se pueda editar, porque a veces cobra unos 5 soles adicionales por tratamientos especiales, así que considera que el sistema se adapta a sus necesidades. Sobre los recojos y entregas, contó que solo tiene una persona encargada del reparto, pero le gustó poder programar las entregas para que el repartidor revise la lista y no se olvide de ningún horario, y además ve útil asignar rutas a más repartidores si su negocio crece. Asimismo, el botón de flecha para cambiar el estado le resultó claro, aunque sugirió agregar una opción para deshacer, ya que el personal a veces marca por error un pedido como completado. Finalmente, lo que más le gustó fue ver la hora de ingreso y el estado de cada pedido, mientras que lo que menos le convenció fue no poder corregir un cambio de estado equivocado.
+</div>
+<br>
+<p align="center">
+  <img src="assets/Chapter5/interview/technova_validation_jorge.png" alt="Entrevista de validacion de Jorge Laines" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Jorge Laines</i>
+</p>
+
+<br>
+
+<u><b>Entrevista 3:</b></u>
+
+Entrevistador: Jude Hermoza Quispe
+
+**Datos del entrevistado:**
+
+- **Nombre:** Nataly
+- **Apellidos:** Sandoval
+- **Edad:** 20 años
+- **Distrito:** San Martín
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  Resumen aqui
+</div>
+<br>
+<p align="center">
+  <img src="assets" alt="Entrevista de validacion de Nataly Sandoval" width="500"/>
+  <br/><i>Segmento 1: Entrevista de Nataly Sandoval</i>
+</p>
+
+---
+
 **Segundo Segmento: Personas independientes que utilicen el servicio de lavanderías**
-<p><u>Entrevista 3:</u></p>
+
+<u><b>Entrevista 1:</b></u>
+
+Entrevistador: Adriana Nicole Ramos Fuentes Rivera
+
+**Datos del entrevistado:**
+
+- **Nombre:** Andrea
+- **Apellidos:** Arias
+- **Edad:** 28 años
+- **Distrito:** Comas
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  Andrea Arias es clienta que usa el servicio de lavandería, entiende que la plataforma ofrece un servicio de lavandería más completo, ya que además de dejar la ropa permite ver en qué estado está el pedido, pedir delivery y pagar por medios digitales. En ese sentido, lo que más le llamó la atención fue el pago digital y poder revisar cuándo estará lista su ropa, porque así no pierde tiempo yendo a la lavandería a preguntar, por eso le parecen muy útiles las notificaciones. Sin embargo, al principio no tuvo claro para qué servían los sensores IoT, hasta que se le explicó que eran para las máquinas. Por otro lado, dijo que sí estaría dispuesta a probar la aplicación, ya que le ahorraría tiempo, la ayudaría a organizarse y le recordaría recoger sus prendas, algo que según ella a muchos se les olvida, igual que dónde dejaron el voucher. En cuanto al recibo, le pareció fácil de encontrar, con un ícono claro, y valoró que el estado del pago aparezca al costado. Además, cree que la información es suficiente, sobre todo el número de pedido, porque el recibo digital le resulta más práctico que el físico. Respecto al seguimiento del pedido, le gustó que cada etapa tenga un color distinto, aunque sugirió agregar arriba una leyenda que explique qué significa cada color. También le gustaría recibir una notificación con la hora aproximada de entrega y luego un mensaje que la confirme. Asimismo, cree que estas funciones evitarían llamar o escribir a la lavandería, porque tendría toda la información de su pedido a la mano y ambas partes ahorrarían tiempo. Finalmente, la función que más le gustó fue poder pagar con Yape o Plin, ya que muchas lavanderías solo aceptan efectivo o un único medio de pago. En cambio, la que menos le gustó fue el ícono circular del seguimiento, porque no se entiende que es un botón, así que propuso cambiarlo por un signo de interrogación o poner una indicación como “clic aquí”.
+</div>
+<br>
+<p align="center">
+  <img src="assets/Chapter5/interview/technova_validation_andrea.png" alt="Entrevista de validacion de Andrea Arias" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Andrea Arias</i>
+</p>
+
+<br>
+
+<u><b>Entrevista 2:</b></u>
+
+Entrevistador: Cesar Alejandro Linares Bernable
+
+**Datos del entrevistado:**
+
+- **Nombre:** Margot
+- **Apellidos:** Bernable
+- **Edad:** 54 años
+- **Distrito:** San Martín de Porres
+- **Timing:** 
+
+**Resumen descriptivo:**
+<div align="justify">
+  resuemn
+</div>
+<br>
+<p align="center">
+  <img src="assets" width="500"/>
+  <br/><i>Segmento 2: Entrevista de Margot Bernable</i>
+</p>
+
+<br>
+
+<b><u>Entrevista 3:</u></b>
 
 Entrevistador: Perez Vasquez Ariana Valeria
 
-Datos del entrevistado:
+**Datos del entrevistado:**
 
 - **Nombre:** Renzo
 - **Apellidos:** Mongrut
 - **Edad:** 20 años
 - **Distrito:** Jesús María
+- **Timing:** 
 
 <div align="justify">
 
@@ -5360,7 +5484,7 @@ Asimismo, indicó que la funcionalidad que más le gustó fue el **seguimiento e
 
 <br>
 <p align="center">
-  <img src="assets/entrevista 2 Ariana.png" alt="Entrevista de Renzo Mongrut" width="500"/>
+  <img src="assets/entrevista 2 Ariana.png" alt="Entrevista de validacion de Renzo Mongrut" width="500"/>
   <br/><i>Segmento 2: Entrevista de Renzo Mongrut</i>
 </p>
 <br>
